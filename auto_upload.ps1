@@ -1,12 +1,13 @@
 # Configuration
 $maxSizeMB = 50
-# 1. 확장자 블랙리스트 (기존)
+# 1. 확장자 블랙리스트
 $globalExtensions = @(".zip", ".7z", ".rar", ".tar", ".gz", ".ad1", ".E01", ".iso", ".vmem", ".vmdk", ".vdi", ".pcap", ".pcapng", ".cap", ".exe", ".dll", ".so", ".bin", ".log", ".tmp")
-# 2. [NEW] 폴더 블랙리스트 (이 이름이 포함된 경로는 무조건 무시)
+# 2. 폴더 블랙리스트
 $globalIgnoreFolders = @("venv", ".venv", "env", "venv_decrypt", "__pycache__", "node_modules", ".git", ".idea", ".vscode")
 
 $root = Get-Location
 $gitignorePath = Join-Path $root ".gitignore"
+# [FIX] 마커가 비어있으면 로직이 꼬일 수 있어 다시 채워넣었습니다.
 $markerStart = ""
 $markerEnd = ""
 
@@ -31,7 +32,7 @@ function Get-ProblemRoot($fullPath) {
     return $null
 }
 
-Write-Host ">>> Starting Smart Auto-Upload (Targeted Mode + Folder Filter)..." -ForegroundColor Cyan
+Write-Host ">>> Starting Smart Auto-Upload (Targeted Mode + Extracted Check)..." -ForegroundColor Cyan
 
 # ---------------------------------------------------------
 # 1. Identify New Untracked Files & Filters
@@ -46,8 +47,7 @@ foreach ($relativePath in $untrackedFiles) {
     $fullPath = Join-Path $root $relativePath
     $pathParts = $relativePath.Split([System.IO.Path]::DirectorySeparatorChar, [System.IO.Path]::AltDirectorySeparatorChar)
     
-    # [NEW] 폴더 블랙리스트 체크 (가상환경, 라이브러리 폴더 등)
-    # 경로 중간에 블랙리스트 폴더명이 껴있는지 확인
+    # 폴더 블랙리스트 체크
     $folderMatch = $null
     foreach ($part in $pathParts) {
         if ($globalIgnoreFolders -contains $part) {
@@ -57,34 +57,21 @@ foreach ($relativePath in $untrackedFiles) {
     }
 
     if ($folderMatch) {
-        # 예: Challenges/Forensic/Easy/POOF/venv_decrypt/bin/python
-        # -> venv_decrypt 폴더 자체를 ignore 목록에 추가하기 위해 경로 계산
-        # 여기서는 단순히 해당 파일 경로를 추가하면 gitignore 업데이트 로직에서 처리됨
-        # 하지만 더 깔끔하게 하기 위해 해당 폴더 루트를 찾을 수도 있음.
-        # 편의상 파일 경로를 그대로 넘기면, 아래 gitignore 로직이 그 파일을 무시함.
-        # 더 완벽하게 하려면 "폴더/"를 추가해야 하지만, 파일별로 막아도 충분함.
-        # 또는 사용자가 지정한 'venv_decrypt'가 포함된 경로라면 해당 폴더 자체를 ignore 하는게 좋음.
-        
-        # 로직 개선: 블랙리스트에 걸린 폴더 경로 자체를 찾아서 추가
-        # 예: .../venv_decrypt/... 라면 .../venv_decrypt/ 를 추가
-        
         $ignorePath = $relativePath
-        # 경로 중 블랙리스트 폴더까지만 잘라냄 (정확한 폴더 ignore를 위함)
         $splitIndex = $pathParts.IndexOf($folderMatch)
         if ($splitIndex -ge 0) {
-            # 부분 경로 재조립
             $subPathParts = $pathParts[0..$splitIndex]
-            $ignorePath = [String]::Join("/", $subPathParts) + "/" # 끝에 슬래시 붙여서 폴더임을 명시
+            $ignorePath = [String]::Join("/", $subPathParts) + "/" 
         }
 
         if (-not $filesToIgnore.Contains($ignorePath)) {
             Write-Host " [IGNORE] Blocked Folder Found: $ignorePath" -ForegroundColor Red
             $filesToIgnore.Add($ignorePath)
         }
-        continue # 이 파일은 더 이상 검사 안 함
+        continue 
     }
 
-    # 파일 검사 시작
+    # 파일 검사
     $item = $null
     $pathExists = $false
     try {
@@ -159,7 +146,7 @@ if ($filesToIgnore.Count -gt 0) {
 }
 
 # ---------------------------------------------------------
-# 3. Targeted README Update
+# 3. Targeted README Update (With Extraction Check)
 # ---------------------------------------------------------
 if ($affectedRoots.Count -gt 0) {
     Write-Host "3. Updating READMEs for affected folders only..."
@@ -188,7 +175,15 @@ if ($affectedRoots.Count -gt 0) {
                  $relativePath = $match.FullName.Substring($dir.Length + 1)
                  $size = $match.Length / 1MB
                  $sizeStr = "{0:N2} MB" -f $size
-                 $filesList += "- **$relativePath** ($sizeStr)"
+                 
+                 # [NEW] 추출된 데이터(Extracted)인지 확인하여 코멘트 추가
+                 $extraNote = ""
+                 # extracted, squashfs-root, jffs2-root, _extracted 등의 키워드가 경로에 포함되어 있으면 탐지
+                 if ($relativePath -match "(\.extracted|_extracted|squashfs-root|jffs2-root)") {
+                     $extraNote = " <br> *(Extracted/Incompatible content - Not uploaded)*"
+                 }
+
+                 $filesList += "- **$relativePath** ($sizeStr)$extraNote"
             }
         }
 
@@ -266,8 +261,7 @@ if ($status) {
     if ($confirm -eq 'y') {
         Write-Host " -> Staging files (git add -A)..."
         
-        # [NEW] 에러가 났던 venv 같은게 있으면 git add에서 또 터질 수 있으니
-        # gitignore가 먼저 적용되었는지 확인하기 위해 순차 실행
+        # 순차적 Add
         git add .gitignore
         git add -A
         
