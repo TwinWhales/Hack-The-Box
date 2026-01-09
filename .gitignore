@@ -1,0 +1,29 @@
+# Archives
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Forensic Images
+*.ad1
+*.E01
+*.iso
+*.vmem
+*.vmdk
+*.vdi
+
+# Capture Files (Optional, can be removed if user wants to track them)
+*.pcap
+*.pcapng
+*.cap
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.bin
+
+# Logs & Temps
+*.log
+*.tmp

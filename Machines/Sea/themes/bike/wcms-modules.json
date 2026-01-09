@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "themes": {
+        "bike": {
+            "name": "Bike",
+            "repo": "https://github.com/robiso/bike/tree/master",
+            "zip": "https://github.com/robiso/bike/archive/master.zip",
+            "summary": "Animated bike theme, providing more interaction to your visitors.",
+            "version": "3.2.0",
+            "image": "https://raw.githubusercontent.com/robiso/bike/master/preview.jpg"
+        }
+    }
+}

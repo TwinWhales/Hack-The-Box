@@ -1,0 +1,49 @@
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.createElement('form');
+        form.id = 'jsonForm';
+
+        const usernameLabel = document.createElement('label');
+        usernameLabel.for = 'user';
+        usernameLabel.innerText = 'Username';
+        form.appendChild(usernameLabel);
+
+        const usernameInput = document.createElement('input');
+        usernameInput.required = true;
+        usernameInput.type = 'text';
+        usernameInput.id = 'user';
+        usernameInput.className = 'form-control';
+        form.appendChild(usernameInput);
+
+        const passwordLabel = document.createElement('label');
+        passwordLabel.for = 'password';
+        passwordLabel.innerText = 'Password';
+        form.appendChild(passwordLabel);
+
+        const passwordInput = document.createElement('input');
+        passwordInput.required = true;
+        passwordInput.type = 'password';
+        passwordInput.id = 'password';
+        passwordInput.className = 'form-control';
+        form.appendChild(passwordInput);
+
+        const submitButton = document.createElement('button');
+        submitButton.type = 'button';
+        submitButton.className = 'btn btn-primary';
+        submitButton.innerText = 'Login';
+        form.appendChild(submitButton);
+
+        submitButton.addEventListener('click', function() {
+            const userData = {
+                user: usernameInput.value,
+                password: passwordInput.value
+            };
+
+            console.log('Submitted Data:', JSON.stringify(userData));
+            // Here you would typically send the JSON data via fetch or AJAX
+        });
+
+        document.body.innerHTML = '';
+        document.body.appendChild(form);
+    });
+</script>
