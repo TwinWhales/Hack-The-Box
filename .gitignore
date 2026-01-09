@@ -1,4 +1,4 @@
-# Archives
+﻿# Archives
 *.zip
 *.7z
 *.rar
@@ -27,3 +27,44 @@
 # Logs & Temps
 *.log
 *.tmp
+
+# Forensic Exports (Too many small files)
+**/FTK_Export/
+**/ALEAPP_Reports*/
+Challenges/Forensic/Easy/POOF/mem.dmp
+Challenges/Forensic/Easy/Peel Back The Layers/blobs/sha256/9f54eef412758095c8079ac465d494a2872e02e90bf1fb5f12a1641c0d1bb78b
+Challenges/Forensic/Easy/Peel Back The Layers/gearrepair_analysis/blobs/sha256/9f54eef412758095c8079ac465d494a2872e02e90bf1fb5f12a1641c0d1bb78b
+Challenges/Forensic/Easy/Reminiscent/flounder-pc-memdump.elf
+Challenges/Forensic/Medium/Reflection/memory.raw
+Challenges/Forensic/Medium/Reflection/pid.3244.dmp
+Challenges/Forensic/Medium/Reflection/pid.3424.dmp
+Challenges/Forensic/Medium/Reflection/pid.3432.dmp
+Challenges/Forensic/Medium/Reflection/reflection/ModuleOutput/keywordsearch/data/solr8_schema2.3/index/_0.fdt
+Challenges/Forensic/Medium/Reflection/reflection/ModuleOutput/keywordsearch/data/solr8_schema2.3/index/_0_Lucene84_0.tim
+Challenges/Forensic/Medium/Reflection/reflection/ModuleOutput/keywordsearch/data/solr8_schema2.3/tlog/tlog.0000000000000000000
+Sherlocks/Easy/DroidPhish/DroidPhish.dd
+Sherlocks/Easy/GhostThread/GhostThread_analysis.rep/idata/00/~00000005.db/db.1.gbf
+Sherlocks/Easy/GhostThread/GhostThread_analysis.rep/idata/00/~00000006.db/db.1.gbf
+Sherlocks/Easy/Pikaptcha/Pikaptcha/C/Windows/System32/config/SOFTWARE
+Sherlocks/Easy/Psittaciformes/Misc/parrot-20241223-2233-full-timeline.csv
+Sherlocks/Easy/WhyFind/KAPEOUT/C/$LogFile
+Sherlocks/Easy/WhyFind/KAPEOUT/C/$MFT
+Sherlocks/Easy/WhyFind/KAPEOUT/C/Windows/System32/config/SOFTWARE
+Sherlocks/Medium/Anpu/data/app/com.brave.browser-W_J-oayCTL1Ps_yM90gWaA==/base.apk
+Sherlocks/Medium/Anpu/data/app/com.discord-rvI3ruRipd4JytS2KTi3nA==/base.apk
+Sherlocks/Medium/Anpu/data/app/com.facebook.katana-O7h9OcRujAblyV9cfO9EiA==/base.apk
+Sherlocks/Medium/Anpu/data/app/com.twitter.android-tqjpmuiEcdS2C8EtGLcTSw==/base.apk
+Sherlocks/Medium/Anpu/data/app/com.twitter.android-tqjpmuiEcdS2C8EtGLcTSw==/oat/x86/base.vdex
+Sherlocks/Medium/Anpu/data/data/com.facebook.katana/dex/oat/x86/z-f3ad321ae0c3a3f3e208c56e52448ac2258420e5.vdex
+Sherlocks/Medium/Anpu/data/media/0/Download/WhatsApp.apk
+Sherlocks/Medium/CrewCrow/C/Windows/System32/config/SOFTWARE
+Sherlocks/Medium/HeartBreaker/wb-ws-01/C/$LogFile
+Sherlocks/Medium/HeartBreaker/wb-ws-01/C/$MFT
+Sherlocks/Medium/HeartBreaker/wb-ws-01/C/Windows/System32/config/SOFTWARE
+Sherlocks/Very_Easy/CrownJewel1/Artifacts/C/$MFT
+Sherlocks/Very_Easy/CrownJewel1/Artifacts/MFT_result/20250911055553_MFTECmd_$MFT_Output.csv
+
+Challenges/Forensic/Easy/POOF/venv_decrypt/
+Challenges/Forensic/Easy/Silicon Data Sleuthing/_chal_router_dump.bin.extracted/squashfs-root-0/usr/bin/env/
+Challenges/Forensic/Easy/Silicon Data Sleuthing/_chal_router_dump.bin.extracted/squashfs-root/usr/bin/env/
+
