@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<services>
+    <service uid="10134" type="com.google.android.gm.pop3" />
+    <service uid="10114" type="com.google" />
+    <service uid="10151" type="com.twitter.android.auth.login" />
+    <service uid="10149" type="com.facebook.auth.login" />
+    <service uid="10150" type="com.facebook.messenger" />
+    <service uid="10152" type="org.telegram.messenger" />
+    <service uid="10134" type="com.google.android.gm.exchange" />
+    <service uid="10134" type="com.google.android.gm.legacyimap" />
+</services>

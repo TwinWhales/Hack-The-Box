@@ -1,0 +1,6 @@
+2024/07/15-22:31:38.889 1fbc Reusing MANIFEST C:\Users\Nefarious\AppData\Local\Microsoft\Edge\User Data\Default\EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/07/15-22:31:38.891 1fbc Recovering log #3
+2024/07/15-22:31:38.891 1fbc Reusing old log C:\Users\Nefarious\AppData\Local\Microsoft\Edge\User Data\Default\EdgeCoupons/coupons_data.db/000003.log 
+2024/07/15-22:31:39.100 1fb8 Level-0 table #5: started
+2024/07/15-22:31:39.104 1fb8 Level-0 table #5: 854905 bytes OK
+2024/07/15-22:31:39.105 1fb8 Delete type=0 #3

@@ -1,0 +1,1126 @@
+{
+  "packs": [
+    {
+      "compressed_size": 98665,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/af.zip"
+      ],
+      "locales": "af,af_za",
+      "md5_hash": "6616fdf1ea6f66a637e7d7ef4514097e",
+      "name": "6616fdf1ea6f66a637e7d7ef4514097e",
+      "size": 241597
+    },
+    {
+      "compressed_size": 117922,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/am.zip"
+      ],
+      "locales": "am,am_et",
+      "md5_hash": "fbda8ab9ca845ad7617511aad161b4e6",
+      "name": "fbda8ab9ca845ad7617511aad161b4e6",
+      "size": 338120
+    },
+    {
+      "compressed_size": 93778,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ar-eg.zip"
+      ],
+      "locales": "ar_eg",
+      "md5_hash": "694f40623c53ab798d798166e6de4254",
+      "name": "694f40623c53ab798d798166e6de4254",
+      "size": 252149
+    },
+    {
+      "compressed_size": 96855,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ar-ma.zip"
+      ],
+      "locales": "ar_ma",
+      "md5_hash": "e9c19486c70f2a8341978353239063c9",
+      "name": "e9c19486c70f2a8341978353239063c9",
+      "size": 258077
+    },
+    {
+      "compressed_size": 50735,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/as.zip"
+      ],
+      "locales": "as_in",
+      "md5_hash": "f6667cae80bdad1bbb5fcb94596e91ee",
+      "name": "f6667cae80bdad1bbb5fcb94596e91ee",
+      "size": 144638
+    },
+    {
+      "compressed_size": 86295,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/az.zip"
+      ],
+      "locales": "az_az",
+      "md5_hash": "6a39bfe0f9d2b83f7036f0c4a1a33c8b",
+      "name": "6a39bfe0f9d2b83f7036f0c4a1a33c8b",
+      "size": 207538
+    },
+    {
+      "compressed_size": 103099,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/bg.zip"
+      ],
+      "locales": "bg,bg_bg",
+      "md5_hash": "71efaf9f3389f272f0805d6f3074c2e4",
+      "name": "71efaf9f3389f272f0805d6f3074c2e4",
+      "size": 284292
+    },
+    {
+      "compressed_size": 92197,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/bn-bd.zip"
+      ],
+      "locales": "bn_bd",
+      "md5_hash": "9ec47ff045004e787b394598f9359402",
+      "name": "9ec47ff045004e787b394598f9359402",
+      "size": 289733
+    },
+    {
+      "compressed_size": 95669,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/bn-in.zip"
+      ],
+      "locales": "bn_in",
+      "md5_hash": "6ca1f4bf5e25d8606fff9bc814ae53b2",
+      "name": "6ca1f4bf5e25d8606fff9bc814ae53b2",
+      "size": 296125
+    },
+    {
+      "compressed_size": 103639,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ca.zip"
+      ],
+      "locales": "ca,ca_es",
+      "md5_hash": "7de06f0409d706ec73f1dbd1c079363e",
+      "name": "7de06f0409d706ec73f1dbd1c079363e",
+      "size": 250727
+    },
+    {
+      "compressed_size": 42118,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/cmn-hans_cn.zip"
+      ],
+      "locales": "cmn_hans_cn,zh_cn",
+      "md5_hash": "59577d367177f844303f1a813fe8e121",
+      "name": "59577d367177f844303f1a813fe8e121",
+      "size": 87547
+    },
+    {
+      "compressed_size": 43237,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/cmn-hant_tw.zip"
+      ],
+      "locales": "cmn_hant_tw,zh_tw,zh_hk",
+      "md5_hash": "f29fb327bbc336d21f8dbf3b516eeb9b",
+      "name": "f29fb327bbc336d21f8dbf3b516eeb9b",
+      "size": 87938
+    },
+    {
+      "compressed_size": 86629,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/cs.zip"
+      ],
+      "locales": "cs,cs_cz",
+      "md5_hash": "4299035f38ad11a477ab3725f5c92f08",
+      "name": "4299035f38ad11a477ab3725f5c92f08",
+      "size": 210976
+    },
+    {
+      "compressed_size": 94141,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/da.zip"
+      ],
+      "locales": "da,da_dk",
+      "md5_hash": "cce94d2cfce913dddbe2a203bbbbb4e1",
+      "name": "cce94d2cfce913dddbe2a203bbbbb4e1",
+      "size": 225867
+    },
+    {
+      "compressed_size": 93901,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/de-ch.zip"
+      ],
+      "locales": "de_ch",
+      "md5_hash": "8b416a2692b692781bc28577f172b833",
+      "name": "8b416a2692b692781bc28577f172b833",
+      "size": 228054
+    },
+    {
+      "compressed_size": 93236,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/de-de.zip"
+      ],
+      "locales": "de,de_de",
+      "md5_hash": "ae338766938d47a7678a96ac96a899cf",
+      "name": "ae338766938d47a7678a96ac96a899cf",
+      "size": 227310
+    },
+    {
+      "compressed_size": 119886,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/el.zip"
+      ],
+      "locales": "el,el_gr",
+      "md5_hash": "a236f03be0cfc309776b10f25030d7d5",
+      "name": "a236f03be0cfc309776b10f25030d7d5",
+      "size": 324606
+    },
+    {
+      "compressed_size": 85308,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-au.zip"
+      ],
+      "locales": "en_au",
+      "md5_hash": "0e59535b43413e0ac1fc40a4d534aced",
+      "name": "0e59535b43413e0ac1fc40a4d534aced",
+      "size": 213386
+    },
+    {
+      "compressed_size": 89739,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-ca.zip"
+      ],
+      "locales": "en_ca",
+      "md5_hash": "30403fb930987938f3d8e5e5614c37e7",
+      "name": "30403fb930987938f3d8e5e5614c37e7",
+      "size": 223386
+    },
+    {
+      "compressed_size": 83407,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-gb.zip"
+      ],
+      "locales": "en_gb",
+      "md5_hash": "e175679316cc21823a6e37083c93d192",
+      "name": "e175679316cc21823a6e37083c93d192",
+      "size": 209530
+    },
+    {
+      "compressed_size": 95829,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-in.zip"
+      ],
+      "locales": "en_in",
+      "md5_hash": "44302ef2da9c18d288e27be2e0b85d34",
+      "name": "44302ef2da9c18d288e27be2e0b85d34",
+      "size": 234658
+    },
+    {
+      "compressed_size": 89385,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/en-ke.zip"
+      ],
+      "locales": "en_ke",
+      "md5_hash": "42653bc52ece675ad69958e98a328ad2",
+      "name": "42653bc52ece675ad69958e98a328ad2",
+      "size": 220050
+    },
+    {
+      "compressed_size": 87744,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-ng.zip"
+      ],
+      "locales": "en_ng",
+      "md5_hash": "7c0b8e41ba90782711295c76cef10381",
+      "name": "7c0b8e41ba90782711295c76cef10381",
+      "size": 216994
+    },
+    {
+      "compressed_size": 84211,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-ph.zip"
+      ],
+      "locales": "en_ph",
+      "md5_hash": "ad436993d05bdb3101db0a01b6756e1d",
+      "name": "ad436993d05bdb3101db0a01b6756e1d",
+      "size": 211506
+    },
+    {
+      "compressed_size": 61056,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190401132437/en.zip"
+      ],
+      "locales": "en_us",
+      "md5_hash": "56f61e93403a5c80d23070b28785cecd",
+      "name": "56f61e93403a5c80d23070b28785cecd",
+      "size": 127031
+    },
+    {
+      "compressed_size": 82237,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/en-za.zip"
+      ],
+      "locales": "en_za",
+      "md5_hash": "8ab72315fd406e200ddd3c79d0d30cf5",
+      "name": "8ab72315fd406e200ddd3c79d0d30cf5",
+      "size": 205786
+    },
+    {
+      "compressed_size": 103994,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/es-419.zip"
+      ],
+      "locales": "es_419",
+      "md5_hash": "463f57d1ddf14aee89323f83551fe246",
+      "name": "463f57d1ddf14aee89323f83551fe246",
+      "size": 249600
+    },
+    {
+      "compressed_size": 60906,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/es-ar.zip"
+      ],
+      "locales": "es_ar",
+      "md5_hash": "1f67255ecec746e990dd82f0cc49e8be",
+      "name": "1f67255ecec746e990dd82f0cc49e8be",
+      "size": 128080
+    },
+    {
+      "compressed_size": 64343,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/es-es.zip"
+      ],
+      "locales": "es_es",
+      "md5_hash": "ae15d7dc2e6b8291f8beac2271cf8159",
+      "name": "ae15d7dc2e6b8291f8beac2271cf8159",
+      "size": 134312
+    },
+    {
+      "compressed_size": 56497,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/es-mx.zip"
+      ],
+      "locales": "es_mx",
+      "md5_hash": "74b38f7bb23483eb9f50b09ff740b11b",
+      "name": "74b38f7bb23483eb9f50b09ff740b11b",
+      "size": 118008
+    },
+    {
+      "compressed_size": 62644,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/es-us.zip"
+      ],
+      "locales": "es_us",
+      "md5_hash": "21d6d765244d6b21d14967d77e95c553",
+      "name": "21d6d765244d6b21d14967d77e95c553",
+      "size": 132336
+    },
+    {
+      "compressed_size": 82093,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/et.zip"
+      ],
+      "locales": "et_ee",
+      "md5_hash": "291eb7eafb90f4169073cf2e475f1b1f",
+      "name": "291eb7eafb90f4169073cf2e475f1b1f",
+      "size": 201527
+    },
+    {
+      "compressed_size": 87805,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fa-af.zip"
+      ],
+      "locales": "fa,fa_af",
+      "md5_hash": "174f1b55c7d6f3e790d55f035ccd2c58",
+      "name": "174f1b55c7d6f3e790d55f035ccd2c58",
+      "size": 237137
+    },
+    {
+      "compressed_size": 92936,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fa-ir.zip"
+      ],
+      "locales": "fa_ir",
+      "md5_hash": "4dfc8848a40332dd074b3aea339f3b86",
+      "name": "4dfc8848a40332dd074b3aea339f3b86",
+      "size": 246841
+    },
+    {
+      "compressed_size": 94519,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fi.zip"
+      ],
+      "locales": "fi,fi_fi",
+      "md5_hash": "418ec1b2000bcc9b5a4a576961e913b4",
+      "name": "418ec1b2000bcc9b5a4a576961e913b4",
+      "size": 233583
+    },
+    {
+      "compressed_size": 52608,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fil.zip"
+      ],
+      "locales": "tl,fil_ph",
+      "md5_hash": "9f95512c7526ded0a93ed3e48c511d90",
+      "name": "9f95512c7526ded0a93ed3e48c511d90",
+      "size": 128737
+    },
+    {
+      "compressed_size": 91243,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fr-be.zip"
+      ],
+      "locales": "fr_be",
+      "md5_hash": "ca2323f9f813bb51d80c90bc4944040b",
+      "name": "ca2323f9f813bb51d80c90bc4944040b",
+      "size": 223641
+    },
+    {
+      "compressed_size": 98923,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fr-ca.zip"
+      ],
+      "locales": "fr_ca",
+      "md5_hash": "5fdebacfcbe6c717b02fe60b906e5076",
+      "name": "5fdebacfcbe6c717b02fe60b906e5076",
+      "size": 237721
+    },
+    {
+      "compressed_size": 92615,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fr-ch.zip"
+      ],
+      "locales": "fr_ch",
+      "md5_hash": "8ef352a5b71ba21ad3e545b80f0ec67f",
+      "name": "8ef352a5b71ba21ad3e545b80f0ec67f",
+      "size": 225505
+    },
+    {
+      "compressed_size": 91211,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fr-fr.zip"
+      ],
+      "locales": "fr,fr_fr",
+      "md5_hash": "85f12db35388800afbaf4f9f695aeb06",
+      "name": "85f12db35388800afbaf4f9f695aeb06",
+      "size": 221833
+    },
+    {
+      "compressed_size": 84989,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/fr-x_africa.zip"
+      ],
+      "locales": "fr_x_africa,fr-002",
+      "md5_hash": "5eb6599a1bba82ff7daa1510fcbf7633",
+      "name": "5eb6599a1bba82ff7daa1510fcbf7633",
+      "size": 209977
+    },
+    {
+      "compressed_size": 86707,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ga.zip"
+      ],
+      "locales": "ga,ga_ie",
+      "md5_hash": "0dd51b455f2967d0f2d14a1289e3002a",
+      "name": "0dd51b455f2967d0f2d14a1289e3002a",
+      "size": 209245
+    },
+    {
+      "compressed_size": 100057,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/gu.zip"
+      ],
+      "locales": "gu,gu_in",
+      "md5_hash": "ad186002d1f99c27f84c99cb608a819f",
+      "name": "ad186002d1f99c27f84c99cb608a819f",
+      "size": 295759
+    },
+    {
+      "compressed_size": 29150,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/he.zip"
+      ],
+      "locales": "iw,he_il",
+      "md5_hash": "8fba68c3e4cbb829893b228f2a935118",
+      "name": "8fba68c3e4cbb829893b228f2a935118",
+      "size": 81582
+    },
+    {
+      "compressed_size": 112648,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/hi-in.zip"
+      ],
+      "locales": "hi,hi_in",
+      "md5_hash": "75f112f3014bde732dc35bcb56c06bd2",
+      "name": "75f112f3014bde732dc35bcb56c06bd2",
+      "size": 320064
+    },
+    {
+      "compressed_size": 91866,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/hi-latn_in.zip"
+      ],
+      "locales": "hi_latn,hi_latn_in,hi_xa",
+      "md5_hash": "985ddb1745c7f57aed0c5ed8096f84c2",
+      "name": "985ddb1745c7f57aed0c5ed8096f84c2",
+      "size": 365493
+    },
+    {
+      "compressed_size": 85001,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/hr.zip"
+      ],
+      "locales": "hr,hr_hr",
+      "md5_hash": "673c2617574493eea9c973faf6545ba6",
+      "name": "673c2617574493eea9c973faf6545ba6",
+      "size": 209126
+    },
+    {
+      "compressed_size": 84718,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/hu.zip"
+      ],
+      "locales": "hu,hu_hu",
+      "md5_hash": "651ef46826b395039777bddcc7e06c6a",
+      "name": "651ef46826b395039777bddcc7e06c6a",
+      "size": 210040
+    },
+    {
+      "compressed_size": 91420,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/hy.zip"
+      ],
+      "locales": "hy_am",
+      "md5_hash": "f3c2d966cd094e0378bcb0a9d6d88dbf",
+      "name": "f3c2d966cd094e0378bcb0a9d6d88dbf",
+      "size": 252872
+    },
+    {
+      "compressed_size": 85644,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/id.zip"
+      ],
+      "locales": "in,id_id",
+      "md5_hash": "6f2756c1ae94412d9c9f8fe0d284e846",
+      "name": "6f2756c1ae94412d9c9f8fe0d284e846",
+      "size": 214894
+    },
+    {
+      "compressed_size": 82723,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/is.zip"
+      ],
+      "locales": "is,is_is",
+      "md5_hash": "ccf89b65b5e1ebc101dc672e3afadb71",
+      "name": "ccf89b65b5e1ebc101dc672e3afadb71",
+      "size": 200888
+    },
+    {
+      "compressed_size": 124971,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/it-ch.zip"
+      ],
+      "locales": "it_ch",
+      "md5_hash": "54e9cf72d6fb5fa8a9abc322b9079f41",
+      "name": "54e9cf72d6fb5fa8a9abc322b9079f41",
+      "size": 303752
+    },
+    {
+      "compressed_size": 129546,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/it-it.zip"
+      ],
+      "locales": "it,it_it",
+      "md5_hash": "79462d195c94947d402f12a532b18fe1",
+      "name": "79462d195c94947d402f12a532b18fe1",
+      "size": 313998
+    },
+    {
+      "compressed_size": 97337,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ja.zip"
+      ],
+      "locales": "ja_jp",
+      "md5_hash": "613f373b923f1e67534d7ec81206ef11",
+      "name": "613f373b923f1e67534d7ec81206ef11",
+      "size": 235324
+    },
+    {
+      "compressed_size": 97929,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ka.zip"
+      ],
+      "locales": "ka,ka_ge",
+      "md5_hash": "89c464b1217a6a28bd5606b4030b71fb",
+      "name": "89c464b1217a6a28bd5606b4030b71fb",
+      "size": 298041
+    },
+    {
+      "compressed_size": 95260,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/kk.zip"
+      ],
+      "locales": "kk,kk_kz",
+      "md5_hash": "467a104471d1e8b36706e41e07e7319d",
+      "name": "467a104471d1e8b36706e41e07e7319d",
+      "size": 252289
+    },
+    {
+      "compressed_size": 93637,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/km.zip"
+      ],
+      "locales": "km_kh",
+      "md5_hash": "9513fbe650c852fe520fd491cc90bd33",
+      "name": "9513fbe650c852fe520fd491cc90bd33",
+      "size": 303693
+    },
+    {
+      "compressed_size": 92460,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/kn.zip"
+      ],
+      "locales": "kn_in",
+      "md5_hash": "449f6bb239cbf8eb82c2d32579d3a29a",
+      "name": "449f6bb239cbf8eb82c2d32579d3a29a",
+      "size": 313049
+    },
+    {
+      "compressed_size": 97418,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ko.zip"
+      ],
+      "locales": "ko,ko_kr",
+      "md5_hash": "f00f67f9ee72d1410395ea82f66eb951",
+      "name": "f00f67f9ee72d1410395ea82f66eb951",
+      "size": 231461
+    },
+    {
+      "compressed_size": 91172,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ky.zip"
+      ],
+      "locales": "ky,ky_kg",
+      "md5_hash": "931a477ff3371f165a27dad11da8f254",
+      "name": "931a477ff3371f165a27dad11da8f254",
+      "size": 250444
+    },
+    {
+      "compressed_size": 90230,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/lo.zip"
+      ],
+      "locales": "lo_la",
+      "md5_hash": "cf2194d5febb118e9b7f945899cf05d8",
+      "name": "cf2194d5febb118e9b7f945899cf05d8",
+      "size": 275580
+    },
+    {
+      "compressed_size": 95964,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/lt.zip"
+      ],
+      "locales": "lt,lt_lt",
+      "md5_hash": "501c917c3343f00d34a4baf27eac7289",
+      "name": "501c917c3343f00d34a4baf27eac7289",
+      "size": 239116
+    },
+    {
+      "compressed_size": 79139,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/lv.zip"
+      ],
+      "locales": "lv,lv_lv",
+      "md5_hash": "4b0ef383f18bf4f879747812bdf4a2ea",
+      "name": "4b0ef383f18bf4f879747812bdf4a2ea",
+      "size": 198650
+    },
+    {
+      "compressed_size": 98615,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/mk.zip"
+      ],
+      "locales": "mk,mk_mk",
+      "md5_hash": "2910dc1c94ad8696bd56d3f915f07a8c",
+      "name": "2910dc1c94ad8696bd56d3f915f07a8c",
+      "size": 274730
+    },
+    {
+      "compressed_size": 100960,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ml.zip"
+      ],
+      "locales": "ml_in",
+      "md5_hash": "366b836dff0f1e326c5d2fd6c178d57a",
+      "name": "366b836dff0f1e326c5d2fd6c178d57a",
+      "size": 337890
+    },
+    {
+      "compressed_size": 84580,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/mn.zip"
+      ],
+      "locales": "mn_mn",
+      "md5_hash": "73b880e23b40edcc153bd42025048df6",
+      "name": "73b880e23b40edcc153bd42025048df6",
+      "size": 237554
+    },
+    {
+      "compressed_size": 93737,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/mr.zip"
+      ],
+      "locales": "mr_in",
+      "md5_hash": "1c7a9928b0fabb71ea03277c71e37e40",
+      "name": "1c7a9928b0fabb71ea03277c71e37e40",
+      "size": 292675
+    },
+    {
+      "compressed_size": 82590,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ms.zip"
+      ],
+      "locales": "ms_my",
+      "md5_hash": "390bc7b250c029ca4fa5b7d561676f43",
+      "name": "390bc7b250c029ca4fa5b7d561676f43",
+      "size": 204059
+    },
+    {
+      "compressed_size": 92290,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/my.zip"
+      ],
+      "locales": "my,my_mm",
+      "md5_hash": "7f5e2e194c941b61d3a5cc8fd7c40b12",
+      "name": "7f5e2e194c941b61d3a5cc8fd7c40b12",
+      "size": 313073
+    },
+    {
+      "compressed_size": 40860,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/nb.zip"
+      ],
+      "locales": "nb,nb_no,nn_no",
+      "md5_hash": "f0c84655dc6cb0af531bfba543a15eca",
+      "name": "f0c84655dc6cb0af531bfba543a15eca",
+      "size": 97468
+    },
+    {
+      "compressed_size": 96254,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ne-in.zip"
+      ],
+      "locales": "ne_in",
+      "md5_hash": "0103c57322deb95ae935a189b9cdffb0",
+      "name": "0103c57322deb95ae935a189b9cdffb0",
+      "size": 286183
+    },
+    {
+      "compressed_size": 94648,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ne-np.zip"
+      ],
+      "locales": "ne_np",
+      "md5_hash": "46f6b10bc8233ea9724f81b48379de4b",
+      "name": "46f6b10bc8233ea9724f81b48379de4b",
+      "size": 281119
+    },
+    {
+      "compressed_size": 85164,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/nl-be.zip"
+      ],
+      "locales": "nl_be",
+      "md5_hash": "506a0871058957c7e93d7f951059cb93",
+      "name": "506a0871058957c7e93d7f951059cb93",
+      "size": 206545
+    },
+    {
+      "compressed_size": 97431,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/nl-nl.zip"
+      ],
+      "locales": "nl,nl_nl",
+      "md5_hash": "0a707f2be3147000a2605787f0f3b004",
+      "name": "0a707f2be3147000a2605787f0f3b004",
+      "size": 237825
+    },
+    {
+      "compressed_size": 40245,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/or.zip"
+      ],
+      "locales": "or,or_in",
+      "md5_hash": "c5f1c3d9138e778b9d1a60d9cbdf1339",
+      "name": "c5f1c3d9138e778b9d1a60d9cbdf1339",
+      "size": 136099
+    },
+    {
+      "compressed_size": 98603,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/pl.zip"
+      ],
+      "locales": "pl,pl_pl",
+      "md5_hash": "f998b5c6b0697d730ba18eac3ff71998",
+      "name": "f998b5c6b0697d730ba18eac3ff71998",
+      "size": 238198
+    },
+    {
+      "compressed_size": 120319,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/pt-br.zip"
+      ],
+      "locales": "pt,pt_br",
+      "md5_hash": "1b236475a5f57c5142e62656cbabb91f",
+      "name": "1b236475a5f57c5142e62656cbabb91f",
+      "size": 294238
+    },
+    {
+      "compressed_size": 99831,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/pt-pt.zip"
+      ],
+      "locales": "pt_pt",
+      "md5_hash": "700ab68f56cddbe2897299a082223cb6",
+      "name": "700ab68f56cddbe2897299a082223cb6",
+      "size": 240759
+    },
+    {
+      "compressed_size": 90222,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20190103184856/pt-x_africa.zip"
+      ],
+      "locales": "pt_x_africa,pt-002",
+      "md5_hash": "5fee08c0b458aeac5045aa61c6d3c583",
+      "name": "5fee08c0b458aeac5045aa61c6d3c583",
+      "size": 218264
+    },
+    {
+      "compressed_size": 93687,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ro-md.zip"
+      ],
+      "locales": "ro_md",
+      "md5_hash": "d3d44fb9db8b988a335d7bcc6d275bdb",
+      "name": "d3d44fb9db8b988a335d7bcc6d275bdb",
+      "size": 224154
+    },
+    {
+      "compressed_size": 93748,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ro-ro.zip"
+      ],
+      "locales": "ro,ro_ro",
+      "md5_hash": "621d5678ec11ab2739cdbe76d14bc603",
+      "name": "621d5678ec11ab2739cdbe76d14bc603",
+      "size": 223842
+    },
+    {
+      "compressed_size": 113983,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ru.zip"
+      ],
+      "locales": "ru,ru_ru",
+      "md5_hash": "e9ce31eb4f195401a5c828a9bc7f8aff",
+      "name": "e9ce31eb4f195401a5c828a9bc7f8aff",
+      "size": 308233
+    },
+    {
+      "compressed_size": 94785,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/si.zip"
+      ],
+      "locales": "si_lk",
+      "md5_hash": "023687d384c1475acc2ad6cf5ae5bca2",
+      "name": "023687d384c1475acc2ad6cf5ae5bca2",
+      "size": 292917
+    },
+    {
+      "compressed_size": 90858,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sk.zip"
+      ],
+      "locales": "sk,sk_sk",
+      "md5_hash": "34ffe981598b57c1b8438cad13faf406",
+      "name": "34ffe981598b57c1b8438cad13faf406",
+      "size": 220418
+    },
+    {
+      "compressed_size": 80666,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sl.zip"
+      ],
+      "locales": "sl,sl_si",
+      "md5_hash": "65e21472bccf2e6e1e64d0801e070bdd",
+      "name": "65e21472bccf2e6e1e64d0801e070bdd",
+      "size": 198501
+    },
+    {
+      "compressed_size": 41108,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sq.zip"
+      ],
+      "locales": "sq,sq_al",
+      "md5_hash": "d79dfb8ca3f5eb0d17d1845cacbc954a",
+      "name": "d79dfb8ca3f5eb0d17d1845cacbc954a",
+      "size": 100503
+    },
+    {
+      "compressed_size": 44912,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sr-cyrl_me.zip"
+      ],
+      "locales": "sr_cyrl_me",
+      "md5_hash": "36d4b4993efbdfd83e6be18c581d0e80",
+      "name": "36d4b4993efbdfd83e6be18c581d0e80",
+      "size": 114593
+    },
+    {
+      "compressed_size": 48803,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sr-cyrl_rs.zip"
+      ],
+      "locales": "sr_cyrl_rs",
+      "md5_hash": "f31eca8266a45575c9fab517ff6d49c0",
+      "name": "f31eca8266a45575c9fab517ff6d49c0",
+      "size": 121841
+    },
+    {
+      "compressed_size": 44896,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sr-rs.zip"
+      ],
+      "locales": "sr_rs",
+      "md5_hash": "448a5c330066c10db3476ca5a1cdc933",
+      "name": "448a5c330066c10db3476ca5a1cdc933",
+      "size": 112681
+    },
+    {
+      "compressed_size": 89228,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sv.zip"
+      ],
+      "locales": "sv,sv_se",
+      "md5_hash": "4a7b6f59ea9f40185bebb39a744f2a5c",
+      "name": "4a7b6f59ea9f40185bebb39a744f2a5c",
+      "size": 217068
+    },
+    {
+      "compressed_size": 76637,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/sw.zip"
+      ],
+      "locales": "sw",
+      "md5_hash": "2ca48e93f4c6fd0fc5522c7f9582bdd5",
+      "name": "2ca48e93f4c6fd0fc5522c7f9582bdd5",
+      "size": 192550
+    },
+    {
+      "compressed_size": 106673,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ta-in.zip"
+      ],
+      "locales": "ta_in",
+      "md5_hash": "017cb2fa9be16e5d1b70afee75a4629b",
+      "name": "017cb2fa9be16e5d1b70afee75a4629b",
+      "size": 348530
+    },
+    {
+      "compressed_size": 107631,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ta-lk.zip"
+      ],
+      "locales": "ta_lk",
+      "md5_hash": "6401f1bd56e4fb68ca37ed9b4831f6bc",
+      "name": "6401f1bd56e4fb68ca37ed9b4831f6bc",
+      "size": 352018
+    },
+    {
+      "compressed_size": 102307,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ta-sg.zip"
+      ],
+      "locales": "ta_sg",
+      "md5_hash": "8e7cd2d8bdeb3cb707eca1eedcd0173b",
+      "name": "8e7cd2d8bdeb3cb707eca1eedcd0173b",
+      "size": 339042
+    },
+    {
+      "compressed_size": 108568,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/te.zip"
+      ],
+      "locales": "te_in",
+      "md5_hash": "71674eba995deebf22e65bc09d638a28",
+      "name": "71674eba995deebf22e65bc09d638a28",
+      "size": 342183
+    },
+    {
+      "compressed_size": 107404,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/th.zip"
+      ],
+      "locales": "th,th_th",
+      "md5_hash": "c78721f543489db291e0d7dd60324e36",
+      "name": "c78721f543489db291e0d7dd60324e36",
+      "size": 316391
+    },
+    {
+      "compressed_size": 95746,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/tr.zip"
+      ],
+      "locales": "tr,tr_tr",
+      "md5_hash": "28b69af0bba3f44a9e0e141e2c175dbf",
+      "name": "28b69af0bba3f44a9e0e141e2c175dbf",
+      "size": 235191
+    },
+    {
+      "compressed_size": 107406,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/uk.zip"
+      ],
+      "locales": "uk,uk_ua",
+      "md5_hash": "812c39e3d1950f9bb5470d35690e160a",
+      "name": "812c39e3d1950f9bb5470d35690e160a",
+      "size": 295105
+    },
+    {
+      "compressed_size": 89655,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ur-in.zip"
+      ],
+      "locales": "ur_in",
+      "md5_hash": "62be733ac6ed2614a5be1940db621738",
+      "name": "62be733ac6ed2614a5be1940db621738",
+      "size": 236144
+    },
+    {
+      "compressed_size": 89019,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/ur-pk.zip"
+      ],
+      "locales": "ur_pk",
+      "md5_hash": "da10b0d8636a1cbf1dae56b62ce783ae",
+      "name": "da10b0d8636a1cbf1dae56b62ce783ae",
+      "size": 234968
+    },
+    {
+      "compressed_size": 77247,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/uz.zip"
+      ],
+      "locales": "uz,uz_uz",
+      "md5_hash": "969a3241b4d0a4391ab6499250dce990",
+      "name": "969a3241b4d0a4391ab6499250dce990",
+      "size": 189489
+    },
+    {
+      "compressed_size": 107477,
+      "download_packing_scheme": "zip",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji/20180831175952/vi.zip"
+      ],
+      "locales": "vi,vi_vn",
+      "md5_hash": "676f595c18a30f4caf3387fcab8fa9c7",
+      "name": "676f595c18a30f4caf3387fcab8fa9c7",
+      "size": 259265
+    }
+  ]
+}

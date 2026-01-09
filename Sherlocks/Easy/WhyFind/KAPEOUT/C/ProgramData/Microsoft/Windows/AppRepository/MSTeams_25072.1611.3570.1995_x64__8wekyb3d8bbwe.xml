@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:uap11="http://schemas.microsoft.com/appx/manifest/uap/windows10/11" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:virtualization="http://schemas.microsoft.com/appx/manifest/virtualization/windows10" xmlns:win32dependencies="http://schemas.microsoft.com/appx/manifest/externaldependencies" IgnorableNamespaces="uap5 uap6 uap11 com desktop desktop6 virtualization win32dependencies rescap3">
+  <Identity Name="MSTeams" Version="25072.1611.3570.1995" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Microsoft Teams</DisplayName>
+    <PublisherDisplayName>Microsoft</PublisherDisplayName>
+    <Description>Microsoft Corporation</Description>
+    <Logo>Images\TeamsForWorkNewStoreLogo.png</Logo>
+    <virtualization:FileSystemWriteVirtualization>
+      <virtualization:ExcludedDirectories>
+        <virtualization:ExcludedDirectory>$(KnownFolder:LocalAppData)\Microsoft\Identity\Cache</virtualization:ExcludedDirectory>
+        <virtualization:ExcludedDirectory>$(KnownFolder:LocalAppData)\Microsoft\TeamsMeetingAddinMsis</virtualization:ExcludedDirectory>
+      </virtualization:ExcludedDirectories>
+    </virtualization:FileSystemWriteVirtualization>
+    <virtualization:RegistryWriteVirtualization>
+      <virtualization:ExcludedKeys>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\Links</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Office\Teams</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Teams\VDI</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\IM Providers</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\ProtocolExecute</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Classes</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Installer\UserData</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Installer</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\office\Outlook</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Wow6432Node\Microsoft\office\Outlook</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Common\FLORA</virtualization:ExcludedKey>
+      </virtualization:ExcludedKeys>
+    </virtualization:RegistryWriteVirtualization>
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.26100.0" />
+    <win32dependencies:ExternalDependency Name="Microsoft.WebView2" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="128.0.2739.67" Optional="true" />
+  </Dependencies>
+  <Capabilities>
+    <uap6:Capability Name="graphicsCapture" />
+    <uap11:Capability Name="graphicsCaptureProgrammatic" />
+    <uap11:Capability Name="graphicsCaptureWithoutBorder" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="packageManagement" />
+    <rescap:Capability Name="unvirtualizedResources" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+  <Applications>
+    <Application Id="MSTeams" Executable="ms-teams.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Microsoft Teams" Description="Microsoft Teams" Square150x150Logo="Images\TeamsForWorkNewStoreLogo.scale-150.png" Square44x44Logo="Images\TeamsForWorkNewAppList.png" BackgroundColor="transparent">
+        <uap:DefaultTile ShortName="Microsoft Teams" Square310x310Logo="Images\TeamsForWorkNewLargeTile.png" Wide310x150Logo="Images\TeamsForWorkNewWideTile.png" Square71x71Logo="Images\TeamsForWorkNewAppList.targetsize-64.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Images\TeamsForWorkNewSplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="msteams" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="msteamscanary" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="callto" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="im" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="sip" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="sips" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="tel" />
+        </uap:Extension>
+        <uap3:Extension Category="windows.appUriHandler">
+          <uap3:AppUriHandler>
+            <uap3:Host Name="teams.microsoft.com" />
+            <uap3:Host Name="teams.cloud.microsoft" />
+            <uap3:Host Name="gov.teams.microsoft.us" />
+            <uap3:Host Name="dod.teams.microsoft.us" />
+            <uap3:Host Name="teams.eaglex.ic.gov" />
+            <uap3:Host Name="teams.microsoft.scloud" />
+            <uap3:Host Name="teams.microsoftonline.cn" />
+          </uap3:AppUriHandler>
+        </uap3:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="msteams_autostarter.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="TeamsTfwStartupTask" Enabled="true" DisplayName="Microsoft Teams" />
+        </desktop:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="ms-teams.exe" DisplayName="Toast Activation">
+              <com:Class Id="816EB0E0-F985-4919-BDA3-315878A4ED80" DisplayName="Toast activation callback" />
+            </com:ExeServer>
+            <com:ExeServer Executable="ms-teams.exe" DisplayName="Office Integration">
+              <com:Class Id="88435F68-FFC1-445F-8EDF-EF78B84BA1C7" DisplayName="Office Integration" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:Interface Id="F7EE956B-A713-48D3-AFEF-0A28F37740B3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C12F0DE5-9A7D-425C-B391-8BE004EAA2F6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DC63D621-11C8-4490-B017-B8C57EE1BE25" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1A8A9402-E89F-40AE-88A8-B328391684B6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="EC9773AD-7D22-4B03-B949-5E9055AF0F19" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F97973D7-9436-4A3E-A802-F6EA172A0425" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="57C3CB4D-C794-456F-846D-0E1ECA78BD00" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="85109845-6AE2-4B6B-9524-65BA203E5B7D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F0CE810F-E36F-4CD8-A836-515B9A6E09FC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="FD9000B3-479F-4B16-9D63-70A49E078946" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E6B3F5FA-4208-4C37-AE07-F6435B68D693" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="0C81EC90-9469-4ED4-ACAD-ADB86E11039C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="95B8D3E8-F3D5-4DC0-BCFE-AB80C835DEA0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="340C54A6-35CF-4971-B540-72D7F040AC24" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1FF0E6F1-2FE4-4E29-A123-557AF0DB6927" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="EFEC2816-F16D-48D8-9306-26C810F0EA55" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4B3A2412-C149-4E52-A713-6CEBCF47503E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D2BFC7D7-A64F-48EF-BF90-C3C7E684D89C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="0BDB9057-28AE-4BF0-AFF0-12A148E51637" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="283C2089-B760-4D65-9199-716627174F7A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="378CD767-1B64-4A0E-A941-8F52869FC9DF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7356D7BB-FD71-4554-84A1-3BBE28726551" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="995F992C-9DEF-47B9-BF11-81813C0C0E28" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D804BA85-DB0F-49EE-B723-DCDF0425BD9F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DCDEA425-B5F2-4719-A3B4-69FFB9770BE6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="18A9A79A-CBC7-4F8B-8B2B-9B40CA75EC3C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="35CE3A44-C636-4D31-BC95-B9370C2251B9" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="339D28C6-3D1A-45D4-BA14-A56742749A43" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="53D014C1-54DB-42B3-9DFD-8E231EF2C356" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="10C3ACC7-6C0C-4F35-ADFB-AE0F200A8583" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8AFFB8CE-5404-4280-BCA3-E2E4388E6D73" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="10FDD9BA-0CBA-4958-B6C8-D0912BF2703F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7CD92461-CA4F-4BEB-A636-8BBCC192E60F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="ABF012A2-2068-4B4D-80D7-6D386BA7C8A2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C6605772-3D9D-44A7-B43A-4590E6B43EE3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="311DDE48-ED7D-46FA-9E0A-2E314B7FEF7C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="50D86EE2-288F-44F5-8144-69F6E3B24B90" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B1C6ECC3-1EA7-495D-9337-02FE4FB723F0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="12480BD4-072F-4763-B9FB-41B2CA54F9CD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9918673D-4D74-41CF-8840-D4996395A34C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F719ED75-B7BD-45D3-9097-254509226F20" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="011B320C-9AC1-4DDE-B595-3D0014472E2F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="082EE280-726E-417F-99CB-81A0CCBFF883" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AA186C92-181E-417F-B150-FCA0F367E0FC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="62B932E9-7847-4D78-BEEE-5D58BF815B03" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DAB42E13-500A-409A-AC34-C1BF4719EE2E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A4E1D1E4-7839-473B-95FA-5D33DDC0D2DD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="533891F1-A460-43E6-8BDA-6D0D2C13ADDE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4875C050-BA9C-4A05-891E-E7B0A9463664" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="ED5040FA-8F8F-4876-BF6D-9C62F5EFFD5B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D4B240B9-059B-4D13-8997-31B282B3BD43" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="62074904-8D06-43FE-A531-E63DF7FDC2E7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8665FD95-7720-4F9E-B605-6ABCBD7EDFF4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="FD02E775-CB9D-4CE3-9243-115C81E5F11C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="855AD949-E2EB-473D-AAF2-9800008EA303" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8A88C016-AA5D-4EAE-9C79-7AA5C360ED76" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="04378C72-E58F-47C0-8621-901B85CA2ED4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B3FF95BD-B743-498C-9973-7F8A2A78576A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F5996C71-77AB-4020-9776-C2C270FEF2AE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="00E22CBB-3170-453A-AE62-EAFBC75A9F8D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C31FB52D-9E9E-45AD-A102-5218E1685B78" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E24C2484-C70D-44AB-8A4E-F1585A17A3E1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="15D4461D-C7EB-45CB-B214-F1C45FED1DB2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="ACABFA1C-0738-4C4D-AF7E-326873CF4ACE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="209DA899-15F1-499A-B8B5-A847EAA899AE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="62A75516-C79B-42D7-8B49-3BA492C2B385" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E4E1D0AF-5B70-45AF-9A0E-F548D8FBD17C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8E839AF9-9508-475A-AA47-3EE8A946B75E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="61C747F6-157C-4CAE-A37C-EC4352175860" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E66CA1CC-9DB0-467E-9C60-6A832ACD6780" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="56A868B4-0AD4-11CE-B03A-0020AF0BA770" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AC10D6E9-4A8C-4484-B8F4-CA1E36347AAE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="6A7FF112-42CE-4D03-8922-D02AC6C5759F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3690D374-3779-4EFC-B8E8-20642C01529A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4A159F27-21F3-4DB7-84E1-57E37765C402" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="57E5D78F-B8CF-4D2A-BFA2-602BCF01DB81" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1EC0BCE6-CED1-41D5-A1C4-67E1636953FF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7B39CB77-4AEB-42D7-B351-CB5472C1C6AD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3CD1DB65-D85B-4912-8536-6BD8E19F1738" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="478DDA59-64C0-4429-AC8A-F10A940B52CC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C79E4169-535F-4A41-8DE2-C65A90D9503D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DEDDD7BD-4763-41D2-9AAA-B2C143457CA4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2A9385AA-CF61-4E47-B64C-214DE4A4AD11" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="56F7DEC0-59CA-47C6-9F35-D5066A702B39" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="88C688B0-3908-4C56-A2E8-F90AB705C536" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8057F99D-292C-4371-926B-5312E61A3A40" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AB2D1A67-2B3D-4E25-B21C-03F4BFC4C2BE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="064E6072-5592-4D13-AFDB-55F5A494E137" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="905B727D-FD8F-46EC-8006-CE245F6835EE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DBA05C15-1C07-4A76-8248-08D8416A24E3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D5C1C8FB-DC8A-45A3-AAA3-53B89D43CDE4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2495B94C-38AF-439B-BBA0-0AD38D959CE4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C14A2DE1-2C90-49E6-B871-46D338A88FF5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="CA7EEB7A-7DC3-4FFE-A174-23DB5A003C04" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9D4D3D10-DEBC-40C6-ACF9-527986CB42BC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3DEBDC7E-811F-4304-BDD7-7D98C732026C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7CFE77CD-731D-48B2-82B1-ECA3414D62E3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="70DCCE38-90BF-4428-A34F-3A6082F29E50" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4290152C-75C9-47C8-AA12-814818360B3F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="25A47938-5C31-4F43-9108-DA01EE5869C0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F644C610-A146-4A56-8338-A69C45C71CEF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DF414A68-5051-4465-AAE2-4F301315734E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="81C9D13F-A4F9-4E13-92D3-BB271E8DF3D2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F87AFD9A-9BF8-4AC4-953E-33C4D2035D33" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2C59A886-ACD3-46BB-8BAC-7C1C59FB2E0D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="EBD19735-0CB5-4AF3-8E05-B0140CF9D545" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="18BA13C7-A64E-4301-BA51-D1BFB3C1C9D5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2F8C3E58-436B-42DB-8924-6C394B37DCA2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1124AA59-B6F3-4EB1-B79A-E7F53B388B8D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="37C7F935-E215-46D2-82A3-A451840EC733" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D60B1701-766D-401E-8586-83E0C9106BE0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="25025B1B-0084-44D1-B383-9FFC9A99ABCD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C63F58CB-EF11-4934-AA3B-2D69244F0780" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="EF5C00E4-75E2-4D39-B358-0ED9CB14F3CB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="92D7E7A8-48D8-4166-8911-630AE02B2B93" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="21629AB6-9557-4985-9237-49177F618692" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F4BEB62B-8A4E-4212-9030-B1B115E4C2F1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="6A986B5D-E5EC-4395-AD2D-0E62B72DA776" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="5418E2AB-EB9A-4659-B4DC-28DE633B2B8F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="10D66B39-5E4B-4C98-AAC6-D0458FEB1BDB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4FE44049-4E44-4109-B234-4E4EFC135A86" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="ACD2FDB9-98ED-4283-AAE8-3CD989EBD9AE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="BE026CD2-7E82-4F7C-8762-F6B02F496174" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B22EDBEA-9E61-4703-82BE-01C05619B6D6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8FE9A23D-72BC-4EA3-A5AF-E37F75EAD8A2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="32430741-330B-48DF-96F6-0CFE00484D40" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4E8DC7E0-04B8-470B-BDFA-F520099B975F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D0DBB17D-565E-486C-A47B-BA32DC1FAD0A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="FA7971EF-1E41-429F-8C79-DAC5F88D444B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4C675532-6D55-49DD-8C8E-3C1CC5624CF2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="464D5228-9F68-4B1F-B430-156A104E2B85" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9397FF55-EE06-4F02-8F2A-BE3AE249D4BB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D992371E-5161-453B-97E6-6E7C67BC075E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B0C10F94-CAB6-4821-9643-D781885A46AF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="0CA9BAE8-DD28-4929-A821-4D00F11203CC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="ABDE1D04-CB0D-44FA-918D-EBA4FE364BD3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B1F3ACAE-139E-41D4-A5CE-50FE87A29737" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="57CC2235-96C5-49FA-B92B-350486C6CF52" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="26C8D96D-7D22-4E9E-948A-EDCCB4CA9C64" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3F60CFF7-BE3F-4404-8395-C02D0CDD318E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8684D3AD-7061-4056-A894-EBF1270ADB9B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="5FA92EA7-6E6E-4A82-8F0D-107FEAF5A75D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="95B9A382-EA50-45E4-965E-BA61E7213DBA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="08E1E9CF-A7E4-43BE-AE8E-B223CE71E46E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="68B1FC26-B48F-4D5F-B041-8E246676D836" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D9D04B55-D820-4D5B-A690-658A49368478" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4BACB4B8-1236-42B8-BDA1-D1533148780D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="24738605-334C-4C04-8A58-7AC7CAD76497" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4438E968-BCA1-4352-AE19-8516114962CF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7CC306E9-2546-4101-82AB-29613AD6F7A7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4DA899D3-FAC7-4F43-8E4A-1987988FBC9B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7693221D-7E9F-47D3-8782-6437CF3D4C0C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D0984CEF-E323-4574-B07B-5C970C9CAEE0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DD181E97-EEE0-4D65-BAD1-16866D0C7953" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="65B71572-5338-43C8-9E4C-F1DFC6711AD1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DAA5FDE3-A81C-4F23-80B6-C47B52C649BF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C0034194-F7B6-43EB-B0E0-7852FC8E7BFA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DD31376E-E529-43F2-B3B4-E379EBD28E2A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DAC6D77B-12F7-405C-BB33-002D6D4007F3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3C8D7146-35EA-4133-B2F6-C1FC2401A091" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="FB67275C-4D9E-4C32-9793-A96749884FC1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A9AAB6A0-54B9-4419-AAAF-6B26DFAC1585" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="06437ABB-C419-4B11-A474-1A2B02FBD646" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DC4BC923-6A52-4F02-9F8A-547B606955E7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3C43A2BE-BA4A-41E8-8F93-A9DC5F091892" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="90B49A60-72AF-4360-9F9B-916DB7504A3C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9274DBDC-43CE-45AA-A817-414A4494AD28" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1F8EBE6F-7993-42CE-980A-A2F03793BE71" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="CE16D540-B9E8-4742-8659-9A7A318AFB92" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B0B0E8F8-32DA-4CB0-A124-D1E35891D53A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="DA7CF784-67DF-429C-82FB-9AFD99F6CCCB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E82737B9-B2BE-4AFD-B649-C9F665627F20" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3959E5C6-75CC-448E-9A18-9F163FF47646" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="232F1CAB-5351-4E48-8A87-2185445F712D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="86B3E5FE-4635-4C1E-A725-C80B71D04984" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="D46E9D77-3356-4823-8072-9595D54D335C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4AA93AA8-898C-45EE-8E5C-1A86739B3F96" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="08DDF5C4-FA12-4978-B26E-C6D23C453413" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B3C5872E-591C-4A74-9F84-B00EF970A838" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2D3D62CA-E9F6-4F94-8EBD-5FABAB29E6A5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="BD891697-C93E-4A0B-9B6C-004BD81B6EE8" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C7ACB102-B692-49CC-92DA-5824822C7B96" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1FF8AA01-D8AF-4B2B-B254-BEFEFABAF2D6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E0E8B413-BB57-4B58-B1FB-288F3A269E35" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="66D1FFC0-C234-4F3D-ABAA-98222A69E525" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A0984F01-5D2C-4302-87A0-69BE7B015143" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="420A24E2-5C31-4262-9BD5-058682300ED6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4CB70415-BA71-491E-B12D-155D85CBDFF1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9244D573-914F-4C1F-93F6-31609A95CBED" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E5CFF4A5-83A8-4FD8-8DAA-77A3E2288D4A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9404FD57-1425-4421-A65E-F29FE3E11306" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C22CE6BF-3A47-46B7-8544-44305BADFEF9" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="BE6086A1-D436-4834-89EE-3CA4F8596A58" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="64B7E9AD-D920-4EAA-95C7-9D95DE9ACE24" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C4D95336-5949-4D13-AAC8-82039E5CBCFC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="87084018-7E74-4F92-AB39-1CF03188580E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9112CE9B-3704-48C0-86DC-7A7B0F34D7A3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="26F15083-86DB-4663-89ED-A0ABC896B9A1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3417D640-3976-4CB6-BC82-54E5E2E10784" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7818A3F7-674B-477E-99E8-54774579A8E7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="71A054B3-4D4B-4643-B14F-4572494B19E7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F423726D-0E9B-4B55-9569-E79865210F69" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="219DC126-9A48-483F-80C2-3F22B3B47829" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A0C3E9BA-C622-45A2-9FED-2C662F3F489A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="603E2454-725A-4679-A6A8-363B21633CB2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="21C41EDE-7ED8-4D97-9B0D-DD785781AF9B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="68DA8699-6C6E-4390-BD82-709FF1DC1702" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A766520D-F700-4BF5-8428-56BD914C1C40" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7BF20B14-58D1-494B-B301-9B16BACC9610" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4EE0CE21-96D6-461F-8D44-EAC961468E50" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="05789509-AFA1-4E90-B4FA-1A7820DB9796" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="76DE1CD8-F278-48A1-A391-E5BEB8F428E6" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B03614AE-8D68-4386-9E1C-939CABCF1232" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B8FD4A53-E7E6-4995-A5B5-1306C7584964" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1566FA3C-FD24-41DB-A2B8-6232F89783DE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="081793DA-7221-45C3-8AFA-3A2E6E464670" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="BC9F5F40-D315-40C1-B1C6-CEA0646E18E2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7452BD0F-65CB-4A5E-AC37-E2BEA1F43DD9" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4D120020-CE64-43C5-9F84-7A7B2360388F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="300E56A3-CE08-4EB3-9F48-505AA162C9DA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E2C6D6E0-52EF-47A2-BDA9-9D6A7A29A391" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8F04E92D-EE26-4B64-B9C1-56DD90816810" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="89C7EB8E-42BC-4C9F-BB34-88CDE83CCB37" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8E73E7E1-90CE-4D3B-B5B7-71E87B2E8BA5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="628D7BDD-45AB-404D-8505-B3ADC15F454D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="0FDB5B86-DD44-41BF-A443-317FD19BBF3D" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3C821E32-6F56-46E2-8137-E45F664226AB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2EDAF003-14A6-4FAF-8A72-99526D048D63" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B1F5BCD8-69A6-4FC3-9EF0-9BD4AD999061" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="CA62E6F3-3E6D-451B-AEAA-6A1B7AACF8D4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F97BED54-E434-4020-A197-F15AEA9D9C95" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="806D3227-4CB8-47C4-9864-7D4DF4F44069" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9E0F8FCA-D9C9-47CD-87F4-5554217DFFCC" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="76428270-36FA-4236-8BDF-AADB39FD1371" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="02DD541F-C863-4295-92AB-A4CF29F5D841" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="109D32CE-E09F-46F5-9ECB-01E1D273B7DA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="663C61F4-A9DA-4A6F-A606-F142F665DF61" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="55A21CF3-A2B3-484E-BE2A-14280F501289" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B00F2520-029C-47D0-B4E8-8FBEF47CAA7E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AF2ABA54-F591-42BA-8004-20944C9FB4D7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="2209E091-5B90-4CAF-8582-CC5979883376" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="FF037274-455A-4E34-B5D1-D42DB866F9B7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="0678C83E-F580-4D99-902F-930699B28BE8" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="38E5EC21-81A1-45A7-94D6-B812976231A4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="A58F54D2-9786-4309-964D-96549AEC7611" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B335AE5E-E4EA-49D3-B03B-646A96FE66D3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="CA478B44-4FCE-4082-8700-8CEC69FB50E1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C5211BD8-DA85-428D-BA52-A64682956006" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="7C7F2D56-2396-4477-AA38-74B53717A253" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AE3A7C39-9C30-4E0F-BAE4-D8344EF377EA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="17635563-2FA5-46AD-8F47-3F0FF958ECE2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="48B3099D-841D-4CAA-9202-5787596E2BD2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="899B846A-8887-45D6-B8F5-8AAA0BFDF722" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="6B551C9E-DE81-41DF-A0AE-39F0AF11D508" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="94093301-8854-408E-8138-C7C3D2DACA1F" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3C8210C8-8578-47C6-87A9-FA1AD2BA9873" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="4023052E-E3B7-48A3-BCB3-CA2234D9BAEE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="87665417-C861-4E1D-ACE8-3F566EE986A2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="6964B116-8FE6-4C19-9052-0EAA74460A58" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="84340964-7820-4EBC-BCD3-702926DE23E8" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="3187885C-A8AF-4D4B-8E80-F4B9D447A7B2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="36CDC166-4F21-46AD-A60E-8551F26C1D41" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="70986DCE-4AA8-4DFB-9A45-4BFCF7A206F5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="5E7AB04C-E4B8-49FB-85FF-9E2BCA2899D3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AAFE380B-B079-4B55-B81B-A9401D77B776" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="086F0E9D-A416-40F9-877C-F1C82DC1A6AD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="30F974FB-1F7B-49D3-8DA4-01694BA474D2" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="86225E5C-7595-4D1C-985D-8A0458D714C0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1B04D929-11E4-46C2-9162-EA4F2758C3A7" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="25D64AEA-0E65-49CB-8D6D-65DB0AC1AF65" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="74B6CAF0-755E-454D-A819-D0E439EF5296" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E2E49A1A-8E53-46A6-8A78-AB9B2F0B6987" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="61CE9972-C619-4A88-A5D1-D2DFBCD4D2A1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="569E04F2-D286-4903-9642-44D850310956" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1B889699-5867-4D32-9C9C-5B7AE21B9838" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="275C604F-12FC-47A0-9763-EF1359667C01" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="53972397-8CC6-40DC-86A4-F27DE5E0CCCE" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="1DDCE264-FD21-42A3-9B8D-682C295775C4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F33A5E88-1325-4AA7-B87D-E2F62FC67F2C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="6A222195-F65E-467F-8F77-EB180BD85288" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="EE9F3E74-AC61-469E-80D6-E22BF4EEFF5C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="C413A27F-601E-4261-B9E3-0EB966F4E7D1" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F8DF0B4B-A4CE-476B-81D3-9FBA98461B62" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="80EDBF3A-812E-42B5-A67F-6CC6D9A19A6C" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="AA41EE75-F9C5-42F7-8D17-1D92D6BA4D92" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="330639F2-E399-48CB-863F-56A50A27A138" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9B3A702D-5BE1-4FCE-ADB3-EBBD23E078C3" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="9AB20314-B258-48F8-B659-AD250DFA20F5" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="F0B791FA-434B-49F2-B84E-05619EBE6BEB" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="E664682C-CBA5-4C7C-A65B-9CD046F24CBD" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B28F2007-3926-49CF-9101-4CCB9574049B" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="744BAB86-B15F-4BD5-B7DD-476B0CE0162A" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="09028936-CD20-43EF-98CF-56726ADDBA34" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="B26F6403-761E-48D4-84E2-619C17EAEB13" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="64561371-77A2-4BD4-A909-E6DEB1B5C6CF" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="953AE732-F53A-4116-AC1B-0321B3FB3DBA" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="92A9EB9B-85EE-444E-A302-00C3C945BAA4" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="8C9B6953-33CC-4A04-9DA4-F71AE79DA0C0" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:Interface Id="CCA963CE-F270-4E80-B7B9-27C5B9A11D6E" UseUniversalMarshaler="true">
+              <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8" VersionNumber="1.0" />
+            </com:Interface>
+            <com:TypeLib Id="b9aa1f11-f480-4054-a84e-b5d9277e40a8">
+              <com:Version VersionNumber="1.0">
+                <com:Win64Path Path="x64\uc.tlb" />
+                <com:Win32Path Path="x86\ucx86.tlb" />
+              </com:Version>
+              <!--Default value of LocaleId is 0-->
+            </com:TypeLib>
+          </com:ComInterface>
+        </com:Extension>
+        <desktop:Extension Category="windows.toastNotificationActivation">
+          <desktop:ToastNotificationActivation ToastActivatorCLSID="816EB0E0-F985-4919-BDA3-315878A4ED80" />
+        </desktop:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="ms-teams.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="ms-teams.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <rescap3:Extension Category="windows.desktopAppMigration">
+          <rescap3:DesktopAppMigration>
+            <rescap3:DesktopApp AumId="MicrosoftTeams_8wekyb3d8bbwe!MicrosoftTeams" />
+          </rescap3:DesktopAppMigration>
+        </rescap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="MSTeams.Update" Executable="ms-teamsupdate.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-teamsupdate" Description="ms-teamsupdate" Square150x150Logo="Images\TeamsForWorkNewMedTile.png" Square44x44Logo="Images\TeamsForWorkNewAppList.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="ms-teamsupdate.exe" DisplayName="ms-teamsupdate" Arguments="-RegisterComServerForUpdaterTask">
+              <com:Class Id="1F18FC75-A353-4121-AEDB-19DF9C98F622" DisplayName="ms-teamsupdate" />
+            </com:ExeServer>
+            <com:ExeServer Executable="ms-teamsupdate.exe" DisplayName="Ecs" Arguments="-RegisterComServerForEcsTask">
+              <com:Class Id="B8C1DCAE-5020-4F5D-BA2A-85292744E334" DisplayName="Ecs" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="ms-teamsupdate.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="ms-teamsupdate.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="msteamsautostarter" Executable="msteams_autostarter.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="msteamsautostarter" Description="msteamsautostarter" Square150x150Logo="Images\TeamsForWorkNewMedTile.png" Square44x44Logo="Images\TeamsForWorkNewAppList.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="msteams_autostarter.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="ms-teams_autostarter.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <desktop2:Extension Category="windows.firewallRules">
+      <desktop2:FirewallRules Executable="ms-teams.exe">
+        <desktop2:Rule Direction="in" IPProtocol="TCP" Profile="all" />
+        <desktop2:Rule Direction="in" IPProtocol="UDP" Profile="all" />
+      </desktop2:FirewallRules>
+    </desktop2:Extension>
+    <Extension Category="windows.publisherCacheFolders">
+      <PublisherCacheFolders>
+        <Folder Name="TeamsSharedConfig" />
+      </PublisherCacheFolders>
+    </Extension>
+  </Extensions>
+</Package>

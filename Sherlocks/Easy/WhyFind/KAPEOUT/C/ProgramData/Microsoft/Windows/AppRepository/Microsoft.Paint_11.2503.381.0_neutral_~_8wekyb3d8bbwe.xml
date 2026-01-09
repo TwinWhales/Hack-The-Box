@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.Paint" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2503.381.0"/>
+	<Packages>
+		<Package Type="application" Version="11.2503.381.0" Architecture="arm64" FileName="Paint_11.2503.381.0_ARM64.msix" Offset="60" Size="297588349">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2503.381.0" Architecture="x64" FileName="Paint_11.2503.381.0_x64.msix" Offset="299787470" Size="297859995">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-mi-latn" FileName="Paint_11.2503.381.0_language-mi-latn.msix" Offset="298677976" Size="23750">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-lv" FileName="Paint_11.2503.381.0_language-lv.msix" Offset="298653654" Size="24227">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-lo" FileName="Paint_11.2503.381.0_language-lo.msix" Offset="298604223" Size="24978">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-lb" FileName="Paint_11.2503.381.0_language-lb.msix" Offset="298580022" Size="24111">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ko" FileName="Paint_11.2503.381.0_language-ko.msix" Offset="298530815" Size="23428">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ja" FileName="Paint_11.2503.381.0_language-ja.msix" Offset="298405319" Size="23575">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-it" FileName="Paint_11.2503.381.0_language-it.msix" Offset="298381513" Size="23716">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-hi" FileName="Paint_11.2503.381.0_language-hi.msix" Offset="298234889" Size="25660">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-gd-latn" FileName="Paint_11.2503.381.0_language-gd-latn.msix" Offset="298137443" Size="24096">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-hr" FileName="Paint_11.2503.381.0_language-hr.msix" Offset="298260639" Size="24140">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-lt" FileName="Paint_11.2503.381.0_language-lt.msix" Offset="298629291" Size="24273">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-da" FileName="Paint_11.2503.381.0_language-da.msix" Offset="297865241" Size="23459">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-de" FileName="Paint_11.2503.381.0_language-de.msix" Offset="297888790" Size="24399">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-el" FileName="Paint_11.2503.381.0_language-el.msix" Offset="297913279" Size="26470">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-es" FileName="Paint_11.2503.381.0_language-es.msix" Offset="297939839" Size="26309">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-et" FileName="Paint_11.2503.381.0_language-et.msix" Offset="297966238" Size="23605">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-eu" FileName="Paint_11.2503.381.0_language-eu.msix" Offset="297989933" Size="23191">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-km" FileName="Paint_11.2503.381.0_language-km.msix" Offset="298480153" Size="25115">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-fi" FileName="Paint_11.2503.381.0_language-fi.msix" Offset="298038697" Size="23472">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-fil-latn" FileName="Paint_11.2503.381.0_language-fil-latn.msix" Offset="298062265" Size="24135">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-fr" FileName="Paint_11.2503.381.0_language-fr.msix" Offset="298086490" Size="26519">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ga" FileName="Paint_11.2503.381.0_language-ga.msix" Offset="298113099" Size="24249">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-kk" FileName="Paint_11.2503.381.0_language-kk.msix" Offset="298454449" Size="25614">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-gl" FileName="Paint_11.2503.381.0_language-gl.msix" Offset="298161629" Size="23657">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-gu" FileName="Paint_11.2503.381.0_language-gu.msix" Offset="298185376" Size="25357">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-he" FileName="Paint_11.2503.381.0_language-he.msix" Offset="298210823" Size="23976">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-bs" FileName="Paint_11.2503.381.0_language-bs.msix" Offset="297762832" Size="24216">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ka" FileName="Paint_11.2503.381.0_language-ka.msix" Offset="298428984" Size="25375">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-kok" FileName="Paint_11.2503.381.0_language-kok.msix" Offset="298554334" Size="25598">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-hy" FileName="Paint_11.2503.381.0_language-hy.msix" Offset="298309031" Size="25462">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-id" FileName="Paint_11.2503.381.0_language-id.msix" Offset="298334583" Size="22907">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-is" FileName="Paint_11.2503.381.0_language-is.msix" Offset="298357580" Size="23843">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-as" FileName="Paint_11.2503.381.0_language-as.msix" Offset="297661604" Size="25616">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-kn" FileName="Paint_11.2503.381.0_language-kn.msix" Offset="298505358" Size="25367">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ca" FileName="Paint_11.2503.381.0_language-ca.msix" Offset="297787138" Size="29709">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ar" FileName="Paint_11.2503.381.0_language-ar.msix" Offset="297637078" Size="24436">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-cs" FileName="Paint_11.2503.381.0_language-cs.msix" Offset="297816937" Size="24380">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-hu" FileName="Paint_11.2503.381.0_language-hu.msix" Offset="298284869" Size="24072">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-bg" FileName="Paint_11.2503.381.0_language-bg.msix" Offset="297711508" Size="25567">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-bn" FileName="Paint_11.2503.381.0_language-bn.msix" Offset="297737165" Size="25577">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-fa" FileName="Paint_11.2503.381.0_language-fa.msix" Offset="298013214" Size="25393">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-cy" FileName="Paint_11.2503.381.0_language-cy.msix" Offset="297841407" Size="23744">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-am" FileName="Paint_11.2503.381.0_language-am.msix" Offset="297612091" Size="24897">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-af" FileName="Paint_11.2503.381.0_language-af.msix" Offset="297588499" Size="23502">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-mk" FileName="Paint_11.2503.381.0_language-mk.msix" Offset="298701816" Size="25681">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-az-latn" FileName="Paint_11.2503.381.0_language-az-latn.msix" Offset="297687315" Size="24103">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ml" FileName="Paint_11.2503.381.0_language-ml.msix" Offset="298727587" Size="26228">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-mr" FileName="Paint_11.2503.381.0_language-mr.msix" Offset="298753905" Size="25257">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sv" FileName="Paint_11.2503.381.0_language-sv.msix" Offset="299236268" Size="23266">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-mt" FileName="Paint_11.2503.381.0_language-mt.msix" Offset="298802333" Size="24084">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-nb" FileName="Paint_11.2503.381.0_language-nb.msix" Offset="298826507" Size="23237">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ne" FileName="Paint_11.2503.381.0_language-ne.msix" Offset="298849834" Size="25617">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sr-latn" FileName="Paint_11.2503.381.0_language-sr-latn.msix" Offset="299212072" Size="24106">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sq" FileName="Paint_11.2503.381.0_language-sq.msix" Offset="299152453" Size="24240">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-or" FileName="Paint_11.2503.381.0_language-or.msix" Offset="298922584" Size="26041">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-pa" FileName="Paint_11.2503.381.0_language-pa.msix" Offset="298948715" Size="25739">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-pl" FileName="Paint_11.2503.381.0_language-pl.msix" Offset="298974544" Size="24426">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-pt" FileName="Paint_11.2503.381.0_language-pt.msix" Offset="298999060" Size="30393">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-quz-latn" FileName="Paint_11.2503.381.0_language-quz-latn.msix" Offset="299029549" Size="24124">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-tr" FileName="Paint_11.2503.381.0_language-tr.msix" Offset="299335608" Size="23783">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-uz-latn" FileName="Paint_11.2503.381.0_language-uz-latn.msix" Offset="299462410" Size="24028">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sk" FileName="Paint_11.2503.381.0_language-sk.msix" Offset="299104090" Size="24414">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sl" FileName="Paint_11.2503.381.0_language-sl.msix" Offset="299128594" Size="23769">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-zh-hans" FileName="Paint_11.2503.381.0_language-zh-hans.msix" Offset="299511264" Size="22345">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ur" FileName="Paint_11.2503.381.0_language-ur.msix" Offset="299436483" Size="25832">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.scale-125" FileName="Paint_11.2503.381.0_scale-125.msix" Offset="299588574" Size="28428">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ms" FileName="Paint_11.2503.381.0_language-ms.msix" Offset="298779252" Size="22991">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-uk" FileName="Paint_11.2503.381.0_language-uk.msix" Offset="299410342" Size="26051">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ug-arab" FileName="Paint_11.2503.381.0_language-ug-arab.msix" Offset="299385002" Size="25250">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-th" FileName="Paint_11.2503.381.0_language-th.msix" Offset="299311262" Size="24256">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-vi" FileName="Paint_11.2503.381.0_language-vi.msix" Offset="299486528" Size="24641">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-tt-cyrl" FileName="Paint_11.2503.381.0_language-tt-cyrl.msix" Offset="299359486" Size="25421">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ro" FileName="Paint_11.2503.381.0_language-ro.msix" Offset="299053763" Size="24050">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-sr-cyrl" FileName="Paint_11.2503.381.0_language-sr-cyrl.msix" Offset="299176788" Size="35189">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.scale-150" FileName="Paint_11.2503.381.0_scale-150.msix" Offset="299617090" Size="46575">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-zh-hant" FileName="Paint_11.2503.381.0_language-zh-hant.msix" Offset="299533704" Size="22498">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-te" FileName="Paint_11.2503.381.0_language-te.msix" Offset="299285356" Size="25816">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-nl" FileName="Paint_11.2503.381.0_language-nl.msix" Offset="298875541" Size="23515">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ta" FileName="Paint_11.2503.381.0_language-ta.msix" Offset="299259624" Size="25642">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-nn" FileName="Paint_11.2503.381.0_language-nn.msix" Offset="298899146" Size="23348">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.language-ru" FileName="Paint_11.2503.381.0_language-ru.msix" Offset="299077903" Size="26097">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.scale-100" FileName="Paint_11.2503.381.0_scale-100.msix" Offset="299556290" Size="32196">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.381.0" ResourceId="split.scale-400" FileName="Paint_11.2503.381.0_scale-400.msix" Offset="299663753" Size="123635">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="RcsFlags__sim_operator_from_tel_man" value="true" />
+    <long name="RcsFlags__min_bugler_version_for_rcs" value="0" />
+    <string name="RcsFlags__provisioning_rcs_version">5.1B</string>
+    <boolean name="RcsFlags__enable_analytics" value="true" />
+    <string name="__phenotype_server_token">CAMSAA==</string>
+    <boolean name="RcsFlags__allow_xms_latching" value="true" />
+    <long name="RcsFlags__sip_register_retry_max_delay_in_seconds" value="86400" />
+    <long name="RcsFlags__keep_alives_min_value" value="-1" />
+    <long name="RcsFlags__otp_wait_timeout_ms" value="10000" />
+    <long name="RcsFlags__testing_device_id" value="-1" />
+    <string name="__phenotype_snapshot_token"> com.google.android.ims.library.rcs#com.google.android.apps.messaging_310260__false 41067270 2 1886069761 com.google.android.ims.library.rcs#com.google.android.apps.messaging_310260__false 1886069761 1</string>
+    <boolean name="RcsFlags__clear_sip_register_auth_digest" value="true" />
+    <long name="RcsFlags__provisioning_retry_min_delay_in_millis" value="900000" />
+    <string name="RcsFlags__acs_url"></string>
+    <long name="RcsFlags__otp_length" value="6" />
+    <string name="RcsFlags__mcc_mnc">00101</string>
+    <string name="RcsFlags__client_vendor">Google</string>
+    <string name="RcsFlags__otp_pattern"></string>
+    <long name="RcsFlags__provisioning_imei_format" value="2" />
+    <boolean name="RcsFlags__allow_overrides" value="true" />
+    <long name="RcsFlags__provisioning_imsi_format" value="2" />
+    <boolean name="RcsFlags__is_dogfood" value="false" />
+    <long name="RcsFlags__initial_message_revocation_delay_in_millis" value="10000" />
+    <long name="RcsFlags__sms_port" value="-1" />
+    <boolean name="RcsFlags__udp_support_enabled" value="false" />
+    <long name="RcsFlags__max_thumbnail_download_size_bytes" value="102400" />
+    <boolean name="RcsFlags__enable_rcs_config_logging" value="false" />
+    <string name="RcsFlags__header_enrichment_url_proxy"></string>
+    <boolean name="RcsFlags__allow_reconfiguration_on_upgrade" value="false" />
+    <string name="RcsFlags__provisioning_rcs_profile">joyn_cpr</string>
+    <long name="RcsFlags__provisioning_retry_max_delay_in_millis" value="86400000" />
+    <long name="RcsFlags__sip_register_retry_min_delay_in_seconds" value="900" />
+    <long name="__phenotype_configuration_version" value="1720732200" />
+    <long name="RcsFlags__max_message_revocation_delay_in_millis" value="1200000" />
+    <boolean name="RcsFlags__rcs_enabled" value="false" />
+</map>

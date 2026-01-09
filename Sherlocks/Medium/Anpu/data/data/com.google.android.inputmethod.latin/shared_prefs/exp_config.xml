@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="enable_unified_search_history" value="true" />
+    <boolean name="expression_disabled_when_emoji_kb_disallowed" value="true" />
+    <string name="app_completion_commit_completion_whitelist">com.google.android.apps.maps*,com.google.android.apps.gmm*,com.google.android.googlequicksearchbox*,com.google.android.apps.nexuslauncher*</string>
+    <boolean name="enable_avatar_stickers" value="false" />
+    <long name="emoji_superpacks_manifest_version" value="20" />
+    <boolean name="conv2query_trending_queries_periodic_download_enabled" value="false" />
+    <long name="c2q_superpacks_manifest_version_ms" value="3" />
+    <boolean name="federatedc2q_inference_enabled" value="false" />
+    <long name="themed_nav_bar_style" value="0" />
+    <long name="contextual_rate_us_max_allowable_times" value="1" />
+    <string name="c2q_superpacks_manifest_url_ja"></string>
+    <boolean name="federatedc2q_enable_custom_thresholds_trending_queries" value="false" />
+    <float name="federatedc2q_inference_triggering_threshold_trending_queries" value="0.0" />
+    <boolean name="native_language_hint_show_overlay" value="false" />
+    <long name="google_keyboard_hotwater_faucet_interval" value="0" />
+    <boolean name="enable_avatar_creation_simplified_preview" value="true" />
+    <boolean name="enable_multilingual_emoji_search" value="true" />
+    <long name="native_language_hint_show_notice_max_times" value="0" />
+    <string name="c2q_superpacks_manifest_url_it">https://www.gstatic.com/android/keyboard/conv2query/S/it/2018102522/superpacks_manifest_it.zip</string>
+    <float name="literal_start_penalty_any_autocor_relative_step" value="0.0033333" />
+    <boolean name="enable_exact_match_for_emoji_search" value="false" />
+    <boolean name="enable_full_backup_content" value="false" />
+    <string name="delight_overrides_metadata_uri"></string>
+    <string name="grpc_server_host">gboard-pa.googleapis.com</string>
+    <string name="expressive_stickers_metadata_version">1000027</string>
+    <float name="punctuation_prediction_penalty" value="0.8" />
+    <boolean name="skip_try_initialize" value="false" />
+    <boolean name="conv2query_extension_enabled" value="true" />
+    <boolean name="enable_share_and_view_more_labels" value="true" />
+    <long name="keyboard_shown_notification_timing" value="1" />
+    <string name="__bytes__fst_model_params_overrides"></string>
+    <string name="c2q_superpacks_manifest_url_fr">https://www.gstatic.com/android/keyboard/conv2query/S/fr/2018102522/superpacks_manifest_fr.zip</string>
+    <boolean name="contextual_appindexing_context_enabled" value="false" />
+    <string name="conv2query_extension_locales">de,en,es,fr,it,ms,pt,ta</string>
+    <boolean name="enable_thread_boosting" value="true" />
+    <string name="dynamic_rate_limit_candidate_types">SEARCHABLE_TEXT,GIF_SEARCHABLE_TEXT,EXPRESSION_SEARCHABLE_TEXT,MAKE_A_GIF</string>
+    <boolean name="delete_legacy_delight_lms" value="false" />
+    <boolean name="enable_conv2expression_candidates" value="true" />
+    <boolean name="enable_magic_g_candidate_source_icon" value="true" />
+    <string name="delight_metadata_uri">https://www.gstatic.com/android/keyboard/dictionarypack/Wheelharp-normal/metadata_for_launch_noac.json</string>
+    <boolean name="enable_emoji_search_suggestion_strip" value="true" />
+    <string name="s3_asr_language_tags_list">af,af-za,am,am-et,ar-ae,ar-bh,ar-dz,ar-eg,ar-iq,ar-ly,ar-ma,ar-mr,ar-om,ar-sa,ar-sd,ar-td,ar-tn,ar-x-levant,ar-ye,az-az,bg,bg-bg,bn-bd,bn-in,bn-latn,bs,bs-ba,ca,ca-xq,cs,cs-cz,da,da-dk,de-at,de-be,de-ch,de-de,de-lu,el-cy,el-gr,en-au,en-ca,en-gb,en-in,en-ke,en-ng,en-ph,en-us,en-za,es-419,es-ar,es-es,es-mx,es-us,et-ee,eu-es,fa,fa-ir,fi,fi-fi,fr-002,fr-be,fr-ca,fr-ch,fr-fr,gl-es,gu-in,gu-latn,gu-latn-in,hi,hi-in,hi-latn,hi-latn-in,hr,hr-hr,hu,hu-hu,hy-am,in,in-id,is,is-is,it-ch,it-it,iw-il,ja-jp,jv-latn,jv-latn-id,ka-ge,kk,kk-kz,km-kh,kn-in,kn-latn,kn-latn-in,ko,ko-kr,lo-la,lt,lt-lt,lv,lv-lv,mk,mk-mk,ml-in,ml-latn,ml-latn-in,mn-mn,mr-in,mr-latn,mr-latn-in,ms-bn,ms-my,ms-sg,my,my-mm,nb,nb-no,ne-in,ne-latn,ne-np,nl-be,nl-nl,nr-za,nso,nso-za,pa-guru,pa-latn,pl,pl-pl,pt-002,pt-ao,pt-br,pt-mo,pt-pt,ro-md,ro-ro,ru-by,ru-kg,ru-ru,rw,rw-rw,si-lk,sk,sk-sk,sl,sl-si,sq-x-standard,sr-cyrl-rs,sr-latn-rs,srp-latn-me,ss-sz,ss-za,st,st-ls,su-latn,su-latn-id,sv-fi,sv-se,sw,ta-in,ta-latn,ta-lk,ta-sg,te-in,te-latn,te-latn-in,th-th,tl,tl-ph,tn-bw,tn-za,tr-cy,tr-tr,ts,uk,uk-ua,ur-in,ur-latn,ur-pk,uz-latn,uz-latn-uz,ve-za,vi,vi-vn,xh,zh-cn,zh-hk,zh-tw,zu,zu-za</string>
+    <boolean name="federatedc2q_conv2query_candidates_enabled" value="true" />
+    <boolean name="native_language_hint_by_system_locales" value="false" />
+    <string name="multiword_candidate_language_tags">en-US</string>
+    <boolean name="enable_conv2query_for_chevron_ui" value="true" />
+    <boolean name="disable_user_history_learning_across_abort_composing" value="true" />
+    <float name="literal_start_penalty_relative_min" value="0.5" />
+    <boolean name="primes_battery_logging_enabled" value="false" />
+    <long name="autocorrection_disabled_candidate_type_bitmask" value="8" />
+    <long name="contextual_rate_us_max_allowable_attempts" value="5" />
+    <boolean name="should_show_emojis_before_other_media_in_universal" value="true" />
+    <boolean name="enable_content_suggestion_in_emoji_keyboard" value="false" />
+    <boolean name="enable_emoji_search_ranking" value="true" />
+    <boolean name="check_flag_diff_before_notifying_observers" value="true" />
+    <string name="dynamic_rate_limit_interaction_strategy">RESET</string>
+    <long name="delight_latest_metadata_version" value="2019100102" />
+    <long name="c2q_superpacks_manifest_version_it" value="4" />
+    <boolean name="enable_one_tap_to_share" value="false" />
+    <long name="federatedc2q_models_metadata_version" value="1" />
+    <boolean name="superpacks_enable_history_trace" value="false" />
+    <float name="multiword_threshold_score" value="3.0" />
+    <boolean name="emoji_keyboard_prewarm_enabled" value="false" />
+    <boolean name="enable_clear_input_and_select_upon_share_text" value="false" />
+    <string name="country_cutout_switches">AE,ARE,784,AG,ATG,028,AL,ALB,008,AO,AGO,024,AR,ARG,032,AM,ARM,051,AT,AUT,040,AU,AUS,036,AW,ABW,533,AZ,AZE,031,BA,BIH,070,BD,BGD,050,BE,BEL,056,BF,BFA,854,BG,BGR,100,BH,BHR,048,BJ,BEN,204,BG,BGR,100,BO,BOL,068,BR,BRA,076,BS,BHS,044,BW,BWA,072,BY,BLR,112,BZ,BLZ,084,CA,CAN,124,CH,CHE,756,CL,CHL,152,CM,CMR,120,CN,CHN,156,CO,COL,170,CR,CRI,188,CU,CUB,192,CV,CPV,132,CY,CYP,196,CZ,CZE,203,DE,DEU,276,DO,DOM,214,DK,DNK,208,DZ,DZA,012,EC,ECU,218,EG,EGY,818,ES,ESP,724,EE,EST,233,FI,FIN,246,FJ,FJI,242,FR,FRA,250,GA,GAB,266,GB,GBR,826,GH,GHA,288,GR,GRC,300,GT,GTM,320,GW,GNB,624,HK,HKG,344,HN,HND,340,HR,HRV,191,HT,HTI,332,HU,HUN,348,ID,IDN,360,IE,IRL,372,IL,ISR,376,IN,IND,356,IR,IRN,364,IS,ISL,352,IT,ITA,380,JM,JAM,388,JO,JOR,400,JP,JPN,392,KE,KEN,404,KG,KGZ,417,KH,KHM,116,KR,KOR,410,KW,KWT,414,KZ,KAZ,398,LA,LAO,418,LB,LBN,422,LI,LIE,438,LK,LKA,144,LT,LTU,440,LU,LUX,442,LV,LVA,428,NL,NLD,528,MA,MAR,504,MD,MDA,498,MK,MKD,807,ML,MLI,466,MT,MLT,470,MU,MUS,480,MX,MEX,484,MY,MYS,458,MZ,MOZ,508,NA,NAM,516,NE,NER,562,NG,NGA,566,NI,NIC,558,NL,NLD,528,NO,NOR,578,NP,NPL,524,NZ,NZL,554,OM,OMN,512,PA,PAN,591,PE,PER,604,PG,PNG,598,PH,PHL,608,PK,PAK,586,PL,POL,616,PT,PRT,620,PY,PRY,600,QA,QAT,634,RO,ROU,642,RS,SRB,688,RU,RUS,643,RW,RWA,646,SA,SAU,682,SD,SDN,736,SE,SWE,752,SG,SGP,702,SI,SVN,705,SK,SVK,703,SN,SEN,686,SV,SLV,222,TG,TGO,768,TH,THA,764,TJ,TJK,762,TM,TKM,795,TN,TUN,788,TR,TUR,792,TT,TTO,780,TW,TWN,158,TZ,TZA,834,UA,UKR,804,UG,UGA,800,US,USA,840,UY,URY,858,UZ,UZB,860,VE,VEN,862,VN,VNM,704,YE,YEM,887,ZA,ZAF,710,ZM,ZMB,894,ZW,ZWE,716</string>
+    <long name="contextual_annotator_superpacks_version" value="20180320" />
+    <float name="literal_start_penalty_revert_relative_step" value="0.02" />
+    <long name="c2q_superpacks_manifest_version_ja" value="0" />
+    <string name="curated_gif_urls">https://media.tenor.com/images/eb707bb9c16cce278309b806437de097/tenor.gif,https://media.tenor.com/images/bb3c1585388c76140a56243ad58516e3/tenor.gif,https://media.tenor.com/images/8cf38543eebff103df6f1ec2730a5bde/tenor.gif,https://media.tenor.com/images/f2dcaaffe29ac111df8e333221ee231b/tenor.gif,https://media.tenor.com/images/a46fb163eedac8b73fd5b37522bb6454/tenor.gif,https://media.tenor.com/images/d7e9839f7816f2e7e00833d3878c8ae6/tenor.gif,https://media.tenor.com/images/890a0f650405054b82510c83b11a4be4/tenor.gif,https://media.tenor.com/images/a625312efec75d0487d2d9cbaa44a316/tenor.gif,https://media.tenor.com/images/323334b2a3d448b296bb813b25c12b96/tenor.gif,https://media.tenor.com/images/b23770782dd10e41d1efb2547ed4b106/tenor.gif,https://media.tenor.com/images/3579c2ea87dab612331fe6642cf72bc5/tenor.gif,https://media.tenor.com/images/053f4becdb91f78b78ef1f420686f971/tenor.gif,https://media.tenor.com/images/f5fafa9023d2ca0242e565cca321575a/tenor.gif,https://media.tenor.com/images/e3067445e4adae8bbf4eebf5c5e70582/tenor.gif,https://media.tenor.com/images/e1568d1a9cd6112b64757319c8130b67/tenor.gif,https://media.tenor.com/images/72d6a1ee3601e07ac0e0f6e446fb1070/tenor.gif,https://media.tenor.com/images/9f325db2402a93c645f802811a17e04d/tenor.gif,https://media.tenor.com/images/bd1569bb2d1a85780cfd2386d5333072/tenor.gif</string>
+    <boolean name="enable_tenor_category_api" value="true" />
+    <boolean name="enable_emoji_predictor_for_primary_locale_in_multilingual" value="false" />
+    <boolean name="dynamic_rate_limit_store_impressions_in_preferences" value="true" />
+    <boolean name="enable_post_decode_literal_generation" value="true" />
+    <boolean name="enable_neural_spatial_model" value="true" />
+    <string name="handwriting_superpacks_manifest_url">https://dl.google.com/handwriting/models/handwriting.superpack_manifest.20190111.json</string>
+    <string name="unsupported_apps_for_share_intent">com.google.android.gm,com.google.android.gm.lite,com.android.systemui,com.facebook.katana,com.facebook.lite,com.instagram.android</string>
+    <string name="c2q_superpacks_manifest_url_en">https://www.gstatic.com/android/keyboard/conv2query/W/en/tenorgiftags-anduserqueries-smsy/superpacks_manifest_en.zip</string>
+    <float name="min_lm_score_for_best_key_consideration" value="0.0" />
+    <string name="federatedc2q_corpus_tag">glowg/wheelharp</string>
+    <string name="c2q_superpacks_manifest_url_es">https://www.gstatic.com/android/keyboard/conv2query/S/es/2018102522/superpacks_manifest_es.zip</string>
+    <boolean name="enable_fc2q_log_shares_to_training_cache" value="true" />
+    <float name="multiword_gesture_cost" value="5.0" />
+    <string name="federatedc2q_prediction_model_variant"></string>
+    <boolean name="enable_emoji_icon_action_color" value="false" />
+    <boolean name="enable_ondevice_recognizer" value="false" />
+    <float name="key_correction_ignore_fraction" value="0.8" />
+    <long name="c2q_superpacks_manifest_version_fr" value="4" />
+    <long name="user_history_retention_days" value="63" />
+    <boolean name="save_non_prime_keyboard_type" value="true" />
+    <string name="federatedc2q_ranking_training_population"></string>
+    <boolean name="enable_open_access_points_at_zero_state" value="true" />
+    <string name="__bytes__expressive_stickers_market_config">IgdwYWNrcy81IgdwYWNrcy82IgxwYWNrcy84ODA0MDEiDHBhY2tzLzg4MDUwMiIMcGFja3MvNzkz&#10;MDEwMgxwYWNrcy80Mjk2OTkyDHBhY2tzLzg4MDUwMjIMcGFja3MvODgwNTAxMgdwYWNrcy84Mgxw&#10;YWNrcy84ODAxOTQyDHBhY2tzLzc3NzY2NjIHcGFja3MvNjIHcGFja3MvMTIHcGFja3MvMjIHcGFj&#10;a3MvNDIIcGFja3MvMTMyCHBhY2tzLzE0MghwYWNrcy8xNTIIcGFja3MvMTYyDHBhY2tzLzg4MDMw&#10;ODIMcGFja3MvODgwMTk2MgxwYWNrcy84ODAzMDkyDHBhY2tzLzc5MjAxMDIIcGFja3MvMTgyCHBh&#10;Y2tzLzE5MghwYWNrcy8yMDIIcGFja3MvMjEyDHBhY2tzLzU0NzYxODIMcGFja3MvNjAxOTQzMgxw&#10;YWNrcy82MTM0NjgyDHBhY2tzLzc5OTAxMDIMcGFja3MvODgwNjAxMgxwYWNrcy84ODAxOTEyDHBh&#10;Y2tzLzg4MDE5MjIMcGFja3MvODgwMTk5MgxwYWNrcy84ODAxOTMyDHBhY2tzLzg4MDE5NTIMcGFj&#10;a3MvODgwMTk3MgxwYWNrcy84ODAzMDEyDHBhY2tzLzg4MDMwMjIMcGFja3MvODgwMzAzMgxwYWNr&#10;cy84ODAzMDQyDHBhY2tzLzg4MDMwNTIMcGFja3MvODgwMzA3MghwYWNrcy8xMjIMcGFja3MvODgw&#10;NDAxMghwYWNrcy8xNzIMcGFja3MvODgwMjAyMgdwYWNrcy81MgdwYWNrcy8zMgdwYWNrcy85Mgxw&#10;YWNrcy84MDYyNTgyCHBhY2tzLzIyMghwYWNrcy8xMDIHcGFja3MvNzIMcGFja3MvOTQ3OTkxMgxw&#10;YWNrcy83OTMwMTAyDHBhY2tzLzc5MzAyMDIMcGFja3MvNzkzMDMwMgxwYWNrcy83OTQwMTAyDHBh&#10;Y2tzLzc5NDAyMDIMcGFja3MvNzk0MDMwMgxwYWNrcy84ODA4MDMyDHBhY2tzLzc5OTAyMDIMcGFj&#10;a3MvNzMwNzAyMgxwYWNrcy83MzA3MDQyDHBhY2tzLzc5OTAzMDIMcGFja3MvODgwMjAwMgxwYWNr&#10;cy84ODAxOTgyDHBhY2tzLzg4MDgxMDIMcGFja3MvODgwODA0MgxwYWNrcy8xMDAwMDIyDHBhY2tz&#10;LzEwMDAwMTIMcGFja3MvODgwODAxMgxwYWNrcy84ODA4MDIyDHBhY2tzLzk5OTAxMDIMcGFja3Mv&#10;NzMwNzAzMgxwYWNrcy84ODA4MDUyDHBhY2tzLzg4MDgwNjIMcGFja3MvODgwODA4MgxwYWNrcy84&#10;ODA4MDkyDHBhY2tzLzg4MDgwNzIMcGFja3MvNzg5MDA1MgxwYWNrcy83ODkwMDQyDHBhY2tzLzc4&#10;OTAwMjIMcGFja3MvNzg5MDAzMgxwYWNrcy83OTEwMTAyDHBhY2tzLzc5MTAyMDIMcGFja3MvNzkx&#10;MDMwMgxwYWNrcy83Nzc4MTAyDHBhY2tzLzc3NzgyMDIMcGFja3MvNzc3ODMwMgxwYWNrcy83Nzc4&#10;NDAyDHBhY2tzLzc3Nzg1MDIMcGFja3MvNzk1MDEwMgxwYWNrcy83ODkwMDYyDHBhY2tzLzc3Nzcw&#10;MTIMcGFja3MvNzc3NzAyMgxwYWNrcy83Nzc3MDMyDHBhY2tzLzc3NzcwNDIMcGFja3MvNzc3NzA1&#10;MgxwYWNrcy83MzAyNjUyDHBhY2tzLzczMDcwMTIMcGFja3MvNzMwNTAxMgxwYWNrcy83MzAyNjIy&#10;DHBhY2tzLzczMDI1NTIMcGFja3MvNzMwMjUxMgxwYWNrcy83MzAyNTYyDHBhY2tzLzM2ODQ3NTIM&#10;cGFja3MvNzMwMjU0MgxwYWNrcy83MzAyNTkyDHBhY2tzLzczMDI1ODIMcGFja3MvMzY4NDczMgxw&#10;YWNrcy8zNjg0NzQyDHBhY2tzLzM2ODQ3MTIMcGFja3MvNzMwMjUzMgxwYWNrcy83MzAyNjEyDHBh&#10;Y2tzLzc5OTA1MDIMcGFja3MvNzk5MDYwMgxwYWNrcy83OTkwNzAyCHBhY2tzLzI0MghwYWNrcy8y&#10;NTIIcGFja3MvMjkyDHBhY2tzLzIwMDAwMjIMcGFja3MvMjAwMDAzMgxwYWNrcy82MDAyMDEyDHBh&#10;Y2tzLzYwMDIwMjIMcGFja3MvNzk2MDEwMgxwYWNrcy83OTYwMjAyDHBhY2tzLzIwMDAwMTIMcGFj&#10;a3MvMjAwMDA1MgxwYWNrcy82MDAzMDMyDHBhY2tzLzYwMDMwMjIMcGFja3MvNjAwMzAxMgxwYWNr&#10;cy82MDAzMDYyCHBhY2tzLzIzMgxwYWNrcy8yMDAwMDQyCHBhY2tzLzI3MghwYWNrcy8zMDIMcGFj&#10;a3MvNjAwMTAxMgxwYWNrcy82MDAxMDMyDHBhY2tzLzYwMDEwMjIIcGFja3MvMjYyCHBhY2tzLzMx&#10;MghwYWNrcy8yODIMcGFja3MvNzg5MDAxMgxwYWNrcy85NDY5OTMyDHBhY2tzLzk0Njk5NTIMcGFj&#10;a3MvOTQ3OTkwMgxwYWNrcy85NDkxMDMyDHBhY2tzLzk0OTEwNDIMcGFja3MvOTQ5MTA1MgxwYWNr&#10;cy85NDkxMDYyDHBhY2tzLzk0OTExMDIMcGFja3MvOTQ5MTAyMgxwYWNrcy85NDgwMDQyDHBhY2tz&#10;Lzk0ODAwMjIMcGFja3MvOTQ2OTkyMgxwYWNrcy85NDkxMDkyDHBhY2tzLzk0OTEwODIMcGFja3Mv&#10;OTQ4MDAxMgxwYWNrcy85NDkxMDcyDHBhY2tzLzk0Njk5MDIMcGFja3MvOTQ4MDAzMgxwYWNrcy85&#10;NDkwMDEyDHBhY2tzLzk0Njk5MTIMcGFja3MvOTQ2OTk0MgxwYWNrcy85NDkxMDEyDHBhY2tzLzk0&#10;OTAwMjoScGFja3MvOC9zdGlja2Vycy8zOhJwYWNrcy8zL3N0aWNrZXJzLzE6GHBhY2tzLzg4MDIw&#10;MC9zdGlja2Vycy8xNToTcGFja3MvNS9zdGlja2Vycy8xODoScGFja3MvMy9zdGlja2Vycy8zOhJw&#10;YWNrcy84L3N0aWNrZXJzLzc6EnBhY2tzLzkvc3RpY2tlcnMvNzoTcGFja3MvMTEvc3RpY2tlcnMv&#10;NjoUcGFja3MvMTAvc3RpY2tlcnMvMTg6FHBhY2tzLzIyL3N0aWNrZXJzLzEyOhdwYWNrcy84ODAy&#10;MDAvc3RpY2tlcnMvNjoTcGFja3MvNy9zdGlja2Vycy8xMQ==&#10;    </string>
+    <boolean name="enable_universal_media_more_emoji_btn" value="false" />
+    <long name="c2q_pill_popup_max_rate_limit_ms" value="2592000000" />
+    <float name="ranker_additional_weight_slope_emoji" value="0.0" />
+    <boolean name="enable_launch_feature_on_one_tap_to_search" value="true" />
+    <long name="lstm_federated_training_period_seconds" value="3600" />
+    <string name="c2q_superpacks_manifest_url_de">https://www.gstatic.com/android/keyboard/conv2query/S/de/2018102522/superpacks_manifest_de.zip</string>
+    <long name="prediction_branching_limit" value="1" />
+    <boolean name="enable_tooltip_for_glow_g_candidate" value="false" />
+    <boolean name="enable_magic_g_rate_limit" value="true" />
+    <long name="unified_ime_timeout" value="10000" />
+    <boolean name="enable_joystick_delete" value="false" />
+    <boolean name="enable_mozc_superpacks_japanese_phonetic_reading" value="true" />
+    <long name="contextual_candidate_cache_ttl_sec" value="14400" />
+    <string name="c2q_superpacks_manifest_url_ta">https://www.gstatic.com/android/keyboard/conv2query/S/ta/2018102522/superpacks_manifest_ta.zip</string>
+    <boolean name="enable_feature_cards" value="true" />
+    <boolean name="supports_battery_saver_theme" value="false" />
+    <boolean name="tenor_use_different_domain_for_thumbnail" value="true" />
+    <boolean name="enable_magic_g" value="true" />
+    <boolean name="enable_tenor_tiny_gif_thumbnail" value="true" />
+    <boolean name="enable_dynamic_candidate_partitioning" value="false" />
+    <string name="enable_magic_g_locales">de,en,es,fr,it,ms,pt,ta</string>
+    <boolean name="federatedc2q_extra_candidates_enabled" value="false" />
+    <float name="key_correction_language_weight" value="1.0" />
+    <long name="c2q_superpacks_manifest_version_zh_cn" value="0" />
+    <boolean name="enable_twiddler_multiword_engine" value="false" />
+    <boolean name="prune_user_history_by_timestamp" value="true" />
+    <boolean name="federatedc2q_conv2gif_candidates_enabled" value="true" />
+    <string name="enable_autocorrection_adaptation_locales">*</string>
+    <string name="c2q_superpacks_manifest_url_pt">https://www.gstatic.com/android/keyboard/conv2query/V/pt/glowglist-no-web-search/superpacks_manifest_pt.zip</string>
+    <long name="c2q_superpacks_manifest_version_en" value="17" />
+    <boolean name="federatedc2q_ranking_training_enabled" value="false" />
+    <boolean name="primes_dir_stats_logging_enabled" value="false" />
+    <boolean name="enable_fallback_art_corpus_to_universal_media" value="false" />
+    <string name="c2q_superpacks_manifest_url_zh_tw"></string>
+    <string name="enabled_sticker_search_locales">ar,de,en,es,fr,hi-IN,hi-Latn,id,it,ja,ko,nl,pl,pt,ru,th,tr,zh-CN,zh-HK,zh-TW</string>
+    <long name="c2q_superpacks_manifest_version_es" value="4" />
+    <long name="nwp_manifest_version" value="20180920" />
+    <string name="nwp_superpacks_manifest_uri">https://www.gstatic.com/android/keyboard/next_word_predictor/prod/superpacks-manifest-20180920.json</string>
+    <string name="emoji_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/modelpack/emoji/20190401132437/superpacks_manifest.zip</string>
+    <long name="handwriting_superpacks_manifest_version" value="9" />
+    <boolean name="enable_promotion_of_multi_term_matches_in_emoji_search" value="false" />
+    <boolean name="primes_memory_logging_enabled" value="false" />
+    <boolean name="enable_flogger" value="true" />
+    <boolean name="enable_morse_switch_access" value="true" />
+    <boolean name="enable_chevron_ui_v2" value="true" />
+    <boolean name="enable_autospace_after_punctuation_setting" value="true" />
+    <long name="emoji_predictor_manifest_version" value="20190205" />
+    <long name="stickers_new_release_badges_show_after_nth_open" value="0" />
+    <boolean name="unload_dynamic_lm_synchronously" value="false" />
+    <boolean name="enable_en_us_morse" value="true" />
+    <string name="c2q_superpacks_manifest_url_zh_cn"></string>
+    <long name="nwp_min_supported_version" value="20180920" />
+    <boolean name="enable_filter_image_search_results" value="true" />
+    <boolean name="enable_handwriting_zh_hk" value="true" />
+    <boolean name="dispatcher_should_dispatch_engines" value="true" />
+    <boolean name="tenor_force_tiny_gif" value="true" />
+    <long name="contextual_rate_us_interval_rate_limit_days" value="30" />
+    <long name="key_correction_speed_limit_millis" value="100" />
+    <float name="literal_start_penalty_relative_max" value="1.02" />
+    <long name="c2q_superpacks_manifest_version_ta" value="3" />
+    <boolean name="enable_universal_media" value="true" />
+    <float name="multiword_prediction_cost" value="1.4" />
+    <boolean name="log_user_edit_metadata" value="true" />
+    <long name="c2q_superpacks_manifest_version_de" value="4" />
+    <boolean name="enable_conv2makeagif_candidates" value="true" />
+    <boolean name="c2q_asynchronously_triggered" value="false" />
+    <long name="delight_latest_overrides_metadata_version" value="-1" />
+    <boolean name="ignore_word_separators_for_prediction_context" value="true" />
+    <float name="key_gaussian_width_multiplier" value="1.0" />
+    <boolean name="enable_personal_dictionary" value="true" />
+    <string name="__bytes__urgent_signals">COnh7ZYBEgIIARLtKQgBEikIBRIFYXJfQUUaHgoN2LPZg9izINmB2YTZhQoN2YHZhNmFINiz2YPY&#10;sxIpCAUSBWFyX0JIGh4KDdiz2YPYsyDZgdmE2YUKDdmB2YTZhSDYs9mD2LMSKQgFEgVhcl9EShoe&#10;Cg3Ys9mD2LMg2YHZhNmFCg3ZgdmE2YUg2LPZg9izEikIBRIFYXJfRFoaHgoN2LPZg9izINmB2YTZ&#10;hQoN2YHZhNmFINiz2YPYsxIpCAUSBWFyX0VHGh4KDdiz2YPYsyDZgdmE2YUKDdmB2YTZhSDYs9mD&#10;2LMSKQgFEgVhcl9MWRoeCg3Ys9mD2LMg2YHZhNmFCg3ZgdmE2YUg2LPZg9izEikIBRIFYXJfTUEa&#10;HgoN2LPZg9izINmB2YTZhQoN2YHZhNmFINiz2YPYsxIpCAUSBWFyX09NGh4KDdiz2YPYsyDZgdmE&#10;2YUKDdmB2YTZhSDYs9mD2LMSKQgFEgVhcl9TQRoeCg3Ys9mD2LMg2YHZhNmFCg3ZgdmE2YUg2LPZ&#10;g9izEikIBRIFYXJfU0QaHgoN2LPZg9izINmB2YTZhQoN2YHZhNmFINiz2YPYsxIpCAUSBWFyX1RO&#10;Gh4KDdiz2YPYsyDZgdmE2YUKDdmB2YTZhSDYs9mD2LMSPAgFEgVibl9CRBoxChXgpqbgp4Hgpqfg&#10;ppfgp4HgprLgp4sKGOCmuOCnjeCmpOCmqOCmpuCngeCmn+CnixI8CAUSBWJuX0lOGjEKFeCmpuCn&#10;geCmp+Cml+CngeCmsuCniwoY4Ka44KeN4Kak4Kao4Kam4KeB4Kaf4KeLEkMIBRICY3MaOwoRcG9s&#10;eWvDoW7DrSBzZW1lbmUKEXBvbHlrw6Fuw60gc3Blcm1hChNwb2x5a8OhbsOtIHNwZXJtYXR1EiUI&#10;BRICZGEaHQoHa25lcHBldAoNbcOmcmtlbGlnIHNleAoDcGlrEuwCCAUSBWVuX0FVGuACCgxiaXNl&#10;eHVhbCBtZW4KEmJpc2V4dWFsIHRocmVlc29tZQoKYmxhY2sgZGljawoEY29jawoLY3VubmlsaW5n&#10;dXMKB2ZlbGxhdGUKCGZlbGxhdGVkCghmZWxsYXRpbwoNZ29sZGVuIHNob3dlcgoPaW50byBibGFj&#10;ayBndXlzCglsYXAgZGFuY2UKDWxlc2JpYW4gYmFiZXMKDWxlc2JpYW4gZ2lybHMKDWxlc2JpYW4g&#10;dGVlbnMKBW5pZ2dhCgZuaWdnZXIKBG9yYWwKDXJhZGljYWwgaXNsYW0KD3JhZGljYWwgaXNsYW1p&#10;YwoGcmV0YXJkCghyZXRhcmRlZAoHcmV0YXJkcwoOc2l0IG9uIG15IGZhY2UKDXNpdCBvbiBteSBs&#10;YXAKEHNpdCBvbiB5b3VyIGZhY2UKD3NpdCBvbiB5b3VyIGxhcAoKc3RpZmYgY29jawoKc3RpZmYg&#10;ZGljaxLsAggFEgVlbl9DQRrgAgoMYmlzZXh1YWwgbWVuChJiaXNleHVhbCB0aHJlZXNvbWUKCmJs&#10;YWNrIGRpY2sKBGNvY2sKC2N1bm5pbGluZ3VzCgdmZWxsYXRlCghmZWxsYXRlZAoIZmVsbGF0aW8K&#10;DWdvbGRlbiBzaG93ZXIKD2ludG8gYmxhY2sgZ3V5cwoJbGFwIGRhbmNlCg1sZXNiaWFuIGJhYmVz&#10;Cg1sZXNiaWFuIGdpcmxzCg1sZXNiaWFuIHRlZW5zCgVuaWdnYQoGbmlnZ2VyCgRvcmFsCg1yYWRp&#10;Y2FsIGlzbGFtCg9yYWRpY2FsIGlzbGFtaWMKBnJldGFyZAoIcmV0YXJkZWQKB3JldGFyZHMKDnNp&#10;dCBvbiBteSBmYWNlCg1zaXQgb24gbXkgbGFwChBzaXQgb24geW91ciBmYWNlCg9zaXQgb24geW91&#10;ciBsYXAKCnN0aWZmIGNvY2sKCnN0aWZmIGRpY2sS7AIIBRIFZW5fR0Ia4AIKDGJpc2V4dWFsIG1l&#10;bgoSYmlzZXh1YWwgdGhyZWVzb21lCgpibGFjayBkaWNrCgRjb2NrCgtjdW5uaWxpbmd1cwoHZmVs&#10;bGF0ZQoIZmVsbGF0ZWQKCGZlbGxhdGlvCg1nb2xkZW4gc2hvd2VyCg9pbnRvIGJsYWNrIGd1eXMK&#10;CWxhcCBkYW5jZQoNbGVzYmlhbiBiYWJlcwoNbGVzYmlhbiBnaXJscwoNbGVzYmlhbiB0ZWVucwoF&#10;bmlnZ2EKBm5pZ2dlcgoEb3JhbAoNcmFkaWNhbCBpc2xhbQoPcmFkaWNhbCBpc2xhbWljCgZyZXRh&#10;cmQKCHJldGFyZGVkCgdyZXRhcmRzCg5zaXQgb24gbXkgZmFjZQoNc2l0IG9uIG15IGxhcAoQc2l0&#10;IG9uIHlvdXIgZmFjZQoPc2l0IG9uIHlvdXIgbGFwCgpzdGlmZiBjb2NrCgpzdGlmZiBkaWNrEq0D&#10;CAUSBWVuX0lOGqEDCgxiaXNleHVhbCBtZW4KEmJpc2V4dWFsIHRocmVlc29tZQoKYmxhY2sgZGlj&#10;awoFY2hvb3QKBGNodXQKBGNvY2sKC2N1bm5pbGluZ3VzCgdmZWxsYXRlCghmZWxsYXRlZAoIZmVs&#10;bGF0aW8KBWdhYW5kCgRnYW5kCg1nb2xkZW4gc2hvd2VyCg9pbnRvIGJsYWNrIGd1eXMKCWxhcCBk&#10;YW5jZQoNbGVzYmlhbiBiYWJlcwoNbGVzYmlhbiBnaXJscwoNbGVzYmlhbiB0ZWVucwoFbmlnZ2EK&#10;Bm5pZ2dlcgoEb3JhbAoNcmFkaWNhbCBpc2xhbQoPcmFkaWNhbCBpc2xhbWljCgZyZXRhcmQKCHJl&#10;dGFyZGVkCgdyZXRhcmRzCg5zaXQgb24gbXkgZmFjZQoNc2l0IG9uIG15IGxhcAoQc2l0IG9uIHlv&#10;dXIgZmFjZQoPc2l0IG9uIHlvdXIgbGFwCgpzdGlmZiBjb2NrCgpzdGlmZiBkaWNrChBzdXBwb3J0&#10;IG5hcmVuZHJhChNzdXBwb3J0IHN1YnJhbWFuaWFuEuwCCAUSBWVuX0tFGuACCgxiaXNleHVhbCBt&#10;ZW4KEmJpc2V4dWFsIHRocmVlc29tZQoKYmxhY2sgZGljawoEY29jawoLY3VubmlsaW5ndXMKB2Zl&#10;bGxhdGUKCGZlbGxhdGVkCghmZWxsYXRpbwoNZ29sZGVuIHNob3dlcgoPaW50byBibGFjayBndXlz&#10;CglsYXAgZGFuY2UKDWxlc2JpYW4gYmFiZXMKDWxlc2JpYW4gZ2lybHMKDWxlc2JpYW4gdGVlbnMK&#10;BW5pZ2dhCgZuaWdnZXIKBG9yYWwKDXJhZGljYWwgaXNsYW0KD3JhZGljYWwgaXNsYW1pYwoGcmV0&#10;YXJkCghyZXRhcmRlZAoHcmV0YXJkcwoOc2l0IG9uIG15IGZhY2UKDXNpdCBvbiBteSBsYXAKEHNp&#10;dCBvbiB5b3VyIGZhY2UKD3NpdCBvbiB5b3VyIGxhcAoKc3RpZmYgY29jawoKc3RpZmYgZGljaxLs&#10;AggFEgVlbl9ORxrgAgoMYmlzZXh1YWwgbWVuChJiaXNleHVhbCB0aHJlZXNvbWUKCmJsYWNrIGRp&#10;Y2sKBGNvY2sKC2N1bm5pbGluZ3VzCgdmZWxsYXRlCghmZWxsYXRlZAoIZmVsbGF0aW8KDWdvbGRl&#10;biBzaG93ZXIKD2ludG8gYmxhY2sgZ3V5cwoJbGFwIGRhbmNlCg1sZXNiaWFuIGJhYmVzCg1sZXNi&#10;aWFuIGdpcmxzCg1sZXNiaWFuIHRlZW5zCgVuaWdnYQoGbmlnZ2VyCgRvcmFsCg1yYWRpY2FsIGlz&#10;bGFtCg9yYWRpY2FsIGlzbGFtaWMKBnJldGFyZAoIcmV0YXJkZWQKB3JldGFyZHMKDnNpdCBvbiBt&#10;eSBmYWNlCg1zaXQgb24gbXkgbGFwChBzaXQgb24geW91ciBmYWNlCg9zaXQgb24geW91ciBsYXAK&#10;CnN0aWZmIGNvY2sKCnN0aWZmIGRpY2sS7AIIBRIFZW5fUEga4AIKDGJpc2V4dWFsIG1lbgoSYmlz&#10;ZXh1YWwgdGhyZWVzb21lCgpibGFjayBkaWNrCgRjb2NrCgtjdW5uaWxpbmd1cwoHZmVsbGF0ZQoI&#10;ZmVsbGF0ZWQKCGZlbGxhdGlvCg1nb2xkZW4gc2hvd2VyCg9pbnRvIGJsYWNrIGd1eXMKCWxhcCBk&#10;YW5jZQoNbGVzYmlhbiBiYWJlcwoNbGVzYmlhbiBnaXJscwoNbGVzYmlhbiB0ZWVucwoFbmlnZ2EK&#10;Bm5pZ2dlcgoEb3JhbAoNcmFkaWNhbCBpc2xhbQoPcmFkaWNhbCBpc2xhbWljCgZyZXRhcmQKCHJl&#10;dGFyZGVkCgdyZXRhcmRzCg5zaXQgb24gbXkgZmFjZQoNc2l0IG9uIG15IGxhcAoQc2l0IG9uIHlv&#10;dXIgZmFjZQoPc2l0IG9uIHlvdXIgbGFwCgpzdGlmZiBjb2NrCgpzdGlmZiBkaWNrEpYDCAUSBWVu&#10;X1VTGooDCgxiaXNleHVhbCBtZW4KEmJpc2V4dWFsIHRocmVlc29tZQoKYmxhY2sgZGljawoEY29j&#10;awoLY3VubmlsaW5ndXMKB2ZlbGxhdGUKCGZlbGxhdGVkCghmZWxsYXRpbwoYZ2xvYmFsIHdhcm1p&#10;bmcgaXMgYSBob2F4Cg1nb2xkZW4gc2hvd2VyCg9pbnRvIGJsYWNrIGd1eXMKCWxhcCBkYW5jZQoN&#10;bGVzYmlhbiBiYWJlcwoNbGVzYmlhbiBnaXJscwoNbGVzYmlhbiB0ZWVucwoFbmlnZ2EKBm5pZ2dl&#10;cgoEb3JhbAoNcmFkaWNhbCBpc2xhbQoPcmFkaWNhbCBpc2xhbWljCgZyZXRhcmQKCHJldGFyZGVk&#10;CgdyZXRhcmRzCg5zaGUncyBhIHZpcmdpbgoOc2l0IG9uIG15IGZhY2UKDXNpdCBvbiBteSBsYXAK&#10;EHNpdCBvbiB5b3VyIGZhY2UKD3NpdCBvbiB5b3VyIGxhcAoKc3RpZmYgY29jawoKc3RpZmYgZGlj&#10;axLsAggFEgVlbl9aQRrgAgoMYmlzZXh1YWwgbWVuChJiaXNleHVhbCB0aHJlZXNvbWUKCmJsYWNr&#10;IGRpY2sKBGNvY2sKC2N1bm5pbGluZ3VzCgdmZWxsYXRlCghmZWxsYXRlZAoIZmVsbGF0aW8KDWdv&#10;bGRlbiBzaG93ZXIKD2ludG8gYmxhY2sgZ3V5cwoJbGFwIGRhbmNlCg1sZXNiaWFuIGJhYmVzCg1s&#10;ZXNiaWFuIGdpcmxzCg1sZXNiaWFuIHRlZW5zCgVuaWdnYQoGbmlnZ2VyCgRvcmFsCg1yYWRpY2Fs&#10;IGlzbGFtCg9yYWRpY2FsIGlzbGFtaWMKBnJldGFyZAoIcmV0YXJkZWQKB3JldGFyZHMKDnNpdCBv&#10;biBteSBmYWNlCg1zaXQgb24gbXkgbGFwChBzaXQgb24geW91ciBmYWNlCg9zaXQgb24geW91ciBs&#10;YXAKCnN0aWZmIGNvY2sKCnN0aWZmIGRpY2sSQggFEgZlc180MTkaNgoQY3VyYXMgYWJ1c2Fkb3Jl&#10;cwoQY3VyYXMgcGVkZXJhc3RhcwoQY3VyYXMgcGVkw7NmaWxvcxJBCAUSBWVzX0FSGjYKEGN1cmFz&#10;IGFidXNhZG9yZXMKEGN1cmFzIHBlZGVyYXN0YXMKEGN1cmFzIHBlZMOzZmlsb3MSQQgFEgVlc19F&#10;Uxo2ChBjdXJhcyBhYnVzYWRvcmVzChBjdXJhcyBwZWRlcmFzdGFzChBjdXJhcyBwZWTDs2ZpbG9z&#10;EkEIBRIFZXNfTVgaNgoQY3VyYXMgYWJ1c2Fkb3JlcwoQY3VyYXMgcGVkZXJhc3RhcwoQY3VyYXMg&#10;cGVkw7NmaWxvcxJBCAUSBWVzX1VTGjYKEGN1cmFzIGFidXNhZG9yZXMKEGN1cmFzIHBlZGVyYXN0&#10;YXMKEGN1cmFzIHBlZMOzZmlsb3MSHAgFEgVmcl9CRRoRCg9hdmFsZSBkdSBzcGVybWUSHAgFEgVm&#10;cl9DQRoRCg9hdmFsZSBkdSBzcGVybWUSHAgFEgVmcl9DSBoRCg9hdmFsZSBkdSBzcGVybWUSHAgF&#10;EgVmcl9GUhoRCg9hdmFsZSBkdSBzcGVybWUSFQgFEgJochoNCgt1YmlqIHBlZGVyYRIeCAUSAmlu&#10;GhYKCmZvdG8gYnVnaWwKCGZvdG8gaG90Eh0IBRIFaXRfQ0gaEgoQaW5nb2lvIGRpIHNwZXJtYRId&#10;CAUSBWl0X0lUGhIKEGluZ29pbyBkaSBzcGVybWESHQgFEgJpdxoVChPXpNeg15XXmdeUINec16HX&#10;p9ehEjQIBRICcGwaLAoFa3Vyd3kKBm11cnp5bgoJbXVyenluw7N3CgRuYWdvCgVwb3JubwoDc2V4&#10;Ek8IBRIFcHRfQlIaRAoJYXNzYW5oYWRhCgVkYW5kbwoSbmVncmluaGEgZGVsaWNpb3NhCgtuZWd1&#10;aW5oYSBkYQoHbm92aW5oYQoGc2FmYWRhEhMIBRIFcm9fUk8aCAoGZnV0dXRlElkIBRIFcnVfQlka&#10;Tgov0KPQutGA0LDQuNC90YHQutC40YUg0L3QsNGG0LjQvtC90LDQu9C40YHRgtC+0LIKG9Cz0LvQ&#10;vtGC0LDRgtGMINGB0L/QtdGA0LzRgxJZCAUSBXJ1X0tHGk4KL9Cj0LrRgNCw0LjQvdGB0LrQuNGF&#10;INC90LDRhtC40L7QvdCw0LvQuNGB0YLQvtCyChvQs9C70L7RgtCw0YLRjCDRgdC/0LXRgNC80YMS&#10;WQgFEgVydV9SVRpOCi/Qo9C60YDQsNC40L3RgdC60LjRhSDQvdCw0YbQuNC+0L3QsNC70LjRgdGC&#10;0L7Qsgob0LPQu9C+0YLQsNGC0Ywg0YHQv9C10YDQvNGDEjYIBRIFdGFfSU4aKwoS4K6a4K+B4K6j&#10;4K+N4K6j4K+AChXgrprgr4Hgrqngr43grqngrr/grq8SNggFEgV0YV9MSxorChLgrprgr4HgrqPg&#10;r43grqPgr4AKFeCumuCvgeCuqeCvjeCuqeCuv+CurxI2CAUSBXRhX1NHGisKEuCumuCvgeCuo+Cv&#10;jeCuo+CvgAoV4K6a4K+B4K6p4K+N4K6p4K6/4K6vEiUIBRICdWsaHQob0LrQvtCy0YLQsNGC0Lgg&#10;0YHQv9C10YDQvNGD&#10;    </string>
+    <boolean name="enable_nwp_tflite_engine" value="true" />
+    <boolean name="native_language_hint_by_sim_country" value="false" />
+    <float name="diacritic_cost_single_letter" value="6.0" />
+    <long name="hmm_superpacks_manifest_version" value="2019021307" />
+    <boolean name="enable_voice_ellipsis" value="false" />
+    <string name="emoji_predictor_superpacks_manifest_uri">https://www.gstatic.com/android/keyboard/emoji_predictor/superpacks-manifest-20190205.json</string>
+    <boolean name="enable_suggest_recent_clicked_c2q_candidate" value="true" />
+    <float name="federatedc2q_inference_triggering_threshold" value="-10.0" />
+    <string name="expressive_stickers_api_key">AIzaSyBPSAFlv3zpgK1jCJhlmNwl9NoAuhL-AKc</string>
+    <boolean name="enable_handwriting_zh_cn" value="true" />
+    <boolean name="enable_fixed_tenor_category" value="true" />
+    <boolean name="contextual_appindexing_odi_enabled" value="false" />
+    <boolean name="enable_zero_state_candidates" value="false" />
+    <float name="ranker_additional_weight_intercept_emoji" value="0.0" />
+    <float name="key_correction_max_speed_weight" value="2.0" />
+    <string name="c2q_superpacks_manifest_url_ms">https://www.gstatic.com/android/keyboard/conv2query/S/ms/2018102522/superpacks_manifest_ms.zip</string>
+    <long name="contextual_candidate_max_age_for_ui_sec" value="3600" />
+    <string name="dynamic_rate_limit_scaling_strategy">EXPONENTIAL</string>
+    <string name="expressive_stickers_grpc_hostname">sticker-pa.googleapis.com</string>
+    <boolean name="enable_handwriting_lstm" value="true" />
+    <long name="http_client_cache_expiration_time_in_seconds" value="86400" />
+    <string name="emoji_predictor_supported_language_tags">en-US</string>
+    <boolean name="enable_default_layout_on_decoder" value="true" />
+    <string name="app_completion_whitelist">com.google.android.apps.maps*,com.google.android.apps.gmm*,com.google.android.googlequicksearchbox*,com.google.android.apps.nexuslauncher*</string>
+    <string name="avatar_stickers_metadata_version">0</string>
+    <string name="federatedc2q_training_population">conv2query/production</string>
+    <string name="contextual_annotator_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/modelpack/contextual/contextualkeyboard-annotators-superpacks-manifest-20180320.json</string>
+    <boolean name="enable_handwriting_zh_tw" value="true" />
+    <boolean name="load_dynamic_lm_synchronously" value="false" />
+    <string name="avatar_stickers_api_key">AIzaSyBeuEkY825uj8CHZSSO0NU6Kl67zjwHeyM</string>
+    <boolean name="enable_native_key_correction" value="true" />
+    <boolean name="federatedc2q_training_enabled" value="false" />
+    <boolean name="enable_tapped_key_check_in_prediction_cache" value="false" />
+    <boolean name="enable_morse_hint" value="true" />
+    <boolean name="conv2query_network_status_check_enabled" value="true" />
+    <boolean name="enable_show_disabled_mic" value="true" />
+    <float name="key_gaussian_height_multiplier" value="0.7" />
+    <long name="c2q_superpacks_manifest_version_zh_tw" value="0" />
+    <boolean name="lstm_training_requires_idle" value="true" />
+    <boolean name="enable_emoji_predictor_for_first_supported_locale_in_multilingual" value="false" />
+    <string name="s3_langid_languages_list">af,ar,bg,ca,cs,da,de,el,en,es,eu,fa,fi,fr,gl,hi,hr,hu,in,is,it,iw,ja,ko,lt,ms,nb,nl,pl,pt,ro,ru,sk,sl,sr,sv,th,tl,tr,uk,vi,zh,zu</string>
+    <string name="federatedc2q_models_metadata_uri">https://www.gstatic.com/android/keyboard/modelpack/federatedc2q/superpacks_manifest.json</string>
+    <boolean name="use_emoji_for_expression_candidate_source_icon" value="false" />
+    <boolean name="log_next_word_prediction_match" value="true" />
+    <long name="c2q_superpacks_manifest_version_pt" value="5" />
+    <boolean name="enable_local_cards_v2" value="true" />
+    <boolean name="reject_nontrivial_postcorrections" value="true" />
+    <string name="hmm_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/hmmpack/2019021307/metadata_2019021307.json</string>
+    <boolean name="enable_emoji_predictor_tflite_engine" value="true" />
+    <long name="c2q_pill_popup_rate_limit_ms" value="1000" />
+</map>

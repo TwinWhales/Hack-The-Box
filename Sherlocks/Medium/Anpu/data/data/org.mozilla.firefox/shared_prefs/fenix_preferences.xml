@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="pref_key_return_to_browser" value="true" />
+    <boolean name="pref_key_utm_params_known" value="true" />
+    <int name="pref_key_installed_addons_count" value="0" />
+    <int name="pref_key_open_tabs_count" value="1" />
+    <boolean name="pref_key_should_show_jump_back_in_tabs_popup" value="false" />
+    <boolean name="pref_key_should_migrate_wallpaper" value="false" />
+    <boolean name="pref_key_is_first_run" value="false" />
+    <long name="pref_key_nimbus_last_fetch" value="1720734392930" />
+    <boolean name="pref_key_last_known_mode_private" value="false" />
+    <int name="pref_key_top_sites_size" value="3" />
+    <string name="pref_key_adjust_network">Organic</string>
+    <int name="pref_key_growth_early_browse_count" value="1" />
+    <boolean name="pref_key_is_first_splash_screen_shown" value="true" />
+    <boolean name="pref_key_should_migrate_wallpaper_card_colors" value="false" />
+    <int name="pref_key_mobile_bookmarks_size" value="0" />
+    <string name="pref_key_pocket_sponsored_stories_profile">6e659e16-47f0-4fb5-8708-a52dc1cf4b92</string>
+    <int name="pref_key_enabled_addons_count" value="0" />
+    <set name="pref_key_growth_first_week_days_of_use">
+        <string>2024-07-11</string>
+        <string>2024-07-10</string>
+    </set>
+    <string name="pref_key_installed_addons_list"></string>
+    <boolean name="pref_key_nimbus_experiments_fetched" value="true" />
+    <int name="pref_key_desktop_bookmarks_size" value="0" />
+    <long name="pref_key_growth_early_browse_count_last_increment" value="1720734387791" />
+    <boolean name="pref_key_pocket_top_site_added" value="true" />
+    <long name="pref_key_last_browse_activity_time" value="1720659939226" />
+    <boolean name="pref_key_default_browser" value="false" />
+    <string name="pref_key_current_wallpaper">default</string>
+    <string name="pref_key_contile_context_id">677e8a4a-e1c6-46ac-bd0f-ddccbbd5b79a</string>
+    <long name="pref_key_growth_usage_time" value="80236" />
+    <boolean name="pref_key_wallpapers_onboarding" value="false" />
+    <boolean name="pref_key_hidden_engines_restored" value="true" />
+    <int name="pref_key_times_app_opened" value="16" />
+    <string name="pref_key_enabled_addons_list"></string>
+    <int name="pref_key_open_private_tabs_count" value="0" />
+    <boolean name="pref_key_should_show_home_onboarding_dialog" value="false" />
+    <boolean name="pref_key_follow_device_theme" value="true" />
+</map>

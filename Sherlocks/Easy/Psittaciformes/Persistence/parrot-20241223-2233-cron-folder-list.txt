@@ -1,0 +1,4 @@
+/var/spool/cron/
+/var/spool/cron/crontabs/
+/var/spool/cron/crontabs/johnspire
+/var/spool/cron/crontabs/root

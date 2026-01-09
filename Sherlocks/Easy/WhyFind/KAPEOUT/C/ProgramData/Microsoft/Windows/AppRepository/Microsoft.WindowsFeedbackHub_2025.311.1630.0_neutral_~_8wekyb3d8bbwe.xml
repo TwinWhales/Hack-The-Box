@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.WindowsFeedbackHub" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2025.311.1630.0"/>
+	<Packages>
+		<Package Type="application" Version="1.2503.11103.0" Architecture="arm64" FileName="FeedbackHub_1.2503.11103.0_ARM64.msix" Offset="67" Size="12450923">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.2503.11103.0" Architecture="x64" FileName="FeedbackHub_1.2503.11103.0_x64.msix" Offset="16155308" Size="12617901">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.2503.11103.0" Architecture="x86" FileName="FeedbackHub_1.2503.11103.0_x86.msix" Offset="28773298" Size="11387944">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-af" FileName="FeedbackHub_1.2503.11103.0_language-af.msix" Offset="12451087" Size="33769">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-am" FileName="FeedbackHub_1.2503.11103.0_language-am.msix" Offset="12484953" Size="37541">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ar" FileName="FeedbackHub_1.2503.11103.0_language-ar.msix" Offset="12522591" Size="37112">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-as" FileName="FeedbackHub_1.2503.11103.0_language-as.msix" Offset="12559800" Size="37817">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-az-latn" FileName="FeedbackHub_1.2503.11103.0_language-az-latn.msix" Offset="12597719" Size="34739">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-bg" FileName="FeedbackHub_1.2503.11103.0_language-bg.msix" Offset="12632555" Size="38706">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-bn" FileName="FeedbackHub_1.2503.11103.0_language-bn.msix" Offset="12671358" Size="38929">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ca" FileName="FeedbackHub_1.2503.11103.0_language-ca.msix" Offset="12745784" Size="49454">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-bs" FileName="FeedbackHub_1.2503.11103.0_language-bs.msix" Offset="12710384" Size="35303">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-cs" FileName="FeedbackHub_1.2503.11103.0_language-cs.msix" Offset="12795335" Size="36451">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-cy" FileName="FeedbackHub_1.2503.11103.0_language-cy.msix" Offset="12831883" Size="33661">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-da" FileName="FeedbackHub_1.2503.11103.0_language-da.msix" Offset="12865641" Size="32973">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-de" FileName="FeedbackHub_1.2503.11103.0_language-de.msix" Offset="12898711" Size="36160">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-el" FileName="FeedbackHub_1.2503.11103.0_language-el.msix" Offset="12934968" Size="39880">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-es" FileName="FeedbackHub_1.2503.11103.0_language-es.msix" Offset="12974945" Size="37979">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-et" FileName="FeedbackHub_1.2503.11103.0_language-et.msix" Offset="13013021" Size="33718">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-eu" FileName="FeedbackHub_1.2503.11103.0_language-eu.msix" Offset="13046836" Size="33150">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-fa" FileName="FeedbackHub_1.2503.11103.0_language-fa.msix" Offset="13080083" Size="37749">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-fi" FileName="FeedbackHub_1.2503.11103.0_language-fi.msix" Offset="13117929" Size="33759">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-fil-latn" FileName="FeedbackHub_1.2503.11103.0_language-fil-latn.msix" Offset="13151791" Size="34542">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-fr" FileName="FeedbackHub_1.2503.11103.0_language-fr.msix" Offset="13186430" Size="50532">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ga" FileName="FeedbackHub_1.2503.11103.0_language-ga.msix" Offset="13237059" Size="35553">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-gd-latn" FileName="FeedbackHub_1.2503.11103.0_language-gd-latn.msix" Offset="13272714" Size="35202">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-gl" FileName="FeedbackHub_1.2503.11103.0_language-gl.msix" Offset="13308013" Size="34132">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-gu" FileName="FeedbackHub_1.2503.11103.0_language-gu.msix" Offset="13342242" Size="38629">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-he" FileName="FeedbackHub_1.2503.11103.0_language-he.msix" Offset="13380968" Size="35123">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-hi" FileName="FeedbackHub_1.2503.11103.0_language-hi.msix" Offset="13416188" Size="37911">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-hr" FileName="FeedbackHub_1.2503.11103.0_language-hr.msix" Offset="13454196" Size="35433">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-hu" FileName="FeedbackHub_1.2503.11103.0_language-hu.msix" Offset="13489726" Size="36188">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-hy" FileName="FeedbackHub_1.2503.11103.0_language-hy.msix" Offset="13526011" Size="37638">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-id" FileName="FeedbackHub_1.2503.11103.0_language-id.msix" Offset="13563746" Size="32546">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-is" FileName="FeedbackHub_1.2503.11103.0_language-is.msix" Offset="13596389" Size="34783">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-it" FileName="FeedbackHub_1.2503.11103.0_language-it.msix" Offset="13631269" Size="34706">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ja" FileName="FeedbackHub_1.2503.11103.0_language-ja.msix" Offset="13666072" Size="34050">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ka" FileName="FeedbackHub_1.2503.11103.0_language-ka.msix" Offset="13700219" Size="38884">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-kk" FileName="FeedbackHub_1.2503.11103.0_language-kk.msix" Offset="13739200" Size="37734">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-km" FileName="FeedbackHub_1.2503.11103.0_language-km.msix" Offset="13777031" Size="39468">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-kn" FileName="FeedbackHub_1.2503.11103.0_language-kn.msix" Offset="13816596" Size="38513">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ko" FileName="FeedbackHub_1.2503.11103.0_language-ko.msix" Offset="13855206" Size="32909">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-kok" FileName="FeedbackHub_1.2503.11103.0_language-kok.msix" Offset="13888213" Size="37806">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-lb" FileName="FeedbackHub_1.2503.11103.0_language-lb.msix" Offset="13926116" Size="35468">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-lo" FileName="FeedbackHub_1.2503.11103.0_language-lo.msix" Offset="13961681" Size="38086">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-lt" FileName="FeedbackHub_1.2503.11103.0_language-lt.msix" Offset="13999864" Size="34950">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-lv" FileName="FeedbackHub_1.2503.11103.0_language-lv.msix" Offset="14034911" Size="35338">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-mi-latn" FileName="FeedbackHub_1.2503.11103.0_language-mi-latn.msix" Offset="14070351" Size="33757">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-mk" FileName="FeedbackHub_1.2503.11103.0_language-mk.msix" Offset="14104205" Size="37760">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ml" FileName="FeedbackHub_1.2503.11103.0_language-ml.msix" Offset="14142062" Size="39336">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-mr" FileName="FeedbackHub_1.2503.11103.0_language-mr.msix" Offset="14181495" Size="38088">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ms" FileName="FeedbackHub_1.2503.11103.0_language-ms.msix" Offset="14219680" Size="33029">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-mt" FileName="FeedbackHub_1.2503.11103.0_language-mt.msix" Offset="14252806" Size="35623">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-nb" FileName="FeedbackHub_1.2503.11103.0_language-nb.msix" Offset="14288526" Size="32845">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ne" FileName="FeedbackHub_1.2503.11103.0_language-ne.msix" Offset="14321468" Size="37631">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-nl" FileName="FeedbackHub_1.2503.11103.0_language-nl.msix" Offset="14359196" Size="34417">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-nn" FileName="FeedbackHub_1.2503.11103.0_language-nn.msix" Offset="14393710" Size="32991">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-or" FileName="FeedbackHub_1.2503.11103.0_language-or.msix" Offset="14426798" Size="38207">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-pl" FileName="FeedbackHub_1.2503.11103.0_language-pl.msix" Offset="14503927" Size="35993">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-pa" FileName="FeedbackHub_1.2503.11103.0_language-pa.msix" Offset="14465102" Size="38728">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-pt" FileName="FeedbackHub_1.2503.11103.0_language-pt.msix" Offset="14540017" Size="53996">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-quz-latn" FileName="FeedbackHub_1.2503.11103.0_language-quz-latn.msix" Offset="14594116" Size="32848">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ro" FileName="FeedbackHub_1.2503.11103.0_language-ro.msix" Offset="14627061" Size="35160">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ru" FileName="FeedbackHub_1.2503.11103.0_language-ru.msix" Offset="14662318" Size="39870">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sk" FileName="FeedbackHub_1.2503.11103.0_language-sk.msix" Offset="14702285" Size="36084">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sl" FileName="FeedbackHub_1.2503.11103.0_language-sl.msix" Offset="14738466" Size="35152">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sq" FileName="FeedbackHub_1.2503.11103.0_language-sq.msix" Offset="14773715" Size="35369">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sr-cyrl" FileName="FeedbackHub_1.2503.11103.0_language-sr-cyrl.msix" Offset="14809186" Size="55074">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sv" FileName="FeedbackHub_1.2503.11103.0_language-sv.msix" Offset="14900226" Size="32566">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-sr-latn" FileName="FeedbackHub_1.2503.11103.0_language-sr-latn.msix" Offset="14864362" Size="35767">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ta" FileName="FeedbackHub_1.2503.11103.0_language-ta.msix" Offset="14932889" Size="38534">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-te" FileName="FeedbackHub_1.2503.11103.0_language-te.msix" Offset="14971520" Size="38667">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-th" FileName="FeedbackHub_1.2503.11103.0_language-th.msix" Offset="15010284" Size="36115">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-tr" FileName="FeedbackHub_1.2503.11103.0_language-tr.msix" Offset="15046496" Size="34649">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-tt-cyrl" FileName="FeedbackHub_1.2503.11103.0_language-tt-cyrl.msix" Offset="15081247" Size="37355">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ug-arab" FileName="FeedbackHub_1.2503.11103.0_language-ug-arab.msix" Offset="15118704" Size="38209">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-uk" FileName="FeedbackHub_1.2503.11103.0_language-uk.msix" Offset="15157010" Size="39889">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-ur" FileName="FeedbackHub_1.2503.11103.0_language-ur.msix" Offset="15196996" Size="37927">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-uz-latn" FileName="FeedbackHub_1.2503.11103.0_language-uz-latn.msix" Offset="15235025" Size="34815">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-vi" FileName="FeedbackHub_1.2503.11103.0_language-vi.msix" Offset="15269937" Size="35652">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-zh-hans" FileName="FeedbackHub_1.2503.11103.0_language-zh-hans.msix" Offset="15305691" Size="31988">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.language-zh-hant" FileName="FeedbackHub_1.2503.11103.0_language-zh-hant.msix" Offset="15337781" Size="32109">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.scale-100" FileName="FeedbackHub_1.2503.11103.0_scale-100.msix" Offset="15369985" Size="120641">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.scale-125" FileName="FeedbackHub_1.2503.11103.0_scale-125.msix" Offset="15490721" Size="146156">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.scale-150" FileName="FeedbackHub_1.2503.11103.0_scale-150.msix" Offset="15636972" Size="170984">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.2503.11103.0" ResourceId="split.scale-400" FileName="FeedbackHub_1.2503.11103.0_scale-400.msix" Offset="15808051" Size="347168">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

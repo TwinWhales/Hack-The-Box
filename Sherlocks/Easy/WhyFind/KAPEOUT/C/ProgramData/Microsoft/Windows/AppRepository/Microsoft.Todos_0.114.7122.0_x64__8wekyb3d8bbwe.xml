@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="build" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:uap7="http://schemas.microsoft.com/appx/manifest/uap/windows10/7" xmlns:uap8="http://schemas.microsoft.com/appx/manifest/uap/windows10/8" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
+  
+  <Identity Name="Microsoft.Todos" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="0.114.7122.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="ce7f6e6e-ff78-41e5-9c54-01bac1c0ed7a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <Properties>
+    <DisplayName>ms-resource:app_name_ms_todo</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30704.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <Capability Name="privateNetworkClientServer"/>
+  </Capabilities>
+  <Applications>
+    <Application Id="App" Executable="Todo.exe" EntryPoint="Todos.App">
+      <uap:VisualElements DisplayName="ms-resource:app_name_ms_todo" Description="ms-resource:app_name_ms_todo" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png" ShortName="ms-resource:app_name_todo">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png"/>
+        <uap:SplashScreen BackgroundColor="#FFFFFF" Image="Assets\SplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appUriHandler">
+          <uap3:AppUriHandler>
+            <uap3:Host Name="to-do.microsoft.com"/>
+            <uap3:Host Name="staging.to-do.microsoft.com"/>
+            <uap3:Host Name="staging.to-do.officeppe.com"/>
+          </uap3:AppUriHandler>
+        </uap3:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-to-do">
+            <uap:DisplayName>ms-resource:app_name_ms_todo</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-todo">
+            <uap:DisplayName>ms-resource:app_name_ms_todo</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Apps.Stubs.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.VerticalOverflowDetector" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.ActivationHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.UpgradeHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.XamlMetaDataProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.InstallControl" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.37.32826.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.8.37259.26410"/>
+    <build:Item Name="ProjectGUID" Value="{AE60A234-5000-8EFC-2E20-694DF6DE7EB2}"/>
+    <build:Item Name="OptimizingToolset" Value="None"/>
+    <build:Item Name="TargetRuntime" Value="Native"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685"/>
+    <build:Item Name="MakePri.exe" Version="10.0.19041.685 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

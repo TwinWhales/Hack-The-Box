@@ -1,0 +1,13 @@
+unicast default via 192.168.68.1 dev ens33 table main proto dhcp scope global src 192.168.68.108 metric 100 
+unicast 192.168.68.0/24 dev ens33 table main proto kernel scope link src 192.168.68.108 metric 100 
+local 127.0.0.0/8 dev lo table local proto kernel scope host src 127.0.0.1 
+local 127.0.0.1 dev lo table local proto kernel scope host src 127.0.0.1 
+broadcast 127.255.255.255 dev lo table local proto kernel scope link src 127.0.0.1 
+local 192.168.68.108 dev ens33 table local proto kernel scope host src 192.168.68.108 
+broadcast 192.168.68.255 dev ens33 table local proto kernel scope link src 192.168.68.108 
+unicast ::1 dev lo table main proto kernel scope global metric 256 pref medium
+unicast fe80::/64 dev ens33 table main proto kernel scope global metric 1024 pref medium
+unicast default via fe80::56af:97ff:fe2a:59e4 dev ens33 table main proto ra scope global metric 100 pref medium
+local ::1 dev lo table local proto kernel scope global metric 0 pref medium
+local fe80::4b37:97aa:5c12:142b dev ens33 table local proto kernel scope global metric 0 pref medium
+multicast ff00::/8 dev ens33 table local proto kernel scope global metric 256 pref medium

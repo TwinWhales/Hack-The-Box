@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="sitrepGmsCoreVersion" value="202414022" />
+    <string name="sitrepGcmRegistrationId">fuq94_kb67Q:APA91bFEdcgFITtULgIVgQ0TLtViDGqB9-52J2L2oH30JebIjVoVR4TRlipNkBsrtGntur4U1cG4E7d5DrxMTZfURIVQv4NxmEfjnmRr6Oxmriot638U131oC_Z_8PDMdNWxsYT25c2o</string>
+    <boolean name="sitrepIsDeviceAdmin" value="false" />
+    <int name="oneTimeInitializedCount" value="1" />
+    <boolean name="sitrepLockscreenEnabled" value="false" />
+</map>

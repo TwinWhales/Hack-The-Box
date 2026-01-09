@@ -1,0 +1,34 @@
+Process: com.android.systemui
+PID: 2255
+UID: 10111
+Flags: 0x30c83e0d
+Package: com.android.systemui v29 (10)
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 524650
+
+android.os.strictmode.LeakedClosableViolation: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+	at android.os.StrictMode$AndroidCloseGuardReporter.report(StrictMode.java:1877)
+	at dalvik.system.CloseGuard.warnIfOpen(CloseGuard.java:286)
+	at android.view.SurfaceControl.finalize(SurfaceControl.java:904)
+	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:289)
+	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:276)
+	at java.lang.Daemons$Daemon.run(Daemons.java:137)
+	at java.lang.Thread.run(Thread.java:919)
+Caused by: java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:237)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:823)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:77)
+	at android.view.SurfaceControl$1.createFromParcel(SurfaceControl.java:889)
+	at android.view.SurfaceControl$1.createFromParcel(SurfaceControl.java:887)
+	at android.os.Parcel.readParcelable(Parcel.java:2973)
+	at android.view.RemoteAnimationTarget.<init>(RemoteAnimationTarget.java:188)
+	at android.view.RemoteAnimationTarget$1.createFromParcel(RemoteAnimationTarget.java:261)
+	at android.view.RemoteAnimationTarget$1.createFromParcel(RemoteAnimationTarget.java:259)
+	at android.os.Parcel.readTypedObject(Parcel.java:2811)
+	at android.os.Parcel.createTypedArray(Parcel.java:2772)
+	at android.view.IRemoteAnimationRunner$Stub.onTransact(IRemoteAnimationRunner.java:103)
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+	at android.os.Binder.execTransact(Binder.java:994)
+
+A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.

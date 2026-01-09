@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<WifiConfigStoreData>
+<int name="Version" value="1" />
+<NetworkList />
+<DeletedEphemeralSSIDList>
+<map name="SSIDList" />
+</DeletedEphemeralSSIDList>
+<PasspointConfigData>
+<ProviderList />
+</PasspointConfigData>
+<OpenNetworkNotifierBlacklistConfigData />
+<CarrierNetworkNotifierBlacklistConfigData />
+<NetworkRequestMap />
+<WakeupConfigStoreData>
+<FeatureState>
+<boolean name="IsActive" value="false" />
+<boolean name="IsOnboarded" value="false" />
+<int name="NotificationsShown" value="0" />
+</FeatureState>
+</WakeupConfigStoreData>
+</WifiConfigStoreData>

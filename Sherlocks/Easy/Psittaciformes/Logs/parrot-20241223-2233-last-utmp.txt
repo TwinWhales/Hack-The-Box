@@ -1,0 +1,5 @@
+johnspire tty7         Tue Sep  3 10:17:36 2024   gone - no logout                      0.0.0.0
+runlevel (to lvl 5)   Tue Sep  3 10:17:22 2024   still running                         0.0.0.0
+reboot   system boot  Tue Sep  3 10:17:19 2024   still running                         0.0.0.0
+
+utmp begins Tue Sep  3 10:17:19 2024

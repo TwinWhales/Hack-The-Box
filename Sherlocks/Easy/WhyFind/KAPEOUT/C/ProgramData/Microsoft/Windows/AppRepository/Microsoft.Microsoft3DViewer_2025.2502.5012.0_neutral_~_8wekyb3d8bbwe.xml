@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.Microsoft3DViewer" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2025.2502.5012.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="1.0.124.0" Architecture="arm64" FileName="AppxMetadata\Stub\View3DStub_1.0.124.0_ARM64.appx" Offset="79" Size="391222" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BE-BY"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UZ-LATN-UZ"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.17134.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.0.124.0" Architecture="x86" FileName="AppxMetadata\Stub\View3DStub_1.0.124.0_Win32.appx" Offset="391404" Size="384705" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BE-BY"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UZ-LATN-UZ"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.17134.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.0.124.0" Architecture="x64" FileName="AppxMetadata\Stub\View3DStub_1.0.124.0_x64.appx" Offset="776210" Size="387807" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BE-BY"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UZ-LATN-UZ"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.17134.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="7.2502.5012.0" Architecture="arm64" FileName="View3D.UWP_7.2502.5012.0_ARM64.appx" Offset="1164106" Size="37975277">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="AF-ZA"/>
+				<Resource Language="AM-ET"/>
+				<Resource Language="AR-SA"/>
+				<Resource Language="AZ-LATN-AZ"/>
+				<Resource Language="BE-BY"/>
+				<Resource Language="BG-BG"/>
+				<Resource Language="CA-ES"/>
+				<Resource Language="CS-CZ"/>
+				<Resource Language="DA-DK"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="EL-GR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ET-EE"/>
+				<Resource Language="EU-ES"/>
+				<Resource Language="FA-IR"/>
+				<Resource Language="FI-FI"/>
+				<Resource Language="FIL-PH"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="GL-ES"/>
+				<Resource Language="HE-IL"/>
+				<Resource Language="HI-IN"/>
+				<Resource Language="HR-HR"/>
+				<Resource Language="HU-HU"/>
+				<Resource Language="ID-ID"/>
+				<Resource Language="IS-IS"/>
+				<Resource Language="IT-IT"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KK-KZ"/>
+				<Resource Language="KM-KH"/>
+				<Resource Language="KN-IN"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="LO-LA"/>
+				<Resource Language="LT-LT"/>
+				<Resource Language="LV-LV"/>
+				<Resource Language="MK-MK"/>
+				<Resource Language="ML-IN"/>
+				<Resource Language="MS-MY"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL-NL"/>
+				<Resource Language="PL-PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO-RO"/>
+				<Resource Language="RU-RU"/>
+				<Resource Language="SK-SK"/>
+				<Resource Language="SL-SI"/>
+				<Resource Language="SQ-AL"/>
+				<Resource Language="SR-LATN-RS"/>
+				<Resource Language="SV-SE"/>
+				<Resource Language="TA-IN"/>
+				<Resource Language="TE-IN"/>
+				<Resource Language="TH-TH"/>
+				<Resource Language="TR-TR"/>
+				<Resource Language="UK-UA"/>
+				<Resource Language="UZ-LATN-UZ"/>
+				<Resource Language="VI-VN"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="ZH-TW"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="7.2502.5012.0" Architecture="x64" FileName="View3D.UWP_7.2502.5012.0_x64.appx" Offset="39139470" Size="39184035">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="AF-ZA"/>
+				<Resource Language="AM-ET"/>
+				<Resource Language="AR-SA"/>
+				<Resource Language="AZ-LATN-AZ"/>
+				<Resource Language="BE-BY"/>
+				<Resource Language="BG-BG"/>
+				<Resource Language="CA-ES"/>
+				<Resource Language="CS-CZ"/>
+				<Resource Language="DA-DK"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="EL-GR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ET-EE"/>
+				<Resource Language="EU-ES"/>
+				<Resource Language="FA-IR"/>
+				<Resource Language="FI-FI"/>
+				<Resource Language="FIL-PH"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="GL-ES"/>
+				<Resource Language="HE-IL"/>
+				<Resource Language="HI-IN"/>
+				<Resource Language="HR-HR"/>
+				<Resource Language="HU-HU"/>
+				<Resource Language="ID-ID"/>
+				<Resource Language="IS-IS"/>
+				<Resource Language="IT-IT"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KK-KZ"/>
+				<Resource Language="KM-KH"/>
+				<Resource Language="KN-IN"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="LO-LA"/>
+				<Resource Language="LT-LT"/>
+				<Resource Language="LV-LV"/>
+				<Resource Language="MK-MK"/>
+				<Resource Language="ML-IN"/>
+				<Resource Language="MS-MY"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL-NL"/>
+				<Resource Language="PL-PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO-RO"/>
+				<Resource Language="RU-RU"/>
+				<Resource Language="SK-SK"/>
+				<Resource Language="SL-SI"/>
+				<Resource Language="SQ-AL"/>
+				<Resource Language="SR-LATN-RS"/>
+				<Resource Language="SV-SE"/>
+				<Resource Language="TA-IN"/>
+				<Resource Language="TE-IN"/>
+				<Resource Language="TH-TH"/>
+				<Resource Language="TR-TR"/>
+				<Resource Language="UK-UA"/>
+				<Resource Language="UZ-LATN-UZ"/>
+				<Resource Language="VI-VN"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="ZH-TW"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="7.2502.5012.0" Architecture="x86" FileName="View3D.UWP_7.2502.5012.0_x86.appx" Offset="78323592" Size="36941246">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="AF-ZA"/>
+				<Resource Language="AM-ET"/>
+				<Resource Language="AR-SA"/>
+				<Resource Language="AZ-LATN-AZ"/>
+				<Resource Language="BE-BY"/>
+				<Resource Language="BG-BG"/>
+				<Resource Language="CA-ES"/>
+				<Resource Language="CS-CZ"/>
+				<Resource Language="DA-DK"/>
+				<Resource Language="DE-DE"/>
+				<Resource Language="EL-GR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ET-EE"/>
+				<Resource Language="EU-ES"/>
+				<Resource Language="FA-IR"/>
+				<Resource Language="FI-FI"/>
+				<Resource Language="FIL-PH"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="FR-FR"/>
+				<Resource Language="GL-ES"/>
+				<Resource Language="HE-IL"/>
+				<Resource Language="HI-IN"/>
+				<Resource Language="HR-HR"/>
+				<Resource Language="HU-HU"/>
+				<Resource Language="ID-ID"/>
+				<Resource Language="IS-IS"/>
+				<Resource Language="IT-IT"/>
+				<Resource Language="JA-JP"/>
+				<Resource Language="KK-KZ"/>
+				<Resource Language="KM-KH"/>
+				<Resource Language="KN-IN"/>
+				<Resource Language="KO-KR"/>
+				<Resource Language="LO-LA"/>
+				<Resource Language="LT-LT"/>
+				<Resource Language="LV-LV"/>
+				<Resource Language="MK-MK"/>
+				<Resource Language="ML-IN"/>
+				<Resource Language="MS-MY"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL-NL"/>
+				<Resource Language="PL-PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO-RO"/>
+				<Resource Language="RU-RU"/>
+				<Resource Language="SK-SK"/>
+				<Resource Language="SL-SI"/>
+				<Resource Language="SQ-AL"/>
+				<Resource Language="SR-LATN-RS"/>
+				<Resource Language="SV-SE"/>
+				<Resource Language="TA-IN"/>
+				<Resource Language="TE-IN"/>
+				<Resource Language="TH-TH"/>
+				<Resource Language="TR-TR"/>
+				<Resource Language="UK-UA"/>
+				<Resource Language="UZ-LATN-UZ"/>
+				<Resource Language="VI-VN"/>
+				<Resource Language="ZH-CN"/>
+				<Resource Language="ZH-TW"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.16299.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

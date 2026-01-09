@@ -1,0 +1,13 @@
+DCL1
+P:com.google.android.gms
+D:0:com.google.android.gms:/data/user/0/com.google.android.gms/app_dg_cache/BB7A9FFF0F0171F7A5CF866DE9788F939286C5DA/the.apk
+D:0:com.google.android.googlequicksearchbox,com.google.android.apps.maps,com.google.android.apps.pixelmigrate,com.twitter.android,com.google.android.setupwizard,com.google.android.apps.restore,com.google.android.inputmethod.latin,com.google.android.youtube,com.android.chrome:/data/user_de/0/com.google.android.gms/app_chimera/m/00000002/PrebuiltGmsCore_DynamiteLoader.apk
+P:com.google.android.youtube
+D:0:com.google.android.youtube:/data/user/0/com.google.android.youtube/cache/1582435991586.jar
+P:com.twitter.android
+D:0:com.twitter.android:/data/user/0/com.twitter.android/cache/1684864811298.jar
+P:com.facebook.katana
+D:0:com.facebook.katana:/data/user/0/com.facebook.katana/dex/z-f3ad321ae0c3a3f3e208c56e52448ac2258420e5.zip
+D:0:com.facebook.katana:/data/user/0/com.facebook.katana/dex/p-616509179.zip
+P:com.android.chrome
+D:0:com.android.chrome:/data/user/0/com.android.chrome/app_dex/webapk5.dex

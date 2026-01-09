@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap3 uap4 uap7 uap11 uap17 mp rescap rescap3 rescap4 com com2 com3 desktop desktop6 desktop7 build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap7="http://schemas.microsoft.com/appx/manifest/uap/windows10/7" xmlns:uap11="http://schemas.microsoft.com/appx/manifest/uap/windows10/11" xmlns:uap17="http://schemas.microsoft.com/appx/manifest/uap/windows10/17" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:rescap4="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/4" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:com2="http://schemas.microsoft.com/appx/manifest/com/windows10/2" xmlns:com3="http://schemas.microsoft.com/appx/manifest/com/windows10/3" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:desktop7="http://schemas.microsoft.com/appx/manifest/desktop/windows10/7" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.Paint" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2503.381.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="c565257f-0491-4937-9fbb-06c0bddaba65" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppDisplayName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\PaintStoreLogo.png</Logo>
+    <desktop6:FileSystemWriteVirtualization>disabled</desktop6:FileSystemWriteVirtualization>
+    <uap17:UpdateWhileInUse>defer</uap17:UpdateWhileInUse>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.26226.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2310.30001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="PaintApp\mspaint.exe" EntryPoint="Windows.FullTrustApplication" uap11:CurrentDirectoryPath="$(env:USERPROFILE)">
+      <uap:VisualElements DisplayName="ms-resource:Resources/AppDisplayName" Description="ms-resource:Resources/AppDescription" BackgroundColor="#0078D4" Square150x150Logo="Assets\PaintMedTile.png" Square44x44Logo="Assets\PaintAppList.png">
+        <uap:DefaultTile ShortName="ms-resource:Resources/AppDisplayName">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appExecutionAlias" EntryPoint="Windows.FullTrustApplication">
+          <uap3:AppExecutionAlias>
+            <desktop:ExecutionAlias Alias="mspaint.exe"/>
+            <desktop:ExecutionAlias Alias="pbrush.exe"/>
+          </uap3:AppExecutionAlias>
+        </uap3:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="paintpicture">
+            <uap:Logo>Assets\paintpicture.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.avci</uap:FileType>
+              <uap:FileType>.avif</uap:FileType>
+              <uap:FileType uap4:ShellNewFileName="Assets\NewBitmapImage.bmp" uap4:ShellNewDisplayName="ms-resource:Resources/ShellNewDisplayName_Bmp">.bmp</uap:FileType>
+              <uap:FileType>.dib</uap:FileType>
+              <uap:FileType>.emf</uap:FileType>
+              <uap:FileType>.gif</uap:FileType>
+              <uap:FileType>.heic</uap:FileType>
+              <uap:FileType>.heif</uap:FileType>
+              <uap:FileType>.hif</uap:FileType>
+              <uap:FileType>.ico</uap:FileType>
+              <uap:FileType>.jfif</uap:FileType>
+              <uap:FileType>.jpe</uap:FileType>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+              <uap:FileType>.rle</uap:FileType>
+              <uap:FileType>.tif</uap:FileType>
+              <uap:FileType>.tiff</uap:FileType>
+              <uap:FileType>.webp</uap:FileType>
+              <uap:FileType>.wmf</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="Edit" Parameters="&quot;%1&quot;" uap7:Default="true">ms-resource:Resources/ShellContextMenuEdit</uap3:Verb>
+              <uap3:Verb Id="Print" Parameters="/p &quot;%1&quot;">ms-resource:Resources/ShellContextMenuPrint</uap3:Verb>
+              <uap3:Verb Id="PrintTo" Parameters="/pt &quot;%1&quot; &quot;%2&quot; &quot;%3&quot; &quot;%4&quot;">ms-resource:Resources/ShellContextMenuPrint</uap3:Verb>
+            </uap2:SupportedVerbs>
+            <rescap3:MigrationProgIds>
+              <rescap3:MigrationProgId>PBrush</rescap3:MigrationProgId>
+              <rescap3:MigrationProgId>Paint.Picture</rescap3:MigrationProgId>
+            </rescap3:MigrationProgIds>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <rescap3:Extension Category="windows.desktopAppMigration">
+          <rescap3:DesktopAppMigration>
+            <rescap3:DesktopApp AumId="{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\mspaint.exe"/>
+            
+            <rescap3:DesktopApp AumId="{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}\mspaint.exe"/>
+            
+          </rescap3:DesktopAppMigration>
+        </rescap3:Extension>
+        <com2:Extension Category="windows.comServer" desktop7:CompatMode="classic" desktop7:Scope="user">
+          <com2:ComServer>
+            <com3:ExeServer Executable="PaintApp\mspaint.exe" DisplayName="ms-resource:Resources/AppDisplayName">
+              <com:Class Id="D3E34B21-9D75-101A-8C3D-00AA001A1652" DisplayName="ms-resource:Resources/OleClassDisplayName" ShortDisplayName="ms-resource:Resources/OleClassShortDisplayName" ProgId="Paint.Picture" EnableOleDefaultHandler="true" InsertableObject="true">
+                <com:DefaultIcon Path="PaintApp\mspaint.exe" ResourceIndex="-3"/>
+                <com:MiscStatus OleMiscFlag="32"/>
+                <com:Verbs>
+                  <com:Verb Id="0" DisplayName="ms-resource:Resources/OleVerbEdit" AppendMenuFlag="0" OleVerbFlag="2"/>
+                  <com:Verb Id="1" DisplayName="ms-resource:Resources/OleVerbOpen" AppendMenuFlag="0" OleVerbFlag="2"/>
+                </com:Verbs>
+                <com:Conversion>
+                  <com:Readable>
+                    <com:Format StandardFormat="8"/>
+                  </com:Readable>
+                </com:Conversion>
+              </com:Class>
+            </com3:ExeServer>
+            <com3:ProgId Id="Paint.Picture" Clsid="D3E34B21-9D75-101A-8C3D-00AA001A1652"/>
+          </com2:ComServer>
+        </com2:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:SurrogateServer DisplayName="Paint Shell Extensions">
+              
+              <com:Class Id="2430F218-B743-4FD6-97BF-5C76541B4AE9" Path="PaintApp\ExplorerCommand.dll" ThreadingModel="STA"/>
+            </com:SurrogateServer>
+          </com:ComServer>
+        </com:Extension>
+        <desktop4:Extension Category="windows.fileExplorerContextMenus">
+          <desktop4:FileExplorerContextMenus>
+            
+            <desktop5:ItemType Type=".avci">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".avif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".bmp">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".dib">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".emf">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".gif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".heic">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".heif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".hif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".ico">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jfif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jpe">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jpeg">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jpg">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".png">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".rle">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".tif">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".tiff">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".webp">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".wmf">
+              <desktop5:Verb Id="EditInPaint" Clsid="2430F218-B743-4FD6-97BF-5C76541B4AE9"/>
+            </desktop5:ItemType>
+          </desktop4:FileExplorerContextMenus>
+        </desktop4:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap3:Protocol Name="ms-paint"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.avci</uap:FileType>
+              <uap:FileType>.avif</uap:FileType>
+              <uap:FileType>.bmp</uap:FileType>
+              <uap:FileType>.dib</uap:FileType>
+              <uap:FileType>.emf</uap:FileType>
+              <uap:FileType>.gif</uap:FileType>
+              <uap:FileType>.heic</uap:FileType>
+              <uap:FileType>.heif</uap:FileType>
+              <uap:FileType>.hif</uap:FileType>
+              <uap:FileType>.ico</uap:FileType>
+              <uap:FileType>.jfif</uap:FileType>
+              <uap:FileType>.jpe</uap:FileType>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+              <uap:FileType>.rle</uap:FileType>
+              <uap:FileType>.tif</uap:FileType>
+              <uap:FileType>.tiff</uap:FileType>
+              <uap:FileType>.webp</uap:FileType>
+              <uap:FileType>.wmf</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:DataFormat>Bitmap</uap:DataFormat>
+            <uap:DataFormat>StorageItems</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.ai.actions" DisplayName="Paint Action" Id="windows-action" PublicFolder="Assets">
+            <uap3:Properties>
+              <Registration>Actions\ActionsRegistration.json</Registration>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <rescap4:Extension Category="windows.classicAppCompatKeys" EntryPoint="Windows.FullTrustApplication" desktop7:CompatMode="classic" desktop7:Scope="user">
+      <rescap4:ClassicAppCompatKeys>
+        <rescap4:ClassicAppCompatKey Name="HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0003000A-0000-0000-C000-000000000046}" Value="Bitmap Image"/>
+        <rescap4:ClassicAppCompatKey Name="HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0003000A-0000-0000-C000-000000000046}\TreatAs" Value="{D3E34B21-9D75-101A-8C3D-00AA001A1652}"/>
+        <rescap4:ClassicAppCompatKey Name="HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0003000A-0000-0000-C000-000000000046}\Ole1Class" Value="PBrush"/>
+        <rescap4:ClassicAppCompatKey Name="HKEY_CURRENT_USER\SOFTWARE\Classes\CLSID\{0003000A-0000-0000-C000-000000000046}\ProgId" Value="PBrush"/>
+        <rescap4:ClassicAppCompatKey Name="HKEY_CURRENT_USER\SOFTWARE\Classes\PBrush\CLSID" Value="{0003000A-0000-0000-C000-000000000046}"/>
+      </rescap4:ClassicAppCompatKeys>
+    </rescap4:Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PaintApp\AIServicesCS.dll</Path>
+        <ActivatableClass ActivatableClassId="AIServicesCS.Reporting.TraceLogger" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="AIServicesCS.UserStatusHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="AIServicesCS.Enums.EnumHelpers" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PaintApp\Microsoft.Graphics.Canvas.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasSwapChainPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Composition.CanvasComposition" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EffectTransferTable3D" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ArithmeticCompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementProfile" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TemperatureAndTintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransfer3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.VignetteEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TurbulenceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CropEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.MorphologyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PosterizeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ShadowEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EdgeDetectionEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TileEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.RgbToHueEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DisplacementMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ExposureEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EmbossEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BlendEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BorderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueRotationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SharpenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AtlasEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CrossFadeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorSourceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.InvertEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SepiaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ContrastEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LuminanceToAlphaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform2DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BrightnessEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ChromaKeyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PixelShaderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ConvolveMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.WhiteLevelAdjustmentEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DiscreteTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DirectionalBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DpiCompensationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ScaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityMetadataEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LinearTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SaturationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.StraightenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AlphaMaskEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasImage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSpriteBatch" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSwapChain" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasVirtualBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasRenderTarget" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasFontSet" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextLayout" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextAnalyzer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextFormat" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTypography" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextRenderingParameters" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasDevice" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasCommandList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasPathBuilder" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasImageBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasSolidColorBrush" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PaintApp\PaintUI.dll</Path>
+        <ActivatableClass ActivatableClassId="PaintUI.PrintPreviewRibbonViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CompactAppBarButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonControlResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ColorRadioButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.PrintInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ShapesToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.UnauthenticatedExperience" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BackgroundViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AppChrome" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImagePropertiesDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AccessibleSlider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ComboBoxItemTemplateSelector" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImagePropertiesDialogViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.VersionSelection" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.UserAvatarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FlipButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BindingHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextEdit" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasThumbnail" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.LayerViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ZoomSlider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AppChromeViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.GettingStartedDialogViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StyleSelector" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextBlockWithTeachingTip" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.DirectXContext" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.DoubleList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectableSplitButtonAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ContentDialogService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasContextMenuViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectableMenuFlyoutItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonCollapsibleGroup" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Segmented" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ColorItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImageToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SegmentedItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ContentDialogResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RichToggleMenuFlyoutItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ListViewBaseEx" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectableButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ThicknessIndexConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AuthenticationProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.MenuBarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ResizeAndSkewDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextEditBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.EditColorsDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasAdapter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StatusBarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextEditAdapter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BrushSizeSlider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.D2DSwapChainPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StyleSelectorFlyoutContent" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.GettingStartedDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TrackerCommandBarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TextToolbarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.InfoBadgeResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CocreatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BrushSizeViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SettingsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RichMenuFlyoutItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SegmentedMarginConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StoreUpdateDownloadViewer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImageWithOptions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.RibbonGroup" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.InformationMessageWithHyperlink" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Configuration" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.DownloadProgressViewer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.GenerativeFillViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.VirtualKeyResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StyleSelectorResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.DegreesFormatter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectableMenuFlyoutItemAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FirstRunExperienceDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.GettingStartedDialogDataViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.App" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SettingsPage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BrushSizeSliderViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.LayersPanelViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.BrushSize" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ResizeAndSkewDialogViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AccessibleSliderAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.AccentAppBarButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectionCommandBar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Utilities.ResourceString" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Utilities.LocalizedAccessKey" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.MagicEraserToolBar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Tracker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Ribbon" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasPrintPreviewViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectionToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StoreUpdateDownloadViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasActionsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.MagicEraserViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StatusBar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.UserAvatar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CocreatorPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FeaturePromotionService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CommandKeyboardAccelerator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.LayersPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasPrintPreview" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Canvas" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.InformationService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ConstrainedBox" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.StyleSelectorAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.GenerativeFillCommandBar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.EditColorsDialogViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.CanvasThumbnailViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.Ruler" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.PrintPreviewRibbon" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.UIElementEx" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FontItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ToolsToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.DialogFrame" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SelectableSplitButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.XamlMetaDataProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.TaskOrchestrator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ColorsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.MessageBoxDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ThemeAwareImage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImageCreatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImageCreator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ZoomViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ColorsToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FlipButtonAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ModelDownloadViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.MenuBar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.FontUtilities" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ItemHoverGridView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ToolsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.SegmentedResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ResourceLocalizer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ImageBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.ThemeAwareBitmapIcon" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PaintUI.EqualPanel" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="enterpriseDataPolicy"/>
+    <rescap:Capability Name="unvirtualizedResources"/>
+    
+    <rescap:Capability Name="packageQuery"/>
+    <uap4:CustomCapability Name="Microsoft.classicAppCompat_8wekyb3d8bbwe"/>
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="2675fe32-db79-4170-9fe5-5cc912d48c8d"/>
+    <build:Item Name="MakePri.exe" Version="10.0.26100.2454 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

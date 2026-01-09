@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="AD2F1837.HPProgrammableKey" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="2021.519.1314.0"/>
+	<Packages>
+		<Package Type="application" Version="1.0.17.0" Architecture="x64" FileName="HPProgrammableKeyApp_1.0.17.0_x64.appx" Offset="1707283" Size="29722263">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN"/>
+				<Resource Language="AR"/>
+				<Resource Language="BG"/>
+				<Resource Language="CS"/>
+				<Resource Language="DA"/>
+				<Resource Language="DE"/>
+				<Resource Language="EL"/>
+				<Resource Language="ES"/>
+				<Resource Language="ET"/>
+				<Resource Language="FI"/>
+				<Resource Language="FR"/>
+				<Resource Language="HE"/>
+				<Resource Language="HR"/>
+				<Resource Language="HU"/>
+				<Resource Language="ID"/>
+				<Resource Language="IT"/>
+				<Resource Language="JA"/>
+				<Resource Language="KO"/>
+				<Resource Language="LT"/>
+				<Resource Language="LV"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL"/>
+				<Resource Language="PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO"/>
+				<Resource Language="RU"/>
+				<Resource Language="SK"/>
+				<Resource Language="SL"/>
+				<Resource Language="SR-LATN-RS"/>
+				<Resource Language="SV"/>
+				<Resource Language="TH"/>
+				<Resource Language="TR"/>
+				<Resource Language="UK"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Language="ZH-HANT"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.0.17.0" ResourceId="split.scale-125" FileName="HPProgrammableKeyApp_1.0.17.0_scale-125.appx" Offset="74" Size="205344">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.0.17.0" ResourceId="split.scale-150" FileName="HPProgrammableKeyApp_1.0.17.0_scale-150.appx" Offset="205516" Size="249674">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.0.17.0" ResourceId="split.scale-200" FileName="HPProgrammableKeyApp_1.0.17.0_scale-200.appx" Offset="455288" Size="367934">
+			<Resources>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.0.17.0" ResourceId="split.scale-400" FileName="HPProgrammableKeyApp_1.0.17.0_scale-400.appx" Offset="823320" Size="883871">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

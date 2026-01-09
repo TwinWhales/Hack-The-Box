@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="indexed_providers">com.android.cellbroadcastreceiver:29,com.android.emergency:29,com.android.settings:29,com.android.traceur:2,com.google.android.angle:290000000,com.google.android.apps.nexuslauncher:701,com.google.android.gms:202414022,com.google.android.gms:202414022,com.google.android.permissioncontroller:290000000,com.google.android.permissioncontroller:290000000,com.android.settings.intelligence:29</string>
+    <boolean name="en_US" value="true" />
+    <boolean name="google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys" value="true" />
+</map>

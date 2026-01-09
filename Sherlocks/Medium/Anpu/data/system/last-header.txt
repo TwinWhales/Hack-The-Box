@@ -1,0 +1,7 @@
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+Hardware: goldfish_x86
+Revision: 0
+Bootloader: unknown
+Radio: 1.0.0.0
+Kernel: Linux version 4.14.175-g6f3fc9538452 (android-build@abfarm903) (Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)) #1 SMP PREEMPT Wed Apr 8 17:38:09 UTC 2020
+

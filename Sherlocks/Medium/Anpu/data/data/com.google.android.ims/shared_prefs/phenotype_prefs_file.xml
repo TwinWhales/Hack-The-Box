@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="VoipFlags__incoming_wifi_call_duplicate_time_millis" value="12000" />
+    <boolean name="GConfigs__should_override_on_answer_with_video_state" value="false" />
+    <boolean name="WebRtcAudioFlags__check_mic_availability" value="true" />
+    <boolean name="WebRtcFlags__switch_adding_track_from_async_to_sync" value="false" />
+    <boolean name="GConfigs__enable_network_status_logging_on_inactive_calls" value="false" />
+    <long name="VoipFlags__delay_disconnect_old_call_handoff" value="10000" />
+    <boolean name="VoipFlags__allow_ims_registration_on_opportunistic_profile" value="false" />
+    <boolean name="VoipFlags__skip_handoff_for_voicemail_call" value="false" />
+    <boolean name="AdsFlags__update_cell_monitor_when_active_subid_missing" value="false" />
+    <boolean name="AdsFlags__use_ml_network_selector_for_cell_call" value="false" />
+    <long name="SipConfigs__send_200ok_retry_interval" value="1" />
+    <string name="AdsFlags__wifi_forced_to_use_per_carrier_score">310260:2000.0,310120:2000.0,311580:2000.0,310240:2000.0</string>
+    <string name="AdsFlags__all_pixel_device_models">sailfish,marlin,walleye,taimen,blueline,crosshatch,bonito,sargo,flame,coral,sunfish,bramble,redfin,barbet,oriole,raven</string>
+    <boolean name="WebRtcFlags__save_rtc_event_log_to_file" value="false" />
+    <boolean name="SipConfigs__should_use_tycho_version_for_sip_header" value="true" />
+    <float name="VoipFlags__ims_handoff_fraction_lost_threshold" value="0.5" />
+    <long name="SipConfigs__sip_transport_retry_delay_millis" value="500" />
+    <string name="AdsFlags__cell_signal_level_percent_score_international_fides_23210">49:100,0:-500</string>
+    <long name="SipConfigs__sip_transport_retry_max_times" value="5" />
+    <boolean name="WebRtcAudioFlags__do_not_enable_playout_and_recording_on_call_ends" value="true" />
+    <float name="AdsFlags__cdma_override_cellular_forced_to_use_score" value="2000.0" />
+    <boolean name="DebugConfigs__enable_debug_ui" value="false" />
+    <boolean name="LogUploadFlags__enable_feedback_upload_for_rtc_event_log" value="false" />
+    <string name="AdsFlags__vpn_ping_latency_score">0:-1000,-1:-500</string>
+    <boolean name="WebRtcFlags__enable_audio_playout_after_voip_mode_is_set_for_incoming_call" value="false" />
+    <boolean name="SunspotFlags__assume_sunspot_is_untrusted" value="true" />
+    <string name="GConfigs__status_hint_label_for_fides">Encrypted by Google Fi</string>
+    <boolean name="WebRtcFlags__delay_webrtc_starting_until_180_received" value="false" />
+    <string name="SessionContinuityFlags__expand_rate_handoff_thresholds">ChsJAAAAAAAA0D8ZAAAAAAAA4D8pAAAAAAAACEAKGwkAAAAAAADgPxmamZmZmZnxPykAAAAAAAAYQBIbCQAAAAAAAAAAGQAAAAAAANA/KQAAAAAAAABAGAMhAAAAAAAAMkAoBQ</string>
+    <boolean name="GConfigs__enable_tiramisu_phone_account_capabilities" value="false" />
+    <string name="VoipFlags__allowed_mcc_mncs_ims_lte">23420,45403,23210</string>
+    <boolean name="SessionContinuityFlags__enable_proactive_switches" value="true" />
+    <boolean name="VoipFlags__enable_voip_short_codes" value="true" />
+    <long name="WebRtcAudioFlags__audio_min_bitrate_bps" value="-1" />
+    <long name="GConfigs__client_group" value="1" />
+    <boolean name="AdsFlags__use_network_registration_info_to_determine_voice_cell_state" value="false" />
+    <boolean name="AdsFlags__enable_multisim_support" value="false" />
+    <boolean name="AdsFlags__use_network_status_callback_api_for_ads" value="false" />
+    <boolean name="WebRtcAudioFlags__enable_level_control" value="false" />
+    <boolean name="SipConfigs__should_resend_cancel_when_no_response_received" value="true" />
+    <boolean name="WebRtcFlags__should_not_call_webrtc_api_from_webrtc_callback" value="true" />
+    <long name="SipConfigs__sip_re_registration_subtrahend_seconds" value="600" />
+    <boolean name="SessionContinuityFlags__enable_pre_call_session_continuity" value="true" />
+    <boolean name="AdsFlags__enable_dynamic_wifi_threshold" value="true" />
+    <boolean name="VoipFlags__block_ipv6_ims_lte" value="false" />
+    <boolean name="AdsFlags__make_cellular_ping_only_when_wifi_is_connected" value="false" />
+    <boolean name="AdsFlags__use_telephony_manager_to_get_phone_account_handler" value="true" />
+    <string name="AdsFlags__wifi_call_quality_predictor_per_carrier_threshold_dnn_v1">310260:0.95,310120:0.75,311580:0.95,310240:0.95</string>
+    <boolean name="GConfigs__use_new_pstn_fallback" value="true" />
+    <boolean name="WebRtcAudioFlags__disable_platform_aec" value="false" />
+    <boolean name="AdsFlags__override_dedup_header" value="true" />
+    <boolean name="SunspotFlags__assume_sunspot_is_metered" value="true" />
+    <long name="TimeoutsFlags__ims_handling_timeout_for_cdma_network_millis" value="2500" />
+    <boolean name="AdsFlags__update_active_data_subid_when_active_data_stat_is_null" value="false" />
+    <boolean name="ProvisioningConfigs__use_schedule_unique_provisioning" value="true" />
+    <boolean name="AdsFlags__enable_ims_registration_trigger_event_logging" value="false" />
+    <boolean name="GConfigs__enable_vpn_status_logging" value="true" />
+    <boolean name="AdsFlags__use_cell_signal_percentage_for_dynamic_wifi_thresholds" value="false" />
+    <boolean name="GConfigs__enable_fides_dialing_tone_for_non_google_dialer_devices" value="false" />
+    <boolean name="AdsFlags__keep_vpn_up_for_entire_call" value="false" />
+    <boolean name="WebRtcFlags__should_delay_certificate_check" value="false" />
+    <string name="AdsFlags__stun_server_address">lens.l.google.com</string>
+    <boolean name="AdsFlags__use_vpn_for_signaling" value="false" />
+    <boolean name="SessionContinuityFlags__check_mobile_data_connectivity" value="false" />
+    <float name="AdsFlags__cellular_min_usable_score" value="1000.0" />
+    <long name="WebRtcFlags__ice_restart_max_retry_times" value="1" />
+    <long name="AdsFlags__wifi_rssi_threshold_for_cdma_lte_calls" value="-127" />
+    <long name="WorkManagerFlags__periodic_metrics_logging_interval_secs" value="86400" />
+    <boolean name="SunspotFlags__support_sunspot" value="false" />
+    <boolean name="GConfigs__remove_remote_answer_log" value="true" />
+    <boolean name="ProxyNumberFlags__disallow_proxy_for_unknown_network" value="true" />
+    <boolean name="AdsFlags__use_vpn_for_data" value="false" />
+    <boolean name="SpamFlags__allow_spam_protection_with_google_dialer" value="false" />
+    <boolean name="SessionContinuityFlags__refresh_connectivity_data_before_handoff_check" value="true" />
+    <boolean name="AdsFlags__use_ml_network_selector_for_wifi_call" value="false" />
+    <float name="AdsFlags__wifi_call_quality_predictor_fides_threshold" value="0.95" />
+    <long name="AdsFlags__cell_signal_level_change_threshold" value="30" />
+    <long name="SipConfigs__invite_message_timeout_secs" value="60" />
+    <boolean name="GConfigs__enable_verstat_logging_for_circuit_switch_calls" value="true" />
+    <boolean name="VoipFlags__use_property_wifi_for_wifi_calls" value="true" />
+    <boolean name="GConfigs__enable_fides_stable_ice_ping_interval" value="true" />
+    <float name="AdsFlags__wifi_call_quality_predictor_threshold" value="0.95" />
+    <string name="SessionContinuityFlags__bytes_received_handoff_thresholds">ChsJAAAAAAAAAAAZAAAAAAAA8D8pAAAAAAAA8D8SGwkAAAAAAADwPxkAAP/ndkg3QikAAAAAAADwPxgDIQAAAAAAABhAKAU</string>
+    <boolean name="VoipFlags__hold_ims_call_for_incoming_calls" value="true" />
+    <long name="WorkManagerFlags__schedule_delay_millis" value="20000" />
+    <float name="AdsFlags__cellular_min_usable_fides_score" value="200.0" />
+    <boolean name="GConfigs__enable_clearcut_logging" value="true" />
+    <string name="SessionContinuityFlags__fraction_lost_handoff_thresholds">ChsJAAAAAAAA4D8ZmpmZmZmZ8T8pAAAAAAAA8D8SGwkAAAAAAAAAABkAAAAAAADQPykAAAAAAAAAQBgDIQAAAAAAADZAKAU</string>
+    <boolean name="GConfigs__enable_fides_data_cache" value="false" />
+    <boolean name="VoipFlags__ignore_incoming_stats_check_on_hold" value="true" />
+    <boolean name="VoipFlags__is_ims_allowed_over_lte_ca" value="true" />
+    <boolean name="GConfigs__enable_logging_extras_for_carrier_calls" value="false" />
+    <float name="AdsFlags__cellular_min_handoff_score_fides" value="0.0" />
+    <string name="AdsFlags__cell_signal_strength_score_fides">-105:100,-120:0,-1000:-500</string>
+    <boolean name="VoipFlags__uninit_call_engine_only_when_ims_module_stopped" value="true" />
+    <boolean name="AdsFlags__enable_mobile_registration_credit_check" value="true" />
+    <string name="AdsFlags__decline_incoming_ims_call_mcc_mncs">23420,45403,310120,311580</string>
+    <boolean name="SipConfigs__log_registration_procedure_type" value="true" />
+    <boolean name="GConfigs__log_app_crash_for_anomaly_event" value="false" />
+    <boolean name="VoipFlags__consider_connection_state_for_outgoing_ims_conference_calling" value="true" />
+    <boolean name="VoipFlags__use_property_wifi_for_wifi_conference" value="true" />
+    <boolean name="WebRtcFlags__support_stopping_audio_injection" value="true" />
+    <boolean name="VoipFlags__incoming_ims_call_allowed" value="true" />
+    <long name="WebRtcFlags__frequent_stats_logging_interval_millis" value="15000" />
+    <boolean name="AdsFlags__use_data_state_instead_of_service_state" value="true" />
+    <string name="SessionContinuityFlags__bytes_sent_handoff_thresholds">ChsJAAAAAAAAAAAZAAAAAAAA8D8pAAAAAAAA8D8SGwkAAAAAAADwPxkAAP/ndkg3QikAAAAAAADwPxgDIQAAAAAAABhAKAU</string>
+    <long name="SessionContinuityFlags__ice_connection_receiving_timeout_millis" value="1000" />
+    <long name="AdsFlags__wifi_rssi__extreme_threshold" value="-100" />
+    <string name="AdsFlags__cellular_forced_to_use_per_carrier_score">310260:2000.0,310120:2000.0,311580:2000.0,310240:2000.0</string>
+    <boolean name="GConfigs__should_release_dialing_tone_audio_player_resources_after_flush" value="false" />
+    <boolean name="VoipFlags__enable_anonymous_call_prefixes_flag" value="true" />
+    <boolean name="WebRtcAudioFlags__use_single_codec_for_audio" value="false" />
+    <string name="VoipFlags__dark_number_mmc_mncs">310120,311580,23420,45403,23210</string>
+    <string name="AdsFlags__wifi_signal_strength_score">-64:100,-100:-200,-1000:-500</string>
+    <long name="AdsFlags__stun_ping_read_timeout_millis" value="300" />
+    <string name="AdsFlags__cell_signal_level_score">75:100,50:0,25:-100,0:-500</string>
+    <long name="IceFlags__ice_unwritable_time_ms" value="1000" />
+    <long name="AdsFlags__wifi_ping_latency_threshold" value="50" />
+    <boolean name="VoipFlags__allow_ims_lte_on_any_network" value="false" />
+    <long name="WebRtcFlags__debug_audio_dump_duration" value="20000" />
+    <boolean name="GConfigs__check_mobile_internet_access_for_registration" value="true" />
+    <boolean name="SipConfigs__should_update_remote_target_uri_on_session_refresh" value="true" />
+    <float name="AdsFlags__cdma_override_cellular_min_usable_score" value="1000.0" />
+    <string name="SessionContinuityFlags__bytes_sent_session_continuity_thresholds">ChsJAAAAAAAAAAAZAAAAAAAA8D8pAAAAAAAA8D8SGwkAAAAAAADwPxkAAP/ndkg3QikAAAAAAADwPxgDIQAAAAAAAABAKAU</string>
+    <long name="WebRtcFlags__frequent_stats_logging_period_millis" value="1000" />
+    <boolean name="AdsFlags__allow_ping_data_collection" value="true" />
+    <boolean name="VoipFlags__use_emergency_call_access_network_info_util" value="true" />
+    <boolean name="RcsFlags__enable_rcs" value="true" />
+    <boolean name="SipConfigs__explicitly_log_invitation_canceled_by_remote_party" value="true" />
+    <long name="LogUploadFlags__log_upload_wait_interval" value="2000" />
+    <float name="AdsFlags__wifi_min_usable_score" value="200.0" />
+    <boolean name="ProvisioningConfigs__enable_can_intercept_otp_check" value="false" />
+    <boolean name="WebRtcAudioFlags__check_record_permission_with_note_op" value="false" />
+    <long name="VoipFlags__ims_handoff_bytes_sent_count_threshold" value="6" />
+    <float name="AdsFlags__wifi_forced_to_use_score" value="1000.0" />
+    <boolean name="AdsFlags__ignore_cell_on_losing_event" value="false" />
+    <string name="VoipFlags__voip_shortcodes_without_long_code">CgM5ODgKAzYxMQoFKzE2MTEKAzcxMQoFKzE3MTEKAzkxMQoFKzE5MTE</string>
+    <boolean name="VoipFlags__always_allow_voip_lte_calls" value="false" />
+    <string name="SessionContinuityFlags__bytes_received_session_continuity_thresholds">ChsJAAAAAAAAAAAZAAAAAAAA8D8pAAAAAAAA8D8SGwkAAAAAAADwPxkAAP/ndkg3QikAAAAAAADwPxgDIQAAAAAAAABAKAU</string>
+    <boolean name="VoipFlags__allow_outgoing_ims_call_on_opportunistic_profile" value="false" />
+    <boolean name="AdsFlags__enable_cellular_stun_ping_credit_check" value="true" />
+    <long name="AdsFlags__wifi_rssi_threshold" value="-45" />
+    <boolean name="AnomalyDetectionFlags__enable_registration_anomaly_detector" value="false" />
+    <boolean name="AdsFlags__update_cell_monitor_when_cell_state_map_empty" value="false" />
+    <boolean name="AdsFlags__check_capability_on_cell_data_available" value="false" />
+    <string name="AdsFlags__model_version_for_cell_call">_dnn_v1</string>
+    <boolean name="VoipFlags__enable_default_data_indicator_text" value="false" />
+    <string name="AdsFlags__fallback_short_codes">*27,#673,*377,*394,*11,#677,*223,*91*,#578,#77,*347,#399,#336,*392,*34*,*55,*47,*582,*7233,#1017,#1077,#5346,*247,#1051,#3674,#798,#9329,#939,#970,#987,#999,*847,*7867,*359,*577,*629,*4357,#8573,*277,#9662,#3662,#7662,#32662,#337662,#8378#,#3484357,#25673,#762,#7233,*511,#76653,*811,*211,*711,*733,*311,#22,#919,#10,#60,*999,#3333,#790,#223,*24,#349,#88,*222,*77,*86687,#4444,#1061,#1079,#941,#971,*61,#967,#654,*654,#2121,#1776,#78,*2353,*773,*767,#4685,*477,#2273,#529,#770,*2274,*33,#339,#672,*1057,*1053,#968,*1019,#1170,#5477,#949,#989,#991,*1050,#1003,#1007,#101,#1057,#106,211,311,411,511,811,422,999,8553,*273,*384,*547,*647,#4357</string>
+    <long name="Placeholder__placeholder_int" value="3004" />
+    <boolean name="ProxyNumberFlags__disallow_proxy_for_unknown_country" value="true" />
+    <boolean name="VoipFlags__do_not_get_wifi_info_on_r_minus" value="true" />
+    <string name="AdsFlags__wifi_signal_strength_score_registration">-75:100,-90:0,-1000:-500</string>
+    <string name="WebRtcAudioFlags__hydrophone_config">DQAAAD8QARjgXSAA</string>
+    <float name="AdsFlags__cellular_min_handoff_score" value="0.0" />
+    <string name="AdsFlags__wifi_signal_strength_score_fides">-64:100,-100:-200,-1000:-500</string>
+    <boolean name="VoipFlags__enable_ims_call_hold" value="true" />
+    <boolean name="AnomalyDetectionFlags__should_log_registration_anomaly" value="false" />
+    <string name="SessionContinuityFlags__expand_rate_session_continuity_thresholds">ChsJmpmZmZmZuT8ZAAAAAAAA0D8pAAAAAAAA8D8KGwkAAAAAAADQPxkAAAAAAADgPykAAAAAAAAIQAobCQAAAAAAAOA/Gc3MzMzMzOw/KQAAAAAAABhAChsJzczMzMzM7D8ZmpmZmZmZ8T8pAAAAAAAAHEASGwkAAAAAAAAAABmamZmZmZm5PykAAAAAAADwPxgDIQAAAAAAABhAKAU</string>
+    <boolean name="AdsFlags__use_network_status_callback_api_for_link_properties" value="false" />
+    <boolean name="AdsFlags__allow_voip_lte_on_voice_out_of_service" value="false" />
+    <boolean name="WebRtcFlags__enable_nicer" value="false" />
+    <boolean name="AdsFlags__use_dynamic_phenotype_flag_for_predictor_threshold" value="false" />
+    <boolean name="AdsFlags__enable_ping_latency_timeout_check" value="true" />
+    <long name="WebRtcAudioFlags__wifi_audio_max_bitrate_bps" value="48000" />
+    <boolean name="VoipFlags__add_country_code_for_shortcodes_e164" value="true" />
+    <long name="VoipFlags__early_media_detection_period" value="30000" />
+    <long name="AdsFlags__call_history_window_for_call_selection" value="60000" />
+    <boolean name="GConfigs__check_internet_access_for_registration" value="true" />
+    <boolean name="VoipFlags__use_returned_flag_to_stop_asti_call" value="false" />
+    <float name="AdsFlags__cellular_forced_to_use_fides_score" value="2000.0" />
+    <long name="WebRtcFlags__debug_audio_dump_max_size" value="3145728" />
+    <boolean name="AdsFlags__enable_sim_state_change_receiver" value="true" />
+    <string name="AdsFlags__model_version_for_wifi_call"></string>
+    <long name="WebRtcFlags__max_media_events_per_call" value="5" />
+    <string name="VoipFlags__remapped_emergency_numbers">911=+14082560600/US,611=+16502041900/US,711=+16502041800/US</string>
+    <boolean name="VoipFlags__should_drop_incoming_ip_calls_when_adding_to_platform_fails" value="false" />
+    <boolean name="VoipFlags__stop_call_engine_on_registration_failure" value="true" />
+    <string name="AdsFlags__wifi_min_usable_per_carrier_score">310260:200.0,310120:0.0,311580:200.0,310240:200.0</string>
+    <long name="WebRtcAudioFlags__network_priority" value="-1" />
+    <boolean name="LogUploadFlags__enable_auto_log_upload_for_persistent_log" value="false" />
+    <boolean name="GConfigs__add_detailed_signal_strength_in_ads_logging" value="false" />
+    <boolean name="WebRtcFlags__write_rtp_log_without_check_imscall_null" value="true" />
+    <boolean name="GConfigs__enable_calling_capability_sync" value="false" />
+    <boolean name="GConfigs__enable_conference_call_proxy_address_check" value="true" />
+    <string name="VoipFlags__allowed_opportunistic_mcc_mncs_ims_lte"></string>
+    <boolean name="FeedbackFlags__should_request_call_feedback_default_value" value="true" />
+    <boolean name="WebRtcAudioFlags__check_foreground_service" value="false" />
+    <boolean name="WebRtcFlags__use_range_to_evaluate_should_log_to_clearcut" value="true" />
+    <float name="AdsFlags__cellular_forced_to_use_score" value="2000.0" />
+    <boolean name="AdsFlags__check_active_network_for_block_cell_ping" value="false" />
+    <boolean name="GConfigs__set_address_to_cs_connection_wrapper" value="true" />
+    <long name="WebRtcFlags__old_stats_callback_period_millis" value="500" />
+    <float name="AdsFlags__wifi_min_usable_fides_score" value="200.0" />
+    <boolean name="GConfigs__enable_session_id_in_log" value="true" />
+    <boolean name="PrimesFlags__enable_primes" value="true" />
+    <long name="AdsFlags__lte_rssi_threshold" value="-120" />
+    <boolean name="GConfigs__enable_original_phone_number_logging" value="true" />
+    <string name="AdsFlags__wifi_ping_latency_score">200:-200,100:0,0:100,-1:-1000</string>
+    <string name="SessionContinuityFlags__fraction_lost_session_continuity_thresholds">ChsJAAAAAAAA4D8ZmpmZmZmZ8T8pAAAAAAAA8D8SGwkAAAAAAAAAABkAAAAAAADQPykAAAAAAADwPxgDIQAAAAAAACZAKAU</string>
+    <string name="VoipFlags__ims_allowed_network_types">13,18,19,20,8,9,10,15</string>
+    <float name="AdsFlags__cdma_override_wifi_min_usable_score" value="200.0" />
+    <boolean name="VoipFlags__allow_ims_cs_handoff" value="true" />
+    <boolean name="VoipFlags__delay_stopping_call_engine_with_ims_stack_no_longer_sim_call_manager" value="false" />
+    <string name="TimeoutsFlags__ims_wait_timeout_per_carrier_millis">310260:5000,310120:8000,311580:10000,310240:5000</string>
+    <string name="AdsFlags__cell_signal_strength_score_international_fides_23210">-95:100,-110:0,-1000:-500</string>
+    <boolean name="SessionContinuityFlags__enable_incoming_pre_call_session_continuity" value="false" />
+    <boolean name="VoipFlags__skip_get_duplex_mode" value="true" />
+    <long name="WebRtcAudioFlags__cell_audio_max_bitrate_bps" value="48000" />
+    <long name="ProvisioningConfigs__max_provisioning_retries_per_day" value="5" />
+    <long name="SipConfigs__invite_first_provisional_response_timeout_secs" value="10" />
+    <boolean name="GConfigs__use_android_namespace_as_communication_key" value="false" />
+    <boolean name="AdsFlags__force_ims_calling" value="false" />
+    <string name="SunspotFlags__hs2_fqdns">orion.fi.google.com</string>
+    <boolean name="AnomalyDetectionFlags__should_notify_for_registration_anomaly" value="false" />
+    <boolean name="AdsFlags__trigger_registration_for_outgoing_call" value="true" />
+    <boolean name="GConfigs__should_allow_fides_over_opportunistic_data" value="true" />
+    <boolean name="GConfigs__enable_registration_status_logging_in_ims_state" value="true" />
+    <float name="AdsFlags__cellular_forced_to_use_default_score" value="2000.0" />
+    <boolean name="GConfigs__force_fides_eligibility" value="false" />
+    <boolean name="SipConfigs__do_not_stop_session_on_stub_sip_stack" value="false" />
+    <long name="WebRtcFlags__stats_logging_to_fist_period_millis" value="5000" />
+    <float name="AdsFlags__cell_call_quality_predictor_fides_threshold" value="0.92" />
+    <boolean name="AdsFlags__ring_ims_call_when_sending_180" value="false" />
+    <boolean name="AdsFlags__allow_incoming_call_over_cdma" value="true" />
+    <long name="VoipFlags__ims_handoff_high_rtt_threshold" value="500" />
+    <long name="WebRtcAudioFlags__audio_max_bitrate_bps" value="64000" />
+    <boolean name="WebRtcFlags__use_unified_plan" value="true" />
+    <boolean name="GConfigs__enable_prefer_carrier_over_voip" value="false" />
+    <boolean name="VoipFlags__should_get_service_state_from_content_provider" value="true" />
+    <boolean name="Placeholder__set_placeholder_flag_in_policy_status" value="true" />
+    <boolean name="AdsFlags__support_voip_over_vpn" value="true" />
+    <float name="AdsFlags__cell_call_quality_predictor_threshold_dnn_v1" value="0.92" />
+    <boolean name="GConfigs__should_retain_call_summary_for_redial_logging" value="true" />
+    <boolean name="AdsFlags__should_deprecate_network_info_for_network_availability_check_above_q" value="true" />
+    <boolean name="WebRtcAudioFlags__enable_hydrophone" value="true" />
+    <boolean name="VoipFlags__skip_getting_cell_info" value="true" />
+    <boolean name="VoipFlags__allow_incoming_ims_call_on_opportunistic_profile" value="false" />
+    <boolean name="VoipFlags__enable_conference_support" value="true" />
+    <boolean name="AdsFlags__allow_per_carrier_score" value="true" />
+    <float name="AdsFlags__cellular_min_usable_default_score" value="200.0" />
+    <string name="AdsFlags__cellular_min_usable_per_carrier_score">310260:1000.0,310120:200.0,311580:200.0,310240:1000.0</string>
+    <boolean name="SunspotFlags__allow_voip_over_sunspot" value="true" />
+    <boolean name="FeedbackFlags__should_request_call_feedback_in_dialer" value="false" />
+    <boolean name="VoipFlags__should_lookup_calling_capability_for_voicemail_call" value="true" />
+    <boolean name="AdsFlags__enable_logging_brella_exception_error_message" value="false" />
+    <long name="SipConfigs__resend_200ok_max_times" value="20" />
+    <string name="AdsFlags__vpn_ping_latency_score_fides">0:-1000,-1:-500</string>
+    <long name="VoipFlags__max_media_inactivity_count_with_incoming_481" value="1" />
+    <long name="GConfigs__clearcut_log_source" value="0" />
+    <string name="VoipFlags__vpn_indicator_text"></string>
+    <string name="AdsFlags__cell_signal_strength_score">-105:100,-110:0,-1000:-500</string>
+    <long name="AdsFlags__redial_count_threshold_to_deny" value="0" />
+    <float name="AdsFlags__wifi_call_quality_predictor_outside_usa_default_threshold" value="0.958" />
+    <boolean name="LogUploadFlags__enable_auto_log_upload_for_rtc_event_log" value="false" />
+    <long name="SessionContinuityFlags__signaling_Restablishment_delay_post_complete_millis" value="5000" />
+    <string name="AdsFlags__wifi_ping_latency_score_fides">200:-200,100:0,0:100,-1:-1000</string>
+    <long name="AdsFlags__max_cell_signal_dbm_dynamic_threshold" value="-105" />
+    <string name="VoipFlags__allowed_mcc_mncs_for_ims_lte_on_data_when_voice_out_of_service"></string>
+    <long name="TimeoutsFlags__ims_wait_timeout_millis" value="5000" />
+    <string name="AdsFlags__cell_signal_level_percent_score_fides">49:100,0:-500</string>
+    <boolean name="SipConfigs__stop_session_when_invitation_interrupted" value="true" />
+    <string name="VoipFlags__tmobile_mcc_mncs">310260,310240</string>
+    <long name="GConfigs__fides_forwarding_leg_check_timeout_millis" value="2500" />
+    <string name="OpaacFlags__build_type">treatment1</string>
+    <boolean name="AdsFlags__prefer_wifi" value="true" />
+    <string name="AdsFlags__wifi_ping_latency_score_international">200:-200,100:0,0:100,-1:-1000</string>
+    <boolean name="ProxyNumberFlags__disallow_proxy_for_international_call" value="true" />
+    <boolean name="VoipFlags__handle_carrier_config_change_by_work_manager" value="true" />
+    <string name="AdsFlags__wifi_call_quality_predictor_per_carrier_threshold">310260:0.973,310120:0.965,311580:0.973</string>
+    <boolean name="GConfigs__should_dump_flags_to_bug_report" value="false" />
+    <long name="ProvisioningConfigs__token_about_to_expire_secs" value="43200" />
+    <boolean name="GConfigs__should_forward_connection_event" value="true" />
+    <boolean name="WebRtcAudioFlags__save_unset_audio_state" value="true" />
+    <long name="IceFlags__ice_unwritable_min_checks" value="5" />
+    <string name="ProvisioningConfigs__otp_pattern_regex">^(\d{6})\sis\syour\scarrier\sservices\sverification\scode\.$</string>
+    <boolean name="AdsFlags__schedule_registration_when_no_network_available" value="true" />
+    <boolean name="AdsFlags__use_new_stun_ping" value="true" />
+    <string name="AdsFlags__cell_ping_latency_score">150:-200,100:0,0:100,-1:-500</string>
+    <boolean name="VoipFlags__skip_get_cdma_cell_location" value="true" />
+    <boolean name="VoipFlags__is_fallback_to_cellular_allowed" value="true" />
+    <string name="VoipFlags__wifi_calling_mode_default_value">wifi_calling_mode_value_cell_preferred</string>
+    <boolean name="AdsFlags__consider_wifi_and_lte_for_outgoing_call" value="true" />
+    <boolean name="SipConfigs__use_correct_access_type_for_gsm_network" value="true" />
+    <boolean name="AdsFlags__use_network_status_callback_api_for_cellular" value="false" />
+    <boolean name="AdsFlags__switch_registration_for_outgoing_call" value="false" />
+    <boolean name="WebRtcFlags__disable_audio_recording_until_200ok" value="true" />
+    <boolean name="WebRtcFlags__use_ims_audio_device_module" value="true" />
+    <long name="WorkManagerFlags__periodic_fides_eligibility_sync_interval_secs" value="86400" />
+    <boolean name="WebRtcFlags__enable_dtls_certificate_validation" value="false" />
+    <float name="FeedbackFlags__pstn_call_feedback_random_sampling_percentage" value="0.01" />
+    <long name="VoipFlags__ims_handoff_bytes_received_count_threshold" value="6" />
+    <boolean name="VoipFlags__handle_voice_config_changed" value="false" />
+    <string name="VoipFlags__mobile_data_indicator_text"></string>
+    <long name="WebRtcFlags__early_media_audio_level_threshold" value="200" />
+    <boolean name="SunspotFlags__should_get_wifi_info_with_location" value="false" />
+    <boolean name="AdsFlags__disable_ml_network_selector_for_fides_calls" value="false" />
+    <string name="AdsFlags__cell_ping_latency_score_international_fides_23210">150:-200,50:0,0:100,-1:-500</string>
+    <boolean name="GConfigs__allow_call_summary_collection" value="true" />
+    <boolean name="AdsFlags__use_network_status_callback_api" value="false" />
+    <boolean name="GConfigs__should_add_attribution_tag" value="true" />
+    <boolean name="SessionContinuityFlags__refresh_cellular_data_before_handoff_check" value="true" />
+    <boolean name="LogUploadFlags__enable_auto_log_upload_for_webrtc_log" value="false" />
+    <boolean name="GConfigs__enable_lack_permission_logging" value="true" />
+    <string name="GConfigs__connection_states_to_fallback_to_ims_on_pstn_call_error">CgMAAQM</string>
+    <string name="AdsFlags__ml_network_selector_prediction_platform">TFLITE</string>
+    <long name="AdsFlags__one_way_audio_count_threshold_to_deny" value="0" />
+    <boolean name="DebugConfigs__enable_call_debug_ui" value="false" />
+    <boolean name="AdsFlags__should_drop_incoming_ip_call_when_no_fi_account_found" value="true" />
+    <float name="AdsFlags__wifi_forced_to_use_default_score" value="1000.0" />
+    <boolean name="SipConfigs__explicitly_log_invitation_not_answered" value="false" />
+    <boolean name="AdsFlags__check_registration_network_for_block_cell_ping" value="false" />
+    <boolean name="SipConfigs__should_log_ims_exception" value="false" />
+    <boolean name="VoipFlags__ignore_credit_check_with_active_session" value="true" />
+    <float name="AdsFlags__wifi_call_quality_predictor_default_threshold_dnn_v1" value="0.97" />
+    <long name="AdsFlags__wifi_ping_latency_extreme_threshold" value="210" />
+    <float name="FeedbackFlags__ims_call_feedback_random_sampling_percentage" value="0.04" />
+    <boolean name="AdsFlags__force_ims_registration_over_wifi" value="false" />
+    <boolean name="AdsFlags__enable_wifi_stun_ping_credit_check" value="true" />
+    <boolean name="VoipFlags__use_hosted_voice_config" value="true" />
+    <boolean name="AdsFlags__consider_wifi_state_for_cdma_lte_calls" value="true" />
+    <float name="VoipFlags__ims_handoff_expand_rate_threshold" value="0.25" />
+    <boolean name="WebRtcAudioFlags__check_record_permission_with_unsafe_check_op" value="true" />
+    <boolean name="WebRtcFlags__run_webrtc_in_sub_process" value="false" />
+    <boolean name="SessionContinuityFlags__always_check_handoff_on_wifi_disconnect" value="false" />
+    <long name="AdsFlags__refresh_connectivity_data_timeout_millis" value="150" />
+    <float name="AdsFlags__wifi_call_quality_predictor_outside_usa_default_threshold_dnn_v1" value="0.97" />
+    <float name="AdsFlags__cell_call_quality_predictor_threshold_international_dnn_v1" value="0.92" />
+    <boolean name="AdsFlags__check_network_type_changes_in_registration_switching" value="true" />
+    <boolean name="WebRtcFlags__disable_audio_playout_at_beginning_of_outgoing_call" value="true" />
+    <string name="AdsFlags__cell_ping_latency_score_fides">200:-200,150:0,0:100,-1:-1000</string>
+    <boolean name="SessionContinuityFlags__should_enforce_ads_interface_on_webrtc" value="true" />
+    <boolean name="AdsFlags__enable_registration_specific_score_ranges" value="true" />
+    <boolean name="PhenotypeMigrationFlags__use_fi_voice_lib_package" value="false" />
+    <boolean name="AdsFlags__update_all_cell_state_fields_on_active_network" value="false" />
+    <long name="AdsFlags__stun_ping_read_timeout_millis_for_call" value="100" />
+    <long name="AdsFlags__registration_polling_interval_secs" value="0" />
+    <boolean name="AdsFlags__enable_wifi_registration_credit_check" value="true" />
+    <boolean name="WebRtcAudioFlags__check_mic_in_use" value="false" />
+    <boolean name="SipConfigs__use_improved_registration_event_logging" value="true" />
+    <string name="ProxyNumberFlags__direct_peering_carrier_list">310260,310120,312530,310240</string>
+    <string name="AdsFlags__cell_signal_level_percent_score">50:100,25:0,0:-500</string>
+    <boolean name="LogUploadFlags__enable_feedback_upload_for_webrtc_log" value="false" />
+    <boolean name="SipConfigs__register_ims_using_oauth" value="true" />
+    <boolean name="AdsFlags__enable_handoff_on_webrtc_audio_error" value="true" />
+    <boolean name="SessionContinuityFlags__use_new_heuristic_handoff_detector" value="false" />
+    <boolean name="AdsFlags__block_cell_ping_refresh_for_terminating_call" value="false" />
+    <float name="WebRtcAudioFlags__bitrate_priority" value="-1.0" />
+    <string name="WebRtcFlags__nicer_config">CAASSwk+jOxNZFL/vykAAAAAAAAAQDEAAAAAAADoP4EBAAAAAAAA4D+ZAQAAAAAAAAjAoQFpFPA97G0GwKgBlgH5AWkU8D3sbQbAgAKgBiAUShAIBEiIJ1CYdWDQhgNooJwBaMgBgAFkiAEBqAEBsAEAuAEAyAEB2AEB4QEAAAAAAAAAQOgBAQ</string>
+    <boolean name="SipConfigs__enable_sip_message_sending_retry" value="true" />
+    <string name="AdsFlags__consider_wifi_state_for_lte_call_mcc_mncs">310120,311580</string>
+    <float name="AdsFlags__wifi_min_usable_default_score" value="200.0" />
+    <boolean name="GConfigs__enable_status_hint_for_fides" value="false" />
+    <string name="AdsFlags__wifi_ping_latency_score_registration">200:-200,150:0,0:100,-1:-1000</string>
+    <boolean name="SipConfigs__remove_dup_equal_sign_from_plani" value="true" />
+    <boolean name="WebRtcFlags__enable_webrtc_audio_processing" value="true" />
+    <long name="SipConfigs__resend_cancel_max_times" value="2" />
+    <float name="AdsFlags__cdma_override_wifi_forced_to_use_score" value="1000.0" />
+    <boolean name="GConfigs__enable_pstn_conference_call_logging" value="false" />
+    <boolean name="GConfigs__get_wifi_calling_mode_from_tycho" value="true" />
+    <boolean name="VoipFlags__skip_getting_cell_info_for_roaming_detection" value="false" />
+    <long name="AdsFlags__dropped_call_count_threshold_to_deny" value="0" />
+    <string name="ProxyNumberFlags__disallow_proxy_for_unknown_country_exception_carrier_list">311580</string>
+    <boolean name="GConfigs__enable_caller_number_verification_status" value="false" />
+    <boolean name="VoipFlags__use_media_statistics_data_point_for_logging" value="false" />
+    <float name="AdsFlags__wifi_forced_to_use_fides_score" value="1000.0" />
+    <long name="__phenotype_configuration_version" value="1720643100" />
+    <boolean name="SessionContinuityFlags__keep_call_on_signaling_errors" value="false" />
+    <boolean name="AdsFlags__enable_active_registration_switching" value="true" />
+    <boolean name="GConfigs__enable_server_keep_alives" value="true" />
+    <boolean name="WebRtcFlags__save_log_to_file" value="false" />
+    <boolean name="GConfigs__disable_spam_blocking_on_important_number_dialed" value="false" />
+    <string name="ProxyNumberFlags__exception_carriers_when_calling_to_us">23420,45403,23210</string>
+    <string name="__phenotype_server_token">CAMSBg0D8onPDQ==</string>
+    <boolean name="VoipFlags__not_logging_received_481_when_bye_already_received" value="false" />
+    <boolean name="VoipFlags__use_emergency_cell_identity_from_connection_request" value="true" />
+    <float name="AdsFlags__wifi_call_quality_predictor_default_threshold" value="0.973" />
+    <boolean name="GConfigs__disable_scheduling_exact_alarm" value="false" />
+    <boolean name="WebRtcAudioFlags__enable_echo_detector_v2" value="true" />
+    <boolean name="GConfigs__log_emergency_call_attempt" value="true" />
+    <long name="VoipFlags__ims_handoff_fraction_lost_count_threshold" value="11" />
+    <boolean name="AdsFlags__remove_connectivity_action_usage" value="false" />
+    <string name="AdsFlags__vpn_ping_latency_score_international">0:-1000,-1:-500</string>
+    <string name="__phenotype_snapshot_token">johnnnny999999@gmail.com com.google.android.ims 30105953 3 -1734255791 com.google.android.ims -1734255791 1</string>
+    <boolean name="AdsFlags__check_interface_connectivity_as_prerequisite" value="false" />
+    <boolean name="AdsFlags__enable_ml_network_selector" value="false" />
+    <boolean name="FeedbackFlags__is_request_call_feedback_allowed" value="false" />
+    <boolean name="AdsFlags__check_active_data_subid_in_registration_switching" value="true" />
+    <boolean name="VoipFlags__delay_stopping_call_engine_with_ims_stack_disabled" value="false" />
+    <float name="AdsFlags__wifi_min_handoff_score" value="0.0" />
+    <boolean name="AdsFlags__consider_wifi_and_lte_for_incoming_call" value="true" />
+    <boolean name="SessionContinuityFlags__enable_session_continuity" value="true" />
+    <boolean name="AdsFlags__schedule_registration_with_earlier_trigger_time" value="true" />
+    <boolean name="WebRtcFlags__customize_dead_connection_timeout_ms" value="false" />
+    <boolean name="SpamFlags__is_spam_protection_enabled" value="true" />
+    <boolean name="ProxyNumberFlags__enable_dynamic_proxy_number_config" value="true" />
+    <string name="VoipFlags__anonymous_call_prefix">US:*67,GB:#31#,HK:133,DK:#31#,IT:#31#,SE:#31#,AT:#31#,BG:#31#,NL:#31#,GR:#31#,HR:#31#,LT:#31#,LV:#31#,FI:#31#,SK:#31#,SI:#31#,PT:#31#,FR:#31#,HU:#31#,ES:#31#,DE:#31#,EE:#31#,RO:#31#,PL:#31#,BE:#31#,CZ:#31#,MT:#31#,LU:#31#,ID:#31#,CY:*31*,AU:#31#,KR:*23,IL:#31#,IE:#31#,CH:#31#,IN:#31#</string>
+    <string name="AdsFlags__wifi_call_quality_predictor_outside_usa_threshold_per_carrier_dnn_v1">310260:0.97,310120:0.75,311580:0.97,310240:0.97</string>
+    <boolean name="WebRtcFlags__disable_reset_stable_timeout_on_weak" value="false" />
+    <boolean name="AdsFlags__compare_network_on_lost_callback" value="false" />
+</map>

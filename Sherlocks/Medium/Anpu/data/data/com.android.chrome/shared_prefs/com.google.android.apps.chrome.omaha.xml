@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="backoffFailedAttempts" value="0" />
+    <long name="timestampOfRequest" value="-1" />
+    <long name="delay" value="3600000" />
+    <long name="timestampForNewRequest" value="1720750941522" />
+    <string name="marketURL">market://details?id=com.android.chrome</string>
+    <string name="latestVersion">124.0.6367.171</string>
+    <boolean name="sendInstallEvent" value="false" />
+    <long name="timestampForNextPostAttempt" value="1720736541522" />
+    <string name="persistedRequestID">invalid</string>
+    <long name="timestampOfInstall" value="1720644854774" />
+    <string name="installSource">system_image</string>
+</map>

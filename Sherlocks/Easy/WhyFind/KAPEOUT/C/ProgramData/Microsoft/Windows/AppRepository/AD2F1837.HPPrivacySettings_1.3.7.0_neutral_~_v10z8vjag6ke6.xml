@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="AD2F1837.HPPrivacySettings" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="1.3.7.0"/>
+	<Packages>
+		<Package Type="application" Version="1.3.7.0" Architecture="x64" FileName="HPPrivacySettings_1.3.7.0_x64.appx" Offset="915283" Size="23262782">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ar" FileName="HPPrivacySettings_1.3.7.0_language-ar.appx" Offset="72" Size="11676">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-bg" FileName="HPPrivacySettings_1.3.7.0_language-bg.appx" Offset="11844" Size="11744">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ca" FileName="HPPrivacySettings_1.3.7.0_language-ca.appx" Offset="23684" Size="11556">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-cs" FileName="HPPrivacySettings_1.3.7.0_language-cs.appx" Offset="35336" Size="11646">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-da" FileName="HPPrivacySettings_1.3.7.0_language-da.appx" Offset="47078" Size="11541">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-de" FileName="HPPrivacySettings_1.3.7.0_language-de.appx" Offset="58715" Size="12166">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-el" FileName="HPPrivacySettings_1.3.7.0_language-el.appx" Offset="70977" Size="11963">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-es" FileName="HPPrivacySettings_1.3.7.0_language-es.appx" Offset="83036" Size="12759">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-et" FileName="HPPrivacySettings_1.3.7.0_language-et.appx" Offset="95891" Size="11450">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-eu" FileName="HPPrivacySettings_1.3.7.0_language-eu.appx" Offset="107437" Size="11580">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-fi" FileName="HPPrivacySettings_1.3.7.0_language-fi.appx" Offset="119113" Size="11539">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-fr" FileName="HPPrivacySettings_1.3.7.0_language-fr.appx" Offset="130748" Size="12906">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-gl" FileName="HPPrivacySettings_1.3.7.0_language-gl.appx" Offset="143750" Size="11554">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-he" FileName="HPPrivacySettings_1.3.7.0_language-he.appx" Offset="155400" Size="11543">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-hr" FileName="HPPrivacySettings_1.3.7.0_language-hr.appx" Offset="167039" Size="11584">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-hu" FileName="HPPrivacySettings_1.3.7.0_language-hu.appx" Offset="178719" Size="11787">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-it" FileName="HPPrivacySettings_1.3.7.0_language-it.appx" Offset="190602" Size="12103">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ja" FileName="HPPrivacySettings_1.3.7.0_language-ja.appx" Offset="202801" Size="12251">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ko" FileName="HPPrivacySettings_1.3.7.0_language-ko.appx" Offset="215148" Size="12173">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-lt" FileName="HPPrivacySettings_1.3.7.0_language-lt.appx" Offset="227417" Size="11573">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-lv" FileName="HPPrivacySettings_1.3.7.0_language-lv.appx" Offset="239086" Size="11536">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-nb" FileName="HPPrivacySettings_1.3.7.0_language-nb.appx" Offset="250718" Size="11501">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-nl" FileName="HPPrivacySettings_1.3.7.0_language-nl.appx" Offset="262315" Size="11499">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-pl" FileName="HPPrivacySettings_1.3.7.0_language-pl.appx" Offset="273910" Size="11753">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-pt" FileName="HPPrivacySettings_1.3.7.0_language-pt.appx" Offset="285759" Size="12844">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ro" FileName="HPPrivacySettings_1.3.7.0_language-ro.appx" Offset="298699" Size="11615">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-ru" FileName="HPPrivacySettings_1.3.7.0_language-ru.appx" Offset="310410" Size="12598">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-sk" FileName="HPPrivacySettings_1.3.7.0_language-sk.appx" Offset="323104" Size="11660">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-sl" FileName="HPPrivacySettings_1.3.7.0_language-sl.appx" Offset="334860" Size="11573">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-sr-latn" FileName="HPPrivacySettings_1.3.7.0_language-sr-latn.appx" Offset="346534" Size="11548">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-sv" FileName="HPPrivacySettings_1.3.7.0_language-sv.appx" Offset="358178" Size="11531">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-th" FileName="HPPrivacySettings_1.3.7.0_language-th.appx" Offset="369805" Size="11805">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-tr" FileName="HPPrivacySettings_1.3.7.0_language-tr.appx" Offset="381706" Size="11623">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-uk" FileName="HPPrivacySettings_1.3.7.0_language-uk.appx" Offset="393425" Size="12537">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-zh-hans" FileName="HPPrivacySettings_1.3.7.0_language-zh-hans.appx" Offset="406063" Size="11965">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.language-zh-hant" FileName="HPPrivacySettings_1.3.7.0_language-zh-hant.appx" Offset="418129" Size="12648">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.scale-100" FileName="HPPrivacySettings_1.3.7.0_scale-100.appx" Offset="430871" Size="69405">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.scale-125" FileName="HPPrivacySettings_1.3.7.0_scale-125.appx" Offset="500370" Size="81245">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.scale-150" FileName="HPPrivacySettings_1.3.7.0_scale-150.appx" Offset="581709" Size="93042">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.3.7.0" ResourceId="split.scale-400" FileName="HPPrivacySettings_1.3.7.0_scale-400.appx" Offset="674845" Size="240350">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

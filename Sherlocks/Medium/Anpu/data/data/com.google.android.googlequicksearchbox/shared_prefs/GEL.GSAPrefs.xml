@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="GsaPrefs.Bisto__whitelisted_usb_devices">18d1-5033,30a5-201</string>
+    <boolean name="flag.4213" value="false" />
+    <boolean name="flag.4975" value="true" />
+    <string name="GSAPrefs.google_account">johnnnny999999@gmail.com</string>
+    <boolean name="GsaPrefs.Bisto__notification_fetch_clientop" value="false" />
+    <int name="GSAPrefs.min_launcher_client_version_for_momo_color_extraction" value="7" />
+    <boolean name="GsaPrefs.Bisto__uncached_hotword_model" value="false" />
+    <string name="GsaPrefs.Bisto__viable_hotword_models">Model_1.data,Model_2.data,Model_3.data,Model_4.data</string>
+    <int name="GsaPrefs.Bisto__hfp_delay" value="500" />
+    <boolean name="GSAPrefs.top_apps_enabled" value="false" />
+    <string name="GSAPrefs.hotword_prompt">Ok Google</string>
+    <boolean name="flag.5774" value="true" />
+    <boolean name="GEL.GSAPrefs.search_widget_in_gel" value="true" />
+    <boolean name="GSAPrefs.afw_enabled" value="true" />
+    <boolean name="flag.6985" value="false" />
+    <string name="GsaPrefs.Bisto__local_hotword_model">Model_2.data</string>
+    <boolean name="flag.992" value="false" />
+    <string name="GsaPrefs.Bisto__user_group_name">Public</string>
+    <string name="GsaPrefs.Bisto__lt_hotword_model_url">https://www.gstatic.com/bisto/device_customization/00f00103/Model_2.data</string>
+    <string name="GsaPrefs.Bisto__tts_volume_gain">1.0</string>
+    <string name="GsaPrefs.Bisto__enabled_features">108,4,5,8,9,11,19,21,25,27,28,29,31,47,26</string>
+    <boolean name="flag.5129" value="false" />
+    <boolean name="GEL.GSAPrefs.log_gel_events" value="false" />
+    <boolean name="flag.6656" value="false" />
+    <boolean name="GsaPrefs.AgsaOpa__enable_message_style_parser_for_whatsapp" value="false" />
+    <boolean name="GsaPrefs.Bisto__enable_audio_cache" value="true" />
+    <boolean name="flag.4758" value="true" />
+    <boolean name="flag.3428" value="true" />
+    <string name="GsaPrefs.Bisto__latest_app_version"></string>
+    <boolean name="GsaPrefs.bisto_query_migrate_to_session" value="true" />
+    <int name="GSAPrefs.Bisto__service_shutdown_delay_ms" value="600000" />
+    <boolean name="flag.7070" value="false" />
+    <string name="flag.7071">HAMBURGER</string>
+    <int name="GsaPrefs.Bisto__bitpool_size" value="24" />
+    <boolean name="GSAPrefs.recents_in_drawer" value="false" />
+    <boolean name="GSAPrefs.search_gesture_used" value="false" />
+    <boolean name="flag.5210" value="false" />
+    <string name="GsaPrefs.Bisto__messaging_parsing_blacklist"></string>
+    <boolean name="GsaPrefs.Bisto__enable_bisto_ble_support" value="false" />
+    <boolean name="flag.5998" value="false" />
+    <boolean name="flag.4226" value="true" />
+    <int name="flag.4308" value="2" />
+    <boolean name="flag.4626" value="false" />
+    <boolean name="GsaPrefs.AgsaNow__enable_restore_on_minus_one" value="false" />
+    <boolean name="GSAPrefs.hotword_enabled" value="true" />
+    <boolean name="GSAPrefs.recents_in_drawer_new_activity" value="true" />
+    <string name="GSAPrefs.top_apps_entry_point">HAMBURGER</string>
+    <boolean name="GSAPrefs.recently_revamp_enabled" value="false" />
+    <int name="GsaPrefs.Bisto__voice_buffer_duration_ms" value="1200" />
+    <string name="GSAPrefs.search_gesture_corpus"></string>
+    <boolean name="GsaPrefs.Bisto__reconnect_on_gsa_voice_interaction_service_ready" value="true" />
+    <boolean name="flag.4474" value="true" />
+    <boolean name="flag.4396" value="true" />
+</map>

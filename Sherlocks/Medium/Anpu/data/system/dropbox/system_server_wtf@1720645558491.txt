@@ -1,0 +1,17 @@
+Process: system_server
+Subject: ProcessStats
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+
+android.util.Log$TerribleFailure: Starting service ServiceState{acf652b org.chromium.content.app.SandboxedProcessService0 pkg=com.brave.browser proc=5635d88} without owner
+	at android.util.Log.wtf(Log.java:309)
+	at android.util.Slog.wtf(Slog.java:94)
+	at com.android.internal.app.procstats.ServiceState.setStarted(ServiceState.java:301)
+	at com.android.server.am.ActiveServices.bringDownServiceLocked(ActiveServices.java:3062)
+	at com.android.server.am.ActiveServices.bringDownServiceIfNeededLocked(ActiveServices.java:2877)
+	at com.android.server.am.ActiveServices.removeConnectionLocked(ActiveServices.java:3164)
+	at com.android.server.am.ActiveServices.unbindServiceLocked(ActiveServices.java:1931)
+	at com.android.server.am.ActivityManagerService.unbindService(ActivityManagerService.java:14081)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2265)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+	at android.os.Binder.execTransact(Binder.java:994)

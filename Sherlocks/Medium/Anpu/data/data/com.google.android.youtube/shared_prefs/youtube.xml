@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="downloads_encryption_key">VujILhSJ6JnK57f5cG2Yaw==&#10;    </string>
+    <int name="inline_global_play_pause_migration" value="1" />
+    <long name="delayed_event_last_dispatch_time_ms" value="1720652211372" />
+    <boolean name="innertube_safety_mode_enabled" value="false" />
+    <int name="com.google.android.libraries.youtube.innertube.pref.startup_uncaught_exception_count" value="0" />
+    <string name="apiary_device_key_YouTubeApplication">LrinDNSzGJ+XuO29MsQZoHA1QbdsymtsoJ2RQsje&#10;    </string>
+    <string name="version">14.19.57</string>
+    <int name="account_last_handled_event_index" value="1" />
+    <string name="ap_dev_reg">f707d1c126d528f9</string>
+    <int name="class zyn" value="0" />
+    <boolean name="got_future_restore" value="false" />
+    <boolean name="mdx.continue_watching_visible" value="false" />
+    <string name="apiary_device_id_YouTubeApplication">AP+lc7+lKk5NHFmE7C/XHQaZtm82ZeFB79NKp3kb44aZkPfk3Lqsc8uJ1GBGUxofKsGi2eN6DVJ34gs2oxXZb7b2cDRnr8gtHwmXNq8PWrPSu7j2qBknh+8GGqNPk9kXUKVsMDqd7KDGow</string>
+    <boolean name="application_first_start" value="false" />
+    <boolean name="com.google.android.libraries.youtube.mdx.notification.LOCAL_NOTIFICATIONS_VISIBILITY" value="false" />
+    <boolean name="startup_permission_check_succeeded" value="true" />
+    <long name="mdx-profile-creation-timestamp" value="1720652211243" />
+    <long name="device_context_app_last_opened" value="1720652211523" />
+</map>

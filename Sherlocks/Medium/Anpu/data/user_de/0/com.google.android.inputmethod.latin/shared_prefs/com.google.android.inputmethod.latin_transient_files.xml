@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="file.keyboard_def_cache_d9ce86e82d9af0af410731ede1c5944e">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.keyboard_def_cache_bcc824e01b4868c19ea1e52cb7cb22f9">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.keyboard_def_cache_43980c26eb710a68a687b2932250e4f4">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.keyboard_def_cache_1d687bb6437cc0d79a6b4e8a0616cd46">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.stylesheet_builtin_material_light.binarypb_2_11_12">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.keyboard_def_cache_49db70dd51e6ffb025a51440482195a9">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+    <set name="file.keyboard_def_cache_19564da6b7ec4e107c93acc671f8b35e">
+        <string>metadata.os_version:29_1627918621000</string>
+        <string>metadata.delete_on_package_upgrade:true</string>
+        <string>metadata.delete_on_os_upgrade:true</string>
+        <string>metadata.package_version:8.0.4.236324529-preload-x86_26800411</string>
+    </set>
+</map>

@@ -1,0 +1,61 @@
+<phone_account_registrar_state version="9">
+<default_outgoing>
+<default_outgoing_phone_account_handle>
+<user_serial_number>0</user_serial_number>
+<group_id></group_id>
+<account_handle>
+<phone_account_handle>
+<component_name>com.android.phone/com.android.services.telephony.TelephonyConnectionService</component_name>
+<id>89014103211118510720</id>
+<user_serial_number>0</user_serial_number>
+</phone_account_handle>
+</account_handle>
+</default_outgoing_phone_account_handle>
+</default_outgoing>
+<accounts>
+<phone_account>
+<account_handle>
+<phone_account_handle>
+<component_name>com.android.phone/com.android.services.telephony.TelephonyConnectionService</component_name>
+<id>89014103211118510720</id>
+<user_serial_number>0</user_serial_number>
+</phone_account_handle>
+</account_handle>
+<handle>tel:%2B15555215554</handle>
+<subscription_number>tel:%2B15555215554</subscription_number>
+<capabilities>54</capabilities>
+<icon>AAAAAQGJUE5HDQoaCgAAAA1JSERSAAAAQwAAAFQIBgAAANkZilAAAAABc1JHQgCuzhzpAAAABHNC&#10;SVQICAgIfAhkiAAAA4VJREFUeJzt3MFrm3UYwPHv80vSUD1oLCiKgk682EPx6K3XHmor8y1jCvMg&#10;70F4T7KLCnthbjg3HE5B6cWLB9cOqhTxzxBMcvAgBhlrpVJbqJJ2JY+HZPI4rWZd0l+SPp/rS/M+&#10;+fL7vXlTkgh9lGVZeX19fQG4Bjzcz3N1aU9VvxORr4DrlUrl5uLi4u07B6VfZ02SZExEFlT1GlDp&#10;13kOQ1VVRBqqelVEvlxeXv4V0EI/TpZlWXlnZ+cVEfmYAQsBICICVETkRaA0NTVVrdVqv/d8ZaRp&#10;+sDW1tYbqnoOeKTXj98H28AF4JOexkiSZFxV3xSRt4DHe/nY/dTZMi/1bJskSTIOvC4iZ2mH6Nv1&#10;qNdU9SER+aUnMdI0LTWbzQUReRd4Egi9eNyj0rmGPHjfMWZmZsqqehK4QjvE0KyIu0zcV4wsy8p7&#10;e3vzwIcM0TXiAMVDL+c8z4tra2svA1cZ/hDAIZd0kiRjrVbrTKFQOK+qj/V6qFjueWWkaVoC0hDC&#10;uVEKAfcYI03T0ubm5hngrKo+0aeZoul6myRJUgBOAznwNEP28tmNrp5QmqalVqt1EjgPnOj274bN&#10;/760du4jZkXkEvDMEcwUTfG/Dna2xqyqXqK9Ikbagcs9z/Ogqq/SvqEa+RBwQIw8z0O1Wj0dQngP&#10;eOqIZ4rmH9skz/NQq9VeCyG8rarHJgTctTLyPA/1ev1UCOEd4LlIM0Xz131GnufFer0+D7wPPBtv&#10;pHgE2u81VHVGRC4Cz0eeKZowPT1d7IS4wDEOARAmJiYSEbkMTMYeJrZwXC+W/ybQ/ledY0TfcB2W&#10;xzA8huExDI9heAzDYxgew/AYhscwPIbhMQyPYXgMw2MYHsPwGIbHMDyG4TEMj2F4DCMA47GHGBQB&#10;GIs9xKDwbWJ4DMNjGB7D8BiGxzA8huExDI9heAzDYxgew/AYhscwPIbhMQyPYXgMw2MYHsPwGIbH&#10;MDyG4TEMj2EEoBl7iEGgqrsBqMYeZBCEEOoB+BrQ2MNEpqr6bQCuAzdjTxPZLeBG2NjYaAAfqOpW&#10;5IFi2QY+An4oNBqN1uTk5E8iUqL9Rd/j9HmNbRH5fHd397OVlZXfBEBVZW5u7tFyuXwKyGj/eMiw&#10;/ixdN1RVfw4hfKqqXywtLd0SEf3bE06SZLxYLJ7Y39+fB2aBFxitD7PcBr4HvgFuNJvNH1dXV/+4&#10;c/BPjLvw06mI/MYAAAAASUVORK5CYII=&#10;</icon>
+<highlight_color>0</highlight_color>
+<label>Android</label>
+<short_description>Android</short_description>
+<supported_uri_schemes length="2">
+<value>tel</value>
+<value>voicemail</value>
+</supported_uri_schemes>
+<extras>
+<value key="android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK" type="boolean">true</value>
+</extras>
+<enabled>true</enabled>
+<supported_audio_routes>15</supported_audio_routes>
+</phone_account>
+<phone_account>
+<account_handle>
+<phone_account_handle>
+<component_name>com.twitter.android/com.twitter.calling.xcall.XCallConnectionService</component_name>
+<id>XCallSelfManagedPhoneAccount</id>
+<user_serial_number>0</user_serial_number>
+</phone_account_handle>
+</account_handle>
+<handle>sip:@self_managed</handle>
+<capabilities>3144</capabilities>
+<highlight_color>0</highlight_color>
+<label>X</label>
+<supported_uri_schemes length="1">
+<value>sip</value>
+</supported_uri_schemes>
+<extras />
+<enabled>true</enabled>
+<supported_audio_routes>15</supported_audio_routes>
+</phone_account>
+</accounts>
+</phone_account_registrar_state>

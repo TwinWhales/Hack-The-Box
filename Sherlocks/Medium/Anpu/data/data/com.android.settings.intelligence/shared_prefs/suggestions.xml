@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="com.android.settings/com.android.settings.wallpaper.WallpaperSuggestionActivity_setup_time" value="1720644681332" />
+    <long name="com.android.settings/com.android.settings.wallpaper.StyleSuggestionActivity_setup_time" value="1720644681332" />
+    <long name="com.android.settings/com.android.settings.biometrics.fingerprint.FingerprintEnrollSuggestionActivity_setup_time" value="1720644681330" />
+    <long name="com.android.settings/com.android.settings.notification.ZenSuggestionActivity_setup_time" value="1720644681332" />
+    <long name="com.google.android.gm/com.google.android.gm.setup.AccountSetupFinalGmailSuggestions_setup_time" value="1720644681344" />
+    <long name="com.android.settings/com.android.settings.password.ScreenLockSuggestionActivity_setup_time" value="1720644681331" />
+    <boolean name="com.google.android.gm/com.google.android.gm.setup.AccountSetupFinalGmailSuggestions_is_dismissed" value="false" />
+    <long name="com.android.settings.suggested.category.HIGH_PRIORITY_setup_time" value="1720644681322" />
+    <long name="com.android.emergency/com.android.emergency.edit.EditInfoSuggestion_setup_time" value="1720644681332" />
+    <long name="com.android.settings.suggested.category.FIRST_IMPRESSION_setup_time" value="1720644681324" />
+    <boolean name="com.android.settings/com.android.settings.notification.ZenSuggestionActivity_is_dismissed" value="false" />
+    <long name="com.android.settings.suggested.category.DEFERRED_SETUP_setup_time" value="1720644681320" />
+    <long name="com.android.settings/com.android.settings.wifi.calling.WifiCallingSuggestionActivity_setup_time" value="1720644681332" />
+</map>

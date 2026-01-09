@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="microsoft.windowscommunicationsapps" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="16005.14326.22342.0"/>
+	<Packages>
+		<Package Type="application" Version="16005.14326.22342.0" Architecture="arm64" FileName="outlookim_arm64.appx" Offset="66237448" Size="84180922">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="16005.14326.22342.0" Architecture="x64" FileName="outlookim_x64.appx" Offset="150418442" Size="90731869">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="16005.14326.22342.0" Architecture="x86" FileName="outlookim_x86.appx" Offset="241150383" Size="75092633">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="af-za" FileName="outlookim.language-af-za.appx" Offset="59" Size="1038669">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="am-et" FileName="outlookim.language-am-et.appx" Offset="1038811" Size="817728">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ar-sa" FileName="outlookim.language-ar-sa.appx" Offset="1856622" Size="1156460">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="az-latn-az" FileName="outlookim.language-az-latn-az.appx" Offset="3013170" Size="856199">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="be-by" FileName="outlookim.language-be-by.appx" Offset="3869452" Size="1042401">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="bg-bg" FileName="outlookim.language-bg-bg.appx" Offset="4911936" Size="1053903">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="bn-bd" FileName="outlookim.language-bn-bd.appx" Offset="5965922" Size="953386">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="bs-latn-ba" FileName="outlookim.language-bs-latn-ba.appx" Offset="6919396" Size="1064426">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ca-es" FileName="outlookim.language-ca-es.appx" Offset="7983905" Size="1082166">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="cs-cz" FileName="outlookim.language-cs-cz.appx" Offset="9066154" Size="887864">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="da-dk" FileName="outlookim.language-da-dk.appx" Offset="9954101" Size="1051832">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="de-de" FileName="outlookim.language-de-de.appx" Offset="11006016" Size="1107273">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="el-gr" FileName="outlookim.language-el-gr.appx" Offset="12113372" Size="1113427">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="es-es" FileName="outlookim.language-es-es.appx" Offset="13226882" Size="1087867">
+			<Resources>
+				<Resource Language="es-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="es-mx" FileName="outlookim.language-es-mx.appx" Offset="14314832" Size="1066684">
+			<Resources>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="et-ee" FileName="outlookim.language-et-ee.appx" Offset="15381599" Size="1028594">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="eu-es" FileName="outlookim.language-eu-es.appx" Offset="16410276" Size="1056714">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="fa-ir" FileName="outlookim.language-fa-ir.appx" Offset="17467073" Size="1005517">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="fi-fi" FileName="outlookim.language-fi-fi.appx" Offset="18472673" Size="1066150">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="fil-ph" FileName="outlookim.language-fil-ph.appx" Offset="19538907" Size="1109666">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="fr-ca" FileName="outlookim.language-fr-ca.appx" Offset="20648656" Size="1070741">
+			<Resources>
+				<Resource Language="fr-ca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="fr-fr" FileName="outlookim.language-fr-fr.appx" Offset="21719480" Size="1080756">
+			<Resources>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="gl-es" FileName="outlookim.language-gl-es.appx" Offset="22800319" Size="1054184">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ha-latn-ng" FileName="outlookim.language-ha-latn-ng.appx" Offset="23854591" Size="1036327">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="he-il" FileName="outlookim.language-he-il.appx" Offset="24891001" Size="1049867">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="hi-in" FileName="outlookim.language-hi-in.appx" Offset="25940951" Size="952647">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="hr-hr" FileName="outlookim.language-hr-hr.appx" Offset="26893681" Size="1075688">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="hu-hu" FileName="outlookim.language-hu-hu.appx" Offset="27969452" Size="1002058">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="id-id" FileName="outlookim.language-id-id.appx" Offset="28971593" Size="1006260">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="is-is" FileName="outlookim.language-is-is.appx" Offset="29977936" Size="1016319">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="it-it" FileName="outlookim.language-it-it.appx" Offset="30994338" Size="1071648">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ja-jp" FileName="outlookim.language-ja-jp.appx" Offset="32066069" Size="789279">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="kk-kz" FileName="outlookim.language-kk-kz.appx" Offset="32855431" Size="841554">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="km-kh" FileName="outlookim.language-km-kh.appx" Offset="33697068" Size="876092">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="kn-in" FileName="outlookim.language-kn-in.appx" Offset="34573243" Size="991878">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ko-kr" FileName="outlookim.language-ko-kr.appx" Offset="35565204" Size="923377">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="lo-la" FileName="outlookim.language-lo-la.appx" Offset="36488664" Size="853190">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="lt-lt" FileName="outlookim.language-lt-lt.appx" Offset="37341937" Size="1069478">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="lv-lv" FileName="outlookim.language-lv-lv.appx" Offset="38411498" Size="1072906">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="mk-mk" FileName="outlookim.language-mk-mk.appx" Offset="39484487" Size="1030340">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ml-in" FileName="outlookim.language-ml-in.appx" Offset="40514910" Size="975806">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ms-my" FileName="outlookim.language-ms-my.appx" Offset="41490799" Size="1020171">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="nb-no" FileName="outlookim.language-nb-no.appx" Offset="42511053" Size="1034049">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="nl-nl" FileName="outlookim.language-nl-nl.appx" Offset="43545185" Size="1071976">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="nn-no" FileName="outlookim.language-nn-no.appx" Offset="44617244" Size="1008536">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="pl-pl" FileName="outlookim.language-pl-pl.appx" Offset="45625863" Size="1007009">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="pt-br" FileName="outlookim.language-pt-br.appx" Offset="46632955" Size="1075568">
+			<Resources>
+				<Resource Language="pt-br"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="pt-pt" FileName="outlookim.language-pt-pt.appx" Offset="47708606" Size="1086088">
+			<Resources>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ro-ro" FileName="outlookim.language-ro-ro.appx" Offset="48794777" Size="917034">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ru-ru" FileName="outlookim.language-ru-ru.appx" Offset="49711894" Size="1052002">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sk-sk" FileName="outlookim.language-sk-sk.appx" Offset="50763979" Size="898803">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sl-si" FileName="outlookim.language-sl-si.appx" Offset="51662865" Size="1054238">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sq-al" FileName="outlookim.language-sq-al.appx" Offset="52717186" Size="1062088">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sr-cyrl-rs" FileName="outlookim.language-sr-cyrl-rs.appx" Offset="53779362" Size="1036757">
+			<Resources>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sr-latn-rs" FileName="outlookim.language-sr-latn-rs.appx" Offset="54816207" Size="1061106">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sv-se" FileName="outlookim.language-sv-se.appx" Offset="55877396" Size="1040366">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="sw-ke" FileName="outlookim.language-sw-ke.appx" Offset="56917845" Size="1034339">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="ta-in" FileName="outlookim.language-ta-in.appx" Offset="57952267" Size="1098396">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="te-in" FileName="outlookim.language-te-in.appx" Offset="59050746" Size="968498">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="th-th" FileName="outlookim.language-th-th.appx" Offset="60019327" Size="805695">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="tr-tr" FileName="outlookim.language-tr-tr.appx" Offset="60825105" Size="908133">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="uk-ua" FileName="outlookim.language-uk-ua.appx" Offset="61733321" Size="1043598">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="uz-latn-uz" FileName="outlookim.language-uz-latn-uz.appx" Offset="62777007" Size="1094823">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="vi-vn" FileName="outlookim.language-vi-vn.appx" Offset="63871913" Size="836141">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="zh-cn" FileName="outlookim.language-zh-cn.appx" Offset="64708137" Size="769667">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16005.14326.22342.0" ResourceId="zh-tw" FileName="outlookim.language-zh-tw.appx" Offset="65477887" Size="759487">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

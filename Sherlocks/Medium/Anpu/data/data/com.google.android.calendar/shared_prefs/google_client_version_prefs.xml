@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="seenOOBE_452901264" value="true" />
+    <int name="smartmailAck_452901264" value="4" />
+    <string name="googleClientVersion_452901264">1</string>
+</map>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:uap7="http://schemas.microsoft.com/appx/manifest/uap/windows10/7" xmlns:uap8="http://schemas.microsoft.com/appx/manifest/uap/windows10/8" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10" xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:rescap6="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/6" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" IgnorableNamespaces="uap3 uap8 desktop2 desktop4 desktop6 rescap6" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="Microsoft.SkypeApp" Publisher="CN=Skype Software Sarl, O=Microsoft Corporation, L=Luxembourg, S=Luxembourg, C=LU" Version="15.150.3125.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Skype</DisplayName>
+    <PublisherDisplayName>Skype</PublisherDisplayName>
+    <Logo>Assets\SkypeLogo.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="es" />
+    <Resource Language="gl" />
+    <Resource Language="eu" />
+    <Resource Language="he" />
+    <Resource Language="ar" />
+    <Resource Language="bg" />
+    <Resource Language="ca" />
+    <Resource Language="cs" />
+    <Resource Language="da" />
+    <Resource Language="de" />
+    <Resource Language="el" />
+    <Resource Language="et" />
+    <Resource Language="fi" />
+    <Resource Language="fr" />
+    <Resource Language="hi" />
+    <Resource Language="hr" />
+    <Resource Language="hu" />
+    <Resource Language="id" />
+    <Resource Language="it" />
+    <Resource Language="ja" />
+    <Resource Language="ko" />
+    <Resource Language="lt" />
+    <Resource Language="lv" />
+    <Resource Language="ms" />
+    <Resource Language="nb" />
+    <Resource Language="nl" />
+    <Resource Language="pl" />
+    <Resource Language="pt" />
+    <Resource Language="ro" />
+    <Resource Language="ru" />
+    <Resource Language="sk" />
+    <Resource Language="sl" />
+    <Resource Language="sr-Latn" />
+    <Resource Language="sv" />
+    <Resource Language="th" />
+    <Resource Language="tr" />
+    <Resource Language="uk" />
+    <Resource Language="vi" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="125" />
+    <Resource uap:Scale="150" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="400" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0" />
+  </Dependencies>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+    <rescap:Capability Name="screenDuplication" />
+    <rescap:Capability Name="confirmAppClose" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="hidTelephony" />
+    <rescap:Capability Name="backgroundVoIP" />
+    <uap:Capability Name="contacts" />
+    <uap:Capability Name="voipCall" />
+    <DeviceCapability Name="wiFiControl" />
+    <DeviceCapability Name="humaninterfacedevice">
+      <Device Id="any">
+        <Function Type="usage:000B *" />
+      </Device>
+    </DeviceCapability>
+    <DeviceCapability Name="location" />
+  </Capabilities>
+  <Applications>
+    <Application Id="App" Executable="Skype\Skype.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Skype" Square150x150Logo="Assets\SkypeMedTile.png" Square44x44Logo="Assets\SkypeAppList.png" Description="Skype" BackgroundColor="#404040">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\LockScreenBadgeLogo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\SkypeWideTile.png" Square71x71Logo="Assets\SkypeTile.png" Square310x310Logo="Assets\SkypeLargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appExecutionAlias" Executable="Skype\Skype.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap3:AppExecutionAlias>
+            <desktop:ExecutionAlias Alias="Skype.exe" />
+          </uap3:AppExecutionAlias>
+        </uap3:Extension>
+        <desktop:Extension Category="windows.toastNotificationActivation">
+          <desktop:ToastNotificationActivation ToastActivatorCLSID="ef6de050-69a1-414c-980d-7334bbeacecb" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <mp:PhoneIdentity PhoneProductId="c3f8e570-68b3-4d6a-bdbb-c0a3f4360a51" PhonePublisherId="89188381-c4b5-4ebd-bd9a-02603f1ec69f" />
+</Package>

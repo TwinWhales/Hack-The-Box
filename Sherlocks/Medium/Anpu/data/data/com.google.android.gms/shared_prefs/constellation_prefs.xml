@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="recent_get_consent_timestamps_in_seconds">1720644782</string>
+    <string name="public_key">MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2L6ue5yW3x813x2SyRkYm4uO3y29NgPhtXWXIi1ZWkjaiqWE7AOmg/N8hX/H8P4xRduQt7gjf7olAQmTihPD2w==</string>
+    <long name="last_consent_checked_timestamp_for_trigger_millis" value="1720644551421" />
+    <string name="inactive_sims"></string>
+    <long name="last_consent_check_with_server_time_millis" value="1720644782728" />
+    <boolean name="is_public_key_acked" value="false" />
+    <string name="private_key">MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQggq/S3dGKkis9nikONoGFqHbVEXxBcMY5JHVjEBMzBYOhRANCAATYvq57nJbfHzXfHZLJGRibi47fLb02A+G1dZciLVlaSNqKpYTsA6aD83yFf8fw/jFF25C3uCN/uiUBCZOKE8Pb</string>
+    <string name="gcm_token">fuq94_kb67Q:APA91bEi0tok9SXHgVrHkoz-z1JgTJOw44ysM99ienje39jT4ivVy8VNg2KB25jJsG9FFSirDnl-bkf8HDuv3BmEr5mex8BnVxPV6XyYJjdZud6u_uh1LwOVioIc7uIkal5J7ObYFck-</string>
+</map>

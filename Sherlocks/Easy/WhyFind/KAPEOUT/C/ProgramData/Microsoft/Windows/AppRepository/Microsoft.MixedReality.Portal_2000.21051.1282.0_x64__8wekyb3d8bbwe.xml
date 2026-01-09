@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap4 rescap desktop mp build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.MixedReality.Portal" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2000.21051.1282.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="0b458006-44d2-438d-8446-69547612a44b" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:PkgDisplayName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\MixedRealityPortalStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17688.0" MaxVersionTested="10.0.17688.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.29231.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="MixedRealityPortal.exe" EntryPoint="MixedRealityPortal.App">
+      <uap:VisualElements DisplayName="ms-resource:AppName/Text" Square150x150Logo="Assets\MixedRealityPortalMedTile.png" Square44x44Logo="Assets\MixedRealityPortalAppList.png" Description="ms-resource:AppDescription" BackgroundColor="#1F1F1F">
+        <uap:SplashScreen Image="Assets\MixedRealityPortalSplashScreen.png"/>
+        <uap:DefaultTile>
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="MixedRealityPortal.Brokered.exe"/>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-holographicfirstrun" ReturnResults="optional"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="com.microsoft.mrp"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="com.microsoft.mrp-fulltrust"/>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <uap2:Capability Name="spatialPerception"/>
+    <rescap:Capability Name="packageQuery"/>
+    <rescap:Capability Name="confirmAppClose"/>
+    <rescap:Capability Name="extendedExecutionUnconstrained"/>
+    <rescap:Capability Name="screenDuplication"/>
+    <rescap:Capability Name="storeAppInstallation"/>
+    <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="cortanaPermissions"/>
+    <uap4:CustomCapability Name="Microsoft.mixedRealityExperience_8wekyb3d8bbwe"/>
+    <DeviceCapability Name="microphone"/>
+    <DeviceCapability Name="webcam"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>IrisProtocol.dll</Path>
+        <ActivatableClass ActivatableClassId="IrisProtocol.IrisService" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Graphics.Canvas.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasVirtualBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasDevice" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasPathBuilder" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasCommandList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSpriteBatch" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSwapChain" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EdgeDetectionEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TileEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform2DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ScaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorSourceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ConvolveMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueRotationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementProfile" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LinearTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DpiCompensationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CropEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AlphaMaskEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EffectTransferTable3D" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SaturationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SepiaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ChromaKeyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DisplacementMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.StraightenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ContrastEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ArithmeticCompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.RgbToHueEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BlendEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.VignetteEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransfer3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BorderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TemperatureAndTintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.InvertEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AtlasEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PosterizeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EmbossEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.MorphologyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ShadowEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SharpenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.WhiteLevelAdjustmentEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CrossFadeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ExposureEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PixelShaderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BrightnessEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TurbulenceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DirectionalBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LuminanceToAlphaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DiscreteTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityMetadataEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasImage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasSolidColorBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasImageBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasRenderTarget" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasFontSet" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextRenderingParameters" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTypography" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextFormat" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextLayout" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextAnalyzer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Composition.CanvasComposition" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasSwapChainPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.28.29915.0 built by: vcwrkspc"/>
+    <build:Item Name="VisualStudio" Version="16.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.31228.383"/>
+    <build:Item Name="ProjectGUID" Value="{e9ed7be6-ad86-4397-9bf2-c6ee337ff914}"/>
+    <build:Item Name="ilc.exe" Version="1.4.24211.07 built by: PROJECTNSVC2"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="UniversalGenericsOptOut" Value="false"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.18362.1"/>
+    <build:Item Name="HoloSysImplementation" Version="10.0.18362.0"/>
+    <build:Item Name="WindowsDesktop" Version="10.0.18362.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.18362.1 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

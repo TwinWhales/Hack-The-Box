@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="conv2query_training_cache">trainingcache3</string>
+    <string name="lstm_training_cache">trainingcache2</string>
+</map>

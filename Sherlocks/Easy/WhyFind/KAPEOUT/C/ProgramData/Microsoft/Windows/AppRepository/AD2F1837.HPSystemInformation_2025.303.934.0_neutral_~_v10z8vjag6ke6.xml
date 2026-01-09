@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="AD2F1837.HPSystemInformation" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="2025.303.934.0"/>
+	<Packages>
+		<Package Type="application" Version="8.10.45.0" Architecture="x86" FileName="HP System Information_8.10.45.0_Win32.msix" Offset="76" Size="632213">
+			<Resources>
+				<Resource Language="EN"/>
+				<Resource Language="AR"/>
+				<Resource Language="BG"/>
+				<Resource Language="CS"/>
+				<Resource Language="DA"/>
+				<Resource Language="DE"/>
+				<Resource Language="EL"/>
+				<Resource Language="ES"/>
+				<Resource Language="ET"/>
+				<Resource Language="FI"/>
+				<Resource Language="FR"/>
+				<Resource Language="HE"/>
+				<Resource Language="HR"/>
+				<Resource Language="HU"/>
+				<Resource Language="IT"/>
+				<Resource Language="JA"/>
+				<Resource Language="KO"/>
+				<Resource Language="LT"/>
+				<Resource Language="LV"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL"/>
+				<Resource Language="PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO"/>
+				<Resource Language="RU"/>
+				<Resource Language="SK"/>
+				<Resource Language="SL"/>
+				<Resource Language="SR-CYRL"/>
+				<Resource Language="SR-LATN"/>
+				<Resource Language="SV"/>
+				<Resource Language="TH"/>
+				<Resource Language="TR"/>
+				<Resource Language="UK"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Language="ZH-HANT"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="8.10.45.0" Architecture="x64" FileName="HP System Information_8.10.45.0_x64.msix" Offset="632387" Size="669180">
+			<Resources>
+				<Resource Language="EN"/>
+				<Resource Language="AR"/>
+				<Resource Language="BG"/>
+				<Resource Language="CS"/>
+				<Resource Language="DA"/>
+				<Resource Language="DE"/>
+				<Resource Language="EL"/>
+				<Resource Language="ES"/>
+				<Resource Language="ET"/>
+				<Resource Language="FI"/>
+				<Resource Language="FR"/>
+				<Resource Language="HE"/>
+				<Resource Language="HR"/>
+				<Resource Language="HU"/>
+				<Resource Language="IT"/>
+				<Resource Language="JA"/>
+				<Resource Language="KO"/>
+				<Resource Language="LT"/>
+				<Resource Language="LV"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL"/>
+				<Resource Language="PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO"/>
+				<Resource Language="RU"/>
+				<Resource Language="SK"/>
+				<Resource Language="SL"/>
+				<Resource Language="SR-CYRL"/>
+				<Resource Language="SR-LATN"/>
+				<Resource Language="SV"/>
+				<Resource Language="TH"/>
+				<Resource Language="TR"/>
+				<Resource Language="UK"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Language="ZH-HANT"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

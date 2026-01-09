@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.WindowsNotepad" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2501.31.0"/>
+	<Packages>
+		<Package Type="application" Version="11.2501.31.0" Architecture="x64" FileName="NotepadApp_11.2501.31.0_x64.msix" Offset="10718915" Size="7358283">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2501.31.0" Architecture="arm64" FileName="NotepadApp_11.2501.31.0_ARM64.msix" Offset="64" Size="9069900">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-pl" FileName="NotepadApp_11.2501.31.0_language-pl.msix" Offset="10088235" Size="17963">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-uz-latn" FileName="NotepadApp_11.2501.31.0_language-uz-latn.msix" Offset="10440997" Size="17743">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-tr" FileName="NotepadApp_11.2501.31.0_language-tr.msix" Offset="10349043" Size="17664">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-tt-cyrl" FileName="NotepadApp_11.2501.31.0_language-tt-cyrl.msix" Offset="10366806" Size="18300">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ur" FileName="NotepadApp_11.2501.31.0_language-ur.msix" Offset="10422377" Size="18521">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-th" FileName="NotepadApp_11.2501.31.0_language-th.msix" Offset="10330817" Size="18132">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sr-latn" FileName="NotepadApp_11.2501.31.0_language-sr-latn.msix" Offset="10257980" Size="17851">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-uk" FileName="NotepadApp_11.2501.31.0_language-uk.msix" Offset="10403523" Size="18760">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ta" FileName="NotepadApp_11.2501.31.0_language-ta.msix" Offset="10293427" Size="18494">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ug-arab" FileName="NotepadApp_11.2501.31.0_language-ug-arab.msix" Offset="10385205" Size="18224">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-pt" FileName="NotepadApp_11.2501.31.0_language-pt.msix" Offset="10106292" Size="21218">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-nn" FileName="NotepadApp_11.2501.31.0_language-nn.msix" Offset="10033239" Size="17402">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-mt" FileName="NotepadApp_11.2501.31.0_language-mt.msix" Offset="9961789" Size="17888">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-quz-latn" FileName="NotepadApp_11.2501.31.0_language-quz-latn.msix" Offset="10127610" Size="17725">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ml" FileName="NotepadApp_11.2501.31.0_language-ml.msix" Offset="9906846" Size="18938">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-mk" FileName="NotepadApp_11.2501.31.0_language-mk.msix" Offset="9888216" Size="18536">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-mi-latn" FileName="NotepadApp_11.2501.31.0_language-mi-latn.msix" Offset="9870729" Size="17393">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-vi" FileName="NotepadApp_11.2501.31.0_language-vi.msix" Offset="10458834" Size="18130">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-lt" FileName="NotepadApp_11.2501.31.0_language-lt.msix" Offset="9834581" Size="18035">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-or" FileName="NotepadApp_11.2501.31.0_language-or.msix" Offset="10050735" Size="18640">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sk" FileName="NotepadApp_11.2501.31.0_language-sk.msix" Offset="10182042" Size="17958">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sl" FileName="NotepadApp_11.2501.31.0_language-sl.msix" Offset="10200094" Size="17666">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sv" FileName="NotepadApp_11.2501.31.0_language-sv.msix" Offset="10275925" Size="17408">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ru" FileName="NotepadApp_11.2501.31.0_language-ru.msix" Offset="10163265" Size="18683">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ro" FileName="NotepadApp_11.2501.31.0_language-ro.msix" Offset="10145429" Size="17742">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sr-cyrl" FileName="NotepadApp_11.2501.31.0_language-sr-cyrl.msix" Offset="10235826" Size="22055">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-he" FileName="NotepadApp_11.2501.31.0_language-he.msix" Offset="9526118" Size="17704">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-hi" FileName="NotepadApp_11.2501.31.0_language-hi.msix" Offset="9543916" Size="18597">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-hr" FileName="NotepadApp_11.2501.31.0_language-hr.msix" Offset="9562607" Size="17801">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-hu" FileName="NotepadApp_11.2501.31.0_language-hu.msix" Offset="9580502" Size="18067">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-gl" FileName="NotepadApp_11.2501.31.0_language-gl.msix" Offset="9489838" Size="17655">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-id" FileName="NotepadApp_11.2501.31.0_language-id.msix" Offset="9617293" Size="17085">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-is" FileName="NotepadApp_11.2501.31.0_language-is.msix" Offset="9634472" Size="17629">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-it" FileName="NotepadApp_11.2501.31.0_language-it.msix" Offset="9652195" Size="17600">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ja" FileName="NotepadApp_11.2501.31.0_language-ja.msix" Offset="9669889" Size="17660">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ka" FileName="NotepadApp_11.2501.31.0_language-ka.msix" Offset="9687643" Size="18453">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-kk" FileName="NotepadApp_11.2501.31.0_language-kk.msix" Offset="9706190" Size="18429">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-km" FileName="NotepadApp_11.2501.31.0_language-km.msix" Offset="9724713" Size="18462">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-fr" FileName="NotepadApp_11.2501.31.0_language-fr.msix" Offset="9434751" Size="19023">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ko" FileName="NotepadApp_11.2501.31.0_language-ko.msix" Offset="9761893" Size="17436">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-kok" FileName="NotepadApp_11.2501.31.0_language-kok.msix" Offset="9779424" Size="18648">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-lb" FileName="NotepadApp_11.2501.31.0_language-lb.msix" Offset="9798166" Size="17922">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-fil-latn" FileName="NotepadApp_11.2501.31.0_language-fil-latn.msix" Offset="9417067" Size="17590">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-te" FileName="NotepadApp_11.2501.31.0_language-te.msix" Offset="10312015" Size="18708">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-lv" FileName="NotepadApp_11.2501.31.0_language-lv.msix" Offset="9852710" Size="17920">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-et" FileName="NotepadApp_11.2501.31.0_language-et.msix" Offset="9345840" Size="17559">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-es" FileName="NotepadApp_11.2501.31.0_language-es.msix" Offset="9326865" Size="18881">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-el" FileName="NotepadApp_11.2501.31.0_language-el.msix" Offset="9307580" Size="19191">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-mr" FileName="NotepadApp_11.2501.31.0_language-mr.msix" Offset="9925878" Size="18583">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ms" FileName="NotepadApp_11.2501.31.0_language-ms.msix" Offset="9944555" Size="17140">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-da" FileName="NotepadApp_11.2501.31.0_language-da.msix" Offset="9272110" Size="17480">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-nb" FileName="NotepadApp_11.2501.31.0_language-nb.msix" Offset="9979771" Size="17342">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ne" FileName="NotepadApp_11.2501.31.0_language-ne.msix" Offset="9997207" Size="18338">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-nl" FileName="NotepadApp_11.2501.31.0_language-nl.msix" Offset="10015639" Size="17506">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-cy" FileName="NotepadApp_11.2501.31.0_language-cy.msix" Offset="9254408" Size="17608">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-bs" FileName="NotepadApp_11.2501.31.0_language-bs.msix" Offset="9198236" Size="17806">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-pa" FileName="NotepadApp_11.2501.31.0_language-pa.msix" Offset="10069469" Size="18672">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-bg" FileName="NotepadApp_11.2501.31.0_language-bg.msix" Offset="9160753" Size="18684">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-as" FileName="NotepadApp_11.2501.31.0_language-as.msix" Offset="9124017" Size="18718">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ar" FileName="NotepadApp_11.2501.31.0_language-ar.msix" Offset="9105860" Size="18063">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-hy" FileName="NotepadApp_11.2501.31.0_language-hy.msix" Offset="9598663" Size="18536">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-lo" FileName="NotepadApp_11.2501.31.0_language-lo.msix" Offset="9816182" Size="18305">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-gu" FileName="NotepadApp_11.2501.31.0_language-gu.msix" Offset="9507587" Size="18437">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-cs" FileName="NotepadApp_11.2501.31.0_language-cs.msix" Offset="9236334" Size="17980">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-sq" FileName="NotepadApp_11.2501.31.0_language-sq.msix" Offset="10217854" Size="17873">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-am" FileName="NotepadApp_11.2501.31.0_language-am.msix" Offset="9087519" Size="18247">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-gd-latn" FileName="NotepadApp_11.2501.31.0_language-gd-latn.msix" Offset="9471786" Size="17958">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ga" FileName="NotepadApp_11.2501.31.0_language-ga.msix" Offset="9453868" Size="17819">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-fi" FileName="NotepadApp_11.2501.31.0_language-fi.msix" Offset="9399423" Size="17544">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-fa" FileName="NotepadApp_11.2501.31.0_language-fa.msix" Offset="9380962" Size="18367">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-eu" FileName="NotepadApp_11.2501.31.0_language-eu.msix" Offset="9363493" Size="17375">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-de" FileName="NotepadApp_11.2501.31.0_language-de.msix" Offset="9289684" Size="17802">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-az-latn" FileName="NotepadApp_11.2501.31.0_language-az-latn.msix" Offset="9142834" Size="17825">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-ca" FileName="NotepadApp_11.2501.31.0_language-ca.msix" Offset="9216136" Size="20104">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-bn" FileName="NotepadApp_11.2501.31.0_language-bn.msix" Offset="9179531" Size="18611">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-af" FileName="NotepadApp_11.2501.31.0_language-af.msix" Offset="9070058" Size="17367">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-kn" FileName="NotepadApp_11.2501.31.0_language-kn.msix" Offset="9743269" Size="18530">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-zh-hans" FileName="NotepadApp_11.2501.31.0_language-zh-hans.msix" Offset="10477063" Size="16943">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.language-zh-hant" FileName="NotepadApp_11.2501.31.0_language-zh-hant.msix" Offset="10494105" Size="17288">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.scale-125" FileName="NotepadApp_11.2501.31.0_scale-125.msix" Offset="10541685" Size="35848">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.scale-150" FileName="NotepadApp_11.2501.31.0_scale-150.msix" Offset="10577625" Size="40196">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.scale-100" FileName="NotepadApp_11.2501.31.0_scale-100.msix" Offset="10511485" Size="30108">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2501.31.0" ResourceId="split.scale-400" FileName="NotepadApp_11.2501.31.0_scale-400.msix" Offset="10617913" Size="100916">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

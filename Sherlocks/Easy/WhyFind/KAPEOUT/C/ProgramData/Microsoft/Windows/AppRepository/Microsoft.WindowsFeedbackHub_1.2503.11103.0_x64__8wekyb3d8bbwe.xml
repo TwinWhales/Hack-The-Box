@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap6 mp wincap rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.WindowsFeedbackHub" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.2503.11103.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="257f34bc-7077-4437-8d07-45a260dac2e4" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\FeedbackHubStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2310.30001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="PilotshubApp.exe" EntryPoint="FeedbackHub.App">
+      <uap:VisualElements DisplayName="ms-resource:AppStoreName" Square150x150Logo="Assets\FeedbackHubMedTile.png" Square44x44Logo="Assets\FeedbackHubAppList.png" Description="ms-resource:AppDescription" BackgroundColor="#0078D4">
+        <uap:DefaultTile ShortName="ms-resource:AppStoreName" Square71x71Logo="Assets\FeedbackHubSmallTile.png" Square310x310Logo="Assets\FeedbackHubLargeTile.png" Wide310x150Logo="Assets\FeedbackHubWideTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\FeedbackHubSplashScreen.png" BackgroundColor="#0078D4"/>
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.SiufToastExpirationBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.NotificationAggregatorBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="timer"/>
+            <Task Type="pushNotification"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.DiagtrackClientBackgroundTimerTask">
+          <BackgroundTasks>
+            <Task Type="timer"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.AppEnumerationBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="timer"/>
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="FeedbackHub.BackgroundTasks.SiufDispatchAppService">
+          <uap:AppService Name="com.microsoft.feedbackhub.siufservice"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="FeedbackHub.BackgroundTasks.SupplementalDiagnosticsWorker">
+          <uap:AppService Name="com.microsoft.feedbackhub.diagnostics"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="com.microsoft.feedbackhub.uifsvc"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="windows-feedback">
+            <uap:Logo>Assets\FeedbackHubAppList.png</uap:Logo>
+            <uap:DisplayName>Feedback Hub</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="insiderhub">
+            <uap:Logo>Assets\FeedbackHubAppList.png</uap:Logo>
+            <uap:DisplayName>Feedback Hub</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="feedback-hub">
+            <uap:Logo>Assets\FeedbackHubAppList.png</uap:Logo>
+            <uap:DisplayName>Feedback Hub</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.SiufInteractiveToastBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="FeedbackHub.BackgroundTasks.DiagtrackClientBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="general"/>
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:DataFormat>Bitmap</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="fh">
+            <uap:Logo>images\icon.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.fh</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <Extension Category="windows.updateTask" EntryPoint="FeedbackHub.BackgroundTasks.AppUpdateTask"/>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <uap:Capability Name="enterpriseAuthentication"/>
+    <uap:Capability Name="picturesLibrary"/>
+    <uap:Capability Name="documentsLibrary"/>
+    <uap6:Capability Name="graphicsCapture"/>
+    <wincap:Capability Name="feedbackLogCollection"/>
+    <rescap:Capability Name="backgroundMediaRecording"/>
+    <rescap:Capability Name="packageQuery"/>
+    <rescap:Capability Name="screenDuplication"/>
+    <uap:Capability Name="userAccountInformation"/>
+    <Capability Name="privateNetworkClientServer"/>
+    <DeviceCapability Name="microphone"/>
+    <DeviceCapability Name="webcam"/>
+    <DeviceCapability Name="confirmAppClose"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>FeedbackHub.Native.Cpp.WinRTWrapper.dll</Path>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.MixedRealityCapture" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.DeviceLog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.Velocity.SIUFTypeFeature" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.Velocity.SeverityFeedbackFeature" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.HoloLensLogger" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.UtcApiVersion" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.FeedbackContext" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.ShellUifBroker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.NativeMemoryLogger" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.DiagtrackEscalationResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.Native.Cpp.WinRTWrapper.NativeWrapper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RuntimeConfiguration.dll</Path>
+        <ActivatableClass ActivatableClassId="RuntimeConfiguration.PreviewProgram" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="RuntimeConfiguration.PreviewProgramLauncher" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="RuntimeConfiguration.AdvancedPreviewProgramFactory" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PilotshubApp.dll</Path>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.SupplementalDiagnosticsWorker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.DiagtrackClientBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.DiagTrackInvocationAppService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.DiagtrackClientBackgroundTimerTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.SiufDispatchAppService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.BackgroundTaskServices" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.AppUpdateTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.SiufToastExpirationBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.SiufInteractiveToastBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.NotificationAggregatorBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="FeedbackHub.BackgroundTasks.AppEnumerationBackgroundTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="{C02F59DD-3333-41CC-A5A6-A3D1C4E9F810}"/>
+    <build:Item Name="ilc.exe" Version="2.2.31116.00 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="false"/>
+    <build:Item Name="DisableExceptionMessages" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="LargeAddressAware" Value="false"/>
+    <build:Item Name="NoLinkerSymbols" Value="false"/>
+    <build:Item Name="OutOfProcPDB" Value="false"/>
+    <build:Item Name="MakePri.exe" Version="10.0.22000.832 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

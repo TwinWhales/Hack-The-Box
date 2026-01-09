@@ -1,0 +1,125 @@
+apiVersion: v1
+items:
+- apiVersion: apps/v1
+  kind: DaemonSet
+  metadata:
+    annotations:
+      deprecated.daemonset.template.generation: "1"
+      objectset.rio.cattle.io/applied: H4sIAAAAAAAA/8RVUW/iOBD+K6d5DgEaSmmke6ja6lTdLUXA3ssKVRNnAj4c27In2aKK/35ySLvpLbTVSdcTD8j2zGfP902+eQK08k9yXhoNKaC1vl8PIYKt1DmkcINUGr0ghghKYsyREdInQK0NI0ujfVia7C8S7IljJ00skFlRLE1fBgyITp6b75pcb11vIYV+PYx++V3q/NcFuVoKejdPY0mQAjukQm4/FO4tipCzrTLq+Z1nKmEfgXDUFLOUJXnG0kKqK6UiUJiRerPEDfoNpDBJxoXIBA3OzvLzHOk8S8bjy1FBQ8IimVyKywSLi1xABL4Wwmh2Rily8TbxHTRtcvKkSLBxkEKBytM7Kb4WPxHxgfgTTLRQvhYq67WAveJCjAUmAzicn0j1lkRg6sf7n6BEFps/XkhEa0+D7/cRMJVWIVOT2+m3Dwj0JvbnUdghAis2pak0tw19JURYLc2WNKSNthGES1Bqch7Sb09Aum7+2/cs5tcPs/v5EiKoUVVhazKAffQqYH41/e120QkZxM2v/yry5naxfJjN75f3ncjl9eznmLfuayLuZt3bhoN4lMTD0TA+O09gv4pAlrgOJw612JDrb5W0llxPZWk9iEfxBbQxs0qpmVFS7CCFu2JqeObIk2Z46cSgprC9SdDQGscHml5YmxnHkE4GEWyM5x+rY9nOsBFGPZe9isCRN5UTFBooCEeicpJ310YzPXLTeGgxk0qypEOX5Tmk32B6u3y4uvlyN4XVfh/oeV+30Sj5XOH+ceH/pVx4xhvSjUZJV7tmeRTgP1NvFcClaVIVej9tLbD5oHvBkXvCSZYCFRy9xe+8YOW7+mviWNp6FEv7UBj3HV3e5b2rSxs6joXRRYxKxW2C1OvXOaumyK6VTDtuDRGwUeSep3Iwk6IgwZDC1CzEhvJKhWGypaBZU5cziuJgX04Tkw/eVqJncmGY2oDVjKHbR+nZN4/+N5Ctj/asQk0nkQ8Y1y3TV3lutL/Xanc8YRWMtrI5Mi3YIdN6F6QIdi31+mtzcBhAj1811igVZoogHYYhs7OBtfmr2Ma4GblqGkVUzpHmaVVm5J4LzSEdRJCTl47yY0e62fsivT+yPSfMd5AO9vu/AwAA//81O1DZdQkAAA
+      objectset.rio.cattle.io/id: ""
+      objectset.rio.cattle.io/owner-gvk: /v1, Kind=Service
+      objectset.rio.cattle.io/owner-name: traefik
+      objectset.rio.cattle.io/owner-namespace: kube-system
+    creationTimestamp: "2024-08-16T13:38:36Z"
+    generation: 1
+    labels:
+      objectset.rio.cattle.io/hash: 836fcbce022d5dae5b36694fe1eaf389c93af7dc
+      svccontroller.k3s.cattle.io/nodeselector: "false"
+      svccontroller.k3s.cattle.io/svcname: traefik
+      svccontroller.k3s.cattle.io/svcnamespace: kube-system
+    name: svclb-traefik-f7c6ca30
+    namespace: kube-system
+  spec:
+    revisionHistoryLimit: 10
+    selector:
+      matchLabels:
+        app: svclb-traefik-f7c6ca30
+    template:
+      metadata:
+        creationTimestamp: null
+        labels:
+          app: svclb-traefik-f7c6ca30
+          svccontroller.k3s.cattle.io/svcname: traefik
+          svccontroller.k3s.cattle.io/svcnamespace: kube-system
+      spec:
+        automountServiceAccountToken: false
+        containers:
+        - env:
+          - name: SRC_PORT
+            value: "80"
+          - name: SRC_RANGES
+            value: 0.0.0.0/0
+          - name: DEST_PROTO
+            value: TCP
+          - name: DEST_PORT
+            value: "80"
+          - name: DEST_IPS
+            value: 10.43.141.253
+          image: rancher/klipper-lb:v0.4.7
+          imagePullPolicy: IfNotPresent
+          name: lb-tcp-80
+          ports:
+          - containerPort: 80
+            hostPort: 80
+            name: lb-tcp-80
+            protocol: TCP
+          resources: {}
+          securityContext:
+            capabilities:
+              add:
+              - NET_ADMIN
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        - env:
+          - name: SRC_PORT
+            value: "443"
+          - name: SRC_RANGES
+            value: 0.0.0.0/0
+          - name: DEST_PROTO
+            value: TCP
+          - name: DEST_PORT
+            value: "443"
+          - name: DEST_IPS
+            value: 10.43.141.253
+          image: rancher/klipper-lb:v0.4.7
+          imagePullPolicy: IfNotPresent
+          name: lb-tcp-443
+          ports:
+          - containerPort: 443
+            hostPort: 443
+            name: lb-tcp-443
+            protocol: TCP
+          resources: {}
+          securityContext:
+            capabilities:
+              add:
+              - NET_ADMIN
+          terminationMessagePath: /dev/termination-log
+          terminationMessagePolicy: File
+        dnsPolicy: ClusterFirst
+        priorityClassName: system-node-critical
+        restartPolicy: Always
+        schedulerName: default-scheduler
+        securityContext:
+          sysctls:
+          - name: net.ipv4.ip_forward
+            value: "1"
+          - name: net.ipv6.conf.all.forwarding
+            value: "1"
+        serviceAccount: svclb
+        serviceAccountName: svclb
+        terminationGracePeriodSeconds: 30
+        tolerations:
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/master
+          operator: Exists
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/control-plane
+          operator: Exists
+        - key: CriticalAddonsOnly
+          operator: Exists
+    updateStrategy:
+      rollingUpdate:
+        maxSurge: 0
+        maxUnavailable: 1
+      type: RollingUpdate
+  status:
+    currentNumberScheduled: 1
+    desiredNumberScheduled: 1
+    numberAvailable: 1
+    numberMisscheduled: 0
+    numberReady: 1
+    observedGeneration: 1
+    updatedNumberScheduled: 1
+kind: List
+metadata:

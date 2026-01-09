@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap4 mp rescap com desktop build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="AppUp.IntelOptaneMemoryandStorageManagement" Publisher="CN=EB51A5DA-0E72-4863-82E4-EA21C1F8DFE3" Version="18.1.1042.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="e901ee6f-81a2-4ec3-abb8-dafaab0d3681" PhonePublisherId="23e458a8-e154-446a-b6d3-4cb83ca99f8d" />
+  <Properties>
+    <DisplayName>Intel® Optane™ Memory and Storage Management</DisplayName>
+    <PublisherDisplayName>INTEL CORP</PublisherDisplayName>
+    <Logo>Assets\Images\PackageLogos\package_logo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.24217.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="RstHSA.Wpf\RstHSA.Wpf.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Intel® Optane™ Memory and Storage Management" Description="RstHSA" BackgroundColor="#0068B5" Square150x150Logo="Assets\Images\MediumTiles\medium_tile.png" Square44x44Logo="Assets\Images\AppIcons\app_icon.png">
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\Images\BadgeLogos\badge_logo.png" />
+        <uap:DefaultTile Wide310x150Logo="Assets\Images\WideTiles\wide_tile.png" Square71x71Logo="Assets\Images\SmallTiles\small_tile.png" Square310x310Logo="Assets\Images\LargeTiles\large_tile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+        <uap:SplashScreen Image="Assets\Images\SplashScreens\splash_screen.png" BackgroundColor="#0068B5" />
+      </uap:VisualElements>
+    </Application>
+    <Application Id="Notifier" Executable="RstNotifier\RstNotifier.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements AppListEntry="none" Description="Notifier" DisplayName="Intel® Optane™ Memory and Storage Management" BackgroundColor="#000000" Square150x150Logo="Assets\Images\MediumTiles\medium_tile.png" Square44x44Logo="Assets\Images\AppIcons\app_icon.png" />
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="allowElevation" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.12.40308.65294" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.12.40391.52126" />
+    <build:Item Name="ProjectGUID" Value="8a1387c7-e8c5-40e3-b942-99352bf8601c" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.91 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

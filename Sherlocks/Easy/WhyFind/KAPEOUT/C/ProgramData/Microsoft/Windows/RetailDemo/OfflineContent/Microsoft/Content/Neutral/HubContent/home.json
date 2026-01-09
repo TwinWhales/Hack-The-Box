@@ -1,0 +1,28 @@
+{
+    "groups" : [
+        {
+            "$schema": "../singleGroupSchema.json?reload",
+            "groupIdentifier": "home",
+            "brand": {
+                "structure": [
+                    {
+                      "type": "layout",
+                      "layoutTypes": ["hero"]
+                    },
+                    {
+                      "type": "tileRow",
+                      "slots": [
+                        [ "office" ],
+                        [ "windows" ],
+                        [ "oem", "oem_generic" ]
+                      ]
+                    },
+                    {
+                      "type": "layout",
+                      "layoutTypes": ["hero"]
+                    }
+                ]
+            }
+        }
+    ]
+}

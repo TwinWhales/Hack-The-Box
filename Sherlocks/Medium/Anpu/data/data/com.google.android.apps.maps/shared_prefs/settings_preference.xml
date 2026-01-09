@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="start_of_current_promo_throttler_visit_timestamp_ms" value="1720645907778" />
+    <int name="terms_accepted" value="1" />
+    <int name="goldfinger_last_open_tab" value="1" />
+    <string name="app_version">10.16.7</string>
+    <string name="notification_settings">CgkI9PnVPBICCAEKCQjJ7uxLEgIIAQoJCPqf9EsSAggBCgkI/Z/ZXhICCAE=&#10;    </string>
+    <boolean name="shake_to_send_feedback_default_off" value="false" />
+    <string name="cohort">1118</string>
+    <string name="current_account_id">100438717458236439565</string>
+    <boolean name="satellite_on_at_startup" value="false" />
+    <boolean name="home_work_side_menu_attention_promo_showing$100438717458236439565" value="false" />
+    <boolean name="oob_login_promo_shown" value="true" />
+    <string name="distance_units"></string>
+    <boolean name="pa_cache_file_per_account" value="true" />
+    <long name="location_sharing_last_poll_with_no_sharing_timestamp_ms$100438717458236439565" value="1720645913688" />
+    <string name="voice_bundles">en_US:voice_instructions_unitless.zip:2eb0f91b:1909e7d0e77:1909e7d0e77</string>
+    <int name="thick_tiles_states$100438717458236439565" value="1" />
+    <long name="notification_history_salt" value="-813056334458456573" />
+    <long name="gcm_registration_version" value="1016701040" />
+    <int name="settings_version" value="11" />
+    <int name="merchant_mode_num_businesses" value="0" />
+    <string name="show_scalebar">fade</string>
+    <string name="area_traffic_notification_subscription">CgIIAECgnAFoAXAAMAA4AA==&#10;    </string>
+    <long name="last_background_timestamp_ms" value="1720645916513" />
+    <boolean name="time_to_leave_notifications" value="true" />
+    <boolean name="goldfinger_should_collapse_next_start" value="true" />
+    <string name="offline_autoupdate_sched_state">CgcxMzYxODcxEgIxYRj9m/T2iTI=&#10;    </string>
+    <string name="gcm_registration_id">APA91bFfXu_cTt1QLZJF0wJwNJvTwJ0okmMjGcg0Cl0hRdOl_nOSSO9TWs9OHL9SUsXdxz45MAlkLgG77iTx6AxDnJRqMUOPvwh_kOGEi8BVFlmHm7l5CC3e1k66Y3AF3x441t5GjFz_</string>
+    <boolean name="user_has_offline_region" value="false" />
+    <long name="location_sharing_latest_clock_skew_millis" value="-407" />
+    <string name="zb">515=hl3HNirxF_KrtWVQXmPndQkIfMloWTGfwxvRksa2K_1mJWoRc4tUNTtwJmXtQ_1WOIy53Pw78b0rFizxeMTzgYxjNgU1hBomdTU7E6AwIz1PsFtuUpABODKWYh2i-r4to1yDwF5v1NUjKHNe2eDnlOhBmDhp1rVDTMn2lczDS2c4qSg3tey6128</string>
+    <long name="home_fragment_last_stop_timestamp_ms" value="1720645911858" />
+    <boolean name="traffic_to_place_notifications" value="true" />
+    <boolean name="clear_curvular_properties_with_apply" value="false" />
+    <boolean name="terms_accepted_logged" value="true" />
+    <boolean name="personal_route_fetching_enabled_cache$100438717458236439565" value="true" />
+    <int name="launch_count" value="1" />
+    <string name="user_parameters$100438717458236439565">YgIIAZIBAggAIgIIAFoCCAFqAggBcgIIAXoCCAGaAQIIAQ==&#10;    </string>
+    <long name="gcm_last_registration_per_user_timestamp$100438717458236439565" value="1720734463444" />
+    <long name="gmm_last_used" value="1720645907778" />
+    <string name="tutorial_history_sync_info$100438717458236439565"></string>
+    <string name="gcm_registration_id_for_user$100438717458236439565">APA91bFfXu_cTt1QLZJF0wJwNJvTwJ0okmMjGcg0Cl0hRdOl_nOSSO9TWs9OHL9SUsXdxz45MAlkLgG77iTx6AxDnJRqMUOPvwh_kOGEi8BVFlmHm7l5CC3e1k66Y3AF3x441t5GjFz_</string>
+    <string name="cy">US</string>
+    <boolean name="personal_route_fetching_enabled_cache$" value="true" />
+    <int name="thick_tiles_states$" value="1" />
+    <string name="location_sharing_diversion_criteria">NOT_SHARING</string>
+    <string name="aid#johnnnny999999@gmail.com">100438717458236439565</string>
+    <boolean name="waa_status$100438717458236439565" value="true" />
+</map>

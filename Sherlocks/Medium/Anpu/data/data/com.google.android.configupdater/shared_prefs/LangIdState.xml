@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ALT_SIGNATURE">onIUJZQZmtsuX7aM9Y9Siz42aH+p5mMFU1bKk5Pi5/UWR2/RAdSgT/VVwWKVmpLVNNvV65B1amIxDhYUxn1skhhMtfz3qpW4F9N8OD4nhPd4YXTlgrzHMiciUM5pjTlF3HkooHIHZNbqJtz++b+ogYjmlw41z/ruY0B69NU6NWF+hF/jmEK5mWrgc7ZGatM4WXYVDc5tkz0xkBUrHqXE0pSYSpD3X18U+RsBOkemVe6q3jOZCSjbW8sdD/GHzY43F2Yg17CsGom2TaVYFNJDhF5xllXmDuB/8zeyyUgfzYhVN2jQhrmSoFy5Da1zAah4nvT/gXwdJ9kdjoGd0b819w==</string>
+    <string name="ALT_VERSION_NUMBER">1</string>
+    <string name="UPDATE_TIME_STARTED">1720734480769</string>
+    <string name="ALT_REQUIRED_HASH">NONE</string>
+    <string name="ALT_CONTENT_URL">https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb</string>
+    <string name="ALT_METADATA_URL">https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb.metadata</string>
+</map>

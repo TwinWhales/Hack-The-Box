@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="current_input_method_entry">en-US:qwerty</string>
+    <boolean name="enable_one_tap_to_search" value="false" />
+    <boolean name="enable_vibrate_on_keypress" value="true" />
+    <boolean name="pref_key_access_points_showing_order_migrated" value="true" />
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-password">password</string>
+    <boolean name="enable_secondary_symbols" value="false" />
+    <boolean name="enable_one_tap_to_search_changed_by_user" value="false" />
+    <boolean name="enable_incognito_mode" value="false" />
+    <boolean name="enable_battery_saver_theme" value="false" />
+    <boolean name="enable_number_row" value="false" />
+    <boolean name="show_launcher_icon" value="false" />
+</map>

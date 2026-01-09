@@ -1,0 +1,42 @@
+#no pool
+#Fri Jul 12 00:16:43 GMT+02:00 2024
+system_kernel_mem_kb=137508
+system_shared_mem_kb=3808
+java_runtime_total_memory_bytes=603979776
+oom_score_adj_status=0
+java_runtime_free_memory_bytes=595296552
+total_memory=4132413440
+lacrima_internal_time_apply=Time\: critical_suppl_late_startup_ms\=57/nTime\: large_suppl_late_startup_ms\=3/n
+stack_space_kb=8192
+address_space_current_kb=2158300
+oom_score_adj=915
+oom_score_status=0
+device_cpu_abis=x86
+system_available_mem_kb=2867400
+system_free_mem_kb=1983056
+thread_count=39
+jail_broken=true
+system_disk_buffer_mem_kb=18304
+oom_score=939
+is_low_memory=false
+mem_min_watermark=0
+data_space_kb=1386448
+java_runtime_max_memory_bytes=603979776
+rss_current_kb=171824
+swap_space_kb=0
+build=BOARD\=goldfish_x86\nBOOTLOADER\=unknown\nBRAND\=google\nCPU_ABI\=x86\nCPU_ABI2\=\nDEVICE\=generic_x86\nDISPLAY\=sdk_gphone_x86-userdebug 10 QSR1.210802.001 7603624 dev-keys\nFINGERPRINT\=google/sdk_gphone_x86/generic_x86\:10/QSR1.210802.001/7603624\:userdebug/dev-keys\nHARDWARE\=ranchu\nHOST\=abfarm-00927\nID\=QSR1.210802.001\nIS_DEBUGGABLE\=true\nIS_EMULATOR\=true\nMANUFACTURER\=Google\nMODEL\=Android SDK built for x86\nPERMISSIONS_REVIEW_REQUIRED\=true\nPRODUCT\=sdk_gphone_x86\nRADIO\=unknown\nSERIAL\=unknown\nSUPPORTED_32_BIT_ABIS\=["x86"]\nSUPPORTED_64_BIT_ABIS\=[]\nSUPPORTED_ABIS\=["x86"]\nTAGS\=dev-keys\nTIME\=1627918621000\nTYPE\=userdebug\nUNKNOWN\=unknown\nUSER\=android-build\n
+oom_adj=15
+available_memory=3222421504
+system_total_mem_kb=4035560
+address_space_peak_kb=2158300
+mem_low_watermark=0
+shared_lib_space_kb=125088
+system_cached_mem_kb=1164144
+oom_adj_status=0
+asl_session_id=1720736202111-ebdf72a8-a8a4-f070-2ea6-a8139196e895
+react_bundle_version=0
+lmk_threshold=150994944
+rss_peak_kb=171860
+system_anonymous_mem_kb=621652
+largest_address_space_chunk_kb=1048576
+mem_high_watermark=0

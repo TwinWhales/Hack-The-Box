@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="nextId" value="10001" />
+    <long name="lastUsed.mozilla.components.feature.privatemode.notification.AbstractPrivateNotificationService" value="1720644985581" />
+    <int name="id..mozilla.components.feature.privatemode.notification.AbstractPrivateNotificationService" value="10000" />
+</map>

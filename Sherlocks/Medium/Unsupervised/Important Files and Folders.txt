@@ -1,0 +1,13 @@
+File and Directory Names are obfuscated for security reasons.
+
+Documents                       (directory) "C:\Users\<Username>\Documents"
+* ....ness .....sals            (directory)
+** ........ ...... ltd.docx     (file)
+** ........ ..-... Inc.docx     (file)
+** ........ .. ..... corp.docx  (file)
+* ....rnal ...ance              (directory)
+** ....... ....nts.xlsx         (file)
+*......... docs                 (directory)
+** ........ ..ads.xlsx          (file)
+* ........ ...ance              (directory)
+** ........ .....nts.xlsx       (file)

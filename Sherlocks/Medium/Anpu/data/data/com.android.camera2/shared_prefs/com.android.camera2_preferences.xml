@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="camera.startup_module">0</string>
+    <string name="pref_camera_picturesize_front_key">1920x1080</string>
+    <string name="CachedSupportedPictureSizes_Sizes_Camera0">640,480,352,288,320,240,176,144,1280,720,1280,960</string>
+    <string name="pref_video_quality_front_key">large</string>
+    <string name="pref_camera_picturesize_back_key">1280x960</string>
+    <string name="pref_has_seen_permissions_dialogs">1</string>
+    <string name="pref_upgrade_version">7</string>
+    <string name="pref_video_quality_back_key">large</string>
+    <string name="CachedSupportedPictureSizes_Sizes_Camera1">1920,1080,1280,720,640,480,320,240,176,144</string>
+    <string name="CachedSupportedPictureSizes_Build_Camera1">sdk_gphone_x86-userdebug 10 QSR1.210802.001 7603624 dev-keys</string>
+    <string name="pref_camera_recordlocation_key">0</string>
+    <string name="pref_flash_supported_back_camera">0</string>
+    <string name="pref_camera_grid_lines">0</string>
+    <long name="client_first_use_time_millis" value="1720644570851" />
+    <string name="CachedSupportedPictureSizes_Build_Camera0">sdk_gphone_x86-userdebug 10 QSR1.210802.001 7603624 dev-keys</string>
+    <string name="pref_hdr_support_mode_back_camera">no_hdr</string>
+</map>

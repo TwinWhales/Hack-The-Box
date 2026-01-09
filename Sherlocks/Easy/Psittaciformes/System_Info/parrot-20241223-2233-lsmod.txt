@@ -1,0 +1,135 @@
+Module                  Size  Used by
+mptcp_diag             16384  0
+vsock_diag             16384  0
+raw_diag               16384  0
+unix_diag              16384  0
+af_packet_diag         16384  0
+netlink_diag           16384  0
+msr                    16384  0
+nf_tables             286720  0
+nfnetlink              20480  1 nf_tables
+tcp_diag               16384  0
+udp_diag               16384  0
+inet_diag              24576  4 tcp_diag,mptcp_diag,raw_diag,udp_diag
+dm_mod                180224  0
+battery                28672  0
+tun                    61440  0
+snd_seq_dummy          16384  0
+snd_hrtimer            16384  1
+snd_seq_midi           20480  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_seq                94208  9 snd_seq_midi,snd_seq_midi_event,snd_seq_dummy
+cfg80211             1110016  0
+vsock_loopback         16384  0
+vmw_vsock_virtio_transport_common    49152  1 vsock_loopback
+qrtr                   45056  4
+vmw_vsock_vmci_transport    36864  2
+vsock                  53248  8 vmw_vsock_virtio_transport_common,vsock_loopback,vsock_diag,vmw_vsock_vmci_transport
+bnep                   28672  2
+binfmt_misc            24576  1
+btusb                  65536  0
+btrtl                  28672  1 btusb
+btbcm                  24576  1 btusb
+btintel                45056  1 btusb
+btmtk                  16384  1 btusb
+bluetooth             950272  13 btrtl,btmtk,btintel,btbcm,bnep,btusb
+jitterentropy_rng      16384  1
+sha512_ssse3           49152  1
+sha512_generic         16384  1 sha512_ssse3
+intel_rapl_msr         20480  0
+intel_rapl_common      28672  1 intel_rapl_msr
+drbg                   40960  1
+ansi_cprng             16384  0
+vmw_balloon            24576  0
+snd_ens1371            32768  1
+snd_ac97_codec        176128  1 snd_ens1371
+ac97_bus               16384  1 snd_ac97_codec
+gameport               24576  1 snd_ens1371
+snd_rawmidi            49152  2 snd_seq_midi,snd_ens1371
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_pcm               159744  2 snd_ac97_codec,snd_ens1371
+ecdh_generic           16384  1 bluetooth
+snd_timer              45056  3 snd_seq,snd_hrtimer,snd_pcm
+rfkill                 32768  6 bluetooth,cfg80211
+joydev                 28672  0
+serio_raw              20480  0
+ecc                    40960  1 ecdh_generic
+pcspkr                 16384  0
+snd                   126976  11 snd_seq,snd_seq_device,snd_timer,snd_ac97_codec,snd_pcm,snd_rawmidi,snd_ens1371
+soundcore              16384  1 snd
+evdev                  28672  7
+ac                     20480  0
+vmw_vmci               98304  2 vmw_balloon,vmw_vsock_vmci_transport
+sg                     40960  0
+fuse                  172032  5
+configfs               57344  1
+ip_tables              36864  0
+x_tables               61440  1 ip_tables
+autofs4                53248  2
+raid10                 65536  0
+raid456               180224  0
+async_raid6_recov      24576  1 raid456
+async_memcpy           20480  2 raid456,async_raid6_recov
+async_pq               20480  2 raid456,async_raid6_recov
+async_xor              20480  3 async_pq,raid456,async_raid6_recov
+async_tx               20480  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+raid1                  53248  0
+raid0                  24576  0
+multipath              20480  0
+linear                 20480  0
+md_mod                192512  6 raid1,raid10,raid0,linear,raid456,multipath
+xfs                  1912832  0
+btrfs                1732608  1
+blake2b_generic        20480  0
+xor                    24576  2 async_xor,btrfs
+raid6_pq              122880  4 async_pq,btrfs,raid456,async_raid6_recov
+zstd_compress         311296  1 btrfs
+libcrc32c              16384  4 btrfs,nf_tables,xfs,raid456
+ext4                  958464  0
+crc16                  16384  2 bluetooth,ext4
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+crc32c_generic         16384  0
+nls_ascii              16384  0
+hid_generic            16384  0
+usbhid                 65536  0
+hid                   159744  2 usbhid,hid_generic
+sd_mod                 65536  1
+t10_pi                 16384  1 sd_mod
+crc64_rocksoft_generic    16384  1
+crc64_rocksoft         20480  1 t10_pi
+crc_t10dif             20480  1 t10_pi
+crct10dif_generic      16384  0
+crc64                  20480  2 crc64_rocksoft,crc64_rocksoft_generic
+crct10dif_pclmul       16384  1
+crct10dif_common       16384  3 crct10dif_generic,crc_t10dif,crct10dif_pclmul
+crc32_pclmul           16384  0
+crc32c_intel           24576  2
+ghash_clmulni_intel    16384  0
+sr_mod                 28672  0
+vmwgfx                385024  3
+cdrom                  77824  1 sr_mod
+aesni_intel           393216  0
+ata_generic            16384  0
+crypto_simd            16384  1 aesni_intel
+cryptd                 28672  2 crypto_simd,ghash_clmulni_intel
+drm_ttm_helper         16384  1 vmwgfx
+ttm                    90112  2 vmwgfx,drm_ttm_helper
+uhci_hcd               53248  0
+ata_piix               45056  0
+psmouse               184320  0
+ehci_hcd               98304  0
+mptspi                 28672  1
+mptscsih               36864  1 mptspi
+drm_kms_helper        204800  1 vmwgfx
+mptbase                81920  2 mptspi,mptscsih
+usbcore               339968  4 usbhid,ehci_hcd,btusb,uhci_hcd
+e1000                 163840  0
+usb_common             16384  3 usbcore,ehci_hcd,uhci_hcd
+scsi_transport_spi     40960  1 mptspi
+libata                397312  2 ata_piix,ata_generic
+drm                   602112  7 vmwgfx,drm_kms_helper,drm_ttm_helper,ttm
+i2c_piix4              28672  0
+scsi_mod              282624  7 mptspi,sd_mod,scsi_transport_spi,mptscsih,libata,sg,sr_mod
+scsi_common            16384  5 scsi_mod,mptscsih,libata,sg,sr_mod
+button                 24576  0

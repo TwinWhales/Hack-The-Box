@@ -1,0 +1,91 @@
+{
+  "v0": {
+    "appCategories": {
+      "game": [
+        "Microsoft.MinecraftUWP_8wekyb3d8bbwe!App"
+      ],
+      "video": [
+        "Microsoft.6191099C588EB_8wekyb3d8bbwe!HoloTour"
+      ]
+    },
+    "disableAppUninstall": true,
+    "disablePinsPanel": true,
+    "disableRemoveApps": true,
+    "disableToggleConnect": true,
+    "skipCarryPinsOnStart": true,
+    "spawnPointParameters": {
+      "backPatio": {
+        "translation": [
+          0.9,
+          -0.45,
+          -8.75
+        ],
+        "rotation": [
+          0.0,
+          -0.706825,
+          0.0,
+          0.707388
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "frontPorch": {
+        "translation": [
+          0.0,
+          -0.1,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.706825,
+          0.0,
+          0.707388
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "mediaRoom": {
+        "translation": [
+          0.0,
+          1.7,
+          18.0
+        ],
+        "rotation": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "studio": {
+        "translation": [
+          -0.5,
+          0.5,
+          6.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

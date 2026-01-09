@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<services>
+    <service uid="10114" authority="com.google.android.gms.people" accountType="com.google" />
+    <service uid="10134" authority="com.google.android.gm.email.provider" accountType="com.google.android.gm.pop3" />
+    <service uid="10134" authority="com.google.android.gm.tasks.provider" accountType="com.google.android.gm.exchange" />
+    <service uid="10114" authority="com.android.contacts" accountType="com.google" />
+    <service uid="10129" authority="com.google.android.videos.sync" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.auth.accountstate" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.games.background" accountType="com.google" />
+    <service uid="10114" authority="subscribedfeeds" accountType="com.google" />
+    <service uid="10135" authority="com.google.android.music.MusicContent" accountType="com.google" />
+    <service uid="10152" authority="com.android.contacts" accountType="org.telegram.messenger" />
+    <service uid="10114" authority="com.google.android.location.reporting" accountType="com.google" />
+    <service uid="10144" authority="com.android.calendar" accountType="com.google" />
+    <service uid="10134" authority="com.android.contacts" accountType="com.google.android.gm.exchange" />
+    <service uid="10134" authority="com.google.android.gm.email.provider" accountType="com.google.android.gm.legacyimap" />
+    <service uid="10114" authority="com.google.android.gms.appstate" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.auth.confirm" accountType="com.google" />
+    <service uid="10134" authority="com.google.android.gm.email.provider" accountType="com.google.android.gm.exchange" />
+    <service uid="10114" authority="com.google.android.gms.subscribedfeeds" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.drive.sync" accountType="com.google" />
+    <service uid="10150" authority="com.android.contacts" accountType="com.facebook.messenger" />
+    <service uid="10143" authority="com.google.android.apps.docs" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.plus.action" accountType="com.google" />
+    <service uid="10127" authority="com.android.chrome" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.reminders" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.fitness" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.chromesync" accountType="com.google" />
+    <service uid="10114" authority="com.google.android.gms.games" accountType="com.google" />
+    <service uid="10134" authority="com.android.calendar" accountType="com.google.android.gm.exchange" />
+    <service uid="10134" authority="gmail-ls" accountType="com.google" />
+</services>

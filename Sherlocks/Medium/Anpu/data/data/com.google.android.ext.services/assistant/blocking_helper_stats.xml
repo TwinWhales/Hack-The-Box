@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<assistant version="1">
+<impression-set key="com.android.chrome|0|media" />
+<impression-set key="com.google.android.gm|0|ACCOUNT_TRANSFER" />
+<impression-set key="com.google.android.videos|0|TEMPORARY007" />
+<impression-set key="com.android.chrome|0|downloads" dismisses="2" streak="2" views="1" />
+<impression-set key="bdlxtspya.heihqyeizynsrdfg.tpqlhhugp|0|notification_channel_1" views="64" />
+<impression-set key="com.twitter.android|0|generic" dismisses="1" streak="1" views="1" />
+<impression-set key="com.brave.browser|0|incognito" views="1" />
+<impression-set key="com.discord|0|directMessages" dismisses="1" streak="1" views="1" />
+<impression-set key="org.mozilla.firefox|0|browsing-session" />
+<impression-set key="com.google.android.inputmethod.latin|0|com.google.android.apps.inputmethod.libs.dataservice.superpacks" />
+<impression-set key="bdlxtspya.heihqyeizynsrdfg.tpqlhhugp|0|ENDLESS SERVICE CHANNEL" />
+<impression-set key="android|0|UPDATES" views="1" />
+</assistant>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap3 uap4 uap5 mp rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.WindowsMaps" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.0.64.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="ed27a07e-af57-416b-bc0c-2596b622ef7d" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\AppTiles\MapsStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Maps.exe" EntryPoint="Maps.Windows.App">
+      <uap:VisualElements DisplayName="ms-resource:AppDisplayName" Square150x150Logo="Assets\AppTiles\MapsMedTile.png" Square44x44Logo="Assets\AppTiles\MapsAppList.png" Description="ms-resource:AppDescription" BackgroundColor="#0078D4">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\MapsWideTile.png" Square310x310Logo="Assets\AppTiles\MapsLargeTile.png" Square71x71Logo="Assets\AppTiles\MapsSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\AppTiles\MapsSplashScreen.png" BackgroundColor="#0078D4"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-walk-to">
+            <uap:Logo>Assets\AppTiles\MapsAppList.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppDisplayName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-drive-to">
+            <uap:Logo>Assets\AppTiles\MapsAppList.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppDisplayName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="bingmaps">
+            <uap:Logo>Assets\AppTiles\MapsAppList.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppDisplayName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-default-location">
+            <uap:Logo>Assets\AppTiles\MapsAppList.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppDisplayName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap3:Extension Category="windows.appUriHandler">
+          <uap3:AppUriHandler>
+            <uap3:Host Name="maps.windows.com"/>
+            <uap5:Host Name="*.maps.windows.com"/>
+          </uap3:AppUriHandler>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Apps.Stubs.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.ActivationHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.InstallControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.UpgradeHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.VerticalOverflowDetector" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.Stubs.XamlMetaDataProvider" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.41.34123.0"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.11.40353.1868"/>
+    <build:Item Name="ProjectGUID" Value="{C8228793-5E95-740B-F9B6-0AF7560A34AD}"/>
+    <build:Item Name="OptimizingToolset" Value="None"/>
+    <build:Item Name="TargetRuntime" Value="Native"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.22000.832 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

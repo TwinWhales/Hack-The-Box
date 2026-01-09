@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="AD2F1837.HPPowerManager" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="2022.812.738.0"/>
+	<Packages>
+		<Package Type="application" Version="3.0.18.0" Architecture="x64" FileName="PowerManager_3.0.18.0_x64.appx" Offset="428963" Size="13084159">
+			<Resources>
+				<Resource Language="EN"/>
+				<Resource Language="AR"/>
+				<Resource Language="BG"/>
+				<Resource Language="CS"/>
+				<Resource Language="DA"/>
+				<Resource Language="DE"/>
+				<Resource Language="EL"/>
+				<Resource Language="ES"/>
+				<Resource Language="ET"/>
+				<Resource Language="FI"/>
+				<Resource Language="FR"/>
+				<Resource Language="HE"/>
+				<Resource Language="HR"/>
+				<Resource Language="HU"/>
+				<Resource Language="ID"/>
+				<Resource Language="IT"/>
+				<Resource Language="JA"/>
+				<Resource Language="KO"/>
+				<Resource Language="LT"/>
+				<Resource Language="LV"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL"/>
+				<Resource Language="PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO"/>
+				<Resource Language="RU"/>
+				<Resource Language="SK"/>
+				<Resource Language="SL"/>
+				<Resource Language="SR-CYRL"/>
+				<Resource Language="SR-LATN"/>
+				<Resource Language="SV"/>
+				<Resource Language="TH"/>
+				<Resource Language="TR"/>
+				<Resource Language="UK"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Language="ZH-HANT"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="3.0.18.0" Architecture="x86" FileName="PowerManager_3.0.18.0_x86.appx" Offset="13513206" Size="11813753">
+			<Resources>
+				<Resource Language="EN"/>
+				<Resource Language="AR"/>
+				<Resource Language="BG"/>
+				<Resource Language="CS"/>
+				<Resource Language="DA"/>
+				<Resource Language="DE"/>
+				<Resource Language="EL"/>
+				<Resource Language="ES"/>
+				<Resource Language="ET"/>
+				<Resource Language="FI"/>
+				<Resource Language="FR"/>
+				<Resource Language="HE"/>
+				<Resource Language="HR"/>
+				<Resource Language="HU"/>
+				<Resource Language="ID"/>
+				<Resource Language="IT"/>
+				<Resource Language="JA"/>
+				<Resource Language="KO"/>
+				<Resource Language="LT"/>
+				<Resource Language="LV"/>
+				<Resource Language="NB-NO"/>
+				<Resource Language="NL"/>
+				<Resource Language="PL"/>
+				<Resource Language="PT-BR"/>
+				<Resource Language="PT-PT"/>
+				<Resource Language="RO"/>
+				<Resource Language="RU"/>
+				<Resource Language="SK"/>
+				<Resource Language="SL"/>
+				<Resource Language="SR-CYRL"/>
+				<Resource Language="SR-LATN"/>
+				<Resource Language="SV"/>
+				<Resource Language="TH"/>
+				<Resource Language="TR"/>
+				<Resource Language="UK"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Language="ZH-HANT"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="3.0.18.0" ResourceId="split.scale-100" FileName="PowerManager_3.0.18.0_scale-100.appx" Offset="66" Size="54484">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="3.0.18.0" ResourceId="split.scale-125" FileName="PowerManager_3.0.18.0_scale-125.appx" Offset="54640" Size="65057">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="3.0.18.0" ResourceId="split.scale-150" FileName="PowerManager_3.0.18.0_scale-150.appx" Offset="119787" Size="75506">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="3.0.18.0" ResourceId="split.scale-400" FileName="PowerManager_3.0.18.0_scale-400.appx" Offset="195383" Size="233496">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.17134.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

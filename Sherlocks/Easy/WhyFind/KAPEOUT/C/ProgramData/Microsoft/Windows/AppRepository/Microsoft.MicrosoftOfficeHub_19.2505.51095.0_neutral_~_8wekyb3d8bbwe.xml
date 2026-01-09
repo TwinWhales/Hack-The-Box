@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.MicrosoftOfficeHub" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="19.2505.51095.0"/>
+	<Packages>
+		<Package Type="application" Version="19.2505.51095.0" Architecture="arm64" FileName="OfficeApp_19.2505.51095.0_ARM64.msix" Offset="66" Size="13441470">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="19.2505.51095.0" Architecture="x86" FileName="OfficeApp_19.2505.51095.0_x86.msix" Offset="30705940" Size="11867259">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="19.2505.51095.0" Architecture="x64" FileName="OfficeApp_19.2505.51095.0_x64.msix" Offset="17527892" Size="13177960">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-af" FileName="OfficeApp_19.2505.51095.0_language-af.msix" Offset="13441632" Size="18467">
+			<Resources>
+				<Resource Language="af"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-am" FileName="OfficeApp_19.2505.51095.0_language-am.msix" Offset="13460195" Size="19188">
+			<Resources>
+				<Resource Language="am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ar" FileName="OfficeApp_19.2505.51095.0_language-ar.msix" Offset="13479479" Size="18799">
+			<Resources>
+				<Resource Language="ar"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-as" FileName="OfficeApp_19.2505.51095.0_language-as.msix" Offset="13498374" Size="19288">
+			<Resources>
+				<Resource Language="as"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-az-latn" FileName="OfficeApp_19.2505.51095.0_language-az-latn.msix" Offset="13517763" Size="18677">
+			<Resources>
+				<Resource Language="az-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-bg" FileName="OfficeApp_19.2505.51095.0_language-bg.msix" Offset="13536536" Size="19328">
+			<Resources>
+				<Resource Language="bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-bn" FileName="OfficeApp_19.2505.51095.0_language-bn.msix" Offset="13555960" Size="19351">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-bs" FileName="OfficeApp_19.2505.51095.0_language-bs.msix" Offset="13575407" Size="18548">
+			<Resources>
+				<Resource Language="bs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ca" FileName="OfficeApp_19.2505.51095.0_language-ca.msix" Offset="13594051" Size="19427">
+			<Resources>
+				<Resource Language="ca"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-cs" FileName="OfficeApp_19.2505.51095.0_language-cs.msix" Offset="13613574" Size="18736">
+			<Resources>
+				<Resource Language="cs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-cy" FileName="OfficeApp_19.2505.51095.0_language-cy.msix" Offset="13632406" Size="18497">
+			<Resources>
+				<Resource Language="cy"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-da" FileName="OfficeApp_19.2505.51095.0_language-da.msix" Offset="13650999" Size="18443">
+			<Resources>
+				<Resource Language="da"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-de" FileName="OfficeApp_19.2505.51095.0_language-de.msix" Offset="13669538" Size="18749">
+			<Resources>
+				<Resource Language="de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-el" FileName="OfficeApp_19.2505.51095.0_language-el.msix" Offset="13688383" Size="19635">
+			<Resources>
+				<Resource Language="el"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-es" FileName="OfficeApp_19.2505.51095.0_language-es.msix" Offset="13708114" Size="19192">
+			<Resources>
+				<Resource Language="es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-et" FileName="OfficeApp_19.2505.51095.0_language-et.msix" Offset="13727402" Size="18511">
+			<Resources>
+				<Resource Language="et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-eu" FileName="OfficeApp_19.2505.51095.0_language-eu.msix" Offset="13746009" Size="18444">
+			<Resources>
+				<Resource Language="eu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-fa" FileName="OfficeApp_19.2505.51095.0_language-fa.msix" Offset="13764549" Size="19041">
+			<Resources>
+				<Resource Language="fa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-fi" FileName="OfficeApp_19.2505.51095.0_language-fi.msix" Offset="13783686" Size="18588">
+			<Resources>
+				<Resource Language="fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-fil-latn" FileName="OfficeApp_19.2505.51095.0_language-fil-latn.msix" Offset="13802376" Size="18546">
+			<Resources>
+				<Resource Language="fil"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-fr" FileName="OfficeApp_19.2505.51095.0_language-fr.msix" Offset="13821018" Size="19020">
+			<Resources>
+				<Resource Language="fr"/>
+				<Resource Language="fr-ca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ga" FileName="OfficeApp_19.2505.51095.0_language-ga.msix" Offset="13840134" Size="18667">
+			<Resources>
+				<Resource Language="ga"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-gd-latn" FileName="OfficeApp_19.2505.51095.0_language-gd-latn.msix" Offset="13858902" Size="18726">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-gl" FileName="OfficeApp_19.2505.51095.0_language-gl.msix" Offset="13877724" Size="18503">
+			<Resources>
+				<Resource Language="gl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-gu" FileName="OfficeApp_19.2505.51095.0_language-gu.msix" Offset="13896323" Size="19247">
+			<Resources>
+				<Resource Language="gu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-he" FileName="OfficeApp_19.2505.51095.0_language-he.msix" Offset="13915666" Size="18685">
+			<Resources>
+				<Resource Language="he"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-hi" FileName="OfficeApp_19.2505.51095.0_language-hi.msix" Offset="13934447" Size="19406">
+			<Resources>
+				<Resource Language="hi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-hr" FileName="OfficeApp_19.2505.51095.0_language-hr.msix" Offset="13953949" Size="18640">
+			<Resources>
+				<Resource Language="hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-hu" FileName="OfficeApp_19.2505.51095.0_language-hu.msix" Offset="13972685" Size="18890">
+			<Resources>
+				<Resource Language="hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-id" FileName="OfficeApp_19.2505.51095.0_language-id.msix" Offset="13991671" Size="18266">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-is" FileName="OfficeApp_19.2505.51095.0_language-is.msix" Offset="14010033" Size="18538">
+			<Resources>
+				<Resource Language="is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-it" FileName="OfficeApp_19.2505.51095.0_language-it.msix" Offset="14028667" Size="18499">
+			<Resources>
+				<Resource Language="it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ja" FileName="OfficeApp_19.2505.51095.0_language-ja.msix" Offset="14047262" Size="18912">
+			<Resources>
+				<Resource Language="ja"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ka" FileName="OfficeApp_19.2505.51095.0_language-ka.msix" Offset="14066270" Size="19476">
+			<Resources>
+				<Resource Language="ka"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-kk" FileName="OfficeApp_19.2505.51095.0_language-kk.msix" Offset="14085842" Size="19298">
+			<Resources>
+				<Resource Language="kk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-km" FileName="OfficeApp_19.2505.51095.0_language-km.msix" Offset="14105236" Size="19330">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-kn" FileName="OfficeApp_19.2505.51095.0_language-kn.msix" Offset="14124662" Size="19371">
+			<Resources>
+				<Resource Language="kn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ko" FileName="OfficeApp_19.2505.51095.0_language-ko.msix" Offset="14144129" Size="18815">
+			<Resources>
+				<Resource Language="ko"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-kok" FileName="OfficeApp_19.2505.51095.0_language-kok.msix" Offset="14163041" Size="19196">
+			<Resources>
+				<Resource Language="kok"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-lb" FileName="OfficeApp_19.2505.51095.0_language-lb.msix" Offset="14182333" Size="18670">
+			<Resources>
+				<Resource Language="lb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-lo" FileName="OfficeApp_19.2505.51095.0_language-lo.msix" Offset="14201099" Size="19200">
+			<Resources>
+				<Resource Language="lo"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-lt" FileName="OfficeApp_19.2505.51095.0_language-lt.msix" Offset="14220395" Size="18635">
+			<Resources>
+				<Resource Language="lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-lv" FileName="OfficeApp_19.2505.51095.0_language-lv.msix" Offset="14239126" Size="18654">
+			<Resources>
+				<Resource Language="lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-mi-latn" FileName="OfficeApp_19.2505.51095.0_language-mi-latn.msix" Offset="14257881" Size="18401">
+			<Resources>
+				<Resource Language="mi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-mk" FileName="OfficeApp_19.2505.51095.0_language-mk.msix" Offset="14276378" Size="19164">
+			<Resources>
+				<Resource Language="mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ml" FileName="OfficeApp_19.2505.51095.0_language-ml.msix" Offset="14295638" Size="19342">
+			<Resources>
+				<Resource Language="ml"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-mr" FileName="OfficeApp_19.2505.51095.0_language-mr.msix" Offset="14315076" Size="19231">
+			<Resources>
+				<Resource Language="mr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ms" FileName="OfficeApp_19.2505.51095.0_language-ms.msix" Offset="14334403" Size="18316">
+			<Resources>
+				<Resource Language="ms"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-mt" FileName="OfficeApp_19.2505.51095.0_language-mt.msix" Offset="14352815" Size="18718">
+			<Resources>
+				<Resource Language="mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-nb" FileName="OfficeApp_19.2505.51095.0_language-nb.msix" Offset="14371629" Size="18387">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ne" FileName="OfficeApp_19.2505.51095.0_language-ne.msix" Offset="14390112" Size="19319">
+			<Resources>
+				<Resource Language="ne"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-nl" FileName="OfficeApp_19.2505.51095.0_language-nl.msix" Offset="14409527" Size="18498">
+			<Resources>
+				<Resource Language="nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-nn" FileName="OfficeApp_19.2505.51095.0_language-nn.msix" Offset="14428121" Size="18437">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-or" FileName="OfficeApp_19.2505.51095.0_language-or.msix" Offset="14446654" Size="19309">
+			<Resources>
+				<Resource Language="or"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-pa" FileName="OfficeApp_19.2505.51095.0_language-pa.msix" Offset="14466059" Size="19409">
+			<Resources>
+				<Resource Language="pa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-pl" FileName="OfficeApp_19.2505.51095.0_language-pl.msix" Offset="14485564" Size="18786">
+			<Resources>
+				<Resource Language="pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-pt" FileName="OfficeApp_19.2505.51095.0_language-pt.msix" Offset="14504446" Size="20256">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-quz-latn" FileName="OfficeApp_19.2505.51095.0_language-quz-latn.msix" Offset="14524804" Size="18418">
+			<Resources>
+				<Resource Language="quz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ro" FileName="OfficeApp_19.2505.51095.0_language-ro.msix" Offset="14543318" Size="18583">
+			<Resources>
+				<Resource Language="ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ru" FileName="OfficeApp_19.2505.51095.0_language-ru.msix" Offset="14561997" Size="19334">
+			<Resources>
+				<Resource Language="ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sk" FileName="OfficeApp_19.2505.51095.0_language-sk.msix" Offset="14581427" Size="18739">
+			<Resources>
+				<Resource Language="sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sl" FileName="OfficeApp_19.2505.51095.0_language-sl.msix" Offset="14600262" Size="18537">
+			<Resources>
+				<Resource Language="sl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sq" FileName="OfficeApp_19.2505.51095.0_language-sq.msix" Offset="14618895" Size="18627">
+			<Resources>
+				<Resource Language="sq"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sr-cyrl" FileName="OfficeApp_19.2505.51095.0_language-sr-cyrl.msix" Offset="14637623" Size="20395">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sr-latn" FileName="OfficeApp_19.2505.51095.0_language-sr-latn.msix" Offset="14658119" Size="18594">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-sv" FileName="OfficeApp_19.2505.51095.0_language-sv.msix" Offset="14676809" Size="18401">
+			<Resources>
+				<Resource Language="sv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ta" FileName="OfficeApp_19.2505.51095.0_language-ta.msix" Offset="14695306" Size="19311">
+			<Resources>
+				<Resource Language="ta"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-te" FileName="OfficeApp_19.2505.51095.0_language-te.msix" Offset="14714713" Size="19370">
+			<Resources>
+				<Resource Language="te"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-th" FileName="OfficeApp_19.2505.51095.0_language-th.msix" Offset="14734179" Size="19110">
+			<Resources>
+				<Resource Language="th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-tr" FileName="OfficeApp_19.2505.51095.0_language-tr.msix" Offset="14753385" Size="18572">
+			<Resources>
+				<Resource Language="tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-tt-cyrl" FileName="OfficeApp_19.2505.51095.0_language-tt-cyrl.msix" Offset="14772058" Size="19165">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ug-arab" FileName="OfficeApp_19.2505.51095.0_language-ug-arab.msix" Offset="14791324" Size="19194">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-uk" FileName="OfficeApp_19.2505.51095.0_language-uk.msix" Offset="14810614" Size="19369">
+			<Resources>
+				<Resource Language="uk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-ur" FileName="OfficeApp_19.2505.51095.0_language-ur.msix" Offset="14830079" Size="19064">
+			<Resources>
+				<Resource Language="ur"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-vi" FileName="OfficeApp_19.2505.51095.0_language-vi.msix" Offset="14849239" Size="18758">
+			<Resources>
+				<Resource Language="vi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-zh-hans" FileName="OfficeApp_19.2505.51095.0_language-zh-hans.msix" Offset="14868098" Size="18533">
+			<Resources>
+				<Resource Language="zh-hans"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.language-zh-hant" FileName="OfficeApp_19.2505.51095.0_language-zh-hant.msix" Offset="14886732" Size="18625">
+			<Resources>
+				<Resource Language="zh-hant"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-100" FileName="OfficeApp_19.2505.51095.0_scale-100.msix" Offset="14905451" Size="222499">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-125" FileName="OfficeApp_19.2505.51095.0_scale-125.msix" Offset="15128044" Size="214282">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-140" FileName="OfficeApp_19.2505.51095.0_scale-140.msix" Offset="15342420" Size="44331">
+			<Resources>
+				<Resource Scale="140"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-150" FileName="OfficeApp_19.2505.51095.0_scale-150.msix" Offset="15386845" Size="247187">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-180" FileName="OfficeApp_19.2505.51095.0_scale-180.msix" Offset="15634126" Size="58207">
+			<Resources>
+				<Resource Scale="180"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-300" FileName="OfficeApp_19.2505.51095.0_scale-300.msix" Offset="15692427" Size="487795">
+			<Resources>
+				<Resource Scale="300"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="19.2505.51095.0" ResourceId="split.scale-400" FileName="OfficeApp_19.2505.51095.0_scale-400.msix" Offset="16180316" Size="1347488">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

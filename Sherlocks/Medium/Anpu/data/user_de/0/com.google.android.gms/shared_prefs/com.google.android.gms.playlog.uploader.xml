@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="plc_bytes_lru_cache_size" value="100" />
+    <string name="ClearcutLogStore__compression_algorithm_for_flat_file">NONE</string>
+    <string name="force_upload_api_caller_allowlist">Cjljb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5wbGF5LmJhdHRsZXN0YXIucGxheWNsaWVudHNlcnZpY2UKFmNvbS5nb29nbGUuYW5kcm9pZC5nbXM</string>
+    <string name="batch_server_url">https://play.googleapis.com/log/batch</string>
+    <string name="__phenotype_server_token">CAMSAA==</string>
+    <long name="log_file_age_cutoff_millis" value="604800000" />
+    <long name="ClearcutUploader__read_timeout_millis" value="60000" />
+    <long name="max_entries_in_file_cache" value="40" />
+    <long name="ClearcutFunnel__buffer_size" value="81920" />
+    <long name="max_log_requests_batched" value="100" />
+    <long name="ApiTimeOut__pseudonymous_id_api_timeout_ms" value="250" />
+    <string name="clearcut_debug_api_caller_whitelist">com.google.firebase.testing.fireperf.autopush,com.google.firebase.testing.fireperf,com.google.firebase.testing.fireperf.app.autopush,com.google.firebase.testing.fireperf.app,com.google.android.apps.internal.mobdog,com.google.android.apps.mobileutilities,com.google.android.gms.apitest,com.google.android.apps.work.clouddpc,com.google.android.apps.work.clouddpc.arc</string>
+    <boolean name="ClearcutLogOperation__switch_to_api_call" value="false" />
+    <long name="ClearcutLogStore__max_entries_in_file_cache" value="400" />
+    <string name="__phenotype_snapshot_token"> com.google.android.gms.playlog.uploader 229 2 1460078583 com.google.android.gms.playlog.uploader 1460078583 1</string>
+    <boolean name="ClearcutLogStore__catch_eofexception_read_logs" value="false" />
+    <boolean name="timestamp_events_kill_switch" value="false" />
+    <boolean name="ClearcutLogOperation__log_3p_log_senders" value="false" />
+    <boolean name="ClearcutUploader__switch_to_pseudonymous_api" value="false" />
+    <boolean name="ClearcutUploader__use_system_clock_for_external_timestamp" value="false" />
+    <long name="qos_default_task_interval_millis" value="3600000" />
+    <long name="connection_timeout_millis" value="30000" />
+    <string name="ClearcutLogStore__log_cap_policy">CICAQBIMCgVMQl9BUxCAgIAGEhgKEUdNQUlMX1NZTkNfSEVBTFRIEICAgAQSFAoNQU5EUk9JRF9HTUFJTBCAgMAEEhIKC0FORFJPSURfR1NBEICAgAUSEgoLQUdTQV9MRUdBQ1kQgIDAAhIWCg9BR1NBX0dPT0dMRV9BUFAQgICABRIVCg5BR1NBX0FTU0lTVEFOVBCAgMACEhAKCVBIRU5PVFlQRRCAgMAEEgsKBFRST04QgICABRILCgRMQl9UEICAwAISEAoKQ1JPTkVUX0dNTRCAgGASIAoZUEFJU0FfVVNFUl9BTkRST0lEX1BSSU1FUxCAgIAEEhEKCkNIUk9NRVNZTkMQgIDABBILCgRMQl9EEICAwAESDQoGUEhPVE9TEICAwAISFgoPQ09OVEVYVF9NQU5BR0VSEICAwAQSCgoDR0NNEICAgAISEwoMR01NX0NPVU5URVJTEICAgAESGwoUQUNUSVZJVFlfUkVDT0dOSVRJT04QgIDAAhIWCg9DQVNUX1NFTkRFUl9TREsQgIDABBITCgxBTkRST0lEX0FVVEgQgICAAhIcChVXSUZJX0FTU0lTVEFOVF9QUklNRVMQgICAAhIeChdQTEFURk9STV9TVEFUU19DT1VOVEVSUxCAgMACEg8KCE1BUFNfQVBJEICAoAISFwoQQ0FSUklFUl9TRVJWSUNFUxCAgKACEhIKC0xCX0NPVU5URVJTEICAgAISGgoTUEVPUExFX0FVVE9DT01QTEVURRCAgIAFEhoKE1RBQ0hZT05fTE9HX1JFUVVFU1QQgICABBIhChpBTkRST0lEX0dTQV9BTkRST0lEX1BSSU1FUxCAgMADEh8KGFBIT1RPU19HT19BTkRST0lEX1BSSU1FUxCAgIAJEhcKEEZJVE5FU1NfR01TX0NPUkUQgICABRISCgtNRURJQV9TVEFUUxCAgMACEhQKDUJBVFRFUllfU1RBVFMQgIDABBIgChlTRUFSQ0hMSVRFX0FORFJPSURfUFJJTUVTEICAwAYSEAoJV0VTVFdPUkxEEICAgAMSDAoFSUNJTkcQgIDgBBIPCghEUk9QX0JPWBCAgMAHEhwKFVBIT1RPU19BTkRST0lEX1BSSU1FUxCAgIAFEhEKCkdNTV9QUklNRVMQgICABRIOCgdHTU1fVUUzEICAwAMSFgoPR01TX0NPUkVfUEVPUExFEICAwAQSGAoRSURFTlRJVFlfRlJPTlRFTkQQgICAAxIVCg5HUkFQSElDU19TVEFUUxCAgIACEhEKClBST0NfU1RBVFMQgICAAxIPCghGSVJFUEVSRhCAgMADEhkKEk5PVElGSUNBVElPTl9TVEFUUxCAgIACEg0KBlBSRVNUTxCAgMABEhcKEE1FVEFMT0dfQ09VTlRFUlMQgIDAARILCgROT1ZBEICAwAcSDwoJVFJBTlNMQVRFEICAYBIfChhUUkFOU0xBVEVfQU5EUk9JRF9QUklNRVMQgICAARIMCgVDSElNRRCAgIABEhwKFUNBTEVOREFSX1VOSUZJRURfU1lOQxCAgIADEg8KCENBTEVOREFSEICAgAESFgoPQ0FMRU5EQVJfQ0xJRU5UEICAgAISGgoTQ0xJRU5UX0xPR0dJTkdfUFJPRBCAgOAEEhUKDldJRklfQVNTSVNUQU5UEICAgAUSHQoWU1RSRUFNWl9QSE9UT1NfQU5EUk9JRBCAgMAJEhAKCUxBVElOX0lNRRCAgOACEhsKFE1FRVRJTkdTX0xPR19SRVFVRVNUEICAoAgSDAoFRFJJVkUQgICgBBIRCgpHRU9fQVJfTElCEICAgAUSCgoDQ0FSEICAwAISFwoRQU5EUk9JRF9NRVNTQUdJTkcQgIBgEhMKDEFUVl9MQVVOQ0hFUhCAgIADEhEKC1RWX0xBVU5DSEVSEICAYBIcCg9BSUFJX01BVENITUFLRVIQgIDA////////ARIZCgxBUFBfVVNBR0VfMVAQgIDA////////ARIZCgxCSVNLSV9DTElFTlQQgIDA////////ARISCgVCT09LUxCAgMD///////8BEhUKCEhFUlJFVkFEEICAwP///////wESGAoRVEVOU09SR1BTX01FVFJJQ1MQgICgARgA</string>
+    <long name="ClearcutUploader__apache_socket_timeout_millis" value="60000" />
+    <boolean name="ClearcutUploader__skip_cookie_header_quoting" value="false" />
+    <string name="ClearcutLogOperation__caller_restrictions">CAESDAoIQURTSElFTEQQahIUCg9BTkRST0lEX1dFQlZJRVcQqAQSDwoKQVJDT1JFX1NESxCKCBIICgRDQVNUEEMSEQoMQklTS0lfQ0xJRU5UEN8GEhQKD0NBQlJJT19DT05TVU1FUhCwCBISCg1DQVJSSUVSX1NFVFVQENAFEgwKB0NPTkNPUkQQ/QMSGQoUQ09OTkVDVElWSVRZX01PTklUT1IQjAYSHAoXRklSRUJBU0VfSU5BUFBNRVNTQUdJTkcQ2wUSFAoPRklSRUJBU0VfTUxfU0RLEMsFEg0KCEZJUkVQRVJGEM4DEhYKEUZJUkVQRVJGX0FVVE9QVVNIEM0DEhsKFkZJUkVQRVJGX0lOVEVSTkFMX0hJR0gQpAUSGgoVRklSRVBFUkZfSU5URVJOQUxfTE9XEKMFEiUKIEdPT0dMRV9QREZfVklFV0VSX0FORFJPSURfUFJJTUVTEJsJEgkKBEdMQVMQpAkSDAoHR01BX1NESxC+AxIVChBHTUFfU0RLX0NPVU5URVJTEL8DEhAKDEdNTV9DT1VOVEVSUxBNEhoKFUdNTV9SRUFMVElNRV9DT1VOVEVSUxDKCxILCgdHTU1fVUUzEG4SBgoCTEUQERIMCghNQVBTX0FQSRBPEhYKEU1BUFNfQVBJX0NPVU5URVJTEI8BEhIKDU1PREVNX01FVFJJQ1MQ2gYSCgoFT01BRE0Q5QYSFQoQT1JOQU1FTlRfQU5EUk9JRBDyBxIMCgdPVkVSTEFZENAIEhsKFk9WRVJMQVlfQU5EUk9JRF9QUklNRVMQ7AgSDwoKUERGX1ZJRVdFUhC+ARISCg1QSVhFTF9IV19JTkZPENIEEhIKDVBPV0VSX0FOT01BTFkQvgYSGgoVVEVUSEVSSU5HX0VOVElUTEVNRU5UEMcFEgoKBlZJU0lPThBkEhMKDldGQ19BQ1RJVkFUSU9OEM0FEhgKE0ZJVEJJVF9BTkRST0lEX1dFQVIQ5g8iGAoTQU5EUk9JRF9NTF9QTEFURk9STRCUDCIeChlURkxJVEVfSU5GRVJFTkNFX0NPVU5URVJTEPIMIhsKFkFORFJPSURfTUxfUExBVEZPUk1fM1AQ0A0iIQocVEZMSVRFX0lORkVSRU5DRV9DT1VOVEVSU18zUBDRDSIUCg9XQUxMRVRfRFlOQU1JVEUQrg8</string>
+    <boolean name="ClearcutFunnel__enabled" value="true" />
+    <long name="max_storage_size_bytes" value="10485760" />
+    <boolean name="ClearcutFunnel__discern_bad_request" value="true" />
+    <long name="qos_unmetered_task_interval_millis" value="3600000" />
+    <long name="__phenotype_configuration_version" value="1720734900" />
+</map>

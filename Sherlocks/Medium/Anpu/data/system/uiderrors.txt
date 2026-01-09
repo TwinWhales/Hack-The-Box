@@ -1,0 +1,55 @@
+7/10/24 8:47 PM: No settings file; creating initial state
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=android
+7/10/24 8:47 PM: Adding duplicate app id: 10054 name=com.android.providers.calendar
+7/10/24 8:47 PM: Adding duplicate app id: 10056 name=com.android.providers.userdictionary
+7/10/24 8:47 PM: Adding duplicate app id: 10056 name=com.android.providers.contacts
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.emulator.multidisplay
+7/10/24 8:47 PM: Adding duplicate app id: 10056 name=com.android.providers.blockednumber
+7/10/24 8:47 PM: Adding duplicate shared id: 1073 name=com.google.android.networkstack.permissionconfig
+7/10/24 8:47 PM: Adding duplicate shared id: 1073 name=com.google.android.networkstack
+7/10/24 8:47 PM: Adding duplicate shared id: 2000 name=com.android.shell
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.localtransport
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.ons
+7/10/24 8:47 PM: Adding duplicate app id: 10056 name=com.android.calllogbackup
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.providers.telephony
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.location.fused
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.inputdevices
+7/10/24 8:47 PM: Adding duplicate app id: 10069 name=com.android.mtp
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.phone
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.providers.settings
+7/10/24 8:47 PM: Adding duplicate app id: 10069 name=com.android.providers.media
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.mms.service
+7/10/24 8:47 PM: Adding duplicate app id: 10069 name=com.android.providers.downloads.ui
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.dynsystem
+7/10/24 8:47 PM: Adding duplicate app id: 10069 name=com.android.providers.downloads
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.server.telecom
+7/10/24 8:47 PM: Adding duplicate shared id: 1027 name=com.android.nfc
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.service.ims.presence
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.service.ims
+7/10/24 8:47 PM: Adding duplicate shared id: 1068 name=com.android.se
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.wallpaperbackup
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.keychain
+7/10/24 8:47 PM: Adding duplicate shared id: 1002 name=com.android.bluetooth
+7/10/24 8:47 PM: Adding duplicate shared id: 1001 name=com.android.stk
+7/10/24 8:47 PM: Adding duplicate app id: 10104 name=com.android.emergency
+7/10/24 8:47 PM: Adding duplicate app id: 10111 name=com.android.systemui
+7/10/24 8:47 PM: Adding duplicate app id: 10114 name=com.google.android.gms
+7/10/24 8:47 PM: Adding duplicate app id: 10118 name=com.android.omadm.service
+7/10/24 8:47 PM: Adding duplicate app id: 10114 name=com.google.android.gsf
+7/10/24 8:47 PM: Adding duplicate app id: 10121 name=com.google.android.projection.gearhead
+7/10/24 8:47 PM: Adding duplicate shared id: 1000 name=com.android.settings
+7/10/24 8:47 PM: Adding duplicate app id: 10128 name=com.google.android.apps.maps
+7/10/24 8:47 PM: Adding duplicate app id: 10144 name=com.google.android.calendar
+7/10/24 10:54 PM: Adding duplicate app id: 10146 name=org.mozilla.firefox
+7/11/24 12:56 AM: Unknown element under <package>: uses-static-lib
+7/11/24 12:56 AM: Unknown element under <package>: uses-static-lib
+7/11/24 4:49 AM: Unknown element under <package>: uses-static-lib
+7/11/24 4:49 AM: Unknown element under <package>: uses-static-lib
+7/11/24 5:13 AM: Unknown element under <package>: uses-static-lib
+7/11/24 5:13 AM: Unknown element under <package>: uses-static-lib
+7/11/24 5:25 AM: Unknown element under <package>: uses-static-lib
+7/11/24 5:25 AM: Unknown element under <package>: uses-static-lib
+7/11/24 11:47 PM: Unknown element under <package>: uses-static-lib
+7/11/24 11:47 PM: Unknown element under <package>: uses-static-lib
+7/12/24 12:16 AM: Unknown element under <package>: uses-static-lib
+7/12/24 12:16 AM: Unknown element under <package>: uses-static-lib

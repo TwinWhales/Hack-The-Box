@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="backup_and_sync_opt_in_validator_enabled" value="true" />
+    <long name="focus_first_full_sync_initial_timestamp_johnnnny999999@gmail.com" value="1720644779882" />
+    <int name="sync_backoff_sec_johnnnny999999@gmail.com" value="0" />
+    <boolean name="force_verbose_log" value="false" />
+    <long name="focus_first_full_sync_status_last_log_timestamp_johnnnny999999@gmail.com" value="1720644783652" />
+    <boolean name="deleted_null_contacts_cleanup_persisted" value="true" />
+    <string name="sync_status_message_johnnnny999999@gmail.com_com.android.contacts">Sync succeeded.</string>
+    <boolean name="deleted_null_contacts_cleanup_use_flex" value="false" />
+    <long name="focus_first_full_sync_start_timestamp_johnnnny999999@gmail.com" value="1720644781296" />
+    <long name="deleted_null_contacts_cleanup_periodic_interval_seconds" value="86400" />
+    <boolean name="backup_and_sync_opt_in_validator_use_flex" value="false" />
+    <int name="focus_last_sync_entry_point_type_johnnnny999999@gmail.com" value="2" />
+    <long name="backup_and_sync_opt_in_validator_flex_seconds" value="600" />
+    <int name="sync_status_code_johnnnny999999@gmail.com_com.android.contacts" value="1" />
+    <long name="focus_first_full_sync_finish_timestamp_johnnnny999999@gmail.com" value="1720644783651" />
+    <int name="focus_first_full_sync_failed_times_johnnnny999999@gmail.com" value="0" />
+    <boolean name="backup_and_sync_opt_in_validator_requires_charging" value="true" />
+    <int name="focus_sync_backoff_sec_johnnnny999999@gmail.com" value="0" />
+    <long name="backup_and_sync_opt_in_validator_periodic_interval_seconds" value="86400" />
+    <boolean name="deleted_null_contacts_cleanup_enabled" value="true" />
+    <boolean name="backup_and_sync_opt_in_validator_persisted" value="true" />
+    <boolean name="backup_and_sync_opt_in_validator_requires_device_idle" value="false" />
+    <long name="focus_sync_permission_denied_notify_time" value="0" />
+    <boolean name="is_first_sync" value="false" />
+    <boolean name="deleted_null_contacts_cleanup_requires_charging" value="true" />
+    <long name="deleted_null_contacts_cleanup_flex_seconds" value="600" />
+    <int name="focus_total_cancel_count_since_page_size_change_or_success_johnnnny999999@gmail.com" value="0" />
+    <int name="focus_first_full_sync_status_johnnnny999999@gmail.com" value="3" />
+    <int name="focus_continuous_cancel_count_since_page_size_change_johnnnny999999@gmail.com" value="0" />
+    <boolean name="focus_sync_write_cp2_per_each_contact_johnnnny999999@gmail.com" value="false" />
+    <int name="focus_sync_same_failures_johnnnny999999@gmail.com" value="0" />
+    <boolean name="deleted_null_contacts_cleanup_requires_device_idle" value="false" />
+    <int name="focus_sync_failure_reason_johnnnny999999@gmail.com" value="9" />
+    <int name="focus_sync_failures_johnnnny999999@gmail.com" value="0" />
+    <int name="sync_failures_johnnnny999999@gmail.com" value="0" />
+    <long name="last_sanity_check__johnnnny999999@gmail.com" value="1720644783207" />
+</map>

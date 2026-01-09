@@ -1,0 +1,219 @@
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/100/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/101/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/102/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/1038/exe -> /usr/libexec/rtkit-daemon
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/107/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/1092/exe -> /usr/libexec/upowerd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/10/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/1115/exe -> /usr/sbin/lightdm
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1120/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/1121/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/112/exe
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1135/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1136/exe -> /usr/bin/wireplumber
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1137/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1139/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/113/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/1141/exe -> /usr/bin/gnome-keyring-daemon
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1148/exe -> /usr/bin/mate-session
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1182/exe -> /usr/libexec/dconf-service
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/11/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/1205/exe -> /usr/bin/ssh-agent
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1206/exe -> /usr/libexec/at-spi-bus-launcher
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1212/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1245/exe -> /usr/bin/mate-settings-daemon
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1248/exe -> /usr/libexec/at-spi2-registryd
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:18 /proc/1254/exe -> /usr/bin/marco
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1255/exe -> /usr/libexec/gvfsd
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1264/exe -> /usr/bin/mate-panel
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1276/exe -> /usr/bin/caja
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1277/exe -> /usr/libexec/gvfs-udisks2-volume-monitor
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1278/exe -> /usr/bin/mate-power-manager
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1281/exe -> /usr/bin/mate-volume-control-status-icon
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1296/exe -> /usr/bin/vmtoolsd
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1298/exe -> /usr/bin/mate-screensaver
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/12/exe
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1301/exe -> /usr/bin/nm-applet
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1304/exe -> /usr/lib/x86_64-linux-gnu/polkit-mate/polkit-mate-authentication-agent-1
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1306/exe -> /usr/bin/python3.9
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1307/exe -> /usr/libexec/gvfs-mtp-volume-monitor
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1321/exe -> /usr/libexec/gvfs-gphoto2-volume-monitor
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1325/exe -> /usr/libexec/geoclue-2.0/demos/agent
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1329/exe -> /usr/libexec/gvfs-goa-volume-monitor
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1341/exe -> /usr/libexec/xdg-desktop-portal
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1350/exe -> /usr/libexec/gvfs-afc-volume-monitor
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1352/exe -> /usr/libexec/xdg-document-portal
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1359/exe -> /usr/libexec/xdg-permission-store
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/1365/exe -> /usr/bin/fusermount3
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1376/exe -> /usr/libexec/xdg-desktop-portal-gtk
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1381/exe -> /usr/lib/mate-applets/mate-multiload-applet
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1382/exe -> /usr/lib/mate-panel/wnck-applet
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1383/exe -> /usr/lib/mate-panel/clock-applet
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1384/exe -> /usr/lib/mate-panel/notification-area-applet
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/13/exe
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1417/exe -> /usr/libexec/gvfsd-trash
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1430/exe -> /usr/bin/python3.9
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:17 /proc/1435/exe -> /usr/libexec/bluetooth/obexd
+lrwxrwxrwx 1 johnspire       johnspire       0 Sep  3 10:39 /proc/1443/exe -> /usr/libexec/gvfsd-metadata
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/14/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/15/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/16/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/182/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/183/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/186/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/187/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/188/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/189/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/18/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/190/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/191/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/192/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/193/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/19/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/1/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/20/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/211/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/218/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/219/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/21/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/221/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/222/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/223/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/225/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/226/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/227/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/23/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/24/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/25/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/268/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/269/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/26/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/28/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/290/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/291/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/294/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/29/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/2/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/303/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/30/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/31/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/33/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/344/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/345/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/346/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/347/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/348/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/349/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/350/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/351/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/352/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/353/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/354/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/355/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/356/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/357/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/358/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/359/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/360/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/38/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/39/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/3/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/40/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/421/exe -> /usr/lib/systemd/systemd-journald
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/42/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/439/exe -> /usr/bin/vmware-vmblock-fuse
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/43/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/443/exe -> /usr/bin/udevadm
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/44/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/45/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 18:39 /proc/469911/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/46/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470060/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 19:39 /proc/470115/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 19:39 /proc/470159/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 19:39 /proc/470181/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470265/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470268/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470275/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470276/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470286/exe
+lrwxrwxrwx 1 johnspire       johnspire       0 Dec 23 22:30 /proc/470328/exe -> /usr/bin/python3.9
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470417/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470471/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470479/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:30 /proc/470480/exe
+lrwxrwxrwx 1 systemd-network systemd-network 0 Dec 23 22:30 /proc/470599/exe -> /usr/lib/systemd/systemd-networkd
+lrwxrwxrwx 1 root            root            0 Dec 23 22:33 /proc/470616/exe
+lrwxrwxrwx 1 root            root            0 Dec 23 22:33 /proc/470765/exe
+lrwxrwxrwx 1 johnspire       johnspire       0 Dec 23 22:33 /proc/470775/exe -> /usr/bin/mate-terminal
+lrwxrwxrwx 1 johnspire       johnspire       0 Dec 23 22:33 /proc/470781/exe -> /usr/bin/bash
+lrwxrwxrwx 1 root            root            0 Dec 23 22:33 /proc/470796/exe -> /usr/bin/sudo
+lrwxrwxrwx 1 root            root            0 Dec 23 22:33 /proc/470797/exe -> /usr/bin/bash
+lrwxrwxrwx 1 root            root            0 Dec 23 22:33 /proc/470841/exe -> /usr/bin/xargs
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/47/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/48/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/49/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/4/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/50/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/51/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/52/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/53/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/56/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/57/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/5/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/64/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/66/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/67/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/68/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/69/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/6/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/70/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/719/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/71/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/72/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/73/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/74/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/75/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/76/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/77/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/78/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/794/exe -> /usr/sbin/haveged
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/795/exe -> /usr/libexec/accounts-daemon
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/799/exe -> /usr/libexec/bluetooth/bluetoothd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/79/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/800/exe -> /usr/sbin/cron
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/802/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/804/exe -> /usr/sbin/NetworkManager
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/808/exe -> /usr/libexec/polkitd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/809/exe -> /usr/sbin/rngd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/80/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/815/exe -> /usr/lib/systemd/systemd-logind
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/817/exe -> /usr/libexec/udisks2/udisksd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/818/exe -> /usr/bin/VGAuthService
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/81/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/821/exe -> /usr/sbin/wpa_supplicant
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/82/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/832/exe -> /usr/sbin/ModemManager
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/833/exe -> /usr/bin/vmtoolsd
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/83/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/84/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/85/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/86/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/87/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/88/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/89/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/8/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/90/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/91/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/921/exe -> /usr/sbin/lightdm
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/92/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/933/exe -> /usr/lib/xorg/Xorg
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/934/exe -> /usr/sbin/agetty
+lrwxrwxrwx 1 root            root            0 Sep  3 10:39 /proc/935/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/93/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/94/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/95/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/96/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/97/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/98/exe
+lrwxrwxrwx 1 root            root            0 Sep  3 10:17 /proc/99/exe

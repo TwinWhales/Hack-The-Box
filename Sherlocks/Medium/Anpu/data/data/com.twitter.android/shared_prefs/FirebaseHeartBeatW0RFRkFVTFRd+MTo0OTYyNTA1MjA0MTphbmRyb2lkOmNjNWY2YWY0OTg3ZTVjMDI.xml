@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="fire-count" value="2" />
+    <string name="last-used-date">2024-07-11</string>
+    <long name="fire-global" value="1720646362307" />
+    <set name="fire-perf/20.4.1 android-min-sdk/26 fire-cls/18.4.3 fire-analytics/21.3.0 android-installer/ fire-fcm/23.2.1 fire-core-ktx/unspecified fire-sessions/1.0.2 fire-android/29 fire-abt/21.1.1 fire-core/20.3.3 fire-cls-ndk/18.4.3 device-brand/google fire-installations/17.1.4 device-model/generic_x86 android-platform/ fire-rc/21.4.1 kotlin/1.9.21 fire-transport/18.1.8 device-name/sdk_gphone_x86 android-target-sdk/33">
+        <string>2024-07-10</string>
+    </set>
+    <set name="fire-perf/20.4.1 android-min-sdk/26 fire-cls/18.4.3 fire-analytics/21.3.0 android-installer/ fire-fcm/23.2.1 fire-core-ktx/unspecified fire-abt/21.1.1 fire-sessions/1.0.2 fire-android/29 fire-core/20.3.3 fire-cls-ndk/18.4.3 device-brand/google fire-installations/17.1.4 device-model/generic_x86 fire-rc/21.4.1 android-platform/ kotlin/1.9.21 fire-transport/18.1.8 device-name/sdk_gphone_x86 android-target-sdk/33">
+        <string>2024-07-11</string>
+    </set>
+</map>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<settings version="-1">
+  <setting id="0" name="userkey" value="CF9EAE39E5EBA359B5BDDFC53497CEA4B8E9BC158DE9EAA8A31AECBE5FBD6F54" package="android" defaultValue="CF9EAE39E5EBA359B5BDDFC53497CEA4B8E9BC158DE9EAA8A31AECBE5FBD6F54" defaultSysSet="true" tag="null" />
+  <setting id="4" name="10114" value="5da0db1ffc02cbd3" package="com.google.android.gms" defaultValue="5da0db1ffc02cbd3" defaultSysSet="false" tag="null" />
+  <setting id="5" name="10127" value="31e716fd37b3dc46" package="com.android.chrome" defaultValue="31e716fd37b3dc46" defaultSysSet="false" tag="null" />
+  <setting id="2" name="10129" value="51fdb056b53e1f65" package="com.google.android.videos" defaultValue="51fdb056b53e1f65" defaultSysSet="false" tag="null" />
+  <setting id="3" name="10135" value="5da0db1ffc02cbd3" package="com.google.android.music" defaultValue="5da0db1ffc02cbd3" defaultSysSet="false" tag="null" />
+  <setting id="1" name="10144" value="5da0db1ffc02cbd3" package="com.google.android.calendar" defaultValue="5da0db1ffc02cbd3" defaultSysSet="false" tag="null" />
+  <setting id="6" name="10149" value="eb82106dc8e3ad3c" package="com.facebook.katana" defaultValue="eb82106dc8e3ad3c" defaultSysSet="false" tag="null" />
+  <setting id="7" name="10150" value="eb82106dc8e3ad3c" package="com.facebook.orca" defaultValue="eb82106dc8e3ad3c" defaultSysSet="false" tag="null" />
+  <setting id="8" name="10151" value="703627ee4808bb4d" package="com.twitter.android" defaultValue="703627ee4808bb4d" defaultSysSet="false" tag="null" />
+</settings>

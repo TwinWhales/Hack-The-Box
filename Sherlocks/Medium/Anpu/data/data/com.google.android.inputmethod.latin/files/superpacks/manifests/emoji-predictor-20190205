@@ -1,0 +1,19 @@
+{
+  "packs": [
+    {
+      "name": "tflite-emoji-pred-a69f4f3dd1a865206f8a5f8cdcd9f6d6",
+      "label": "tflite-emoji-pred",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/emoji_predictor/tflite-emoji-pred-a69f4f3dd1a865206f8a5f8cdcd9f6d6.zip"
+      ],
+      "locales": "en-US",
+      "download_packing_scheme": "zip",
+      "md5_checksum": "a69f4f3dd1a865206f8a5f8cdcd9f6d6",
+      "validation_schemes":  [ "md5" ],
+      "compressed_size": 1036909,
+      "size": 1444807,
+      "verify_sizes": true,
+      "emoji_predictor_unk_threshold": "-3.3"
+    }
+  ]
+}

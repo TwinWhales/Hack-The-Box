@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FILE_INFO>
+    <BASIC_INFO>
+        <STATE NAME="CONTENT_TYPE" TYPE="string" VALUE="Program" />
+        <STATE NAME="PARENT" TYPE="string" VALUE="/" />
+        <STATE NAME="FILE_ID" TYPE="string" VALUE="ac129693d83f413761474923400" />
+        <STATE NAME="FILE_TYPE" TYPE="int" VALUE="0" />
+        <STATE NAME="READ_ONLY" TYPE="boolean" VALUE="false" />
+        <STATE NAME="NAME" TYPE="string" VALUE="pid.3244.vad.0xb0000-0xb3fff.dmp" />
+    </BASIC_INFO>
+</FILE_INFO>

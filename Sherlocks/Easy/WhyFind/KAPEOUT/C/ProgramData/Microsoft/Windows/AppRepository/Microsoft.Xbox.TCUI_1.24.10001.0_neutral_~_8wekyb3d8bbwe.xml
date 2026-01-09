@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="3.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+	<Identity Name="Microsoft.Xbox.TCUI" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.24.10001.0"/>
+	<Packages>
+		<Package Type="application" Version="1.24.10001.0" Architecture="x86" FileName="TCUI-App_1.24.10001.0_x86.appx" Offset="9949038" Size="3918713">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="1.24.10001.0" Architecture="arm" FileName="TCUI-App_1.24.10001.0_ARM.appx" Offset="60" Size="4166664">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="1.24.10001.0" Architecture="x64" FileName="TCUI-App_1.24.10001.0_x64.appx" Offset="5600833" Size="4348121">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-af" FileName="TCUI-App_1.24.10001.0_language-af.appx" Offset="4166816" Size="14964">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-am" FileName="TCUI-App_1.24.10001.0_language-am.appx" Offset="4181872" Size="15721">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ar" FileName="TCUI-App_1.24.10001.0_language-ar.appx" Offset="4197685" Size="15553">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-as" FileName="TCUI-App_1.24.10001.0_language-as.appx" Offset="4213330" Size="12461">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-az-latn" FileName="TCUI-App_1.24.10001.0_language-az-latn.appx" Offset="4225888" Size="15359">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-be" FileName="TCUI-App_1.24.10001.0_language-be.appx" Offset="4241339" Size="16085">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-bg" FileName="TCUI-App_1.24.10001.0_language-bg.appx" Offset="4257516" Size="16000">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-bn" FileName="TCUI-App_1.24.10001.0_language-bn.appx" Offset="4273608" Size="17644">
+			<Resources>
+				<Resource Language="bn-bd"/>
+				<Resource Language="bn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-bs" FileName="TCUI-App_1.24.10001.0_language-bs.appx" Offset="4291344" Size="12152">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ca" FileName="TCUI-App_1.24.10001.0_language-ca.appx" Offset="4303588" Size="16738">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-chr-cher" FileName="TCUI-App_1.24.10001.0_language-chr-cher.appx" Offset="4320424" Size="12367">
+			<Resources>
+				<Resource Language="chr-cher-us"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-cs" FileName="TCUI-App_1.24.10001.0_language-cs.appx" Offset="4332883" Size="15551">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-cy" FileName="TCUI-App_1.24.10001.0_language-cy.appx" Offset="4348526" Size="12094">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-da" FileName="TCUI-App_1.24.10001.0_language-da.appx" Offset="4360712" Size="14878">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-de" FileName="TCUI-App_1.24.10001.0_language-de.appx" Offset="4375682" Size="15358">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-el" FileName="TCUI-App_1.24.10001.0_language-el.appx" Offset="4391132" Size="16574">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-es" FileName="TCUI-App_1.24.10001.0_language-es.appx" Offset="4407798" Size="18127">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-et" FileName="TCUI-App_1.24.10001.0_language-et.appx" Offset="4426017" Size="15130">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-eu" FileName="TCUI-App_1.24.10001.0_language-eu.appx" Offset="4441239" Size="15045">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-fa" FileName="TCUI-App_1.24.10001.0_language-fa.appx" Offset="4456376" Size="15718">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-fi" FileName="TCUI-App_1.24.10001.0_language-fi.appx" Offset="4472186" Size="15160">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-fil-latn" FileName="TCUI-App_1.24.10001.0_language-fil-latn.appx" Offset="4487444" Size="15108">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-fr" FileName="TCUI-App_1.24.10001.0_language-fr.appx" Offset="4502644" Size="15976">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ga" FileName="TCUI-App_1.24.10001.0_language-ga.appx" Offset="4518712" Size="12213">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-gd-latn" FileName="TCUI-App_1.24.10001.0_language-gd-latn.appx" Offset="4531022" Size="12261">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-gl" FileName="TCUI-App_1.24.10001.0_language-gl.appx" Offset="4543375" Size="15092">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-gu" FileName="TCUI-App_1.24.10001.0_language-gu.appx" Offset="4558559" Size="12440">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ha-latn" FileName="TCUI-App_1.24.10001.0_language-ha-latn.appx" Offset="4571096" Size="11968">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-he" FileName="TCUI-App_1.24.10001.0_language-he.appx" Offset="4583156" Size="15167">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-hi" FileName="TCUI-App_1.24.10001.0_language-hi.appx" Offset="4598415" Size="15750">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-hr" FileName="TCUI-App_1.24.10001.0_language-hr.appx" Offset="4614257" Size="15351">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-hu" FileName="TCUI-App_1.24.10001.0_language-hu.appx" Offset="4629700" Size="15655">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-hy" FileName="TCUI-App_1.24.10001.0_language-hy.appx" Offset="4645447" Size="12446">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-id" FileName="TCUI-App_1.24.10001.0_language-id.appx" Offset="4657985" Size="14670">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ig-latn" FileName="TCUI-App_1.24.10001.0_language-ig-latn.appx" Offset="4672752" Size="11911">
+			<Resources>
+				<Resource Language="ig-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-is" FileName="TCUI-App_1.24.10001.0_language-is.appx" Offset="4684755" Size="15233">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-it" FileName="TCUI-App_1.24.10001.0_language-it.appx" Offset="4700080" Size="15052">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ja" FileName="TCUI-App_1.24.10001.0_language-ja.appx" Offset="4715224" Size="14935">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ka" FileName="TCUI-App_1.24.10001.0_language-ka.appx" Offset="4730251" Size="12548">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-kk" FileName="TCUI-App_1.24.10001.0_language-kk.appx" Offset="4742891" Size="15862">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-km" FileName="TCUI-App_1.24.10001.0_language-km.appx" Offset="4758845" Size="15654">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-kn" FileName="TCUI-App_1.24.10001.0_language-kn.appx" Offset="4774591" Size="15999">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ko" FileName="TCUI-App_1.24.10001.0_language-ko.appx" Offset="4790682" Size="15030">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-kok" FileName="TCUI-App_1.24.10001.0_language-kok.appx" Offset="4805805" Size="12370">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ku-arab" FileName="TCUI-App_1.24.10001.0_language-ku-arab.appx" Offset="4818272" Size="12465">
+			<Resources>
+				<Resource Language="ku-arab-iq"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ky-cyrl" FileName="TCUI-App_1.24.10001.0_language-ky-cyrl.appx" Offset="4830834" Size="12606">
+			<Resources>
+				<Resource Language="ky-kg"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-lb" FileName="TCUI-App_1.24.10001.0_language-lb.appx" Offset="4843532" Size="12257">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-lo" FileName="TCUI-App_1.24.10001.0_language-lo.appx" Offset="4855881" Size="15616">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-lt" FileName="TCUI-App_1.24.10001.0_language-lt.appx" Offset="4871589" Size="15364">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-lv" FileName="TCUI-App_1.24.10001.0_language-lv.appx" Offset="4887045" Size="15410">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-mi-latn" FileName="TCUI-App_1.24.10001.0_language-mi-latn.appx" Offset="4902552" Size="11942">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-mk" FileName="TCUI-App_1.24.10001.0_language-mk.appx" Offset="4914586" Size="15890">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ml" FileName="TCUI-App_1.24.10001.0_language-ml.appx" Offset="4930568" Size="16051">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-mn-cyrl" FileName="TCUI-App_1.24.10001.0_language-mn-cyrl.appx" Offset="4946716" Size="12375">
+			<Resources>
+				<Resource Language="mn-mn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-mr" FileName="TCUI-App_1.24.10001.0_language-mr.appx" Offset="4959183" Size="12418">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ms" FileName="TCUI-App_1.24.10001.0_language-ms.appx" Offset="4971693" Size="14843">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-nb" FileName="TCUI-App_1.24.10001.0_language-nb.appx" Offset="4986628" Size="14936">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ne" FileName="TCUI-App_1.24.10001.0_language-ne.appx" Offset="5001656" Size="12419">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-nl" FileName="TCUI-App_1.24.10001.0_language-nl.appx" Offset="5014167" Size="15069">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-nn" FileName="TCUI-App_1.24.10001.0_language-nn.appx" Offset="5029328" Size="11978">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-nso" FileName="TCUI-App_1.24.10001.0_language-nso.appx" Offset="5041399" Size="12025">
+			<Resources>
+				<Resource Language="nso-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-or" FileName="TCUI-App_1.24.10001.0_language-or.appx" Offset="5053516" Size="12447">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-pa" FileName="TCUI-App_1.24.10001.0_language-pa.appx" Offset="5066055" Size="12544">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-pa-arab" FileName="TCUI-App_1.24.10001.0_language-pa-arab.appx" Offset="5078696" Size="12377">
+			<Resources>
+				<Resource Language="pa-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-pl" FileName="TCUI-App_1.24.10001.0_language-pl.appx" Offset="5091165" Size="15557">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-prs-arab" FileName="TCUI-App_1.24.10001.0_language-prs-arab.appx" Offset="5106820" Size="12335">
+			<Resources>
+				<Resource Language="prs-af"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-pt" FileName="TCUI-App_1.24.10001.0_language-pt.appx" Offset="5119247" Size="18795">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-quz-latn" FileName="TCUI-App_1.24.10001.0_language-quz-latn.appx" Offset="5138140" Size="11910">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ro" FileName="TCUI-App_1.24.10001.0_language-ro.appx" Offset="5150142" Size="15255">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ru" FileName="TCUI-App_1.24.10001.0_language-ru.appx" Offset="5165489" Size="16221">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-rw" FileName="TCUI-App_1.24.10001.0_language-rw.appx" Offset="5181802" Size="11992">
+			<Resources>
+				<Resource Language="rw-rw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sd-arab" FileName="TCUI-App_1.24.10001.0_language-sd-arab.appx" Offset="5193891" Size="12401">
+			<Resources>
+				<Resource Language="sd-arab-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-si" FileName="TCUI-App_1.24.10001.0_language-si.appx" Offset="5206384" Size="12444">
+			<Resources>
+				<Resource Language="si-lk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sk" FileName="TCUI-App_1.24.10001.0_language-sk.appx" Offset="5218920" Size="15753">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sl" FileName="TCUI-App_1.24.10001.0_language-sl.appx" Offset="5234765" Size="15387">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sq" FileName="TCUI-App_1.24.10001.0_language-sq.appx" Offset="5250244" Size="15310">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sr-cyrl" FileName="TCUI-App_1.24.10001.0_language-sr-cyrl.appx" Offset="5265651" Size="14163">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sr-latn" FileName="TCUI-App_1.24.10001.0_language-sr-latn.appx" Offset="5279911" Size="15320">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sv" FileName="TCUI-App_1.24.10001.0_language-sv.appx" Offset="5295323" Size="15008">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-sw" FileName="TCUI-App_1.24.10001.0_language-sw.appx" Offset="5310423" Size="14840">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ta" FileName="TCUI-App_1.24.10001.0_language-ta.appx" Offset="5325355" Size="15844">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-te" FileName="TCUI-App_1.24.10001.0_language-te.appx" Offset="5341291" Size="15942">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-tg-cyrl" FileName="TCUI-App_1.24.10001.0_language-tg-cyrl.appx" Offset="5357330" Size="12539">
+			<Resources>
+				<Resource Language="tg-cyrl-tj"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-th" FileName="TCUI-App_1.24.10001.0_language-th.appx" Offset="5369961" Size="15390">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ti" FileName="TCUI-App_1.24.10001.0_language-ti.appx" Offset="5385443" Size="12457">
+			<Resources>
+				<Resource Language="ti-et"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-tk-latn" FileName="TCUI-App_1.24.10001.0_language-tk-latn.appx" Offset="5397997" Size="12116">
+			<Resources>
+				<Resource Language="tk-tm"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-tn" FileName="TCUI-App_1.24.10001.0_language-tn.appx" Offset="5410205" Size="12043">
+			<Resources>
+				<Resource Language="tn-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-tr" FileName="TCUI-App_1.24.10001.0_language-tr.appx" Offset="5422340" Size="15197">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-tt-cyrl" FileName="TCUI-App_1.24.10001.0_language-tt-cyrl.appx" Offset="5437634" Size="12490">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ug-arab" FileName="TCUI-App_1.24.10001.0_language-ug-arab.appx" Offset="5450221" Size="12397">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-uk" FileName="TCUI-App_1.24.10001.0_language-uk.appx" Offset="5462710" Size="16180">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-ur" FileName="TCUI-App_1.24.10001.0_language-ur.appx" Offset="5478982" Size="12498">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-uz-latn" FileName="TCUI-App_1.24.10001.0_language-uz-latn.appx" Offset="5491577" Size="15297">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-vi" FileName="TCUI-App_1.24.10001.0_language-vi.appx" Offset="5506966" Size="15503">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-wo-latn" FileName="TCUI-App_1.24.10001.0_language-wo-latn.appx" Offset="5522566" Size="11922">
+			<Resources>
+				<Resource Language="wo-sn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-xh" FileName="TCUI-App_1.24.10001.0_language-xh.appx" Offset="5534580" Size="11863">
+			<Resources>
+				<Resource Language="xh-za"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-yo-latn" FileName="TCUI-App_1.24.10001.0_language-yo-latn.appx" Offset="5546540" Size="12189">
+			<Resources>
+				<Resource Language="yo-ng"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-zh-hans" FileName="TCUI-App_1.24.10001.0_language-zh-hans.appx" Offset="5558826" Size="14571">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-zh-hant" FileName="TCUI-App_1.24.10001.0_language-zh-hant.appx" Offset="5573494" Size="15164">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.24.10001.0" ResourceId="split.language-zu" FileName="TCUI-App_1.24.10001.0_language-zu.appx" Offset="5588750" Size="11999">
+			<Resources>
+				<Resource Language="zu-za"/>
+			</Resources>
+		</Package>
+	</Packages>
+</Bundle>

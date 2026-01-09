@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<WLANProfile xmlns="http://www.microsoft.com/networking/WLAN/profile/v1">
+	<name>ArboretumCoffee</name>
+	<SSIDConfig>
+		<SSID>
+			<hex>4172626F726574756D436F66666565</hex>
+			<name>ArboretumCoffee</name>
+		</SSID>
+	</SSIDConfig>
+	<connectionType>ESS</connectionType>
+	<connectionMode>manual</connectionMode>
+	<MSM>
+		<security>
+			<authEncryption>
+				<authentication>WPA2PSK</authentication>
+				<encryption>AES</encryption>
+				<useOneX>false</useOneX>
+			</authEncryption>
+			<sharedKey>
+				<keyType>passPhrase</keyType>
+				<protected>true</protected>
+				<keyMaterial>01000000D08C9DDF0115D1118C7A00C04FC297EB010000005A4ABC7BC4832440BF97B61BA5FA90E800000000020000000000106600000001000020000000E4FD57B3D76FA93C87E992C3A26D581ACCD48B22096E204F71EBF2D8CFB4B85D000000000E8000000002000020000000A11DF9B27393BDDF0FC92D1C1574E6123A72F1BB2C15D56205133E1B758833A01000000023E23F30E0F5D1424E83EEB2F4489C084000000020A7695FDD6AB15A8D73A4B1DA59186C07AEBC028E22C58AFD8698FDA87F1EBECBA71A927F4DA03EB5F5041660A76B6D296C0F7D32B7BD6654070EBFA99246F9</keyMaterial>
+			</sharedKey>
+		</security>
+	</MSM>
+	<MacRandomization xmlns="http://www.microsoft.com/networking/WLAN/profile/v3">
+		<enableRandomization>false</enableRandomization>
+		<randomizationSeed>2228671806</randomizationSeed>
+	</MacRandomization>
+</WLANProfile>

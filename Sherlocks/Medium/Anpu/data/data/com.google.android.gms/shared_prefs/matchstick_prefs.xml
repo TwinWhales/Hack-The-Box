@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="last_silent_register_attempt_outcome">UNAUTHENTICATED: Request is missing required authentication credential. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.</string>
+    <long name="last_silent_register_service_invoked_timestamp_key" value="1720661600269" />
+    <boolean name="tachyon_registration_status" value="false" />
+    <long name="last_silent_register_attempt_timestamp_key" value="1720644787277" />
+    <float name="periodic_app_metadata_sync_flex" value="0.25" />
+    <boolean name="registration_is_user_triggered" value="false" />
+    <int name="num_silent_register_attempts" value="1" />
+    <boolean name="tachystick_activated" value="false" />
+    <string name="gcm_token_key">fuq94_kb67Q:APA91bEGKT2E54FTz1z01kvpNzAlWQX7jNQ_jhRRTX45IsihULmf7ym42WxaxbaafXkHGG3eLA9X-0m7S408Z2KpazpDIOAVy3i5dV2Bly1hPRQnoZ5vNWIxtgC9q_DdY7D0DSjIEK2q</string>
+    <long name="periodic_app_metadata_sync_interval_sec" value="604800" />
+    <boolean name="upgraded_to_lighter_registration_key" value="false" />
+    <long name="periodic_app_metadata_sync_interval_jitter_sec" value="7200" />
+    <long name="silent_register_retry_backoff_interval_millis" value="172800000" />
+    <string name="last_silent_register_intent_action">com.google.android.gms.matchstick.register_intent_google_account_change</string>
+</map>

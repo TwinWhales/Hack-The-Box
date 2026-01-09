@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.BingNews" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="4.8.11001.0"/>
+	<Packages>
+		<Package Type="application" Version="4.55.62231.0" Architecture="x64" FileName="News_4.55.62231.0_x64.msix" Offset="13461893" Size="11640640">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="4.55.62231.0" Architecture="x86" FileName="News_4.55.62231.0_x86.msix" Offset="25102613" Size="10491197">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="4.55.62231.0" Architecture="arm64" FileName="News_4.55.62231.0_ARM64.msix" Offset="58" Size="11108764">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-prs-arab" FileName="News_4.55.62231.0_language-prs-arab.msix" Offset="12401578" Size="17131">
+			<Resources>
+				<Resource Language="prs-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-yo-latn" FileName="News_4.55.62231.0_language-yo-latn.msix" Offset="13047477" Size="14810">
+			<Resources>
+				<Resource Language="yo-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-zh-hant" FileName="News_4.55.62231.0_language-zh-hant.msix" Offset="13079727" Size="24159">
+			<Resources>
+				<Resource Language="zh-hant-hk"/>
+				<Resource Language="zh-hant-tw"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-be" FileName="News_4.55.62231.0_language-be.msix" Offset="11197830" Size="17393">
+			<Resources>
+				<Resource Language="be"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-az-latn" FileName="News_4.55.62231.0_language-az-latn.msix" Offset="11180217" Size="17525">
+			<Resources>
+				<Resource Language="az-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-as" FileName="News_4.55.62231.0_language-as.msix" Offset="11161875" Size="18249">
+			<Resources>
+				<Resource Language="as"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ar" FileName="News_4.55.62231.0_language-ar.msix" Offset="11144166" Size="17621">
+			<Resources>
+				<Resource Language="ar"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ur" FileName="News_4.55.62231.0_language-ur.msix" Offset="12958330" Size="18013">
+			<Resources>
+				<Resource Language="ur"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ug-arab" FileName="News_4.55.62231.0_language-ug-arab.msix" Offset="12921267" Size="17779">
+			<Resources>
+				<Resource Language="ug-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-tk-latn" FileName="News_4.55.62231.0_language-tk-latn.msix" Offset="12847053" Size="16541">
+			<Resources>
+				<Resource Language="tk-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ti" FileName="News_4.55.62231.0_language-ti.msix" Offset="12831726" Size="15234">
+			<Resources>
+				<Resource Language="ti"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-af" FileName="News_4.55.62231.0_language-af.msix" Offset="11108910" Size="17139">
+			<Resources>
+				<Resource Language="af"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-si" FileName="News_4.55.62231.0_language-si.msix" Offset="12595644" Size="17431">
+			<Resources>
+				<Resource Language="si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-quc-latn" FileName="News_4.55.62231.0_language-quc-latn.msix" Offset="12487395" Size="14524">
+			<Resources>
+				<Resource Language="quc-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-am" FileName="News_4.55.62231.0_language-am.msix" Offset="11126137" Size="17941">
+			<Resources>
+				<Resource Language="am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-mk" FileName="News_4.55.62231.0_language-mk.msix" Offset="12111316" Size="18188">
+			<Resources>
+				<Resource Language="mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-et" FileName="News_4.55.62231.0_language-et.msix" Offset="11457642" Size="17176">
+			<Resources>
+				<Resource Language="et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-eu" FileName="News_4.55.62231.0_language-eu.msix" Offset="11474906" Size="17209">
+			<Resources>
+				<Resource Language="eu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-lo" FileName="News_4.55.62231.0_language-lo.msix" Offset="12040226" Size="18122">
+			<Resources>
+				<Resource Language="lo"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-kn" FileName="News_4.55.62231.0_language-kn.msix" Offset="11928621" Size="18376">
+			<Resources>
+				<Resource Language="kn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-fil-latn" FileName="News_4.55.62231.0_language-fil-latn.msix" Offset="11534626" Size="17409">
+			<Resources>
+				<Resource Language="fil"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ka" FileName="News_4.55.62231.0_language-ka.msix" Offset="11873729" Size="18108">
+			<Resources>
+				<Resource Language="ka"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ga" FileName="News_4.55.62231.0_language-ga.msix" Offset="11572284" Size="17616">
+			<Resources>
+				<Resource Language="ga"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sl" FileName="News_4.55.62231.0_language-sl.msix" Offset="12631054" Size="17601">
+			<Resources>
+				<Resource Language="sl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-hy" FileName="News_4.55.62231.0_language-hy.msix" Offset="11751387" Size="17247">
+			<Resources>
+				<Resource Language="hy"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-gu" FileName="News_4.55.62231.0_language-gu.msix" Offset="11625292" Size="18100">
+			<Resources>
+				<Resource Language="gu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ha-latn" FileName="News_4.55.62231.0_language-ha-latn.msix" Offset="11643485" Size="14427">
+			<Resources>
+				<Resource Language="ha-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-tt-cyrl" FileName="News_4.55.62231.0_language-tt-cyrl.msix" Offset="12902887" Size="18287">
+			<Resources>
+				<Resource Language="tt-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-bs" FileName="News_4.55.62231.0_language-bs.msix" Offset="11262624" Size="17644">
+			<Resources>
+				<Resource Language="bs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-hr" FileName="News_4.55.62231.0_language-hr.msix" Offset="11708542" Size="17474">
+			<Resources>
+				<Resource Language="hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-tn" FileName="News_4.55.62231.0_language-tn.msix" Offset="12863682" Size="14574">
+			<Resources>
+				<Resource Language="tn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-gl" FileName="News_4.55.62231.0_language-gl.msix" Offset="11607895" Size="17309">
+			<Resources>
+				<Resource Language="gl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-quz-latn" FileName="News_4.55.62231.0_language-quz-latn.msix" Offset="12502013" Size="17118">
+			<Resources>
+				<Resource Language="quz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ig-latn" FileName="News_4.55.62231.0_language-ig-latn.msix" Offset="11792198" Size="14447">
+			<Resources>
+				<Resource Language="ig-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-is" FileName="News_4.55.62231.0_language-is.msix" Offset="11806733" Size="17450">
+			<Resources>
+				<Resource Language="is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-xh" FileName="News_4.55.62231.0_language-xh.msix" Offset="13032893" Size="14491">
+			<Resources>
+				<Resource Language="xh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-chr-cher" FileName="News_4.55.62231.0_language-chr-cher.msix" Offset="11300656" Size="17215">
+			<Resources>
+				<Resource Language="chr-cher"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sk" FileName="News_4.55.62231.0_language-sk.msix" Offset="12613163" Size="17803">
+			<Resources>
+				<Resource Language="sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-kk" FileName="News_4.55.62231.0_language-kk.msix" Offset="11891925" Size="18209">
+			<Resources>
+				<Resource Language="kk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-km" FileName="News_4.55.62231.0_language-km.msix" Offset="11910222" Size="18311">
+			<Resources>
+				<Resource Language="km"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-bg" FileName="News_4.55.62231.0_language-bg.msix" Offset="11215311" Size="18353">
+			<Resources>
+				<Resource Language="bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-zh-hans" FileName="News_4.55.62231.0_language-zh-hans.msix" Offset="13062380" Size="17254">
+			<Resources>
+				<Resource Language="zh-cn"/>
+				<Resource Language="zh-hans"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-kok" FileName="News_4.55.62231.0_language-kok.msix" Offset="11971427" Size="18147">
+			<Resources>
+				<Resource Language="kok"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ku-arab" FileName="News_4.55.62231.0_language-ku-arab.msix" Offset="11989667" Size="14895">
+			<Resources>
+				<Resource Language="ku-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ky-cyrl" FileName="News_4.55.62231.0_language-ky-cyrl.msix" Offset="12004655" Size="17638">
+			<Resources>
+				<Resource Language="ky-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-lb" FileName="News_4.55.62231.0_language-lb.msix" Offset="12022381" Size="17757">
+			<Resources>
+				<Resource Language="lb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-pa" FileName="News_4.55.62231.0_language-pa.msix" Offset="12358116" Size="18157">
+			<Resources>
+				<Resource Language="pa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-lt" FileName="News_4.55.62231.0_language-lt.msix" Offset="12058436" Size="17683">
+			<Resources>
+				<Resource Language="lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-lv" FileName="News_4.55.62231.0_language-lv.msix" Offset="12076207" Size="17698">
+			<Resources>
+				<Resource Language="lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ta" FileName="News_4.55.62231.0_language-ta.msix" Offset="12746307" Size="18095">
+			<Resources>
+				<Resource Language="ta"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sw" FileName="News_4.55.62231.0_language-sw.msix" Offset="12729927" Size="16292">
+			<Resources>
+				<Resource Language="sw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ml" FileName="News_4.55.62231.0_language-ml.msix" Offset="12129592" Size="18595">
+			<Resources>
+				<Resource Language="ml"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-mn-cyrl" FileName="News_4.55.62231.0_language-mn-cyrl.msix" Offset="12148280" Size="17229">
+			<Resources>
+				<Resource Language="mn-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sr-latn" FileName="News_4.55.62231.0_language-sr-latn.msix" Offset="12688369" Size="17535">
+			<Resources>
+				<Resource Language="sr-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ms" FileName="News_4.55.62231.0_language-ms.msix" Offset="12191694" Size="17053">
+			<Resources>
+				<Resource Language="ms"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-mt" FileName="News_4.55.62231.0_language-mt.msix" Offset="12208835" Size="17607">
+			<Resources>
+				<Resource Language="mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sq" FileName="News_4.55.62231.0_language-sq.msix" Offset="12648743" Size="17646">
+			<Resources>
+				<Resource Language="sq"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-or" FileName="News_4.55.62231.0_language-or.msix" Offset="12324635" Size="18321">
+			<Resources>
+				<Resource Language="or"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-nso" FileName="News_4.55.62231.0_language-nso.msix" Offset="12310009" Size="14538">
+			<Resources>
+				<Resource Language="nso"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-nn" FileName="News_4.55.62231.0_language-nn.msix" Offset="12292842" Size="17078">
+			<Resources>
+				<Resource Language="nn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ro" FileName="News_4.55.62231.0_language-ro.msix" Offset="12519219" Size="17617">
+			<Resources>
+				<Resource Language="ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ne" FileName="News_4.55.62231.0_language-ne.msix" Offset="12250294" Size="18021">
+			<Resources>
+				<Resource Language="ne"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-pa-arab" FileName="News_4.55.62231.0_language-pa-arab.msix" Offset="12343049" Size="14979">
+			<Resources>
+				<Resource Language="pa-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-fa" FileName="News_4.55.62231.0_language-fa.msix" Offset="11492203" Size="17831">
+			<Resources>
+				<Resource Language="fa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-cy" FileName="News_4.55.62231.0_language-cy.msix" Offset="11343188" Size="17214">
+			<Resources>
+				<Resource Language="cy"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-fr" FileName="News_4.55.62231.0_language-fr.msix" Offset="11552123" Size="20073">
+			<Resources>
+				<Resource Language="fr"/>
+				<Resource Language="fr-be"/>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-zu" FileName="News_4.55.62231.0_language-zu.msix" Offset="13103974" Size="14468">
+			<Resources>
+				<Resource Language="zu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-wo-latn" FileName="News_4.55.62231.0_language-wo-latn.msix" Offset="13018426" Size="14379">
+			<Resources>
+				<Resource Language="wo"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-uz-latn" FileName="News_4.55.62231.0_language-uz-latn.msix" Offset="12976436" Size="16695">
+			<Resources>
+				<Resource Language="uz-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-gd-latn" FileName="News_4.55.62231.0_language-gd-latn.msix" Offset="11589993" Size="17814">
+			<Resources>
+				<Resource Language="gd-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-uk" FileName="News_4.55.62231.0_language-uk.msix" Offset="12939134" Size="19108">
+			<Resources>
+				<Resource Language="uk"/>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-vi" FileName="News_4.55.62231.0_language-vi.msix" Offset="12993219" Size="25114">
+			<Resources>
+				<Resource Language="vi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-rw" FileName="News_4.55.62231.0_language-rw.msix" Offset="12564212" Size="14454">
+			<Resources>
+				<Resource Language="rw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-de" FileName="News_4.55.62231.0_language-de.msix" Offset="11384475" Size="26100">
+			<Resources>
+				<Resource Language="de"/>
+				<Resource Language="de-at"/>
+				<Resource Language="de-ch"/>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-da" FileName="News_4.55.62231.0_language-da.msix" Offset="11360490" Size="23897">
+			<Resources>
+				<Resource Language="da"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-el" FileName="News_4.55.62231.0_language-el.msix" Offset="11410663" Size="27181">
+			<Resources>
+				<Resource Language="el"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-pl" FileName="News_4.55.62231.0_language-pl.msix" Offset="12376361" Size="25123">
+			<Resources>
+				<Resource Language="pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-nb" FileName="News_4.55.62231.0_language-nb.msix" Offset="12226530" Size="23676">
+			<Resources>
+				<Resource Language="nb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sr-cyrl" FileName="News_4.55.62231.0_language-sr-cyrl.msix" Offset="12666482" Size="21794">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-bn" FileName="News_4.55.62231.0_language-bn.msix" Offset="11233752" Size="28784">
+			<Resources>
+				<Resource Language="bn-bd"/>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sv" FileName="News_4.55.62231.0_language-sv.msix" Offset="12705992" Size="23847">
+			<Resources>
+				<Resource Language="sv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-es" FileName="News_4.55.62231.0_language-es.msix" Offset="11437932" Size="19622">
+			<Resources>
+				<Resource Language="es-019"/>
+				<Resource Language="es-ar"/>
+				<Resource Language="es-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-mi-latn" FileName="News_4.55.62231.0_language-mi-latn.msix" Offset="12093998" Size="17230">
+			<Resources>
+				<Resource Language="mi-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-te" FileName="News_4.55.62231.0_language-te.msix" Offset="12764490" Size="26772">
+			<Resources>
+				<Resource Language="te"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-tg-cyrl" FileName="News_4.55.62231.0_language-tg-cyrl.msix" Offset="12791355" Size="15111">
+			<Resources>
+				<Resource Language="tg-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-th" FileName="News_4.55.62231.0_language-th.msix" Offset="12806554" Size="25084">
+			<Resources>
+				<Resource Language="th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-cs" FileName="News_4.55.62231.0_language-cs.msix" Offset="11317959" Size="25141">
+			<Resources>
+				<Resource Language="cs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ja" FileName="News_4.55.62231.0_language-ja.msix" Offset="11849014" Size="24627">
+			<Resources>
+				<Resource Language="ja"/>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-hu" FileName="News_4.55.62231.0_language-hu.msix" Offset="11726104" Size="25195">
+			<Resources>
+				<Resource Language="hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-hi" FileName="News_4.55.62231.0_language-hi.msix" Offset="11682678" Size="25776">
+			<Resources>
+				<Resource Language="hi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-he" FileName="News_4.55.62231.0_language-he.msix" Offset="11658000" Size="24590">
+			<Resources>
+				<Resource Language="he"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-nl" FileName="News_4.55.62231.0_language-nl.msix" Offset="12268403" Size="24351">
+			<Resources>
+				<Resource Language="nl"/>
+				<Resource Language="nl-be"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.scale-100" FileName="News_4.55.62231.0_scale-100.msix" Offset="13118528" Size="43659">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-tr" FileName="News_4.55.62231.0_language-tr.msix" Offset="12878344" Size="24450">
+			<Resources>
+				<Resource Language="tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-sd-arab" FileName="News_4.55.62231.0_language-sd-arab.msix" Offset="12578759" Size="16797">
+			<Resources>
+				<Resource Language="sd-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ru" FileName="News_4.55.62231.0_language-ru.msix" Offset="12536924" Size="27200">
+			<Resources>
+				<Resource Language="ru"/>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-qps-ploc" FileName="News_4.55.62231.0_language-qps-ploc.msix" Offset="12452164" Size="35137">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-pt" FileName="News_4.55.62231.0_language-pt.msix" Offset="12418797" Size="33273">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-mr" FileName="News_4.55.62231.0_language-mr.msix" Offset="12165597" Size="26009">
+			<Resources>
+				<Resource Language="mr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ko" FileName="News_4.55.62231.0_language-ko.msix" Offset="11947085" Size="24253">
+			<Resources>
+				<Resource Language="ko"/>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-fi" FileName="News_4.55.62231.0_language-fi.msix" Offset="11510122" Size="24410">
+			<Resources>
+				<Resource Language="fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-it" FileName="News_4.55.62231.0_language-it.msix" Offset="11824271" Size="24655">
+			<Resources>
+				<Resource Language="it"/>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-ca" FileName="News_4.55.62231.0_language-ca.msix" Offset="11280356" Size="20206">
+			<Resources>
+				<Resource Language="ca"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.scale-125" FileName="News_4.55.62231.0_scale-125.msix" Offset="13162273" Size="53264">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.scale-150" FileName="News_4.55.62231.0_scale-150.msix" Offset="13215623" Size="59993">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.language-id" FileName="News_4.55.62231.0_language-id.msix" Offset="11768722" Size="23383">
+			<Resources>
+				<Resource Language="id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.55.62231.0" ResourceId="split.scale-400" FileName="News_4.55.62231.0_scale-400.msix" Offset="13275702" Size="186111">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

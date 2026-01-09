@@ -1,0 +1,775 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="1032" package="com.google.android.apps.photos" class="com.google.android.apps.photos.scheduler.LowPriorityBackgroundJobService" sourcePackageName="com.google.android.apps.photos" sourceUserId="0" uid="10137" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795203394" delay="1720736194628" />
+        <extras />
+    </job>
+    <job jobid="2000" package="com.google.android.apps.maps" class="com.google.android.apps.gmm.offline.update.OfflineAutoUpdateJobService" sourcePackageName="com.google.android.apps.maps" sourceUserId="0" uid="10128" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="96256" net-unwanted-capabilities="0" net-transport-types="0" idle="true" charging="true" />
+        <one-off delay="1720736806830" />
+        <extras>
+            <int name="intervalCheckType" value="3" />
+            <int name="batteryCheckRequired" value="1" />
+            <int name="locationRequired" value="0" />
+            <int name="idx" value="0" />
+            <int name="timeBudget" value="1" />
+            <int name="connectivityRequired" value="1" />
+            <string name="policyId">p1a</string>
+            <int name="batteryCheckType" value="2" />
+            <int name="screenCheckType" value="2" />
+        </extras>
+    </job>
+    <job jobid="20" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194085" delay="1720736194634" />
+        <extras>
+            <string name="background_task_data">CCgQCiWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="126" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566952" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="34200000" flex="34200000" deadline="1720777194977" delay="1720742994977" />
+        <extras>
+            <string name="background_task_data">CPwBED8lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="130" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566954" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1720881594976" delay="1720795194976" />
+        <extras>
+            <string name="background_task_data">CIQCEEElninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="52" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="21600000" flex="21600000" deadline="1720736194633" delay="1720736194633" />
+        <extras>
+            <string name="background_task_data">CGgQGiWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="24" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566447" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1720881594455" delay="1720795194455" />
+        <extras>
+            <string name="background_task_data">CDAQDCWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="134" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720666173263" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="7200000" flex="7200000" deadline="1720744794984" delay="1720737594984" />
+        <extras>
+            <string name="background_task_data">CIwCEEMlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="30" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194467" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">CDwQDyWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="186" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644567234" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1720881595020" delay="1720795195020" />
+        <extras>
+            <string name="background_task_data">CPQCEF0lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="108" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="43200000" flex="43200000" deadline="1720751994510" delay="1720736194633" />
+        <extras>
+            <string name="background_task_data">CNgBEDYlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="56" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720734718827" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="8640000" flex="8640000" deadline="1720751994501" delay="1720743354501" />
+        <extras>
+            <string name="background_task_data">CHAQHCWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="2" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566427" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1720881593971" delay="1720795193971" />
+        <extras>
+            <string name="background_task_data">CAQQASWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="170" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195011" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">CNQCEFUlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="28" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194464" delay="1720736194634" />
+        <extras>
+            <string name="background_task_data">CDgQDiWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="198" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="43200000" flex="43200000" deadline="1720751995038" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">CIwDEGMlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="64" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints charging="true" />
+        <periodic period="172800000" flex="172800000" deadline="1720881594508" delay="1720736194630" />
+        <extras>
+            <string name="background_task_data">CIABECAlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="196" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="96256" net-unwanted-capabilities="0" net-transport-types="0" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195036" delay="1720736194633" />
+        <extras>
+            <string name="background_task_data">CIgDEGIlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="40" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566517" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1720881594485" delay="1720795194485" />
+        <extras>
+            <string name="background_task_data">CFAQFCWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="86" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194506" delay="1720736194630" />
+        <extras>
+            <string name="background_task_data">CKwBECslninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="124" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="28800000" flex="28800000" deadline="1720737594975" delay="1720736194632" />
+        <extras>
+            <string name="background_task_data">CPgBED4lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="112" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194782" delay="1720736194632" />
+        <extras>
+            <string name="background_task_data">COABEDglninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="232" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194987" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">CNADEHQlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="200" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="96256" net-unwanted-capabilities="0" net-transport-types="0" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195040" delay="1720736194630" />
+        <extras>
+            <string name="background_task_data">CJADEGQlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="46" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194487" delay="1720736194630" />
+        <extras>
+            <string name="background_task_data">CFwQFyWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="204" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195046" delay="1720736194633" />
+        <extras>
+            <string name="background_task_data">CJgDEGYlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="152" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="604800000" flex="604800000" deadline="1721313594991" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">CLACEEwlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="168" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195009" delay="1720736194634" />
+        <extras>
+            <string name="background_task_data">CNACEFQlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="164" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="604800000" flex="604800000" deadline="1721313595007" delay="1720736194630" />
+        <extras>
+            <string name="background_task_data">CMgCEFIlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="180" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795195013" delay="1720736194631" />
+        <extras>
+            <string name="background_task_data">COgCEFolninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="146" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566971" lastFailedRunTime="0">
+        <constraints net-capabilities="96256" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="28800000" flex="28800000" deadline="1720766394988" delay="1720737594988" />
+        <extras>
+            <string name="background_task_data">CKQCEEklninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="6" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566440" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="43200000" flex="43200000" deadline="1720795194065" delay="1720751994065" />
+        <extras>
+            <string name="background_task_data">CAwQAyWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="10" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="172800000" flex="172800000" deadline="1720881594083" delay="1720736194634" />
+        <extras>
+            <string name="background_task_data">CBQQBSWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="132" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194980" delay="1720736194632" />
+        <extras>
+            <string name="background_task_data">CIgCEEIlninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="188" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644567691" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1720881595026" delay="1720795195026" />
+        <extras>
+            <string name="background_task_data">CPgCEF4lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="60" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720666173093" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="21600000" flex="21600000" deadline="1720773594506" delay="1720751994506" />
+        <extras>
+            <string name="background_task_data">CHgQHiWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="250" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="1720644566438" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="86400000" deadline="1720881594138" delay="1720795194138" />
+        <extras>
+            <string name="background_task_data">CPQDEH0lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="54" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="604800000" flex="604800000" deadline="1721313594499" delay="1720736194632" />
+        <extras>
+            <string name="background_task_data">CGwQGyWeKfAR</string>
+        </extras>
+    </job>
+    <job jobid="148" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="96256" net-unwanted-capabilities="0" net-transport-types="0" idle="true" />
+        <periodic period="2592000000" flex="2592000000" deadline="1723300794987" delay="1720736194633" />
+        <extras>
+            <string name="background_task_data">CKgCEEolninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="222" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10122" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795194578" delay="1720736194632" />
+        <extras>
+            <string name="background_task_data">CLwDEG8lninwEQ</string>
+        </extras>
+    </job>
+    <job jobid="234835907" package="com.google.android.projection.gearhead" class="com.google.android.apps.auto.components.app.fzero.LauncherIconStateVerificationService" sourcePackageName="com.google.android.projection.gearhead" sourceUserId="0" uid="10121" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints />
+        <one-off deadline="1720909388935" delay="1720822988935" />
+        <extras>
+            <string name="GH.IconVerifyService.Retry">true</string>
+            <pbundle_as_map name="GH.IconVerifyService.LoggingHelper">
+                <int name="GH.LoggingHelper.SourceEvent" value="1" />
+                <int-array name="GH.LoggingHelper.IconStates" num="5">
+                    <item value="-1" />
+                    <item value="2" />
+                    <item value="0" />
+                    <item value="0" />
+                    <item value="0" />
+                </int-array>
+                <int name="GH.LoggingHelper.NumEvents" value="2" />
+                <int-array name="GH.LoggingHelper.Actions" num="5">
+                    <item value="3103" />
+                    <item value="3108" />
+                    <item value="0" />
+                    <item value="0" />
+                    <item value="0" />
+                </int-array>
+            </pbundle_as_map>
+            <string name="GH.IconVerifyService.LogIconStateVerification">false</string>
+        </extras>
+    </job>
+    <job jobid="400" package="com.android.dialer" class="com.android.dialer.calllog.config.CallLogConfigImpl$PollingJob" sourcePackageName="com.android.dialer" sourceUserId="0" uid="10120" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720822619024" delay="1720736219024" />
+        <extras />
+    </job>
+    <job jobid="8580" package="com.google.android.setupwizard" class="com.google.android.setupwizard.deviceorigin.provider.DeviceOriginWipeOutJobService" sourcePackageName="com.google.android.setupwizard" sourceUserId="0" uid="10119" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints />
+        <one-off deadline="1723300718443" delay="1723300718443" />
+        <extras />
+    </job>
+    <job jobid="101686" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.android.contacts/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407826" delay="1720791087826" />
+        <extras>
+            <string name="provider">com.android.contacts</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="101686" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <boolean name="periodic_sync" value="true" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="104021" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.people/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="180000000" flex="9000000" deadline="1720889008046" delay="1720880008046" />
+        <extras>
+            <string name="provider">com.google.android.gms.people</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="180000000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="104021" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <boolean name="periodic_sync" value="true" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="101802" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.drive.sync/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407189" delay="1720791087189" />
+        <extras>
+            <string name="provider">com.google.android.gms.drive.sync</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="101802" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="109076" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.auth.accountstate/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795406699" delay="1720791086699" />
+        <extras>
+            <string name="provider">com.google.android.gms.auth.accountstate</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="true" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109076" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="108214" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.games/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407180" delay="1720791087180" />
+        <extras>
+            <string name="provider">com.google.android.gms.games</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="108214" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="107562" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.games.background/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407185" delay="1720791087185" />
+        <extras>
+            <string name="provider">com.google.android.gms.games.background</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="107562" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="105961" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gm" sourceTag="gmail-ls/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407194" delay="1720791087194" />
+        <extras>
+            <string name="provider">gmail-ls</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gm</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="true" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="105961" />
+            <int name="owningUid" value="10134" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="109243" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="subscribedfeeds/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795405641" delay="1720791085641" />
+        <extras>
+            <string name="provider">subscribedfeeds</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="109243" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="101550" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.calendar" sourceTag="com.android.calendar/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720796622106" delay="1720792302106" />
+        <extras>
+            <string name="provider">com.android.calendar</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.calendar</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="101550" />
+            <int name="owningUid" value="10144" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <boolean name="sync_extra_get_settings" value="true" />
+                <boolean name="sync_extra_get_recent_notifications" value="true" />
+                <boolean name="sync_extra_get_default_notifications" value="true" />
+                <boolean name="sync_periodic" value="true" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="107358" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.auth.confirm/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795406980" delay="1720791086980" />
+        <extras>
+            <string name="provider">com.google.android.gms.auth.confirm</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="true" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="107358" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="105559" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.android.chrome" sourceTag="com.android.chrome/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407082" delay="1720791087082" />
+        <extras>
+            <string name="provider">com.android.chrome</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.android.chrome</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="105559" />
+            <int name="owningUid" value="10127" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="105486" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.location.reporting/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795406939" delay="1720791086939" />
+        <extras>
+            <string name="provider">com.google.android.location.reporting</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="105486" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="2131427339" package="com.android.settings" class="com.android.settings.fuelgauge.batterytip.AnomalyCleanupJobService" sourcePackageName="com.android.settings" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795199500" delay="1720736194636" />
+        <extras />
+    </job>
+    <job jobid="107425" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.reminders/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795408140" delay="1720791088140" />
+        <extras>
+            <string name="provider">com.google.android.gms.reminders</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="107425" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <boolean name="periodic" value="true" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="107279" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.apps.docs" sourceTag="com.google.android.apps.docs/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="345600000" flex="17280000" deadline="1721054613888" delay="1721037333888" />
+        <extras>
+            <string name="provider">com.google.android.apps.docs</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.apps.docs</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="345600000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="107279" />
+            <int name="owningUid" value="10143" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <boolean name="PERIODIC_REQUEST_KEY" value="true" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="106950" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gm" sourceTag="gmail-ls/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720796553983" delay="1720792233983" />
+        <extras>
+            <string name="provider">gmail-ls</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gm</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="true" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="106950" />
+            <int name="owningUid" value="10134" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras">
+                <int name="sync_reason" value="1" />
+            </pbundle_as_map>
+        </extras>
+    </job>
+    <job jobid="104851" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.fitness/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795406990" delay="1720791086990" />
+        <extras>
+            <string name="provider">com.google.android.gms.fitness</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="true" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="104851" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+    <job jobid="2131427340" package="com.android.settings" class="com.android.settings.fuelgauge.batterytip.AnomalyConfigJobService" sourcePackageName="com.android.settings" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1720795199498" delay="1720736194635" />
+        <extras />
+    </job>
+    <job jobid="103344" package="android" class="com.android.server.content.SyncJobService" sourcePackageName="com.google.android.gms" sourceTag="com.google.android.gms.appstate/com.google/johnnnny999999@gmail.com" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints net-capabilities="94208" net-unwanted-capabilities="0" net-transport-types="0" />
+        <periodic period="86400000" flex="4320000" deadline="1720795407051" delay="1720791087051" />
+        <extras>
+            <string name="provider">com.google.android.gms.appstate</string>
+            <int name="reason" value="-4" />
+            <int name="source" value="4" />
+            <int name="userId" value="0" />
+            <long name="expectedRuntime" value="0" />
+            <int name="syncExemptionFlag" value="0" />
+            <string name="owningPackage">com.google.android.gms</string>
+            <boolean name="SyncManagerJob" value="true" />
+            <boolean name="isPeriodic" value="true" />
+            <boolean name="allowParallelSyncs" value="false" />
+            <long name="periodMillis" value="86400000" />
+            <int name="sourcePeriodicId" value="-1" />
+            <int name="jobId" value="103344" />
+            <int name="owningUid" value="10114" />
+            <long name="flexMillis" value="3456000" />
+            <string name="accountName">johnnnny999999@gmail.com</string>
+            <string name="accountType">com.google</string>
+            <int name="retries" value="0" />
+            <pbundle_as_map name="syncExtras" />
+        </extras>
+    </job>
+</job-info>

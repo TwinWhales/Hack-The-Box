@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="actions">
+        <string>com.android.systemui.action.PLUGIN_ALL_APPS_ACTIONS</string>
+        <string>com.android.systemui.action.PLUGIN_FIRST_SCREEN_WIDGET</string>
+    </set>
+</map>

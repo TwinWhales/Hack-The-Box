@@ -1,0 +1,240 @@
+/usr/bin/adb
+adbd is already running as root
+Cold start latency with dictation.ascii_proto: same utterance thrice
+Start-up Wall Time:0.349606
+PERF: id,wall time,user time,sys time,speech time,audio time,hotword wall time,latency,hotword-latency,hotword-count,hypothesis
+PERF: 0,1.89164,0.643,0.035,1.11,1.87875,0,0.0558392,0.0128938,0,ratchet
+PERF: 0,1.89809,0.521,0.035,1.11,1.87875,0,0.0628408,0.0193364,0,ratchet
+PERF: 0,1.89802,0.497,0.079,1.11,1.87875,0,0.0621821,0.0192708,0,ratchet
+PERF: total,5.68775,1.661,0.149,3.33,5.63625,0,0.180862,0.0515009,0,
+# hotwords:0, # audio-files:3
+Percent speech: 3.33 secs / 5.63625 secs * 100 = 59.0818%
+PERF: latency(0.5) = 0.0621821, id = 0
+PERF: latency(0.9) = 0.0628408, id = 0
+Benchmarking terse with dictation.ascii_proto...
+Start-up Wall Time:0.350748
+PERF: id,wall time,user time,sys time,speech time,audio time,hotword wall time,rt,hotword-rt,hotword-count,hypothesis
+PERF: 0,0.303337,0.39,0.027,1.11,1.87875,0,0.273276,0.273276,0,ratchet
+PERF: 1,0.693745,1.257,0.057,4.71,5.75994,0,0.147292,0.147292,0,what paintings were inside the dead person's old Kingdom tunes
+PERF: 10,0.439497,0.919,0.038,3.21,3.25225,0,0.136915,0.136915,0,spy on someone's text messages without having their off
+PERF: 11,0.485024,0.651,0.021,1.35,1.49475,0,0.359277,0.359277,0,spell bronchitis
+PERF: 12,0.366273,0.658,0.029,2.34,2.77475,0,0.156527,0.156527,0,100 amp used alternator
+PERF: 13,0.382401,0.629,0.022,2.52,2.86006,0,0.151746,0.151746,0,Google find Oak Grove courthouse
+PERF: 14,0.30522,0.588,0.022,2.07,2.43344,0,0.147449,0.147449,0,facts about butterflies
+PERF: 15,0.355712,0.694,0.022,2.37,2.55563,0,0.15009,0.15009,0,Entertainment warehouse Colorado Springs
+PERF: 16,0.605668,0.787,0.024,1.5,1.92144,0,0.403779,0.403779,0,accomplished
+PERF: 17,0.790708,1.43,0.047,5.82,6.48675,0,0.13586,0.13586,0,remind me to go to Bank of America and close my account at 11:45 a.m.
+PERF: 18,0.227932,0.388,0.02,1.38,1.81256,0,0.165168,0.165168,0,cute pictures
+PERF: 19,0.514186,0.791,0.027,2.04,2.39075,0,0.252052,0.252052,0,open songs
+PERF: 2,0.994972,1.116,0.034,1.32,1.36675,0,0.753766,0.753766,0,I'm saying hi
+PERF: 20,0.359176,0.605,0.02,2.34,2.94544,0,0.153494,0.153494,0,weather in Wild Rose Wisconsin
+PERF: 21,0.570689,0.984,0.036,2.82,3.32944,0,0.202372,0.202372,0,Office Depot sunrise Boulevard and flamingo
+PERF: 22,0.354559,0.657,0.022,2.31,2.47606,0,0.153489,0.153489,0,where to buy cute flip-flops Jose
+PERF: 23,0.27108,0.447,0.012,1.5,1.58013,0,0.18072,0.18072,0,who created the Smurfs
+PERF: 24,0.375625,0.698,0.024,2.64,2.94544,0,0.142282,0.142282,0,Jordan carriers online training
+PERF: 25,0.284139,0.449,0.02,1.32,1.87875,0,0.215257,0.215257,0,viagra joke
+PERF: 26,0.208713,0.345,0.008,1.38,1.40944,0,0.151242,0.151242,0,definition of rock
+PERF: 27,0.297885,0.493,0.017,1.56,1.83613,0,0.190952,0.190952,0,UPS drop box
+PERF: 28,0.315047,0.559,0.023,1.98,2.47606,0,0.159115,0.159115,0,images of Dakota Fanning
+PERF: 29,0.367805,0.655,0.028,2.43,3.08406,0,0.15136,0.15136,0,images of Dakota Fanning
+PERF: 3,0.408453,0.723,0.024,2.67,3.03075,0,0.152979,0.152979,0,panic at the disco this is gospel
+PERF: 30,0.42546,0.788,0.024,2.61,2.64675,0,0.163011,0.163011,0,$1 US equal to Thai baht
+PERF: 31,0.897658,1.345,0.043,3.18,3.79875,0,0.282283,0.282283,0,salons in Boise Idaho
+PERF: 32,0.265924,0.443,0.015,1.77,1.99831,0,0.150239,0.150239,0,exit Google now
+PERF: 33,0.185831,0.249,0.009,0.9,1.20887,0,0.206479,0.206479,0,call Dave
+PERF: 34,0.181382,0.265,0.012,0.9,0.940063,0,0.201536,0.201536,0,prestige
+PERF: 35,0.31847,0.47,0.025,1.41,1.4875,0,0.225865,0.225865,0,Walmart visions in
+PERF: 36,0.244089,0.393,0.018,1.38,1.40944,0,0.176876,0.176876,0,Woodruff High School
+PERF: 37,0.407075,0.737,0.022,2.43,2.74138,0,0.16752,0.16752,0,downtown market company Medford Oregon
+PERF: 38,0.243025,0.404,0.016,1.41,1.90544,0,0.172358,0.172358,0,everything is off
+PERF: 39,0.318004,0.421,0.015,1.26,1.87875,0,0.252384,0.252384,0,call Paul mode
+PERF: 4,0.309353,0.593,0.016,2.1,2.13762,0,0.147311,0.147311,0,music from Black Stone Cherry
+PERF: 40,0.370123,0.659,0.021,2.16,2.55563,0,0.171353,0.171353,0,Maple October glory
+PERF: 41,0.404305,0.543,0.019,1.2,1.66544,0,0.33692,0.33692,0,call
+PERF: 42,0.477984,0.92,0.03,3.36,3.79875,0,0.142257,0.142257,0,round table Police of Santa Rosa
+PERF: 43,0.196404,0.277,0.015,1.05,1.16244,0,0.187051,0.187051,0,weather on them
+PERF: 44,0.242883,0.392,0.013,1.29,1.75075,0,0.188282,0.188282,0,what is a Clarita
+PERF: 45,0.227965,0.386,0.015,1.44,1.79344,0,0.158309,0.158309,0,where's the dump
+PERF: 46,0.211909,0.34,0.01,1.29,1.70812,0,0.164271,0.164271,0,she loved it
+PERF: 47,0.27277,0.456,0.014,1.74,2.13762,0,0.156764,0.156764,0,Google do it.
+PERF: 48,0.542937,0.701,0.023,1.32,1.40944,0,0.411316,0.411316,0,little girl eat
+PERF: 49,0.390199,0.694,0.021,2.34,2.81744,0,0.166752,0.166752,0,can you grab an air conditioner compressor
+PERF: 5,0.308099,0.508,0.027,1.71,2.30544,0,0.180175,0.180175,0,jungle Safari
+PERF: 50,0.377399,0.59,0.019,1.62,1.92144,0,0.232962,0.232962,0,fugitive honey trap
+PERF: 51,0.63004,1.041,0.048,4.29,5.20269,0,0.146862,0.146862,0,how many people attend the potter's house
+PERF: 52,0.453286,0.879,0.034,3.06,3.29869,0,0.148133,0.148133,0,how much is a ticket for going through a red light in Jersey
+PERF: 53,0.353878,0.5,0.03,1.44,2.23056,0,0.245749,0.245749,0,all children
+PERF: 54,0.618715,0.793,0.022,1.56,1.83613,0,0.396612,0.396612,0,and I know what the best
+PERF: 55,0.241809,0.43,0.014,1.5,1.66544,0,0.161206,0.161206,0,pawn shop location
+PERF: 56,0.452758,0.776,0.029,2.46,3.53087,0,0.184048,0.184048,0,Columbus Day 2014
+PERF: 57,0.295896,0.36,0.014,0.84,0.88375,0,0.352257,0.352257,0,chicken
+PERF: 58,0.436702,0.83,0.031,3.06,3.57731,0,0.142713,0.142713,0,98 tour
+PERF: 59,0.413416,0.736,0.028,2.73,3.06644,0,0.151435,0.151435,0,is there a Dairy Queen in Viera Florida
+PERF: 6,0.296193,0.477,0.02,1.74,2.18412,0,0.170226,0.170226,0,what is consumption
+PERF: 60,0.279479,0.509,0.016,1.95,1.99831,0,0.143323,0.143323,0,how to create a coaching session
+PERF: 61,0.273842,0.515,0.022,1.62,1.81256,0,0.169038,0.169038,0,brandy Greenfield
+PERF: 62,0.265548,0.433,0.018,1.32,1.62681,0,0.201173,0.201173,0,hello in French
+PERF: 63,0.384927,0.654,0.024,2.16,2.92713,0,0.178207,0.178207,0,Pradesh crossword puzzle
+PERF: 64,0.577789,0.789,0.024,1.83,2.18412,0,0.315732,0.315732,0,will you start Texas dump
+PERF: 65,0.572812,1.05,0.044,4.14,4.41319,0,0.13836,0.13836,0,number for Dixie's car shop in Williamsport Pennsylvania
+PERF: 66,0.316355,0.494,0.017,1.53,1.96412,0,0.206768,0.206768,0,camel scheme
+PERF: 67,0.286598,0.452,0.021,1.59,1.76612,0,0.18025,0.18025,0,only love then
+PERF: 68,0.255988,0.475,0.018,1.74,1.76612,0,0.14712,0.14712,0,who was legs Dimond
+PERF: 69,0.351543,0.666,0.022,2.4,2.64675,0,0.146476,0.146476,0,last in Germantown Ohio
+PERF: 7,0.18742,0.253,0.013,0.99,1.06812,0,0.189314,0.189314,0,call hon
+PERF: 70,0.226932,0.367,0.014,1.2,1.49475,0,0.18911,0.18911,0,target Parma
+PERF: 71,0.42699,0.825,0.028,3.3,3.32944,0,0.129391,0.129391,0,the zip code for cubic Tennessee
+PERF: 72,0.201145,0.318,0.01,1.2,1.23875,0,0.167621,0.167621,0,some voucher
+PERF: 73,0.487127,0.985,0.033,3.24,3.45744,0,0.150348,0.150348,0,Walter Mathis Secret Life of Walter Mitty
+PERF: 74,0.387687,0.718,0.024,2.7,2.92713,0,0.143588,0.143588,0,what are the colors for UC San Marcos
+PERF: 75,0.416268,0.746,0.025,2.88,3.34512,0,0.144538,0.144538,0,Five Guys Shelton Connecticut
+PERF: 76,0.217332,0.26,0.005,0.69,0.837313,0,0.314974,0.314974,0,in
+PERF: 77,0.422988,0.661,0.021,2.82,3.07344,0,0.149996,0.149996,0,Mahalo
+PERF: 78,0.419533,0.734,0.027,2.16,3.11606,0,0.194228,0.194228,0,refund on five fingers shoot
+PERF: 79,0.225593,0.366,0.015,1.26,1.83613,0,0.179042,0.179042,0,did you want
+PERF: 8,0.360013,0.618,0.02,2.28,2.97356,0,0.1579,0.1579,0,how do I say I love you in Russian
+PERF: 80,0.272082,0.42,0.009,1.8,2.23075,0,0.151157,0.151157,0,Google flight
+PERF: 81,0.367941,0.601,0.027,2.4,2.81744,0,0.153309,0.153309,0,turn off Xbox now turn it
+PERF: 82,0.597064,1.056,0.041,4.68,4.73831,0,0.127578,0.127578,0,Carlie C's IgA Goldsboro North Carolina
+PERF: 83,0.482189,0.819,0.043,2.88,3.02,0,0.167427,0.167427,0,How much does $1 equal in review
+PERF: 84,0.483897,0.807,0.021,3.51,3.79875,0,0.137862,0.137862,0,when was Wayne State University fan
+PERF: 85,0.369032,0.661,0.034,2.52,2.81744,0,0.146441,0.146441,0,What is 10 to the 86th power
+PERF: 86,0.296507,0.497,0.01,1.44,1.53744,0,0.205908,0.205908,0,Academy Sports for sale
+PERF: 87,0.299649,0.531,0.012,2.19,2.23056,0,0.136826,0.136826,0,where is Steuben Wisconsin
+PERF: 88,0.339021,0.555,0.021,1.68,2.09206,0,0.201798,0.201798,0,Bucky's Center cross
+PERF: 89,0.364522,0.652,0.021,2.34,2.77475,0,0.155779,0.155779,0,Marco's tinting windows
+PERF: 9,0.448628,0.808,0.022,3.21,3.58544,0,0.139759,0.139759,0,when is elephant Rock bicycle ride
+PERF: 90,0.37784,0.616,0.027,2.52,2.90275,0,0.149936,0.149936,0,how to change Google Play account
+PERF: 91,0.384363,0.644,0.025,2.61,3.11606,0,0.147266,0.147266,0,map of Oceanside California
+PERF: 92,0.375261,0.747,0.023,2.49,2.51875,0,0.150707,0.150707,0,fade out bring frequency of music
+PERF: 93,0.281251,0.459,0.02,1.65,1.96412,0,0.170455,0.170455,0,Mario Lemieux
+PERF: 94,0.486919,0.78,0.032,2.07,2.277,0,0.235227,0.235227,0,how did 13 in in feet
+PERF: 95,0.326414,0.593,0.017,2.28,2.64675,0,0.143164,0.143164,0,Backpage Jacksonville Florida
+PERF: 96,0.368247,0.661,0.028,2.37,2.64675,0,0.155378,0.155378,0,why was simple Ludington famous
+PERF: 97,0.409434,0.781,0.025,2.79,2.92713,0,0.14675,0.14675,0,what does W a n I n G mean
+PERF: 98,0.272907,0.463,0.015,1.68,2.17744,0,0.162445,0.162445,0,avail songs
+PERF: 99,0.520638,0.876,0.032,3.9,3.92675,0,0.133497,0.133497,0,how to open my nap type PlayStation
+PERF: total,37.9575,63.224,2.302,215.25,249.183,0,0.176341,0.176341,0,
+# hotwords:0, # audio-files:100
+Percent speech: 215.25 secs / 249.183 secs * 100 = 86.3822%
+PERF: rt(0.5) = 0.163011, id = 30
+PERF: rt(0.9) = 0.282283, id = 31
+Cold start latency with voice_actions.ascii_proto: same utterance thrice
+Start-up Wall Time:0.33567
+PERF: id,wall time,user time,sys time,speech time,audio time,hotword wall time,latency,hotword-latency,hotword-count,hypothesis
+PERF: 0,1.89187,0.597,0.068,1.11,1.87875,0,0.056999,0.0131201,0,ratchet
+PERF: 0,1.89602,0.535,0.034,1.11,1.87875,0,0.0618679,0.0172657,0,ratchet
+PERF: 0,1.8976,0.529,0.03,1.11,1.87875,0,0.063273,0.0188529,0,ratchet
+PERF: total,5.68549,1.661,0.132,3.33,5.63625,0,0.18214,0.0492387,0,
+# hotwords:0, # audio-files:3
+Percent speech: 3.33 secs / 5.63625 secs * 100 = 59.0818%
+PERF: latency(0.5) = 0.0618679, id = 0
+PERF: latency(0.9) = 0.063273, id = 0
+Benchmarking terse with voice_actions.ascii_proto...
+Start-up Wall Time:0.342937
+PERF: id,wall time,user time,sys time,speech time,audio time,hotword wall time,rt,hotword-rt,hotword-count,hypothesis
+PERF: 0,0.302002,0.396,0.015,1.11,1.87875,0,0.272074,0.272074,0,ratchet
+PERF: 1,0.68468,1.252,0.046,4.71,5.75994,0,0.145367,0.145367,0,what paintings were inside the dead person's old Kingdom tunes
+PERF: 10,0.419706,0.932,0.035,3.21,3.25225,0,0.130749,0.130749,0,spy on someone's text messages without having their off
+PERF: 11,0.46587,0.633,0.022,1.35,1.49475,0,0.345089,0.345089,0,spell bronchitis
+PERF: 12,0.363008,0.653,0.025,2.34,2.77475,0,0.155132,0.155132,0,100 amp used alternator
+PERF: 13,0.356619,0.612,0.021,2.52,2.86006,0,0.141515,0.141515,0,Google find Oak Grove courthouse
+PERF: 14,0.323766,0.591,0.025,2.07,2.43344,0,0.156409,0.156409,0,facts about butterflies
+PERF: 15,0.353809,0.673,0.023,2.37,2.55563,0,0.149286,0.149286,0,Entertainment warehouse Colorado Springs
+PERF: 16,0.552433,0.734,0.025,1.5,1.92144,0,0.368289,0.368289,0,accomplished
+PERF: 17,0.792596,1.442,0.039,5.82,6.48675,0,0.136185,0.136185,0,remind me to go to Bank of America and close my account at 11:45 a.m.
+PERF: 18,0.246327,0.401,0.009,1.38,1.81256,0,0.178498,0.178498,0,cute pictures
+PERF: 19,0.48178,0.767,0.023,2.04,2.39075,0,0.236167,0.236167,0,open songs
+PERF: 2,0.783648,0.951,0.032,1.32,1.36675,0,0.593673,0.593673,0,identify
+PERF: 20,0.356759,0.607,0.019,2.34,2.94544,0,0.152461,0.152461,0,weather in Wild Rose Wisconsin
+PERF: 21,0.517516,0.963,0.031,2.82,3.32944,0,0.183516,0.183516,0,Office Depot sunrise Boulevard and flamingo
+PERF: 22,0.343614,0.639,0.022,2.31,2.47606,0,0.148751,0.148751,0,where to buy cute flip-flops Jose
+PERF: 23,0.257865,0.449,0.011,1.5,1.58013,0,0.17191,0.17191,0,who created the Smurfs
+PERF: 24,0.379428,0.719,0.022,2.64,2.94544,0,0.143723,0.143723,0,Jordan carriers online training
+PERF: 25,0.269573,0.424,0.02,1.32,1.87875,0,0.204222,0.204222,0,viagra joke
+PERF: 26,0.214723,0.33,0.017,1.38,1.40944,0,0.155596,0.155596,0,definition of rock
+PERF: 27,0.322087,0.496,0.02,1.56,1.83613,0,0.206466,0.206466,0,UPS drop box
+PERF: 28,0.316398,0.561,0.016,1.98,2.47606,0,0.159797,0.159797,0,images of Dakota Fanning
+PERF: 29,0.366505,0.654,0.022,2.43,3.08406,0,0.150825,0.150825,0,images of Dakota Fanning
+PERF: 3,0.393857,0.745,0.032,2.67,3.03075,0,0.147512,0.147512,0,panic at the disco this is gospel
+PERF: 30,0.416913,0.785,0.026,2.61,2.64675,0,0.159737,0.159737,0,$1 US equal to Thai baht
+PERF: 31,0.858673,1.344,0.033,3.18,3.79875,0,0.270023,0.270023,0,salons in Boise Idaho
+PERF: 32,0.26609,0.444,0.012,1.77,1.99831,0,0.150334,0.150334,0,exit Google now
+PERF: 33,0.181913,0.259,0.011,0.9,1.20887,0,0.202125,0.202125,0,call Dave
+PERF: 34,0.182114,0.253,0.008,0.9,0.940063,0,0.202348,0.202348,0,prestige
+PERF: 35,0.282497,0.452,0.016,1.41,1.4875,0,0.200352,0.200352,0,Walmart visions in
+PERF: 36,0.281212,0.404,0.022,1.38,1.40944,0,0.203777,0.203777,0,Woodruff High School
+PERF: 37,0.397575,0.722,0.026,2.43,2.74138,0,0.163611,0.163611,0,downtown market company Medford Oregon
+PERF: 38,0.291322,0.413,0.018,1.41,1.90544,0,0.206611,0.206611,0,everything is off
+PERF: 39,0.301161,0.418,0.019,1.26,1.87875,0,0.239016,0.239016,0,call Paul mode
+PERF: 4,0.296731,0.589,0.019,2.1,2.13762,0,0.141301,0.141301,0,music from Black Stone Cherry
+PERF: 40,0.408182,0.655,0.026,2.16,2.55563,0,0.188973,0.188973,0,Maple October glory
+PERF: 41,0.417104,0.546,0.019,1.2,1.66544,0,0.347586,0.347586,0,call
+PERF: 42,0.522536,0.916,0.035,3.36,3.79875,0,0.155517,0.155517,0,round table Police of Santa Rosa
+PERF: 43,0.177582,0.276,0.007,1.05,1.16244,0,0.169125,0.169125,0,weather on them
+PERF: 44,0.253212,0.393,0.023,1.29,1.75075,0,0.196288,0.196288,0,what is a Clarita
+PERF: 45,0.234323,0.387,0.012,1.44,1.79344,0,0.162724,0.162724,0,where's the dump
+PERF: 46,0.227415,0.35,0.019,1.29,1.70812,0,0.176291,0.176291,0,she loved it
+PERF: 47,0.284286,0.469,0.018,1.74,2.13762,0,0.163383,0.163383,0,Google do it.
+PERF: 48,0.526629,0.676,0.025,1.32,1.40944,0,0.398961,0.398961,0,animal girl eat
+PERF: 49,0.40416,0.694,0.029,2.34,2.81744,0,0.172718,0.172718,0,can you grab an air conditioner compressor
+PERF: 5,0.293965,0.512,0.02,1.71,2.30544,0,0.171909,0.171909,0,jungle Safari
+PERF: 50,0.356452,0.579,0.016,1.62,1.92144,0,0.220032,0.220032,0,fugitive honey trap
+PERF: 51,0.609237,1.041,0.042,3.96,5.20269,0,0.153848,0.153848,0,how many people attend the potter's house
+PERF: 52,0.454902,0.883,0.027,3.06,3.29869,0,0.148661,0.148661,0,how much is a ticket for going through a red light in Jersey
+PERF: 53,0.337104,0.51,0.023,1.44,2.23056,0,0.2341,0.2341,0,all children
+PERF: 54,0.61566,0.775,0.038,1.56,1.83613,0,0.394654,0.394654,0,and I know what the best
+PERF: 55,0.241677,0.437,0.014,1.5,1.66544,0,0.161118,0.161118,0,pawn shop location
+PERF: 56,0.424743,0.754,0.032,2.46,3.53087,0,0.17266,0.17266,0,Columbus Day 2014
+PERF: 57,0.292336,0.357,0.016,0.84,0.88375,0,0.348019,0.348019,0,chicken
+PERF: 58,0.448999,0.807,0.032,2.16,3.57731,0,0.20787,0.20787,0,98 tour
+PERF: 59,0.393767,0.728,0.025,2.73,3.06644,0,0.144237,0.144237,0,is there a Dairy Queen in Viera Florida
+PERF: 6,0.285678,0.463,0.021,1.74,2.18412,0,0.164183,0.164183,0,what is consumption
+PERF: 60,0.290657,0.52,0.019,1.95,1.99831,0,0.149055,0.149055,0,how to create a coaching session
+PERF: 61,0.270913,0.493,0.018,1.62,1.81256,0,0.16723,0.16723,0,brandy Greenfield
+PERF: 62,0.283826,0.441,0.018,1.32,1.62681,0,0.21502,0.21502,0,hello in French
+PERF: 63,0.384556,0.653,0.02,2.16,2.92713,0,0.178035,0.178035,0,Pradesh crossword puzzle
+PERF: 64,0.521426,0.777,0.02,1.83,2.18412,0,0.284932,0.284932,0,we start Texas dump
+PERF: 65,0.563994,1.042,0.042,4.14,4.41319,0,0.13623,0.13623,0,number for Dixie's car shop in Williamsport Pennsylvania
+PERF: 66,0.307671,0.487,0.032,1.53,1.96412,0,0.201092,0.201092,0,camel scheme
+PERF: 67,0.281013,0.447,0.018,1.59,1.76612,0,0.176738,0.176738,0,only love then
+PERF: 68,0.251555,0.471,0.016,1.74,1.76612,0,0.144572,0.144572,0,who was legs Dimond
+PERF: 69,0.349583,0.644,0.035,2.4,2.64675,0,0.14566,0.14566,0,lassen Germantown Ohio
+PERF: 7,0.188557,0.257,0.011,0.99,1.06812,0,0.190462,0.190462,0,call hon
+PERF: 70,0.215941,0.359,0.018,1.2,1.49475,0,0.179951,0.179951,0,target Parma
+PERF: 71,0.446997,0.832,0.029,3.3,3.32944,0,0.135454,0.135454,0,the zip code for cubic Tennessee
+PERF: 72,0.199478,0.321,0.011,1.2,1.23875,0,0.166231,0.166231,0,some voucher
+PERF: 73,0.476998,0.96,0.03,3.24,3.45744,0,0.147222,0.147222,0,Walter Mathis Secret Life of Walter Mitty
+PERF: 74,0.400686,0.708,0.031,2.7,2.92713,0,0.148402,0.148402,0,what are the colors for UC San Marcos
+PERF: 75,0.419302,0.742,0.026,2.88,3.34512,0,0.145591,0.145591,0,Five Guys Shelton Connecticut
+PERF: 76,0.216538,0.255,0.012,0.69,0.837313,0,0.313824,0.313824,0,in
+PERF: 77,0.381728,0.625,0.023,1.74,3.07344,0,0.219384,0.219384,0,Mahalo
+PERF: 78,0.420388,0.737,0.031,2.16,3.11606,0,0.194624,0.194624,0,refund on five fingers shoot
+PERF: 79,0.237308,0.359,0.018,1.26,1.83613,0,0.18834,0.18834,0,did you want
+PERF: 8,0.375437,0.601,0.033,2.28,2.97356,0,0.164665,0.164665,0,how do I say I love you in Russian
+PERF: 80,0.278155,0.431,0.016,1.8,2.23075,0,0.154531,0.154531,0,Google flight
+PERF: 81,0.349894,0.609,0.023,2.4,2.81744,0,0.145789,0.145789,0,turn off Xbox now turn it
+PERF: 82,0.590425,1.058,0.032,4.68,4.73831,0,0.126159,0.126159,0,Carlie C's IgA Goldsboro North Carolina
+PERF: 83,0.483561,0.841,0.03,2.88,3.02,0,0.167903,0.167903,0,How much does $1 equal in review
+PERF: 84,0.485691,0.803,0.019,3.51,3.79875,0,0.138373,0.138373,0,when was Wayne State University fan
+PERF: 85,0.373019,0.671,0.03,2.52,2.81744,0,0.148023,0.148023,0,What is 10 to the 86 power
+PERF: 86,0.303889,0.493,0.022,1.44,1.53744,0,0.211034,0.211034,0,Academy Sports for sale
+PERF: 87,0.318982,0.528,0.025,2.19,2.23056,0,0.145654,0.145654,0,where is Steuben Wisconsin
+PERF: 88,0.344924,0.558,0.019,1.68,2.09206,0,0.205312,0.205312,0,Bucky's Center cross
+PERF: 89,0.339773,0.627,0.017,2.34,2.77475,0,0.145202,0.145202,0,Marco's tinting windows
+PERF: 9,0.44791,0.805,0.029,3.21,3.58544,0,0.139536,0.139536,0,when is elephant Rock bicycle ride
+PERF: 90,0.376122,0.609,0.021,2.52,2.90275,0,0.149255,0.149255,0,how to change Google Play account
+PERF: 91,0.384711,0.627,0.028,2.61,3.11606,0,0.147399,0.147399,0,map of Oceanside California
+PERF: 92,0.34966,0.729,0.019,2.49,2.51875,0,0.140426,0.140426,0,fade out bring frequency of music
+PERF: 93,0.278054,0.465,0.02,1.65,1.96412,0,0.168517,0.168517,0,Mario Lemieux
+PERF: 94,0.483577,0.782,0.025,2.07,2.277,0,0.233612,0.233612,0,How is 13 in in feet
+PERF: 95,0.341307,0.604,0.03,2.28,2.64675,0,0.149696,0.149696,0,Backpage Jacksonville Florida
+PERF: 96,0.34412,0.657,0.018,2.37,2.64675,0,0.145198,0.145198,0,why was simple Ludington famous
+PERF: 97,0.390515,0.769,0.034,2.79,2.92713,0,0.13997,0.13997,0,what does W a n I n G mean
+PERF: 98,0.266617,0.441,0.016,1.68,2.17744,0,0.158701,0.158701,0,avail songs
+PERF: 99,0.538915,0.89,0.039,3.9,3.92675,0,0.138183,0.138183,0,how to open my nap type PlayStation
+PERF: total,37.3851,62.643,2.324,212.94,249.183,0,0.175566,0.175566,0,
+# hotwords:0, # audio-files:100
+Percent speech: 212.94 secs / 249.183 secs * 100 = 85.4552%
+PERF: rt(0.5) = 0.164665, id = 8
+PERF: rt(0.9) = 0.272074, id = 0

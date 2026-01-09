@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap com uap4 uap5 uap10 uap13 desktop6 virtualization build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop3="http://schemas.microsoft.com/appx/manifest/desktop/windows10/3" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:uap13="http://schemas.microsoft.com/appx/manifest/uap/windows10/13" xmlns:virtualization="http://schemas.microsoft.com/appx/manifest/virtualization/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.YourPhone" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.25032.82.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="d0932c73-e730-4680-bc44-a5908fecbf8b" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\AppTiles\StoreLogo.png</Logo>
+    
+    <virtualization:RegistryWriteVirtualization>
+      <virtualization:ExcludedKeys>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Mobility</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Start</virtualization:ExcludedKey>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Classes</virtualization:ExcludedKey>
+      </virtualization:ExcludedKeys>
+    </virtualization:RegistryWriteVirtualization>
+    
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.401.2352.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="PhoneExperienceHost.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:AppName" Square150x150Logo="Assets\AppTiles\MediumTile.png" Square44x44Logo="Assets\AppTiles\AppIcon.png" Description="ms-resource:AppName" BackgroundColor="#0078D7">
+        <uap:DefaultTile ShortName="ms-resource:AppName" Wide310x150Logo="Assets\AppTiles\WideTile.png" Square310x310Logo="Assets\AppTiles\LargeTile.png" Square71x71Logo="Assets\AppTiles\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen uap5:Optional="true" Image="Assets\AppTiles\SplashScreen.png" BackgroundColor="white"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-phone">
+            <uap:Logo>Assets\AppTiles\AppIcon.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="tel">
+            <uap:Logo>Assets\AppTiles\AppIcon.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="sms">
+            <uap:Logo>Assets\AppTiles\AppIcon.png</uap:Logo>
+            <uap:DisplayName>ms-resource:AppName</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap5:Extension Category="windows.startupTask">
+          
+          <uap5:StartupTask TaskId="YourPhone.Start" Enabled="true" DisplayName="ms-resource:AppName"/>
+        </uap5:Extension>
+        <Extension Category="windows.updateTask" EntryPoint="YourPhone.Background.Tasks.UpdateTask"/>
+        <Extension Category="windows.preInstalledConfigTask" EntryPoint="YourPhone.Background.Tasks.PreInstalledConfigTask"/>
+        <Extension Category="windows.backgroundTasks" EntryPoint="YourPhone.Background.Tasks.BackgroundTask">
+          <BackgroundTasks uap4:SupportsMultipleInstances="true">
+            <Task Type="systemEvent"/>
+            <Task Type="timer"/>
+            <Task Type="bluetooth"/>
+            <uap:Task Type="phoneCall"/>
+          </BackgroundTasks>
+        </Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            
+            
+            
+            
+            <com:ExeServer Executable="PhoneExperienceHost.exe" Arguments="-ComServer:AppProxy -Start" LaunchAndActivationPermission="O:PSG:BUD:(A;;11;;;IU)(A;;11;;;S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497)S:(ML;;NX;;;ME)">
+              
+              <com:Class Id="46F7D930-7697-4072-AC90-0E5D68D768AE"/>
+            </com:ExeServer>
+            <com:ExeServer Executable="PhoneExperienceHost.exe" Arguments="-ComServer:Background" LaunchAndActivationPermission="O:PSG:BUD:(A;;11;;;IU)(A;;11;;;S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497)S:(ML;;NX;;;ME)">
+              
+              <com:Class Id="283EDD52-69B2-473D-BEB6-2C0B4C01FD73"/>
+            </com:ExeServer>
+            <com:ExeServer Executable="PhoneExperienceHost.exe" Arguments="-ComServer:Widgets -Start" LaunchAndActivationPermission="O:PSG:BUD:(A;;11;;;IU)(A;;11;;;S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497)S:(ML;;NX;;;ME)">
+              
+              <com:Class Id="54347DF9-8599-457E-BCC0-EABFB039CD36"/>
+            </com:ExeServer>
+            <com:ExeServer Executable="PhoneExperienceHost.exe" Arguments="-ComServer:DelegateExecute" LaunchAndActivationPermission="O:PSG:BUD:(A;;11;;;IU)(A;;11;;;S-1-15-2-1726375552-1729233799-74693324-3851689839-2151781990-3623637752-3611872497)S:(ML;;NX;;;ME)">
+              
+              <com:Class Id="44DD06A7-1E48-47AC-9625-F77B59388563"/>
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="EFC72204-DFB1-459A-B979-BE9927D795BF" DisplayName="YourPhone.Contracts.AppProxyConnection ProxyStub" Path="YourPhone.Contracts.AppProxyConnection.ProxyStub.dll"/>
+            
+            <com:Interface Id="EFC72204-DFB1-459A-B979-BE9927D795BF" ProxyStubClsid="EFC72204-DFB1-459A-B979-BE9927D795BF"/>
+            
+            <com:Interface Id="E2C9FC03-673F-416A-947B-57E9442E74FA" ProxyStubClsid="EFC72204-DFB1-459A-B979-BE9927D795BF"/>
+            <com:Interface Id="D5A35C19-823F-511A-9FE1-95F900A0E8D9" ProxyStubClsid="EFC72204-DFB1-459A-B979-BE9927D795BF"/>
+            
+            <com:Interface Id="B3D6EEA4-71CC-5B21-9CA9-22C9FB49D1EF" ProxyStubClsid="EFC72204-DFB1-459A-B979-BE9927D795BF"/>
+          </com:ComInterface>
+        </com:Extension>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget>
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType/>
+            </uap:SupportedFileTypes>
+            <uap:DataFormat>WebLink</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap13:Extension Category="windows.phoneCallActivation"/>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.widgets" DisplayName="ms-resource:AppName" Id="PhoneLinkApp" PublicFolder="Public">
+            <uap3:Properties>
+              <WidgetProvider>
+                <ProviderIcons>
+                  <Icon Path="Assets\AppTiles\AppIcon.png"/>
+                </ProviderIcons>
+                <Activation>
+                  
+                  <CreateInstance ClassId="54347DF9-8599-457E-BCC0-EABFB039CD36"/>
+                </Activation>
+                <Definitions>
+                  <Definition Id="PhoneLinkWidget" DisplayName="ms-resource:AppName" Description="ms-resource:AppName" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small"/>
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium"/>
+                      </Capability>
+                      <Capability>
+                        <Size Name="large"/>
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Assets\AppTiles\AppIcon.png"/>
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Assets\Widgets\ScreenshotLight.png" DisplayAltText="ms-resource:AppName"/>
+                      </Screenshots>
+                      <DarkMode>
+                        <Icons>
+                          <Icon Path="Assets\AppTiles\AppIcon.png"/>
+                        </Icons>
+                        <Screenshots>
+                          <Screenshot Path="Assets\Widgets\ScreenshotDark.png" DisplayAltText="ms-resource:AppName"/>
+                        </Screenshots>
+                      </DarkMode>
+                      <LightMode>
+                        <Icons>
+                          <Icon Path="Assets\AppTiles\AppIcon.png"/>
+                        </Icons>
+                        <Screenshots>
+                          <Screenshot Path="Assets\Widgets\ScreenshotLight.png" DisplayAltText="ms-resource:AppName"/>
+                        </Screenshots>
+                      </LightMode>
+                    </ThemeResources>
+                  </Definition>
+                </Definitions>
+              </WidgetProvider>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.startmenucompanion" Id="Microsoft.Windows.PhoneLink.Companion" DisplayName="Phone Link" Description="Phone Link Start Menu Companion" PublicFolder="Public">
+            <uap3:Properties>
+              <AdaptiveCardAppDataLocalRelativePath>StartMenu\StartMenuCompanion.json</AdaptiveCardAppDataLocalRelativePath>
+              <PlacementPreference>Right</PlacementPreference>
+              <RefreshCardLaunchUri>ms-phone:startup?ref=StartMenu</RefreshCardLaunchUri>
+              <Icon>ms-appx:///Assets/StartMenu/SettingsPhoneIcon.png</Icon>
+              <CompanionSettingName>ms-resource:StartMenuCompanionSettingName</CompanionSettingName>
+              <CompanionSettingExtendedName>ms-resource:StartMenuCompanionSettingDescription</CompanionSettingExtendedName>
+              <DetailedSettingsSettingName>ms-resource:StartMenuCompanionDetailedSettingName</DetailedSettingsSettingName>
+              <DetailedSettingsLaunchName>ms-resource:StartMenuCompanionDetailedSettingButtonText</DetailedSettingsLaunchName>
+              <DetailedSettingsLaunchUri>ms-phone:settings?target=StartMenu&amp;ref=StartMenuSettings</DetailedSettingsLaunchUri>
+              <DefaultState>Unavailable</DefaultState>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap:Capability Name="phoneCall"/>
+    <rescap:Capability Name="phoneLineTransportManagement"/>
+    <rescap:Capability Name="phoneCallSystem"/>
+    <rescap:Capability Name="targetedContent"/>
+    <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="packageManagement"/>
+    <rescap:Capability Name="packageQuery"/>
+    <rescap:Capability Name="unvirtualizedResources"/>
+    <uap4:CustomCapability Name="Microsoft.unsignedPackageManagement_8wekyb3d8bbwe"/>
+    <DeviceCapability Name="bluetooth"/>
+    <DeviceCapability Name="radios"/>
+  </Capabilities>
+  <Extensions>
+    <uap10:Extension Category="windows.hostRuntime" Executable="YourPhoneAppProxy.exe" EntryPoint="Windows.FullTrustApplication" uap10:RuntimeBehavior="packagedClassicApp" uap10:TrustLevel="mediumIL">
+      <uap10:HostRuntime Id="YourPhoneAppProxy"/>
+    </uap10:Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>NativeHostNE.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Background.Tasks.BackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Background.Tasks.PreInstalledConfigTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Background.Tasks.UpdateTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="EFC72204-DFB1-459A-B979-BE9927D795BF">
+        <Path>YourPhone.Contracts.AppProxyConnection.ProxyStub.dll</Path>
+        <Interface Name="IAppProxyConnector" InterfaceId="EFC72204-DFB1-459A-B979-BE9927D795BF"/>
+        <Interface Name="IAppProxyConnectorClient" InterfaceId="E2C9FC03-673F-416A-947B-57E9442E74FA"/>
+        <Interface Name="SendMessageToAppProxyEventHandler" InterfaceId="D5A35C19-823F-511A-9FE1-95F900A0E8D9"/>
+        <Interface Name="IPointerUpdate" InterfaceId="B3D6EEA4-71CC-5B21-9CA9-22C9FB49D1EF"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="7204CF45-1E6F-5366-B02C-0F356D0A5CDE">
+        <Path>YourPhone.Contracts.Background.ProxyStub.dll</Path>
+        <Interface Name="IAsyncBackgroundTask" InterfaceId="7204CF45-1E6F-5366-B02C-0F356D0A5CDE"/>
+        <Interface Name="IAsyncBackgroundTaskParameters" InterfaceId="4F377902-291C-43FE-8FA4-E281E1F796E4"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.AppCore.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.StringResourceProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.WarningResourceAdapterOp1" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceAdapterSg1" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.WarningResourceManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.WarningResourceAdapterGe" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.StringResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceAdapterMs1" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceAdapterGe" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ClientModelManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceAdapterDefault" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.WarningResourceAdapterDefault" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.WarningResourceAdapterSg1" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Strings.ErrorResourceAdapterHr" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SqliteConnection" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SharedUriTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SharedContentDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.WallpaperTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.WallpaperEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SharedContentTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.ContentSequenceTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SharedContentEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.ContentSequenceEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.DeviceDataDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SharedUriEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.SqliteColumn" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.DataStore.RowUpdateInformation" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.DeviceDataPropertyChangedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.SelectedDeviceChangedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.DeviceDataStore" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.LocalIdentity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.MediaTypeEx" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.DevicesChangedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Devices.DeviceDataValueChangedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Background.BackgroundTaskInstanceWithDeferral" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Toasts.ToastNotificationHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Toasts.GenerateToastXmlHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Toasts.TemplateResolver" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Toasts.ToastProperties" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Connectivity.TraceContext" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ContractVersion" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.IpAddress" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ImageTransformUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ProcessUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.FileSaveAsArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.InteractionTracker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.StorageFileUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ShareImagesArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.JumpListUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.FeatureSession" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.CdmConnection" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.CalendarEx" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.LockStateTracker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.IpAddressUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.PhoneNumberUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.FileTypeHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.TelemetryUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.PhoneBrokerUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.DirectoryHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ApplicationStatusTracker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.DebugUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.WindowUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ByteSizeFormatter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.AppCore.WinRT.Utilities.ReleaseHelper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Calling.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Controls.AccumulatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.CallingFeatureUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.DataStore.CallHistoryEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.DataStore.CallingDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.DataStore.CallHistoryTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.CallingHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.CallingContact" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.PhoneCallInstanceMap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.PhoneCallInstance" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.PhoneNumberSuggestionViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineTransportDevice2" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneCallInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineWatcher" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneCallStore" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineTransportDevice1" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneCallManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLine" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineTransportDeviceFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineWatcherEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneCall" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineTransportDevice" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.Shims.Calls.PhoneLineDialResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Calling.WinRT.CallingPhoneNumberUtils" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Contacts.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.ContactSuggestionsProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactUrlEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PhoneNumberAndContactEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactSearchResultEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactDateTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactUrlTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactDateEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PhoneNumberWithContactView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PhoneNumberTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.EmailAddressTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.EmailAddressEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PostalAddressEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactsDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.ContactTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PhoneNumberEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.DataStore.PostalAddressTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contacts.WinRT.ContactUtils" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Continuity.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Continuity.WinRT.DataStore.BrowserHistoryEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Continuity.WinRT.DataStore.ContinueAppContextTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Continuity.WinRT.DataStore.ContinuityDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Continuity.WinRT.DataStore.BrowserHistoryTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Continuity.WinRT.DataStore.AppContextEntity" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Contracts.Connectivity.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Contracts.Connectivity.ContentProcessorResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Contracts.Connectivity.ResponseHelpers" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Contracts.Exp.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Contracts.Exp.RemoteConfiguration" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Contracts.Node.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Contracts.Node.WinRT.Alerts.StatusChangedEventArgs" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Exp.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Exp.WinRT.RemoteConfigurationInstance" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Messaging.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.MessagePartHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ConversationAttributeEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ConversationEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MmsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.UnifiedConversationView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ConversationTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsChatEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MmsAddressEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.UnifiedConversationEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SendingMessageEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ParticipantEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ParticipantTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsConversationTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MmsEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MmsPartEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SendingMessageTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SmsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsFileTransferTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SubscriptionEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MessagingDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsChatTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SmsEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.SubscriptionTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.ConversationAttributeTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsConversationEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.MmsPartTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.DataStore.RcsFileTransferEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.MessageHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Messaging.WinRT.MessagingToastNotificationHelper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Notifications.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.PhoneRequestEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.PhoneRequestTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.NotificationEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.NotificationDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.SettingsEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.NotificationsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.SettingsDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.ToastMappingEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.NotificationToastMappingsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.DataStore.SettingsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.NotificationsCountTracker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Notifications.WinRT.NotificationCountProviderFactory" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.Photos.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.DeleteDialogEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.DataStore.MediaEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.DataStore.MediaTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.DataStore.PhotosDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.DeleteMediaRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.MediaRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.MediaRequestStatus" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.Photos.WinRT.RequestFinishedStatusArgs" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhone.ScreenMirroring.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.ContentTransfer.HashGenerator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.AppProxy.AppProxyConnectionEventShoulderTapProcessorFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Remoting.PhoneAppsRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Remoting.ClipboardPhoneRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.RecentAppsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.PhoneAppsDatabaseInitializer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.PCAppDataTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.PhoneAppsTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.RecentAppEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.PhoneAppEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DataStore.PCAppDataEntity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.PhoneApps.PhoneAppsProxy" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.PhoneApps.PhoneAppsDatabaseUpdatedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DeviceData.CopyPasteDeviceData" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.DeviceData.RecentAppsDeviceData" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.HostedApps.Helpers.FullTrustServiceHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.HostedApps.Helpers.ResourceHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.HostedApps.HostedAppsVisualAssetsGenerator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.HostedApps.HostedAppsPackageManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.HostedApps.HostedAppsManifestGenerator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.ContentTransferActivity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.RemotingUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.PhoneScreenAppsHealthActivity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.PhoneScreenAppsViewActivity" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.RemotingFeatureUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhone.ScreenMirroring.WinRT.Utilities.ScreenMirrorFullTrustHelpers" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>YourPhoneControls.dll</Path>
+        <ActivatableClass ActivatableClassId="YourPhoneControls.Strings.StringResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhoneControls.CompositionEffects" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="YourPhoneControls.Utilities.RegexHelper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="{C15018AF-8A42-4A55-B453-54BFFCDDA370}"/>
+    <build:Item Name="makepri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

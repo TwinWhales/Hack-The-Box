@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap3 uap5 mp desktop4 iot2 build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:iot2="http://schemas.microsoft.com/appx/manifest/iot/windows10/2" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.WindowsCalculator" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2502.2.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="b58171c6-c70c-4266-a2e8-8f9c994f4456" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\CalculatorStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2208.12001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="CalculatorApp.exe" EntryPoint="Calculator.App" desktop4:SupportsMultipleInstances="true" iot2:SupportsMultipleInstances="true">
+      <uap:VisualElements DisplayName="ms-resource:AppName" Square150x150Logo="Assets\CalculatorMedTile.png" Square44x44Logo="Assets\CalculatorAppList.png" Description="ms-resource:AppDescription" BackgroundColor="#0078D4">
+        <uap:DefaultTile ShortName="ms-resource:AppName" Square310x310Logo="Assets\CalculatorLargeTile.png" Wide310x150Logo="Assets\CalculatorWideTile.png" Square71x71Logo="Assets\CalculatorSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\CalculatorSplashScreen.png" uap5:Optional="true" BackgroundColor="#0078D4"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="calculator">
+            <uap:Logo>Assets\CalculatorAppList.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-calculator">
+            <uap:Logo>Assets\CalculatorAppList.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.dontmaximizeonsmallscreen" Id="calculator" DisplayName="calculator" Description="This app extension prevents calculator from being maximized by default on some small screen devices." PublicFolder="Public">
+            <uap3:Properties>
+              <Service>com.microsoft.windows.dontmaximizeonsmallscreen</Service>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CalcViewModel.dll</Path>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.MemoryItemViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.ExpressionDisplaySnapshot" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.CalcManagerSnapshot" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.BinaryCommand" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.StandardCalculatorSnapshot" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.ApplicationSnapshot" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.CalcManagerToken" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.CalcManagerHistoryItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.PrimaryDisplaySnapshot" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.OperandCommand" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.Parentheses" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Snapshot.UnaryCommand" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.DateCalculatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.GraphingSettingsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.UnitConverterViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.GraphingCalculatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.EquationViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.GridDisplayItems" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.VariableViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.CopyPasteManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.CalculatorButtonPressedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.LocalizationStringUtil" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.AppResourceProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.LocalizationSettings" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.Automation.NarratorNotifier" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.Automation.CalculatorAnnouncement" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.Automation.NarratorAnnouncement" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.DateCalculation.DateCalculationEngine" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.NavCategoryStates" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.Utilities" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.NetworkManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.NavCategory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.TraceLogger" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.DelegateCommand" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.Common.LocalizationService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.ApplicationViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.StandardCalculatorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CalculatorApp.ViewModel.KeyGraphFeaturesItem" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>GraphControl.dll</Path>
+        <ActivatableClass ActivatableClassId="GraphControl.KeyGraphFeaturesInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="GraphControl.Grapher" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="GraphControl.GraphControl_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="GraphControl.Variable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="GraphControl.Equation" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>TraceLogging.dll</Path>
+        <ActivatableClass ActivatableClassId="TraceLogging.TraceLoggingCommon" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.12.40475.34449"/>
+    <build:Item Name="ProjectGUID" Value="{3B773403-B0D6-4F9A-948E-512A7A5FB315}"/>
+    <build:Item Name="ilc.exe" Version="2.2.31116.00 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="false"/>
+    <build:Item Name="DisableExceptionMessages" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="LargeAddressAware" Value="false"/>
+    <build:Item Name="NoLinkerSymbols" Value="false"/>
+    <build:Item Name="OutOfProcPDB" Value="false"/>
+    <build:Item Name="MakePri.exe" Version="10.0.22000.832 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

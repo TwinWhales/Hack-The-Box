@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="DsdrProvisioningFlags__use_sim_subscription_info_retriever_bugle_comparison_logging" value="false" />
+    <boolean name="RcsProvisioning__allow_provisioning_session_id_logging" value="true" />
+    <string name="CslibSettings__white_listed_signatures">0980A12BE993528C19107BC21AD811478C63CEFC,B38FA7B5ECFAEC44620A020752B07E063B3120A8,203997BC46B8792DC9747ABD230569071F9A0439,EDA6413C3E3A95492114FE07CD953AD897E40D1A,760EBB9F4200B3DFB1B817B40FF0563A3C150D39,5B368CFF2DA2686996BC95EAC190EAA4F5630FE5,01D845B26B688D8EF647205A5944E9407E52E06E,27196E386B875E76ADF700E7EA84E4C6EEE33DFA,1CDD04F1E4A732BB0352FDFAEE26D2315526DF85,025D5212BF3B5F5CDA6117A518721D70A94D84E0</string>
+    <long name="SipSettings__capabilities_validity_period_override_millis" value="600000" />
+    <long name="BusinessInfoRetrieval__client_ringing_period_sec" value="2" />
+    <boolean name="RbmRichCards__enable_standalone_cards" value="true" />
+    <boolean name="CslibSettings__prefer_ipv6" value="false" />
+    <long name="BusinessInfoRetrieval__client_timeout_sec" value="120" />
+    <boolean name="KillSwitch__bug_183188023" value="false" />
+    <boolean name="RcsProvisioning__log_finishing_provisioning_when_tos_declined" value="true" />
+    <long name="BusinessInfoRetrieval__immediate_retry_backoff_sec" value="2" />
+    <boolean name="cslib_phenotype__enable_session_uri_as_conference_uri" value="true" />
+    <boolean name="ProvisioningEngineV2__enabled2" value="false" />
+    <boolean name="RcsProvisioning__allow_async_flag_check" value="false" />
+    <boolean name="RcsProvisioning__allow_seamless_authorized_provisioning" value="false" />
+    <boolean name="cslib_phenotype__deprecate_silent_feedback_sender" value="true" />
+    <boolean name="SipSettings__should_add_pcscf_address_to_route_header_for_rcs" value="true" />
+    <boolean name="RcsSettings__enable_bind_msrp_socket_local_address" value="false" />
+    <string name="CslibSettings__single_registration_client_vendor">Goog</string>
+    <boolean name="SmsSharing__enable_sms_sharing" value="false" />
+    <long name="CslibSettings__periodic_metrics_send_interval_mins" value="1440" />
+    <long name="RcsProvisioning__c11n_consent_cache_expiration_millis" value="259200000" />
+    <boolean name="SipSettings__enable_cpm" value="true" />
+    <string name="DiagnosticSettings__ims_connectivity_verbosity">INFO</string>
+    <boolean name="PhenotypeRcsFlags__save_all_logs" value="false" />
+    <boolean name="MsrpSettings__enable_cema" value="false" />
+    <boolean name="cslib_phenotype__enable_use_injection_for_provisioning_engine_state_cache_v2" value="false" />
+    <boolean name="AutoRampFeature__test_custom_condition_verifier" value="false" />
+    <boolean name="KillSwitch__bug_151923431" value="false" />
+    <boolean name="cslib_phenotype__send_broadcast_to_tycho" value="false" />
+    <boolean name="DsdrProvisioningFlags__enable_phone_number_backfill_in_identity_mapping_in_cs" value="false" />
+    <boolean name="MultiSimSettings__use_sim_state_from_subscription_info" value="false" />
+    <boolean name="RcsFileTransfer__ignore_ftauth" value="true" />
+    <boolean name="SmsSharing__process_incoming_file_transfer_link" value="false" />
+    <long name="BusinessInfoRetrieval__server_retry_backoff_sec" value="300" />
+    <long name="RcsFileTransfer__download_timeout_seconds" value="60" />
+    <string name="SocketSettings__tls_explicitly_disabled_protocols">TLSv1.3</string>
+    <boolean name="RcsProvisioning__show_google_tos" value="false" />
+    <boolean name="DsdrProvisioningFlags__use_phone_sims_state_cache_for_sims_state_update" value="false" />
+    <boolean name="RcsFileTransfer__enable_progress_initial_upload" value="true" />
+    <boolean name="RcsProvisioning__is_carrier_authorized_for_reject_message" value="false" />
+    <boolean name="RcsFileTransfer__enable_domain_logging" value="true" />
+    <string name="BusinessInfoRetrieval__debug_business_info_domain"></string>
+    <boolean name="cslib_phenotype__ignore_is_rcs_enabled_flag_in_rcs_engine" value="true" />
+    <boolean name="CslibSettings__disable_phone_number_normalization_in_cs" value="false" />
+    <boolean name="DsdrProvisioningFlags__enable_add_identity_before_notifying_observers" value="false" />
+    <boolean name="PhenotypeRcsFlags__enabled" value="true" />
+    <boolean name="RcsProvisioning__allow_manual_phone_number_input" value="false" />
+    <boolean name="BusinessInfoRetrieval__enabled" value="true" />
+    <string name="CslibSettings__single_registration_rcs_profile">UP_2.3</string>
+    <string name="RbmSpecificRcsOverrides__rcs_profile">UP_T</string>
+    <boolean name="SipSettings__enable_in_dialog_refer" value="false" />
+    <boolean name="SmsSharing__process_incoming_geolocation_link" value="false" />
+    <long name="SocketSettings__tls_socket_read_timeout_millis" value="60000" />
+    <boolean name="SmsSharing__force_env_support" value="false" />
+    <boolean name="RcsFlags__enable_rcs_config_logging" value="false" />
+    <boolean name="RcsProvisioning__use_provisioning_http_request" value="false" />
+    <boolean name="SipSettings__enable_x_google_event_id_header" value="true" />
+    <long name="ProvisioningEngineV2__min_csapk_version" value="99999999" />
+    <boolean name="RcsSettings__enable_capdiscovery_via_presence" value="false" />
+    <boolean name="CslibSettings__enable_cslib_clearcut_logging" value="true" />
+    <boolean name="RcsCpmFlags__enable_conference_information_object" value="false" />
+    <boolean name="KillSwitch__bug_179710499" value="true" />
+    <boolean name="RcsSettings__enable_active_msrp_port_selection" value="false" />
+    <boolean name="SipSettings__enable_rcs_server_keep_alives" value="true" />
+    <boolean name="MsrpSettings__enable_rfc6135_compliance" value="false" />
+    <long name="BusinessInfoRetrieval__max_immediate_retries" value="5" />
+    <long name="PhenotypeRcsFlags__bugle_max_typing_send_frequency_milliseconds" value="4000" />
+    <boolean name="RcsProvisioning__is_carrier_authorized_for_welcome_message" value="true" />
+    <boolean name="RcsProvisioning__prefer_manual_msisdn" value="true" />
+    <boolean name="RcsProvisioning__skip_header_enrichment" value="false" />
+    <boolean name="SipSettings__enable_sip_alias" value="false" />
+    <boolean name="Rbm__enable" value="true" />
+    <boolean name="KillSwitch__bug_173547775" value="false" />
+    <boolean name="InstanceIdInProvisioning__enable_instance_id_in_provisioning" value="false" />
+    <boolean name="CslibSettings__force_ipv4" value="false" />
+    <boolean name="RcsFlags__allow_manual_phone_number_input" value="false" />
+    <string name="SocketSettings__tls_explicitly_disabled_ciphers"></string>
+    <boolean name="CslibSettings__enable_rcs_uptime_metrics" value="true" />
+    <boolean name="SipSettings__enable_check_for_group_chat_tag" value="true" />
+    <boolean name="RcsCpmFlags__enable_reject_closed_group_invite" value="true" />
+    <boolean name="ProvisioningEngineV2__enabled" value="false" />
+    <boolean name="cslib_phenotype__safely_unregister_network_callback" value="true" />
+    <long name="BusinessInfoRetrieval__server_retry_backoff_rate" value="3" />
+    <boolean name="DsdrProvisioningFlags__check_phone_number_empty_in_formatted_e164_phone_number_factory" value="true" />
+    <long name="RcsProvisioning__pev2_state_timeout_millis" value="300000" />
+    <long name="__phenotype_configuration_version" value="1720732200" />
+    <string name="DiagnosticSettings__ims_availability_verbosity">INFO</string>
+    <boolean name="SipSettings__update_expected_host_from_dns" value="false" />
+    <boolean name="RbmInteropVodafonePlatform__enable_rbm_vodafone_platform" value="true" />
+    <boolean name="SipSettings__enable_p_access_network_info_header" value="true" />
+    <string name="__phenotype_server_token">CAMSDw0KltHgDfgUBI0WBOEgBA==</string>
+    <long name="CslibSettings__periodic_metrics_retry_backoff_mins" value="60" />
+    <boolean name="KillSwitch__bug_175566581" value="false" />
+    <boolean name="FastTrackCslib__enable_fast_track" value="false" />
+    <boolean name="RcsProvisioning__always_provision_through_mobile_network" value="false" />
+    <string name="SocketSettings__tls_exclusively_enabled_protocols"></string>
+    <string name="__phenotype_snapshot_token"> com.google.android.ims.library#com.google.android.apps.messaging 41067270 5 791241877 com.google.android.ims.library#com.google.android.apps.messaging 791241877 1</string>
+    <long name="RcsFileTransfer__upload_timeout_seconds" value="60" />
+    <boolean name="RbmRichCards__enable_carousels" value="true" />
+    <string name="Rbm__google_platform_bot_regex">@rbm[.]goog$</string>
+    <long name="RcsProvisioning__pev2_max_replay_count" value="10" />
+    <long name="BusinessInfoRetrieval__immediate_retry_backoff_rate_sec" value="2" />
+    <string name="CslibSettings__single_registration_client_version">RCSAndrd-1.0</string>
+    <string name="CslibSettings__single_registration_rcs_version">6.0</string>
+    <string name="BusinessInfoRetrieval__verified_platform_domains">rbm.goog</string>
+    <boolean name="RcsSettings__enable_rcs_engine_initialization_by_bugle" value="false" />
+    <string name="RbmInteropVodafonePlatform__vodafone_platform_bot_regex">@.+[.]vodafone[.]com$</string>
+    <boolean name="KillSwitch__bug_170940045" value="false" />
+    <boolean name="DsdrProvisioningFlags__use_sim_subscription_info_for_iccid_binding" value="true" />
+    <long name="PhenotypeRcsFlags__bugle_stopped_typing_send_timeout_milliseconds" value="10000" />
+    <boolean name="RcsSettings__enable_sip_transport_event_logging" value="true" />
+    <string name="DiagnosticSettings__override_imei_for_testing_on_emulators"></string>
+    <boolean name="cslib_phenotype__enable_disabling_nfs_for_control_source_and_medium_priority" value="true" />
+</map>

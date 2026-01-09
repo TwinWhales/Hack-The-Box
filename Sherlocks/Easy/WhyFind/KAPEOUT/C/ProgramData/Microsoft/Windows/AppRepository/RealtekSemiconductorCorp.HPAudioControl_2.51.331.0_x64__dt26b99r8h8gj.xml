@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp uap4 uap5 build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="RealtekSemiconductorCorp.HPAudioControl" Publisher="CN=83564403-0B26-46B8-9D84-040F43691D31" Version="2.51.331.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="8d96a4e4-57d5-47a4-9e75-e8d534388c74" PhonePublisherId="9068b782-2fd1-42fe-af27-41121d5e73ec" />
+  <Properties>
+    <DisplayName>HP Audio Control</DisplayName>
+    <PublisherDisplayName>Realtek Semiconductor Corp</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.15063.0" MaxVersionTested="10.0.22000.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <uap5:DriverDependency>
+      <uap5:DriverConstraint Name="Realtek-HPAudioControlHSA.inf" MinVersion="12.0.6000.331" MinDate="2024-05-27" />
+    </uap5:DriverDependency>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="AR-SA" />
+    <Resource Language="BG" />
+    <Resource Language="CS" />
+    <Resource Language="DA" />
+    <Resource Language="DE" />
+    <Resource Language="EL" />
+    <Resource Language="ES" />
+    <Resource Language="ET" />
+    <Resource Language="FI" />
+    <Resource Language="FR" />
+    <Resource Language="HE" />
+    <Resource Language="HR" />
+    <Resource Language="HU" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="LT" />
+    <Resource Language="LV" />
+    <Resource Language="NB" />
+    <Resource Language="NL" />
+    <Resource Language="PL" />
+    <Resource Language="PT" />
+    <Resource Language="PT-BR" />
+    <Resource Language="RO" />
+    <Resource Language="RU" />
+    <Resource Language="SK" />
+    <Resource Language="SL" />
+    <Resource Language="SR-LATN" />
+    <Resource Language="SV" />
+    <Resource Language="TH" />
+    <Resource Language="TR" />
+    <Resource Language="UK" />
+    <Resource Language="ZH-CN" />
+    <Resource Language="ZH-TW" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="HPAudioControl_19H1.exe" EntryPoint="HPAudioControl.App">
+      <uap:VisualElements DisplayName="HP Audio Control" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="HP Audio Control is an application controls HP audio settings." BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="SEECUWVHPAS.NotificationActionBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="WakeMeUp" />
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="SEECUWVHPAS.Service">
+          <uap3:AppService Name="com.SoundResearch.SEECUWVHPAS.Service" uap4:SupportsMultipleInstances="true" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="rtkuwp">
+            <uap:Logo>Assets\StoreLogo.png</uap:Logo>
+            <uap:DisplayName>HP Audio Control</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap4:CustomCapability Name="RealtekSemiconductorCorp.hdUSBAudio_dt26b99r8h8gj" />
+    <uap4:CustomCapability Name="Fortemedia.audioSettings_4pejv7q2gmsnr" />
+    <uap4:CustomCapability Name="Xperi.dtsAudioSettings_t5j2fzbtdg37r" />
+    <uap4:CustomCapability Name="Synaptics.audioControl_807d65c4rvak2" />
+    <uap4:CustomCapability Name="SoundResearch.audioSettings_sassr7xhpkj7p" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPAudioComponent.dll</Path>
+        <ActivatableClass ActivatableClassId="HPAudioComponent.RImagesManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpInputPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.MyHPCoexistDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCommercialEqualizerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.RAppThemeManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.UnsupportedPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCMIT2020NoiseReductionControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HPAudioComponent_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCMIT2020EqualizerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpOutputPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.SpkConfigurePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCommercialMainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCMIT2020SettingControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.Converter.RHpTextConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.Converter.RHpImageConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.Converter.RImageAccentConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.App" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCMIT2020AudioMainControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCMIT2020MainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.RoomCorrectionControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpMainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.EqualizerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCommercialAudioMainControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpCommercialEffectControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.SpeakerTestPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent.HpAudioMainPage" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RtkAudioCore.dll</Path>
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatform" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformAudioDeviceMgr" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformPrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformTempUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformVolumeMgr" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Toast.RToastManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RPlatformInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RMultiLanguage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAudioCorePrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAudioCore" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.PageLoadLogHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RDriverInformationPrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Win32Api.RRpcClientEvent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RApoInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RDriverInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageBindConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RStrEqualToStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RXamlDebugConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMicBoostSliderValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RReverseStateConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.REnabledOpacityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntPlusValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMiliSecToTimeStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.REqSliderValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RFloatGreaterThanValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RImagePathConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RFloatMultipleValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageReplaceConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RPointerConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntEqualToValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RStrNotEqualToStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntGreaterThanValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntNotEqualToValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RtkAudioCore_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Customize.RAcerSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Customize.RHPSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Customize.RSkin" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RPowerMgrSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RApoInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAppInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RApoInformationPrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAudioCorePublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RGuiUnitTest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDevicePrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDevicePublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceFormatInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceInformationPrivateUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectOpenOffice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSrRenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen5Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoRtkEaxEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoTrueHarmonyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectNoiseReductionMasterOn" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen3Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RDtsRenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen5_Public" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSpeakerTest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen5" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen4" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSyCaptureApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoSoundResearchEqEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoScenarioModeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoRtkEqEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen2Gen3" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSounzReal2RenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoOmniSpkEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.ClientCall" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RDtsV4RenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen4Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RDaxRenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RFtCaptureApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoEnhanceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectMulitSingleVoice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSpeakerApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSpeakerImpedanceSensing" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectCustomize" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RElementNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RExternalApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Common.RUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Common.RUniqueDispatcher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Common.RNotifyPropertyChangedCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Jack.RJackInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RDriverInformation" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPAudioComponent_19H1.dll</Path>
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.UnsupportedPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.MyHPCoexistDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HPAudioComponent_19H1_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.App" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HpCMIT2021EqualizerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HpCMIT2021PersonalAudio" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HpCMIT2021MainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HpCMIT2021AudioMainControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPAudioComponent_19H1.HpCMIT2022NoiseReductionControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>DTSApo4xWinRTComponent.dll</Path>
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.BindableControls.ApoEnable" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.BindableControls.ApoControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.DtsRpcInterface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.NotificationHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.Realtek_API" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>DTSApoWinRTComponent.dll</Path>
+        <ActivatableClass ActivatableClassId="DTSApoWinRTComponent.NotificationHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApoWinRTComponent.DTSApoClientInterface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApoWinRTComponent.BindableControls.ApoEnable" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApoWinRTComponent.BindableControls.ApoControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApoWinRTComponent.Realtek_API" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>FMAPOCTL.dll</Path>
+        <ActivatableClass ActivatableClassId="FMAPOCTL.Win32Api.RUniqueDispatcher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FMAPOCTL.Win32Api.RNotifyPropertyChangedCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FMAPOCTL.FMAPOControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="RtkUwpRecPlayer.RecPlayer" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SECOMNUW.dll</Path>
+        <ActivatableClass ActivatableClassId="SECOMNUW.EndpointIDsTag" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.SEAPOENDPOINT_PARAM_INFO" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.EndpointInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.SEAPOCOMAPI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.ContentTypeNamesTag" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.EventRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.ViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.UserParamViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.ProfileNamesTag" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SECOMNUWV.dll</Path>
+        <ActivatableClass ActivatableClassId="SECOMNUWV.SKPath" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.Canvas" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.Grid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.StackPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.SvgImage2" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.View" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.SvgImage3" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUWV.EarCalWizardPage" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SEECUWVHPAS.dll</Path>
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.NotificationHistoryBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.Service" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.InstallBrowserExtensionToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.NewDeviceConnectedToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.NotificationActionBackgroundTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>DAX.dll</Path>
+        <ActivatableClass ActivatableClassId="DAX.CDolbyDAX" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.29.30151.0 built by: cloudtest" />
+    <build:Item Name="VisualStudio" Version="16.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.4165 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.33801.447" />
+    <build:Item Name="ProjectGUID" Value="{54b7d8f5-a5c5-43d0-9c13-dbe98a7aad34}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Native" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.22000.194 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

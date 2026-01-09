@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="restriction_Account {name=johnnnny999999@gmail.com, type=com.google}" value="0" />
+    <string name="reportingPackage_Account {name=johnnnny999999@gmail.com, type=com.google}">com.google.android.gms+new-account+sync</string>
+    <boolean name="auto_enable_history_enabled_Account {name=johnnnny999999@gmail.com, type=com.google}" value="false" />
+    <string name="historyPackage_Account {name=johnnnny999999@gmail.com, type=com.google}">com.google.android.gms+new-account+sync</string>
+    <long name="serverMillis_Account {name=johnnnny999999@gmail.com, type=com.google}" value="1720644783905" />
+    <boolean name="reportingEnabled_Account {name=johnnnny999999@gmail.com, type=com.google}" value="false" />
+    <boolean name="auto_enable_new_account_Account {name=johnnnny999999@gmail.com, type=com.google}" value="false" />
+    <boolean name="auto_enable_eligible_Account {name=johnnnny999999@gmail.com, type=com.google}" value="false" />
+    <int name="accountType_Account {name=johnnnny999999@gmail.com, type=com.google}" value="0" />
+    <boolean name="historyEnabled_Account {name=johnnnny999999@gmail.com, type=com.google}" value="false" />
+    <long name="updateNumber_Account {name=johnnnny999999@gmail.com, type=com.google}" value="3" />
+    <boolean name="defined" value="true" />
+</map>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <float name="lng" value="-122.081436" />
+    <float name="bearing" value="0.0" />
+    <float name="zoom" value="15.0" />
+    <float name="tilt" value="0.0" />
+    <boolean name="tracking" value="false" />
+    <float name="lat" value="37.422417" />
+    <long name="timestamp" value="1720645916459" />
+</map>

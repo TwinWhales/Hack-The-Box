@@ -1,0 +1,51 @@
+07-10 14:17:48.760 pigeon_event=push_reg_server; status=NO_TOKEN; registrationId=; serviceType=FCM; isuserLoggedOut=true; callSite=shared; latency=-1
+07-10 14:18:19.210 pigeon_event=push_reg_server; status=NO_TOKEN; registrationId=; serviceType=FCM; isuserLoggedOut=true; callSite=shared; latency=-1
+07-10 14:18:39.203 [FCM] Ensure firebase initialized
+07-10 14:18:39.204 [FCM] Check Registration
+07-10 14:18:39.206 [push_registration] {"time":"-0.001","log_type":"client_event","name":"push_reg_initial_status","extra":{"status":"none","pigeon_reserved_keyword_obj_type":"registration_id","pigeon_reserved_keyword_obj_id":"","push_source":"c2dm"}}
+07-10 14:18:40.078 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 14:18:40.330 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=1120
+07-10 15:57:01.254 [FCM] Ensure firebase initialized
+07-10 15:57:01.266 [FCM] Check Registration
+07-10 16:18:12.661 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 16:18:12.661 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 16:18:13.061 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=1271793
+07-10 16:18:13.157 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=1271889
+07-10 16:18:18.456 [FCM] Ensure firebase initialized
+07-10 16:18:18.457 [FCM] Check Registration
+07-10 16:18:18.471 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 16:18:18.571 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=113
+07-10 19:07:42.984 [FCM] Ensure firebase initialized
+07-10 19:08:10.970 [FCM] Ensure firebase initialized
+07-10 19:08:10.972 [FCM] Check Registration
+07-10 19:08:10.991 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 19:08:11.204 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=227
+07-10 19:18:14.095 Badging - DiodeBadgeSyncManager - failed when fetching from GQL
+07-10 19:22:51.739 [FCM] Ensure firebase initialized
+07-10 19:22:51.740 [FCM] Check Registration
+07-10 19:22:51.751 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 19:22:51.850 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=110
+07-10 19:50:21.482 [FCM] Ensure firebase initialized
+07-10 19:50:21.483 [FCM] Check Registration
+07-10 19:56:36.829 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 19:57:25.178 [FCM] Ensure firebase initialized
+07-10 19:57:25.179 [FCM] Check Registration
+07-10 19:57:25.192 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-10 19:57:25.310 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=130
+07-10 20:13:59.405 [FCM] Ensure firebase initialized
+07-10 20:13:59.405 [FCM] Check Registration
+07-10 20:26:18.273 [FCM] Ensure firebase initialized
+07-10 20:26:18.275 [FCM] Check Registration
+07-11 14:34:46.591 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-11 14:34:46.591 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-11 14:34:47.011 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=65308734
+07-11 14:34:47.101 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=65308825
+07-11 14:34:52.869 [FCM] Ensure firebase initialized
+07-11 14:34:52.871 [FCM] Check Registration
+07-11 14:34:52.874 [push_registration] {"time":"-0.001","log_type":"client_event","name":"push_reg_initial_status","extra":{"status":"expired","pigeon_reserved_keyword_obj_type":"registration_id","pigeon_reserved_keyword_obj_id":"cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o","push_source":"c2dm"}}
+07-11 14:34:55.432 pigeon_event=push_reg_server; status=ATTEMPT; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=-1
+07-11 14:34:55.639 pigeon_event=push_reg_server; status=SUCCESS; registrationId=cW_IMvo42xM:APA91bGtFPrXNE--Si9HIBX7ZQrc2omvdskOYNattJdTQ9pkduVSc_F3zUXABdkZSL5vaqhS0KQTfYKBaIOFtjdeER18FWrFscX7CW7sLRa3Zric-LagKK928Hxx0z9ijo4tiYEcd2-o; serviceType=FCM; isuserLoggedOut=true; callSite=FacebookPushServerRegisterJobImpl; latency=2740
+07-11 14:47:55.098 [FCM] Ensure firebase initialized
+07-11 14:47:55.100 [FCM] Check Registration
+07-11 15:16:59.515 [FCM] Ensure firebase initialized
+07-11 15:16:59.516 [FCM] Check Registration

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="pref_key_external_download_manager" value="false" />
+    <boolean name="pref_key_remote_debugging" value="false" />
+    <boolean name="pref_key_enable_gecko_logs" value="false" />
+    <string name="whatsnew-lastKnownAppVersionName">125.0</string>
+    <boolean name="pref_key_allow_domestic_china_fxa_server" value="true" />
+    <long name="whatsnew-lastKnownAppVersionUpdateDay" value="1720644929889" />
+    <boolean name="pref_key_cookie_banner_private_mode" value="false" />
+</map>

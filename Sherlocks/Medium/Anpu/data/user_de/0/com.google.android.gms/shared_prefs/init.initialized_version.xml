@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="version_code" value="202414022" />
+    <string name="version_code_and_timestamp">202414022_1627921193000</string>
+    <boolean name="migrated" value="true" />
+    <int name="prev_version_code" value="-1" />
+</map>

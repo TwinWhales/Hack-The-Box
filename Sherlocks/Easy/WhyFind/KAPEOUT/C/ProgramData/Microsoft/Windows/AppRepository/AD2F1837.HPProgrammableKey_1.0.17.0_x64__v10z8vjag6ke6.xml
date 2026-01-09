@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap4 mp rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="AD2F1837.HPProgrammableKey" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="1.0.17.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="3a14c284-0685-4f13-b8cf-8b29b59c2a2d" PhonePublisherId="23871b4b-1f34-4311-8990-5079df6ece9f" />
+  <Properties>
+    <DisplayName>HP Programmable Key</DisplayName>
+    <PublisherDisplayName>HP Inc.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.22929.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.27912.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.27328.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="EN" />
+    <Resource Language="AR" />
+    <Resource Language="BG" />
+    <Resource Language="CS" />
+    <Resource Language="DA" />
+    <Resource Language="DE" />
+    <Resource Language="EL" />
+    <Resource Language="ES" />
+    <Resource Language="ET" />
+    <Resource Language="FI" />
+    <Resource Language="FR" />
+    <Resource Language="HE" />
+    <Resource Language="HR" />
+    <Resource Language="HU" />
+    <Resource Language="ID" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="KO" />
+    <Resource Language="LT" />
+    <Resource Language="LV" />
+    <Resource Language="NB-NO" />
+    <Resource Language="NL" />
+    <Resource Language="PL" />
+    <Resource Language="PT-BR" />
+    <Resource Language="PT-PT" />
+    <Resource Language="RO" />
+    <Resource Language="RU" />
+    <Resource Language="SK" />
+    <Resource Language="SL" />
+    <Resource Language="SR-LATN-RS" />
+    <Resource Language="SV" />
+    <Resource Language="TH" />
+    <Resource Language="TR" />
+    <Resource Language="UK" />
+    <Resource Language="ZH-HANS" />
+    <Resource Language="ZH-HANT" />
+    <Resource uap:Scale="100" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="HPProgrammableKeyApp.exe" EntryPoint="HPProgrammableKey.App">
+      <uap:VisualElements DisplayName="HP Programmable Key" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="HP ProgrammableKey App enables users configure actions for supported keys on HP Notebooks." BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="HP Programmable Key" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpprogrammablekey">
+            <uap:DisplayName>HP Programmable Key</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap4:CustomCapability Name="HPInc.hotKeyService_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="HP.telemetry_v10z8vjag6ke6" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPProgrammableKeyApp.dll</Path>
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.SettingsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.HPPrivacyConsentUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.AppTheme" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.HPPrivacyConsentUI_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.ErrorDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.ConsentDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.Common.Util" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.Common.AppThemeManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.UIElements" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="MetroLog.WinRT.Logger" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28010.2016" />
+    <build:Item Name="ProjectGUID" Value="{46A6408E-F286-40D1-A4F2-8A5D0346DE76}" />
+    <build:Item Name="ilc.exe" Version="2.2.27913.00 built by: PROJECTNREL" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.28010.2016" />
+    <build:Item Name="OptimizingToolset" Value="ilc.exe" />
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
+    <build:Item Name="DisableStackTraceMetadata" Value="false" />
+    <build:Item Name="DisableExceptionMessages" Value="false" />
+    <build:Item Name="ShortcutGenericAnalysis" Value="false" />
+    <build:Item Name="GeneratePGD" Value="false" />
+    <build:Item Name="ConsumePGD" Value="false" />
+    <build:Item Name="SingleThreadNUTC" Value="false" />
+    <build:Item Name="Use64BitCompiler" Value="false" />
+    <build:Item Name="OptimizeForSize" Value="false" />
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false" />
+    <build:Item Name="LargeAddressAware" Value="false" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

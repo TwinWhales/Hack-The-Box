@@ -28,6 +28,18 @@
 *.log
 *.tmp
 
+# --- Firmware Extraction Artifacts (Critical Fix) ---
+# binwalk 등으로 추출된 모든 폴더 무시 (.extracted 폴더)
+*.extracted/
+*_extracted/
+
+# 리눅스 파일 시스템 폴더 패턴 무시 (혹시 extracted 이름이 안 붙을 경우 대비)
+**/squashfs-root*/
+**/jffs2-root*/
+**/cramfs-root*/
+**/ext-root*/
+
+
 # Forensic Exports (Too many small files)
 **/FTK_Export/
 **/ALEAPP_Reports*/

@@ -1,0 +1,34 @@
+07-11 05:26:10.240 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-11 05:26:10.240 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 05:26:10.240 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 05:26:22.172 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license
+07-11 23:47:47.585 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 23:47:47.659 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-11 23:47:47.660 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-11 23:47:47.663 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 23:47:47.667 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 23:47:47.719 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 23:47:47.764 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-11 23:47:47.789 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-11 23:47:47.789 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 23:47:47.789 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 23:48:01.324 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 23:48:01.338 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-11 23:48:01.338 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 23:48:01.341 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 23:48:01.363 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 23:48:01.369 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-11 23:48:01.382 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 23:48:01.382 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 23:48:01.386 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license
+07-12 00:16:51.079 VideosInitializer.initializeApp:31 Installer Package: null
+07-12 00:16:51.098 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-12 00:16:51.099 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-12 00:16:51.099 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-12 00:16:51.099 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-12 00:16:51.121 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-12 00:16:51.122 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-12 00:16:51.132 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-12 00:16:51.133 MediaRouteManager.update:111 sessionRestore network reconnected
+07-12 00:16:51.133 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-12 00:17:03.084 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license

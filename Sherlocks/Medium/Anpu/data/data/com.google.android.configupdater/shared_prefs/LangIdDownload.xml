@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="METADATA_DOWNLOAD_ID">6</string>
+    <string name="CONTENT_DOWNLOAD_ID">11</string>
+    <string name="CONTENT_URL">https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb</string>
+    <string name="METADATA_URL">https://www.gstatic.com/android/text_classifier/langid/q/v1/model.smfb.metadata</string>
+</map>

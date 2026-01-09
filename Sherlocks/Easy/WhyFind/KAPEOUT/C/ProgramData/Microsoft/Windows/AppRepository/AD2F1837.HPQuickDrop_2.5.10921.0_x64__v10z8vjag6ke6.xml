@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap2 uap5 mp rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="AD2F1837.HPQuickDrop" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="2.5.10921.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="df88c88c-c9db-44af-8bbd-c744bfcd2072" PhonePublisherId="23871b4b-1f34-4311-8990-5079df6ece9f" />
+  <Properties>
+    <DisplayName>HP QuickDrop</DisplayName>
+    <PublisherDisplayName>HP Inc.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22000.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.24217.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.26706.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="ZH-HANS" />
+    <Resource Language="EN-GB" />
+    <Resource Language="DE" />
+    <Resource Language="ES" />
+    <Resource Language="FR" />
+    <Resource Language="IT" />
+    <Resource Language="JA" />
+    <Resource Language="PT-BR" />
+    <Resource Language="RU" />
+    <Resource Language="SV" />
+    <Resource Language="ZH-HANT" />
+    <Resource Language="AR" />
+    <Resource Language="KO" />
+    <Resource Language="PL" />
+    <Resource Language="TR" />
+    <Resource Language="UK" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="400" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="HPQuickDrop.exe" EntryPoint="WebPhoneUniversalClient.App">
+      <uap:VisualElements DisplayName="ms-resource:WebphoneSession/Resources/ProductName" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="ms-resource:WebphoneSession/Resources/ProductName" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" xmlns:uap5.Optional="true" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="ObexWrapper.BackgroundTasks.SdpAdvertiseTask">
+          <BackgroundTasks>
+            <Task Type="bluetooth" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="BackgroundWork.Tasks.BackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpqd" />
+        </uap:Extension>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget Description="ms-resource:WebphoneSession/Resources/ProductName">
+            <uap:SupportedFileTypes>
+              <uap:SupportsAnyFileType />
+            </uap:SupportedFileTypes>
+            <uap:DataFormat>StorageItems</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap3:AppService Name="hp.quickdrop.appService" />
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+    <rescap:Capability Name="extendedExecutionUnconstrained" />
+    <rescap:Capability Name="confirmAppClose" />
+    <DeviceCapability Name="bluetooth" />
+    <DeviceCapability Name="wiFiControl" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPQuickDrop.dll</Path>
+        <ActivatableClass ActivatableClassId="Screenovate.InputWrapper.UwpHIDDeviceClient" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackgroundWork.Constants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackgroundWork.Settings.BackgroundStateSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackgroundWork.Tasks.BackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackgroundWork.Tasks.PreinstallTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BackgroundWork.Tasks.PhoneTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.ObexSmsServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.ObexPhonebookServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.phonebook.ContactEntryUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.phonebook.ContactUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.sms.MessageShiftEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.sms.SmsConversationUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.sms.SmsMessageUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Obex.model.sms.MessageSendStatusChangedArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Handsfree.DismissedWithMessageCallArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Handsfree.NewCallArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Handsfree.HandsfreeServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.Handsfree.CallExArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Input.HidServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Input.InputContextWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.DeviceInfoWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Drivers.DriverVerifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Drivers.DriverUpdater" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Pairing.Model.PairingDeviceInfoUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Pairing.BtPairingManagerWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.BtConnectionService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.ConnectionPolicy" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Bluetooth.BtAdapterInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.DeviceInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Ble.AncsGattServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Ble.Model.AncsNotificationUwp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Ble.BleConnectionManagerWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Ble.BleInfoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Ble.PingGattServiceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.Connectivity.RadioStateProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.WebObjects.GenericRfcommService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphoneBtPwa.LoggerInitializer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpObexServer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpBinarySequenceObexHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpObexRequest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.BackgroundTasks.SdpAdvertiseTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpObexResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpByteObexHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpClientServicePublish" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpIntegerObexHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ObexWrapper.UwpObexClient" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.PhoneCallHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.HandsfreeUtil" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.CallInfoArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.DeviceChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.CallAudioDeviceArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.HandsfreeDevice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.DeviceWatcherHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.HandsfreeConstants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WinHF.CallIsMutedArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.PushSubscriptionKeysJSON" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.Webphone" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.DiskUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.PushManagerFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.DiskIoOperationsFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Container.ContainerDragOutHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Container.ContainerDropHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Container.ContainerInputListener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.GenericToastCreator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LocaleProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.InternetConnectedListener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.MSStoreActions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.EmojiSelectorProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Networking.XMLHttpRequest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Networking.WifiController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Networking.WebSocket" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Networking.MessageEventData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ToastData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.EasterEggs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.UrlLauncher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.PushNotifListener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.App.AppExitHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.App.AppSuspendHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.App.AppThemeManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LocalStorage.LocalStorage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.InitArgument" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.StringDictionary" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.AnalyticsEnvironmentProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RegistryWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Config.Config" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Config.SettingsUpdater" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Config.SupportedFeaturesProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.InitArgsProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Push.PushNotificationDataPair" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Push.NotificationAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Push.PushNotification" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Push.PushNotificationDataHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.OS.SystemEventNotifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.OS.AudioStateNotifier" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.OS.FocusAssistStateProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.OS.SystemThemeProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ActiveDeviceIndicator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.Serialization" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.DeserializationResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.Entities.Request" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.Entities.Message" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.Entities.Closed" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.Serialization.Entities.Response" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.RpcLayer.RpcTransport.PwaPeerTransport" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ObjectDictionary" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ClipboardProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ExternalAppCommunication.ShareOperationDelegator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ExternalAppCommunication.ExternalShareProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ExternalAppCommunication.AppServiceRequestDelegator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LocalCache.LocalCache" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LocalCache.CacheItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LocalCache.AllocatedCache" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.NetworkInformationWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.LogWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.DataStructures.ObjectDictionaryFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.NotificationCountUpdater" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ErrorReportingController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ResourceProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.ToastActivator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Crypto.CryptoProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCIceCandidateWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCDataChannelWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCPeerConnectionWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCIceServerWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCTransportStatsWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.MediaStream" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCIceCandidatePairStatsWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCSessionDescriptionWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.WebRtc.RTCIceCandidateStatsWA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.HostNameProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.VersionProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.NetworkInformationProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.EmailComposer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.EnergySaverListener" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.StreamedStorageItemWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.StorageFileMediaDimensions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.UserSelectedDownloadsFolderPathProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.ContainerFilePicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.StorageItemWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.PersistentSettingsStorage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.FileProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.ShareStorageAccessWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.StorageFolderWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.FilesFutureAccessListManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebObjects.Disk.VideoMediaStream" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebRTCObjectFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.DiskIoOperations" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.UiUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.BackgroundConsts" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.PushSettingsManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.FileOutputStream" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.PushSubscription" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.AppService.AppServiceManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.WebviewNavigator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WebphonePwa.PushSubscriptionJSON" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AlternatePushChannel.Library.PushManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AlternatePushChannel.Library.PushSubscriptionKeys" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AlternatePushChannel.Library.PushSubscription" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>BluetoothWrapper.dll</Path>
+        <ActivatableClass ActivatableClassId="Screenovate.BluetoothWrapper.BluetoothDeviceWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Screenovate.BluetoothWrapper.BluetoothLEDeviceWrapper" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Scripting.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Scripting.ScriptSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Scripting.JavaScript.JavaScriptRuntime" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Scripting.JavaScript.JavaScriptRuntimeSettings" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.WinRTC.WebRtcWrapper.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.cricket.AudioOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.rtc.Thread" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.rtc.VideoSinkWants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.rtc.RTC" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnectionFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoFrame.Builder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoFrame.VideoFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnectionObserver" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnectionDependencies" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.CreateSessionDescriptionObserver" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.DataBuffer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.DataChannelObserver" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoCaptureFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.IceServer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.IceCandidatePairStats" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.RTCOfferAnswerOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.IceCandidateStats" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.RTCConfiguration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.PeerConnection.TransportStats" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoCaptureCapability" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoSink_VideoFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.SessionDescription" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.SetSessionDescriptionObserver" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.DataChannelInit" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.VideoTrackSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.MediaStreamTrack" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.WinRTC.WebRtcWrapper.webrtc.WebRTC" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28307.1089" />
+    <build:Item Name="ProjectGUID" Value="{365AF272-1E5B-4923-9697-EB214339F408}" />
+    <build:Item Name="ilc.exe" Version="2.2.30601.02 built by: PROJECTNREL" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
+    <build:Item Name="OptimizingToolset" Value="ilc.exe" />
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
+    <build:Item Name="DisableStackTraceMetadata" Value="false" />
+    <build:Item Name="DisableExceptionMessages" Value="false" />
+    <build:Item Name="ShortcutGenericAnalysis" Value="false" />
+    <build:Item Name="GeneratePGD" Value="false" />
+    <build:Item Name="ConsumePGD" Value="false" />
+    <build:Item Name="SingleThreadNUTC" Value="false" />
+    <build:Item Name="Use64BitCompiler" Value="false" />
+    <build:Item Name="OptimizeForSize" Value="false" />
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false" />
+    <build:Item Name="LargeAddressAware" Value="false" />
+    <build:Item Name="NoLinkerSymbols" Value="false" />
+    <build:Item Name="WindowsDesktop" Version="10.0.22000.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.22000.194 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

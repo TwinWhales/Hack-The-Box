@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="last_daily_log_timestamp" value="1720732576261" />
+    <int name="wallpaper_presentation_mode" value="1" />
+    <string name="home_wallpaper_attribution_line_1">Wallpaper</string>
+    <int name="home_wallpaper_id" value="2" />
+</map>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="com.google.android.apps.photos.mediastorescanner.permissions_granted" value="true" />
+    <long name="com.google.android.apps.photos.photosmediastoresync.AllPhotosScanConsumer.scan_state" value="4" />
+    <int name="bom_last_listener_id" value="0" />
+    <boolean name="com.google.android.apps.photos.database.processor.UnhideNonPrimaryBurstsProcessor.COMPLETE" value="true" />
+</map>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="tokenPeriodMilli">100</string>
+    <string name="minVersion">63280000</string>
+    <string name="folderSendLinkUrlPattern">https://drive.google.com/folderview?id=%1$s</string>
+    <string name="accountFlagPriority">high</string>
+    <string name="crossAppPromoCatalogUrl">https://ssl.gstatic.com/docs/android/crossapppromo/release/catalog.txt</string>
+    <string name="mimeOverride_epub">application/epub+zip</string>
+    <string name="appsPredictRigSpec">100.0,https://www.googleapis.com/drive/v2internal</string>
+</map>

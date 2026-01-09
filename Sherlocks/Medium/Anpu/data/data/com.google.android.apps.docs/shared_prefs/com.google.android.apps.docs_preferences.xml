@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="shared_preferences.allContentInShiny" value="true" />
+    <int name="shared_preferences.metadataSyncEngine" value="2" />
+    <boolean name="shared_preferences.noClassicPendingOperations" value="true" />
+    <long name="flagsLastLogged-null" value="1720644783788" />
+    <string name="notification_registration_status">[{&quot;an&quot;:&quot;johnnnny999999@gmail.com&quot;,&quot;gri&quot;:&quot;APA91bHz-ZBQC-yTH0yfTMyhJe_hXb6rp4DtwDKq-1ADTeHdco-QD1v1MP5CdlhxOjn-t9zQmpx4XsyfWg0QmJiPiu9OpDS61lODsSMfyxH9k1OE2J32BUg2FDoQ_50bweHqpNJN6xFW&quot;,&quot;lrav&quot;:192120470,&quot;rsi&quot;:&quot;c1ff93c1-039e-43a3-897f-8e10c27ae66d&quot;}]</string>
+    <long name="flagsLastLogged-johnnnny999999@gmail.com" value="1720733730586" />
+    <int name="shared_preferences.celloMigrationAttemptCount" value="0" />
+    <boolean name="shared_preferences.appIndexingOnCello" value="true" />
+    <long name="shared_preferences.lastDfmCollectUnrefTime" value="1720644513308" />
+</map>

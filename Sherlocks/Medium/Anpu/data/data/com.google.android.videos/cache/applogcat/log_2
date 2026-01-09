@@ -1,0 +1,36 @@
+07-11 04:32:25.169 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 04:32:25.175 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 04:32:25.184 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 04:32:25.187 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-11 04:32:25.192 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license_forced
+07-11 04:32:25.192 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 04:32:25.192 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 04:50:13.298 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 04:50:13.338 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-11 04:50:13.339 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-11 04:50:13.339 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 04:50:13.342 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 04:50:13.360 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 04:50:13.384 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-11 04:50:13.408 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-11 04:50:13.408 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 04:50:13.408 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 04:50:26.137 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license
+07-11 05:13:51.869 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 05:13:51.880 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-11 05:13:51.880 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-11 05:13:51.880 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 05:13:51.882 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 05:13:51.887 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 05:13:51.890 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-11 05:13:51.891 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-11 05:13:51.892 MediaRouteManager.update:111 sessionRestore network reconnected
+07-11 05:13:51.892 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-11 05:14:02.636 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license
+07-11 05:26:10.186 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 05:26:10.206 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-11 05:26:10.207 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-11 05:26:10.207 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-11 05:26:10.209 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-11 05:26:10.221 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-11 05:26:10.223 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]

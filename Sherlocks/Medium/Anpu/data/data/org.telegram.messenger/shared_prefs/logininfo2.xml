@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="phoneview_phone">555 521 5554</string>
+    <int name="currentViewNum" value="0" />
+    <string name="phoneview_code">1</string>
+    <int name="syncContacts" value="1" />
+</map>

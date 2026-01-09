@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap3 rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="Microsoft.Whiteboard" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="55.20331.573.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Microsoft Whiteboard</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\WhiteboardStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19042.1202" MaxVersionTested="10.0.19100.5000" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="Whiteboard" Executable="MicrosoftWhiteboard\MicrosoftWhiteboard.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Microsoft Whiteboard" Description="Microsoft Whiteboard" BackgroundColor="#0C34FA" Square150x150Logo="Assets\WhiteboardMedTile.png" Square44x44Logo="Assets\WhiteboardAppList.png">
+        <uap:DefaultTile ShortName="Whiteboard" Square71x71Logo="Assets\WhiteboardSmallTile.png" Wide310x150Logo="Assets\WhiteboardWideTile.png" Square310x310Logo="Assets\WhiteboardLargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen BackgroundColor="#0C34FA" Image="Assets\WhiteboardSplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appUriHandler">
+          <uap3:AppUriHandler>
+            <uap3:Host Name="wbd.ms" />
+            <uap3:Host Name="whiteboard.ms" />
+            <uap3:Host Name="whiteboard.microsoft.com" />
+            <uap3:Host Name="whiteboard.cloud.microsoft" />
+            <uap3:Host Name="whiteboard.cloud.dev.microsoft" />
+          </uap3:AppUriHandler>
+        </uap3:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-whiteboard-preview">
+            <uap:DisplayName>Microsoft Whiteboard</uap:DisplayName>
+            <uap:Logo>Assets\Square71x71Logo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-whiteboard-cmd">
+            <uap:DisplayName>Microsoft Whiteboard</uap:DisplayName>
+            <uap:Logo>Assets\Square71x71Logo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="teamEditionDeviceCredential" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.13.40008.26641" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641" />
+    <build:Item Name="ProjectGUID" Value="44022e48-83d3-4118-af0d-d9592658d54c" />
+    <build:Item Name="MakePri.exe" Version="10.0.19041.685 (WinBuild.160101.0800)" />
+  </build:Metadata>
+  <mp:PhoneIdentity PhoneProductId="6f07fc27-be63-4e23-b393-c5b9417ed45d" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+</Package>

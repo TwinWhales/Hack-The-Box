@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.WindowsMaps" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2022.2503.1.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="1.0.64.0" Architecture="arm64" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_ARM64.msix" Offset="76" Size="529178" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-af" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-af.msix" Offset="529360" Size="11013" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="af-za"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-am" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-am.msix" Offset="540479" Size="11132" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="am-et"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ar" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ar.msix" Offset="551717" Size="11068" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ar-sa"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-az-latn" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-az-latn.msix" Offset="562896" Size="11081" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="az-latn-az"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-bg.msix" Offset="574083" Size="11139" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ca.msix" Offset="585328" Size="11269" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca-es"/>
+				<b5:Resource Language="ca-es-valencia"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-cs.msix" Offset="596703" Size="11043" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-da.msix" Offset="607852" Size="11023" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-de.msix" Offset="618981" Size="11060" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-el.msix" Offset="630147" Size="11241" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-es.msix" Offset="641494" Size="11245" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es-es"/>
+				<b5:Resource Language="es-mx"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-et.msix" Offset="652845" Size="11020" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-eu.msix" Offset="663971" Size="10999" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-fa" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-fa.msix" Offset="675076" Size="11145" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fa-ir"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-fi.msix" Offset="686327" Size="11017" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-fil-latn" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-fil-latn.msix" Offset="697456" Size="11036" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fil-ph"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-fr.msix" Offset="708598" Size="11234" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr-ca"/>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-gl.msix" Offset="719938" Size="11007" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-he" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-he.msix" Offset="731051" Size="10987" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="he-il"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-hi.msix" Offset="742144" Size="11165" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-hr.msix" Offset="753415" Size="11000" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-hu.msix" Offset="764521" Size="11065" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-id.msix" Offset="775692" Size="10957" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-is" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-is.msix" Offset="786755" Size="11040" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="is-is"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-it.msix" Offset="797901" Size="11031" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ja.msix" Offset="809038" Size="11058" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-kk.msix" Offset="820202" Size="11165" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-km" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-km.msix" Offset="831473" Size="11200" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="km-kh"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-kn" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-kn.msix" Offset="842779" Size="11193" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ko.msix" Offset="854078" Size="11109" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-lo" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-lo.msix" Offset="865293" Size="11144" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lo-la"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-lt.msix" Offset="876543" Size="11024" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-lv.msix" Offset="887673" Size="11084" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-mk" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-mk.msix" Offset="898863" Size="11143" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mk-mk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ml" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ml.msix" Offset="910112" Size="11183" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ml-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ms.msix" Offset="921401" Size="10964" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-nb.msix" Offset="932471" Size="11011" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-nl.msix" Offset="943588" Size="10996" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-pl.msix" Offset="954690" Size="11054" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-pt.msix" Offset="965850" Size="11361" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ro.msix" Offset="977317" Size="11023" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ru.msix" Offset="988446" Size="11168" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-sk.msix" Offset="999720" Size="11026" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-sl.msix" Offset="1010852" Size="11037" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-sq" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-sq.msix" Offset="1021995" Size="11041" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sq-al"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-sr-latn.msix" Offset="1033147" Size="11042" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-sv.msix" Offset="1044295" Size="11015" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-ta" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-ta.msix" Offset="1055416" Size="11161" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ta-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-te" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-te.msix" Offset="1066683" Size="11193" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="te-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-th.msix" Offset="1077982" Size="11102" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-tr.msix" Offset="1089190" Size="11059" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-uk.msix" Offset="1100355" Size="11143" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-vi.msix" Offset="1111604" Size="11110" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-zh-hans.msix" Offset="1122825" Size="10997" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_language-zh-hant.msix" Offset="1133933" Size="10997" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_scale-100.msix" Offset="1145034" Size="58807" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_scale-125.msix" Offset="1203945" Size="73356" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_scale-150.msix" Offset="1277405" Size="84832" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.64.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_scale-400.msix" Offset="1362341" Size="263883" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.0.64.0" Architecture="x86" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_Win32.msix" Offset="1626324" Size="527362" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.0.64.0" Architecture="x64" FileName="AppxMetadata\Stub\MapsStub_1.0.64.0_x64.msix" Offset="2153784" Size="531147" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="11.2503.1.0" Architecture="x86" FileName="App_11.2503.1.0_x86.msix" Offset="36263087" Size="13691393">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2503.1.0" Architecture="x64" FileName="App_11.2503.1.0_x64.msix" Offset="20947018" Size="15315991">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2503.1.0" Architecture="arm64" FileName="App_11.2503.1.0_ARM64.msix" Offset="2685011" Size="14840613">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-af" FileName="App_11.2503.1.0_language-af.msix" Offset="17525710" Size="32279">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-am" FileName="App_11.2503.1.0_language-am.msix" Offset="17558075" Size="35466">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ar" FileName="App_11.2503.1.0_language-ar.msix" Offset="17593627" Size="36694">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-az-latn" FileName="App_11.2503.1.0_language-az-latn.msix" Offset="17630412" Size="33238">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-bg" FileName="App_11.2503.1.0_language-bg.msix" Offset="17663736" Size="37819">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ca" FileName="App_11.2503.1.0_language-ca.msix" Offset="17701641" Size="33657">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-cs" FileName="App_11.2503.1.0_language-cs.msix" Offset="17735384" Size="34227">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-da" FileName="App_11.2503.1.0_language-da.msix" Offset="17769697" Size="32997">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-de" FileName="App_11.2503.1.0_language-de.msix" Offset="17802780" Size="62725">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-hi" FileName="App_11.2503.1.0_language-hi.msix" Offset="18318106" Size="36578">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-et" FileName="App_11.2503.1.0_language-et.msix" Offset="18003774" Size="33364">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-fa" FileName="App_11.2503.1.0_language-fa.msix" Offset="18070344" Size="36474">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-fi" FileName="App_11.2503.1.0_language-fi.msix" Offset="18106904" Size="33349">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-fil-latn" FileName="App_11.2503.1.0_language-fil-latn.msix" Offset="18140345" Size="32989">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-gl" FileName="App_11.2503.1.0_language-gl.msix" Offset="18250618" Size="32783">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-fr" FileName="App_11.2503.1.0_language-fr.msix" Offset="18173420" Size="77112">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-he" FileName="App_11.2503.1.0_language-he.msix" Offset="18283487" Size="34533">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-el" FileName="App_11.2503.1.0_language-el.msix" Offset="17865591" Size="38985">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-hu" FileName="App_11.2503.1.0_language-hu.msix" Offset="18388613" Size="34356">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-id" FileName="App_11.2503.1.0_language-id.msix" Offset="18423055" Size="32193">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-is" FileName="App_11.2503.1.0_language-is.msix" Offset="18455334" Size="33436">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-it" FileName="App_11.2503.1.0_language-it.msix" Offset="18488856" Size="58345">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ja" FileName="App_11.2503.1.0_language-ja.msix" Offset="18547287" Size="33134">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-kk" FileName="App_11.2503.1.0_language-kk.msix" Offset="18580507" Size="36822">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-km" FileName="App_11.2503.1.0_language-km.msix" Offset="18617415" Size="37516">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ko" FileName="App_11.2503.1.0_language-ko.msix" Offset="18692229" Size="32651">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-lo" FileName="App_11.2503.1.0_language-lo.msix" Offset="18724966" Size="37199">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-lt" FileName="App_11.2503.1.0_language-lt.msix" Offset="18762251" Size="34583">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-lv" FileName="App_11.2503.1.0_language-lv.msix" Offset="18796920" Size="34794">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-hr" FileName="App_11.2503.1.0_language-hr.msix" Offset="18354770" Size="33757">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-eu" FileName="App_11.2503.1.0_language-eu.msix" Offset="18037224" Size="33034">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-kn" FileName="App_11.2503.1.0_language-kn.msix" Offset="18655017" Size="37126">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-nb" FileName="App_11.2503.1.0_language-nb.msix" Offset="18938231" Size="32628">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ml" FileName="App_11.2503.1.0_language-ml.msix" Offset="18868093" Size="37915">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-mk" FileName="App_11.2503.1.0_language-mk.msix" Offset="18831800" Size="36207">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-uk" FileName="App_11.2503.1.0_language-uk.msix" Offset="19555276" Size="38939">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ro" FileName="App_11.2503.1.0_language-ro.msix" Offset="19138622" Size="33808">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-pl" FileName="App_11.2503.1.0_language-pl.msix" Offset="19004132" Size="62583">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-nl" FileName="App_11.2503.1.0_language-nl.msix" Offset="18970945" Size="33101">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-sk" FileName="App_11.2503.1.0_language-sk.msix" Offset="19241477" Size="34253">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-zh-hans" FileName="App_11.2503.1.0_language-zh-hans.msix" Offset="19628638" Size="57131">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-sl" FileName="App_11.2503.1.0_language-sl.msix" Offset="19275816" Size="33579">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-sq" FileName="App_11.2503.1.0_language-sq.msix" Offset="19309481" Size="33409">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-sr-latn" FileName="App_11.2503.1.0_language-sr-latn.msix" Offset="19342981" Size="34275">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-sv" FileName="App_11.2503.1.0_language-sv.msix" Offset="19377342" Size="32349">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ta" FileName="App_11.2503.1.0_language-ta.msix" Offset="19409777" Size="37538">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-te" FileName="App_11.2503.1.0_language-te.msix" Offset="19447401" Size="37462">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-th" FileName="App_11.2503.1.0_language-th.msix" Offset="19484949" Size="36844">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ru" FileName="App_11.2503.1.0_language-ru.msix" Offset="19172516" Size="68875">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-tr" FileName="App_11.2503.1.0_language-tr.msix" Offset="19521879" Size="33311">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-zh-hant" FileName="App_11.2503.1.0_language-zh-hant.msix" Offset="19685860" Size="80078">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-ms" FileName="App_11.2503.1.0_language-ms.msix" Offset="18906094" Size="32051">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-vi" FileName="App_11.2503.1.0_language-vi.msix" Offset="19594301" Size="34246">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-es" FileName="App_11.2503.1.0_language-es.msix" Offset="17904662" Size="99026">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.language-pt" FileName="App_11.2503.1.0_language-pt.msix" Offset="19066801" Size="71735">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.scale-100" FileName="App_11.2503.1.0_scale-100.msix" Offset="19766022" Size="169431">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.scale-125" FileName="App_11.2503.1.0_scale-125.msix" Offset="19935537" Size="205421">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.scale-150" FileName="App_11.2503.1.0_scale-150.msix" Offset="20141042" Size="232109">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.1.0" ResourceId="split.scale-400" FileName="App_11.2503.1.0_scale-400.msix" Offset="20373235" Size="573705">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

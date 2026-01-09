@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.PowerAutomateDesktop" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2504.176.0"/>
+	<Packages>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-bg.msix" Offset="107" Size="12321" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ca.msix" Offset="12559" Size="12315" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-cs.msix" Offset="25005" Size="10502" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-da.msix" Offset="35638" Size="12323" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-de.msix" Offset="48092" Size="12319" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-el.msix" Offset="60542" Size="12320" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-es.msix" Offset="72993" Size="12312" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-et.msix" Offset="85436" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-eu.msix" Offset="97885" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-fi.msix" Offset="110334" Size="12315" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-fr.msix" Offset="122780" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-gl.msix" Offset="135229" Size="12321" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-hi.msix" Offset="147681" Size="12322" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-hr.msix" Offset="160134" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-hu.msix" Offset="172583" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-id.msix" Offset="185032" Size="12320" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-it.msix" Offset="197483" Size="12315" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ja.msix" Offset="209929" Size="12322" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-kk.msix" Offset="222382" Size="12325" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ko.msix" Offset="234838" Size="10500" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-lt.msix" Offset="245469" Size="12320" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-lv.msix" Offset="257920" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ms.msix" Offset="270369" Size="12322" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-nb.msix" Offset="282822" Size="12327" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-nl.msix" Offset="295280" Size="12321" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-pl.msix" Offset="307732" Size="12314" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-pt.msix" Offset="320177" Size="14090" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ro.msix" Offset="334398" Size="12314" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-ru.msix" Offset="346843" Size="10494" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-sk.msix" Offset="357468" Size="12314" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-sl.msix" Offset="369913" Size="12319" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-sr-cyrl" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-sr-cyrl.msix" Offset="382368" Size="12355" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-cyrl-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-sr-latn.msix" Offset="394859" Size="12356" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-sv.msix" Offset="407346" Size="12320" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-th.msix" Offset="419797" Size="10490" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-tr.msix" Offset="430418" Size="12317" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-uk.msix" Offset="442866" Size="12318" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-vi.msix" Offset="455315" Size="12320" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-zh-hans.msix" Offset="467771" Size="12328" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_language-zh-hant.msix" Offset="480235" Size="12325" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-100.msix" Offset="492689" Size="75211" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-125.msix" Offset="568029" Size="94539" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-140" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-140.msix" Offset="662697" Size="28082" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="140"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-150.msix" Offset="690908" Size="112439" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-180" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-180.msix" Offset="803476" Size="35452" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="180"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-250" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-250.msix" Offset="839057" Size="67336" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="250"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-300" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-300.msix" Offset="906522" Size="85528" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="300"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.0.1398.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_scale-400.msix" Offset="992179" Size="479510" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.0.1398.0" Architecture="x64" FileName="AppxMetadata\Stub\PowerAutomateDesktopStubPackage_1.0.1398.0_x64.msix" Offset="1471812" Size="550927" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="11.2504.176.0" Architecture="x86" FileName="PowerAutomateDesktop-11.2504.176.0-x86.msix" Offset="680386947" Size="678363985">
+			<Resources>
+				<Resource Language="da-dk"/>
+				<Resource Language="de-de"/>
+				<Resource Language="en-us"/>
+				<Resource Language="es-us"/>
+				<Resource Language="fi-fi"/>
+				<Resource Language="fr-fr"/>
+				<Resource Language="it-it"/>
+				<Resource Language="ja-jp"/>
+				<Resource Language="nb-no"/>
+				<Resource Language="nl-nl"/>
+				<Resource Language="pl-pl"/>
+				<Resource Language="pt-br"/>
+				<Resource Language="sv-se"/>
+				<Resource Language="tr-tr"/>
+				<Resource Language="zh-cn"/>
+				<Resource Language="zh-tw"/>
+				<Resource Language="cs-cz"/>
+				<Resource Language="ko-kr"/>
+				<Resource Language="ru-ru"/>
+				<Resource Language="th-th"/>
+				<Resource Language="bg-bg"/>
+				<Resource Language="ca-es"/>
+				<Resource Language="el-gr"/>
+				<Resource Language="et-ee"/>
+				<Resource Language="eu-es"/>
+				<Resource Language="gl-es"/>
+				<Resource Language="hi-in"/>
+				<Resource Language="hr-hr"/>
+				<Resource Language="hu-hu"/>
+				<Resource Language="id-id"/>
+				<Resource Language="kk-kz"/>
+				<Resource Language="lt-lt"/>
+				<Resource Language="lv-lv"/>
+				<Resource Language="ms-my"/>
+				<Resource Language="pt-pt"/>
+				<Resource Language="ro-ro"/>
+				<Resource Language="sl-si"/>
+				<Resource Language="sr-cyrl-rs"/>
+				<Resource Language="sr-latn-rs"/>
+				<Resource Language="uk-ua"/>
+				<Resource Language="vi-vn"/>
+				<Resource Scale="100"/>
+				<Resource Scale="120"/>
+				<Resource Scale="140"/>
+				<Resource Scale="160"/>
+				<Resource Scale="180"/>
+				<Resource Scale="200"/>
+				<Resource Scale="220"/>
+				<Resource Scale="240"/>
+				<Resource Scale="300"/>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2504.176.0" Architecture="x64" FileName="PowerAutomateDesktop-11.2504.176.0-x64.msix" Offset="2022836" Size="678364014">
+			<Resources>
+				<Resource Language="da-dk"/>
+				<Resource Language="de-de"/>
+				<Resource Language="en-us"/>
+				<Resource Language="es-us"/>
+				<Resource Language="fi-fi"/>
+				<Resource Language="fr-fr"/>
+				<Resource Language="it-it"/>
+				<Resource Language="ja-jp"/>
+				<Resource Language="nb-no"/>
+				<Resource Language="nl-nl"/>
+				<Resource Language="pl-pl"/>
+				<Resource Language="pt-br"/>
+				<Resource Language="sv-se"/>
+				<Resource Language="tr-tr"/>
+				<Resource Language="zh-cn"/>
+				<Resource Language="zh-tw"/>
+				<Resource Language="cs-cz"/>
+				<Resource Language="ko-kr"/>
+				<Resource Language="ru-ru"/>
+				<Resource Language="th-th"/>
+				<Resource Language="bg-bg"/>
+				<Resource Language="ca-es"/>
+				<Resource Language="el-gr"/>
+				<Resource Language="et-ee"/>
+				<Resource Language="eu-es"/>
+				<Resource Language="gl-es"/>
+				<Resource Language="hi-in"/>
+				<Resource Language="hr-hr"/>
+				<Resource Language="hu-hu"/>
+				<Resource Language="id-id"/>
+				<Resource Language="kk-kz"/>
+				<Resource Language="lt-lt"/>
+				<Resource Language="lv-lv"/>
+				<Resource Language="ms-my"/>
+				<Resource Language="pt-pt"/>
+				<Resource Language="ro-ro"/>
+				<Resource Language="sl-si"/>
+				<Resource Language="sr-cyrl-rs"/>
+				<Resource Language="sr-latn-rs"/>
+				<Resource Language="uk-ua"/>
+				<Resource Language="vi-vn"/>
+				<Resource Scale="100"/>
+				<Resource Scale="120"/>
+				<Resource Scale="140"/>
+				<Resource Scale="160"/>
+				<Resource Scale="180"/>
+				<Resource Scale="200"/>
+				<Resource Scale="220"/>
+				<Resource Scale="240"/>
+				<Resource Scale="300"/>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap com uap4 uap5 uap10 uap11 uap13 cloudfiles2 virtualization build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop3="http://schemas.microsoft.com/appx/manifest/desktop/windows10/3" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:uap11="http://schemas.microsoft.com/appx/manifest/uap/windows10/11" xmlns:uap13="http://schemas.microsoft.com/appx/manifest/uap/windows10/13" xmlns:cloudfiles2="http://schemas.microsoft.com/appx/manifest/cloudfiles/windows10/2" xmlns:virtualization="http://schemas.microsoft.com/appx/manifest/virtualization/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="MicrosoftWindows.CrossDevice" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.25032.52.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="4ee94ad6-ea0b-4f78-848e-983515063436" PhonePublisherId="6145b212-a274-4517-8abe-1e015f21ff03"/>
+  <Properties>
+    <DisplayName>ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Core/Resources/PackageName</DisplayName>
+    <PublisherDisplayName>Microsoft Windows</PublisherDisplayName>
+    <Logo>Assets\AppTiles\StoreLogo.png</Logo>
+    
+    <virtualization:RegistryWriteVirtualization>
+      <virtualization:ExcludedKeys>
+        <virtualization:ExcludedKey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Mobility</virtualization:ExcludedKey>
+      </virtualization:ExcludedKeys>
+    </virtualization:RegistryWriteVirtualization>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.401.2352.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="CrossDeviceService.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Core/Resources/AppName" Description="ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Core/Resources/AppName" BackgroundColor="transparent" AppListEntry="none" Square150x150Logo="Assets\AppTiles\MedTile.png" Square44x44Logo="Assets\AppTiles\AppList.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\WideTile.png"/>
+        <uap:SplashScreen Image="Assets\AppTiles\SplashScreen.png" uap5:Optional="true"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap5:Extension Category="windows.startupTask">
+          <uap5:StartupTask TaskId="CrossDevice.Start" Enabled="true"/>
+        </uap5:Extension>
+        <desktop3:Extension Category="windows.cloudFiles">
+          <desktop3:CloudFiles>
+            <cloudfiles2:StorageProviderStatusUISourceFactory Clsid="0D91EB65-D3D7-42C4-B08F-E1DF5FCA6860"/>
+            <desktop3:ThumbnailProviderHandler Clsid="49492B48-D76E-4976-BC75-65F468455953"/>
+            <desktop3:CloudFilesContextMenus>
+              <desktop3:Verb Id="OneAndOnlyCommand" Clsid="753CD44D-2A35-4C71-AD74-307E0FB0D345"/>
+            </desktop3:CloudFilesContextMenus>
+            <desktop3:CustomStateHandler Clsid="20000000-0000-0000-0000-000000000001"/>
+            <desktop3:ExtendedPropertyHandler Clsid="20000000-0000-0000-0000-000000000001"/>
+            <desktop3:BannersHandler Clsid="20000000-0000-0000-0000-000000000001"/>
+          </desktop3:CloudFiles>
+        </desktop3:Extension>
+        <uap5:Extension Category="windows.activatableClass.outOfProcessServer">
+          <uap5:OutOfProcessServer ServerName="CrossDeviceServer" RunFullTrust="true">
+            <uap5:Path>CrossDeviceService.exe</uap5:Path>
+            <uap5:Arguments>-RegisterProcessAsComServer</uap5:Arguments>
+            <uap5:Instancing>singleInstance</uap5:Instancing>
+            <uap5:ActivatableClass ActivatableClassId="CrossDevice.Core.Utilities.CrossDeviceHostServer"/>
+            <uap5:ActivatableClass ActivatableClassId="CrossDevice.Settings.Utilities.SettingsUXHostServer"/>
+            <uap5:ActivatableClass ActivatableClassId="CrossDevice.Streaming.COM.StreamingUXHostServer"/>
+            <uap5:ActivatableClass ActivatableClassId="CrossDevice.Files.COM.FilesUXHostServer"/>
+            <uap5:ActivatableClass ActivatableClassId="CrossDevice.Share.COM.ShareUXHostServer"/>
+          </uap5:OutOfProcessServer>
+        </uap5:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extension.connecteddevicesexperience" DisplayName="ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Core/Resources/AppName" Id="CrossDeviceApp" PublicFolder="Public">
+            <uap3:Properties>
+              <ConnectedDevicesExperienceExtensionGUID>34057DFB-FC7C-4476-9AB7-F20D5165945F</ConnectedDevicesExperienceExtensionGUID>
+              <VelocityId Stage="EnabledByDefault">52411732</VelocityId>
+              <ApiContracts>
+                <ApiContract>WindowsUdk.System.ConnectedDevices.ConnectedDevicesContract,1,0</ApiContract>
+              </ApiContracts>
+              <MdmPolicy Area="Connectivity" Name="AllowPhonePCLinking"/>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            
+            
+            
+            
+            <com:ExeServer Executable="CrossDeviceService.exe" Arguments="-RegisterProcessAsComServer">
+              
+              <com:Class Id="0F569AC5-A3DC-4210-AC81-073AFC5B065D"/>
+              
+              <com:Class Id="0D91EB65-D3D7-42C4-B08F-E1DF5FCA6860"/>
+              
+              <com:Class Id="753CD44D-2A35-4C71-AD74-307E0FB0D345"/>
+              
+              <com:Class Id="49492B48-D76E-4976-BC75-65F468455953"/>
+              
+              <com:Class Id="34057DFB-FC7C-4476-9AB7-F20D5165945F"/>
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="0D067C5A-7EB0-44F6-A270-46D122CE1505" DisplayName="CrossDevice.Core.ProxyStub" Path="CrossDevice.Core.ProxyStub.dll"/>
+            <com:Interface Id="0D067C5A-7EB0-44F6-A270-46D122CE1505" ProxyStubClsid="0D067C5A-7EB0-44F6-A270-46D122CE1505"/>
+            <com:Interface Id="5CAF9B18-DBAE-4E49-A61A-D6D54400DA22" ProxyStubClsid="0D067C5A-7EB0-44F6-A270-46D122CE1505"/>
+          </com:ComInterface>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="DD74C126-4043-43CF-981E-867280A46D87" DisplayName="CrossDevice.Contracts.Settings.ProxyStub" Path="CrossDevice.Contracts.Settings.ProxyStub.dll"/>
+            <com:Interface Id="DD74C126-4043-43CF-981E-867280A46D87" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="697BADD9-AD13-469F-B5A0-5170F8D295D9" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="DB5A1E2F-5467-4900-8A67-9B3EE5E7BB70" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="E6D9D0F7-66A7-453B-994D-4BA2AF098EDC" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="F6048752-EA6E-5B7D-917D-A2D838591F0E" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="85E5986B-86AA-5B72-9759-10523D5B9A39" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="4665AABB-8E9B-554F-8807-29B93F5D5D13" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="5F76A283-609A-58D4-A2F5-50254ABAAF07" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="71dc9205-47f1-5ba9-890a-241c3e3ef2d7" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="BDD59BB7-1E00-47FA-A270-9BB8704BDD41" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="526A0498-79EE-4BDE-BCAB-5074A54B4EF6" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="004FB924-560A-561B-A113-B2DFA579B3B8" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="D3E33E66-0A38-591D-ACB4-F2A47B4D980F" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="5C1524E9-9DA0-5334-AE8A-2A8E6504A6AE" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="3458FE3C-DB27-4C36-A9D6-30F86BB0CBEB" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="5D5C8B7F-67DD-50DB-A7E0-D64956028B06" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="E7DB5783-2BE8-58A7-A97A-DB2EC45B6564" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="C670B328-36AA-5784-923F-231136AB510C" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="E13D715B-936C-40FB-B0A5-29026D61453C" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="98EFACAB-CCF8-4746-AB1C-FA28D460A569" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="7D09A5F6-A798-4C30-B36B-9D0CAC171EF6" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="212EE65E-0B9F-4C3D-951A-17A39304D8B7" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="EB4AB2CD-3921-5733-AA0A-AF5DAB6AB9B6" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="91DBCCC0-5CC5-5C1A-AF45-8B83B5D0FBB0" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="C9AE48F7-9939-5639-87E3-ED7B527F8AEA" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="75BA8183-3312-59EF-81B4-393CCD5A8618" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="567AB176-E698-458A-96E6-1BF63D534058" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="8E133771-9A3A-4F40-9CF5-5A47D8535BC2" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="D73A2068-E231-4DFD-822B-EBD1CEB17D30" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="398c4183-793d-5b00-819b-4aef92485e94" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="430ecece-1418-5d19-81b2-5ddb381603cc" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="76757f16-b155-5e10-bd85-80662cbfa929" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="0397472b-8937-526a-bea2-4733e1e89ea5" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="ddf01737-bdf6-4da2-8a27-187d1ade61d9" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+            <com:Interface Id="6249AE63-FD85-4AE7-9DAE-DE3D4990D0A5" ProxyStubClsid="DD74C126-4043-43CF-981E-867280A46D87"/>
+          </com:ComInterface>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="94B21456-D13B-4A86-987F-7179AD7BFE02" DisplayName="CrossDevice.Contracts.Streaming.ProxyStub" Path="CrossDevice.Contracts.Streaming.ProxyStub.dll"/>
+            <com:Interface Id="94B21456-D13B-4A86-987F-7179AD7BFE02" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="18F2B152-0BC1-4831-AB1A-5A225D212230" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="07938E69-C239-4AD7-9B18-0C377B6EB175" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="5A52DE72-79C9-4A08-ACD0-64525E8A4678" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="09F96B33-6948-488B-B222-A5FEBBC6FD93" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="35A5AD41-A230-56AF-99DB-BE868860F5CF" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="C455A990-0D32-5280-9842-FADF808331F8" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="7FD4AFD8-B740-5E7C-8E5A-E6B20D6F2616" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="9C67A380-83DB-45F2-99D6-6A5676D91608" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="476AA8FC-9199-43A0-8DFE-02A9F885FC13" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="01F9E2FC-5CD4-493D-A3AA-45590E4BA47B" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="29C315B1-46DF-5E21-A76B-C9BE807048EE" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="E8344B6E-F331-543C-A5B1-7A0DF152F58F" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="D0B41557-B973-54EC-BB07-7632943B9D84" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="C8E08E6C-8295-478F-8C4E-A121F7215086" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="0567CB5B-C834-4515-BA5E-DC2DB50AFBC5" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="660F2D63-2592-45AB-943B-B4608F69A086" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="BB069897-BA36-4D5B-BF48-DEF8200A5C40" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="A24D591C-B2B2-43C5-9589-99FB672439FB" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="03442489-F75A-4B23-9937-857546CD4BC9" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="EC602D12-52F6-4873-8B1B-823856483701" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="1527525B-9FDE-4BED-A4F7-6EA2C71AC182" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="478B84B9-499B-4650-BA59-9BAE97516620" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="910B5688-3DA1-4470-A56A-657D3A7B2AF6" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="21C28F3D-804A-45FB-BC7B-4DA9C7C129C3" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="492C0F55-76A7-452D-A926-65F56AECCB82" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="26457137-F790-4AD8-9AFF-BD5B33701D20" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="ABFDA127-8E22-4394-90E8-2EF1FA5C39D5" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="01645935-14B0-4176-8326-1E73A725A9E6" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+            <com:Interface Id="8737A136-7156-4C93-BC85-6ECA96DDBB32" ProxyStubClsid="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+          </com:ComInterface>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165" DisplayName="CrossDevice.Contracts.Files.ProxyStub" Path="CrossDevice.Contracts.Files.ProxyStub.dll"/>
+            <com:Interface Id="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165" ProxyStubClsid="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165"/>
+            <com:Interface Id="B18A4319-1BD7-4234-8D58-FEFBBD5C1B08" ProxyStubClsid="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165"/>
+            <com:Interface Id="8E78184F-2EBE-4BEC-857A-967C4E7F72A3" ProxyStubClsid="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165"/>
+          </com:ComInterface>
+        </com:Extension>
+        <com:Extension Category="windows.comInterface">
+          <com:ComInterface>
+            <com:ProxyStub Id="31DB2737-9906-442E-B70D-42EBA95EE23A" DisplayName="CrossDevice.Contracts.Share.ProxyStub" Path="CrossDevice.Contracts.Share.ProxyStub.dll"/>
+            <com:Interface Id="31DB2737-9906-442E-B70D-42EBA95EE23A" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="D222EEE8-7737-41AB-809B-8E78832D4E7F" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="356d6867-2f0c-5ab4-8b98-48815466e288" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="285aef8f-43fa-57b9-9689-96eaf167142a" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="fc0d8da8-3493-5dac-b46f-125722e4f9d5" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="142f8a9a-ed52-59eb-abc3-3b4a912945d9" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="868fd70b-bcf2-5c8f-9a3c-01646d644efd" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="629f92b7-db15-5bea-9ff9-4cca6196040c" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="9388ab0b-81e7-5841-ad03-56683ef65901" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+            <com:Interface Id="8275ff58-ce5d-5962-969c-a49e73ead20e" ProxyStubClsid="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+          </com:ComInterface>
+        </com:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="SettingsUXHostApp" Executable="CrossDeviceSettingsHost.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource://MicrosoftWindows.CrossDevice/SettingsResources/SettingsPageTitle" Description="ms-resource://MicrosoftWindows.CrossDevice/SettingsResources/SettingsPageTitle" BackgroundColor="transparent" AppListEntry="none" Square150x150Logo="Assets\AppTiles\MedTile.png" Square44x44Logo="Assets\AppTiles\AppList.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\WideTile.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-crossdevice-settings">
+            <uap:Logo>Assets\AppTiles\AppList.png</uap:Logo>
+            <uap:DisplayName>ms-resource://MicrosoftWindows.CrossDevice/SettingsResources/SettingsPageTitle</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="StreamingUXHostApp" Executable="CrossDeviceStreamingHost.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Streaming/StreamingResources/StreamingUxHostName" Description="ms-resource://MicrosoftWindows.CrossDevice/CrossDevice.Streaming/StreamingResources/StreamingUxHostName" AppListEntry="none" BackgroundColor="transparent" Square150x150Logo="Assets\StreamingIcon150x150Logo.png" Square44x44Logo="Assets\StreamingIcon44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\StreamingIcon310x150Logo.png"/>
+      </uap:VisualElements>
+    </Application>
+    <Application Id="FilesUXHostApp" Executable="CrossDeviceFilesHost.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="CrossDevice Files" Description="CrossDevice Files" AppListEntry="none" BackgroundColor="transparent" Square150x150Logo="Assets\AppTiles\MedTile.png" Square44x44Logo="Assets\AppTiles\AppList.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\AppTiles\WideTile.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-crossdevice-files">
+            <uap:Logo>Assets\AppTiles\AppList.png</uap:Logo>
+            <uap:DisplayName>CrossDevice Files</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust"/>
+    <rescap:Capability Name="unvirtualizedResources"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="0D067C5A-7EB0-44F6-A270-46D122CE1505">
+        <Path>CrossDevice.Core.ProxyStub.dll</Path>
+        <Interface Name="ICrossDeviceHost" InterfaceId="0D067C5A-7EB0-44F6-A270-46D122CE1505"/>
+        <Interface Name="ITelemetryDeviceInfo" InterfaceId="5CAF9B18-DBAE-4E49-A61A-D6D54400DA22"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="DD74C126-4043-43CF-981E-867280A46D87">
+        <Path>CrossDevice.Contracts.Settings.ProxyStub.dll</Path>
+        <Interface Name="ISettingsUXHost" InterfaceId="DD74C126-4043-43CF-981E-867280A46D87"/>
+        <Interface Name="ISettingsFeatureConfig" InterfaceId="697BADD9-AD13-469F-B5A0-5170F8D295D9"/>
+        <Interface Name="DeviceInfoChangedEventHandler" InterfaceId="DB5A1E2F-5467-4900-8A67-9B3EE5E7BB70"/>
+        <Interface Name="ISettingsDeviceInfo" InterfaceId="E6D9D0F7-66A7-453B-994D-4BA2AF098EDC"/>
+        <Interface Name="IIteratorISettingsDeviceInfo" InterfaceId="F6048752-EA6E-5B7D-917D-A2D838591F0E"/>
+        <Interface Name="IIterableISettingsDeviceInfo" InterfaceId="85E5986B-86AA-5B72-9759-10523D5B9A39"/>
+        <Interface Name="IVectorViewISettingsDeviceInfo" InterfaceId="4665AABB-8E9B-554F-8807-29B93F5D5D13"/>
+        <Interface Name="IAsyncOperationIVectorViewISettingsDeviceInfo" InterfaceId="5F76A283-609A-58D4-A2F5-50254ABAAF07"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIVectorViewISettingsDeviceInfo" InterfaceId="71dc9205-47f1-5ba9-890a-241c3e3ef2d7"/>
+        <Interface Name="SettingsFeaturePropertyChangedEventHandler" InterfaceId="BDD59BB7-1E00-47FA-A270-9BB8704BDD41"/>
+        <Interface Name="ISettingsFeatureItem" InterfaceId="526A0498-79EE-4BDE-BCAB-5074A54B4EF6"/>
+        <Interface Name="IIteratorISettingsFeatureItem" InterfaceId="004FB924-560A-561B-A113-B2DFA579B3B8"/>
+        <Interface Name="IIterableISettingsFeatureItem" InterfaceId="D3E33E66-0A38-591D-ACB4-F2A47B4D980F"/>
+        <Interface Name="IVectorViewISettingsFeatureItem" InterfaceId="5C1524E9-9DA0-5334-AE8A-2A8E6504A6AE"/>
+        <Interface Name="ISettingsItemAction" InterfaceId="3458FE3C-DB27-4C36-A9D6-30F86BB0CBEB"/>
+        <Interface Name="IIteratorISettingsItemAction" InterfaceId="5D5C8B7F-67DD-50DB-A7E0-D64956028B06"/>
+        <Interface Name="IIterableISettingsItemAction" InterfaceId="E7DB5783-2BE8-58A7-A97A-DB2EC45B6564"/>
+        <Interface Name="IVectorViewISettingsItemAction" InterfaceId="C670B328-36AA-5784-923F-231136AB510C"/>
+        <Interface Name="DeviceSettingsChangedEventHandler" InterfaceId="E13D715B-936C-40FB-B0A5-29026D61453C"/>
+        <Interface Name="IDeviceSettingsChangedEventArgs" InterfaceId="98EFACAB-CCF8-4746-AB1C-FA28D460A569"/>
+        <Interface Name="IAccountInfo" InterfaceId="7D09A5F6-A798-4C30-B36B-9D0CAC171EF6"/>
+        <Interface Name="ISwitchAccountResult" InterfaceId="212EE65E-0B9F-4C3D-951A-17A39304D8B7"/>
+        <Interface Name="IAsyncOperationIAccountInfo" InterfaceId="EB4AB2CD-3921-5733-AA0A-Af5DAB6AB9B6"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIAccountInfo" InterfaceId="91DBCCC0-5CC5-5C1A-AF45-8B83B5D0FBB0"/>
+        <Interface Name="IAsyncOperationIActiveAccountManager" InterfaceId="C9AE48F7-9939-5639-87E3-ED7B527F8AEA"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIActiveAccountManager" InterfaceId="75BA8183-3312-59EF-81B4-393CCD5A8618"/>
+        <Interface Name="ActiveAccountChangedEventHandler" InterfaceId="567AB176-E698-458A-96E6-1BF63D534058"/>
+        <Interface Name="IActiveAccountChangedEventArgs" InterfaceId="8E133771-9A3A-4F40-9CF5-5A47D8535BC2"/>
+        <Interface Name="IActiveAccountManager" InterfaceId="D73A2068-E231-4DFD-822B-EBD1CEB17D30"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIRandomAccessStream" InterfaceId="398c4183-793d-5b00-819b-4aef92485e94"/>
+        <Interface Name="IAsyncOperationIRandomAccessStream" InterfaceId="430ecece-1418-5d19-81b2-5ddb381603cc"/>
+        <Interface Name="IAsyncOperationRefreshDeviceStatus" InterfaceId="76757f16-b155-5e10-bd85-80662cbfa929"/>
+        <Interface Name="IAsyncOperationCompletedHandlerRefreshDeviceStatus" InterfaceId="0397472b-8937-526a-bea2-4733e1e89ea5"/>
+        <Interface Name="ISettingsDeviceStatus" InterfaceId="ddf01737-bdf6-4da2-8a27-187d1ade61d9"/>
+        <Interface Name="ISettingsFeatureItemWithChildren" InterfaceId="6249AE63-FD85-4AE7-9DAE-DE3D4990D0A5"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="94B21456-D13B-4A86-987F-7179AD7BFE02">
+        <Path>CrossDevice.Contracts.Streaming.ProxyStub.dll</Path>
+        <Interface Name="CameraFaceChangedEventHandler" InterfaceId="18F2B152-0BC1-4831-AB1A-5A225D212230"/>
+        <Interface Name="CameraPermissionChangedEventHandler" InterfaceId="910B5688-3DA1-4470-A56A-657D3A7B2AF6"/>
+        <Interface Name="NetworkQualityChangedEventHandler" InterfaceId="21C28F3D-804A-45FB-BC7B-4DA9C7C129C3"/>
+        <Interface Name="DeviceDataValueChangedEventHandler" InterfaceId="07938E69-C239-4AD7-9B18-0C377B6EB175"/>
+        <Interface Name="ICameraExtensionResource" InterfaceId="5A52DE72-79C9-4A08-ACD0-64525E8A4678"/>
+        <Interface Name="ICameraExtensionWrapper" InterfaceId="09F96B33-6948-488B-B222-A5FEBBC6FD93"/>
+        <Interface Name="IVectorViewICameraExtensionWrapper" InterfaceId="35A5AD41-A230-56AF-99DB-BE868860F5CF"/>
+        <Interface Name="IIterableICameraExtensionWrapper" InterfaceId="C455A990-0D32-5280-9842-FADF808331F8"/>
+        <Interface Name="IIteratorICameraExtensionWrapper" InterfaceId="7FD4AFD8-B740-5E7C-8E5A-E6B20D6F2616"/>
+        <Interface Name="ICameraFaceChangedEventArgs" InterfaceId="9C67A380-83DB-45F2-99D6-6A5676D91608"/>
+        <Interface Name="ICameraPermissionUpdateRequestedEventArgs" InterfaceId="492C0F55-76A7-452D-A926-65F56AECCB82"/>
+        <Interface Name="INetworkQualityChangedEventArgs" InterfaceId="26457137-F790-4AD8-9AFF-BD5B33701D20"/>
+        <Interface Name="IStreamingPermissionsRequestedEventArgs" InterfaceId="ABFDA127-8E22-4394-90E8-2EF1FA5C39D5"/>
+        <Interface Name="IPostNotificationsPermissionMissingEventArgs" InterfaceId="01645935-14B0-4176-8326-1E73A725A9E6"/>
+        <Interface Name="IDeviceDataValueChangedEventArgs" InterfaceId="476AA8FC-9199-43A0-8DFE-02A9F885FC13"/>
+        <Interface Name="ILocaleFallback" InterfaceId="01F9E2FC-5CD4-493D-A3AA-45590E4BA47B"/>
+        <Interface Name="IVectorViewILocaleFallback" InterfaceId="29C315B1-46DF-5E21-A76B-C9BE807048EE"/>
+        <Interface Name="IIterableILocaleFallback" InterfaceId="E8344B6E-F331-543C-A5B1-7A0DF152F58F"/>
+        <Interface Name="IIteratorILocaleFallback" InterfaceId="D0B41557-B973-54EC-BB07-7632943B9D84"/>
+        <Interface Name="ISelectedExtensionChangedEventArgs" InterfaceId="C8E08E6C-8295-478F-8C4E-A121F7215086"/>
+        <Interface Name="IStreamingDeviceData" InterfaceId="0567CB5B-C834-4515-BA5E-DC2DB50AFBC5"/>
+        <Interface Name="IStreamingUXHost" InterfaceId="94B21456-D13B-4A86-987F-7179AD7BFE02"/>
+        <Interface Name="IStreamingVirtualCamera" InterfaceId="660F2D63-2592-45AB-943B-B4608F69A086"/>
+        <Interface Name="IStreamingVirtualCameraController" InterfaceId="BB069897-BA36-4D5B-BF48-DEF8200A5C40"/>
+        <Interface Name="ISupportedExtensionsChangedEventArgs" InterfaceId="A24D591C-B2B2-43C5-9589-99FB672439FB"/>
+        <Interface Name="IVirtualCameraStateChangedEventArgs" InterfaceId="03442489-F75A-4B23-9937-857546CD4BC9"/>
+        <Interface Name="SelectedExtensionChangedEventHandler" InterfaceId="EC602D12-52F6-4873-8B1B-823856483701"/>
+        <Interface Name="SupportedExtensionChangedEventHandler" InterfaceId="1527525B-9FDE-4BED-A4F7-6EA2C71AC182"/>
+        <Interface Name="VirtualCameraStateChangedEventHandler" InterfaceId="478B84B9-499B-4650-BA59-9BAE97516620"/>
+        <Interface Name="HideCameraControlRequestedEventHandler" InterfaceId="8737A136-7156-4C93-BC85-6ECA96DDBB32"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165">
+        <Path>CrossDevice.Contracts.Files.ProxyStub.dll</Path>
+        <Interface Name="IFilesUXHost" InterfaceId="9EE7E208-DB39-4AFD-BB60-BCBDA1E3F165"/>
+        <Interface Name="IDialogCallbackManager" InterfaceId="B18A4319-1BD7-4234-8D58-FEFBBD5C1B08"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="31DB2737-9906-442E-B70D-42EBA95EE23A">
+        <Path>CrossDevice.Contracts.Share.ProxyStub.dll</Path>
+        <Interface Name="IShareUXHost" InterfaceId="31DB2737-9906-442E-B70D-42EBA95EE23A"/>
+        <Interface Name="IShareDevice" InterfaceId="D222EEE8-7737-41AB-809B-8E78832D4E7F"/>
+        <Interface Name="IIterableIShareDevice" InterfaceId="356d6867-2f0c-5ab4-8b98-48815466e288"/>
+        <Interface Name="IIteratorIShareDevice" InterfaceId="285aef8f-43fa-57b9-9689-96eaf167142a"/>
+        <Interface Name="IVectorViewIShareDevice" InterfaceId="fc0d8da8-3493-5dac-b46f-125722e4f9d5"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIVectorViewIShareDevice" InterfaceId="142f8a9a-ed52-59eb-abc3-3b4a912945d9"/>
+        <Interface Name="IAsyncOperationIVectorViewIShareDevice" InterfaceId="868fd70b-bcf2-5c8f-9a3c-01646d644efd"/>
+        <Interface Name="IShareResult" InterfaceId="629f92b7-db15-5bea-9ff9-4cca6196040c"/>
+        <Interface Name="IAsyncOperationCompletedHandlerIShareResult" InterfaceId="9388ab0b-81e7-5841-ad03-56683ef65901"/>
+        <Interface Name="IAsyncOperationIShareResult" InterfaceId="8275ff58-ce5d-5962-969c-a49e73ead20e"/>
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CrossDevice.Core.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="CrossDevice.Core.WinRT.ProcessUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CrossDevice.Core.WinRT.ExpUtils" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="CrossDevice.Core.WinRT.DebugUtils" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CrossDevice.Streaming.WinRT.dll</Path>
+        <ActivatableClass ActivatableClassId="CrossDevice.Streaming.WinRT.VirtualCameraRegistrar" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="{C15018AF-8A42-4A55-B453-54BFFCDDA370}"/>
+    <build:Item Name="makepri.exe" Version="10.0.22621.2428 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

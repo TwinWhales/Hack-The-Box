@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="has_user_tapped_feature_card_notice" value="false" />
+    <long name="fg_failure_interval_start" value="1720644502911" />
+    <long name="pref_key_app_version" value="26800411" />
+    <long name="c2q_crash_count" value="0" />
+    <int name="version_code_for_feature_suggestion_check" value="15" />
+    <int name="fg_download_failures" value="0" />
+</map>

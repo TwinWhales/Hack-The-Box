@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="authorized_Account {name=johnnnny999999@gmail.com, type=com.google}" value="true" />
+    <long name="authenticationFailureTime_Account {name=johnnnny999999@gmail.com, type=com.google}" value="-1" />
+    <int name="deviceTag_Account {name=johnnnny999999@gmail.com, type=com.google}" value="854526452" />
+    <int name="disable_ulr_key" value="0" />
+    <int name="location_enabled_key" value="3" />
+    <int name="Location_battery_saver_mode_threshold_key" value="0" />
+    <long name="gcmIdUploadTime_Account {name=johnnnny999999@gmail.com, type=com.google}" value="1720644782771" />
+    <int name="location_enabled_for_google_app_key" value="1" />
+    <int name="wifi_enabled_key" value="1" />
+    <int name="Location_wifi_scan_enabled_key" value="1" />
+    <long name="reportingAutoenableManagerInitTimeMillisKey" value="1720644516534" />
+    <string name="reportingConfig">EtUBChhqb2hubm5ueTk5OTk5OUBnbWFpbC5jb20SCmNvbS5nb29nbGUYASADKAEwADgAQABIoZ6v84kyUABYAWAAag4IARAAGAEgACgBMAE4AXD0k7yXA3gBigEZQW5kcm9pZCBTREsgYnVpbHQgZm9yIHg4NpABs5Wv84kyogEnY29tLmdvb2dsZS5hbmRyb2lkLmdtcytuZXctYWNjb3VudCtzeW5jqgEnY29tLmdvb2dsZS5hbmRyb2lkLmdtcytuZXctYWNjb3VudCtzeW5juAEBwAEAGg4IARAAGAEgACgBMAE4AQ==</string>
+    <int name="deviceTag_Account {name=@@ContextManagerNullAccount@@, type=com.google}" value="-2070461101" />
+    <int name="Location_battery_saver_enabled_key" value="0" />
+    <int name="geo_supported_key" value="1" />
+    <int name="Location_airplane_mode_enabled_key" value="0" />
+    <long name="inactivationMillis_Account {name=johnnnny999999@gmail.com, type=com.google}" value="1720644781730" />
+</map>

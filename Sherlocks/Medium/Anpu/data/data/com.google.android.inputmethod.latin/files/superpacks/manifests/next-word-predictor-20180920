@@ -1,0 +1,32 @@
+{
+  "packs": [
+    {
+      "name": "pie-nwp-20180807",
+      "label": "pie-nwp",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/next_word_predictor/prod/pie-nwp-20180807.zip"
+      ],
+      "download_packing_scheme": "zip",
+      "md5_checksum": "15c6b511e251d445eb67950ec572e3fa",
+      "validation_schemes":  [ "md5" ],
+      "compressed_size": 1842621,
+      "size": 2432904,
+      "verify_sizes": true,
+      "locales": "en-US"
+    },
+    {
+      "name": "tflite-nwp-20180920",
+      "label": "tflite-nwp",
+      "download_urls": [
+        "https://www.gstatic.com/android/keyboard/next_word_predictor/prod/tflite-nwp-20180920.zip"
+      ],
+      "download_packing_scheme": "zip",
+      "md5_checksum": "eff9ac1b3bb280c178001a058742a0bd",
+      "validation_schemes":  [ "md5" ],
+      "compressed_size": 1847381,
+      "size": 2433132,
+      "verify_sizes": true,
+      "locales": "en-US"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this is a comment -->
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+   xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build"
+   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+   IgnorableNamespaces="uap build mp"> 
+<Identity Name="Microsoft.Services.Store.Engagement" 
+  ProcessorArchitecture="x86" 
+  Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" 
+  Version="10.0.23012.0" />
+<Properties>
+  <Framework>true</Framework>
+  <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+  <DisplayName>Microsoft Engagement Framework</DisplayName>
+  <Description>Microsoft Engagement Framework</Description>
+  <Logo>logo.png</Logo>
+</Properties>
+<Resources>
+  <Resource Language="en-US" />
+</Resources>
+<Dependencies>
+  <TargetDeviceFamily
+       Name="Windows.Universal"
+       MinVersion="10.0.10240.0"
+       MaxVersionTested="10.0.10240.0" />
+</Dependencies> 
+<mp:PhoneIdentity PhoneProductId="95bd251c-91e7-49eb-81ce-53c6f6141bfe" PhonePublisherId="a8099e80-050d-411d-9b45-4ea107a7be6b" />
+<Extensions>
+  <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Services.Store.Engagement.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesEngagementManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesNotificationChannelRegistrationResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesExperimentVariation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesExperimentVariationResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesFeedbackLauncher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesNotificationChannelParameters" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Services.Store.Engagement.StoreServicesCustomEventLogger" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  <Extension Category="windows.activatableClass.proxyStub">
+    <!-- ClassId is based on IID___x_ABI_CMicrosoft_CServices_CStore_CEngagement_CIStoreServicesExperimentVariationStatics -->
+    <ProxyStub ClassId="9FD9CE13-D2D8-45AB-8E62-038F241F0831">
+        <Path>Microsoft.Services.Store.Engagement.Proxies.dll</Path>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesExperimentVariation"
+            InterfaceId="A007F897-680B-3977-A5C7-69CC52A3F597"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesExperimentVariationStatics"
+            InterfaceId="9FD9CE13-D2D8-45AB-8E62-038F241F0831"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesCustomEventLogger"
+            InterfaceId="6D544721-C351-3A70-95B6-161F52FBC13D"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesCustomEventLoggerStatics"
+            InterfaceId="5E9C9D4B-A892-32F3-87AC-410B81F89CD6"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesNotificationChannelRegistrationResult"
+            InterfaceId="900864FC-9EB2-3CB6-A66D-268C314158A9"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesExperimentVariationResult"
+            InterfaceId="BAAEBD73-0AFE-3D1A-AD69-A6D038D5BBBB"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesNotificationChannelParameters"
+            InterfaceId="AC235DAA-1E0B-4A48-A3C5-E476718A1F10"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesFeedbackLauncher"
+            InterfaceId="D817BED4-DBA8-3460-B107-045D489115C6"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesFeedbackLauncherStatics"
+            InterfaceId="F210177C-B2DF-3840-8C7D-937EDD599B6E"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesEngagementManager"
+            InterfaceId="84538148-CE79-332C-B58A-E613A3880190"/>
+      <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesEngagementManager2"
+          InterfaceId="8FDC08C7-9706-448C-B13F-DCDA5ED7DC54"/>
+        <Interface Name="Microsoft.Services.Store.Engagement.IStoreServicesEngagementManagerStatics"
+            InterfaceId="F0DC21A7-9459-376A-99F3-09AB34EE70C9"/>
+      </ProxyStub>
+    </Extension>
+</Extensions>
+</Package>

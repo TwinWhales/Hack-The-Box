@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="policycreation1233179239" value="1720736217505" />
+    <long name="retryattempts1233179239" value="3" />
+    <long name="checkinafter1233179239" value="1719662652" />
+    <long name="retryperiod1233179239" value="43200000" />
+    <long name="currentretryattempt1233179239" value="0" />
+</map>

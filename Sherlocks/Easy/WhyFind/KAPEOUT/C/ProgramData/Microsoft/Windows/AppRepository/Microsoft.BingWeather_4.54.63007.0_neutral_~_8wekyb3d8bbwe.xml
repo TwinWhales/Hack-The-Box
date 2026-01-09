@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.BingWeather" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="4.54.63007.0"/>
+	<Packages>
+		<Package Type="application" Version="4.54.63007.0" Architecture="x64" FileName="Weather_4.54.63007.0_x64.msix" Offset="14369121" Size="12157137">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="4.54.63007.0" Architecture="x86" FileName="Weather_4.54.63007.0_x86.msix" Offset="26526341" Size="11057316">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="4.54.63007.0" Architecture="arm64" FileName="Weather_4.54.63007.0_ARM64.msix" Offset="61" Size="11656039">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="ES-019"/>
+				<Resource Language="ES-AR"/>
+				<Resource Language="ES-MX"/>
+				<Resource Language="ES"/>
+				<Resource Language="AR"/>
+				<Resource Language="FR"/>
+				<Resource Language="FR-BE"/>
+				<Resource Language="FR-CA"/>
+				<Resource Language="ZH-HANS"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-nb" FileName="Weather_4.54.63007.0_language-nb.msix" Offset="12902280" Size="20869">
+			<Resources>
+				<Resource Language="nb"/>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-mr" FileName="Weather_4.54.63007.0_language-mr.msix" Offset="12837498" Size="22167">
+			<Resources>
+				<Resource Language="mr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-gu" FileName="Weather_4.54.63007.0_language-gu.msix" Offset="12231694" Size="22200">
+			<Resources>
+				<Resource Language="gu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-fil-latn" FileName="Weather_4.54.63007.0_language-fil-latn.msix" Offset="12123094" Size="21444">
+			<Resources>
+				<Resource Language="fil"/>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-eu" FileName="Weather_4.54.63007.0_language-eu.msix" Offset="12058339" Size="21194">
+			<Resources>
+				<Resource Language="eu"/>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-el" FileName="Weather_4.54.63007.0_language-el.msix" Offset="11991459" Size="23342">
+			<Resources>
+				<Resource Language="el"/>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ca" FileName="Weather_4.54.63007.0_language-ca.msix" Offset="11855790" Size="25513">
+			<Resources>
+				<Resource Language="ca"/>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-bn" FileName="Weather_4.54.63007.0_language-bn.msix" Offset="11807680" Size="26326">
+			<Resources>
+				<Resource Language="bn-bd"/>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-zh-hant" FileName="Weather_4.54.63007.0_language-zh-hant.msix" Offset="13849457" Size="23994">
+			<Resources>
+				<Resource Language="zh-hant"/>
+				<Resource Language="zh-hant-hk"/>
+				<Resource Language="zh-hant-tw"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-yo-latn" FileName="Weather_4.54.63007.0_language-yo-latn.msix" Offset="13811667" Size="18878">
+			<Resources>
+				<Resource Language="yo-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-uz-latn" FileName="Weather_4.54.63007.0_language-uz-latn.msix" Offset="13732083" Size="20581">
+			<Resources>
+				<Resource Language="uz-latn"/>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ti" FileName="Weather_4.54.63007.0_language-ti.msix" Offset="13562073" Size="19676">
+			<Resources>
+				<Resource Language="ti"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-tg-cyrl" FileName="Weather_4.54.63007.0_language-tg-cyrl.msix" Offset="13520275" Size="19511">
+			<Resources>
+				<Resource Language="tg-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-da" FileName="Weather_4.54.63007.0_language-da.msix" Offset="11945923" Size="21032">
+			<Resources>
+				<Resource Language="da"/>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sk" FileName="Weather_4.54.63007.0_language-sk.msix" Offset="13317966" Size="21946">
+			<Resources>
+				<Resource Language="sk"/>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-be" FileName="Weather_4.54.63007.0_language-be.msix" Offset="11762835" Size="21866">
+			<Resources>
+				<Resource Language="be"/>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sd-arab" FileName="Weather_4.54.63007.0_language-sd-arab.msix" Offset="13275621" Size="20729">
+			<Resources>
+				<Resource Language="sd-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-et" FileName="Weather_4.54.63007.0_language-et.msix" Offset="12037022" Size="21226">
+			<Resources>
+				<Resource Language="et"/>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-az-latn" FileName="Weather_4.54.63007.0_language-az-latn.msix" Offset="11741441" Size="21303">
+			<Resources>
+				<Resource Language="az-latn"/>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ru" FileName="Weather_4.54.63007.0_language-ru.msix" Offset="13233640" Size="23471">
+			<Resources>
+				<Resource Language="ru"/>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-fi" FileName="Weather_4.54.63007.0_language-fi.msix" Offset="12101695" Size="21302">
+			<Resources>
+				<Resource Language="fi"/>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-as" FileName="Weather_4.54.63007.0_language-as.msix" Offset="11718962" Size="22383">
+			<Resources>
+				<Resource Language="as"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-pa-arab" FileName="Weather_4.54.63007.0_language-pa-arab.msix" Offset="13030252" Size="19009">
+			<Resources>
+				<Resource Language="pa-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ga" FileName="Weather_4.54.63007.0_language-ga.msix" Offset="12167090" Size="21545">
+			<Resources>
+				<Resource Language="ga"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-nso" FileName="Weather_4.54.63007.0_language-nso.msix" Offset="12989247" Size="18397">
+			<Resources>
+				<Resource Language="nso"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-af" FileName="Weather_4.54.63007.0_language-af.msix" Offset="11656191" Size="21031">
+			<Resources>
+				<Resource Language="af"/>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ar" FileName="Weather_4.54.63007.0_language-ar.msix" Offset="11699679" Size="19192">
+			<Resources>
+				<Resource Language="ar"/>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-mt" FileName="Weather_4.54.63007.0_language-mt.msix" Offset="12880668" Size="21521">
+			<Resources>
+				<Resource Language="mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-lb" FileName="Weather_4.54.63007.0_language-lb.msix" Offset="12661092" Size="21615">
+			<Resources>
+				<Resource Language="lb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-kok" FileName="Weather_4.54.63007.0_language-kok.msix" Offset="12597877" Size="22351">
+			<Resources>
+				<Resource Language="kok"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-hr" FileName="Weather_4.54.63007.0_language-hr.msix" Offset="12316253" Size="21586">
+			<Resources>
+				<Resource Language="hr"/>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-hu" FileName="Weather_4.54.63007.0_language-hu.msix" Offset="12337930" Size="21809">
+			<Resources>
+				<Resource Language="hu"/>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-kn" FileName="Weather_4.54.63007.0_language-kn.msix" Offset="12553427" Size="22802">
+			<Resources>
+				<Resource Language="kn"/>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-kk" FileName="Weather_4.54.63007.0_language-kk.msix" Offset="12507967" Size="22548">
+			<Resources>
+				<Resource Language="kk"/>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-is" FileName="Weather_4.54.63007.0_language-is.msix" Offset="12420290" Size="21459">
+			<Resources>
+				<Resource Language="is"/>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ro" FileName="Weather_4.54.63007.0_language-ro.msix" Offset="13211850" Size="21699">
+			<Resources>
+				<Resource Language="ro"/>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.scale-125" FileName="Weather_4.54.63007.0_scale-125.msix" Offset="13952371" Size="72503">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.scale-100" FileName="Weather_4.54.63007.0_scale-100.msix" Offset="13892132" Size="60150">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ka" FileName="Weather_4.54.63007.0_language-ka.msix" Offset="12485430" Size="22446">
+			<Resources>
+				<Resource Language="ka"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-id" FileName="Weather_4.54.63007.0_language-id.msix" Offset="12381295" Size="20708">
+			<Resources>
+				<Resource Language="id"/>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-km" FileName="Weather_4.54.63007.0_language-km.msix" Offset="12530606" Size="22730">
+			<Resources>
+				<Resource Language="km"/>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-zu" FileName="Weather_4.54.63007.0_language-zu.msix" Offset="13873542" Size="18501">
+			<Resources>
+				<Resource Language="zu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ko" FileName="Weather_4.54.63007.0_language-ko.msix" Offset="12576320" Size="21465">
+			<Resources>
+				<Resource Language="ko"/>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-bs" FileName="Weather_4.54.63007.0_language-bs.msix" Offset="11834097" Size="21602">
+			<Resources>
+				<Resource Language="bs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ku-arab" FileName="Weather_4.54.63007.0_language-ku-arab.msix" Offset="12620324" Size="18774">
+			<Resources>
+				<Resource Language="ku-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ky-cyrl" FileName="Weather_4.54.63007.0_language-ky-cyrl.msix" Offset="12639194" Size="21807">
+			<Resources>
+				<Resource Language="ky-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-he" FileName="Weather_4.54.63007.0_language-he.msix" Offset="12272437" Size="21311">
+			<Resources>
+				<Resource Language="he"/>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-zh-hans" FileName="Weather_4.54.63007.0_language-zh-hans.msix" Offset="13830641" Size="18720">
+			<Resources>
+				<Resource Language="zh-cn"/>
+				<Resource Language="zh-hans"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-lt" FileName="Weather_4.54.63007.0_language-lt.msix" Offset="12705300" Size="21845">
+			<Resources>
+				<Resource Language="lt"/>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-lv" FileName="Weather_4.54.63007.0_language-lv.msix" Offset="12727236" Size="21888">
+			<Resources>
+				<Resource Language="lv"/>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-mi-latn" FileName="Weather_4.54.63007.0_language-mi-latn.msix" Offset="12749220" Size="20818">
+			<Resources>
+				<Resource Language="mi"/>
+				<Resource Language="mi-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-wo-latn" FileName="Weather_4.54.63007.0_language-wo-latn.msix" Offset="13774954" Size="18088">
+			<Resources>
+				<Resource Language="wo"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ml" FileName="Weather_4.54.63007.0_language-ml.msix" Offset="12792825" Size="23220">
+			<Resources>
+				<Resource Language="ml"/>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-am" FileName="Weather_4.54.63007.0_language-am.msix" Offset="11677313" Size="22275">
+			<Resources>
+				<Resource Language="am"/>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-chr-cher" FileName="Weather_4.54.63007.0_language-chr-cher.msix" Offset="11881400" Size="21269">
+			<Resources>
+				<Resource Language="chr-cher"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ug-arab" FileName="Weather_4.54.63007.0_language-ug-arab.msix" Offset="13664586" Size="21479">
+			<Resources>
+				<Resource Language="ug-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ha-latn" FileName="Weather_4.54.63007.0_language-ha-latn.msix" Offset="12253990" Size="18356">
+			<Resources>
+				<Resource Language="ha-latn"/>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-gl" FileName="Weather_4.54.63007.0_language-gl.msix" Offset="12210275" Size="21328">
+			<Resources>
+				<Resource Language="gl"/>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ne" FileName="Weather_4.54.63007.0_language-ne.msix" Offset="12923240" Size="22121">
+			<Resources>
+				<Resource Language="ne"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-tt-cyrl" FileName="Weather_4.54.63007.0_language-tt-cyrl.msix" Offset="13642402" Size="22088">
+			<Resources>
+				<Resource Language="tt-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-nn" FileName="Weather_4.54.63007.0_language-nn.msix" Offset="12968455" Size="20700">
+			<Resources>
+				<Resource Language="nn"/>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-gd-latn" FileName="Weather_4.54.63007.0_language-gd-latn.msix" Offset="12188731" Size="21453">
+			<Resources>
+				<Resource Language="gd-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-or" FileName="Weather_4.54.63007.0_language-or.msix" Offset="13007735" Size="22421">
+			<Resources>
+				<Resource Language="or"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-fr" FileName="Weather_4.54.63007.0_language-fr.msix" Offset="12144629" Size="22370">
+			<Resources>
+				<Resource Language="fr"/>
+				<Resource Language="fr-be"/>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-tr" FileName="Weather_4.54.63007.0_language-tr.msix" Offset="13620823" Size="21483">
+			<Resources>
+				<Resource Language="tr"/>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-tn" FileName="Weather_4.54.63007.0_language-tn.msix" Offset="13602203" Size="18529">
+			<Resources>
+				<Resource Language="tn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-prs-arab" FileName="Weather_4.54.63007.0_language-prs-arab.msix" Offset="13093876" Size="21208">
+			<Resources>
+				<Resource Language="prs-arab"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-pt" FileName="Weather_4.54.63007.0_language-pt.msix" Offset="13115175" Size="27762">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-tk-latn" FileName="Weather_4.54.63007.0_language-tk-latn.msix" Offset="13581845" Size="20267">
+			<Resources>
+				<Resource Language="tk-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-quc-latn" FileName="Weather_4.54.63007.0_language-quc-latn.msix" Offset="13172640" Size="18060">
+			<Resources>
+				<Resource Language="quc-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-quz-latn" FileName="Weather_4.54.63007.0_language-quz-latn.msix" Offset="13190797" Size="20962">
+			<Resources>
+				<Resource Language="quz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-mn-cyrl" FileName="Weather_4.54.63007.0_language-mn-cyrl.msix" Offset="12816141" Size="21266">
+			<Resources>
+				<Resource Language="mn-cyrl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-cs" FileName="Weather_4.54.63007.0_language-cs.msix" Offset="11902760" Size="21994">
+			<Resources>
+				<Resource Language="cs"/>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-rw" FileName="Weather_4.54.63007.0_language-rw.msix" Offset="13257202" Size="18323">
+			<Resources>
+				<Resource Language="rw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-es" FileName="Weather_4.54.63007.0_language-es.msix" Offset="12014892" Size="22039">
+			<Resources>
+				<Resource Language="es-019"/>
+				<Resource Language="es-ar"/>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-si" FileName="Weather_4.54.63007.0_language-si.msix" Offset="13296441" Size="21434">
+			<Resources>
+				<Resource Language="si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-de" FileName="Weather_4.54.63007.0_language-de.msix" Offset="11967046" Size="24322">
+			<Resources>
+				<Resource Language="de"/>
+				<Resource Language="de-at"/>
+				<Resource Language="de-ch"/>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sl" FileName="Weather_4.54.63007.0_language-sl.msix" Offset="13340003" Size="21751">
+			<Resources>
+				<Resource Language="sl"/>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-th" FileName="Weather_4.54.63007.0_language-th.msix" Offset="13539877" Size="22105">
+			<Resources>
+				<Resource Language="th"/>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sr-cyrl" FileName="Weather_4.54.63007.0_language-sr-cyrl.msix" Offset="13383702" Size="28106">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sr-latn" FileName="Weather_4.54.63007.0_language-sr-latn.msix" Offset="13411904" Size="21434">
+			<Resources>
+				<Resource Language="sr-latn"/>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sv" FileName="Weather_4.54.63007.0_language-sv.msix" Offset="13433429" Size="20958">
+			<Resources>
+				<Resource Language="sv"/>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sw" FileName="Weather_4.54.63007.0_language-sw.msix" Offset="13454478" Size="20091">
+			<Resources>
+				<Resource Language="sw"/>
+				<Resource Language="sw-ke"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ta" FileName="Weather_4.54.63007.0_language-ta.msix" Offset="13474660" Size="22528">
+			<Resources>
+				<Resource Language="ta"/>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-te" FileName="Weather_4.54.63007.0_language-te.msix" Offset="13497279" Size="22900">
+			<Resources>
+				<Resource Language="te"/>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-cy" FileName="Weather_4.54.63007.0_language-cy.msix" Offset="11924845" Size="20987">
+			<Resources>
+				<Resource Language="cy"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-mk" FileName="Weather_4.54.63007.0_language-mk.msix" Offset="12770129" Size="22605">
+			<Resources>
+				<Resource Language="mk"/>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-fa" FileName="Weather_4.54.63007.0_language-fa.msix" Offset="12079624" Size="21980">
+			<Resources>
+				<Resource Language="fa"/>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-qps-ploc" FileName="Weather_4.54.63007.0_language-qps-ploc.msix" Offset="13143034" Size="29509">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-pl" FileName="Weather_4.54.63007.0_language-pl.msix" Offset="13071644" Size="22135">
+			<Resources>
+				<Resource Language="pl"/>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-pa" FileName="Weather_4.54.63007.0_language-pa.msix" Offset="13049352" Size="22201">
+			<Resources>
+				<Resource Language="pa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-nl" FileName="Weather_4.54.63007.0_language-nl.msix" Offset="12945452" Size="22912">
+			<Resources>
+				<Resource Language="nl"/>
+				<Resource Language="nl-be"/>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ms" FileName="Weather_4.54.63007.0_language-ms.msix" Offset="12859756" Size="20821">
+			<Resources>
+				<Resource Language="ms"/>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-uk" FileName="Weather_4.54.63007.0_language-uk.msix" Offset="13686156" Size="23714">
+			<Resources>
+				<Resource Language="uk"/>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ur" FileName="Weather_4.54.63007.0_language-ur.msix" Offset="13709961" Size="22026">
+			<Resources>
+				<Resource Language="ur"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-it" FileName="Weather_4.54.63007.0_language-it.msix" Offset="12441840" Size="21702">
+			<Resources>
+				<Resource Language="it"/>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-vi" FileName="Weather_4.54.63007.0_language-vi.msix" Offset="13752755" Size="22103">
+			<Resources>
+				<Resource Language="vi"/>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ig-latn" FileName="Weather_4.54.63007.0_language-ig-latn.msix" Offset="12402099" Size="18100">
+			<Resources>
+				<Resource Language="ig-latn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-xh" FileName="Weather_4.54.63007.0_language-xh.msix" Offset="13793133" Size="18438">
+			<Resources>
+				<Resource Language="xh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-bg" FileName="Weather_4.54.63007.0_language-bg.msix" Offset="11784792" Size="22797">
+			<Resources>
+				<Resource Language="bg"/>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-lo" FileName="Weather_4.54.63007.0_language-lo.msix" Offset="12682798" Size="22411">
+			<Resources>
+				<Resource Language="lo"/>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-hi" FileName="Weather_4.54.63007.0_language-hi.msix" Offset="12293839" Size="22323">
+			<Resources>
+				<Resource Language="hi"/>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-ja" FileName="Weather_4.54.63007.0_language-ja.msix" Offset="12463633" Size="21706">
+			<Resources>
+				<Resource Language="ja"/>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-sq" FileName="Weather_4.54.63007.0_language-sq.msix" Offset="13361845" Size="21761">
+			<Resources>
+				<Resource Language="sq"/>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.language-hy" FileName="Weather_4.54.63007.0_language-hy.msix" Offset="12359830" Size="21374">
+			<Resources>
+				<Resource Language="hy"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.scale-150" FileName="Weather_4.54.63007.0_scale-150.msix" Offset="14024963" Size="80826">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.54.63007.0" ResourceId="split.scale-400" FileName="Weather_4.54.63007.0_scale-400.msix" Offset="14105878" Size="263160">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="storeAvailableLastChecked" value="1720644778788" />
+    <boolean name="storeAvailable" value="false" />
+    <long name="lastActiveUserEvent" value="1720644778715" />
+    <boolean name="isInvalidAccount" value="false" />
+    <string name="StringNonNegativeLoggingId">27929c32f7c19516</string>
+    <boolean name="useGcmPeriodicSync" value="true" />
+    <boolean name="upgradeSyncDone" value="false" />
+</map>

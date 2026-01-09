@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" IgnorableNamespaces="uap uap3 rescap desktop2">
+  <Identity Name="Microsoft.Copilot" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="0.4.2.0" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>Copilot</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0" />
+    <uap10:HostRuntimeDependency Name="Microsoft.MicrosoftEdge.Stable" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="1.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" uap10:HostId="PWA" uap10:Parameters="--app-id=khiogjgiicnghciboipemonlmgelhblf --ip-edge-aumid=Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe!MSEDGE --app-fallback-url=https://copilot.microsoft.com/?dpwa=1 --display-mode=standalone --windows-store-app">
+      <uap:VisualElements DisplayName="Copilot" Description="Copilot" BackgroundColor="transparent" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png">
+        <uap:DefaultTile Square71x71Logo="Images\SmallTile.png" Wide310x150Logo="Images\Wide310x150Logo.png" Square310x310Logo="Images\LargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="microsoft.store.edgePWA" Id="MicrosoftEdge" DisplayName="Microsoft Edge" Description="Microsoft Edge" PublicFolder="Public" />
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.ms.webapp.internals.4" Id="Microsoft.Copilot" PublicFolder="Public" DisplayName="Edge External WebApp Internals" Description="parameters?--app-id=khiogjgiicnghciboipemonlmgelhblf --ip-edge-aumid=Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe!MSEDGE --app-fallback-url=https://copilot.microsoft.com/?dpwa=1 --display-mode=standalone --windows-store-app;profile-directory?Default;start-url?https://copilot.microsoft.com/?dpwa=1" />
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <mp:PhoneIdentity PhoneProductId="3cf5504a-5ca6-433c-9ae6-9d2aa569b90c" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+</Package>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="last_stored_signatures_white_list">B28C3EDB665DF32686224DF800F603E9959BBE4E,0980A12BE993528C19107BC21AD811478C63CEFC,B38FA7B5ECFAEC44620A020752B07E063B3120A8,203997BC46B8792DC9747ABD230569071F9A0439,EDA6413C3E3A95492114FE07CD953AD897E40D1A,760EBB9F4200B3DFB1B817B40FF0563A3C150D39,5B368CFF2DA2686996BC95EAC190EAA4F5630FE5,01D845B26B688D8EF647205A5944E9407E52E06E,27196E386B875E76ADF700E7EA84E4C6EEE33DFA,1CDD04F1E4A732BB0352FDFAEE26D2315526DF85,025D5212BF3B5F5CDA6117A518721D70A94D84E0</string>
+    <string name="last_stored_signatures_ec_api_white_list">B28C3EDB665DF32686224DF800F603E9959BBE4E,0980A12BE993528C19107BC21AD811478C63CEFC,B38FA7B5ECFAEC44620A020752B07E063B3120A8,203997BC46B8792DC9747ABD230569071F9A0439,EDA6413C3E3A95492114FE07CD953AD897E40D1A,760EBB9F4200B3DFB1B817B40FF0563A3C150D39,5B368CFF2DA2686996BC95EAC190EAA4F5630FE5,01D845B26B688D8EF647205A5944E9407E52E06E,27196E386B875E76ADF700E7EA84E4C6EEE33DFA,1CDD04F1E4A732BB0352FDFAEE26D2315526DF85,025D5212BF3B5F5CDA6117A518721D70A94D84E0</string>
+    <string name="last_stored_signatures_test_service_white_list">AE41481F52E0F58DF2806D5A38EB3DBCA5AE02B0,E165542B31953CC282AA4EF2F4D5F07F7663A2A2</string>
+    <string name="last_stored_packages_white_list">com.google.android.apps.messaging,com.google.android.dialer,com.google.android.ims.client.sampleapp,com.android.contacts,com.lge.rcscall,com.android.incallui,com.huawei.incallui.appfeature.rcsfeature</string>
+    <string name="last_stored_packages_ec_api_white_list">com.google.android.apps.messaging,com.google.android.dialer,com.google.android.ims.client.sampleapp,com.android.contacts,com.lge.rcscall,com.android.incallui,com.huawei.incallui.appfeature.rcsfeature</string>
+    <int name="operation_mode" value="2" />
+    <boolean name="is_cs_apk_the_sim_call_manager" value="false" />
+    <string name="last_stored_packages_test_service_white_list">com.google.android.ims.mobly.snippets</string>
+    <string name="client_id">urn:gsma:imei:35824005-111111-0</string>
+</map>

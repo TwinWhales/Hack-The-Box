@@ -1,0 +1,4 @@
+#no pool
+#Fri Jul 12 00:16:42 GMT+02:00 2024
+custom_app_data_map={"is_bg"\:"true","intent_action"\:"android.intent.action.BOOT_COMPLETED","broadcasts"\:"com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver","curr_comp_type"\:"receiver","cs_mode"\:"def_bg","broadcast_received_to_be_replayed"\:"1","curr_comp_name"\:"com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver","comp_name"\:"com.facebook.push.mqtt.receiver.BootCompleteBroadcastReceiver","curr_intent_action"\:"android.intent.action.BOOT_COMPLETED","comp_type"\:"receiver"}
+lacrima_internal_time_apply=Time\: critical_suppl_background_ms\=64/nTime\: large_suppl_background_ms\=0/n

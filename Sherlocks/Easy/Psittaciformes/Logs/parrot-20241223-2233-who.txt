@@ -1,0 +1,4 @@
+           system boot  2024-09-03 10:17
+           run-level 5  2024-09-03 10:17
+LOGIN      -            2024-09-03 10:17               934 id=tty1
+johnspire + tty7         2024-09-03 10:17  old         1148 (:0)

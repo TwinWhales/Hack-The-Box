@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.YourPhone" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.25032.82.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="0.25032.82.0" Architecture="arm64" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_ARM64.msix" Offset="93" Size="813325" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-af" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-af.msix" Offset="813541" Size="11042" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="af-za"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-am" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-am.msix" Offset="824706" Size="11133" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="am-et"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ar" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ar.msix" Offset="835962" Size="11088" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ar-sa"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-as" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-as.msix" Offset="847173" Size="11177" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="as-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-az-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-az-latn.msix" Offset="858478" Size="11109" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="az-latn-az"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-be" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-be.msix" Offset="869710" Size="10521" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="be-by"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-bg.msix" Offset="880354" Size="11174" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-bn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-bn.msix" Offset="891651" Size="11201" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-bs" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-bs.msix" Offset="902975" Size="11053" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bs-latn-ba"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ca.msix" Offset="914151" Size="11286" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca-es"/>
+				<b5:Resource Language="ca-es-valencia"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-cs.msix" Offset="925560" Size="11069" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-cy" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-cy.msix" Offset="936752" Size="11046" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cy-gb"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-da.msix" Offset="947921" Size="11045" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-de.msix" Offset="959089" Size="11094" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-el.msix" Offset="970306" Size="11275" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-es.msix" Offset="981704" Size="11274" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es-es"/>
+				<b5:Resource Language="es-mx"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-et.msix" Offset="993101" Size="11041" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-eu.msix" Offset="1004265" Size="11027" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-fa" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-fa.msix" Offset="1015415" Size="11144" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fa-ir"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-fi.msix" Offset="1026682" Size="11053" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-fil-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-fil-latn.msix" Offset="1037864" Size="11064" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fil-ph"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-fr.msix" Offset="1049051" Size="11267" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr-ca"/>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ga" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ga.msix" Offset="1060441" Size="11080" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ga-ie"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-gd-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-gd-latn.msix" Offset="1071649" Size="11088" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gd-gb"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-gl.msix" Offset="1082860" Size="11041" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-gu" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-gu.msix" Offset="1094024" Size="11163" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gu-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-he" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-he.msix" Offset="1105310" Size="11006" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="he-il"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-hi.msix" Offset="1116439" Size="11153" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-hr.msix" Offset="1127715" Size="11027" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-hu.msix" Offset="1138865" Size="11104" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-hy" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-hy.msix" Offset="1150092" Size="11161" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hy-am"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-id.msix" Offset="1161376" Size="10995" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-is" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-is.msix" Offset="1172494" Size="11067" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="is-is"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-it.msix" Offset="1183684" Size="11063" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ja.msix" Offset="1194870" Size="11072" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ka" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ka.msix" Offset="1206065" Size="11135" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ka-ge"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-kk.msix" Offset="1217323" Size="11200" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-km" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-km.msix" Offset="1228646" Size="11199" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="km-kh"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-kn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-kn.msix" Offset="1239968" Size="11191" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ko.msix" Offset="1251282" Size="11132" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-kok" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-kok.msix" Offset="1262538" Size="11157" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kok-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-lb" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-lb.msix" Offset="1273818" Size="11114" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lb-lu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-lo" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-lo.msix" Offset="1285055" Size="11149" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lo-la"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-lt.msix" Offset="1296327" Size="11039" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-lv.msix" Offset="1307489" Size="11108" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-mi-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-mi-latn.msix" Offset="1318725" Size="11022" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mi-nz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-mk" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-mk.msix" Offset="1329870" Size="11177" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mk-mk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ml" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ml.msix" Offset="1341170" Size="11189" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ml-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-mr" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-mr.msix" Offset="1352482" Size="11140" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mr-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ms.msix" Offset="1363745" Size="10987" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-mt" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-mt.msix" Offset="1374855" Size="11095" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mt-mt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-nb.msix" Offset="1386073" Size="11041" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ne" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ne.msix" Offset="1397237" Size="11185" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ne-np"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-nl.msix" Offset="1408545" Size="11029" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-nn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-nn.msix" Offset="1419697" Size="11025" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nn-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-or" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-or.msix" Offset="1430845" Size="11176" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="or-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-pa" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-pa.msix" Offset="1442144" Size="11170" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pa-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-pl.msix" Offset="1453437" Size="11090" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-pt.msix" Offset="1464650" Size="11405" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-qps-ploc" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-qps-ploc.msix" Offset="1476184" Size="10547" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-ploc"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-qps-ploca" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-qps-ploca.msix" Offset="1486861" Size="10558" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-ploca"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-qps-plocm" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-qps-plocm.msix" Offset="1497549" Size="10553" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-plocm"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-quz-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-quz-latn.msix" Offset="1508231" Size="11025" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="quz-pe"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ro.msix" Offset="1519379" Size="11049" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ru.msix" Offset="1530551" Size="11208" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sk.msix" Offset="1541882" Size="11052" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sl.msix" Offset="1553057" Size="11061" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sq" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sq.msix" Offset="1564241" Size="11060" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sq-al"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sr-cyrl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sr-cyrl.msix" Offset="1575429" Size="11515" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-cyrl-ba"/>
+				<b5:Resource Language="sr-cyrl-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sr-latn.msix" Offset="1587072" Size="11083" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-sv.msix" Offset="1598278" Size="11040" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ta" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ta.msix" Offset="1609441" Size="11204" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ta-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-te" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-te.msix" Offset="1620768" Size="11222" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="te-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-th.msix" Offset="1632113" Size="11145" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-tr.msix" Offset="1643381" Size="11093" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-tt-cyrl" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-tt-cyrl.msix" Offset="1654602" Size="11189" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tt-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ug-arab" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ug-arab.msix" Offset="1665919" Size="11181" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ug-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-uk.msix" Offset="1677223" Size="11169" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-ur" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-ur.msix" Offset="1688515" Size="11166" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ur-pk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-uz-latn" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-uz-latn.msix" Offset="1699809" Size="11088" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uz-latn-uz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-vi.msix" Offset="1711020" Size="11120" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-zh-hans.msix" Offset="1722268" Size="11019" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_language-zh-hant.msix" Offset="1733415" Size="11020" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_scale-100.msix" Offset="1744556" Size="50071" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_scale-125.msix" Offset="1794748" Size="61454" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_scale-150.msix" Offset="1856323" Size="72312" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.82.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_scale-400.msix" Offset="1928756" Size="257031" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="0.25032.82.0" Architecture="x64" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_x64.msix" Offset="2185902" Size="824217" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="0.25032.82.0" Architecture="x86" FileName="AppxMetadata\Stub\YourPhoneStub.Package_0.25032.82.0_x86.msix" Offset="3010234" Size="808583" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="1.25032.82.0" Architecture="arm64" FileName="YourPhone.Package_1.25032.82.0_arm64.msix" Offset="3818912" Size="136689851">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25032.82.0" Architecture="x64" FileName="YourPhone.Package_1.25032.82.0_x64.msix" Offset="151251378" Size="144038960">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25032.82.0" Architecture="x86" FileName="YourPhone.Package_1.25032.82.0_x86.msix" Offset="295290431" Size="132098292">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-lb" FileName="YourPhone.Package_1.25032.82.0_language-lb.msix" Offset="145279997" Size="112802">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-gd-latn" FileName="YourPhone.Package_1.25032.82.0_language-gd-latn.msix" Offset="143211876" Size="112880">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-af" FileName="YourPhone.Package_1.25032.82.0_language-af.msix" Offset="140508864" Size="109615">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ja" FileName="YourPhone.Package_1.25032.82.0_language-ja.msix" Offset="144460558" Size="110415">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sv" FileName="YourPhone.Package_1.25032.82.0_language-sv.msix" Offset="148917729" Size="108617">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-mi-latn" FileName="YourPhone.Package_1.25032.82.0_language-mi-latn.msix" Offset="145734678" Size="110874">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-uz-latn" FileName="YourPhone.Package_1.25032.82.0_language-uz-latn.msix" Offset="149970173" Size="111297">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ko" FileName="YourPhone.Package_1.25032.82.0_language-ko.msix" Offset="145049156" Size="110513">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-de" FileName="YourPhone.Package_1.25032.82.0_language-de.msix" Offset="142025355" Size="114143">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-or" FileName="YourPhone.Package_1.25032.82.0_language-or.msix" Offset="146871961" Size="122752">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ka" FileName="YourPhone.Package_1.25032.82.0_language-ka.msix" Offset="144571074" Size="121089">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ro" FileName="YourPhone.Package_1.25032.82.0_language-ro.msix" Offset="148069412" Size="111230">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-as" FileName="YourPhone.Package_1.25032.82.0_language-as.msix" Offset="140852463" Size="119482">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-lv" FileName="YourPhone.Package_1.25032.82.0_language-lv.msix" Offset="145622099" Size="112473">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-quz-latn" FileName="YourPhone.Package_1.25032.82.0_language-quz-latn.msix" Offset="147956389" Size="112922">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ur" FileName="YourPhone.Package_1.25032.82.0_language-ur.msix" Offset="149850916" Size="119151">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-cy" FileName="YourPhone.Package_1.25032.82.0_language-cy.msix" Offset="141806170" Size="110001">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ml" FileName="YourPhone.Package_1.25032.82.0_language-ml.msix" Offset="145964767" Size="122320">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-nl" FileName="YourPhone.Package_1.25032.82.0_language-nl.msix" Offset="146652718" Size="110362">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ne" FileName="YourPhone.Package_1.25032.82.0_language-ne.msix" Offset="146533144" Size="119473">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-bg" FileName="YourPhone.Package_1.25032.82.0_language-bg.msix" Offset="141190991" Size="119385">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-mk" FileName="YourPhone.Package_1.25032.82.0_language-mk.msix" Offset="145845653" Size="119013">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-kn" FileName="YourPhone.Package_1.25032.82.0_language-kn.msix" Offset="144929195" Size="119860">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ar" FileName="YourPhone.Package_1.25032.82.0_language-ar.msix" Offset="140736774" Size="115588">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-it" FileName="YourPhone.Package_1.25032.82.0_language-it.msix" Offset="144350438" Size="110019">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-tt-cyrl" FileName="YourPhone.Package_1.25032.82.0_language-tt-cyrl.msix" Offset="149493431" Size="118973">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ru" FileName="YourPhone.Package_1.25032.82.0_language-ru.msix" Offset="148180743" Size="121241">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-vi" FileName="YourPhone.Package_1.25032.82.0_language-vi.msix" Offset="150081571" Size="112215">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-hy" FileName="YourPhone.Package_1.25032.82.0_language-hy.msix" Offset="144012655" Size="119950">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-he" FileName="YourPhone.Package_1.25032.82.0_language-he.msix" Offset="143554528" Size="111371">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ta" FileName="YourPhone.Package_1.25032.82.0_language-ta.msix" Offset="149026447" Size="120091">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-fa" FileName="YourPhone.Package_1.25032.82.0_language-fa.msix" Offset="142620369" Size="118800">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ms" FileName="YourPhone.Package_1.25032.82.0_language-ms.msix" Offset="146205756" Size="107965">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-cs" FileName="YourPhone.Package_1.25032.82.0_language-cs.msix" Offset="141691839" Size="114230">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ug-arab" FileName="YourPhone.Package_1.25032.82.0_language-ug-arab.msix" Offset="149612510" Size="117944">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-eu" FileName="YourPhone.Package_1.25032.82.0_language-eu.msix" Offset="142511034" Size="109234">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-am" FileName="YourPhone.Package_1.25032.82.0_language-am.msix" Offset="140618580" Size="118093">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-be" FileName="YourPhone.Package_1.25032.82.0_language-be.msix" Offset="141084326" Size="106564">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sl" FileName="YourPhone.Package_1.25032.82.0_language-sl.msix" Offset="148416039" Size="112190">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sr-cyrl" FileName="YourPhone.Package_1.25032.82.0_language-sr-cyrl.msix" Offset="148641080" Size="163629">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-lt" FileName="YourPhone.Package_1.25032.82.0_language-lt.msix" Offset="145509866" Size="112132">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-qps-ploc" FileName="YourPhone.Package_1.25032.82.0_language-qps-ploc.msix" Offset="147381239" Size="191626">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-pl" FileName="YourPhone.Package_1.25032.82.0_language-pl.msix" Offset="147116799" Size="113645">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-nn" FileName="YourPhone.Package_1.25032.82.0_language-nn.msix" Offset="146763181" Size="108679">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-fil-latn" FileName="YourPhone.Package_1.25032.82.0_language-fil-latn.msix" Offset="142850009" Size="110966">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-kk" FileName="YourPhone.Package_1.25032.82.0_language-kk.msix" Offset="144692264" Size="118611">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-fr" FileName="YourPhone.Package_1.25032.82.0_language-fr.msix" Offset="142961076" Size="137976">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.scale-100" FileName="YourPhone.Package_1.25032.82.0_scale-100.msix" Offset="150407212" Size="118116">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-id" FileName="YourPhone.Package_1.25032.82.0_language-id.msix" Offset="144132706" Size="106841">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-pa" FileName="YourPhone.Package_1.25032.82.0_language-pa.msix" Offset="146994814" Size="121884">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-qps-plocm" FileName="YourPhone.Package_1.25032.82.0_language-qps-plocm.msix" Offset="147764605" Size="191677">
+			<Resources>
+				<Resource Language="qps-plocm"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-et" FileName="YourPhone.Package_1.25032.82.0_language-et.msix" Offset="142400401" Size="110532">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-hr" FileName="YourPhone.Package_1.25032.82.0_language-hr.msix" Offset="143785935" Size="112111">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-th" FileName="YourPhone.Package_1.25032.82.0_language-th.msix" Offset="149267796" Size="114546">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-gl" FileName="YourPhone.Package_1.25032.82.0_language-gl.msix" Offset="143324857" Size="110860">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ca" FileName="YourPhone.Package_1.25032.82.0_language-ca.msix" Offset="141542924" Size="148814">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-km" FileName="YourPhone.Package_1.25032.82.0_language-km.msix" Offset="144810976" Size="118118">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-nb" FileName="YourPhone.Package_1.25032.82.0_language-nb.msix" Offset="146425092" Size="107951">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.scale-400" FileName="YourPhone.Package_1.25032.82.0_scale-400.msix" Offset="150815043" Size="436242">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-hi" FileName="YourPhone.Package_1.25032.82.0_language-hi.msix" Offset="143666000" Size="119834">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-uk" FileName="YourPhone.Package_1.25032.82.0_language-uk.msix" Offset="149730555" Size="120260">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-bn" FileName="YourPhone.Package_1.25032.82.0_language-bn.msix" Offset="141310477" Size="120024">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-zh-hant" FileName="YourPhone.Package_1.25032.82.0_language-zh-hant.msix" Offset="150299957" Size="107156">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-zh-hans" FileName="YourPhone.Package_1.25032.82.0_language-zh-hans.msix" Offset="150193892" Size="105959">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-pt" FileName="YourPhone.Package_1.25032.82.0_language-pt.msix" Offset="147230545" Size="150587">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-ga" FileName="YourPhone.Package_1.25032.82.0_language-ga.msix" Offset="143099153" Size="112617">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-kok" FileName="YourPhone.Package_1.25032.82.0_language-kok.msix" Offset="145159771" Size="120125">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-el" FileName="YourPhone.Package_1.25032.82.0_language-el.msix" Offset="142139599" Size="124221">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-mr" FileName="YourPhone.Package_1.25032.82.0_language-mr.msix" Offset="146087188" Size="118467">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.scale-150" FileName="YourPhone.Package_1.25032.82.0_scale-150.msix" Offset="150661779" Size="153165">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-bs" FileName="YourPhone.Package_1.25032.82.0_language-bs.msix" Offset="141430602" Size="112221">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-da" FileName="YourPhone.Package_1.25032.82.0_language-da.msix" Offset="141916272" Size="108982">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-lo" FileName="YourPhone.Package_1.25032.82.0_language-lo.msix" Offset="145392900" Size="116865">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-te" FileName="YourPhone.Package_1.25032.82.0_language-te.msix" Offset="149146639" Size="121056">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-hu" FileName="YourPhone.Package_1.25032.82.0_language-hu.msix" Offset="143898147" Size="114407">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-tr" FileName="YourPhone.Package_1.25032.82.0_language-tr.msix" Offset="149382443" Size="110882">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-mt" FileName="YourPhone.Package_1.25032.82.0_language-mt.msix" Offset="146313822" Size="111169">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-gu" FileName="YourPhone.Package_1.25032.82.0_language-gu.msix" Offset="143435818" Size="118609">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-qps-ploca" FileName="YourPhone.Package_1.25032.82.0_language-qps-ploca.msix" Offset="147572973" Size="191524">
+			<Resources>
+				<Resource Language="qps-ploca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sq" FileName="YourPhone.Package_1.25032.82.0_language-sq.msix" Offset="148528330" Size="112644">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-az-latn" FileName="YourPhone.Package_1.25032.82.0_language-az-latn.msix" Offset="140972051" Size="112174">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.scale-125" FileName="YourPhone.Package_1.25032.82.0_scale-125.msix" Offset="150525427" Size="136253">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sr-latn" FileName="YourPhone.Package_1.25032.82.0_language-sr-latn.msix" Offset="148804815" Size="112813">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-sk" FileName="YourPhone.Package_1.25032.82.0_language-sk.msix" Offset="148302085" Size="113853">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-fi" FileName="YourPhone.Package_1.25032.82.0_language-fi.msix" Offset="142739270" Size="110632">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-is" FileName="YourPhone.Package_1.25032.82.0_language-is.msix" Offset="144239648" Size="110689">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.82.0" ResourceId="split.language-es" FileName="YourPhone.Package_1.25032.82.0_language-es.msix" Offset="142263921" Size="136379">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

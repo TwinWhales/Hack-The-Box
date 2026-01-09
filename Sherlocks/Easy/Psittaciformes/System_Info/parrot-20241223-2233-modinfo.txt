@@ -1,0 +1,2204 @@
+
+Module: mptcp_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/mptcp/mptcp_diag.ko
+alias:          net-pf-16-proto-4-type-2-262
+license:        GPL
+depends:        inet_diag
+retpoline:      Y
+intree:         Y
+name:           mptcp_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: vsock_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/vmw_vsock/vsock_diag.ko
+alias:          net-pf-16-proto-4-type-40
+license:        GPL
+depends:        vsock
+retpoline:      Y
+intree:         Y
+name:           vsock_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raw_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/ipv4/raw_diag.ko
+alias:          net-pf-16-proto-4-type-10-255
+alias:          net-pf-16-proto-4-type-2-255
+license:        GPL
+depends:        inet_diag
+retpoline:      Y
+intree:         Y
+name:           raw_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: unix_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/unix/unix_diag.ko
+alias:          net-pf-16-proto-4-type-1
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           unix_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: af_packet_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/packet/af_packet_diag.ko
+alias:          net-pf-16-proto-4-type-17
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           af_packet_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: netlink_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/netlink/netlink_diag.ko
+alias:          net-pf-16-proto-4-type-16
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           netlink_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: msr
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/kernel/msr.ko
+license:        GPL
+description:    x86 generic MSR driver
+author:         H. Peter Anvin <hpa@zytor.com>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           msr
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: nf_tables
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/netfilter/nf_tables.ko
+alias:          nfnetlink-subsys-10
+author:         Patrick McHardy <kaber@trash.net>
+license:        GPL
+depends:        nfnetlink,libcrc32c
+retpoline:      Y
+intree:         Y
+name:           nf_tables
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: nfnetlink
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/netfilter/nfnetlink.ko
+description:    Netfilter messages via netlink socket
+alias:          net-pf-16-proto-12
+author:         Harald Welte <laforge@netfilter.org>
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           nfnetlink
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: tcp_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/ipv4/tcp_diag.ko
+alias:          net-pf-16-proto-4-type-2-6
+license:        GPL
+depends:        inet_diag
+retpoline:      Y
+intree:         Y
+name:           tcp_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: udp_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/ipv4/udp_diag.ko
+alias:          net-pf-16-proto-4-type-2-136
+alias:          net-pf-16-proto-4-type-2-17
+license:        GPL
+depends:        inet_diag
+retpoline:      Y
+intree:         Y
+name:           udp_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: inet_diag
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/ipv4/inet_diag.ko
+alias:          net-pf-16-proto-4-type-10
+alias:          net-pf-16-proto-4-type-2
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           inet_diag
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: dm_mod
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/dm-mod.ko
+license:        GPL
+author:         Joe Thornber <dm-devel@redhat.com>
+description:    device-mapper driver
+alias:          devname:mapper/control
+alias:          char-major-10-236
+depends:        
+retpoline:      Y
+intree:         Y
+name:           dm_mod
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           reserved_rq_based_ios:Reserved IOs in request-based mempools (uint)
+parm:           use_blk_mq:Use block multiqueue for request-based DM devices (bool)
+parm:           dm_mq_nr_hw_queues:Number of hardware queues for request-based dm-mq devices (uint)
+parm:           dm_mq_queue_depth:Queue depth for request-based dm-mq devices (uint)
+parm:           stats_current_allocated_bytes:Memory currently used by statistics (ulong)
+parm:           kcopyd_subjob_size_kb:Sub-job size for dm-kcopyd clients (uint)
+parm:           major:The major number of the device mapper (uint)
+parm:           reserved_bio_based_ios:Reserved IOs in bio-based mempools (uint)
+parm:           dm_numa_node:NUMA node for DM device memory allocations (int)
+parm:           swap_bios:Maximum allowed inflight swap IOs (int)
+
+Module: battery
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/acpi/battery.ko
+license:        GPL
+description:    ACPI Battery Driver
+author:         Alexey Starikovskiy <astarikovskiy@suse.de>
+author:         Paul Diefenbaugh
+alias:          acpi*:MSHW0146:*
+alias:          acpi*:PNP0C0A:*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           battery
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           cache_time:cache time in milliseconds (uint)
+
+Module: tun
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/net/tun.ko
+alias:          devname:net/tun
+alias:          char-major-10-200
+license:        GPL
+author:         (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+description:    Universal TUN/TAP device driver
+depends:        
+retpoline:      Y
+intree:         Y
+name:           tun
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd_seq_dummy
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/seq/snd-seq-dummy.ko
+alias:          snd-seq-client-14
+license:        GPL
+description:    ALSA sequencer MIDI-through client
+author:         Takashi Iwai <tiwai@suse.de>
+depends:        snd-seq
+retpoline:      Y
+intree:         Y
+name:           snd_seq_dummy
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           ports:number of ports to be created (int)
+parm:           duplex:create DUPLEX ports (bool)
+
+Module: snd_hrtimer
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd-hrtimer.ko
+alias:          snd-timer-3
+license:        GPL
+description:    ALSA hrtimer backend
+author:         Takashi Iwai <tiwai@suse.de>
+depends:        snd-timer
+retpoline:      Y
+intree:         Y
+name:           snd_hrtimer
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd_seq_midi
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/seq/snd-seq-midi.ko
+license:        GPL
+description:    Advanced Linux Sound Architecture sequencer MIDI synth.
+author:         Frank van de Pol <fvdpol@coil.demon.nl>, Jaroslav Kysela <perex@perex.cz>
+depends:        snd-rawmidi,snd-seq-device,snd-seq,snd-seq-midi-event
+retpoline:      Y
+intree:         Y
+name:           snd_seq_midi
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           output_buffer_size:Output buffer size in bytes. (int)
+parm:           input_buffer_size:Input buffer size in bytes. (int)
+
+Module: snd_seq_midi_event
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/seq/snd-seq-midi-event.ko
+license:        GPL
+description:    MIDI byte <-> sequencer event coder
+author:         Takashi Iwai <tiwai@suse.de>, Jaroslav Kysela <perex@perex.cz>
+depends:        snd-seq
+retpoline:      Y
+intree:         Y
+name:           snd_seq_midi_event
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd_seq
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/seq/snd-seq.ko
+alias:          devname:snd/seq
+alias:          char-major-116-1
+license:        GPL
+description:    Advanced Linux Sound Architecture sequencer.
+author:         Frank van de Pol <fvdpol@coil.demon.nl>, Jaroslav Kysela <perex@perex.cz>
+depends:        snd,snd-seq-device,snd-timer
+retpoline:      Y
+intree:         Y
+name:           snd_seq
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           seq_client_load:The numbers of global (system) clients to load through kmod. (array of int)
+parm:           seq_default_timer_class:The default timer class. (int)
+parm:           seq_default_timer_sclass:The default timer slave class. (int)
+parm:           seq_default_timer_card:The default timer card number. (int)
+parm:           seq_default_timer_device:The default timer device number. (int)
+parm:           seq_default_timer_subdevice:The default timer subdevice number. (int)
+parm:           seq_default_timer_resolution:The default timer resolution in Hz. (int)
+
+Module: cfg80211
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/wireless/cfg80211.ko
+alias:          net-pf-16-proto-16-family-nl80211
+description:    wireless configuration support
+license:        GPL
+author:         Johannes Berg
+firmware:       regulatory.db
+firmware:       regulatory.db.p7s
+depends:        rfkill
+retpoline:      Y
+intree:         Y
+name:           cfg80211
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           bss_entries_limit:limit to number of scan BSS entries (per wiphy, default 1000) (int)
+parm:           ieee80211_regdom:IEEE 802.11 regulatory domain code (charp)
+parm:           cfg80211_disable_40mhz_24ghz:Disable 40MHz support in the 2.4GHz band (bool)
+
+Module: vsock_loopback
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/vmw_vsock/vsock_loopback.ko
+alias:          net-pf-40
+description:    loopback transport for vsock
+author:         Stefano Garzarella <sgarzare@redhat.com>
+license:        GPL v2
+depends:        vmw_vsock_virtio_transport_common,vsock
+retpoline:      Y
+intree:         Y
+name:           vsock_loopback
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: vmw_vsock_virtio_transport_common
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/vmw_vsock/vmw_vsock_virtio_transport_common.ko
+description:    common code for virtio vsock
+author:         Asias He
+license:        GPL v2
+depends:        vsock
+retpoline:      Y
+intree:         Y
+name:           vmw_vsock_virtio_transport_common
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: qrtr
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/qrtr/qrtr.ko
+alias:          net-pf-42
+license:        GPL v2
+description:    Qualcomm IPC-router driver
+license:        Dual BSD/GPL
+description:    Qualcomm IPC Router Nameservice
+author:         Manivannan Sadhasivam <manivannan.sadhasivam@linaro.org>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           qrtr
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: vmw_vsock_vmci_transport
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/vmw_vsock/vmw_vsock_vmci_transport.ko
+alias:          net-pf-40
+alias:          vmware_vsock
+license:        GPL v2
+version:        1.0.5.0-k
+description:    VMCI transport for Virtual Sockets
+author:         VMware, Inc.
+srcversion:     0A9BFEBF97B38C9AA9139E3
+depends:        vsock,vmw_vmci
+retpoline:      Y
+intree:         Y
+name:           vmw_vsock_vmci_transport
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: vsock
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/vmw_vsock/vsock.ko
+license:        GPL v2
+version:        1.0.2.0-k
+description:    VMware Virtual Socket Family
+author:         VMware, Inc.
+srcversion:     FEDC41930238996FB233041
+depends:        
+retpoline:      Y
+intree:         Y
+name:           vsock
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: bnep
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/bluetooth/bnep/bnep.ko
+alias:          bt-proto-4
+license:        GPL
+version:        1.3
+description:    Bluetooth BNEP ver 1.3
+author:         Marcel Holtmann <marcel@holtmann.org>
+srcversion:     9B81BD6253270BF3BBDADA1
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           bnep
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           compress_src:Compress sources headers (bool)
+parm:           compress_dst:Compress destination headers (bool)
+
+Module: binfmt_misc
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/binfmt_misc.ko
+license:        GPL
+alias:          fs-binfmt_misc
+depends:        
+retpoline:      Y
+intree:         Y
+name:           binfmt_misc
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: btusb
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/bluetooth/btusb.ko
+license:        GPL
+version:        0.8
+description:    Generic Bluetooth USB driver ver 0.8
+author:         Marcel Holtmann <marcel@holtmann.org>
+srcversion:     2E85C1FFD3B0D3161EDB67F
+alias:          usb:v8087p0A5Ad*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0930p*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v413Cp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v13D3p*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v050Dp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v0B05p*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v0A5Cp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v04CAp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v0489p*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v0BB4p*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v105Bp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v19FFp0239d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0C10p0000d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0BDBp1002d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v044Ep3002d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v044Ep3001d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v04BFp030Ad*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v057Cp3800d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp8281d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp821Ad*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp821Fd*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp821Bd*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp8218d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp8215d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp8213d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0A5Cp21E1d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0E8Dp763Fd*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v05ACp*d*dc*dsc*dp*icFFisc01ip01in*
+alias:          usb:v*p*d*dc*dsc*dp*icE0isc01ip01in*
+alias:          usb:v*p*d*dcE0dsc01dp04ic*isc*ip*in*
+alias:          usb:v*p*d*dcE0dsc01dp01ic*isc*ip*in*
+alias:          of:N*T*Cusb4ca,301aC*
+alias:          of:N*T*Cusb4ca,301a
+alias:          of:N*T*Cusbcf3,e300C*
+alias:          of:N*T*Cusbcf3,e300
+alias:          of:N*T*Cusb1286,204eC*
+alias:          of:N*T*Cusb1286,204e
+depends:        usbcore,bluetooth,btintel,btmtk,btrtl,btbcm
+retpoline:      Y
+intree:         Y
+name:           btusb
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           disable_scofix:Disable fixup of wrong SCO buffer size (bool)
+parm:           force_scofix:Force fixup of wrong SCO buffers size (bool)
+parm:           enable_autosuspend:Enable USB autosuspend by default (bool)
+parm:           reset:Send HCI reset command on initialization (bool)
+
+Module: btrtl
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/bluetooth/btrtl.ko
+firmware:       rtl_bt/rtl8852cu_config.bin
+firmware:       rtl_bt/rtl8852cu_fw.bin
+firmware:       rtl_bt/rtl8852bu_config.bin
+firmware:       rtl_bt/rtl8852bu_fw.bin
+firmware:       rtl_bt/rtl8852au_config.bin
+firmware:       rtl_bt/rtl8852au_fw.bin
+firmware:       rtl_bt/rtl8822b_config.bin
+firmware:       rtl_bt/rtl8822b_fw.bin
+firmware:       rtl_bt/rtl8821a_config.bin
+firmware:       rtl_bt/rtl8821a_fw.bin
+firmware:       rtl_bt/rtl8761a_config.bin
+firmware:       rtl_bt/rtl8761a_fw.bin
+firmware:       rtl_bt/rtl8723ds_config.bin
+firmware:       rtl_bt/rtl8723ds_fw.bin
+firmware:       rtl_bt/rtl8723bs_config.bin
+firmware:       rtl_bt/rtl8723bs_fw.bin
+firmware:       rtl_bt/rtl8723b_config.bin
+firmware:       rtl_bt/rtl8723b_fw.bin
+firmware:       rtl_bt/rtl8723a_fw.bin
+license:        GPL
+version:        0.1
+description:    Bluetooth support for Realtek devices ver 0.1
+author:         Daniel Drake <drake@endlessm.com>
+srcversion:     9F5808F54251CD9A089F889
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           btrtl
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: btbcm
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/bluetooth/btbcm.ko
+license:        GPL
+version:        0.1
+description:    Bluetooth support for Broadcom devices ver 0.1
+author:         Marcel Holtmann <marcel@holtmann.org>
+srcversion:     5BC66DA3B52EA7966FA7023
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           btbcm
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: btintel
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/bluetooth/btintel.ko
+firmware:       intel/ibt-12-16.ddc
+firmware:       intel/ibt-12-16.sfi
+firmware:       intel/ibt-11-5.ddc
+firmware:       intel/ibt-11-5.sfi
+license:        GPL
+version:        0.1
+description:    Bluetooth support for Intel devices ver 0.1
+author:         Marcel Holtmann <marcel@holtmann.org>
+srcversion:     19A378D03556AFAAB145D27
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           btintel
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: btmtk
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/bluetooth/btmtk.ko
+firmware:       mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
+firmware:       mediatek/mt7668pr2h.bin
+firmware:       mediatek/mt7663pr2h.bin
+firmware:       mediatek/mt7622pr2h.bin
+license:        GPL
+version:        0.1
+description:    Bluetooth support for MediaTek devices ver 0.1
+author:         Mark Chen <mark-yw.chen@mediatek.com>
+author:         Sean Wang <sean.wang@mediatek.com>
+srcversion:     9687019854A3D9FCDDAC5AB
+depends:        bluetooth
+retpoline:      Y
+intree:         Y
+name:           btmtk
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: bluetooth
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/bluetooth/bluetooth.ko
+alias:          net-pf-31
+license:        GPL
+version:        2.22
+description:    Bluetooth Core ver 2.22
+author:         Marcel Holtmann <marcel@holtmann.org>
+srcversion:     C915A00F251DAE8FB6B5269
+depends:        ecdh_generic,rfkill,crc16
+retpoline:      Y
+intree:         Y
+name:           bluetooth
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           disable_esco:Disable eSCO connection creation (bool)
+parm:           disable_ertm:Disable enhanced retransmission mode (bool)
+parm:           enable_ecred:Enable enhanced credit flow control mode (bool)
+
+Module: jitterentropy_rng
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/jitterentropy_rng.ko
+alias:          crypto-jitterentropy_rng
+alias:          jitterentropy_rng
+description:    Non-physical True Random Number Generator based on CPU Jitter
+author:         Stephan Mueller <smueller@chronox.de>
+license:        Dual BSD/GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           jitterentropy_rng
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: sha512_ssse3
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/sha512-ssse3.ko
+alias:          crypto-sha384-avx2
+alias:          sha384-avx2
+alias:          crypto-sha384-avx
+alias:          sha384-avx
+alias:          crypto-sha384-ssse3
+alias:          sha384-ssse3
+alias:          crypto-sha384
+alias:          sha384
+alias:          crypto-sha512-avx2
+alias:          sha512-avx2
+alias:          crypto-sha512-avx
+alias:          sha512-avx
+alias:          crypto-sha512-ssse3
+alias:          sha512-ssse3
+alias:          crypto-sha512
+alias:          sha512
+description:    SHA512 Secure Hash Algorithm, Supplemental SSE3 accelerated
+license:        GPL
+depends:        sha512_generic
+retpoline:      Y
+intree:         Y
+name:           sha512_ssse3
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: sha512_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/sha512_generic.ko
+alias:          crypto-sha512-generic
+alias:          sha512-generic
+alias:          crypto-sha512
+alias:          sha512
+alias:          crypto-sha384-generic
+alias:          sha384-generic
+alias:          crypto-sha384
+alias:          sha384
+description:    SHA-512 and SHA-384 Secure Hash Algorithms
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           sha512_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: intel_rapl_msr
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/powercap/intel_rapl_msr.ko
+license:        GPL v2
+author:         Zhang Rui <rui.zhang@intel.com>
+description:    Driver for Intel RAPL (Running Average Power Limit) control via MSR interface
+alias:          platform:intel_rapl_msr
+depends:        intel_rapl_common
+retpoline:      Y
+intree:         Y
+name:           intel_rapl_msr
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: intel_rapl_common
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/powercap/intel_rapl_common.ko
+license:        GPL v2
+author:         Jacob Pan <jacob.jun.pan@intel.com>
+description:    Intel Runtime Average Power Limit (RAPL) common code
+alias:          cpu:type:x86,ven0009fam0018mod*:feature:*
+alias:          cpu:type:x86,ven0002fam0019mod*:feature:*
+alias:          cpu:type:x86,ven0002fam0017mod*:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0085:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0057:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod009C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0086:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0096:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod007A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0037:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00BA:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00B7:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00BE:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod009A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0097:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00A7:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00A5:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod00A6:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod006C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod006A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod009D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod007D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod007E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0066:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod009E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0055:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0056:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0047:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0046:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0045:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod002D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod002A:feature:*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           intel_rapl_common
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: drbg
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/drbg.ko
+import_ns:      CRYPTO_INTERNAL
+alias:          crypto-stdrng
+alias:          stdrng
+description:    NIST SP800-90A Deterministic Random Bit Generator (DRBG) using following cores: HASH HMAC CTR 
+author:         Stephan Mueller <smueller@chronox.de>
+license:        GPL
+alias:          crypto-drbg_nopr_sha1
+alias:          drbg_nopr_sha1
+alias:          crypto-drbg_pr_sha1
+alias:          drbg_pr_sha1
+alias:          crypto-drbg_nopr_sha256
+alias:          drbg_nopr_sha256
+alias:          crypto-drbg_pr_sha256
+alias:          drbg_pr_sha256
+alias:          crypto-drbg_nopr_sha384
+alias:          drbg_nopr_sha384
+alias:          crypto-drbg_pr_sha384
+alias:          drbg_pr_sha384
+alias:          crypto-drbg_nopr_sha512
+alias:          drbg_nopr_sha512
+alias:          crypto-drbg_pr_sha512
+alias:          drbg_pr_sha512
+alias:          crypto-drbg_nopr_hmac_sha1
+alias:          drbg_nopr_hmac_sha1
+alias:          crypto-drbg_pr_hmac_sha1
+alias:          drbg_pr_hmac_sha1
+alias:          crypto-drbg_nopr_hmac_sha256
+alias:          drbg_nopr_hmac_sha256
+alias:          crypto-drbg_pr_hmac_sha256
+alias:          drbg_pr_hmac_sha256
+alias:          crypto-drbg_nopr_hmac_sha384
+alias:          drbg_nopr_hmac_sha384
+alias:          crypto-drbg_pr_hmac_sha384
+alias:          drbg_pr_hmac_sha384
+alias:          crypto-drbg_nopr_hmac_sha512
+alias:          drbg_nopr_hmac_sha512
+alias:          crypto-drbg_pr_hmac_sha512
+alias:          drbg_pr_hmac_sha512
+alias:          crypto-drbg_nopr_ctr_aes128
+alias:          drbg_nopr_ctr_aes128
+alias:          crypto-drbg_pr_ctr_aes128
+alias:          drbg_pr_ctr_aes128
+alias:          crypto-drbg_nopr_ctr_aes192
+alias:          drbg_nopr_ctr_aes192
+alias:          crypto-drbg_pr_ctr_aes192
+alias:          drbg_pr_ctr_aes192
+alias:          crypto-drbg_nopr_ctr_aes256
+alias:          drbg_nopr_ctr_aes256
+alias:          crypto-drbg_pr_ctr_aes256
+alias:          drbg_pr_ctr_aes256
+depends:        
+retpoline:      Y
+intree:         Y
+name:           drbg
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ansi_cprng
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/ansi_cprng.ko
+import_ns:      CRYPTO_INTERNAL
+alias:          crypto-ansi_cprng
+alias:          ansi_cprng
+alias:          crypto-stdrng
+alias:          stdrng
+author:         Neil Horman <nhorman@tuxdriver.com>
+description:    Software Pseudo Random Number Generator
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           ansi_cprng
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           dbg:Boolean to enable debugging (0/1 == off/on) (int)
+
+Module: vmw_balloon
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/misc/vmw_balloon.ko
+license:        GPL
+alias:          vmware_vmmemctl
+alias:          dmi:*:svnVMware*:*
+description:    VMware Memory Control (Balloon) Driver
+author:         VMware, Inc.
+depends:        vmw_vmci
+retpoline:      Y
+intree:         Y
+name:           vmw_balloon
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           vmwballoon_shrinker_enable:Enable non-cooperative out-of-memory protection. Disabled by default as it may degrade performance. (bool)
+
+Module: snd_ens1371
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/pci/snd-ens1371.ko
+description:    Ensoniq/Creative AudioPCI ES1371+
+license:        GPL
+author:         Jaroslav Kysela <perex@perex.cz>, Thomas Sailer <sailer@ife.ee.ethz.ch>
+alias:          pci:v00001102d00008938sv*sd*bc*sc*i*
+alias:          pci:v00001274d00005880sv*sd*bc*sc*i*
+alias:          pci:v00001274d00001371sv*sd*bc*sc*i*
+depends:        gameport,snd-rawmidi,snd,snd-ac97-codec,snd-pcm
+retpoline:      Y
+intree:         Y
+name:           snd_ens1371
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           index:Index value for Ensoniq AudioPCI soundcard. (array of int)
+parm:           id:ID string for Ensoniq AudioPCI soundcard. (array of charp)
+parm:           enable:Enable Ensoniq AudioPCI soundcard. (array of bool)
+parm:           joystick_port:Joystick port address. (array of int)
+parm:           spdif:S/PDIF output (-1 = none, 0 = auto, 1 = force). (array of int)
+parm:           lineio:Line In to Rear Out (0 = auto, 1 = force). (array of int)
+
+Module: snd_ac97_codec
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/pci/ac97/snd-ac97-codec.ko
+license:        GPL
+description:    Universal interface for Audio Codec '97
+author:         Jaroslav Kysela <perex@perex.cz>
+depends:        snd,snd-pcm,ac97_bus
+retpoline:      Y
+intree:         Y
+name:           snd_ac97_codec
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           enable_loopback:Enable AC97 ADC/DAC Loopback Control (bool)
+parm:           power_save:Automatic power-saving timeout (in second, 0 = disable). (int)
+
+Module: ac97_bus
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/ac97_bus.ko
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           ac97_bus
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: gameport
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/gameport/gameport.ko
+license:        GPL
+description:    Generic gameport layer
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           gameport
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           use_ktime:Use ktime for measuring I/O speed (bool)
+
+Module: snd_rawmidi
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd-rawmidi.ko
+license:        GPL
+description:    Midlevel RawMidi code for ALSA.
+author:         Jaroslav Kysela <perex@perex.cz>
+depends:        snd,snd-seq-device
+retpoline:      Y
+intree:         Y
+name:           snd_rawmidi
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           midi_map:Raw MIDI device number assigned to 1st OSS device. (array of int)
+parm:           amidi_map:Raw MIDI device number assigned to 2nd OSS device. (array of int)
+
+Module: snd_seq_device
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd-seq-device.ko
+license:        GPL
+description:    ALSA sequencer device management
+author:         Takashi Iwai <tiwai@suse.de>
+depends:        snd
+retpoline:      Y
+intree:         Y
+name:           snd_seq_device
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd_pcm
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd-pcm.ko
+license:        GPL
+description:    Midlevel PCM code for ALSA.
+author:         Jaroslav Kysela <perex@perex.cz>, Abramo Bagnara <abramo@alsa-project.org>
+depends:        snd,snd-timer
+retpoline:      Y
+intree:         Y
+name:           snd_pcm
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           preallocate_dma:Preallocate DMA memory when the PCM devices are initialized. (int)
+parm:           maximum_substreams:Maximum substreams with preallocated DMA memory. (int)
+parm:           max_alloc_per_card:Max total allocation bytes per card. (ulong)
+
+Module: ecdh_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/ecdh_generic.ko
+description:    ECDH generic algorithm
+license:        GPL
+alias:          crypto-ecdh
+alias:          ecdh
+depends:        ecc
+retpoline:      Y
+intree:         Y
+name:           ecdh_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd_timer
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd-timer.ko
+alias:          devname:snd/timer
+alias:          char-major-116-33
+license:        GPL
+description:    ALSA timer interface
+author:         Jaroslav Kysela <perex@perex.cz>, Takashi Iwai <tiwai@suse.de>
+depends:        snd
+retpoline:      Y
+intree:         Y
+name:           snd_timer
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           timer_limit:Maximum global timers in system. (int)
+parm:           timer_tstamp_monotonic:Use posix monotonic clock source for timestamps (default). (int)
+
+Module: rfkill
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/rfkill/rfkill.ko
+alias:          devname:rfkill
+alias:          char-major-10-242
+license:        GPL
+description:    RF switch support
+author:         Johannes Berg <johannes@sipsolutions.net>
+author:         Ivo van Doorn <IvDoorn@gmail.com>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           rfkill
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           master_switch_mode:SW_RFKILL_ALL ON should: 0=do nothing (only unlock); 1=restore; 2=unblock all (uint)
+parm:           default_state:Default initial state for all radio types, 0 = radio off (uint)
+
+Module: joydev
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/joydev.ko
+license:        GPL
+description:    Joystick device interfaces
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+alias:          input:b*v*p*e*-e*1,*k*2C0,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*1,*k*130,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*1,*k*120,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*6,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*8,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*2,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*0,*m*l*s*f*w*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           joydev
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: serio_raw
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/serio/serio_raw.ko
+license:        GPL
+description:    Raw serio driver
+author:         Dmitry Torokhov <dtor@mail.ru>
+alias:          serio:ty06pr*id*ex*
+alias:          serio:ty01pr*id*ex*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           serio_raw
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ecc
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/ecc.ko
+license:        Dual BSD/GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           ecc
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: pcspkr
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/misc/pcspkr.ko
+alias:          platform:pcspkr
+license:        GPL
+description:    PC Speaker beeper driver
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           pcspkr
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: snd
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/core/snd.ko
+alias:          char-major-116-*
+license:        GPL
+description:    Advanced Linux Sound Architecture driver for soundcards.
+author:         Jaroslav Kysela <perex@perex.cz>
+depends:        soundcore
+retpoline:      Y
+intree:         Y
+name:           snd
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           max_user_ctl_alloc_size:Max allocation size for user controls (int)
+parm:           slots:Module names assigned to the slots. (array of charp)
+parm:           major:Major # for sound driver. (int)
+parm:           cards_limit:Count of auto-loadable soundcards. (int)
+
+Module: soundcore
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/sound/soundcore.ko
+alias:          char-major-14-*
+license:        GPL
+author:         Alan Cox
+description:    Core sound module
+depends:        
+retpoline:      Y
+intree:         Y
+name:           soundcore
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           preclaim_oss:int
+
+Module: evdev
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/evdev.ko
+license:        GPL
+description:    Input driver event char devices
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+alias:          input:b*v*p*e*-e*k*r*a*m*l*s*f*w*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           evdev
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ac
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/acpi/ac.ko
+license:        GPL
+description:    ACPI AC Adapter Driver
+author:         Paul Diefenbaugh
+alias:          acpi*:ACPI0003:*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           ac
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: vmw_vmci
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/misc/vmw_vmci/vmw_vmci.ko
+license:        GPL v2
+version:        1.1.6.0-k
+description:    VMware Virtual Machine Communication Interface.
+author:         VMware, Inc.
+srcversion:     834CAE5876C82C541FD8F42
+alias:          pci:v000015ADd00000740sv*sd*bc*sc*i*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           vmw_vmci
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           disable_msi:Disable MSI use in driver - (default=0) (bool)
+parm:           disable_msix:Disable MSI-X use in driver - (default=0) (bool)
+parm:           disable_host:Disable driver host personality (default=enabled) (bool)
+parm:           disable_guest:Disable driver guest personality (default=enabled) (bool)
+
+Module: sg
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/sg.ko
+alias:          char-major-21-*
+version:        3.5.36
+license:        GPL
+description:    SCSI generic (sg) driver
+author:         Douglas Gilbert
+srcversion:     9F729B2490587A337BF78F4
+depends:        scsi_mod,scsi_common
+retpoline:      Y
+intree:         Y
+name:           sg
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           scatter_elem_sz:scatter gather element size (default: max(SG_SCATTER_SZ, PAGE_SIZE)) (int)
+parm:           def_reserved_size:size of buffer reserved for each fd (int)
+parm:           allow_dio:allow direct I/O (default: 0 (disallow)) (int)
+
+Module: fuse
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/fuse/fuse.ko
+alias:          devname:fuse
+alias:          char-major-10-229
+alias:          fs-fuseblk
+alias:          fs-fuse
+license:        GPL
+description:    Filesystem in Userspace
+author:         Miklos Szeredi <miklos@szeredi.hu>
+alias:          fs-fusectl
+depends:        
+retpoline:      Y
+intree:         Y
+name:           fuse
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           max_user_bgreq:Global limit for the maximum number of backgrounded requests an unprivileged user can set (uint)
+parm:           max_user_congthresh:Global limit for the maximum congestion threshold an unprivileged user can set (uint)
+parm:           allow_sys_admin_access:Allow users with CAP_SYS_ADMIN in initial userns to bypass allow_other access check (bool)
+
+Module: configfs
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/configfs/configfs.ko
+description:    Simple RAM filesystem for user driven kernel subsystem configuration.
+version:        0.0.2
+license:        GPL
+author:         Oracle
+alias:          fs-configfs
+srcversion:     BC1DB3508C53C477B672C9F
+depends:        
+retpoline:      Y
+intree:         Y
+name:           configfs
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ip_tables
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/ipv4/netfilter/ip_tables.ko
+alias:          ipt_icmp
+description:    IPv4 packet filter
+author:         Netfilter Core Team <coreteam@netfilter.org>
+license:        GPL
+depends:        x_tables
+retpoline:      Y
+intree:         Y
+name:           ip_tables
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: x_tables
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/net/netfilter/x_tables.ko
+description:    {ip,ip6,arp,eb}_tables backend module
+author:         Harald Welte <laforge@netfilter.org>
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           x_tables
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: autofs4
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/autofs/autofs4.ko
+license:        GPL
+alias:          autofs
+alias:          fs-autofs
+alias:          devname:autofs
+alias:          char-major-10-235
+depends:        
+retpoline:      Y
+intree:         Y
+name:           autofs4
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raid10
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/raid10.ko
+alias:          md-level-10
+alias:          md-raid10
+alias:          md-personality-9
+description:    RAID10 (striped mirror) personality for MD
+license:        GPL
+depends:        md-mod
+retpoline:      Y
+intree:         Y
+name:           raid10
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raid456
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/raid456.ko
+alias:          raid6
+alias:          raid5
+alias:          md-level-6
+alias:          md-raid6
+alias:          md-personality-8
+alias:          md-level-4
+alias:          md-level-5
+alias:          md-raid4
+alias:          md-raid5
+alias:          md-personality-4
+description:    RAID4/5/6 (striping with parity) personality for MD
+license:        GPL
+depends:        md-mod,async_xor,async_pq,async_tx,async_memcpy,async_raid6_recov,raid6_pq,libcrc32c
+retpoline:      Y
+intree:         Y
+name:           raid456
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           devices_handle_discard_safely:Set to Y if all devices in each array reliably return zeroes on reads from discarded regions (bool)
+
+Module: async_raid6_recov
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/async_tx/async_raid6_recov.ko
+license:        GPL
+description:    asynchronous RAID-6 recovery api
+author:         Dan Williams <dan.j.williams@intel.com>
+depends:        async_tx,raid6_pq,async_pq,async_xor,async_memcpy
+retpoline:      Y
+intree:         Y
+name:           async_raid6_recov
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: async_memcpy
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/async_tx/async_memcpy.ko
+license:        GPL
+description:    asynchronous memcpy api
+author:         Intel Corporation
+depends:        async_tx
+retpoline:      Y
+intree:         Y
+name:           async_memcpy
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: async_pq
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/async_tx/async_pq.ko
+license:        GPL
+description:    asynchronous raid6 syndrome generation/validation
+depends:        async_tx,raid6_pq,async_xor
+retpoline:      Y
+intree:         Y
+name:           async_pq
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: async_xor
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/async_tx/async_xor.ko
+license:        GPL
+description:    asynchronous xor/xor-zero-sum api
+author:         Intel Corporation
+depends:        async_tx,xor
+retpoline:      Y
+intree:         Y
+name:           async_xor
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: async_tx
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/async_tx/async_tx.ko
+license:        GPL
+description:    Asynchronous Bulk Memory Transactions API
+author:         Intel Corporation
+depends:        
+retpoline:      Y
+intree:         Y
+name:           async_tx
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raid1
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/raid1.ko
+alias:          md-level-1
+alias:          md-raid1
+alias:          md-personality-3
+description:    RAID1 (mirroring) personality for MD
+license:        GPL
+depends:        md-mod
+retpoline:      Y
+intree:         Y
+name:           raid1
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raid0
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/raid0.ko
+alias:          md-level-0
+alias:          md-raid0
+alias:          md-personality-2
+description:    RAID0 (striping) personality for MD
+license:        GPL
+depends:        md-mod
+retpoline:      Y
+intree:         Y
+name:           raid0
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           default_layout:int
+
+Module: multipath
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/multipath.ko
+alias:          md-level--4
+alias:          md-multipath
+alias:          md-personality-7
+description:    simple multi-path personality for MD (deprecated)
+license:        GPL
+depends:        md-mod
+retpoline:      Y
+intree:         Y
+name:           multipath
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: linear
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/linear.ko
+alias:          md-level--1
+alias:          md-linear
+alias:          md-personality-1
+description:    Linear device concatenation personality for MD (deprecated)
+license:        GPL
+depends:        md-mod
+retpoline:      Y
+intree:         Y
+name:           linear
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: md_mod
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/md/md-mod.ko
+alias:          block-major-9-*
+alias:          md
+description:    MD RAID framework
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           md_mod
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           start_dirty_degraded:int
+parm:           create_on_open:bool
+
+Module: xfs
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/xfs/xfs.ko
+license:        GPL
+description:    SGI XFS with ACLs, security attributes, realtime, quota, no debug enabled
+author:         Silicon Graphics, Inc.
+alias:          fs-xfs
+depends:        libcrc32c
+retpoline:      Y
+intree:         Y
+name:           xfs
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: btrfs
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/btrfs/btrfs.ko
+softdep:        pre: blake2b-256
+softdep:        pre: sha256
+softdep:        pre: xxhash64
+softdep:        pre: crypto-crc32c
+license:        GPL
+alias:          devname:btrfs-control
+alias:          char-major-10-234
+alias:          fs-btrfs
+depends:        zstd_compress,raid6_pq,xor,libcrc32c
+retpoline:      Y
+intree:         Y
+name:           btrfs
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: blake2b_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/blake2b_generic.ko
+alias:          crypto-blake2b-512-generic
+alias:          blake2b-512-generic
+alias:          crypto-blake2b-512
+alias:          blake2b-512
+alias:          crypto-blake2b-384-generic
+alias:          blake2b-384-generic
+alias:          crypto-blake2b-384
+alias:          blake2b-384
+alias:          crypto-blake2b-256-generic
+alias:          blake2b-256-generic
+alias:          crypto-blake2b-256
+alias:          blake2b-256
+alias:          crypto-blake2b-160-generic
+alias:          blake2b-160-generic
+alias:          crypto-blake2b-160
+alias:          blake2b-160
+license:        GPL
+description:    BLAKE2b generic implementation
+author:         David Sterba <kdave@kernel.org>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           blake2b_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: xor
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/xor.ko
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           xor
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: raid6_pq
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/raid6/raid6_pq.ko
+description:    RAID6 Q-syndrome calculations
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           raid6_pq
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: zstd_compress
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/zstd/zstd_compress.ko
+description:    Zstd Compressor
+license:        Dual BSD/GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           zstd_compress
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: libcrc32c
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/libcrc32c.ko
+softdep:        pre: crc32c
+license:        GPL
+description:    CRC32c (Castagnoli) calculations
+author:         Clay Haapala <chaapala@cisco.com>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           libcrc32c
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ext4
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/ext4/ext4.ko
+softdep:        pre: crypto-crc32c
+license:        GPL
+description:    Fourth Extended Filesystem
+author:         Remy Card, Stephen Tweedie, Andrew Morton, Andreas Dilger, Theodore Ts'o and others
+alias:          fs-ext4
+alias:          ext3
+alias:          fs-ext3
+alias:          ext2
+alias:          fs-ext2
+depends:        jbd2,mbcache,crc16
+retpoline:      Y
+intree:         Y
+name:           ext4
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc16
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/crc16.ko
+license:        GPL
+description:    CRC16 calculations
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crc16
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: mbcache
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/mbcache.ko
+license:        GPL
+description:    Meta block cache (for extended attributes)
+author:         Jan Kara <jack@suse.cz>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           mbcache
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: jbd2
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/jbd2/jbd2.ko
+softdep:        pre: crypto-crc32c
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           jbd2
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc32c_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/crc32c_generic.ko
+alias:          crypto-crc32c-generic
+alias:          crc32c-generic
+alias:          crypto-crc32c
+alias:          crc32c
+license:        GPL
+description:    CRC32c (Castagnoli) calculations wrapper for lib/crc32c
+author:         Clay Haapala <chaapala@cisco.com>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crc32c_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: nls_ascii
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/fs/nls/nls_ascii.ko
+license:        Dual BSD/GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           nls_ascii
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: hid_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/hid/hid-generic.ko
+license:        GPL
+description:    HID generic driver
+author:         Henrik Rydberg
+alias:          hid:b*g*v*p*
+depends:        hid
+retpoline:      Y
+intree:         Y
+name:           hid_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: usbhid
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/hid/usbhid/usbhid.ko
+license:        GPL
+description:    USB HID core driver
+author:         Jiri Kosina
+author:         Vojtech Pavlik
+author:         Andreas Gal
+alias:          usb:v*p*d*dc*dsc*dp*ic03isc*ip*in*
+depends:        hid,usbcore
+retpoline:      Y
+intree:         Y
+name:           usbhid
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           mousepoll:Polling interval of mice (uint)
+parm:           jspoll:Polling interval of joysticks (uint)
+parm:           kbpoll:Polling interval of keyboards (uint)
+parm:           ignoreled:Autosuspend with active leds (uint)
+parm:           quirks:Add/modify USB HID quirks by specifying  quirks=vendorID:productID:quirks where vendorID, productID, and quirks are all in 0x-prefixed hex (array of charp)
+
+Module: hid
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/hid/hid.ko
+license:        GPL
+author:         Jiri Kosina
+author:         Vojtech Pavlik
+author:         Andreas Gal
+depends:        
+retpoline:      Y
+intree:         Y
+name:           hid
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           debug:toggle HID debugging messages (int)
+parm:           ignore_special_drivers:Ignore any special drivers and handle all devices by generic driver (int)
+
+Module: sd_mod
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/sd_mod.ko
+alias:          scsi:t-0x14*
+alias:          scsi:t-0x0e*
+alias:          scsi:t-0x07*
+alias:          scsi:t-0x00*
+alias:          block-major-135-*
+alias:          block-major-134-*
+alias:          block-major-133-*
+alias:          block-major-132-*
+alias:          block-major-131-*
+alias:          block-major-130-*
+alias:          block-major-129-*
+alias:          block-major-128-*
+alias:          block-major-71-*
+alias:          block-major-70-*
+alias:          block-major-69-*
+alias:          block-major-68-*
+alias:          block-major-67-*
+alias:          block-major-66-*
+alias:          block-major-65-*
+alias:          block-major-8-*
+license:        GPL
+description:    SCSI disk (sd) driver
+author:         Eric Youngdale
+depends:        scsi_mod,t10-pi
+retpoline:      Y
+intree:         Y
+name:           sd_mod
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: t10_pi
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/block/t10-pi.ko
+license:        GPL
+license:        GPL
+depends:        crc-t10dif,crc64-rocksoft
+retpoline:      Y
+intree:         Y
+name:           t10_pi
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc64_rocksoft_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/crc64_rocksoft_generic.ko
+alias:          crypto-crc64-rocksoft-generic
+alias:          crc64-rocksoft-generic
+alias:          crypto-crc64-rocksoft
+alias:          crc64-rocksoft
+description:    Rocksoft model CRC64 calculation.
+license:        GPL
+depends:        crc64
+retpoline:      Y
+intree:         Y
+name:           crc64_rocksoft_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc64_rocksoft
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/crc64-rocksoft.ko
+softdep:        pre: crc64
+license:        GPL
+description:    Rocksoft model CRC64 calculation (library API)
+author:         Keith Busch <kbusch@kernel.org>
+depends:        crc64
+retpoline:      Y
+intree:         Y
+name:           crc64_rocksoft
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc_t10dif
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/crc-t10dif.ko
+softdep:        pre: crct10dif
+license:        GPL
+description:    T10 DIF CRC calculation (library API)
+depends:        crct10dif_common
+retpoline:      Y
+intree:         Y
+name:           crc_t10dif
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crct10dif_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/crct10dif_generic.ko
+alias:          crypto-crct10dif-generic
+alias:          crct10dif-generic
+alias:          crypto-crct10dif
+alias:          crct10dif
+license:        GPL
+description:    T10 DIF CRC calculation.
+author:         Tim Chen <tim.c.chen@linux.intel.com>
+depends:        crct10dif_common
+retpoline:      Y
+intree:         Y
+name:           crct10dif_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc64
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/lib/crc64.ko
+license:        GPL v2
+description:    CRC64 calculations
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crc64
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crct10dif_pclmul
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/crct10dif-pclmul.ko
+alias:          crypto-crct10dif-pclmul
+alias:          crct10dif-pclmul
+alias:          crypto-crct10dif
+alias:          crct10dif
+license:        GPL
+description:    T10 DIF CRC calculation accelerated with PCLMULQDQ.
+author:         Tim Chen <tim.c.chen@linux.intel.com>
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        crct10dif_common
+retpoline:      Y
+intree:         Y
+name:           crct10dif_pclmul
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crct10dif_common
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/crct10dif_common.ko
+license:        GPL
+description:    T10 DIF CRC calculation common code
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crct10dif_common
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc32_pclmul
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/crc32-pclmul.ko
+alias:          crypto-crc32-pclmul
+alias:          crc32-pclmul
+alias:          crypto-crc32
+alias:          crc32
+license:        GPL
+author:         Alexander Boyko <alexander_boyko@xyratex.com>
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crc32_pclmul
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: crc32c_intel
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/crc32c-intel.ko
+alias:          crypto-crc32c-intel
+alias:          crc32c-intel
+alias:          crypto-crc32c
+alias:          crc32c
+license:        GPL
+description:    CRC32c (Castagnoli) optimization using Intel Hardware.
+author:         Austin Zhang <austin.zhang@intel.com>, Kent Liu <kent.liu@intel.com>
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0094*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           crc32c_intel
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ghash_clmulni_intel
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/ghash-clmulni-intel.ko
+alias:          crypto-ghash
+alias:          ghash
+description:    GHASH hash function, accelerated by PCLMULQDQ-NI
+license:        GPL
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        cryptd
+retpoline:      Y
+intree:         Y
+name:           ghash_clmulni_intel
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: sr_mod
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/sr_mod.ko
+license:        GPL
+alias:          scsi:t-0x04*
+alias:          scsi:t-0x05*
+alias:          block-major-11-*
+license:        GPL
+description:    SCSI cdrom (sr) driver
+depends:        scsi_mod,cdrom,scsi_common
+retpoline:      Y
+intree:         Y
+name:           sr_mod
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           xa_test:int
+
+Module: vmwgfx
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/gpu/drm/vmwgfx/vmwgfx.ko
+version:        2.20.0.0
+license:        GPL and additional rights
+description:    Standalone drm driver for the VMware SVGA device
+author:         VMware Inc. and others
+import_ns:      DMA_BUF
+srcversion:     B992E74577DFB38B4653B15
+alias:          pci:v000015ADd00000406sv*sd*bc*sc*i*
+alias:          pci:v000015ADd00000405sv*sd*bc*sc*i*
+depends:        ttm,drm,drm_kms_helper,drm_ttm_helper
+retpoline:      Y
+intree:         Y
+name:           vmwgfx
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           enable_fbdev:Enable vmwgfx fbdev (int)
+parm:           restrict_iommu:Try to limit IOMMU usage for TTM pages (int)
+parm:           force_coherent:Force coherent TTM pages (int)
+parm:           restrict_dma_mask:Restrict DMA mask to 44 bits with IOMMU (int)
+parm:           assume_16bpp:Assume 16-bpp when filtering modes (int)
+
+Module: cdrom
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/cdrom/cdrom.ko
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           cdrom
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           debug:bool
+parm:           autoclose:bool
+parm:           autoeject:bool
+parm:           lockdoor:bool
+parm:           check_media_type:bool
+parm:           mrw_format_restart:bool
+
+Module: aesni_intel
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/arch/x86/crypto/aesni-intel.ko
+alias:          crypto-aes
+alias:          aes
+license:        GPL
+description:    Rijndael (AES) Cipher Algorithm, Intel AES-NI instructions optimized
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0099*
+depends:        crypto_simd
+retpoline:      Y
+intree:         Y
+name:           aesni_intel
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ata_generic
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/ata/ata_generic.ko
+version:        0.2.15
+license:        GPL
+description:    low-level driver for generic ATA
+author:         Alan Cox
+srcversion:     31299D553C1274E39FAADC4
+alias:          pci:v*d*sv*sd*bc01sc01i*
+alias:          pci:v00008086d*sv*sd*bc01sc01i*
+alias:          pci:v000016CAd00000001sv*sd*bc*sc*i*
+alias:          pci:v00001045d0000C558sv*sd*bc*sc*i*
+alias:          pci:v00001106d00000561sv*sd*bc*sc*i*
+alias:          pci:v00003388d00008013sv*sd*bc*sc*i*
+alias:          pci:v00001060d0000673Asv*sd*bc*sc*i*
+alias:          pci:v00001060d0000886Asv*sd*bc*sc*i*
+alias:          pci:v00001060d00000101sv*sd*bc*sc*i*
+alias:          pci:v00009412d00006565sv*sd*bc*sc*i*
+alias:          pci:v00001042d00003020sv*sd*bc*sc*i*
+depends:        libata
+retpoline:      Y
+intree:         Y
+name:           ata_generic
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           all_generic_ide:int
+
+Module: crypto_simd
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/crypto_simd.ko
+license:        GPL
+depends:        cryptd
+retpoline:      Y
+intree:         Y
+name:           crypto_simd
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: cryptd
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/crypto/cryptd.ko
+alias:          crypto-cryptd
+alias:          cryptd
+description:    Software async crypto daemon
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           cryptd
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           cryptd_max_cpu_qlen:Set cryptd Max queue depth (uint)
+
+Module: drm_ttm_helper
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/gpu/drm/drm_ttm_helper.ko
+license:        GPL
+description:    DRM gem ttm helpers
+depends:        drm,ttm
+retpoline:      Y
+intree:         Y
+name:           drm_ttm_helper
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: ttm
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/gpu/drm/ttm/ttm.ko
+license:        GPL and additional rights
+description:    TTM memory manager subsystem (for DRM device)
+author:         Thomas Hellstrom, Jerome Glisse
+depends:        drm
+retpoline:      Y
+intree:         Y
+name:           ttm
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           page_pool_size:Number of pages in the WC/UC/DMA pool (ulong)
+parm:           pages_limit:Limit for the allocated pages (ulong)
+parm:           dma32_pages_limit:Limit for the allocated DMA32 pages (ulong)
+
+Module: uhci_hcd
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/usb/host/uhci-hcd.ko
+license:        GPL
+description:    USB Universal Host Controller Interface driver
+author:         Linus 'Frodo Rabbit' Torvalds, Johannes Erdfelt, Randy Dunlap, Georg Acher, Deti Fliegl, Thomas Sailer, Roman Weissgaerber, Alan Stern
+softdep:        pre: ehci_pci
+alias:          pci:v*d*sv*sd*bc0Csc03i00*
+depends:        usbcore,usb-common
+retpoline:      Y
+intree:         Y
+name:           uhci_hcd
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           ignore_oc:ignore hardware overcurrent indications (bool)
+parm:           debug:Debug level (int)
+
+Module: ata_piix
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/ata/ata_piix.ko
+version:        2.13
+license:        GPL
+description:    SCSI low-level driver for Intel PIIX/ICH ATA controllers
+author:         Andre Hedrick, Alan Cox, Andrzej Krzysztofowicz, Jeff Garzik
+srcversion:     C42CE08B5C83FEB830CF513
+alias:          pci:v00008086d00008C81sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C80sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C89sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C88sv*sd*bc*sc*i*
+alias:          pci:v00008086d000023A6sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000F21sv*sd*bc*sc*i*
+alias:          pci:v00008086d00000F20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D68sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D60sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008D00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F31sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F30sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F21sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001F20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002326sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C09sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C01sv*sd*bc*sc*i*
+alias:          pci:v00008086d00009C00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C09sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C01sv*sd*bc*sc*i*
+alias:          pci:v00008086d00008C00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001E09sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001E08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001E01sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001E00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001D08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001D00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001C09sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001C08sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001C01sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001C00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B2Esv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B2Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B28sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B26sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B21sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003B20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003A26sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003A20sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003A06sv*sd*bc*sc*i*
+alias:          pci:v00008086d00003A00sv*sd*bc*sc*i*
+alias:          pci:v00008086d00005028sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000292Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000292Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d00002928sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002926sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002921sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002920sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002828sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002828sv0000106Bsd000000A3bc*sc*i*
+alias:          pci:v00008086d00002828sv0000106Bsd000000A1bc*sc*i*
+alias:          pci:v00008086d00002828sv0000106Bsd000000A0bc*sc*i*
+alias:          pci:v00008086d00002825sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002820sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002680sv*sd*bc*sc*i*
+alias:          pci:v00008086d000027C4sv*sd*bc*sc*i*
+alias:          pci:v00008086d000027C0sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002653sv*sd*bc01sc01i*
+alias:          pci:v00008086d00002652sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002651sv*sd*bc*sc*i*
+alias:          pci:v00008086d000025B0sv*sd*bc*sc*i*
+alias:          pci:v00008086d000025A3sv*sd*bc*sc*i*
+alias:          pci:v00008086d000024DFsv*sd*bc*sc*i*
+alias:          pci:v00008086d000024D1sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002850sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000269Esv*sd*bc*sc*i*
+alias:          pci:v00008086d000027DFsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000266Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d000025A2sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000245Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d000024DBsv*sd*bc*sc*i*
+alias:          pci:v00008086d000024CBsv*sd*bc*sc*i*
+alias:          pci:v00008086d000024CAsv*sd*bc*sc*i*
+alias:          pci:v00008086d000024C1sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000248Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000248Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000244Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000244Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00002421sv*sd*bc*sc*i*
+alias:          pci:v00008086d00002411sv*sd*bc*sc*i*
+alias:          pci:v00008086d000084CAsv*sd*bc*sc*i*
+alias:          pci:v00008086d00007601sv*sd*bc*sc*i*
+alias:          pci:v00008086d00007199sv*sd*bc*sc*i*
+alias:          pci:v00008086d00007111sv*sd*bc*sc*i*
+alias:          pci:v00008086d00007111sv000015ADsd00001976bc*sc*i*
+alias:          pci:v00008086d00007010sv*sd*bc*sc*i*
+depends:        libata
+retpoline:      Y
+intree:         Y
+name:           ata_piix
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           prefer_ms_hyperv:Prefer Hyper-V paravirtualization drivers instead of ATA, 0 - Use ATA drivers, 1 (Default) - Use the paravirtualization drivers. (int)
+
+Module: psmouse
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/input/mouse/psmouse.ko
+license:        GPL
+description:    PS/2 mouse driver
+author:         Vojtech Pavlik <vojtech@suse.cz>
+alias:          serio:ty05pr*id*ex*
+alias:          serio:ty01pr*id*ex*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           psmouse
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           elantech_smbus:Use a secondary bus for the Elantech device. (int)
+parm:           synaptics_intertouch:Use a secondary bus for the Synaptics device. (int)
+parm:           proto:Highest protocol extension to probe (bare, imps, exps, any). Useful for KVM switches. (proto_abbrev)
+parm:           resolution:Resolution, in dpi. (uint)
+parm:           rate:Report rate, in reports per second. (uint)
+parm:           smartscroll:Logitech Smartscroll autorepeat, 1 = enabled (default), 0 = disabled. (bool)
+parm:           a4tech_workaround:A4Tech second scroll wheel workaround, 1 = enabled, 0 = disabled (default). (bool)
+parm:           resetafter:Reset device after so many bad packets (0 = never). (uint)
+parm:           resync_time:How long can mouse stay idle before forcing resync (in seconds, 0 = never). (uint)
+
+Module: ehci_hcd
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/usb/host/ehci-hcd.ko
+license:        GPL
+author:         David Brownell
+description:    USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+depends:        usbcore,usb-common
+retpoline:      Y
+intree:         Y
+name:           ehci_hcd
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           log2_irq_thresh:log2 IRQ latency, 1-64 microframes (int)
+parm:           park:park setting; 1-3 back-to-back async packets (uint)
+parm:           ignore_oc:ignore bogus hardware overcurrent indications (bool)
+
+Module: mptspi
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/message/fusion/mptspi.ko
+version:        3.04.20
+license:        GPL
+description:    Fusion MPT SPI Host driver
+author:         LSI Corporation
+srcversion:     7D1BD9BB8B701CFB70EFFE3
+alias:          pci:v00001000d00000040sv*sd*bc*sc*i*
+alias:          pci:v0000117Cd00000030sv*sd*bc*sc*i*
+alias:          pci:v00001000d00000030sv*sd*bc*sc*i*
+depends:        scsi_mod,mptscsih,mptbase,scsi_transport_spi
+retpoline:      Y
+intree:         Y
+name:           mptspi
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           mpt_saf_te: Force enabling SEP Processor: enable=1  (default=MPTSCSIH_SAF_TE=0) (int)
+
+Module: mptscsih
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/message/fusion/mptscsih.ko
+version:        3.04.20
+license:        GPL
+description:    Fusion MPT SCSI Host driver
+author:         LSI Corporation
+srcversion:     619C6C995FB40CC10D833B8
+depends:        scsi_mod,mptbase,scsi_common
+retpoline:      Y
+intree:         Y
+name:           mptscsih
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: drm_kms_helper
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/gpu/drm/drm_kms_helper.ko
+license:        GPL and additional rights
+description:    DRM KMS helper
+author:         David Airlie, Jesse Barnes
+license:        GPL
+import_ns:      DMA_BUF
+depends:        drm
+retpoline:      Y
+intree:         Y
+name:           drm_kms_helper
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           fbdev_emulation:Enable legacy fbdev emulation [default=true] (bool)
+parm:           drm_fbdev_overalloc:Overallocation of the fbdev buffer (%) [default=100] (int)
+parm:           edid_firmware:DEPRECATED. Use drm.edid_firmware module parameter instead. (charp)
+parm:           poll:bool
+
+Module: mptbase
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/message/fusion/mptbase.ko
+version:        3.04.20
+license:        GPL
+description:    Fusion MPT base driver
+author:         LSI Corporation
+srcversion:     A345DC17C1290A3DDD6E007
+depends:        
+retpoline:      Y
+intree:         Y
+name:           mptbase
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           mpt_msi_enable_spi: Enable MSI Support for SPI controllers (default=0) (int)
+parm:           mpt_msi_enable_fc: Enable MSI Support for FC controllers (default=0) (int)
+parm:           mpt_msi_enable_sas: Enable MSI Support for SAS controllers (default=0) (int)
+parm:           mpt_channel_mapping: Mapping id's to channels (default=0) (int)
+parm:           mpt_debug_level: debug level - refer to mptdebug.h - (default=0)
+parm:           mpt_fwfault_debug:Enable detection of Firmware fault and halt Firmware on fault - (default=0) (int)
+
+Module: usbcore
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/usb/core/usbcore.ko
+license:        GPL
+alias:          usb:v*p*d*dc*dsc*dp*ic09isc*ip*in*
+alias:          usb:v*p*d*dc09dsc*dp*ic*isc*ip*in*
+alias:          usb:v05E3p*d*dc*dsc*dp*ic09isc*ip*in*
+alias:          usb:v04B4p6570d*dc*dsc*dp*ic*isc*ip*in*
+alias:          usb:v0424p5534d*dc*dsc*dp*ic09isc*ip*in*
+depends:        usb-common
+retpoline:      Y
+intree:         Y
+name:           usbcore
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           quirks:Add/modify USB quirks by specifying quirks=vendorID:productID:quirks
+parm:           usbfs_snoop:true to log all usbfs traffic (bool)
+parm:           usbfs_snoop_max:maximum number of bytes to print while snooping (uint)
+parm:           usbfs_memory_mb:maximum MB allowed for usbfs buffers (0 = no limit) (uint)
+parm:           authorized_default:Default USB device authorization: 0 is not authorized, 1 is authorized, 2 is authorized for internal devices, -1 is authorized except for wireless USB (default, old behaviour) (int)
+parm:           blinkenlights:true to cycle leds on hubs (bool)
+parm:           initial_descriptor_timeout:initial 64-byte descriptor request timeout in milliseconds (default 5000 - 5.0 seconds) (int)
+parm:           old_scheme_first:start with the old device initialization scheme (bool)
+parm:           use_both_schemes:try the other device initialization scheme if the first one fails (bool)
+parm:           nousb:bool
+parm:           autosuspend:default autosuspend delay (int)
+
+Module: e1000
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/net/ethernet/intel/e1000/e1000.ko
+license:        GPL v2
+description:    Intel(R) PRO/1000 Network Driver
+author:         Intel Corporation, <linux.nics@intel.com>
+alias:          pci:v00008086d00002E6Esv*sd*bc*sc*i*
+alias:          pci:v00008086d000010B5sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001099sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000108Asv*sd*bc*sc*i*
+alias:          pci:v00008086d0000107Csv*sd*bc*sc*i*
+alias:          pci:v00008086d0000107Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000107Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001079sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001078sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001077sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001076sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001075sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001028sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001027sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001026sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000101Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000101Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000101Asv*sd*bc*sc*i*
+alias:          pci:v00008086d00001019sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001018sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001017sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001016sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001015sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001014sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001013sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001012sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001011sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001010sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000100Fsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000100Esv*sd*bc*sc*i*
+alias:          pci:v00008086d0000100Dsv*sd*bc*sc*i*
+alias:          pci:v00008086d0000100Csv*sd*bc*sc*i*
+alias:          pci:v00008086d00001009sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001008sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001004sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001001sv*sd*bc*sc*i*
+alias:          pci:v00008086d00001000sv*sd*bc*sc*i*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           e1000
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           TxDescriptors:Number of transmit descriptors (array of int)
+parm:           RxDescriptors:Number of receive descriptors (array of int)
+parm:           Speed:Speed setting (array of int)
+parm:           Duplex:Duplex setting (array of int)
+parm:           AutoNeg:Advertised auto-negotiation setting (array of int)
+parm:           FlowControl:Flow Control setting (array of int)
+parm:           XsumRX:Disable or enable Receive Checksum offload (array of int)
+parm:           TxIntDelay:Transmit Interrupt Delay (array of int)
+parm:           TxAbsIntDelay:Transmit Absolute Interrupt Delay (array of int)
+parm:           RxIntDelay:Receive Interrupt Delay (array of int)
+parm:           RxAbsIntDelay:Receive Absolute Interrupt Delay (array of int)
+parm:           InterruptThrottleRate:Interrupt Throttling Rate (array of int)
+parm:           SmartPowerDownEnable:Enable PHY smart power down (array of int)
+parm:           copybreak:Maximum size of packet that is copied to a new buffer on receive (uint)
+parm:           debug:Debug level (0=none,...,16=all) (int)
+
+Module: usb_common
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/usb/common/usb-common.ko
+license:        GPL
+depends:        
+retpoline:      Y
+intree:         Y
+name:           usb_common
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: scsi_transport_spi
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/scsi_transport_spi.ko
+license:        GPL
+description:    SPI Transport Attributes
+author:         Martin Hicks
+depends:        scsi_mod
+retpoline:      Y
+intree:         Y
+name:           scsi_transport_spi
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: libata
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/ata/libata.ko
+version:        3.00
+license:        GPL
+description:    Library module for ATA devices
+author:         Jeff Garzik
+srcversion:     E68FDE652D4342C473EF8BC
+depends:        scsi_mod,scsi_common
+retpoline:      Y
+intree:         Y
+name:           libata
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           zpodd_poweroff_delay:Poweroff delay for ZPODD in seconds (int)
+parm:           acpi_gtf_filter:filter mask for ACPI _GTF commands, set to filter out (0x1=set xfermode, 0x2=lock/freeze lock, 0x4=DIPM, 0x8=FPDMA non-zero offset, 0x10=FPDMA DMA Setup FIS auto-activate) (int)
+parm:           force:Force ATA configurations including cable type, link speed and transfer mode (see Documentation/admin-guide/kernel-parameters.rst for details) (string)
+parm:           atapi_enabled:Enable discovery of ATAPI devices (0=off, 1=on [default]) (int)
+parm:           atapi_dmadir:Enable ATAPI DMADIR bridge support (0=off [default], 1=on) (int)
+parm:           atapi_passthru16:Enable ATA_16 passthru for ATAPI devices (0=off, 1=on [default]) (int)
+parm:           fua:FUA support (0=off [default], 1=on) (int)
+parm:           ignore_hpa:Ignore HPA limit (0=keep BIOS limits, 1=ignore limits, using full disk) (int)
+parm:           dma:DMA enable/disable (0x1==ATA, 0x2==ATAPI, 0x4==CF) (int)
+parm:           ata_probe_timeout:Set ATA probing timeout (seconds) (int)
+parm:           noacpi:Disable the use of ACPI in probe/suspend/resume (0=off [default], 1=on) (int)
+parm:           allow_tpm:Permit the use of TPM commands (0=off [default], 1=on) (int)
+parm:           atapi_an:Enable ATAPI AN media presence notification (0=0ff [default], 1=on) (int)
+
+Module: drm
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/gpu/drm/drm.ko
+license:        GPL and additional rights
+description:    DRM shared core routines
+author:         Gareth Hughes, Leif Delgass, José Fonseca, Jon Smirl
+import_ns:      DMA_BUF
+license:        GPL and additional rights
+description:    DRM bridge infrastructure
+author:         Ajay Kumar <ajaykumar.rs@samsung.com>
+license:        GPL and additional rights
+description:    DRM panel infrastructure
+author:         Thierry Reding <treding@nvidia.com>
+depends:        
+retpoline:      Y
+intree:         Y
+name:           drm
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           edid_firmware:Do not probe monitor, use specified EDID blob from built-in data or /lib/firmware instead.  (string)
+parm:           vblankoffdelay:Delay until vblank irq auto-disable [msecs] (0: never disable, <0: disable immediately) (int)
+parm:           timestamp_precision_usec:Max. error on timestamps [usecs] (int)
+parm:           debug:Enable debug output, where each bit enables a debug category.
+		Bit 0 (0x01)  will enable CORE messages (drm core code)
+		Bit 1 (0x02)  will enable DRIVER messages (drm controller code)
+		Bit 2 (0x04)  will enable KMS messages (modesetting code)
+		Bit 3 (0x08)  will enable PRIME messages (prime code)
+		Bit 4 (0x10)  will enable ATOMIC messages (atomic code)
+		Bit 5 (0x20)  will enable VBL messages (vblank code)
+		Bit 7 (0x80)  will enable LEASE messages (leasing code)
+		Bit 8 (0x100) will enable DP messages (displayport code) (int)
+parm:           edid_fixup:Minimum number of valid EDID header bytes (0-8, default 6) (int)
+
+Module: i2c_piix4
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/i2c/busses/i2c-piix4.ko
+license:        GPL
+description:    PIIX4 SMBus driver
+author:         Philip Edelbrock <phil@netroedge.com>
+author:         Frodo Looijaard <frodol@dds.nl>
+alias:          pci:v00001166d00000408sv*sd*bc*sc*i*
+alias:          pci:v00001166d00000205sv*sd*bc*sc*i*
+alias:          pci:v00001166d00000203sv*sd*bc*sc*i*
+alias:          pci:v00001166d00000201sv*sd*bc*sc*i*
+alias:          pci:v00001166d00000200sv*sd*bc*sc*i*
+alias:          pci:v00001D94d0000790Bsv*sd*bc*sc*i*
+alias:          pci:v00001022d0000790Bsv*sd*bc*sc*i*
+alias:          pci:v00001022d0000780Bsv*sd*bc*sc*i*
+alias:          pci:v00001002d00004385sv*sd*bc*sc*i*
+alias:          pci:v00001002d00004372sv*sd*bc*sc*i*
+alias:          pci:v00001002d00004363sv*sd*bc*sc*i*
+alias:          pci:v00001002d00004353sv*sd*bc*sc*i*
+alias:          pci:v00001055d00009463sv*sd*bc*sc*i*
+alias:          pci:v00008086d0000719Bsv*sd*bc*sc*i*
+alias:          pci:v00008086d00007113sv*sd*bc*sc*i*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           i2c_piix4
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           force:Forcibly enable the PIIX4. DANGEROUS! (int)
+parm:           force_addr:Forcibly enable the PIIX4 at the given address. EXTREMELY DANGEROUS! (int)
+
+Module: scsi_mod
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/scsi_mod.ko
+license:        GPL
+description:    SCSI core
+depends:        scsi_common
+retpoline:      Y
+intree:         Y
+name:           scsi_mod
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           dev_flags:Given scsi_dev_flags=vendor:model:flags[,v:m:f] add black/white list entries for vendor and model with an integer value of flags to the scsi device info list (string)
+parm:           default_dev_flags:scsi default device flag uint64_t value (ullong)
+parm:           max_luns:last scsi LUN (should be between 1 and 2^64-1) (ullong)
+parm:           scan:sync, async, manual, or none. Setting to 'manual' disables automatic scanning, but allows for manual device scan via the 'scan' sysfs attribute. (string)
+parm:           inq_timeout:Timeout (in seconds) waiting for devices to answer INQUIRY. Default is 20. Some devices may need more; most need less. (uint)
+parm:           eh_deadline:SCSI EH timeout in seconds (should be between 0 and 2^31-1) (int)
+parm:           scsi_logging_level:a bit mask of logging levels (int)
+
+Module: scsi_common
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/scsi/scsi_common.ko
+license:        GPL v2
+depends:        
+retpoline:      Y
+intree:         Y
+name:           scsi_common
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+
+Module: button
+filename:       /lib/modules/6.0.0-2parrot1-amd64/kernel/drivers/acpi/button.ko
+license:        GPL
+description:    ACPI Button Driver
+author:         Paul Diefenbaugh
+alias:          acpi*:LNXPWRBN:*
+alias:          acpi*:PNP0C0C:*
+alias:          acpi*:LNXSLPBN:*
+alias:          acpi*:PNP0C0E:*
+alias:          acpi*:PNP0C0D:*
+depends:        
+retpoline:      Y
+intree:         Y
+name:           button
+vermagic:       6.0.0-2parrot1-amd64 SMP preempt mod_unload modversions 
+parm:           lid_report_interval:Interval (ms) between lid key events (ulong)
+parm:           lid_init_state:Behavior for reporting LID initial state

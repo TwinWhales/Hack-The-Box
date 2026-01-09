@@ -1,0 +1,5 @@
+johnspire tty7         Tue Sep  3 10:17:32 2024   gone - no logout                      0.0.0.0
+
+btmp.1 begins Tue Sep  3 10:17:32 2024
+
+btmp begins Thu Dec 19 12:05:39 2024

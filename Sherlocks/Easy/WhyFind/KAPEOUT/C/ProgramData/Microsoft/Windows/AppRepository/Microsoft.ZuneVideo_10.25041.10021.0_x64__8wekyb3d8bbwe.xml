@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap3 uap17 rescap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap17="http://schemas.microsoft.com/appx/manifest/uap/windows10/17" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  
+  <Identity Name="Microsoft.ZuneVideo" ProcessorArchitecture="x64" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="10.25041.10021.0"/>
+  <mp:PhoneIdentity PhoneProductId="6affe59e-0467-4701-851f-7ac026e21665" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  
+  <Properties>
+    <DisplayName>ms-resource:IDS_MANIFEST_VIDEO_APP_NAME</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Description>ms-resource:IDS_MANIFEST_VIDEO_APP_DESCRIPTION</Description>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  
+  <Applications>
+    <Application Id="Microsoft.ZuneVideo" Executable="Video.UI.exe" EntryPoint="Microsoft_Entertainment_Video_WindowsPhone.App">
+      <uap:VisualElements DisplayName="ms-resource:IDS_MANIFEST_VIDEO_APP_NAME" Description="ms-resource:IDS_MANIFEST_VIDEO_APP_DESCRIPTION" BackgroundColor="#0078D4" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\AppList.png">
+        <uap:DefaultTile Square71x71Logo="Assets\SmallLogo.png" Square310x310Logo="Assets\LargeLogo.png" Wide310x150Logo="Assets\WideLogo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen BackgroundColor="#0078D4" Image="Assets\SplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.appService" EntryPoint="Microsoft.Entertainment.AppContracts.Server.AppContractService" Executable="Video.UI.exe">
+          <uap:AppService Name="microsoft-ent-int-infra"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="mswindowsvideo"/>
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Entertainment.BackgroundTasks.VideoLicenseRefreshTask" Executable="Video.UI.exe">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Entertainment.UserLogonDownloadTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="fileassociations">
+            <uap:Logo>Assets\FileExtension.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType ContentType="video/3gpp2">.3g2</uap:FileType>
+              <uap:FileType ContentType="video/3gpp">.3gp</uap:FileType>
+              <uap:FileType ContentType="video/3gpp2">.3gp2</uap:FileType>
+              <uap:FileType ContentType="video/3gpp">.3gpp</uap:FileType>
+              <uap:FileType>.asf</uap:FileType>
+              <uap:FileType>.avi</uap:FileType>
+              <uap:FileType>.divx</uap:FileType>
+              <uap:FileType>.m1v</uap:FileType>
+              <uap:FileType>.m2ts</uap:FileType>
+              <uap:FileType>.m2t</uap:FileType>
+              <uap:FileType>.m2v</uap:FileType>
+              <uap:FileType ContentType="video/x-m4v">.m4v</uap:FileType>
+              <uap:FileType ContentType="video/x-matroska">.mkv</uap:FileType>
+              <uap:FileType>.mod</uap:FileType>
+              <uap:FileType>.mov</uap:FileType>
+              <uap:FileType>.mp2v</uap:FileType>
+              <uap:FileType ContentType="video/mp4">.mp4</uap:FileType>
+              <uap:FileType>.mp4v</uap:FileType>
+              <uap:FileType>.mpe</uap:FileType>
+              <uap:FileType>.mpeg</uap:FileType>
+              <uap:FileType>.mpg</uap:FileType>
+              <uap:FileType>.mpv2</uap:FileType>
+              <uap:FileType>.mts</uap:FileType>
+              <uap:FileType>.ogm</uap:FileType>
+              <uap:FileType ContentType="video/ogg">.ogv</uap:FileType>
+              <uap:FileType>.ogx</uap:FileType>
+              <uap:FileType>.tod</uap:FileType>
+              <uap:FileType>.ts</uap:FileType>
+              <uap:FileType>.tts</uap:FileType>
+              <uap:FileType ContentType="video/webm">.webm</uap:FileType>
+              <uap:FileType>.wm</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-wmv">.wmv</uap:FileType>
+              <uap:FileType>.xvid</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <Capability Name="privateNetworkClientServer"/>
+    <uap:Capability Name="videosLibrary"/>
+    <uap:Capability Name="removableStorage"/>
+    <rescap:Capability Name="enterpriseDataPolicy"/>
+    <rescap:Capability Name="slapiQueryLicenseValue"/>
+    <rescap:Capability Name="previewStore"/>
+    <rescap:Capability Name="packageQuery"/>
+    <uap3:Capability Name="backgroundMediaPlayback"/>
+  </Capabilities>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.0.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.0.0.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.30704.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>EntPlat.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Application.Application" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Application.ApplicationStatics" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Graphics.BlendEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Graphics.ColorSourceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Graphics.CompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Graphics.GaussianBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Graphics.SaturationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.CollectionBuildingManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.MediaStore" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Sync.SyncManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Util.ErrorMapper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Util.PlayReadyHandler" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Playback.PlaybackInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.FileTransferManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.QueryIndexer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Marketplace.Marketplace" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.AppDatabaseManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.ApplicationLifetimeManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.BackgroundTasks.BackgroundTaskRegistrar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.FileTransferQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Fulfillment.Video.Ingestion" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Fulfillment.Video.ConcurrentStreaming" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Fulfillment.Video.ConcurrentStreaming.TaskHandler" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Queries.TVSeriesQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Fulfillment.Video.Licensing" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Fulfillment.Video.Licensing.TaskHandler" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Queries.VideosQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Service.Requests.Marketplace.CatalogProductsRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Service.Requests.CloudCollection.Video.CloudCollectionRestoration" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Service.Requests.MAConnection.MAConnectionManagement" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Service.Requests.DeviceGroup.DeviceGroupManagement" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Service.Requests.Flighting.FlightingQueryRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.ClosedCaptionDownloader" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.BackgroundTasks.VideoLicenseRefreshTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.MediaEffect.AmbixMFT" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.MediaEffect.AmbixRotationSettings" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>EntCommon.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Infrastructure.NetworkService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Infrastructure.TunerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.HttpQueryEngine" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.Rfc2046.Mime" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.Rfc2046.MimeType" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.DatabaseQueries" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Configuration.ConfigurationManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.FeatureEnablement.FeatureEnablement" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.Telemetry.Events" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.Telemetry.System" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Util.EndpointManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Util.GlobalizationManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Util.SignIn" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.ImageResponse" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.ImageOptionsFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.ImageManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.Playback.MBRByteStreamHandler" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Platform.Playback.BandwidthTest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Catalog.Editorial360VideoQueries" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Catalog.RatingQueries" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Catalog.VideoQueries" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.ItemChangeListener" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.CombinedVideoQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.PersonalVideoQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.MovieQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.SpecialFeatureQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.TVEpisodeQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.TVSeasonQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.TVSeriesQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.DatabaseQueries.VideoFileQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Fulfillment.Entitlements" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Fulfillment.EntitlementId" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.Requests.Mds.Video.AssetLocationRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.Requests.Marketplace.CollectionsQueryRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.Common.Service.Requests.DeviceGroup.DeviceGroupInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.AppContracts.Server.AppContractService" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Entertainment.UserLogonDownloadTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="FB06B882-46B8-4625-B239-AF768C8477E3">
+        <Path>entplat.dll</Path>
+        <Interface Name="Microsoft.Entertainment.Interop.ICallbackInvoker" InterfaceId="A2082232-0E67-42E1-8214-1BE73406F067"/>
+      </ProxyStub>
+    </Extension>
+    <uap17:UpdateWhileInUse>defer</uap17:UpdateWhileInUse>
+  </Extensions>
+  
+  <Resources>
+    <Resource Language="en-US"/>
+    <Resource Language="en-GB"/>
+    
+  </Resources>
+</Package>

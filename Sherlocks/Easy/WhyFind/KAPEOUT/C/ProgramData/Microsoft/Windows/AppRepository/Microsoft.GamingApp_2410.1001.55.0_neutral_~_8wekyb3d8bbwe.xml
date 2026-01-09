@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.GamingApp" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2410.1001.55.0"/>
+	<Packages>
+		<Package Type="application" Version="2410.1001.55.0" Architecture="x64" FileName="XboxAppPackage_2410.1001.55.0_x64.msix" Offset="171033330" Size="168972653">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-IE"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="EN-NZ"/>
+				<Resource Language="EN-SA"/>
+				<Resource Language="EN-SG"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="2410.1001.55.0" Architecture="arm64" FileName="XboxAppPackage_2410.1001.55.0_ARM64.msix" Offset="70" Size="165045513">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-AU"/>
+				<Resource Language="EN-CA"/>
+				<Resource Language="EN-IE"/>
+				<Resource Language="EN-IN"/>
+				<Resource Language="EN-NZ"/>
+				<Resource Language="EN-SA"/>
+				<Resource Language="EN-SG"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ar" FileName="XboxAppPackage_2410.1001.55.0_language-ar.msix" Offset="165136615" Size="98744">
+			<Resources>
+				<Resource Language="ar-ae"/>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-az-latn" FileName="XboxAppPackage_2410.1001.55.0_language-az-latn.msix" Offset="165235464" Size="95583">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-bg" FileName="XboxAppPackage_2410.1001.55.0_language-bg.msix" Offset="165331147" Size="107563">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-bs" FileName="XboxAppPackage_2410.1001.55.0_language-bs.msix" Offset="165438810" Size="81302">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-af" FileName="XboxAppPackage_2410.1001.55.0_language-af.msix" Offset="165045683" Size="90832">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ca" FileName="XboxAppPackage_2410.1001.55.0_language-ca.msix" Offset="165520212" Size="94581">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-cy" FileName="XboxAppPackage_2410.1001.55.0_language-cy.msix" Offset="165713738" Size="79200">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-cs" FileName="XboxAppPackage_2410.1001.55.0_language-cs.msix" Offset="165614893" Size="98745">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-da" FileName="XboxAppPackage_2410.1001.55.0_language-da.msix" Offset="165793038" Size="90655">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-el" FileName="XboxAppPackage_2410.1001.55.0_language-el.msix" Offset="165985396" Size="113414">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-de" FileName="XboxAppPackage_2410.1001.55.0_language-de.msix" Offset="165883793" Size="101503">
+			<Resources>
+				<Resource Language="de-at"/>
+				<Resource Language="de-ch"/>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-eu" FileName="XboxAppPackage_2410.1001.55.0_language-eu.msix" Offset="166344063" Size="91211">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-es" FileName="XboxAppPackage_2410.1001.55.0_language-es.msix" Offset="166098910" Size="152148">
+			<Resources>
+				<Resource Language="es-ar"/>
+				<Resource Language="es-cl"/>
+				<Resource Language="es-co"/>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+				<Resource Language="es-us"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-et" FileName="XboxAppPackage_2410.1001.55.0_language-et.msix" Offset="166251158" Size="92805">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-fa" FileName="XboxAppPackage_2410.1001.55.0_language-fa.msix" Offset="166435374" Size="100167">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-fil-latn" FileName="XboxAppPackage_2410.1001.55.0_language-fil-latn.msix" Offset="166628512" Size="93968">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-fi" FileName="XboxAppPackage_2410.1001.55.0_language-fi.msix" Offset="166535641" Size="92765">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-fr" FileName="XboxAppPackage_2410.1001.55.0_language-fr.msix" Offset="166722580" Size="156026">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-ch"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-gl" FileName="XboxAppPackage_2410.1001.55.0_language-gl.msix" Offset="166878706" Size="92429">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-he" FileName="XboxAppPackage_2410.1001.55.0_language-he.msix" Offset="166971235" Size="91462">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-hi" FileName="XboxAppPackage_2410.1001.55.0_language-hi.msix" Offset="167062797" Size="104602">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-hr" FileName="XboxAppPackage_2410.1001.55.0_language-hr.msix" Offset="167167499" Size="95425">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-id" FileName="XboxAppPackage_2410.1001.55.0_language-id.msix" Offset="167362151" Size="87321">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-hu" FileName="XboxAppPackage_2410.1001.55.0_language-hu.msix" Offset="167263024" Size="99027">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-it" FileName="XboxAppPackage_2410.1001.55.0_language-it.msix" Offset="167543413" Size="91582">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-is" FileName="XboxAppPackage_2410.1001.55.0_language-is.msix" Offset="167449572" Size="93741">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-kk" FileName="XboxAppPackage_2410.1001.55.0_language-kk.msix" Offset="167815789" Size="106747">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ka" FileName="XboxAppPackage_2410.1001.55.0_language-ka.msix" Offset="167725629" Size="90060">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ja" FileName="XboxAppPackage_2410.1001.55.0_language-ja.msix" Offset="167635095" Size="90434">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ko" FileName="XboxAppPackage_2410.1001.55.0_language-ko.msix" Offset="167922636" Size="89116">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-lt" FileName="XboxAppPackage_2410.1001.55.0_language-lt.msix" Offset="168011852" Size="95647">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-lv" FileName="XboxAppPackage_2410.1001.55.0_language-lv.msix" Offset="168107599" Size="95511">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ms" FileName="XboxAppPackage_2410.1001.55.0_language-ms.msix" Offset="168203210" Size="88265">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-nb" FileName="XboxAppPackage_2410.1001.55.0_language-nb.msix" Offset="168291575" Size="89238">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-nl" FileName="XboxAppPackage_2410.1001.55.0_language-nl.msix" Offset="168380913" Size="92758">
+			<Resources>
+				<Resource Language="nl-be"/>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-nn" FileName="XboxAppPackage_2410.1001.55.0_language-nn.msix" Offset="168473771" Size="77057">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-pl" FileName="XboxAppPackage_2410.1001.55.0_language-pl.msix" Offset="168550928" Size="98623">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-pt" FileName="XboxAppPackage_2410.1001.55.0_language-pt.msix" Offset="168649651" Size="158645">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-qps-ploc" FileName="XboxAppPackage_2410.1001.55.0_language-qps-ploc.msix" Offset="168808402" Size="165392">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-qps-ploca" FileName="XboxAppPackage_2410.1001.55.0_language-qps-ploca.msix" Offset="168973901" Size="165367">
+			<Resources>
+				<Resource Language="qps-ploca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-qps-plocm" FileName="XboxAppPackage_2410.1001.55.0_language-qps-plocm.msix" Offset="169139375" Size="165479">
+			<Resources>
+				<Resource Language="qps-plocm"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ro" FileName="XboxAppPackage_2410.1001.55.0_language-ro.msix" Offset="169304954" Size="95250">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sl" FileName="XboxAppPackage_2410.1001.55.0_language-sl.msix" Offset="169607712" Size="95303">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sk" FileName="XboxAppPackage_2410.1001.55.0_language-sk.msix" Offset="169509931" Size="97681">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-ru" FileName="XboxAppPackage_2410.1001.55.0_language-ru.msix" Offset="169400304" Size="109527">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sr-cyrl" FileName="XboxAppPackage_2410.1001.55.0_language-sr-cyrl.msix" Offset="169799172" Size="92887">
+			<Resources>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sq" FileName="XboxAppPackage_2410.1001.55.0_language-sq.msix" Offset="169703115" Size="95952">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sv" FileName="XboxAppPackage_2410.1001.55.0_language-sv.msix" Offset="169987872" Size="90003">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-th" FileName="XboxAppPackage_2410.1001.55.0_language-th.msix" Offset="170077975" Size="95485">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-sr-latn" FileName="XboxAppPackage_2410.1001.55.0_language-sr-latn.msix" Offset="169892164" Size="95608">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-tr" FileName="XboxAppPackage_2410.1001.55.0_language-tr.msix" Offset="170173560" Size="93676">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-vi" FileName="XboxAppPackage_2410.1001.55.0_language-vi.msix" Offset="170376149" Size="97199">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-uk" FileName="XboxAppPackage_2410.1001.55.0_language-uk.msix" Offset="170267336" Size="108713">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-zh-hant" FileName="XboxAppPackage_2410.1001.55.0_language-zh-hant.msix" Offset="170557889" Size="88734">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.scale-100" FileName="XboxAppPackage_2410.1001.55.0_scale-100.msix" Offset="170646721" Size="52542">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.scale-125" FileName="XboxAppPackage_2410.1001.55.0_scale-125.msix" Offset="170699361" Size="58414">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.scale-150" FileName="XboxAppPackage_2410.1001.55.0_scale-150.msix" Offset="170757873" Size="67948">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.language-zh-hans" FileName="XboxAppPackage_2410.1001.55.0_language-zh-hans.msix" Offset="170473453" Size="84331">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2410.1001.55.0" ResourceId="split.scale-400" FileName="XboxAppPackage_2410.1001.55.0_scale-400.msix" Offset="170825919" Size="207319">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

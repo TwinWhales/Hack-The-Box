@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.MicrosoftStickyNotes" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="6.1.4.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="4.0.6104.0" Architecture="arm64" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_ARM64.msix" Offset="85" Size="375917" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-af" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-af.msix" Offset="376117" Size="11066" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="af"/>
+				<b5:Resource Language="af-za"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-am" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-am.msix" Offset="387298" Size="11217" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="am"/>
+				<b5:Resource Language="am-et"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ar" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ar.msix" Offset="398630" Size="11121" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ar"/>
+				<b5:Resource Language="ar-sa"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-az-latn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-az-latn.msix" Offset="409871" Size="11093" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="az-latn-az"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-be" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-be.msix" Offset="421079" Size="10529" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="be"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-bg.msix" Offset="431723" Size="11200" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg"/>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-bn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-bn.msix" Offset="443038" Size="11267" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bn-bd"/>
+				<b5:Resource Language="bn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-bs" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-bs.msix" Offset="454420" Size="11086" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bs"/>
+				<b5:Resource Language="bs-latn-ba"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ca.msix" Offset="465621" Size="11313" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca"/>
+				<b5:Resource Language="ca-es"/>
+				<b5:Resource Language="ca-es-valencia"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-cs.msix" Offset="477049" Size="11094" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs"/>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-da.msix" Offset="488258" Size="11075" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da"/>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-de.msix" Offset="499448" Size="11116" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de"/>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-el.msix" Offset="510679" Size="11313" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el"/>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-es.msix" Offset="522107" Size="11298" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es"/>
+				<b5:Resource Language="es-es"/>
+				<b5:Resource Language="es-mx"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-et.msix" Offset="533520" Size="11065" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et"/>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-eu.msix" Offset="544700" Size="11058" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu"/>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-fa" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-fa.msix" Offset="555873" Size="11172" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fa"/>
+				<b5:Resource Language="fa-ir"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-fi.msix" Offset="567160" Size="11074" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi"/>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-fil-latn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-fil-latn.msix" Offset="578355" Size="11098" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fil"/>
+				<b5:Resource Language="fil-ph"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-fr.msix" Offset="589568" Size="11302" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr"/>
+				<b5:Resource Language="fr-ca"/>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-gl.msix" Offset="600985" Size="11067" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl"/>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ha-latn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ha-latn.msix" Offset="612172" Size="10529" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ha-latn-ng"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-he" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-he.msix" Offset="622816" Size="11039" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="he"/>
+				<b5:Resource Language="he-il"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-hi.msix" Offset="633970" Size="11225" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi"/>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-hr.msix" Offset="645310" Size="11073" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr"/>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-hu.msix" Offset="656498" Size="11117" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu"/>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-id.msix" Offset="667730" Size="11019" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id"/>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-is" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-is.msix" Offset="678864" Size="11094" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="is"/>
+				<b5:Resource Language="is-is"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-it.msix" Offset="690073" Size="11079" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it"/>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ja.msix" Offset="701267" Size="11104" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja"/>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-kk.msix" Offset="712486" Size="11219" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk"/>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-km" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-km.msix" Offset="723820" Size="11185" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="km-kh"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-kn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-kn.msix" Offset="735120" Size="11220" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kn"/>
+				<b5:Resource Language="kn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ko.msix" Offset="746455" Size="11167" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko"/>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-lo" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-lo.msix" Offset="757737" Size="11192" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lo"/>
+				<b5:Resource Language="lo-la"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-lt.msix" Offset="769044" Size="11076" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt"/>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-lv.msix" Offset="780235" Size="11146" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv"/>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-mk" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-mk.msix" Offset="791496" Size="11202" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mk"/>
+				<b5:Resource Language="mk-mk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ml" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ml.msix" Offset="802813" Size="11215" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ml"/>
+				<b5:Resource Language="ml-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ms.msix" Offset="814143" Size="11021" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms"/>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-nb.msix" Offset="825279" Size="11028" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-nl.msix" Offset="836422" Size="11055" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl"/>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-nn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-nn.msix" Offset="847592" Size="11019" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nn-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-pl.msix" Offset="858726" Size="11108" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl"/>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-pt.msix" Offset="869949" Size="11412" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ro.msix" Offset="881476" Size="11083" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro"/>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ru.msix" Offset="892674" Size="11238" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru"/>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sk.msix" Offset="904027" Size="11072" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk"/>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sl.msix" Offset="915214" Size="11096" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl"/>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sq" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sq.msix" Offset="926425" Size="11099" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sq"/>
+				<b5:Resource Language="sq-al"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sr-cyrl" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sr-cyrl.msix" Offset="937644" Size="11511" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-cyrl-ba"/>
+				<b5:Resource Language="sr-cyrl-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sr-latn.msix" Offset="949275" Size="11066" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sv.msix" Offset="960456" Size="11065" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv"/>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-sw" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-sw.msix" Offset="971636" Size="10518" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-ta" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-ta.msix" Offset="982269" Size="11223" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ta"/>
+				<b5:Resource Language="ta-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-te" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-te.msix" Offset="993607" Size="11253" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="te"/>
+				<b5:Resource Language="te-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-th.msix" Offset="1004975" Size="11162" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th"/>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-tr.msix" Offset="1016252" Size="11113" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr"/>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-uk.msix" Offset="1027480" Size="11187" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk"/>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-uz-latn" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-uz-latn.msix" Offset="1038787" Size="11074" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uz-latn-uz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-vi.msix" Offset="1049976" Size="11142" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi"/>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-zh-hans.msix" Offset="1061238" Size="11046" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+				<b5:Resource Language="zh-hans"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_language-zh-hant.msix" Offset="1072404" Size="11063" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-hant"/>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_scale-100.msix" Offset="1083580" Size="48068" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_scale-125.msix" Offset="1131761" Size="57343" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_scale-150.msix" Offset="1189217" Size="65545" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="4.0.6104.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_scale-400.msix" Offset="1254875" Size="204170" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="4.0.6104.0" Architecture="x86" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_Win32.msix" Offset="1459154" Size="372446" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="4.0.6104.0" Architecture="x64" FileName="AppxMetadata\Stub\StickyNotesStub_4.0.6104.0_x64.msix" Offset="1831707" Size="376678" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19011.0" MaxVersionTested="10.0.19011.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="6.1.4.0" Architecture="arm64" FileName="App_6.1.4.0_ARM64.msix" Offset="2208461" Size="13739900">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="6.1.4.0" Architecture="x64" FileName="App_6.1.4.0_x64.msix" Offset="17764967" Size="14665223">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="6.1.4.0" Architecture="x86" FileName="App_6.1.4.0_x86.msix" Offset="32430264" Size="12880773">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-af" FileName="App_6.1.4.0_language-af.msix" Offset="15948443" Size="20928">
+			<Resources>
+				<Resource Language="af"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-am" FileName="App_6.1.4.0_language-am.msix" Offset="15969453" Size="21787">
+			<Resources>
+				<Resource Language="am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ar" FileName="App_6.1.4.0_language-ar.msix" Offset="15991322" Size="21685">
+			<Resources>
+				<Resource Language="ar"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-az-latn" FileName="App_6.1.4.0_language-az-latn.msix" Offset="16013094" Size="21515">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-be" FileName="App_6.1.4.0_language-be.msix" Offset="16034691" Size="22530">
+			<Resources>
+				<Resource Language="be"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-bg" FileName="App_6.1.4.0_language-bg.msix" Offset="16057303" Size="22235">
+			<Resources>
+				<Resource Language="bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-bn" FileName="App_6.1.4.0_language-bn.msix" Offset="16079620" Size="22187">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-bs" FileName="App_6.1.4.0_language-bs.msix" Offset="16101889" Size="21366">
+			<Resources>
+				<Resource Language="bs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ca" FileName="App_6.1.4.0_language-ca.msix" Offset="16123337" Size="21304">
+			<Resources>
+				<Resource Language="ca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-cs" FileName="App_6.1.4.0_language-cs.msix" Offset="16144723" Size="21552">
+			<Resources>
+				<Resource Language="cs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-da" FileName="App_6.1.4.0_language-da.msix" Offset="16166357" Size="20965">
+			<Resources>
+				<Resource Language="da"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-de" FileName="App_6.1.4.0_language-de.msix" Offset="16187404" Size="21393">
+			<Resources>
+				<Resource Language="de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-el" FileName="App_6.1.4.0_language-el.msix" Offset="16208879" Size="22839">
+			<Resources>
+				<Resource Language="el"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-es" FileName="App_6.1.4.0_language-es.msix" Offset="16231800" Size="22056">
+			<Resources>
+				<Resource Language="es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-et" FileName="App_6.1.4.0_language-et.msix" Offset="16253938" Size="21064">
+			<Resources>
+				<Resource Language="et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-eu" FileName="App_6.1.4.0_language-eu.msix" Offset="16275084" Size="20856">
+			<Resources>
+				<Resource Language="eu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-fa" FileName="App_6.1.4.0_language-fa.msix" Offset="16296022" Size="22162">
+			<Resources>
+				<Resource Language="fa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-fi" FileName="App_6.1.4.0_language-fi.msix" Offset="16318266" Size="21148">
+			<Resources>
+				<Resource Language="fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-fil-latn" FileName="App_6.1.4.0_language-fil-latn.msix" Offset="16339502" Size="21046">
+			<Resources>
+				<Resource Language="fil"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-fr" FileName="App_6.1.4.0_language-fr.msix" Offset="16360630" Size="22663">
+			<Resources>
+				<Resource Language="fr"/>
+				<Resource Language="fr-ca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-gl" FileName="App_6.1.4.0_language-gl.msix" Offset="16383375" Size="21041">
+			<Resources>
+				<Resource Language="gl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ha-latn" FileName="App_6.1.4.0_language-ha-latn.msix" Offset="16404503" Size="21208">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-he" FileName="App_6.1.4.0_language-he.msix" Offset="16425793" Size="21181">
+			<Resources>
+				<Resource Language="he"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-hi" FileName="App_6.1.4.0_language-hi.msix" Offset="16447056" Size="21973">
+			<Resources>
+				<Resource Language="hi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-hr" FileName="App_6.1.4.0_language-hr.msix" Offset="16469111" Size="21419">
+			<Resources>
+				<Resource Language="hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-hu" FileName="App_6.1.4.0_language-hu.msix" Offset="16490612" Size="21587">
+			<Resources>
+				<Resource Language="hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-id" FileName="App_6.1.4.0_language-id.msix" Offset="16512281" Size="20750">
+			<Resources>
+				<Resource Language="id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-is" FileName="App_6.1.4.0_language-is.msix" Offset="16533113" Size="21334">
+			<Resources>
+				<Resource Language="is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-it" FileName="App_6.1.4.0_language-it.msix" Offset="16554529" Size="20994">
+			<Resources>
+				<Resource Language="it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ja" FileName="App_6.1.4.0_language-ja.msix" Offset="16575605" Size="21059">
+			<Resources>
+				<Resource Language="ja"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-kk" FileName="App_6.1.4.0_language-kk.msix" Offset="16596746" Size="22086">
+			<Resources>
+				<Resource Language="kk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-km" FileName="App_6.1.4.0_language-km.msix" Offset="16618914" Size="22294">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-kn" FileName="App_6.1.4.0_language-kn.msix" Offset="16641290" Size="22066">
+			<Resources>
+				<Resource Language="kn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ko" FileName="App_6.1.4.0_language-ko.msix" Offset="16663438" Size="21091">
+			<Resources>
+				<Resource Language="ko"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-lo" FileName="App_6.1.4.0_language-lo.msix" Offset="16684611" Size="21653">
+			<Resources>
+				<Resource Language="lo"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-lt" FileName="App_6.1.4.0_language-lt.msix" Offset="16706346" Size="21520">
+			<Resources>
+				<Resource Language="lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-lv" FileName="App_6.1.4.0_language-lv.msix" Offset="16727948" Size="21372">
+			<Resources>
+				<Resource Language="lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-mk" FileName="App_6.1.4.0_language-mk.msix" Offset="16749402" Size="22135">
+			<Resources>
+				<Resource Language="mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ml" FileName="App_6.1.4.0_language-ml.msix" Offset="16771619" Size="22213">
+			<Resources>
+				<Resource Language="ml"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ms" FileName="App_6.1.4.0_language-ms.msix" Offset="16793914" Size="20794">
+			<Resources>
+				<Resource Language="ms"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-nb" FileName="App_6.1.4.0_language-nb.msix" Offset="16814790" Size="20838">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-nl" FileName="App_6.1.4.0_language-nl.msix" Offset="16835710" Size="21116">
+			<Resources>
+				<Resource Language="nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-nn" FileName="App_6.1.4.0_language-nn.msix" Offset="16856908" Size="20821">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-pl" FileName="App_6.1.4.0_language-pl.msix" Offset="16877811" Size="21515">
+			<Resources>
+				<Resource Language="pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-pt" FileName="App_6.1.4.0_language-pt.msix" Offset="16899408" Size="24825">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ro" FileName="App_6.1.4.0_language-ro.msix" Offset="16924315" Size="21283">
+			<Resources>
+				<Resource Language="ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ru" FileName="App_6.1.4.0_language-ru.msix" Offset="16945680" Size="22445">
+			<Resources>
+				<Resource Language="ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sk" FileName="App_6.1.4.0_language-sk.msix" Offset="16968207" Size="21591">
+			<Resources>
+				<Resource Language="sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sl" FileName="App_6.1.4.0_language-sl.msix" Offset="16989880" Size="21246">
+			<Resources>
+				<Resource Language="sl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sq" FileName="App_6.1.4.0_language-sq.msix" Offset="17011208" Size="21334">
+			<Resources>
+				<Resource Language="sq"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sr-cyrl" FileName="App_6.1.4.0_language-sr-cyrl.msix" Offset="17032629" Size="22333">
+			<Resources>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sr-latn" FileName="App_6.1.4.0_language-sr-latn.msix" Offset="17055049" Size="21428">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sv" FileName="App_6.1.4.0_language-sv.msix" Offset="17076559" Size="20909">
+			<Resources>
+				<Resource Language="sv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-sw" FileName="App_6.1.4.0_language-sw.msix" Offset="17097550" Size="21038">
+			<Resources>
+				<Resource Language="sw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-ta" FileName="App_6.1.4.0_language-ta.msix" Offset="17118670" Size="21912">
+			<Resources>
+				<Resource Language="ta"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-te" FileName="App_6.1.4.0_language-te.msix" Offset="17140664" Size="22064">
+			<Resources>
+				<Resource Language="te"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-th" FileName="App_6.1.4.0_language-th.msix" Offset="17162810" Size="21550">
+			<Resources>
+				<Resource Language="th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-tr" FileName="App_6.1.4.0_language-tr.msix" Offset="17184442" Size="21140">
+			<Resources>
+				<Resource Language="tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-uk" FileName="App_6.1.4.0_language-uk.msix" Offset="17205664" Size="22272">
+			<Resources>
+				<Resource Language="uk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-uz-latn" FileName="App_6.1.4.0_language-uz-latn.msix" Offset="17228023" Size="20978">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-vi" FileName="App_6.1.4.0_language-vi.msix" Offset="17249083" Size="21298">
+			<Resources>
+				<Resource Language="vi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-zh-hans" FileName="App_6.1.4.0_language-zh-hans.msix" Offset="17270468" Size="20661">
+			<Resources>
+				<Resource Language="zh-hans"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.language-zh-hant" FileName="App_6.1.4.0_language-zh-hant.msix" Offset="17291216" Size="20852">
+			<Resources>
+				<Resource Language="zh-hant"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.scale-100" FileName="App_6.1.4.0_scale-100.msix" Offset="17312148" Size="60421">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.scale-125" FileName="App_6.1.4.0_scale-125.msix" Offset="17372649" Size="57365">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.scale-150" FileName="App_6.1.4.0_scale-150.msix" Offset="17430094" Size="65564">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="6.1.4.0" ResourceId="split.scale-400" FileName="App_6.1.4.0_scale-400.msix" Offset="17495738" Size="269155">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.18362.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19556.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

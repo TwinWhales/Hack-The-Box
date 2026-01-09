@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="selected_tab" value="0" />
+    <string name="home_time_zone">Africa/Cairo</string>
+    <boolean name="display_clock_seconds" value="false" />
+</map>

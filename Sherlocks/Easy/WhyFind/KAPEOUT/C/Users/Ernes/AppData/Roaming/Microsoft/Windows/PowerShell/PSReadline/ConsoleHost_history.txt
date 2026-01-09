@@ -1,0 +1,2 @@
+cd 'D:\kape\KAPE\'
+.\kape.exe --tsource C: --target !SANS_Triage,ProgramData --tdest D:\KAPEOUT

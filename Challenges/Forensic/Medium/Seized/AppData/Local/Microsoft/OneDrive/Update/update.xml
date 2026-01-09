@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <update throttle="100" rescan="1440" currentversion="22.077.0410.0007" maxapplicable="22.077.0410.0006" minapplicable="16.000.0000.0000">
+    <binary sha1hash="E1yXaSXH1umkr6pXaABcdXapJxs=" sha256hash="jjiooBnk6w0tEt20O1IWzT63jvuFUxpZgJDoJdpkDgg=" url="https://oneclient.sfx.ms/Win/Prod/22.077.0410.0007/OneDriveSetup.exe" />
+    <msixbinary url="https://oneclient.sfx.ms/Win/Prod/22.077.0410.0007/Microsoft.OneDriveSyncClient_8wekyb3d8bbwe.msix" />
+    <amd64binary sha1hash="JfJqCw8CU6VJhe7/YnXjm+yKO7E=" sha256hash="JjoeTY78Krp49KXJEyjtE1O9WSuFmFoNKECtVwKGDW8=" url="https://oneclient.sfx.ms/Win/Prod/22.077.0410.0007/amd64/OneDriveSetup.exe" />
+    <arm64binary sha1hash="MoslS4xKNi+fU+RGs5uI8E3RXDs=" sha256hash="zXIF1hnEfRrpUCgk4dMXV0jowfMqst3G3MluwRyDzaQ=" url="https://oneclient.sfx.ms/Win/Prod/22.077.0410.0007/arm64/OneDriveSetup.exe" />
+  </update>
+  <update throttle="25" rescan="1440" currentversion="22.089.0426.0003" maxapplicable="22.999.9999.9999" minapplicable="16.000.0000.0000">
+    <binary sha1hash="7BuzpWKbi5kzwDSeKjs4m+lePwg=" sha256hash="FkHfao98BmkaGZIs8wXGJkJ8DhEMh0c1coipwoAf5DY=" url="https://oneclient.sfx.ms/Win/Prod/22.089.0426.0003/OneDriveSetup.exe" />
+    <msixbinary url="https://oneclient.sfx.ms/Win/Prod/22.089.0426.0003/Microsoft.OneDriveSyncClient_8wekyb3d8bbwe.msix" />
+    <amd64binary sha1hash="cqaCwm94YcQJyj6NoAcaJDDZ83c=" sha256hash="ohJxNN2MptEY/fdBJXv9rMqxaYqSFa4UC+28KucCRwc=" url="https://oneclient.sfx.ms/Win/Prod/22.089.0426.0003/amd64/OneDriveSetup.exe" />
+    <arm64binary sha1hash="AIm+lYlYQtaSNJK0Zdy7z3TKbrQ=" sha256hash="AxlRq7XS3EI2v83yOh6VlDD2rnlT0YHIym1faWUZ84E=" url="https://oneclient.sfx.ms/Win/Prod/22.089.0426.0003/arm64/OneDriveSetup.exe" />
+  </update>
+</root>

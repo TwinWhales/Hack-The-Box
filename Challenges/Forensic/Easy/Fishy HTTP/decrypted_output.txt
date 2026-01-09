@@ -1,0 +1,9 @@
+[+] %5c(1) Decoded Content:
+systeminfo
+
+[+] %5c(2) Decoded Content:
+dir && cd \Users\pakcyberbot\Documents\ && type HTB{Th4ts_d07n37_
+
+[+] %5c(3) Decoded Content:
+dir && cd \Users\pakcyberbot && echo 'you are hacked' > notes.txt
+

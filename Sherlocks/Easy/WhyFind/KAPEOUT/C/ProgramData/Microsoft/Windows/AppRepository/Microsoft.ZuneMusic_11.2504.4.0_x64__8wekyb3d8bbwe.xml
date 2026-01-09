@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp uap3 uap17 rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap17="http://schemas.microsoft.com/appx/manifest/uap/windows10/17" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.ZuneMusic" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2504.4.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="d2b6a184-da39-4c9a-9e0a-8b589b03dec0" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\MediaPlayerStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19042.0" MaxVersionTested="10.0.22000.346"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2212.15002.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    
+    <Application Id="Microsoft.ZuneMusic" Executable="Microsoft.Media.Player.exe" EntryPoint="Microsoft.Entertainment.Music.App">
+      <uap:VisualElements DisplayName="ms-resource:AppName" Square150x150Logo="Assets\MediaPlayerMedTile.png" Square44x44Logo="Assets\MediaPlayerAppList.png" Description="ms-resource:AppDescription" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\MediaPlayerWideTile.png" Square310x310Logo="Assets\MediaPlayerLargeTile.png" Square71x71Logo="Assets\MediaPlayerSmallTile.png"/>
+        <uap:SplashScreen Image="Assets\MediaPlayerSplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="fileassociations">
+            <uap:Logo>Assets\MediaPlayerFileExtension.png</uap:Logo>
+            <uap2:SupportedVerbs>
+              <uap3:Verb Id="Play" Extended="false" MultiSelectModel="Player">ms-resource:ShellIntegrationPlay</uap3:Verb>
+              <uap3:Verb Id="Enqueue" Extended="false" MultiSelectModel="Player">ms-resource:ShellIntegrationEnqueue</uap3:Verb>
+            </uap2:SupportedVerbs>
+            <uap:SupportedFileTypes>
+              
+              <uap:FileType>.aac</uap:FileType>
+              <uap:FileType>.ac3</uap:FileType>
+              <uap:FileType>.adt</uap:FileType>
+              <uap:FileType>.adts</uap:FileType>
+              <uap:FileType>.amr</uap:FileType>
+              <uap:FileType>.ec3</uap:FileType>
+              <uap:FileType>.flac</uap:FileType>
+              <uap:FileType>.m4a</uap:FileType>
+              <uap:FileType>.m4r</uap:FileType>
+              <uap:FileType>.mk3d</uap:FileType>
+              <uap:FileType>.mka</uap:FileType>
+              <uap:FileType>.mp2</uap:FileType>
+              <uap:FileType>.mp3</uap:FileType>
+              <uap:FileType>.mpa</uap:FileType>
+              <uap:FileType>.oga</uap:FileType>
+              <uap:FileType>.ogg</uap:FileType>
+              <uap:FileType>.opus</uap:FileType>
+              <uap:FileType>.wav</uap:FileType>
+              <uap:FileType>.wma</uap:FileType>
+              
+              <uap:FileType>.m3u</uap:FileType>
+              <uap:FileType>.m3u8</uap:FileType>
+              <uap:FileType>.wpl</uap:FileType>
+              <uap:FileType>.zpl</uap:FileType>
+              
+              <uap:FileType>.3g2</uap:FileType>
+              <uap:FileType>.3gp</uap:FileType>
+              <uap:FileType>.3gp2</uap:FileType>
+              <uap:FileType>.3gpp</uap:FileType>
+              <uap:FileType>.asf</uap:FileType>
+              <uap:FileType>.avi</uap:FileType>
+              <uap:FileType>.divx</uap:FileType>
+              <uap:FileType>.m1v</uap:FileType>
+              <uap:FileType>.m2ts</uap:FileType>
+              <uap:FileType>.m2t</uap:FileType>
+              <uap:FileType>.m2v</uap:FileType>
+              <uap:FileType>.m4v</uap:FileType>
+              <uap:FileType>.mkv</uap:FileType>
+              <uap:FileType>.mod</uap:FileType>
+              <uap:FileType>.mov</uap:FileType>
+              <uap:FileType>.mp2v</uap:FileType>
+              <uap:FileType>.mp4</uap:FileType>
+              <uap:FileType>.mp4v</uap:FileType>
+              <uap:FileType>.mpe</uap:FileType>
+              <uap:FileType>.mpeg</uap:FileType>
+              <uap:FileType>.mpg</uap:FileType>
+              <uap:FileType>.mpg4</uap:FileType>
+              <uap:FileType>.mpv2</uap:FileType>
+              <uap:FileType>.mts</uap:FileType>
+              <uap:FileType>.ogm</uap:FileType>
+              <uap:FileType>.ogv</uap:FileType>
+              <uap:FileType>.ogx</uap:FileType>
+              <uap:FileType>.tod</uap:FileType>
+              <uap:FileType>.ts</uap:FileType>
+              <uap:FileType>.tts</uap:FileType>
+              <uap:FileType>.webm</uap:FileType>
+              <uap:FileType>.wm</uap:FileType>
+              <uap:FileType>.wmv</uap:FileType>
+              <uap:FileType>.xvid</uap:FileType>
+              
+              <uap:FileType>.cda</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="mswindowsmusic"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-media-player"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-playto-audio"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.autoPlayContent">
+          <uap:AutoPlayContent>
+            <uap:LaunchAction Verb="play-cd-audio" ContentEvent="PlayCDAudioOnArrival" ActionDisplayName="ms-resource:PlayAudioCDAutoPlayDisplayName"/>
+            <uap:LaunchAction Verb="play-enhancedcd-audio" ContentEvent="PlayEnhancedCDOnArrival" ActionDisplayName="ms-resource:PlayAudioCDAutoPlayDisplayName"/>
+          </uap:AutoPlayContent>
+        </uap:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="MediaPlayer.exe"/>
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <uap17:UpdateWhileInUse>defer</uap17:UpdateWhileInUse>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CompositionEffects.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.BorderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.GaussianBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.CompositeStepEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.SaturationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.BlendEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.ColorSourceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.OpacityEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Composition.Effects.CrossFadeEffect" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Storage.UWP.Utils.Native.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Storage.UWP.Utils.Native.ThumbnailHelper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Fingerprinting.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.Fingerprinting.AudioFingerprinter" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CDPlaybackHelper.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.CDPlayback.Helpers.DeviceHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.CDPlayback.Helpers.BufferHelper" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>MediaPlayerEffects.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.MediaPlayerEffects.VideoEnhancerSettings" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.MediaPlayerEffects.EqualizerEffectParameters" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.MediaPlayerEffects.EqualizerEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Media.Player.MediaPlayerEffects.VideoEnhancer" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Graphics.Canvas.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasDevice" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasImage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGeometry" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasPathBuilder" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasCommandList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSwapChain" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasRenderTarget" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSpriteBatch" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextRenderingParameters" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextAnalyzer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextFormat" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasFontSet" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTypography" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextLayout" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasSwapChainPanel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Composition.CanvasComposition" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasVirtualBitmap" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AlphaMaskEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CropEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DiscreteTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EdgeDetectionEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ExposureEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ShadowEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.VignetteEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.WhiteLevelAdjustmentEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ConvolveMatrixEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CrossFadeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ContrastEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.RgbToHueEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementProfile" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ScaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityMetadataEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SharpenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EffectTransferTable3D" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DpiCompensationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BlendEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EmbossEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BorderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ChromaKeyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ArithmeticCompositeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PosterizeEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointDiffuseEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SaturationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BrightnessEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DisplacementMapEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.StraightenEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DirectionalBlurEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.InvertEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TemperatureAndTintEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PixelShaderEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TurbulenceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SepiaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueRotationEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AtlasEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform2DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.MorphologyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LuminanceToAlphaEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TileEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LinearTransferEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorSourceEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotSpecularEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransfer3DEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PremultiplyEffect" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasSolidColorBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasImageBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <Capability Name="privateNetworkClientServer"/>
+    <uap3:Capability Name="backgroundMediaPlayback"/>
+    <uap:Capability Name="videosLibrary"/>
+    <uap:Capability Name="musicLibrary"/>
+    <rescap:Capability Name="previewStore"/>
+    <uap:Capability Name="removableStorage"/>
+    <rescap:Capability Name="smbios"/>
+    <DeviceCapability Name="Optical"/>
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="{79870514-B7CE-4E0E-A59D-20D1BE63E06A}"/>
+    <build:Item Name="ilc.exe" Version="2.2.31116.00 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="true"/>
+    <build:Item Name="DisableExceptionMessages" Value="true"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="LargeAddressAware" Value="false"/>
+    <build:Item Name="NoLinkerSymbols" Value="false"/>
+    <build:Item Name="OutOfProcPDB" Value="false"/>
+    <build:Item Name="MakePri.exe" Version="10.0.22621.3233 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

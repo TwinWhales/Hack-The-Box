@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="FEATUREDeviceSync:BetterTogether1233179239">
+        <string>SMS_CONNECT_HOST</string>
+        <string>BETTER_TOGETHER_HOST_SUPPORTED</string>
+        <string>EASY_UNLOCK_HOST</string>
+        <string>MAGIC_TETHER_CLIENT_SUPPORTED</string>
+        <string>MAGIC_TETHER_HOST</string>
+        <string>BETTER_TOGETHER_CLIENT_SUPPORTED</string>
+        <string>BETTER_TOGETHER_HOST</string>
+        <string>EASY_UNLOCK_HOST_SUPPORTED</string>
+        <string>EASY_UNLOCK_CLIENT</string>
+        <string>SMS_CONNECT_HOST_SUPPORTED</string>
+        <string>SMS_CONNECT_CLIENT</string>
+        <string>MAGIC_TETHER_CLIENT</string>
+        <string>BETTER_TOGETHER_CLIENT</string>
+        <string>SMS_CONNECT_CLIENT_SUPPORTED</string>
+        <string>EASY_UNLOCK_CLIENT_SUPPORTED</string>
+        <string>MAGIC_TETHER_HOST_SUPPORTED</string>
+    </set>
+    <set name="ALL_KEYSALL_KEY_NAMES1233179239">
+        <string>DeviceSync:BetterTogether</string>
+    </set>
+    <string name="METADATADeviceSync:BetterTogether1233179239">CkgIARJECiBYvxDaTSW5v6ub4jqwR-tAWYYEdpZTzBBVSS9ZgGpGyhIgfZz6GwEbVNlbOJnBAbHq2NZ3etoVs3HKCZDfGjlaaCUSGUFuZHJvaWQgU0RLIGJ1aWx0IGZvciB4ODYaMAogpfXFfMgt5h1Gg7jz6BapJsJ7YxipyzHYxCD5VtmM9swQgOCp2IcyGIDwjZmMMhowCiAZpdtY_ktxzlG2NkDJvye7We9e0OesLDjmd4Zp_uc8sBCA8I2ZjDIYgIDy2ZAyGjAKIGs1FDzgBJKxnkkpXGjchA1wsJY7r8ygsLalkq5TpFdCEICA8tmQMhiAkNaalTIaMAogSka01jqzt9fJGvwrkkZgdwtdBfmasU6NSrEiKQuo0jYQgJDWmpUyGICgutuZMg</string>
+    <string name="SYNCED_ENCRYPTED_METADATADeviceSync:BetterTogether1233179239">CpcDCmIIARACIkoIARJGCiEAv_kp2JKnjPg_yVkRKKBehY6xmFkLHAgSOeatOcWbkmESIQCX0tEk1ubxH4buCHQYxhXXZfpiu0jvGAgug1gfqa3J5CoQtjU69GQxV0wcyjuRVrrCWxKwAlfQ98DWrHsidSEbBxxZeI-9Y5AkfgNVVjmJ0AU3hbqJ0scd8Qgx7t1tGCqlpmTc2hkiAUl6XcdlS8enz3WFDpz1YQaznQkTlsJJ1YsSyboRJI0PdfuI2j0h98EOb9B-1SqwuqfhulQzvjNInk4dVWHceLtxkVi-R0F2yVOM7QwOggN0x2KVTTt0eBpgijPJHfH-mSu05fq-ju9C7dQ8OSzwShE0ASzJ3fYshq2mQw729P31XchNpBS7HMUr7MDSXZuiKs_IXammEARl0RThJDR44YbCX28ulQl1EpxLUzPDJmQCQOKhIbRzW6ujoptYozjfL5GIwhHYHgOiSjUATkafrwFHNJxXECzZM01qmJxx0iaG6qh43lfVv0ED6sqdtNmOIaVKudmKVAwUhNQ2eJ4SIAqSwekSyBla-q0JROK0oLjOKfNGTzKuGCgCkCRgyy1I</string>
+</map>

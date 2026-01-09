@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.Xbox.TCUI" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.24.10001.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" PhoneProductId="4314d2ab-6893-4450-ad86-7c2e1a89c61b"/>
+  <Properties>
+    <DisplayName>Xbox TCUI</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\PackageLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.16299.0"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.27011.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.27011.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.26706.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.Xbox.TCUI" Executable="TCUI-App.exe" EntryPoint="TCUI.UAP.App">
+      <uap:VisualElements DisplayName="ms-resource:DisplayName" Square150x150Logo="Assets\MediumTile.png" Square44x44Logo="Assets\AppIcon.png" Description="Xbox Title Callable UI" BackgroundColor="#464646" AppListEntry="none">
+        <uap:DefaultTile>
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\AppSplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="xbox-tcui"/>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>winsdkfb.dll</Path>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBClient" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBAccessTokenData" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBSendRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBError" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.GraphUriBuilder" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBMediaStream" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBMediaObject" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.winsdkfb_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.ScaleConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.ProfilePictureControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.HttpManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FacebookDialog" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBAppRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBFeedRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.ProfilePictureCustomControl.ProfilePicture" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.ColorLuminosityConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBPermissions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBSession" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBCursors" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBGroup" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBSingleValue" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBPaginatedArray" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBProfilePictureData" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBProfilePicture" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBAppRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBPage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBUser" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBObject" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBPaging" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBPageCategory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.Graph.FBPermission" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="winsdkfb.FBLoginButton" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="15.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28307.104"/>
+    <build:Item Name="ProjectGUID" Value="{F4794D37-F6DB-4D90-BECA-31604FEF7222}"/>
+    <build:Item Name="ilc.exe" Version="2.2.27015.02 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.28307.102"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="false"/>
+    <build:Item Name="DisableExceptionMessages" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="WindowsDesktop" Version="10.0.16299.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

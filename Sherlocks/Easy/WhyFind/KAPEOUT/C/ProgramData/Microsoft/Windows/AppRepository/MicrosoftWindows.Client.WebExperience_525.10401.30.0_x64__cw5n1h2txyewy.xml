@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" IgnorableNamespaces="mp uap uap3 uap4 uap6 uap10 wincap">
+  <Identity Name="MicrosoftWindows.Client.WebExperience" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="525.10401.30.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="3f36f9db-661f-4c27-8c20-542ee91f8435" PhonePublisherId="6145b212-a274-4517-8abe-1e015f21ff03" />
+  <Properties>
+    <DisplayName>Windows Web Experience Pack</DisplayName>
+    <PublisherDisplayName>Microsoft Windows</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.20" MaxVersionTested="10.0.32767.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.26706.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.5" MinVersion="1.0.0.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.0.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-US" />
+    <Resource Language="af-ZA" />
+    <Resource Language="am-ET" />
+    <Resource Language="ar-SA" />
+    <Resource Language="as-IN" />
+    <Resource Language="az-Latn-AZ" />
+    <Resource Language="be-BY" />
+    <Resource Language="bg-BG" />
+    <Resource Language="bn-BD" />
+    <Resource Language="bn-IN" />
+    <Resource Language="bs-Latn-BA" />
+    <Resource Language="ca-ES" />
+    <Resource Language="ca-Es-VALENCIA" />
+    <Resource Language="chr-Cher-US" />
+    <Resource Language="cs-CZ" />
+    <Resource Language="cy-GB" />
+    <Resource Language="da-DK" />
+    <Resource Language="de-DE" />
+    <Resource Language="el-GR" />
+    <Resource Language="en-GB" />
+    <Resource Language="es-ES" />
+    <Resource Language="es-MX" />
+    <Resource Language="et-EE" />
+    <Resource Language="eu-ES" />
+    <Resource Language="fa-IR" />
+    <Resource Language="fi-FI" />
+    <Resource Language="fil-PH" />
+    <Resource Language="fr-CA" />
+    <Resource Language="fr-FR" />
+    <Resource Language="ga-IE" />
+    <Resource Language="gd-gb" />
+    <Resource Language="gl-ES" />
+    <Resource Language="gu-IN" />
+    <Resource Language="ha-Latn-NG" />
+    <Resource Language="he-IL" />
+    <Resource Language="hi-IN" />
+    <Resource Language="hr-HR" />
+    <Resource Language="hu-HU" />
+    <Resource Language="hy-AM" />
+    <Resource Language="id-ID" />
+    <Resource Language="ig-NG" />
+    <Resource Language="is-IS" />
+    <Resource Language="it-IT" />
+    <Resource Language="ja-JP" />
+    <Resource Language="ka-GE" />
+    <Resource Language="kk-KZ" />
+    <Resource Language="km-KH" />
+    <Resource Language="kn-IN" />
+    <Resource Language="ko-KR" />
+    <Resource Language="kok-IN" />
+    <Resource Language="ku-Arab-IQ" />
+    <Resource Language="ky-KG" />
+    <Resource Language="lb-LU" />
+    <Resource Language="lo-LA" />
+    <Resource Language="lt-LT" />
+    <Resource Language="lv-LV" />
+    <Resource Language="mi-NZ" />
+    <Resource Language="mk-MK" />
+    <Resource Language="ml-IN" />
+    <Resource Language="mn-MN" />
+    <Resource Language="mr-IN" />
+    <Resource Language="ms-MY" />
+    <Resource Language="mt-MT" />
+    <Resource Language="nb-NO" />
+    <Resource Language="ne-NP" />
+    <Resource Language="nl-NL" />
+    <Resource Language="nn-NO" />
+    <Resource Language="nso-ZA" />
+    <Resource Language="or-IN" />
+    <Resource Language="pa-Arab-PK" />
+    <Resource Language="pa-IN" />
+    <Resource Language="pl-PL" />
+    <Resource Language="prs-AF" />
+    <Resource Language="pt-BR" />
+    <Resource Language="pt-PT" />
+    <Resource Language="quc-Latn-gt" />
+    <Resource Language="quz-PE" />
+    <Resource Language="ro-RO" />
+    <Resource Language="ru-RU" />
+    <Resource Language="rw-RW" />
+    <Resource Language="sd-Arab-PK" />
+    <Resource Language="si-LK" />
+    <Resource Language="sk-SK" />
+    <Resource Language="sl-SI" />
+    <Resource Language="sq-AL" />
+    <Resource Language="sr-Cyrl-BA" />
+    <Resource Language="sr-Cyrl-RS" />
+    <Resource Language="sr-Latn-RS" />
+    <Resource Language="sv-SE" />
+    <Resource Language="sw-KE" />
+    <Resource Language="ta-IN" />
+    <Resource Language="te-IN" />
+    <Resource Language="tg-Cyrl-TJ" />
+    <Resource Language="th-TH" />
+    <Resource Language="ti-ET" />
+    <Resource Language="tk-TM" />
+    <Resource Language="tn-ZA" />
+    <Resource Language="tr-TR" />
+    <Resource Language="tt-RU" />
+    <Resource Language="ug-CN" />
+    <Resource Language="uk-UA" />
+    <Resource Language="ur-PK" />
+    <Resource Language="uz-Latn-UZ" />
+    <Resource Language="vi-VN" />
+    <Resource Language="wo-SN" />
+    <Resource Language="xh-ZA" />
+    <Resource Language="yo-NG" />
+    <Resource Language="zh-CN" />
+    <Resource Language="zh-TW" />
+    <Resource Language="zu-ZA" />
+  </Resources>
+  <Applications>
+    <Application Id="PackageMetadata" StartPage="https://www.microsoft.com">
+      <uap:VisualElements DisplayName="DesktopPackageMetadata" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="PackageMetadata" BackgroundColor="transparent" AppListEntry="none"></uap:VisualElements>
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.telemetryid" Id="Id" PublicFolder="public" DisplayName="Id">
+            <uap3:Properties>
+              <TelemetryID>020D28A1001E0008</TelemetryID>
+              <IsInboxPackage>1</IsInboxPackage>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="Default" PublicFolder="Public" DisplayName="Extension Package" />
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Widgets" Executable="Dashboard\Widgets.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:PkgDisplayName" Description="ms-resource:PkgDisplayName" Square150x150Logo="Dashboard\Images\Square150x150Logo.png" Square44x44Logo="Dashboard\Images\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none">
+        <uap:DefaultTile Wide310x150Logo="Dashboard\Images\Square310x150Logo.png" />
+        <uap:LockScreen BadgeLogo="Dashboard\Images\WeatherBadgeLogo.png" Notification="badgeAndTileText" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap5:Extension xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" Category="windows.activatableClass.outOfProcessServer">
+          <uap5:OutOfProcessServer ServerName="Microsoft.Windows.DashboardServer" RunFullTrust="true">
+            <uap5:Path>Dashboard\Widgets.exe</uap5:Path>
+            <uap5:Instancing>singleInstance</uap5:Instancing>
+            <uap5:ActivatableClass ActivatableClassId="WindowsUdk.UI.Shell.Dashboard.DashboardExtension" />
+          </uap5:OutOfProcessServer>
+        </uap5:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="Dashboard" PublicFolder="Public" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>DashboardAlias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extension.dashboard" Id="dashboard" PublicFolder="Public" DisplayName="Dashboard Extension">
+            <uap3:Properties>
+              <Classes>
+                <WindowsUdk.UI.Shell.Dashboard.DashboardExtension>WindowsUdk.UI.Shell.Dashboard.DashboardExtension</WindowsUdk.UI.Shell.Dashboard.DashboardExtension>
+              </Classes>
+              <!-- The OS can use the version associated with the extension implementation to understand what version of the extension contract the app supports. -->
+              <Version>7.0</Version>
+              <MdmPolicy Area="NewsAndInterests" Name="AllowNewsAndInterests" />
+              <VelocityId Stage="EnabledByDefault">31072813</VelocityId>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-widgets">
+            <uap:DisplayName>Widgets</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <com:Extension xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="Dashboard\Widgets.exe" Arguments="DashboardBackgroundFeedsTaskArg" DisplayName="DashboardBackgroundFeedsTask">
+              <com:Class Id="8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19" DisplayName="DashboardBackgroundFeedsTask" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.widgets" DisplayName="PeregrineWidgets" Id="PeregrineWidgets" PublicFolder="Public">
+            <uap3:Properties>
+              <WidgetProvider>
+                <ProviderIcons>
+                  <Icon Path="Images\StoreLogo.png" />
+                </ProviderIcons>
+                <Activation>
+                  <CreateInstance ClassId="80F4CB41-5758-4493-9180-4FB8D480E3F5" />
+                </Activation>
+                <TrustedPackageFamilyNames>
+                  <TrustedPackageFamilyName>Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe</TrustedPackageFamilyName>
+                </TrustedPackageFamilyNames>
+                <Definitions>
+                  <Definition Id="com.microsoft.calendar" DisplayName="ms-resource:com_microsoft_calendar_title" Description="Calendar Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\calendar-icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\calendar-light-small.svg" DisplayAltText="Calendar Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.microsoft.microsoft365" DisplayName="ms-resource:com_microsoft_microsoft365_title" Description="Microsoft 365 Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\microsoftfeed_icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\Light_FeedShimmer_M.svg" DisplayAltText="Microsoft 365 Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.microsoft.tips" DisplayName="ms-resource:com_microsoft_tips_title" Description="Tips Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\tips-icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\tips-preload-small-Lt.svg" DisplayAltText="Tips Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.microsoft.todo" DisplayName="ms-resource:com_microsoft_todo_title" Description="Todo Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\todo-icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\todo-light-small.svg" DisplayAltText="Todo Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.money" DisplayName="ms-resource:com_msn_money_title" Description="Money Widget Description" AllowMultiple="true">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\money_icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\placeholder_image_small_light.svg" DisplayAltText="Money Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.photos" DisplayName="ms-resource:com_msn_photos_title" Description="Photos Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\photos_icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\photos_placeholder_med_light.svg" DisplayAltText="Photos Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.sports" DisplayName="ms-resource:com_msn_sports_title" Description="Sports Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\SportsIcon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\sports-preload-med-Lt.svg" DisplayAltText="Sports Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.traffic" DisplayName="ms-resource:com_msn_traffic_title" Description="Traffic Widget Description" AllowMultiple="true">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\traffic_icon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\lightSmallPlaceholder.svg" DisplayAltText="Traffic Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.weather" DisplayName="ms-resource:com_msn_weather_title" Description="Weather Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\WeatherIcon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\weather-preload-small-Lt.svg" DisplayAltText="Weather Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.shopping" DisplayName="ms-resource:com_msn_shopping_title" Description="Shopping Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\ShoppingIcon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\shopping-preload-med-Lt.svg" DisplayAltText="Shopping Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.casualgames" DisplayName="ms-resource:com_msn_casualgames_title" Description="CasualGames Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\CasualGamesIcon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\casualgames-preload-med-Lt.svg" DisplayAltText="CasualGames Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                  <Definition Id="com.msn.richcalendar" DisplayName="ms-resource:com_msn_richcalendar_title" Description="RichCalendar Widget Description" AllowMultiple="false">
+                    <Capabilities>
+                      <Capability>
+                        <Size Name="small" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="medium" />
+                      </Capability>
+                      <Capability>
+                        <Size Name="large" />
+                      </Capability>
+                    </Capabilities>
+                    <ThemeResources>
+                      <Icons>
+                        <Icon Path="Dashboard\StaticWidgetRegistrations\images\RichCalendarIcon.svg" />
+                      </Icons>
+                      <Screenshots>
+                        <Screenshot Path="Dashboard\StaticWidgetRegistrations\images\richcalendar-preload-med-Lt.svg" DisplayAltText="RichCalendar Screenshot" />
+                      </Screenshots>
+                    </ThemeResources>
+                  </Definition>
+                </Definitions>
+              </WidgetProvider>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.widgets.feeds" DisplayName="ms-resource:com_msn_desktopfeed_title" Id="com.msn.desktopfeed" PublicFolder="Public">
+            <uap3:Properties>
+              <FeedProvider SettingsUri="https://www.microsoft.com" Icon="Dashboard\Images\MyFeedIcon.svg" Description="ms-resource:com_msn_desktopfeed_description">
+                <Activation>
+                  <!-- Apps exports COM interface which implements IFeedProvider -->
+                  <!-- For dashboard this does not exist                         -->
+                  <CreateInstance ClassId="8e626b3a-c28d-4d04-90b6-ca52e0bde9e6" />
+                </Activation>
+                <Definitions>
+                  <Definition Id="com.msn.desktopfeed" DisplayName="ms-resource:com_msn_desktopfeed_title" Description="ms-resource:com_msn_desktopfeed_description" ContentUri="https://www.microsoft.com" AllowMultiple="false" Icon="Dashboard\Images\MyFeedIcon.svg"></Definition>
+                </Definitions>
+              </FeedProvider>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.WidgetBoard" Executable="WidgetBoard.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:WidgetBoard/Resources/AppDisplayName" Description="ms-resource:WidgetBoard/Resources/AppDescription" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap5:Extension xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" Category="windows.activatableClass.outOfProcessServer">
+          <uap5:OutOfProcessServer ServerName="Microsoft.Windows.WidgetBoardServer" RunFullTrust="true">
+            <uap5:Path>WidgetBoard.exe</uap5:Path>
+            <uap5:Arguments>-RegisterProcessAsComServer</uap5:Arguments>
+            <uap5:Instancing>singleInstance</uap5:Instancing>
+            <uap5:ActivatableClass ActivatableClassId="WidgetBoard.DashboardExtension" />
+          </uap5:OutOfProcessServer>
+        </uap5:Extension>
+        <com:Extension xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" Category="windows.comServer">
+          <com:ComServer>
+            <com:ExeServer Executable="WidgetBoard.exe" Arguments="-RegisterProcessAsComServer" DisplayName="Baseline Notification Provider App">
+              <com:Class Id="F7A6FDA2-5BE6-4477-B380-40C968535226" DisplayName="BaselineNotificationFeedProvider" />
+            </com:ExeServer>
+          </com:ComServer>
+        </com:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extension.widgetboard" Id="WidgetBoard" PublicFolder="Public" DisplayName="Widget Board Extension">
+            <uap3:Properties>
+              <Classes>
+                <WindowsUdk.UI.Shell.Dashboard.DashboardExtension>WidgetBoard.DashboardExtension</WindowsUdk.UI.Shell.Dashboard.DashboardExtension>
+              </Classes>
+              <ApiContractsImplemented>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,1,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,2,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,3,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,4,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,5,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,6,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,7,0</ApiContract>
+                <ApiContract>WindowsUdk.UI.Shell.Dashboard.DashboardContract,8,0</ApiContract>
+              </ApiContractsImplemented>
+              <!-- The OS can use the version associated with the extension implementation to understand what version of the extension contract the app supports. -->
+              <Version>12.0</Version>
+              <MdmPolicy Area="NewsAndInterests" Name="AllowNewsAndInterests" />
+              <!-- Feature_WidgetBoard -->
+              <VelocityId Stage="EnabledByDefault">49686193</VelocityId>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="WidgetBoard" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>WidgetBoardAlias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensions.xaml.widgetboard" Id="WidgetBoard" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <WidgetBoardControl>WidgetBoard.WidgetBoardControl</WidgetBoardControl>
+              </Classes>
+              <MetadataProviders>
+                <Provider>WidgetBoard.XamlMetaDataProvider</Provider>
+              </MetadataProviders>
+              <ResourceDictionaries>
+                <ResourceDictionary>WidgetBoard.WidgetBoardResources</ResourceDictionary>
+              </ResourceDictionaries>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-widgetboard">
+            <uap:DisplayName>Widgets</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.widgets.feeds" DisplayName="Baseline Feed" Id="BaselineFeedProvider" PublicFolder="Public">
+            <uap3:Properties>
+              <FeedProvider SettingsUri="https://www.msn.com/weather" Icon="Assets\Square44x44Logo.png" Description="Fallback feed provider for weather feed when the Start Experiences App is not available">
+                <Activation>
+                  <CreateInstance ClassId="F7A6FDA2-5BE6-4477-B380-40C968535226" />
+                </Activation>
+                <Definitions>
+                  <Definition Id="BaselineFeed" DisplayName="Baseline Feed" Description="Fallback feed provider for weather feed when the Start Experiences App is not available" ContentUri="https://www.msn.com/weather" AllowedUriFiltersForNavigation="https://windows.msn.cn/*" Icon="Assets\Square44x44Logo.png"></Definition>
+                </Definitions>
+              </FeedProvider>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.LockCanvas" StartPage="http://microsoft.com">
+      <uap:VisualElements DisplayName="Global.LockCanvas" Description="Global.LockCanvas" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="LockCanvas" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>LockCanvasAlias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensions.xaml.lockcanvas" Id="LockCanvas" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <LockCanvasControl>LockCanvas.LockCanvasControl</LockCanvasControl>
+                <Widgets.LockWidgetCanvas>LockCanvas.LockWidgetCanvas</Widgets.LockWidgetCanvas>
+                <WindowsUdk.UI.Shell.Widgets.LockWidgetManagerExtension>LockCanvas.LockWidgetManager</WindowsUdk.UI.Shell.Widgets.LockWidgetManagerExtension>
+              </Classes>
+              <MetadataProviders>
+                <Provider>LockCanvas.XamlMetaDataProvider</Provider>
+              </MetadataProviders>
+              <ResourceDictionaries>
+                <ResourceDictionary>LockCanvas.LockCanvasResources</ResourceDictionary>
+              </ResourceDictionaries>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.WidgetDataModel" StartPage="http://microsoft.com">
+      <uap:VisualElements DisplayName="Global.WidgetDataModel" Description="Global.WidgetDataModel" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extension.widgetcanvas" Id="WidgetDataModel" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <WindowsUdk.UI.Shell.Widgets.WidgetCanvasExtension>Widgets.DataModel.WidgetHostDataModel</WindowsUdk.UI.Shell.Widgets.WidgetCanvasExtension>
+                <WindowsUdk.UI.Shell.Widgets.WidgetRecommendationExtension>Widgets.DataModel.WidgetRecommendationEngine</WindowsUdk.UI.Shell.Widgets.WidgetRecommendationExtension>
+              </Classes>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.WidgetPicker" StartPage="http://microsoft.com">
+      <uap:VisualElements DisplayName="Global.WidgetPicker" Description="Global.WidgetPicker" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="WidgetPicker" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>WidgetPickerAlias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensions.xaml.widgetpicker" Id="WidgetPicker" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <WidgetPickerControl>Widgets.WidgetPicker.WidgetPickerControl</WidgetPickerControl>
+                <WidgetPickerNavigationControl>Widgets.WidgetPicker.WidgetPickerNavigationControl</WidgetPickerNavigationControl>
+              </Classes>
+              <MetadataProviders>
+                <Provider>Widgets.WidgetPicker.XamlMetaDataProvider</Provider>
+              </MetadataProviders>
+              <ResourceDictionaries>
+                <ResourceDictionary>Widgets.WidgetPicker.WidgetPickerResources</ResourceDictionary>
+              </ResourceDictionaries>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.WidgetViewUWP" StartPage="http://microsoft.com">
+      <uap:VisualElements DisplayName="Global.WidgetViewUWP" Description="Global.WidgetViewUWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="WidgetViewUWP" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>WidgetViewUWPAlias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensions.xaml.widgetviewuwp" Id="WidgetViewUWP" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <WindowsUdk.UI.Shell.Widgets.WidgetRendererExtension>Widgets.UWP.WidgetView.WidgetRenderer</WindowsUdk.UI.Shell.Widgets.WidgetRendererExtension>
+              </Classes>
+              <MetadataProviders>
+                <Provider>Widgets.UWP.WidgetView.XamlMetaDataProvider</Provider>
+              </MetadataProviders>
+              <ResourceDictionaries>
+                <ResourceDictionary>Widgets.UWP.WidgetView.WidgetViewUWPResources</ResourceDictionary>
+              </ResourceDictionaries>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+    <Application Id="Global.WidgetViewWinUI3" StartPage="http://microsoft.com">
+      <uap:VisualElements DisplayName="Global.WidgetViewWinUI3" Description="Global.WidgetViewWinUI3" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" BackgroundColor="transparent" AppListEntry="none" />
+      <Extensions>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensionpackage" Id="WidgetViewWinUI3" DisplayName="Extension Metadata">
+            <uap3:Properties>
+              <PackageAliases>
+                <PackageAlias>WidgetViewWinUI3Alias</PackageAlias>
+              </PackageAliases>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.extensions.xaml.widgetviewwinui3" Id="WidgetViewWinUI3" DisplayName="Microsoft Windows Extensions">
+            <uap3:Properties>
+              <Classes>
+                <WindowsUdk.UI.Shell.Widgets.WidgetRendererExtension>Widgets.WinUI3.WidgetView.WidgetRenderer</WindowsUdk.UI.Shell.Widgets.WidgetRendererExtension>
+              </Classes>
+              <MetadataProviders>
+                <Provider>Widgets.WinUI3.WidgetView.XamlMetaDataProvider</Provider>
+              </MetadataProviders>
+              <ResourceDictionaries>
+                <ResourceDictionary>Widgets.WinUI3.WidgetView.WidgetViewWinUI3Resources</ResourceDictionary>
+              </ResourceDictionaries>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <wincap:Capability Name="shellExperience" />
+    <wincap:Capability Name="packageContents" />
+    <Capability Name="internetClient" />
+    <wincap:Capability Name="dependencyTarget" />
+    <rescap:Capability xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" Name="runFullTrust" />
+    <wincap:Capability Name="packageManagement" />
+    <wincap:Capability Name="packageQuery" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="00000355-0000-0000-C000-000000000046">
+        <Path>Microsoft.Windows.Widgets.winmd</Path>
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProvider" InterfaceId="5C5774CC-72A0-452D-B9ED-075C0DD25EED" />
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProvider2" InterfaceId="38C3A963-DD93-479D-9276-04BF84EE1816" />
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProviderErrors" InterfaceId="90C1B5F0-0D3A-4AC6-ABB7-C97B367B8FCC" />
+        <Interface Name="Microsoft.Windows.Widgets.Providers.IWidgetProviderAnalytics" InterfaceId="661985A5-D187-482D-9EEF-6FDA05D21845" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedProvider" InterfaceId="7293A12B-0329-458D-AC25-5332BE478FDE" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedResourceProvider" InterfaceId="e1b6266d-88a0-416c-9440-e341cb047cd3" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedProviderMessage" InterfaceId="60c2442a-4c9d-4880-ba26-caca9e567dd4" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedProviderAnalytics" InterfaceId="f6885791-3085-4bd7-9cb1-4f1354c3a687" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedProviderErrors" InterfaceId="6611e00a-d86c-49a3-9381-b7da67ee62dc" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Providers.IFeedAnnouncementInvokedTarget" InterfaceId="5d44ae2a-072c-4df9-9fe5-34d5d2e9ff63" />
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Dashboard\Microsoft.Windows.Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Providers.WidgetManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Providers.ActivateApplicationWidgetProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Providers.WidgetChannelManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Feeds.Providers.FeedManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Feeds.Providers.FeedChannelManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Feeds.Hosts.FeedCatalog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Feeds.Hosts.FeedHostManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Hosts.WidgetCatalog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Internal.Hosts.WidgetHostManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Notifications.FeedAnnouncement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Feeds.Providers.FeedManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Feeds.Providers.CustomQueryParametersUpdateOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Feeds.Providers.FeedResourceResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Feeds.Hosts.FeedCatalog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Feeds.Hosts.FeedHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Providers.WidgetManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Providers.WidgetUpdateRequestOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Hosts.WidgetHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Hosts.WidgetHostContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Windows.Widgets.Hosts.WidgetCatalog" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="00000355-0000-0000-C000-000000000046">
+        <Path>Microsoft.Windows.Widgets.winmd</Path>
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinition" InterfaceId="010b6e50-b11d-54ef-9b19-3d2a408f8b9e" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinition2" InterfaceId="13ec5965-becb-57de-bf5a-fd9b1cd4b685" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinition3" InterfaceId="30206b25-f04e-5012-90e9-41c438d9e1ca" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinition4" InterfaceId="55630533-d23d-59cf-a9c6-7e15320452f4" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedCoordinator" InterfaceId="33CDB132-268F-5C4B-8268-CE6E53C3DA83" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedCoordinator2" InterfaceId="0851BB6B-6394-58FC-B905-8D853E5B4E40" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedCatalog" InterfaceId="6FA05A24-B1DF-4155-909E-7B424F2D2BB5" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedProviderDefinitionAddedEventArgs" InterfaceId="684A3DEF-A6FF-553F-8988-672A853388E4" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedProviderDefinitionDeletedEventArgs" InterfaceId="AC853F91-221A-59B0-AAEE-237A62BBBA8C" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedProviderDefinitionUpdatedEventArgs" InterfaceId="0CD45F74-E9BB-5821-AC04-55932058ACF0" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedDefinition" InterfaceId="8BF9314D-08FC-5AFC-8047-032E39D871ED" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedDefinition2" InterfaceId="970BF4E6-475E-5666-9AC8-9A863459E95B" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedProviderDefinition" InterfaceId="B9BE59EB-75FB-5C64-AB8C-91ED11DF9708" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedHost" InterfaceId="740FE937-01F7-4482-AA62-C83F0AD3D6D0" />
+        <Interface Name="Microsoft.Windows.Widgets.Feeds.Hosts.IFeedSendAnnouncementEventArgs" InterfaceId="0160AED8-F1F4-559E-8967-FE3BBE598064" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetCatalog" InterfaceId="3E11DF0F-42EB-4747-9A35-802D98B5BCF0" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinitionDeletedEventArgs" InterfaceId="6888A6EE-A860-5BE4-A914-6B33D04D6F52" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetDefinitionUpdatedEventArgs" InterfaceId="539B14C6-05BD-51FF-A105-12B5DE816CF3" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetPostMessageEventArgs" InterfaceId="22401783-0469-5fc0-b2d6-51041c0a9455" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetHost" InterfaceId="0EC56173-FD86-474F-A1A0-083ED2268657" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetHostContext" InterfaceId="36617BAA-EDDE-5EB0-9E3C-5BCE4FDDD37A" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidget" InterfaceId="5E839F43-5454-46FD-8106-D6E6BC41792F" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidget2" InterfaceId="8280d0ea-d8a5-5938-a156-ca37fb5921ac" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidget3" InterfaceId="a258371e-2022-50e0-903c-b36e45b9d7d9" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetCapability" InterfaceId="69D5FD91-E93D-5201-BF96-DB04BD94DF73" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetProviderDefinition" InterfaceId="957c013f-5ee2-59d1-a31e-4d73730f86ce" />
+        <Interface Name="Microsoft.Windows.Widgets.Hosts.IWidgetThemeResources" InterfaceId="3da27a07-ee2a-528f-b0bf-f320b3ef24c6" />
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>WidgetBoardView.dll</Path>
+        <ActivatableClass ActivatableClassId="WidgetBoard.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.WidgetBoardResources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.WidgetBoardControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.WidgetHostContentControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.FeedViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.NavigationViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.TextScalingViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.WidgetGridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="WidgetBoard.SettingsGlobalSettingToggleView" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>LockCanvasView.dll</Path>
+        <ActivatableClass ActivatableClassId="LockCanvas.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.LockCanvasResources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.LockCanvasControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.LockCanvasExample" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.LockWidgetCanvas" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.LockWidgetManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LockCanvas.TextScalingViewModel" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="Widgets.DataModel.WidgetHostDataModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.DataModel.WidgetRecommendationEngine" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerNavigationControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerResources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerProviderViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerDefinitionViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WidgetPicker.WidgetPickerNavigationViewModel" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>WidgetsUWP.dll</Path>
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.WidgetViewUWPResources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.WidgetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.WidgetViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.SharedWebViewControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.UWP.WidgetView.WidgetHeader" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="TemplateExpander.AdaptiveCardTemplate" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Widgets.dll</Path>
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.WidgetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.WidgetViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.SharedWebViewControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.WidgetViewWinUI3Resources" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Widgets.WinUI3.WidgetView.WidgetHeader" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AdaptiveCards.Rendering.WinUI3.dll</Path>
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.WinUI3.AdaptiveCardRenderer" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AdaptiveCards.ObjectModel.WinUI3.dll</Path>
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.WinUI3.AdaptiveCard" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+</Package>

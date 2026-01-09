@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap wincap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="Microsoft.XboxGameOverlay" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.54.4001.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="6145547c-6588-4fed-90a5-4e00384527a6" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+  <Properties>
+    <DisplayName>Xbox Game Bar Plugin</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\GamesXboxHubStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17134.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.26706.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="GameBar.exe" EntryPoint="GameBar.App">
+      <uap:VisualElements AppListEntry="none" Square150x150Logo="Assets\GamesXboxHubMedTile.png" Square44x44Logo="Assets\GamesXboxHubAppList.png" Description="Xbox" BackgroundColor="#107C10" DisplayName="Xbox Game bar">
+        <uap:DefaultTile ShortName="Xbox Game bar" Wide310x150Logo="Assets\GamesXboxHubWideTile.png" Square310x310Logo="Assets\GamesXboxHubLargeTile.png" Square71x71Logo="Assets\GamesXboxHubSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\GamesXboxHubSplashScreen.png" BackgroundColor="#107C10" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="GameBarTasks.BroadcastBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="GameBarTasks.TimerTask">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.preInstalledConfigTask" EntryPoint="GameBarTasks.GameBarUpdateTask" />
+        <Extension Category="windows.updateTask" EntryPoint="GameBarTasks.GameBarUpdateTask" />
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-gamebarservices" />
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="appBroadcast" />
+    <rescap:Capability Name="appBroadcastServices" />
+    <rescap:Capability Name="appBroadcastSettings" />
+    <rescap:Capability Name="appCaptureServices" />
+    <rescap:Capability Name="appCaptureSettings" />
+    <rescap:Capability Name="gameBarServices" />
+    <rescap:Capability Name="slapiQueryLicenseValue" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>GameBarTasks.dll</Path>
+        <ActivatableClass ActivatableClassId="GameBarTasks.BroadcastBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GameBarTasks.GameBarUpdateTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GameBarTasks.BackgroundTaskManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="GameBarTasks.TimerTask" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.16.27040.0 built by: vcwrkspc" />
+    <build:Item Name="VisualStudio" Version="15.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.28307.1089" />
+    <build:Item Name="ProjectGUID" Value="{aed500f8-e74b-4d09-8c73-4953f4f33928}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Native" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.28307.1082" />
+    <build:Item Name="WindowsDesktop" Version="10.0.17134.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.17134.12 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

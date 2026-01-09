@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="native_language_hint_property_hint_shown" value="false" />
+    <boolean name="pref_key_access_points_showing_order_migrated" value="true" />
+    <string name="initial_sim_country">us</string>
+    <set name="pref_key_emergency_bad_words_en_US">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>global warming is a hoax</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>she's a virgin</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <set name="previously_enabled_entries">
+        <string>en-US</string>
+    </set>
+    <boolean name="show_launcher_icon" value="false" />
+    <set name="pref_key_emergency_bad_words_ar_OM">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_es_ES">
+        <string>curas pedófilos</string>
+        <string>curas abusadores</string>
+        <string>curas pederastas</string>
+    </set>
+    <boolean name="show_suggestions" value="true" />
+    <set name="pref_key_emergency_bad_words_es_MX">
+        <string>curas pedófilos</string>
+        <string>curas abusadores</string>
+        <string>curas pederastas</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_SD">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <boolean name="enable_incognito_mode" value="false" />
+    <set name="pref_key_emergency_bad_words_iw">
+        <string>פנויה לסקס</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_es_AR">
+        <string>curas pedófilos</string>
+        <string>curas abusadores</string>
+        <string>curas pederastas</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_SA">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_fr_BE">
+        <string>avale du sperme</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_es_US">
+        <string>curas pedófilos</string>
+        <string>curas abusadores</string>
+        <string>curas pederastas</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_uk">
+        <string>ковтати сперму</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_BH">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <string name="initial_network_country">us</string>
+    <set name="pref_key_emergency_bad_words_en_PH">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_fr_FR">
+        <string>avale du sperme</string>
+    </set>
+    <long name="pref_key_first_periodic_ping" value="1720644683870" />
+    <string name="ACTIVE_IME.SOFT.en-US">ime_english_united_states</string>
+    <set name="pref_key_emergency_bad_words_in">
+        <string>foto bugil</string>
+        <string>foto hot</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ta_SG">
+        <string>சுன்னிய</string>
+        <string>சுண்ணீ</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ro_RO">
+        <string>futute</string>
+    </set>
+    <string name="current_input_method_entry">en-US:qwerty</string>
+    <set name="pref_key_emergency_bad_words_fr_CA">
+        <string>avale du sperme</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_bn_IN">
+        <string>স্তনদুটো</string>
+        <string>দুধগুলো</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_es_419">
+        <string>curas pedófilos</string>
+        <string>curas abusadores</string>
+        <string>curas pederastas</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_hr">
+        <string>ubij pedera</string>
+    </set>
+    <boolean name="enable_one_tap_to_search_changed_by_user" value="false" />
+    <boolean name="pref_key_contacts_suggestion_notice_posted" value="true" />
+    <boolean name="enable_number_row" value="false" />
+    <set name="pref_key_emergency_bad_words_fr_CH">
+        <string>avale du sperme</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_AE">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_da">
+        <string>kneppet</string>
+        <string>pik</string>
+        <string>mærkelig sex</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_GB">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_KE">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_pl">
+        <string>kurwy</string>
+        <string>murzyn</string>
+        <string>sex</string>
+        <string>murzynów</string>
+        <string>nago</string>
+        <string>porno</string>
+    </set>
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-number">number</string>
+    <set name="pref_key_emergency_bad_words_en_CA">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <long name="pref_key_latest_ime_activation_time" value="1720733672326" />
+    <set name="pref_key_emergency_bad_words_ar_EG">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-phone-number">phone_number</string>
+    <set name="pref_key_emergency_bad_words_it_CH">
+        <string>ingoio di sperma</string>
+    </set>
+    <long name="pref_key_app_first_started_timestamp" value="42157" />
+    <set name="pref_key_emergency_bad_words_bn_BD">
+        <string>স্তনদুটো</string>
+        <string>দুধগুলো</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_MA">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_DZ">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <long name="latest_activation_time" value="1720733672348" />
+    <set name="pref_key_emergency_bad_words_ta_LK">
+        <string>சுன்னிய</string>
+        <string>சுண்ணீ</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_cs">
+        <string>polykání spermatu</string>
+        <string>polykání sperma</string>
+        <string>polykání semene</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ar_LY">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <boolean name="pref_key_should_reset_suggestions_pref" value="false" />
+    <set name="pref_key_emergency_bad_words_pt_BR">
+        <string>neguinha da</string>
+        <string>assanhada</string>
+        <string>dando</string>
+        <string>safada</string>
+        <string>novinha</string>
+        <string>negrinha deliciosa</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_AU">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <string name="ACTIVE_IME.SOFT.und-Latn-x-password">password</string>
+    <set name="pref_key_emergency_bad_words_ar_DJ">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_NG">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <boolean name="enable_secondary_symbols" value="false" />
+    <set name="pref_key_emergency_bad_words_ru_RU">
+        <string>Украинских националистов</string>
+        <string>глотать сперму</string>
+    </set>
+    <boolean name="native_language_hint_property_enabled_english_only" value="true" />
+    <long name="app_last_started_version_name" value="26800411" />
+    <boolean name="import_user_contacts" value="false" />
+    <set name="pref_key_emergency_bad_words_it_IT">
+        <string>ingoio di sperma</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_ZA">
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>into black guys</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>lesbian babes</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <boolean name="enable_one_tap_to_search" value="false" />
+    <boolean name="enable_vibrate_on_keypress" value="true" />
+    <set name="pref_key_emergency_bad_words_ar_TN">
+        <string>فلم سكس</string>
+        <string>سكس فلم</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_en_IN">
+        <string>support subramanian</string>
+        <string>radical islam</string>
+        <string>fellate</string>
+        <string>retards</string>
+        <string>cunnilingus</string>
+        <string>nigga</string>
+        <string>support narendra</string>
+        <string>lap dance</string>
+        <string>stiff cock</string>
+        <string>radical islamic</string>
+        <string>sit on my face</string>
+        <string>retard</string>
+        <string>fellatio</string>
+        <string>gand</string>
+        <string>into black guys</string>
+        <string>gaand</string>
+        <string>nigger</string>
+        <string>sit on your face</string>
+        <string>retarded</string>
+        <string>fellated</string>
+        <string>chut</string>
+        <string>lesbian babes</string>
+        <string>choot</string>
+        <string>sit on your lap</string>
+        <string>bisexual men</string>
+        <string>sit on my lap</string>
+        <string>black dick</string>
+        <string>stiff dick</string>
+        <string>lesbian teens</string>
+        <string>cock</string>
+        <string>lesbian girls</string>
+        <string>oral</string>
+        <string>bisexual threesome</string>
+        <string>golden shower</string>
+    </set>
+    <long name="pref_key_last_ping_time" value="1720734461451" />
+    <set name="pref_key_emergency_bad_words_ru_KG">
+        <string>Украинских националистов</string>
+        <string>глотать сперму</string>
+    </set>
+    <set name="pref_key_emergency_bad_words_ru_BY">
+        <string>Украинских националистов</string>
+        <string>глотать сперму</string>
+    </set>
+    <boolean name="enable_battery_saver_theme" value="false" />
+    <set name="pref_key_emergency_bad_words_ta_IN">
+        <string>சுன்னிய</string>
+        <string>சுண்ணீ</string>
+    </set>
+</map>

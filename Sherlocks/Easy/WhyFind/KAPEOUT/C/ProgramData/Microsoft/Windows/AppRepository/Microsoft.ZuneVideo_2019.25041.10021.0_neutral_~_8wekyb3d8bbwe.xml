@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.ZuneVideo" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2019.25041.10021.0"/>
+	<Packages>
+		<Package Type="application" Version="10.25041.10021.0" Architecture="arm64" FileName="Video_Desktop_Production_arm64.appx" Offset="65" Size="13787467">
+			<Resources>
+				<Resource Language="en-US"/>
+				<Resource Language="en-GB"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.25041.10021.0" Architecture="x86" FileName="Video_Desktop_Production_Win32.appx" Offset="18066707" Size="11201470">
+			<Resources>
+				<Resource Language="en-US"/>
+				<Resource Language="en-GB"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.25041.10021.0" Architecture="x64" FileName="Video_Desktop_Production_x64.appx" Offset="29268264" Size="13119989">
+			<Resources>
+				<Resource Language="en-US"/>
+				<Resource Language="en-GB"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-af" FileName="Video_Desktop_Production_language-af.msix" Offset="13787627" Size="40801">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ar" FileName="Video_Desktop_Production_language-ar.msix" Offset="13874681" Size="44623">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-as" FileName="Video_Desktop_Production_language-as.msix" Offset="13919399" Size="45763">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-cy" FileName="Video_Desktop_Production_language-cy.msix" Offset="14253548" Size="41665">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ml" FileName="Video_Desktop_Production_language-ml.msix" Offset="15838785" Size="32218">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-bs" FileName="Video_Desktop_Production_language-bs.msix" Offset="14101819" Size="42867">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-lv" FileName="Video_Desktop_Production_language-lv.msix" Offset="15709070" Size="42791">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-lt" FileName="Video_Desktop_Production_language-lt.msix" Offset="15666443" Size="42532">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-bg" FileName="Video_Desktop_Production_language-bg.msix" Offset="14007513" Size="47452">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-az-latn" FileName="Video_Desktop_Production_language-az-latn.msix" Offset="13965262" Size="42156">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-lb" FileName="Video_Desktop_Production_language-lb.msix" Offset="15577227" Size="42620">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-de" FileName="Video_Desktop_Production_language-de.msix" Offset="14336236" Size="43332">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-el" FileName="Video_Desktop_Production_language-el.msix" Offset="14379663" Size="49418">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ko" FileName="Video_Desktop_Production_language-ko.msix" Offset="15490019" Size="40614">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-et" FileName="Video_Desktop_Production_language-et.msix" Offset="14486461" Size="41200">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-eu" FileName="Video_Desktop_Production_language-eu.msix" Offset="14527756" Size="40859">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-fa" FileName="Video_Desktop_Production_language-fa.msix" Offset="14568710" Size="45916">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-kn" FileName="Video_Desktop_Production_language-kn.msix" Offset="15442971" Size="46953">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-fil-latn" FileName="Video_Desktop_Production_language-fil-latn.msix" Offset="14656158" Size="42057">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-km" FileName="Video_Desktop_Production_language-km.msix" Offset="15395751" Size="47125">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ga" FileName="Video_Desktop_Production_language-ga.msix" Offset="14759868" Size="42629">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-gd-latn" FileName="Video_Desktop_Production_language-gd-latn.msix" Offset="14802597" Size="42291">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-gl" FileName="Video_Desktop_Production_language-gl.msix" Offset="14844983" Size="41590">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-gu" FileName="Video_Desktop_Production_language-gu.msix" Offset="14886668" Size="46115">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-he" FileName="Video_Desktop_Production_language-he.msix" Offset="14932878" Size="41424">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-hi" FileName="Video_Desktop_Production_language-hi.msix" Offset="14974397" Size="31670">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-hr" FileName="Video_Desktop_Production_language-hr.msix" Offset="15006162" Size="42239">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-kk" FileName="Video_Desktop_Production_language-kk.msix" Offset="15349865" Size="45791">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-hy" FileName="Video_Desktop_Production_language-hy.msix" Offset="15091840" Size="47190">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-id" FileName="Video_Desktop_Production_language-id.msix" Offset="15139125" Size="39262">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ka" FileName="Video_Desktop_Production_language-ka.msix" Offset="15302576" Size="47194">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-it" FileName="Video_Desktop_Production_language-it.msix" Offset="15221208" Size="40717">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-mr" FileName="Video_Desktop_Production_language-mr.msix" Offset="15871098" Size="46067">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-es" FileName="Video_Desktop_Production_language-es.msix" Offset="14429176" Size="57190">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-hu" FileName="Video_Desktop_Production_language-hu.msix" Offset="15048496" Size="43249">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-lo" FileName="Video_Desktop_Production_language-lo.msix" Offset="15619942" Size="46406">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-is" FileName="Video_Desktop_Production_language-is.msix" Offset="15178482" Size="42631">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-or" FileName="Video_Desktop_Production_language-or.msix" Offset="16168685" Size="46740">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-nn" FileName="Video_Desktop_Production_language-nn.msix" Offset="16127455" Size="41135">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-pl" FileName="Video_Desktop_Production_language-pl.msix" Offset="16262895" Size="43384">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sl" FileName="Video_Desktop_Production_language-sl.msix" Offset="16546624" Size="42320">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-nl" FileName="Video_Desktop_Production_language-nl.msix" Offset="16085980" Size="41380">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ne" FileName="Video_Desktop_Production_language-ne.msix" Offset="16040584" Size="45301">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-nb" FileName="Video_Desktop_Production_language-nb.msix" Offset="15999773" Size="40716">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-mt" FileName="Video_Desktop_Production_language-mt.msix" Offset="15957434" Size="42244">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-quz-latn" FileName="Video_Desktop_Production_language-quz-latn.msix" Offset="16371670" Size="41649">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-bn" FileName="Video_Desktop_Production_language-bn.msix" Offset="14055060" Size="46664">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ms" FileName="Video_Desktop_Production_language-ms.msix" Offset="15917260" Size="40079">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sq" FileName="Video_Desktop_Production_language-sq.msix" Offset="16589039" Size="42524">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-mi-latn" FileName="Video_Desktop_Production_language-mi-latn.msix" Offset="15751961" Size="40488">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sr-latn" FileName="Video_Desktop_Production_language-sr-latn.msix" Offset="16702378" Size="42588">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-tr" FileName="Video_Desktop_Production_language-tr.msix" Offset="16925426" Size="41678">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ur" FileName="Video_Desktop_Production_language-ur.msix" Offset="17106981" Size="46647">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-uz-latn" FileName="Video_Desktop_Production_language-uz-latn.msix" Offset="17153728" Size="42300">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-pa" FileName="Video_Desktop_Production_language-pa.msix" Offset="16215520" Size="47280">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-vi" FileName="Video_Desktop_Production_language-vi.msix" Offset="17196123" Size="41966">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-zh-hans" FileName="Video_Desktop_Production_language-zh-hans.msix" Offset="17238189" Size="39003">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ja" FileName="Video_Desktop_Production_language-ja.msix" Offset="15262020" Size="40461">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ro" FileName="Video_Desktop_Production_language-ro.msix" Offset="16413414" Size="42565">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ru" FileName="Video_Desktop_Production_language-ru.msix" Offset="16456074" Size="47401">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-da" FileName="Video_Desktop_Production_language-da.msix" Offset="14295308" Size="40833">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-pt" FileName="Video_Desktop_Production_language-pt.msix" Offset="16306374" Size="65195">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-mk" FileName="Video_Desktop_Production_language-mk.msix" Offset="15792544" Size="46146">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.scale-100" FileName="Video_Desktop_Production_scale-100.msix" Offset="17316498" Size="84186">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-zh-hant" FileName="Video_Desktop_Production_language-zh-hant.msix" Offset="17277292" Size="39113">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sv" FileName="Video_Desktop_Production_language-sv.msix" Offset="16745061" Size="40978">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-te" FileName="Video_Desktop_Production_language-te.msix" Offset="16832674" Size="48234">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-th" FileName="Video_Desktop_Production_language-th.msix" Offset="16881003" Size="44328">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-cs" FileName="Video_Desktop_Production_language-cs.msix" Offset="14209936" Size="43517">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.scale-150" FileName="Video_Desktop_Production_scale-150.msix" Offset="17511150" Size="128512">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ta" FileName="Video_Desktop_Production_language-ta.msix" Offset="16786134" Size="46445">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.scale-125" FileName="Video_Desktop_Production_scale-125.msix" Offset="17400777" Size="110280">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-uk" FileName="Video_Desktop_Production_language-uk.msix" Offset="17058877" Size="48009">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sk" FileName="Video_Desktop_Production_language-sk.msix" Offset="16503570" Size="42959">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-fi" FileName="Video_Desktop_Production_language-fi.msix" Offset="14614721" Size="41336">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-fr" FileName="Video_Desktop_Production_language-fr.msix" Offset="14698310" Size="61463">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ug-arab" FileName="Video_Desktop_Production_language-ug-arab.msix" Offset="17013348" Size="45434">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-sr-cyrl" FileName="Video_Desktop_Production_language-sr-cyrl.msix" Offset="16631663" Size="70615">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-kok" FileName="Video_Desktop_Production_language-kok.msix" Offset="15530729" Size="46403">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-am" FileName="Video_Desktop_Production_language-am.msix" Offset="13828523" Size="46063">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.scale-400" FileName="Video_Desktop_Production_scale-400.msix" Offset="17639755" Size="426863">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-tt-cyrl" FileName="Video_Desktop_Production_language-tt-cyrl.msix" Offset="16967204" Size="46044">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.25041.10021.0" ResourceId="split.language-ca" FileName="Video_Desktop_Production_language-ca.msix" Offset="14144781" Size="65060">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19042.0" MaxVersionTested="10.0.19400.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

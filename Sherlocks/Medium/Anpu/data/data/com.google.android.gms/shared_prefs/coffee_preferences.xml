@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="promotion_status_for_2" value="2" />
+    <boolean name="coffee_last_is_keyguard_secure_set_timestamp_confirmed" value="false" />
+    <boolean name="coffee_last_known_is_keyguard_secure" value="false" />
+    <long name="coffee_last_log_trustlet_configuration_key" value="1720644569727" />
+    <long name="coffee_last_is_keyguard_secure_set_timestamp_seconds" value="1720644569" />
+</map>

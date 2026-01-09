@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="uta&lt;199&gt;" value="true" />
+    <boolean name="g6y-passwordError" value="false" />
+    <boolean name="uta&lt;256&gt;" value="false" />
+    <boolean name="uta&lt;347&gt;" value="false" />
+    <string name="notifications-status">all</string>
+    <boolean name="uta&lt;252&gt;" value="true" />
+    <boolean name="snooze-in-message-based-ui-enabled" value="true" />
+    <boolean name="legacy-notifications-migrated" value="true" />
+    <string name="g6y-address"></string>
+    <boolean name="message-based-ui-feature-enabled" value="true" />
+    <boolean name="uta&lt;364&gt;" value="true" />
+    <boolean name="uta&lt;354&gt;" value="true" />
+    <boolean name="uta&lt;312&gt;" value="false" />
+    <boolean name="uta&lt;368&gt;" value="true" />
+    <boolean name="uta&lt;302&gt;" value="true" />
+    <boolean name="g6y-errorUrlOpenAuthenticated" value="false" />
+    <boolean name="utc&lt;ENTITIES_AS_ITEMS&gt;" value="false" />
+    <string name="g6y-errorUrl"></string>
+    <boolean name="uta&lt;174&gt;" value="true" />
+    <int name="g6y-syncStatus" value="0" />
+    <boolean name="uta&lt;198&gt;" value="true" />
+    <string name="account-combined-sync-snapshot6">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/11 23:19:00.723, Last Sync Start Time (system clock): 07/11 23:19:00.715, Last Successful Settings Sync Start Time (system clock): 07/11 03:05:45.167, Sync Duration: 0:00:02.658, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_WIFI, Bandwidth Used During Sync: BandwidthValue{txBytes=6786, rxBytes=27288, txPackets=34, rxPackets=43, startTimeMs=363936, endTimeMs=366596, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {SETTINGS_SYNCED=535}, Annotations: [BTD_MAIL_ACTIVITY_GMAIL, BTD_SYNC_SETTINGS]}</string>
+    <boolean name="has-add-ons-installed" value="false" />
+    <long name="g6y-lastSyncTimeMs" value="0" />
+    <string name="sapi-active-experiment-ids">94685312,50012527,71924391,49853166,71673437,8201853,94793490,49894275,49517849,71742165,49017739,8204218,71313411,8202009,8203691,94803469,49768455,48973573,49821727,49894071,8201411,8201846,49821515,71175208,8203287,95139024,71394612,94685309,49519704,50012524,71924386,71599390,94793485,49894271,49517846,50342786,49626107,49768450,49894067,49821511,71175204,95139021,71394607,38160317,38160325,38160448,38160457,40511454,40511459,40511506,40511511,40512464,40512469,40512537,40512542,40512603,40512611,40512706,40512712,40513345,40513353,40513364,40513373,40513419,40513424,40513607,40513612</string>
+    <boolean name="notifications-enabled" value="true" />
+    <set name="enhanced-signature-keys" />
+    <boolean name="uta&lt;317&gt;" value="true" />
+    <string name="account-combined-sync-snapshot0">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/10 23:01:08.111, Sync Duration: 0:00:01.420, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_WIFI, Bandwidth Used During Sync: BandwidthValue{txBytes=4492, rxBytes=8687, txPackets=18, rxPackets=20, startTimeMs=818786, endTimeMs=820206, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {ITEMS_SYNCED=8}, Annotations: [BTD_SYNC_ADAPTER, BTD_SYNC_ITEMS]}</string>
+    <string name="last-known-inbox-type">SECTIONED_INBOX</string>
+    <boolean name="utc&lt;SHOW_SECTIONED_INBOX_ONBOARDING_TEASER&gt;" value="false" />
+    <int name="account-combined-sync-snapshot-index" value="7" />
+    <string name="account-combined-sync-snapshot1">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/10 23:12:06.134, Last Sync Start Time (system clock): 07/10 23:01:08.111, Sync Duration: 0:00:01.261, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_WIFI, Bandwidth Used During Sync: BandwidthValue{txBytes=6968, rxBytes=9980, txPackets=30, rxPackets=32, startTimeMs=1476809, endTimeMs=1478071, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {SETTINGS_SYNCED=534}, Annotations: [BTD_MAIL_ACTIVITY_GMAIL, BTD_SYNC_SETTINGS]}</string>
+    <string name="g6y-errorUrl-whitelist"></string>
+    <string name="account-combined-sync-snapshot2">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/10 23:12:09.580, Last Sync Start Time (system clock): 07/10 23:12:06.134, Last Successful Settings Sync Start Time (system clock): 07/10 23:12:05.945, Sync Duration: 0:00:00.390, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_WIFI, Bandwidth Used During Sync: BandwidthValue{txBytes=2307, rxBytes=1182, txPackets=5, rxPackets=7, startTimeMs=1480255, endTimeMs=1480646, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {ITEMS_SYNCED=0}, Annotations: [BTD_SYNC_ITEMS, BTD_UI_PROVIDER]}</string>
+    <string name="account-combined-sync-snapshot3">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/11 03:05:45.466, Last Successful Settings Sync Start Time (system clock): 07/10 23:12:05.945, Sync Duration: 0:00:01.610, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_MOBILE, Bandwidth Used During Sync: BandwidthValue{txBytes=6500, rxBytes=19960, txPackets=28, rxPackets=34, startTimeMs=7769908, endTimeMs=7771520, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {SETTINGS_SYNCED=534}, Annotations: [BTD_MAIL_ACTIVITY_GMAIL, BTD_SYNC_SETTINGS]}</string>
+    <string name="account-combined-sync-snapshot4">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/11 03:05:45.469, Last Sync Start Time (system clock): 07/11 03:05:45.466, Last Successful Settings Sync Start Time (system clock): 07/10 23:12:05.945, Sync Duration: 0:00:01.933, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_MOBILE, Bandwidth Used During Sync: BandwidthValue{txBytes=6706, rxBytes=27073, txPackets=32, rxPackets=41, startTimeMs=7769912, endTimeMs=7771846, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {SETTINGS_SYNCED=534}, Annotations: [BTD_MAIL_ACTIVITY_GMAIL, BTD_SYNC_SETTINGS]}</string>
+    <int name="prefs-version-number" value="4" />
+    <string name="account-combined-sync-snapshot5">CombinedSyncSnapshot: {Sync Start Time (system clock): 07/11 23:19:00.715, Last Successful Settings Sync Start Time (system clock): 07/11 03:05:45.167, Sync Duration: 0:00:01.864, Sync Type: BTD_GMAIL, Connectivity Type: TYPE_WIFI, Bandwidth Used During Sync: BandwidthValue{txBytes=6580, rxBytes=19983, txPackets=30, rxPackets=36, startTimeMs=363929, endTimeMs=365793, connectivityType=TYPE_UNKNOWN, tag=UNKNOWN}, Sync Results: [0], Counts: {SETTINGS_SYNCED=535}, Annotations: [BTD_MAIL_ACTIVITY_GMAIL, BTD_SYNC_SETTINGS]}</string>
+</map>

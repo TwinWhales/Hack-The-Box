@@ -1,0 +1,300 @@
+2024-07-10 20:53:01: Calendar sync state - {}
+2024-07-10 20:53:01: DEVICE	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{}]
+2024-07-10 20:53:02: 	Calendar sync state - {}
+2024-07-10 20:53:02: 	Total remote API time - 0ms
+2024-07-10 20:53:02: 	Total remote API calls - 0
+2024-07-10 20:53:02: 	Total local DB time - 513ms
+2024-07-10 20:53:02: 	Total local DB queries - 7
+2024-07-10 20:53:02: 	Total sync time - 893ms
+2024-07-10 20:53:02: 	Sync result - CANCEL -  stats []
+
+2024-07-10 20:53:02: Calendar sync state - {}
+2024-07-10 20:53:02: DEVICE	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{}]
+2024-07-10 20:53:03: 	Calendar sync state - {}
+2024-07-10 20:53:03: 	Total remote API time - 0ms
+2024-07-10 20:53:03: 	Total remote API calls - 0
+2024-07-10 20:53:03: 	Total local DB time - 17ms
+2024-07-10 20:53:03: 	Total local DB queries - 2
+2024-07-10 20:53:03: 	Total sync time - 57ms
+2024-07-10 20:53:03: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 20:53:03: Calendar sync state - {}
+2024-07-10 20:53:03: GROOVE#IN-APP	PRIMARY/WTF/WTF	CONSUMER/0/com.google	Bundle[{only_groove=true, feed_internal=-1}]
+2024-07-10 20:53:03: 	Calendar sync state - {}
+2024-07-10 20:53:03: 	Total remote API time - 0ms
+2024-07-10 20:53:03: 	Total remote API calls - 0
+2024-07-10 20:53:03: 	Total local DB time - 12ms
+2024-07-10 20:53:03: 	Total local DB queries - 2
+2024-07-10 20:53:03: 	Total sync time - 57ms
+2024-07-10 20:53:03: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 20:53:03: Calendar sync state - {}
+2024-07-10 20:53:03: DEFAULT	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{sync_default=true}]
+2024-07-10 20:53:04: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:04: 	Total remote API time - 834ms
+2024-07-10 20:53:04: 	Total remote API calls - 2
+2024-07-10 20:53:04: 	Total local DB time - 161ms
+2024-07-10 20:53:04: 	Total local DB queries - 18
+2024-07-10 20:53:04: 	Total sync time - 1118ms
+2024-07-10 20:53:04: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 20:53:04: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:04: DEFAULT	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{sync_default=true, feed_internal=1}]
+2024-07-10 20:53:05: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720644785421, feed_updated_time=2024-07-09T10:31:01.105Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:05: 	Total remote API time - 337ms
+2024-07-10 20:53:05: 	Total remote API calls - 2
+2024-07-10 20:53:05: 	Total local DB time - 62ms
+2024-07-10 20:53:05: 	Total local DB queries - 15
+2024-07-10 20:53:05: 	Total sync time - 562ms
+2024-07-10 20:53:05: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 20:53:05: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:05: MANUAL	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, upload=true, force=true, ignore_backoff=true}]
+2024-07-10 20:53:06: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:06: 	Total remote API time - 512ms
+2024-07-10 20:53:06: 	Total remote API calls - 2
+2024-07-10 20:53:06: 	Total local DB time - 89ms
+2024-07-10 20:53:06: 	Total local DB queries - 13
+2024-07-10 20:53:06: 	Total sync time - 654ms
+2024-07-10 20:53:06: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 20:53:06: Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720644785421, feed_updated_time=2024-07-09T10:31:01.105Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:06: DEVICE	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{feed=1}]
+2024-07-10 20:53:06: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720644786781, feed_updated_time=2024-07-09T10:31:01.105Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 20:53:06: 	Total remote API time - 437ms
+2024-07-10 20:53:06: 	Total remote API calls - 2
+2024-07-10 20:53:06: 	Total local DB time - 90ms
+2024-07-10 20:53:06: 	Total local DB queries - 12
+2024-07-10 20:53:06: 	Total sync time - 655ms
+2024-07-10 20:53:06: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:13:24: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:13:24: UPLOAD	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{upload=true}]
+2024-07-10 21:13:25: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:13:25: 	Total remote API time - 746ms
+2024-07-10 21:13:25: 	Total remote API calls - 2
+2024-07-10 21:13:25: 	Total local DB time - 49ms
+2024-07-10 21:13:25: 	Total local DB queries - 17
+2024-07-10 21:13:25: 	Total sync time - 1007ms
+2024-07-10 21:13:25: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:13:25: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:13:25: UPLOAD	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{upload=true}]
+2024-07-10 21:13:25: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:13:25: 	Total remote API time - 0ms
+2024-07-10 21:13:25: 	Total remote API calls - 0
+2024-07-10 21:13:25: 	Total local DB time - 30ms
+2024-07-10 21:13:25: 	Total local DB queries - 9
+2024-07-10 21:13:25: 	Total sync time - 87ms
+2024-07-10 21:13:25: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:14:59: Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720644786781, feed_updated_time=2024-07-09T10:31:01.105Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:14:59: AUTO	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=1}]
+2024-07-10 21:14:59: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646099683, feed_updated_time=2024-07-10T21:13:22.002Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:14:59: 	Total remote API time - 155ms
+2024-07-10 21:14:59: 	Total remote API calls - 1
+2024-07-10 21:14:59: 	Total local DB time - 30ms
+2024-07-10 21:14:59: 	Total local DB queries - 11
+2024-07-10 21:14:59: 	Total sync time - 251ms
+2024-07-10 21:14:59: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:14:59: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:14:59: IN-APP	BIRTHDAY/READ/INVISIBLE	CONSUMER/0/com.google	Bundle[{feed_internal=3}]
+2024-07-10 21:15:00: 	Calendar sync state - {package=com.google.android.calendar, 3={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646100117, feed_updated_time=2024-07-10T20:55:01.447Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:15:00: 	Total remote API time - 195ms
+2024-07-10 21:15:00: 	Total remote API calls - 1
+2024-07-10 21:15:00: 	Total local DB time - 110ms
+2024-07-10 21:15:00: 	Total local DB queries - 14
+2024-07-10 21:15:00: 	Total sync time - 461ms
+2024-07-10 21:15:00: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:16:37: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:37: MANUAL	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, sync_extra_update_client_status=true}]
+2024-07-10 21:16:38: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:38: 	Total remote API time - 469ms
+2024-07-10 21:16:38: 	Total remote API calls - 1
+2024-07-10 21:16:38: 	Total local DB time - 18ms
+2024-07-10 21:16:38: 	Total local DB queries - 3
+2024-07-10 21:16:38: 	Total sync time - 996ms
+2024-07-10 21:16:38: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:16:38: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:38: IN-APP	HOLIDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{feed_internal=2}]
+2024-07-10 21:16:40: 	Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646200652, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:40: 	Total remote API time - 314ms
+2024-07-10 21:16:40: 	Total remote API calls - 1
+2024-07-10 21:16:40: 	Total local DB time - 1347ms
+2024-07-10 21:16:40: 	Total local DB queries - 95
+2024-07-10 21:16:40: 	Total sync time - 1863ms
+2024-07-10 21:16:40: 	Sync result - SUCCESS -  stats [ numInserts: 70 numEntries: 70]
+
+2024-07-10 21:16:40: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:40: MANUAL	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, upload=true, force=true, ignore_backoff=true}]
+2024-07-10 21:16:40: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:40: 	Total remote API time - 0ms
+2024-07-10 21:16:40: 	Total remote API calls - 0
+2024-07-10 21:16:40: 	Total local DB time - 5ms
+2024-07-10 21:16:40: 	Total local DB queries - 4
+2024-07-10 21:16:40: 	Total sync time - 21ms
+2024-07-10 21:16:40: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:16:40: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:40: DEFAULT	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{sync_default=true}]
+2024-07-10 21:16:41: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:16:41: 	Total remote API time - 773ms
+2024-07-10 21:16:41: 	Total remote API calls - 2
+2024-07-10 21:16:41: 	Total local DB time - 44ms
+2024-07-10 21:16:41: 	Total local DB queries - 22
+2024-07-10 21:16:41: 	Total sync time - 861ms
+2024-07-10 21:16:41: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:18:16: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:16: UPLOAD	BIRTHDAY/WTF/WTF	CONSUMER/0/com.google	Bundle[{upload=true, feed=-1}]
+2024-07-10 21:18:16: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:16: 	Total remote API time - 0ms
+2024-07-10 21:18:16: 	Total remote API calls - 0
+2024-07-10 21:18:16: 	Total local DB time - 23ms
+2024-07-10 21:18:16: 	Total local DB queries - 9
+2024-07-10 21:18:16: 	Total sync time - 82ms
+2024-07-10 21:18:16: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:18:16: Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646099683, feed_updated_time=2024-07-10T21:13:22.002Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:16: DEFAULT	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{sync_default=true, feed_internal=1}]
+2024-07-10 21:18:17: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646297131, feed_updated_time=2024-07-10T21:16:39.821Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:17: 	Total remote API time - 439ms
+2024-07-10 21:18:17: 	Total remote API calls - 2
+2024-07-10 21:18:17: 	Total local DB time - 26ms
+2024-07-10 21:18:17: 	Total local DB queries - 12
+2024-07-10 21:18:17: 	Total sync time - 510ms
+2024-07-10 21:18:17: 	Sync result - SUCCESS -  stats []
+
+2024-07-10 21:18:17: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:17: UPLOAD	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{upload=true}]
+2024-07-10 21:18:17: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-10 21:18:17: 	Total remote API time - 0ms
+2024-07-10 21:18:17: 	Total remote API calls - 0
+2024-07-10 21:18:17: 	Total local DB time - 20ms
+2024-07-10 21:18:17: 	Total local DB queries - 9
+2024-07-10 21:18:17: 	Total sync time - 48ms
+2024-07-10 21:18:17: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:07:59: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:07:59: AUTO	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true}]
+2024-07-11 02:08:01: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:01: 	Total remote API time - 1479ms
+2024-07-11 02:08:01: 	Total remote API calls - 4
+2024-07-11 02:08:01: 	Total local DB time - 172ms
+2024-07-11 02:08:01: 	Total local DB queries - 26
+2024-07-11 02:08:01: 	Total sync time - 1803ms
+2024-07-11 02:08:01: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:08:11: Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646200652, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:11: AUTO	HOLIDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=2}]
+2024-07-11 02:08:12: 	Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663691943, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: 	Total remote API time - 532ms
+2024-07-11 02:08:12: 	Total remote API calls - 1
+2024-07-11 02:08:12: 	Total local DB time - 39ms
+2024-07-11 02:08:12: 	Total local DB queries - 13
+2024-07-11 02:08:12: 	Total sync time - 722ms
+2024-07-11 02:08:12: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:08:12: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: AUTO	BIRTHDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=4}]
+2024-07-11 02:08:12: 	Calendar sync state - {package=com.google.android.calendar, 4={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663692330, feed_updated_time=2024-07-11T01:48:14.277Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: 	Total remote API time - 219ms
+2024-07-11 02:08:12: 	Total remote API calls - 1
+2024-07-11 02:08:12: 	Total local DB time - 43ms
+2024-07-11 02:08:12: 	Total local DB queries - 14
+2024-07-11 02:08:12: 	Total sync time - 329ms
+2024-07-11 02:08:12: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:08:12: Calendar sync state - {package=com.google.android.calendar, 4={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663692330, feed_updated_time=2024-07-11T01:48:14.277Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: DEVICE	BIRTHDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{feed=4}]
+2024-07-11 02:08:12: 	Calendar sync state - {package=com.google.android.calendar, 4={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663692735, feed_updated_time=2024-07-11T01:48:14.683Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: 	Total remote API time - 275ms
+2024-07-11 02:08:12: 	Total remote API calls - 1
+2024-07-11 02:08:12: 	Total local DB time - 14ms
+2024-07-11 02:08:12: 	Total local DB queries - 11
+2024-07-11 02:08:12: 	Total sync time - 336ms
+2024-07-11 02:08:12: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:08:12: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: UPLOAD	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{upload=true}]
+2024-07-11 02:08:12: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:08:12: 	Total remote API time - 0ms
+2024-07-11 02:08:12: 	Total remote API calls - 0
+2024-07-11 02:08:12: 	Total local DB time - 22ms
+2024-07-11 02:08:12: 	Total local DB queries - 9
+2024-07-11 02:08:12: 	Total sync time - 49ms
+2024-07-11 02:08:12: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:19:58: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:58: AUTO	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true}]
+2024-07-11 02:19:59: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: 	Total remote API time - 839ms
+2024-07-11 02:19:59: 	Total remote API calls - 3
+2024-07-11 02:19:59: 	Total local DB time - 113ms
+2024-07-11 02:19:59: 	Total local DB queries - 23
+2024-07-11 02:19:59: 	Total sync time - 979ms
+2024-07-11 02:19:59: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:19:59: Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663691943, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: AUTO	HOLIDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=2}]
+2024-07-11 02:19:59: 	Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720664399513, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: 	Total remote API time - 269ms
+2024-07-11 02:19:59: 	Total remote API calls - 1
+2024-07-11 02:19:59: 	Total local DB time - 53ms
+2024-07-11 02:19:59: 	Total local DB queries - 11
+2024-07-11 02:19:59: 	Total sync time - 414ms
+2024-07-11 02:19:59: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:19:59: Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720646297131, feed_updated_time=2024-07-10T21:16:39.821Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: AUTO	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=1}]
+2024-07-11 02:19:59: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720664399864, feed_updated_time=2024-07-11T02:08:02.632Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: 	Total remote API time - 159ms
+2024-07-11 02:19:59: 	Total remote API calls - 1
+2024-07-11 02:19:59: 	Total local DB time - 37ms
+2024-07-11 02:19:59: 	Total local DB queries - 11
+2024-07-11 02:19:59: 	Total sync time - 280ms
+2024-07-11 02:19:59: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 02:19:59: Calendar sync state - {package=com.google.android.calendar, 4={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720663692735, feed_updated_time=2024-07-11T01:48:14.683Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:19:59: AUTO	BIRTHDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=4}]
+2024-07-11 02:20:00: 	Calendar sync state - {package=com.google.android.calendar, 4={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720664400197, feed_updated_time=2024-07-11T02:00:02.216Z, do_incremental_sync=true, in_progress_params={}}, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 02:20:00: 	Total remote API time - 181ms
+2024-07-11 02:20:00: 	Total remote API calls - 1
+2024-07-11 02:20:00: 	Total local DB time - 39ms
+2024-07-11 02:20:00: 	Total local DB queries - 11
+2024-07-11 02:20:00: 	Total sync time - 288ms
+2024-07-11 02:20:00: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 21:18:56: Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:56: AUTO	NONE/NA/NA	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true}]
+2024-07-11 21:18:57: 	Calendar sync state - {package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:57: 	Total remote API time - 1158ms
+2024-07-11 21:18:57: 	Total remote API calls - 3
+2024-07-11 21:18:57: 	Total local DB time - 340ms
+2024-07-11 21:18:57: 	Total local DB queries - 25
+2024-07-11 21:18:57: 	Total sync time - 1704ms
+2024-07-11 21:18:57: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 21:18:58: Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720664399513, feed_updated_time=2024-07-09T20:02:13.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:58: AUTO	HOLIDAY/READ/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=2}]
+2024-07-11 21:18:58: 	Calendar sync state - {2={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720732738768, feed_updated_time=2024-07-10T19:32:11.000Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:58: 	Total remote API time - 328ms
+2024-07-11 21:18:58: 	Total remote API calls - 1
+2024-07-11 21:18:58: 	Total local DB time - 39ms
+2024-07-11 21:18:58: 	Total local DB queries - 13
+2024-07-11 21:18:58: 	Total sync time - 551ms
+2024-07-11 21:18:58: 	Sync result - SUCCESS -  stats []
+
+2024-07-11 21:18:58: Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720664399864, feed_updated_time=2024-07-11T02:08:02.632Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:58: AUTO	PRIMARY/OWNER/VISIBLE	CONSUMER/0/com.google	Bundle[{ignore_settings=true, force=true, ignore_backoff=true, feed_internal=1}]
+2024-07-11 21:18:59: 	Calendar sync state - {1={new_window_end=0, window_end=1752192000000, upgrade_min_start=0, upgrade_max_start=0, last_sync_time=1720732739126, feed_updated_time=2024-07-11T02:08:02.632Z, do_incremental_sync=true, in_progress_params={}}, package=com.google.android.calendar, firstSeen=false, jellyBeanOrNewer=true, version=16, b38085245=2147483647}
+2024-07-11 21:18:59: 	Total remote API time - 173ms
+2024-07-11 21:18:59: 	Total remote API calls - 1
+2024-07-11 21:18:59: 	Total local DB time - 43ms
+2024-07-11 21:18:59: 	Total local DB queries - 11
+2024-07-11 21:18:59: 	Total sync time - 296ms
+2024-07-11 21:18:59: 	Sync result - SUCCESS -  stats []
+

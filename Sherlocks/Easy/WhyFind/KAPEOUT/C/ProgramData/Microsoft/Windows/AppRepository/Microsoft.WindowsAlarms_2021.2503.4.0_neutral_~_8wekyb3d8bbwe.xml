@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.WindowsAlarms" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2021.2503.4.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="1.1.29.0" Architecture="arm64" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_ARM64.msix" Offset="85" Size="755416" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-af" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-af.msix" Offset="755616" Size="11103" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="af-za"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-am" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-am.msix" Offset="766834" Size="11209" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="am-et"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ar" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ar.msix" Offset="778158" Size="11188" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ar-sa"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-az-latn" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-az-latn.msix" Offset="789466" Size="11194" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="az-latn-az"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-bg.msix" Offset="800775" Size="11280" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ca.msix" Offset="812170" Size="11369" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca-es"/>
+				<b5:Resource Language="ca-es-valencia"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-cs.msix" Offset="823654" Size="11146" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-da.msix" Offset="834915" Size="11093" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-de.msix" Offset="846123" Size="11154" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-el.msix" Offset="857392" Size="11413" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-es.msix" Offset="868920" Size="11368" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es-es"/>
+				<b5:Resource Language="es-mx"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-et.msix" Offset="880403" Size="11107" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-eu.msix" Offset="891625" Size="11103" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-fa" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-fa.msix" Offset="902843" Size="11224" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fa-ir"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-fi.msix" Offset="914182" Size="11133" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-fil-latn" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-fil-latn.msix" Offset="925436" Size="11139" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fil-ph"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-fr.msix" Offset="936690" Size="11361" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr-ca"/>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-gl.msix" Offset="948166" Size="11116" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-he" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-he.msix" Offset="959397" Size="11102" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="he-il"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-hi.msix" Offset="970614" Size="11255" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-hr.msix" Offset="981984" Size="11095" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-hu.msix" Offset="993194" Size="11168" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-id.msix" Offset="1004477" Size="11053" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-is" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-is.msix" Offset="1015645" Size="11133" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="is-is"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-it.msix" Offset="1026893" Size="11128" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ja.msix" Offset="1038136" Size="11163" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-kk.msix" Offset="1049414" Size="11280" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-km" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-km.msix" Offset="1060809" Size="11310" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="km-kh"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-kn" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-kn.msix" Offset="1072234" Size="11306" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ko.msix" Offset="1083655" Size="11189" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-lo" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-lo.msix" Offset="1094959" Size="11234" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lo-la"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-lt.msix" Offset="1106308" Size="11140" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-lv.msix" Offset="1117563" Size="11191" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-mk" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-mk.msix" Offset="1128869" Size="11283" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mk-mk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ml" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ml.msix" Offset="1140267" Size="11292" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ml-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ms.msix" Offset="1151674" Size="11058" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-nb.msix" Offset="1162847" Size="11117" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-nl.msix" Offset="1174079" Size="11090" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-pl.msix" Offset="1185284" Size="11163" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-pt.msix" Offset="1196562" Size="11510" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ro.msix" Offset="1208187" Size="11131" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ru.msix" Offset="1219433" Size="11300" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-sk.msix" Offset="1230848" Size="11154" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-sl.msix" Offset="1242117" Size="11139" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-sq" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-sq.msix" Offset="1253371" Size="11143" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sq-al"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-sr-latn.msix" Offset="1264634" Size="11153" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-sv.msix" Offset="1275902" Size="11111" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-ta" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-ta.msix" Offset="1287128" Size="11299" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ta-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-te" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-te.msix" Offset="1298542" Size="11333" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="te-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-th.msix" Offset="1309990" Size="11240" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-tr.msix" Offset="1321345" Size="11164" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-uk.msix" Offset="1332624" Size="11273" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-vi.msix" Offset="1344012" Size="11217" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-zh-hans.msix" Offset="1355349" Size="11080" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_language-zh-hant.msix" Offset="1366549" Size="11087" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_scale-100.msix" Offset="1377749" Size="78969" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_scale-125.msix" Offset="1456831" Size="105218" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_scale-150.msix" Offset="1562162" Size="123878" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="1.1.29.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_scale-400.msix" Offset="1686153" Size="411002" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.1.29.0" Architecture="x86" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_Win32.msix" Offset="2097264" Size="750702" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.1.29.0" Architecture="x64" FileName="AppxMetadata\Stub\TimeUniversalStub_1.1.29.0_x64.msix" Offset="2848073" Size="756492" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18363.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="11.2503.4.0" Architecture="arm64" FileName="ClockPackage_11.2503.4.0_ARM64.msix" Offset="3604654" Size="8255170">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2503.4.0" Architecture="x64" FileName="ClockPackage_11.2503.4.0_x64.msix" Offset="15185700" Size="8588085">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="11.2503.4.0" Architecture="x86" FileName="ClockPackage_11.2503.4.0_x86.msix" Offset="23773872" Size="7723999">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-af" FileName="ClockPackage_11.2503.4.0_language-af.msix" Offset="11859919" Size="41767">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-am" FileName="ClockPackage_11.2503.4.0_language-am.msix" Offset="11901781" Size="44328">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ar" FileName="ClockPackage_11.2503.4.0_language-ar.msix" Offset="11946204" Size="45194">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-az-latn" FileName="ClockPackage_11.2503.4.0_language-az-latn.msix" Offset="11991498" Size="42597">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-bg" FileName="ClockPackage_11.2503.4.0_language-bg.msix" Offset="12034190" Size="46053">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ca" FileName="ClockPackage_11.2503.4.0_language-ca.msix" Offset="12080338" Size="42924">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-cs" FileName="ClockPackage_11.2503.4.0_language-cs.msix" Offset="12123357" Size="43096">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-da" FileName="ClockPackage_11.2503.4.0_language-da.msix" Offset="12166548" Size="41975">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-de" FileName="ClockPackage_11.2503.4.0_language-de.msix" Offset="12208618" Size="42895">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-el" FileName="ClockPackage_11.2503.4.0_language-el.msix" Offset="12251608" Size="47695">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-es" FileName="ClockPackage_11.2503.4.0_language-es.msix" Offset="12299398" Size="48485">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-et" FileName="ClockPackage_11.2503.4.0_language-et.msix" Offset="12347978" Size="42025">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-eu" FileName="ClockPackage_11.2503.4.0_language-eu.msix" Offset="12390098" Size="41716">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-fa" FileName="ClockPackage_11.2503.4.0_language-fa.msix" Offset="12431909" Size="44373">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-fi" FileName="ClockPackage_11.2503.4.0_language-fi.msix" Offset="12476377" Size="42314">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-fil-latn" FileName="ClockPackage_11.2503.4.0_language-fil-latn.msix" Offset="12518792" Size="41985">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-fr" FileName="ClockPackage_11.2503.4.0_language-fr.msix" Offset="12560872" Size="54625">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-gl" FileName="ClockPackage_11.2503.4.0_language-gl.msix" Offset="12615592" Size="42237">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-he" FileName="ClockPackage_11.2503.4.0_language-he.msix" Offset="12657924" Size="43493">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-hi" FileName="ClockPackage_11.2503.4.0_language-hi.msix" Offset="12701512" Size="46497">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-hr" FileName="ClockPackage_11.2503.4.0_language-hr.msix" Offset="12748104" Size="42184">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-hu" FileName="ClockPackage_11.2503.4.0_language-hu.msix" Offset="12790383" Size="43067">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-id" FileName="ClockPackage_11.2503.4.0_language-id.msix" Offset="12833545" Size="40878">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-is" FileName="ClockPackage_11.2503.4.0_language-is.msix" Offset="12874518" Size="43195">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-it" FileName="ClockPackage_11.2503.4.0_language-it.msix" Offset="12917808" Size="42593">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ja" FileName="ClockPackage_11.2503.4.0_language-ja.msix" Offset="12960496" Size="43071">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-kk" FileName="ClockPackage_11.2503.4.0_language-kk.msix" Offset="13003662" Size="45768">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-km" FileName="ClockPackage_11.2503.4.0_language-km.msix" Offset="13049525" Size="49219">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-kn" FileName="ClockPackage_11.2503.4.0_language-kn.msix" Offset="13098839" Size="47691">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ko" FileName="ClockPackage_11.2503.4.0_language-ko.msix" Offset="13146625" Size="42935">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-lo" FileName="ClockPackage_11.2503.4.0_language-lo.msix" Offset="13189655" Size="46810">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-lt" FileName="ClockPackage_11.2503.4.0_language-lt.msix" Offset="13236560" Size="42708">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-lv" FileName="ClockPackage_11.2503.4.0_language-lv.msix" Offset="13279363" Size="43243">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-mk" FileName="ClockPackage_11.2503.4.0_language-mk.msix" Offset="13322701" Size="45762">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ml" FileName="ClockPackage_11.2503.4.0_language-ml.msix" Offset="13368558" Size="48935">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ms" FileName="ClockPackage_11.2503.4.0_language-ms.msix" Offset="13417588" Size="41003">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-nb" FileName="ClockPackage_11.2503.4.0_language-nb.msix" Offset="13458686" Size="42014">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-nl" FileName="ClockPackage_11.2503.4.0_language-nl.msix" Offset="13500795" Size="41736">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-pl" FileName="ClockPackage_11.2503.4.0_language-pl.msix" Offset="13542626" Size="43005">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-pt" FileName="ClockPackage_11.2503.4.0_language-pt.msix" Offset="13585726" Size="53587">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ro" FileName="ClockPackage_11.2503.4.0_language-ro.msix" Offset="13639408" Size="42341">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ru" FileName="ClockPackage_11.2503.4.0_language-ru.msix" Offset="13681844" Size="47511">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-sq" FileName="ClockPackage_11.2503.4.0_language-sq.msix" Offset="13815294" Size="43182">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-sk" FileName="ClockPackage_11.2503.4.0_language-sk.msix" Offset="13729450" Size="43290">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-sl" FileName="ClockPackage_11.2503.4.0_language-sl.msix" Offset="13772835" Size="42364">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-sr-latn" FileName="ClockPackage_11.2503.4.0_language-sr-latn.msix" Offset="13858576" Size="42461">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-sv" FileName="ClockPackage_11.2503.4.0_language-sv.msix" Offset="13901132" Size="41424">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-ta" FileName="ClockPackage_11.2503.4.0_language-ta.msix" Offset="13942651" Size="47028">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-te" FileName="ClockPackage_11.2503.4.0_language-te.msix" Offset="13989774" Size="47291">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-th" FileName="ClockPackage_11.2503.4.0_language-th.msix" Offset="14037160" Size="45121">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-tr" FileName="ClockPackage_11.2503.4.0_language-tr.msix" Offset="14082376" Size="42034">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-uk" FileName="ClockPackage_11.2503.4.0_language-uk.msix" Offset="14124505" Size="47338">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-vi" FileName="ClockPackage_11.2503.4.0_language-vi.msix" Offset="14171938" Size="43731">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-zh-hans" FileName="ClockPackage_11.2503.4.0_language-zh-hans.msix" Offset="14215769" Size="41435">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.language-zh-hant" FileName="ClockPackage_11.2503.4.0_language-zh-hant.msix" Offset="14257304" Size="41750">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.scale-100" FileName="ClockPackage_11.2503.4.0_scale-100.msix" Offset="14299147" Size="101990">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.scale-150" FileName="ClockPackage_11.2503.4.0_scale-150.msix" Offset="14534690" Size="156016">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.scale-125" FileName="ClockPackage_11.2503.4.0_scale-125.msix" Offset="14401230" Size="133367">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="11.2503.4.0" ResourceId="split.scale-400" FileName="ClockPackage_11.2503.4.0_scale-400.msix" Offset="14690799" Size="494814">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.XboxIdentityProvider" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="12.115.1001.0"/>
+	<Packages>
+		<Package Type="application" Version="12.115.1001.0" Architecture="arm" FileName="XboxIdp_12.115.1001.0_ARM.appx" Offset="60" Size="4525597">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="12.115.1001.0" Architecture="arm64" FileName="XboxIdp_12.115.1001.0_ARM64.appx" Offset="4525743" Size="4715128">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="12.115.1001.0" Architecture="x86" FileName="XboxIdp_12.115.1001.0_x86.appx" Offset="14857351" Size="4350854">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="12.115.1001.0" Architecture="x64" FileName="XboxIdp_12.115.1001.0_x64.appx" Offset="10143712" Size="4713555">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-gl" FileName="XboxIdp_12.115.1001.0_language-gl.appx" Offset="9517848" Size="14136">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-fil-latn" FileName="XboxIdp_12.115.1001.0_language-fil-latn.appx" Offset="9489146" Size="14101">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-am" FileName="XboxIdp_12.115.1001.0_language-am.appx" Offset="9255091" Size="14440">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ar" FileName="XboxIdp_12.115.1001.0_language-ar.appx" Offset="9269623" Size="14497">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-az-latn" FileName="XboxIdp_12.115.1001.0_language-az-latn.appx" Offset="9284217" Size="14398">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-be" FileName="XboxIdp_12.115.1001.0_language-be.appx" Offset="9298707" Size="14776">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-bg" FileName="XboxIdp_12.115.1001.0_language-bg.appx" Offset="9313575" Size="14869">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-bn" FileName="XboxIdp_12.115.1001.0_language-bn.appx" Offset="9328536" Size="14678">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ca" FileName="XboxIdp_12.115.1001.0_language-ca.appx" Offset="9343306" Size="14257">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-cs" FileName="XboxIdp_12.115.1001.0_language-cs.appx" Offset="9357655" Size="14436">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-da" FileName="XboxIdp_12.115.1001.0_language-da.appx" Offset="9372183" Size="14052">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-de" FileName="XboxIdp_12.115.1001.0_language-de.appx" Offset="9386327" Size="14169">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-el" FileName="XboxIdp_12.115.1001.0_language-el.appx" Offset="9400588" Size="15136">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-fi" FileName="XboxIdp_12.115.1001.0_language-fi.appx" Offset="9474883" Size="14165">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-fa" FileName="XboxIdp_12.115.1001.0_language-fa.appx" Offset="9460108" Size="14683">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-eu" FileName="XboxIdp_12.115.1001.0_language-eu.appx" Offset="9445957" Size="14059">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-id" FileName="XboxIdp_12.115.1001.0_language-id.appx" Offset="9590089" Size="13902">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-es" FileName="XboxIdp_12.115.1001.0_language-es.appx" Offset="9415816" Size="15762">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-af" FileName="XboxIdp_12.115.1001.0_language-af.appx" Offset="9240963" Size="14036">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-fr" FileName="XboxIdp_12.115.1001.0_language-fr.appx" Offset="9503339" Size="14417">
+			<Resources>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-tr" FileName="XboxIdp_12.115.1001.0_language-tr.appx" Offset="10011722" Size="14314">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-he" FileName="XboxIdp_12.115.1001.0_language-he.appx" Offset="9532076" Size="14169">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-hi" FileName="XboxIdp_12.115.1001.0_language-hi.appx" Offset="9546337" Size="14756">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-hr" FileName="XboxIdp_12.115.1001.0_language-hr.appx" Offset="9561185" Size="14195">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-hu" FileName="XboxIdp_12.115.1001.0_language-hu.appx" Offset="9575472" Size="14525">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-et" FileName="XboxIdp_12.115.1001.0_language-et.appx" Offset="9431670" Size="14195">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-is" FileName="XboxIdp_12.115.1001.0_language-is.appx" Offset="9604083" Size="14269">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-it" FileName="XboxIdp_12.115.1001.0_language-it.appx" Offset="9618444" Size="14190">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ja" FileName="XboxIdp_12.115.1001.0_language-ja.appx" Offset="9632726" Size="13982">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-te" FileName="XboxIdp_12.115.1001.0_language-te.appx" Offset="9982366" Size="14709">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sv" FileName="XboxIdp_12.115.1001.0_language-sv.appx" Offset="9939462" Size="13973">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-kn" FileName="XboxIdp_12.115.1001.0_language-kn.appx" Offset="9676600" Size="14699">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sr-latn" FileName="XboxIdp_12.115.1001.0_language-sr-latn.appx" Offset="9925074" Size="14296">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-lo" FileName="XboxIdp_12.115.1001.0_language-lo.appx" Offset="9705737" Size="14644">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-lt" FileName="XboxIdp_12.115.1001.0_language-lt.appx" Offset="9720473" Size="14293">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-lv" FileName="XboxIdp_12.115.1001.0_language-lv.appx" Offset="9734858" Size="14445">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-mk" FileName="XboxIdp_12.115.1001.0_language-mk.appx" Offset="9749395" Size="14520">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ml" FileName="XboxIdp_12.115.1001.0_language-ml.appx" Offset="9764007" Size="14666">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sq" FileName="XboxIdp_12.115.1001.0_language-sq.appx" Offset="9910743" Size="14234">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-nb" FileName="XboxIdp_12.115.1001.0_language-nb.appx" Offset="9792924" Size="14017">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-nl" FileName="XboxIdp_12.115.1001.0_language-nl.appx" Offset="9807033" Size="14116">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sl" FileName="XboxIdp_12.115.1001.0_language-sl.appx" Offset="9896409" Size="14242">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sk" FileName="XboxIdp_12.115.1001.0_language-sk.appx" Offset="9881903" Size="14414">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ro" FileName="XboxIdp_12.115.1001.0_language-ro.appx" Offset="9852546" Size="14258">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-kk" FileName="XboxIdp_12.115.1001.0_language-kk.appx" Offset="9646800" Size="14832">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ms" FileName="XboxIdp_12.115.1001.0_language-ms.appx" Offset="9778765" Size="14067">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-sw" FileName="XboxIdp_12.115.1001.0_language-sw.appx" Offset="9953527" Size="13922">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-uk" FileName="XboxIdp_12.115.1001.0_language-uk.appx" Offset="10026128" Size="15038">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.scale-200" FileName="XboxIdp_12.115.1001.0_scale-200.appx" Offset="10121297" Size="10984">
+			<Resources>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-pl" FileName="XboxIdp_12.115.1001.0_language-pl.appx" Offset="9821241" Size="14564">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.scale-125" FileName="XboxIdp_12.115.1001.0_scale-125.appx" Offset="10099238" Size="10934">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-pt" FileName="XboxIdp_12.115.1001.0_language-pt.appx" Offset="9835897" Size="16557">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-th" FileName="XboxIdp_12.115.1001.0_language-th.appx" Offset="9997167" Size="14463">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.scale-400" FileName="XboxIdp_12.115.1001.0_scale-400.appx" Offset="10132371" Size="11257">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.scale-150" FileName="XboxIdp_12.115.1001.0_scale-150.appx" Offset="10110262" Size="10945">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ko" FileName="XboxIdp_12.115.1001.0_language-ko.appx" Offset="9691391" Size="14254">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-zh-hant" FileName="XboxIdp_12.115.1001.0_language-zh-hant.appx" Offset="10084699" Size="14449">
+			<Resources>
+				<Resource Language="zh-hk"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-vi" FileName="XboxIdp_12.115.1001.0_language-vi.appx" Offset="10055611" Size="14791">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-zh-hans" FileName="XboxIdp_12.115.1001.0_language-zh-hans.appx" Offset="10070499" Size="14103">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-km" FileName="XboxIdp_12.115.1001.0_language-km.appx" Offset="9661724" Size="14784">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ru" FileName="XboxIdp_12.115.1001.0_language-ru.appx" Offset="9866896" Size="14915">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-uz-latn" FileName="XboxIdp_12.115.1001.0_language-uz-latn.appx" Offset="10041263" Size="14256">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="12.115.1001.0" ResourceId="split.language-ta" FileName="XboxIdp_12.115.1001.0_language-ta.appx" Offset="9967541" Size="14733">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

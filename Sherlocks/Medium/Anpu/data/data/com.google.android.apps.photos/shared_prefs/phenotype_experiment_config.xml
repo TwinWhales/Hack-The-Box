@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="Deprecated__enable_opening_expired_memories" value="true" />
+    <boolean name="Printing__enable_gift_messaging" value="true" />
+    <boolean name="Sharing__enable_sender_side_transparency_in_suggested_add_review_picker_flag" value="false" />
+    <boolean name="BuyStorage__google_one_onboarding" value="true" />
+    <long name="Shared_Libraries__logo_image_variant" value="0" />
+    <long name="DeviceManagement__fus_content_provider_bytes_threshold" value="50000000" />
+    <boolean name="DeviceManagement__disable_photos_deletion_service" value="false" />
+    <float name="StillExporter__suggested_action_score_threshold" value="0.0633604" />
+    <boolean name="Shared_Libraries__reciprocation_promo_banner" value="true" />
+    <long name="Prioritizer__ui_category_timeout" value="15000" />
+    <boolean name="Trash__enable_guessable_fife_urls_in_trash" value="true" />
+    <boolean name="Glide__hardware_bitmap_kill_switch" value="false" />
+    <boolean name="Confetti__xp_enabled" value="false" />
+    <boolean name="FlyingSky__enable_sticky_tab_on_home_frag_for_warm_start" value="false" />
+    <long name="LargeAlbum__max_preselection_count" value="1000" />
+    <boolean name="Lens__enable_visually_similar_inline_image" value="true" />
+    <boolean name="LocationHeaders__enable_location_headers" value="true" />
+    <boolean name="Movies__enable_audio_focus" value="false" />
+    <boolean name="Deprecated__enable_info_panel_baseline_memory_logging" value="false" />
+    <boolean name="PrimesFeature__enable_per_event_timers" value="true" />
+    <boolean name="Lens__enable_unstructured_text" value="true" />
+    <boolean name="Shared_Libraries__show_logged_in_account_info_in_receive_invite_dialog" value="false" />
+    <boolean name="Sharing__enable_regular_sharesheet_for_disabled_direct_sharing" value="false" />
+    <boolean name="Lens__enable_visually_similar_image_text" value="true" />
+    <boolean name="Sharing__enable_unselect_all_button_in_suggested_add_review_picker_flag" value="false" />
+    <boolean name="Video__enable_simple_cache_with_database_provider" value="false" />
+    <boolean name="Partnerships__pass_data_with_intent" value="true" />
+    <long name="Video__dash_min_duration_to_retain_after_discard_ms" value="2500" />
+    <boolean name="Video__disable_mv" value="false" />
+    <boolean name="Sharing__enable_optimistic_shared_album_creation" value="true" />
+    <string name="Backup__video_compression_quality_BASIC">480,480,2200000</string>
+    <boolean name="CloudStorage__enable_tmobile_unlimited_photos" value="true" />
+    <boolean name="TrashFeature__filecopy_delete_incomplete_copy" value="false" />
+    <boolean name="LocationHeaders__enable_location_feature_mask" value="true" />
+    <string name="Printing__currency">USD</string>
+    <boolean name="Lens__should_send_location_for_onelens" value="true" />
+    <boolean name="Deprecated__enable_notifications_trampoline_fix" value="true" />
+    <boolean name="FxRetentionExperiments__enable_retentive_actions_notification" value="false" />
+    <boolean name="VideoBoost__use_processing_text_hours" value="false" />
+    <boolean name="CloudStorage__oq_gr_m1" value="true" />
+    <boolean name="Sharing__preload_cp2_contacts_flag" value="true" />
+    <long name="Backup__compress_before_backup_min_px_count" value="1000000" />
+    <string name="UpdateAppText__dialog_pos_action"></string>
+    <boolean name="Video__enable_mov_in_motion_photo_heic" value="true" />
+    <string name="UpdateApp__toast_every_day_max_version"></string>
+    <boolean name="Prioritizer__item_page_manager" value="true" />
+    <boolean name="Prioritizer__cold_start_initializers" value="false" />
+    <boolean name="Lens__enable_aggregated_contact" value="true" />
+    <boolean name="TrashFeature__use_action_bar_in_one_up" value="true" />
+    <boolean name="Sharing__enable_coalesce_comments" value="false" />
+    <long name="Backup__alarm_interval_minutes" value="360" />
+    <float name="SuggestedActions__on_device_rotation_threshold" value="0.950979" />
+    <boolean name="AssistantRendering__smaller_assistant_card_images" value="true" />
+    <boolean name="Memories__enable_video_reliability_startup_measurement" value="false" />
+    <string name="UpdateAppText__promo_message"></string>
+    <boolean name="Cast__enable_legacy_cast_media_route_button_drawing" value="false" />
+    <boolean name="CloudStorage__enable_paid_features_interstitial" value="true" />
+    <long name="FxExperiments__maingrid_promo_waiting_time" value="604800000" />
+    <long name="Confetti__lo_lat_bound_e7" value="-1" />
+    <string name="Lens__greenlisted_locales_for_onelens">en es fr de it pt ko ja af sq am ar hy az eu be bn bs bg my ca zh hr cs da nl et fa fil fi gl ka el gu iw hi hu is id kn kk km ky lo lv lt mk ms ml mr mn ne no pl pa ro ru sr si sk sl sw sv ta te th tr uk ur uz vi zu</string>
+    <long name="TrashFeature__cleanup_mode" value="2" />
+    <boolean name="Video__allow_initial_discontinuity" value="false" />
+    <long name="Sharing__memory_videos_movie_composer_muxer_timeout_ms" value="10000" />
+    <boolean name="Memories__enable_shown_less_cluster_logging" value="true" />
+    <boolean name="Sharing__share_feed_reply_button" value="true" />
+    <string name="Confetti__title"></string>
+    <boolean name="Deprecated__enable_premium_landing_page_entry_point" value="true" />
+    <boolean name="Backup__manual_upload_data_dialog" value="false" />
+    <string name="SuggestedActions__cgc_thresholds_dugtrio">De58fz8Vmpl5Px34U0M/JT81fj8tI9t5PjXVeKk+PQIrxz5FtvN9Pk2q8XI/</string>
+    <boolean name="Movies__enable_user_music" value="true" />
+    <long name="Backup__default_data_cap_hq_storage_policy" value="9500000" />
+    <boolean name="Lens__enable_geo_ar" value="true" />
+    <boolean name="EditingDeprecated__enable_udon_show_generating_tips" value="true" />
+    <string name="Lens__greenListed_locales">en</string>
+    <boolean name="Movies__device_incompatible" value="false" />
+    <boolean name="VideoEditor__enable_download_original_video" value="true" />
+    <boolean name="LargeAlbum__sorting_v2_kill" value="false" />
+    <boolean name="Sharing__inferred_recipients_sync" value="true" />
+    <boolean name="Shared_Libraries__eager_invitation_triggering" value="true" />
+    <boolean name="Sharing__optimistic_add_remove_media_to_envelope" value="true" />
+    <boolean name="Cast__enable_cast_only_for_backed_up_media" value="false" />
+    <boolean name="Lens__enable_local_phileas" value="true" />
+    <boolean name="Memories__enable_pop_outs_feedback" value="false" />
+    <boolean name="Albums__auto_add_button_enabled" value="true" />
+    <boolean name="Clusters__enable_place_clusters_inferred_only_by_location" value="false" />
+    <boolean name="DeviceFoldersFeature__enable_scan_empty_files" value="false" />
+    <boolean name="LocalSync__populate_utctime_from_exif_kill_switch" value="false" />
+    <boolean name="Lens__enable_one_platform_api_df" value="false" />
+    <boolean name="TrashFeature_clean_soft_deleted_but_not_in_trash" value="false" />
+    <boolean name="Offline__localid_to_mediacollectionkey_mapping" value="true" />
+    <boolean name="OneUpFeature__enable_static_maps_api" value="true" />
+    <boolean name="Video__disable_exo_cache_logging" value="true" />
+    <boolean name="LargeAlbum__feed_view_limited_kill" value="false" />
+    <boolean name="Prioritizer__enable_monitoring" value="false" />
+    <string name="Mdd__mochi_cpu">Cgltb2NoaV9jcHUSnQESVGh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9waG90b2ZpeC1hc3NldHMvcGZkbV92MV9jcHUudGZsaXRlLmVuYyCQsu8BKihmNjVkNjI3NzIwYWRiMmZiYWU0ODEwMzg2ODFhZDhlNjlmOTc3OTE4OhZwZmRtX3YxX2NwdS50ZmxpdGUuZW5jEo8BEkxodHRwczovL2RsLmdvb2dsZS5jb20vcGhvdG9zL3Bob3Rvcy1taS1tb2RlbHMvbW9jaGktYXNzZXRzL3BmZG10dy50ZmxpdGUuZW5jILDHJiooMWNkZGUxN2VlY2Q5YzY5YmUzMWUyYTlkMWE5YmJmNDRhOGQ1ZDUzZToRcGZkbXR3LnRmbGl0ZS5lbmMSoQESVmh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9waG90b2ZpeC1hc3NldHMvcGZkcmZmX3YxX2NwdS50ZmxpdGUuZW5jIMDvtAgqKGU1N2U3YmExMmQ3YWNmOGM3YjljN2ZkMzYxZGJkNjBhOTRkMjlkODA6GHBmZHJmZl92MV9jcHUudGZsaXRlLmVuYxKPARJMaHR0cHM6Ly9kbC5nb29nbGUuY29tL3Bob3Rvcy9waG90b3MtbWktbW9kZWxzL21vY2hpLWFzc2V0cy9kcmZhbXcudGZsaXRlLmVuYyDQlTYqKGE3MGJhYTg5YmUyZmY5NjZmZjZjMGIyNGRjM2IwM2ZhNzM5Njc3MTE6EWRyZmFtdy50ZmxpdGUuZW5jGIDGCjIeY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMucGhvdG9zUAA</string>
+    <string name="UpdateApp__screen_every_week_max_version"></string>
+    <long name="Video__dash_default_bitrate_estimate" value="1500000" />
+    <long name="Video__dash_max_duration_for_quality_decrease_ms" value="2500" />
+    <boolean name="DeviceFoldersFeature__enable_fix_mediatype_none" value="true" />
+    <long name="Limits__album_item_max" value="20000" />
+    <boolean name="Shared_Libraries__sender_filter_pet_clusters" value="false" />
+    <boolean name="Sharing__suggested_people_cache_refresh_enable_flag" value="true" />
+    <boolean name="Memories__enable_face_grouping_promo_feedback" value="false" />
+    <boolean name="Archiving__enable_move_to_archive_text" value="true" />
+    <boolean name="Sharing__use_nested_bundle_for_parcelables_in_feed_activity_launch_intent" value="false" />
+    <boolean name="Video__disable_manual_bandwidth_meter_reset" value="false" />
+    <string name="UpdateApp__dialog_every_open_max_version"></string>
+    <long name="Confetti__hi_lat_bound_e7" value="-1" />
+    <boolean name="Deprecated__enable_canvas_additional_sizes" value="true" />
+    <boolean name="SuggestedActions__enable_lens_suggested_actions" value="false" />
+    <boolean name="FxExperiments__enable_privacy_link_tos_side_nav" value="false" />
+    <boolean name="Lens__enable_bounding_boxes" value="true" />
+    <boolean name="Deprecated__pfc_disclaimer_promo" value="true" />
+    <boolean name="Sharing__face_gaia_opt_in_enable_flag" value="true" />
+    <boolean name="Assistant__enable_smart_album_sync_migration" value="true" />
+    <long name="Search__Search__pfc_opt_in_reprompt_type" value="3" />
+    <boolean name="Search__guided_things_confirmation_sync" value="true" />
+    <boolean name="Deprecated__enable_inline_title_edit" value="true" />
+    <string name="Mdd__psyduck_gpu">Cgtwc3lkdWNrX2dwdRKYARJSaHR0cHM6Ly9kbC5nb29nbGUuY29tL3Bob3Rvcy9waG90b3MtbWktbW9kZWxzL3Bob3RvZml4LWFzc2V0cy9wZmRtdHdfdjIudGZsaXRlLmVuYyCwxyYqKDdjOTkzYmU2MTgwYzk1Y2I0NGYyMzQwMGIwZWU4YzU5YjMxMTFmMjY6FHBmZG10d192Mi50ZmxpdGUuZW5jEo8BEkxodHRwczovL2RsLmdvb2dsZS5jb20vcGhvdG9zL3Bob3Rvcy1taS1tb2RlbHMvbW9jaGktYXNzZXRzL2RyZmFtdy50ZmxpdGUuZW5jINCVNiooYTcwYmFhODliZTJmZjk2NmZmNmMwYjI0ZGMzYjAzZmE3Mzk2NzcxMToRZHJmYW13LnRmbGl0ZS5lbmMSlgESUWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9waG90b2ZpeC1hc3NldHMvcGZwZmRfdjIudGZsaXRlLmVuYyCgplcqKDY3YTIwMjg1ZDNiZjA0MWM4ZGQ4MmFmNzU5YWRiYmJhZDY2YzRhYzc6E3BmcGZkX3YyLnRmbGl0ZS5lbmMSnQESVGh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9waG90b2ZpeC1hc3NldHMvcGZkbV92Ml9ncHUudGZsaXRlLmVuYyDQsrkEKigzNjI3NWVkOTgzZmQwMjYyZTdjOTNhYzk5YzRmZDg3MDUwYTdhZmVlOhZwZmRtX3YyX2dwdS50ZmxpdGUuZW5jEqEBElZodHRwczovL2RsLmdvb2dsZS5jb20vcGhvdG9zL3Bob3Rvcy1taS1tb2RlbHMvcGhvdG9maXgtYXNzZXRzL3BmZHJmZl92Ml9ncHUudGZsaXRlLmVuYyCAo7YIKihkOTU4ZTdiNjlmZDc3ZTUxODI2Zjc3YWIyY2E3YmUyN2MyMmRjNzM2OhhwZmRyZmZfdjJfZ3B1LnRmbGl0ZS5lbmMYgMYKMh5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5waG90b3NQAQ</string>
+    <long name="Backup__video_compression_default_minimum_latency" value="60000" />
+    <boolean name="DeviceFoldersFeature__enable_dotnomedia_cleaner" value="true" />
+    <boolean name="Pager__notify_previously_selected_listener_first" value="true" />
+    <long name="Video__dash_bytes_transferred_for_estimate" value="5120" />
+    <boolean name="Deprecated__enable_muxer_timestamp_offset" value="true" />
+    <boolean name="Pager__preload_1up_image" value="true" />
+    <string name="OemAPITesting__always_trusted_partner_certificate"></string>
+    <boolean name="Sharing__use_paged_preselection" value="true" />
+    <boolean name="DatabaseFeature__combine_media_item_query_in_row_mutator" value="true" />
+    <boolean name="OverlayIcon__enable_read_from_media_table" value="true" />
+    <boolean name="Lens__enable_lens_pixel_2016" value="true" />
+    <boolean name="Sharing__share_motion_photo_as_video" value="true" />
+    <boolean name="StillExporter__load_keyframe_thumbnails_android_p" value="false" />
+    <string name="Face__non_human_bcl_model_checksum">9a554cc4c7a39234d9aeb3763e8a0b0e2ce233bd</string>
+    <string name="Face__blurred_bcl_model_checksum">139db740fe15b06b3c962a1b218ab613da2012f8</string>
+    <boolean name="VideoEditor__enable_new_playback_pipeline" value="false" />
+    <long name="Backup__compress_jpeg_quality" value="85" />
+    <boolean name="Onboarding__alternate_original_quality_strings" value="false" />
+    <boolean name="Onboarding__mandatory_backup_setup_default_gallery" value="true" />
+    <boolean name="Albums__live_album_cards_enabled" value="true" />
+    <boolean name="AppLaunch__clean_database_files" value="true" />
+    <boolean name="Sharing__assert_overlay_present_3" value="false" />
+    <long name="Sharing__suggested_people_cache_invalidate_period_secs" value="68400" />
+    <boolean name="Archiving__include_archive_state_on_upload" value="true" />
+    <long name="Shared_Libraries__assistant_card_variant" value="5" />
+    <boolean name="Backup__enable_customized_url" value="false" />
+    <boolean name="Backup__enable_albums_background_upload" value="true" />
+    <boolean name="IconFeature__enable_green_icon" value="false" />
+    <long name="Confetti__hi_lng_bound_e7" value="-1" />
+    <boolean name="Printing__enable_rpc_for_guided_books_asset" value="true" />
+    <long name="Limits__local_clustering_thumb_upload_data_max" value="10" />
+    <boolean name="PrimesStartupFeature__enable_init_on_activity_resumed" value="true" />
+    <boolean name="Onboarding__enable_single_screen_onboarding_v2" value="true" />
+    <long name="Backup__reword_prompt_fus_alternative" value="0" />
+    <boolean name="TestFeature__test_holdback_launch" value="false" />
+    <boolean name="Sharing__enable_potential_abuse_warnings" value="true" />
+    <boolean name="Sharing__enable_combined_defensive_actions" value="true" />
+    <boolean name="HATS__enable_hats" value="false" />
+    <boolean name="SuggestedActions__enable_on_device_rotate_ae" value="true" />
+    <boolean name="Prioritizer__enable_analytics_executor" value="true" />
+    <long name="Sharing__shared_collections_sync_pause_days" value="1" />
+    <boolean name="Deprecated__enable_flying_sky_edit_mode" value="true" />
+    <boolean name="Lens__enable_prefetch_rpc" value="false" />
+    <boolean name="Shared_Libraries__enable_select_partner_hats" value="false" />
+    <long name="SharingData__rollback_store_reconciliation_delay_ms" value="60000" />
+    <boolean name="IconFeature__enable_blue_icon" value="false" />
+    <long name="Sharing__max_location_default_on_tooltip_shown_count" value="5" />
+    <long name="Confetti__num_media" value="2147483647" />
+    <long name="Backup__video_compression_timeout" value="1440000" />
+    <boolean name="Shared_Libraries__promo_card" value="true" />
+    <boolean name="BuyStorage__avatar_ring" value="true" />
+    <string name="UpdateApp__toast_every_open_max_version"></string>
+    <boolean name="DeviceManagement__enable_fus_thumb_cache" value="true" />
+    <boolean name="Video__enable_motion_playback_casting" value="true" />
+    <string name="UpdateAppText__dialog_message"></string>
+    <boolean name="Sharing__direct_sharing_receive_enable_flag" value="true" />
+    <boolean name="Video__hide_play_button_lights_out" value="true" />
+    <boolean name="Deprecated__enable_info_panel_effects_new_ui" value="false" />
+    <long name="OutOfSync__chip_reshow_period_in_days" value="14" />
+    <long name="Video__windowed_track_bitrate_estimator_future_window_ms" value="0" />
+    <boolean name="Albums__srp_live_album_enabled" value="true" />
+    <boolean name="Albums__ahi_enabled" value="true" />
+    <boolean name="Sharing__new_shared_album_option" value="true" />
+    <boolean name="Prioritizer__background_task" value="true" />
+    <boolean name="DatabaseFeature__enable_delete_db_via_files" value="true" />
+    <boolean name="Sharing__batch_save_library" value="true" />
+    <long name="FeaturePromoLimits__half_sheet_promo_cooldown_in_days" value="14" />
+    <boolean name="PrimesFeature__enable_timer_metric" value="false" />
+    <boolean name="InfoArch__show_sharing_tab_in_tab_bar" value="true" />
+    <boolean name="Sharing__enable_separate_presence_check_in_envelope_creation" value="true" />
+    <boolean name="Deprecated__prefer_codec_supported_hd_fallback" value="true" />
+    <boolean name="Showcase__enable_showcase_ui" value="false" />
+    <boolean name="CloudStorage__storage_view_sidnav" value="true" />
+    <long name="PartnerSharing__partner_share_collection_suggestion_album_one_up_tooltip_cooldown_ms" value="604800000" />
+    <boolean name="Restore__enable_restore_external" value="true" />
+    <long name="SharingData__rollback_entry_max_age_ms" value="600000" />
+    <string name="UpdateAppText__promo_title"></string>
+    <boolean name="Lens__enable_lens" value="true" />
+    <boolean name="Prioritizer__autobackup_job_service_background_executor" value="false" />
+    <boolean name="PrimesFeature__enable_crash_metric" value="true" />
+    <boolean name="ColorSpace__disable_wide_gamut_activities" value="false" />
+    <long name="Video__qoe_experiment_id" value="0" />
+    <boolean name="Shared_Libraries__enable_remove_partner_hats" value="false" />
+    <boolean name="LargeAlbum__picker_kill" value="false" />
+    <boolean name="Video__enable_remote_stream_caching" value="true" />
+    <boolean name="Flogger__enable_client_logging" value="false" />
+    <boolean name="Notification_discard_old_threads_on_chime_migration" value="true" />
+    <string name="UpdateApp__toast_every_week_max_version">6.88.0</string>
+    <long name="FeaturePromoLimits__dialog_promo_cooldown_in_days" value="14" />
+    <long name="FeaturePromoLimits__device_setup_cooldown_in_days" value="14" />
+    <boolean name="Assistant__enable_gif_to_webp_transcoding" value="true" />
+    <boolean name="Assistant__enable_share_unsaved_cards" value="true" />
+    <boolean name="Video__always_prefetch_high_res_cinematics" value="false" />
+    <boolean name="SearchAutocomplete__remote_app_pages" value="true" />
+    <boolean name="NewYear__enable_new_year_ui" value="true" />
+    <string name="UpdateAppText__promo_pos_action"></string>
+    <boolean name="Picker__allow_paged_preselection" value="true" />
+    <boolean name="Video__add_video_manifest_option_for_dash_formats" value="true" />
+    <boolean name="Video__disable_live_photo_audio" value="false" />
+    <boolean name="Video__enable_rpc_for_super_slomo" value="false" />
+    <boolean name="PhotoViewFeature__enable_processing_crossfade_anim" value="true" />
+    <boolean name="Assistant__assistant_on_sync_prod" value="true" />
+    <boolean name="Editing__dedupkey_lookup_fix_killswitch" value="false" />
+    <boolean name="Lens__enable_onelens" value="false" />
+    <long name="Shared_Libraries__assistant_card_button_variant" value="0" />
+    <boolean name="Video__reset_videos_when_swiping" value="false" />
+    <float name="Showcase__min_score_threshold_value" value="0.572" />
+    <long name="Sharing__inferred_recipients_compatibility_version_flag" value="2" />
+    <string name="ExpiringUpgradeDialog__show_upgrade_dialog_max_version">5.8.0.328056511</string>
+    <boolean name="PrimesFeature__increase_perf_sampling" value="false" />
+    <boolean name="Video__enable_exoplayer_v2" value="true" />
+    <boolean name="Sharing__enable_mime_type_in_share_intents" value="false" />
+    <boolean name="Printing__enable_notification_deeplinking_to_drafts" value="true" />
+    <boolean name="Albums__live_album_creation_intent_enabled" value="true" />
+    <long name="CloudStorageDeprecated__backup_stopped_sheet_cooldown_period" value="86400000" />
+    <long name="Confetti__lo_time_bound_sec" value="-1" />
+    <string name="Face__face_ssd_model_checksum">471b5b4cddcb8e9142869ded9a7897dca0fe76c1</string>
+    <boolean name="Prioritizer__enable_tiled_image_view" value="true" />
+    <boolean name="Backup__basic_storage_policy_setting" value="false" />
+    <boolean name="Editing__enable_mallard_stamp" value="false" />
+    <boolean name="Video__use_exoplayer_preloading" value="true" />
+    <boolean name="MetadataSync__display_delta_sync_progress" value="false" />
+    <boolean name="Sharing__enable_sharing_shortcuts_sharing_lane" value="false" />
+    <long name="Backup__show_basic_quality_backup_option_1" value="0" />
+    <long name="Sharing__consistency_check_max_items_limit" value="100" />
+    <string name="ThumbSync__sync_mini_thumbs_versioned_rollout">2.4</string>
+    <boolean name="Shared_Libraries__enable_backup_off_banner" value="true" />
+    <boolean name="Sharing__use_people_api_block_unblock" value="true" />
+    <boolean name="Assistant__enable_asset_prefetch" value="false" />
+    <boolean name="OneUpFeature__external_details" value="true" />
+    <boolean name="Backup__enable_periodic_alarms" value="true" />
+    <boolean name="Deprecated__enable_opening_n_years_ago_for_mlane" value="true" />
+    <boolean name="Assistant__enable_guided_movies_deep_link" value="true" />
+    <boolean name="Logging__oneup_loadlogger" value="false" />
+    <boolean name="Memories__enable_cinematic_memories_feedback" value="false" />
+    <long name="ThumbSync__num_mini_thumbs" value="3000" />
+    <long name="Backup__video_compression_compare_min_frames" value="10" />
+    <string name="Face__frontal_gaze_bcl_model_checksum">80dcf9ab003fb1547f532b225cb0d43f81694347</string>
+    <string name="Mdd__groundhog">Cglncm91bmRob2cSrwESYGh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkLWltYWdlLWFzc2V0cy9mYWNlZGV0ZWN0b3ItZnJvbnQudGZsaXRlLmVuYyCgnhUqKGJkYjVlMmVhY2ZkZmEwMGVkZjBlY2ZiZjVmYTVhOGMyMDQyMmIxZGI6HWZhY2VkZXRlY3Rvci1mcm9udC50ZmxpdGUuZW5jEq8BEmBodHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZC1pbWFnZS1hc3NldHMvZmFjZV9saWdodF8yNTZfMjU2LnRmbGl0ZS5lbmMgkKk7KigxMWE5MTdmMjc0Njg4MjhjNTJiMGM4YjM5YjI4YjkzNmIwOTMwZWQyOh1mYWNlX2xpZ2h0XzI1Nl8yNTYudGZsaXRlLmVuYxKmARJbaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQtaW1hZ2UtYXNzZXRzL2ZhY2VtZXNoLWZ1bGwudGZsaXRlLmVuYyDQ4p4CKigxYmY2YWQwZDZiNzU1NWFlOGFlMDlmM2U2MzZmMDk4OGFiN2RmNGEwOhhmYWNlbWVzaC1mdWxsLnRmbGl0ZS5lbmMSowESWmh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkLWltYWdlLWFzc2V0cy9mYWNlX21vZGVsXzQ2OC54bmZ0LmVuYyCg4AEqKGEyZTIxNDc5MTFiZTVjOWFmODg2YjA3OTZkOGM2MGRhNWIxMTQyZjM6F2ZhY2VfbW9kZWxfNDY4LnhuZnQuZW5jEugBEnxodHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZC1pbWFnZS1hc3NldHMvZmZ2Nl9ob2xvMDQwODIwX25vcm1hbHNfbmV0X21peGVkX2ZwMTZfMjU2XzI1Ni50ZmxpdGUuZW5jIOCpkwEqKDYyNzliOWUyZDA5ZGMxZTI0ZDM5YjVkNWYyNjE5YjUzNDNjOTg5YTg6OWZmdjZfaG9sbzA0MDgyMF9ub3JtYWxzX25ldF9taXhlZF9mcDE2XzI1Nl8yNTYudGZsaXRlLmVuYxLuARJ/aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQtaW1hZ2UtYXNzZXRzL2ZmdjZfaG9sbzA0MDgyMF9yZWxpZ2h0aW5nX25ldF9taXhlZF9mcDE2XzI1Nl8yNTYudGZsaXRlLmVuYyDAppMBKig2NTcwYzdkNzQwYmE4NTcyZTNjZDRiZGU2ZjJjMzZkOWNhNTNhZDYzOjxmZnY2X2hvbG8wNDA4MjBfcmVsaWdodGluZ19uZXRfbWl4ZWRfZnAxNl8yNTZfMjU2LnRmbGl0ZS5lbmMSlgESUWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9ncm91bmRob2ctYXNzZXRzL2JjLWZwMTYudGZsaXRlLmVuYyCg8ZsJKig5YTFlZDkyNTYyMDYyY2IxZmRhOGRjMTY2ZWQyMTI0ZDU0MTNlMTFlOhJiYy1mcDE2LnRmbGl0ZS5lbmMSlgESUWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9ncm91bmRob2ctYXNzZXRzL2xkLWZwMTYudGZsaXRlLmVuYyCwnpwKKig0NWEyYjUyMzlhYmI3ZmM0MjNlNmUyYWZjY2E5YmM2NTA3NTNmZTdmOhJsZC1mcDE2LnRmbGl0ZS5lbmMSlgESUWh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9ncm91bmRob2ctYXNzZXRzL3NtLWZwMTYudGZsaXRlLmVuYyDwoIQBKigxYjEzZTUyMjVmNTk0NmY5NTRiNDE5OTJkOTc0MWM4ZTFjZTBjZmY5OhJzbS1mcDE2LnRmbGl0ZS5lbmMSkwESUGh0dHBzOi8vZGwuZ29vZ2xlLmNvbS9waG90b3MvcGhvdG9zLW1pLW1vZGVscy9ncm91bmRob2ctYXNzZXRzL2xhLXFhdC50ZmxpdGUuZW5jIOCjHSooZDdkNjA3MDkwZGUxNzRhMmNjZTYyMWM1NTk1NDUwNzk2YWMzYjUzNToRbGEtcWF0LnRmbGl0ZS5lbmMYgMYKMh5jb20uZ29vZ2xlLmFuZHJvaWQuYXBwcy5waG90b3NQAQ</string>
+    <boolean name="PrimesFeature__enable_dir_stats" value="false" />
+    <boolean name="Backup__use_updated_backup_terminology" value="true" />
+    <boolean name="Video__preload_video_player_background" value="true" />
+    <boolean name="Assistant__enable_location_history_gm2" value="true" />
+    <boolean name="Backup__compress_before_upload_v2" value="true" />
+    <long name="Backup__preview_quality_queue_length_threshold" value="2000" />
+    <boolean name="Offline__localid_to_mediakey_mapping" value="false" />
+    <long name="Search__explore_cache_refresh_interval_mins" value="120" />
+    <boolean name="Printing__skip_get_existing_inputs_rpc" value="true" />
+    <boolean name="Prioritizer__use_photos_executor_for_primes" value="false" />
+    <boolean name="Deprecated__enable_info_panel_effects_to_editor" value="false" />
+    <long name="FeaturePromoLimits__all_photos_promo_cooldown_in_days" value="3" />
+    <boolean name="MediaStoreExtras__enable_sync_media_store_extra_db_helper" value="true" />
+    <float name="SuggestedActions__on_device_auto_enhance_threshold" value="0.999921" />
+    <float name="Backup__video_compression_compare_frames_fraction" value="0.031" />
+    <boolean name="CrOS__documents_provider" value="false" />
+    <boolean name="CloudStorage__oq_gr_m2_backup_stopped_ab_status" value="true" />
+    <float name="Sharing__minimum_me_score_for_face_sharing" value="0.5" />
+    <long name="Albums__db_processor_batch_size" value="100" />
+    <boolean name="FxExperiments__enable_progressive_education" value="false" />
+    <boolean name="CloudStorage__enable_search_contextual_upsell_v2" value="true" />
+    <long name="Onboarding__reachability_refresh_window" value="-1" />
+    <boolean name="Editing__turn_off_disabling_on_q" value="true" />
+    <string name="UpdateApp__dialog_every_day_max_version"></string>
+    <string name="UpdateApp__dialog_every_week_max_version">6.84.0</string>
+    <boolean name="Pager__preload_photo_fragments" value="true" />
+    <long name="Backup__preview_quality_jpeg_quality" value="60" />
+    <string name="OemAPITesting__always_trusted_oem_authority"></string>
+    <long name="Backup__video_compression_minimum_latency_cap" value="1800000" />
+    <boolean name="Editing__enable_groundhog_single_keypoint" value="false" />
+    <boolean name="Video__enable_surfaceview_grid_videos" value="false" />
+    <boolean name="Sharing__reduced_media_features" value="true" />
+    <boolean name="Deprecated__enable_info_panel_effects_memory_logging" value="false" />
+    <boolean name="Printing__enable_prepare_printing_order_rpc" value="true" />
+    <boolean name="Lens__enable_smart_text_phrase" value="true" />
+    <boolean name="Deprecated__enable_info_panel_suggestions_show_original_thumbnail_first" value="false" />
+    <boolean name="Onboarding__log_onboarding_initialized" value="false" />
+    <long name="Video__dash_min_duration_for_quality_increase_ms" value="1000" />
+    <long name="FeaturePromoLimits__all_photos_promo_ignore_period_duration_in_hours" value="24" />
+    <boolean name="MetadataSync_enable_background_tickle_sync" value="true" />
+    <boolean name="Assistant__enable_fewer_notification_alerts" value="true" />
+    <boolean name="Prioritizer__scan_scheduler" value="true" />
+    <long name="ExpiringUpgradeDialog__upgrade_deadline" value="0" />
+    <long name="FeaturePromoLimits__max_promo_count_per_7day" value="3" />
+    <long name="Limits__on_device_mi_result_cache_size_megabytes" value="3" />
+    <string name="Face__weights_checksum">35899421058d85a46aebc2bb351a020c86f892c8</string>
+    <boolean name="Backup__parallel_uploads_v2" value="true" />
+    <long name="PartnerSharing__partner_share_collection_suggestion_album_one_up_tooltip_limit" value="2" />
+    <boolean name="TrashFeature__delete_larger_batches" value="true" />
+    <boolean name="Backup__disable_background_upload_manual_backup" value="false" />
+    <boolean name="FxExperiments__new_user_local_clustering_in_album" value="false" />
+    <string name="Face__under_exposed_bcl_model_checksum">53e34dd9a0e86a4d62fcc4c28c70412b31190613</string>
+    <boolean name="Sharing__enable_content_pooling_mvp_recipient_searchable_picker" value="false" />
+    <boolean name="VideoEditor__disable_using_file_uri_for_loading_videos" value="true" />
+    <long name="Video__windowed_track_bitrate_estimator_past_window_ms" value="0" />
+    <long name="Confetti__hi_time_bound_sec" value="-1" />
+    <boolean name="Backup__battery_sufficiently_charged_state_for_videos" value="false" />
+    <boolean name="Albums__create_album_button_inline" value="true" />
+    <boolean name="Shared_Libraries__reciprocation_promo_banner_v2" value="true" />
+    <long name="FxExperiments__notification_waiting_time" value="1209600000" />
+    <boolean name="Shared_Libraries__enable_get_started_hats" value="false" />
+    <boolean name="Video__enable_qoe" value="true" />
+    <boolean name="Piranha__enable_piranha_receive" value="true" />
+    <boolean name="LargeAlbum__limit_preselection_kill" value="false" />
+    <boolean name="SearchAutocomplete__detailed_logging" value="true" />
+    <string name="UpdateAppText__promo_neg_action"></string>
+    <long name="Backup__enable_backup_bottom_promo" value="0" />
+    <boolean name="Sendkit__correct_phone_numbers" value="true" />
+    <boolean name="BuyStorage__frictionless_drive" value="true" />
+    <boolean name="Albums__retire_photos_app_goo_gl_intent_filter" value="false" />
+    <long name="Limits__animation_item_max" value="50" />
+    <boolean name="Face__download_facenet_files" value="true" />
+    <boolean name="Deprecated__enable_receiver_flow_only_memory_sharing" value="true" />
+    <boolean name="Shared_Libraries__enable_decline_invitation_hats" value="false" />
+    <boolean name="Sharing__suggested_picker_face_chip" value="true" />
+    <boolean name="Deprecated__guided_person_confirmation" value="true" />
+    <boolean name="Onboarding__initial_sync_alternate_messaging" value="false" />
+    <boolean name="OneUpFeature__enable_inline_details" value="true" />
+    <boolean name="MetadataSync__prefer_exif_timezone_offset_1" value="true" />
+    <long name="Backup__preview_quality_target_px_count" value="480000" />
+    <long name="Limits__collage_item_min" value="2" />
+    <boolean name="PrimesFeature__enable_package_metric" value="false" />
+    <long name="SharingData__envelope_sync_max_delay_ms" value="300000" />
+    <string name="Backup__auto_backup_request_url_suffix">background</string>
+    <boolean name="Sharing__enable_single_shared_media_validator" value="true" />
+    <boolean name="SuggestedActions__enable_document_suggested_actions" value="true" />
+    <boolean name="DeviceFoldersFeature__skip_fixing_mediatype_for_deleted_media" value="true" />
+    <boolean name="Assistant__enable_smart_album_migration" value="true" />
+    <boolean name="Lens__enable_low_confidence_card" value="true" />
+    <boolean name="Printing__enable_printing_overflow_menu_item" value="false" />
+    <boolean name="SuggestedActions__enable_editing_api" value="true" />
+    <boolean name="Prioritizer__suggestedactionsexecutor" value="true" />
+    <long name="Limits__shared_album_item_max" value="20000" />
+    <boolean name="SuggestedActions__open_doc_mode_in_adjust" value="true" />
+    <long name="FeaturePromoLimits__full_sheet_promo_cooldown_in_days" value="14" />
+    <boolean name="LargeAlbum__enabled" value="true" />
+    <long name="Limits__burst_animation_item_min" value="3" />
+    <string name="Printing__allowed_suggestion_modes_for_region"></string>
+    <boolean name="Lens__should_send_media_key" value="true" />
+    <string name="Mdd__preprocessed6_pixel6_image">ChpwcmVwcm9jZXNzZWQ2X3BpeGVsNl9pbWFnZRKVARJQaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQ2LWFzc2V0cy9wbDNjd2w4LnRmbGl0ZS5lbmMg8K2hAiooODhkMDMxNjU2YmU1OTZjZjE4MGMwODVmYjMyNmIyNjIzOGI4MjljNToScGwzY3dsOC50ZmxpdGUuZW5jEosBEkxodHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZDYtYXNzZXRzL2hzc2RhdjUucGIuZW5jIKABKig3YjE0YjI0OTU2N2FmOTY2OTY5ZTE5MjQ2NTFmMTFlMGQ5MjlhZjM1Og5oc3NkYXY1LnBiLmVuYxKsARJcaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQ2LWFzc2V0cy9oc3NkbDhiNG92NS4zMjB4MzIwLnRmbGl0ZS5lbmMg4NlVKigzMzM2NGZkY2Q5MmQ5ZjQ4MjFkMGQ0OGYwOTQxYjBhYmExOGZhN2FjOh5oc3NkbDhiNG92NS4zMjB4MzIwLnRmbGl0ZS5lbmMSkQESTmh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkNi1hc3NldHMvcmlzd3MudGZsaXRlLmVuYyCg88UCKihmOThlYjczZmEwNDEwZDU5ZjNhNGVhMjcyMWViMGEwMDNjNTE1MWU3OhByaXN3cy50ZmxpdGUuZW5jEpEBEk5odHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZDYtYXNzZXRzL3Jwc3dzLnRmbGl0ZS5lbmMgoIiiAiooNTU1MmQxODQ4NmRlN2Y0ZGM0N2Y2YTg0MWUzNWUzOGE2NjA5OTIyODoQcnBzd3MudGZsaXRlLmVuYxKRARJOaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQ2LWFzc2V0cy9yaXN3YS50ZmxpdGUuZW5jIIj8xQIqKDA0MjAyYTRmZTVlYjQ1ZGY2YzM0NWFkNjc2NWU4NzAwOWY0ZGMxMTI6EHJpc3dhLnRmbGl0ZS5lbmMSlQESUGh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkNi1hc3NldHMvaHJpMjYyYy50ZmxpdGUuZW5jIODuogIqKGM1Y2Q4YzBlZjZmY2FjMjY4MDI1NWNkY2U2MjlkYTNkZTRlMGMxMTk6EmhyaTI2MmMudGZsaXRlLmVuYxKoARJaaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQ2LWFzc2V0cy9wc3NkbDhidjIuMzAweDMwMC50ZmxpdGUuZW5jILCZVSooOTdlZGZhY2QxMGM4MTg0NGQzM2U4ZTEyZGQ4Mzk4MmQ1YjVmMDA0MzoccHNzZGw4YnYyLjMwMHgzMDAudGZsaXRlLmVuYxKtARJcaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vcGhvdG9zLW1pLW1vZGVscy9wcmVwcm9jZXNzZWQ2LWFzc2V0cy9wc3NkbDhidjIuMTIwMHgxMjAwLnRmbGl0ZS5lbmMggKHrASooNGUxZTFhMjg1MGJlYWU4YWVjNWMzYjQ4MDMzMjg5YzJiZjQwNGZhYjoecHNzZGw4YnYyLjEyMDB4MTIwMC50ZmxpdGUuZW5jErQBEmBodHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZDYtYXNzZXRzL2RzX2ZlYXR1cmVzX25vLjMwMF8xMjAwLnRmbGl0ZS5lbmMgkMQKKihhMDMxODQ1ODkxNjU4NWMwZTNmZDY4N2I0ZTlmZDE1MzIzNDI4NjE3OiJkc19mZWF0dXJlc19uby4zMDBfMTIwMC50ZmxpdGUuZW5jEo8BEk1odHRwczovL3d3dy5nc3RhdGljLmNvbS9waG90b3MtbWktbW9kZWxzL3ByZXByb2Nlc3NlZDYtYXNzZXRzL3Jmc20udGZsaXRlLmVuYyCQvo4BKig4ZmUxYmYyNWE2MzI3MDc1ZjAxODQzNzE1YjMzMGZkYWE5YmFkZDE3Og9yZnNtLnRmbGl0ZS5lbmMSmQESUmh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkNi1hc3NldHMvcGwzY3dsNTEzLnRmbGl0ZS5lbmMggMabASooZjRhZGEwNDA3NzNkMmFiYzFlZTk0NDY5YmQ1MzNiZmU4MDQwOWUxZToUcGwzY3dsNTEzLnRmbGl0ZS5lbmMSjQESTWh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkNi1hc3NldHMvcHNzZGF2MTEucGIuZW5jIJACKig1YmE1YzAxNmY1OTBmMzI5ZDFjZWYxZjA5NWRlMGJlZTM3YTE1ZGI4Og9wc3NkYXYxMS5wYi5lbmMSiwESTGh0dHBzOi8vd3d3LmdzdGF0aWMuY29tL3Bob3Rvcy1taS1tb2RlbHMvcHJlcHJvY2Vzc2VkNi1hc3NldHMvcHNzZGF2Mi5wYi5lbmMggAQqKDI1MTljZmE4YTMxMzcwZDQ2YWVlMWRjMmExMzczYTdiMzg1NWE0ZTM6DnBzc2RhdjIucGIuZW5jGIDGCjIeY29tLmdvb2dsZS5hbmRyb2lkLmFwcHMucGhvdG9zUAE</string>
+    <boolean name="DeviceManagement__enable_fus_left_nav" value="true" />
+    <boolean name="Permissions__never_request_access_media_location" value="false" />
+    <boolean name="PrimesFeature__enable_jank_metric" value="false" />
+    <boolean name="Lens__enable_coca" value="true" />
+    <boolean name="Lens__enable_natural_world" value="true" />
+    <float name="Backup__compress_before_upload_null_exif_coeff_a" value="0.616" />
+    <string name="Confetti__text"></string>
+    <boolean name="LargeAlbum__album_paging_kill" value="false" />
+    <float name="Backup__compress_before_upload_null_exif_coeff_b" value="-1.672" />
+    <float name="SuggestedActions__coarse_grain_classifier_doc_mode_confidence_threshold" value="0.8" />
+    <boolean name="AccountFeature__unicorn_status_in_account_store" value="true" />
+    <boolean name="Lens__enable_pages_with_similar_images" value="true" />
+    <string name="Confetti__media_key"></string>
+    <boolean name="Lens__enable_one_platform_api" value="false" />
+    <boolean name="Assistant__assistant_on_sync_prod_data" value="true" />
+    <boolean name="EditingDeprecated__enable_preprocessed6_oob" value="false" />
+    <boolean name="Video__rename_motion_photo_export_dialog" value="false" />
+    <boolean name="Video__disable_cookie_validation" value="false" />
+    <boolean name="Conversion__disable_background_conversion" value="false" />
+    <boolean name="Lens__enable_onelens_rollout" value="true" />
+    <long name="Limits__batch_delete_item_max" value="250" />
+    <boolean name="Video__enable_cache_aware_wrapper" value="false" />
+    <long name="LargeAlbum__restricted_edit_mode_threshold" value="2000" />
+    <long name="Backup__show_basic_quality_backup_option" value="0" />
+    <boolean name="Sharing__enable_envelope_content_auth_key_fix" value="false" />
+    <long name="Editing__photo_editor_max_input_dimension" value="4192" />
+    <long name="FxRetentionExperiments__retentive_actions_action_config_value" value="0" />
+    <boolean name="VrViewer__wait_for_final_stereo_vr_video_status" value="false" />
+    <string name="Face__recognition_model_checksum">43006954d4e2208bde3d9ef568df49071419024b</string>
+    <float name="Backup__video_compression_compare_threshold" value="0.15" />
+    <boolean name="Lens__enable_lens_non_pixel" value="true" />
+    <boolean name="Prioritizer__backup" value="true" />
+    <boolean name="Video__enable_motion_photo_V2" value="true" />
+    <boolean name="Sharing__direct_sharing_send_enable_flag" value="true" />
+    <boolean name="Editing__disable_udon_editor" value="false" />
+    <long name="Editing__external_editor_waiting_time_ms" value="600000" />
+    <boolean name="PrimesFeature__enable_memory_metric" value="false" />
+    <boolean name="CameraProcessingBinding__enable_camera_processing_binding" value="false" />
+    <float name="Video__dash_bandwidth_fraction" value="0.75" />
+    <boolean name="FxHoldback__enable_tab_bar_reordering" value="true" />
+    <boolean name="TrashFeature__tombstone_processing_fix" value="true" />
+    <boolean name="StillExporter__enable_multi_export" value="true" />
+    <float name="StillExporter__suggested_action_score_threshold_model_version_2plus" value="0.05" />
+    <long name="Printing__product_start_price_micros" value="14990000" />
+    <boolean name="Notification__enable_trampoline_fix" value="true" />
+    <boolean name="Pager__oneup_disable_sendkit_preload" value="false" />
+    <long name="PartnerSharing__partner_share_collection_suggestion_lsv_tooltip_cooldown_ms" value="604800000" />
+    <boolean name="Lens__enable_footprint_logging" value="true" />
+    <long name="Confetti__lo_lng_bound_e7" value="-1" />
+    <boolean name="FxRetentionExperiments__enable_welcome_screens_after_onboarding" value="true" />
+    <boolean name="Trash__log_stats" value="true" />
+    <boolean name="Editing__enable_skottie" value="false" />
+    <boolean name="SearchResults__improve_result_promo_enable_flag" value="true" />
+    <boolean name="Video__enable_remote_live_photos_ui" value="true" />
+    <boolean name="Prioritizer__loader" value="true" />
+    <string name="Backup__backoff_times_after_throttling">10,30,60,120,600,600,1800</string>
+    <long name="Backup__video_compression_min_bitrate_BASIC" value="2600000" />
+    <boolean name="Reliability__measure_reliability_enabled" value="true" />
+    <string name="UpdateAppText__toast_action"></string>
+    <boolean name="Deprecated__compute_info_panel_effects_trigger_on_demand" value="false" />
+    <boolean name="Backup__video_processing_notification" value="false" />
+    <boolean name="Backup_ss_free_storage_killswitch" value="false" />
+    <boolean name="PrimesFeature__enable_tracing" value="false" />
+    <boolean name="Printing__enable_notification_deeplinking_to_suggested_books" value="true" />
+    <boolean name="Sharing__enable_branding_in_video_sharing" value="false" />
+    <boolean name="Video__bandwidth_meter_reset_at_network_type_change" value="true" />
+    <long name="Backup__default_data_cap_basic_storage_policy" value="4500000" />
+    <long name="Sharing__suggestion_processing_delay_minutes" value="10" />
+    <string name="Backup__default_data_cap_megabyte_options">4500000,5;9500000,10;29500000,30</string>
+    <string name="Face__detection_model_checksum">ac8fde00c7bf87670a13458bf12b213f8ec362eb</string>
+    <boolean name="FxExperiments__summary_card_remote_clustering" value="false" />
+    <long name="FeaturePromoLimits__tooltip_cooldown_in_days" value="1" />
+    <boolean name="Glide__enable_streamz" value="false" />
+    <boolean name="Prioritizer__use_fine_grained_pager_launch_tasks" value="true" />
+    <long name="Limits__animation_item_min" value="2" />
+    <long name="CloudStorage__stamp_g1_editing_gtm1_expiration_date" value="1694044799" />
+    <boolean name="Sharing__sendkit_move_send_button_down_flag" value="true" />
+    <boolean name="Albums__album_picker_recent_section_no_title_filter_enabled" value="true" />
+    <boolean name="TrashFeature__restore_into_image_or_video_column" value="true" />
+    <boolean name="Video__disable_file_descriptor_sync" value="true" />
+    <boolean name="Prioritizer__processing_images_state" value="true" />
+    <long name="FeaturePromoLimits__max_promo_count_per_day" value="1" />
+    <long name="Limits__batch_add_item_max" value="500" />
+    <long name="Limits__collage_item_max" value="9" />
+    <long name="Onboarding__mandatory_backup_setup" value="2" />
+    <boolean name="TiledImageView__always_use_gl_surface_view" value="true" />
+    <boolean name="Albums__ahi_pets_enabled" value="true" />
+    <boolean name="Sharing__face_opt_in_allphotos" value="true" />
+    <string name="UpdateApp__screen_every_day_max_version"></string>
+    <boolean name="BackgroundCheck__background_job_logging" value="false" />
+    <boolean name="Sharing__enable_date_header_in_suggested_add_review_picker_flag" value="false" />
+    <boolean name="Deprecated__enable_local_memories" value="true" />
+    <string name="Showcase__enable_showcase_ui_versioned_flag">2.5</string>
+    <boolean name="Editing__force_enable_foreground_model_downloading" value="false" />
+    <boolean name="VideoEditor__disable_video_editing_512MB_devices_killswitch" value="false" />
+    <string name="__phenotype_server_token">CAMSWQ1Qu4nQDjD3Bj2-BShMtAbBBv0Alwz3CZ0F5wLmAqgEWYqoih-bBsMAwQPYBqYFlQXBArIGGtoGYsAAbf4FcAUFV5cErADEBgaNAv0Poga8BacDq_HVDMRj</string>
+    <long name="CloudStorageDeprecated__backup_stopped_sheet_max_impression" value="10" />
+    <boolean name="CloudStorage__enable_paid_features_updated_disclaimer" value="true" />
+    <boolean name="Deprecated__enable_subtype_logging" value="true" />
+    <long name="Limits__movie_item_max" value="50" />
+    <long name="FeaturePromoLimits__all_photos_promo_max_ignore_period_count" value="3" />
+    <string name="UpdateAppText__dialog_neg_action"></string>
+    <boolean name="PrimesFeature__enable_network_metric" value="false" />
+    <string name="UpdateAppText__dialog_title"></string>
+    <boolean name="Countries__non_nbu_countries" value="true" />
+    <string name="__phenotype_snapshot_token">johnnnny999999@gmail.com com.google.android.apps.photos 3594753 2 774702012 com.google.android.apps.photos 774702012 0</string>
+    <boolean name="TestFeature__test_mendel_ui_again" value="false" />
+    <boolean name="Lens__enable_fallback_header" value="false" />
+    <long name="Limits__burst_animation_item_max" value="50" />
+    <boolean name="DeviceManagement__enable_fus_bar" value="true" />
+    <boolean name="Editing__enable_log_upsell_only_once" value="false" />
+    <boolean name="Sharing__send_partner_details_to_suggestor" value="true" />
+    <boolean name="Video__report_qoe_categories" value="true" />
+    <long name="Sharing__suggested_people_cache_refresh_period_secs" value="300" />
+    <string name="UpdateAppText__toast_message"></string>
+    <string name="UpdateApp__screen_every_open_max_version">6.80.0</string>
+    <boolean name="FxRetentionExperiments__enable_retentive_actions" value="false" />
+    <boolean name="Video__long_shot_pause_on_dot" value="true" />
+    <long name="Backup__default_data_cap_oq_storage_policy" value="9500000" />
+    <boolean name="FxExperiments__cluster_ready_notification" value="true" />
+    <boolean name="TestFeature__test_odfc_launch" value="false" />
+    <long name="GridControlFeature__app_packages_pbj_pause_duration_hours" value="24" />
+    <boolean name="Piranha__enable_piranha_fishfood_users" value="true" />
+    <string name="Confetti__auth_key"></string>
+    <long name="Video__dash_elapsed_millis_for_estimate" value="100" />
+    <boolean name="Albums__album_picker_recent_section_enabled" value="true" />
+    <boolean name="SearchResults__improve_result_promo_empty_page_enable_flag" value="true" />
+    <long name="Limits__share_bytes_item_max" value="200" />
+</map>

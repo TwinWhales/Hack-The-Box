@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="is-migrated" value="true" />
+    <string name="client-instance-id">05d0341a25959e392347c2078fb097d7463f7aa532b1d28217c33cdc2056b5e4</string>
+    <string name="signed-in-account">johnnnny999999@gmail.com</string>
+    <long name="signed-in-timestamp" value="1720736236178" />
+</map>

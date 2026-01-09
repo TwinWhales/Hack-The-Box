@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="3.0" xmlns="http://schemas.microsoft.com/appx/2013/bundle">
+	<Identity Name="Microsoft.XboxSpeechToTextOverlay" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.21.13002.0"/>
+	<Packages>
+		<Package Type="application" Version="1.21.13002.0" Architecture="x86" FileName="SpeechToTextOverlay_1.21.13002.0_Win32_x86.appx" Offset="340660" Size="265716">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="1.21.13002.0" Architecture="arm" FileName="SpeechToTextOverlay_1.21.13002.0_ARM.appx" Offset="71" Size="274551">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="application" Version="1.21.13002.0" Architecture="x64" FileName="SpeechToTextOverlay_1.21.13002.0_x64.appx" Offset="606471" Size="291254">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.21.13002.0" ResourceId="split.scale-100" FileName="SpeechToTextOverlay_1.21.13002.0_scale-100.appx" Offset="274723" Size="17212">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+		</Package>
+		<Package Type="resource" Version="1.21.13002.0" ResourceId="split.scale-400" FileName="SpeechToTextOverlay_1.21.13002.0_scale-400.appx" Offset="292036" Size="48523">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+		</Package>
+	</Packages>
+</Bundle>

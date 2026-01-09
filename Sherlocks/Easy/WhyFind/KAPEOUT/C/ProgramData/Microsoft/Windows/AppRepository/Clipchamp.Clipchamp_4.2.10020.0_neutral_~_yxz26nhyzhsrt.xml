@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Clipchamp.Clipchamp" Publisher="CN=33F0F141-36F3-4EC2-A77D-51B53D0BA0E4" Version="4.2.10020.0"/>
+	<Packages>
+		<Package Type="application" Version="4.2.10020.0" Architecture="arm64" FileName="Clipchamp.Package_4.2.10020.0_arm64.msix" Offset="70" Size="68169488">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="4.2.10020.0" Architecture="x64" FileName="Clipchamp.Package_4.2.10020.0_x64.msix" Offset="71068039" Size="71084700">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-af" FileName="Clipchamp.Package_4.2.10020.0_language-af.msix" Offset="68169658" Size="15112">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-am" FileName="Clipchamp.Package_4.2.10020.0_language-am.msix" Offset="68184870" Size="15428">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ar" FileName="Clipchamp.Package_4.2.10020.0_language-ar.msix" Offset="68200398" Size="15333">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-as" FileName="Clipchamp.Package_4.2.10020.0_language-as.msix" Offset="68215831" Size="15703">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-az-latn" FileName="Clipchamp.Package_4.2.10020.0_language-az-latn.msix" Offset="68231639" Size="15198">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-bg" FileName="Clipchamp.Package_4.2.10020.0_language-bg.msix" Offset="68246937" Size="15505">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-bn" FileName="Clipchamp.Package_4.2.10020.0_language-bn.msix" Offset="68262542" Size="15651">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-bs" FileName="Clipchamp.Package_4.2.10020.0_language-bs.msix" Offset="68278293" Size="15232">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ca" FileName="Clipchamp.Package_4.2.10020.0_language-ca.msix" Offset="68293625" Size="15884">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-cs" FileName="Clipchamp.Package_4.2.10020.0_language-cs.msix" Offset="68309609" Size="15241">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-cy" FileName="Clipchamp.Package_4.2.10020.0_language-cy.msix" Offset="68324950" Size="15108">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-da" FileName="Clipchamp.Package_4.2.10020.0_language-da.msix" Offset="68340158" Size="15083">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-de" FileName="Clipchamp.Package_4.2.10020.0_language-de.msix" Offset="68355341" Size="15869">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-el" FileName="Clipchamp.Package_4.2.10020.0_language-el.msix" Offset="68371310" Size="15690">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-es" FileName="Clipchamp.Package_4.2.10020.0_language-es.msix" Offset="68387100" Size="16011">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-et" FileName="Clipchamp.Package_4.2.10020.0_language-et.msix" Offset="68403211" Size="15102">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-eu" FileName="Clipchamp.Package_4.2.10020.0_language-eu.msix" Offset="68418413" Size="15043">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-fa" FileName="Clipchamp.Package_4.2.10020.0_language-fa.msix" Offset="68433556" Size="15446">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-fi" FileName="Clipchamp.Package_4.2.10020.0_language-fi.msix" Offset="68449102" Size="15126">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-fil-latn" FileName="Clipchamp.Package_4.2.10020.0_language-fil-latn.msix" Offset="68464334" Size="15115">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-fr" FileName="Clipchamp.Package_4.2.10020.0_language-fr.msix" Offset="68479549" Size="16244">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ga" FileName="Clipchamp.Package_4.2.10020.0_language-ga.msix" Offset="68495893" Size="15253">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-gd-latn" FileName="Clipchamp.Package_4.2.10020.0_language-gd-latn.msix" Offset="68511251" Size="15210">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-gl" FileName="Clipchamp.Package_4.2.10020.0_language-gl.msix" Offset="68526561" Size="15097">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-gu" FileName="Clipchamp.Package_4.2.10020.0_language-gu.msix" Offset="68541758" Size="15685">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-he" FileName="Clipchamp.Package_4.2.10020.0_language-he.msix" Offset="68557543" Size="15197">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-hi" FileName="Clipchamp.Package_4.2.10020.0_language-hi.msix" Offset="68572840" Size="15638">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-hr" FileName="Clipchamp.Package_4.2.10020.0_language-hr.msix" Offset="68588578" Size="15193">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-hu" FileName="Clipchamp.Package_4.2.10020.0_language-hu.msix" Offset="68603871" Size="15284">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-hy" FileName="Clipchamp.Package_4.2.10020.0_language-hy.msix" Offset="68619255" Size="15513">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-id" FileName="Clipchamp.Package_4.2.10020.0_language-id.msix" Offset="68634868" Size="14981">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-is" FileName="Clipchamp.Package_4.2.10020.0_language-is.msix" Offset="68649949" Size="15165">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-it" FileName="Clipchamp.Package_4.2.10020.0_language-it.msix" Offset="68665214" Size="15649">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ja" FileName="Clipchamp.Package_4.2.10020.0_language-ja.msix" Offset="68680963" Size="15964">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ka" FileName="Clipchamp.Package_4.2.10020.0_language-ka.msix" Offset="68697027" Size="15663">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-kk" FileName="Clipchamp.Package_4.2.10020.0_language-kk.msix" Offset="68712790" Size="15555">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-km" FileName="Clipchamp.Package_4.2.10020.0_language-km.msix" Offset="68728445" Size="15548">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-kn" FileName="Clipchamp.Package_4.2.10020.0_language-kn.msix" Offset="68744093" Size="15646">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ko" FileName="Clipchamp.Package_4.2.10020.0_language-ko.msix" Offset="68759839" Size="15954">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-kok" FileName="Clipchamp.Package_4.2.10020.0_language-kok.msix" Offset="68775894" Size="15562">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-lb" FileName="Clipchamp.Package_4.2.10020.0_language-lb.msix" Offset="68791556" Size="15253">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-lo" FileName="Clipchamp.Package_4.2.10020.0_language-lo.msix" Offset="68806909" Size="15576">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-lt" FileName="Clipchamp.Package_4.2.10020.0_language-lt.msix" Offset="68822585" Size="15212">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-lv" FileName="Clipchamp.Package_4.2.10020.0_language-lv.msix" Offset="68837897" Size="15224">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-mi-latn" FileName="Clipchamp.Package_4.2.10020.0_language-mi-latn.msix" Offset="68853226" Size="15049">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-mk" FileName="Clipchamp.Package_4.2.10020.0_language-mk.msix" Offset="68868375" Size="15511">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ml" FileName="Clipchamp.Package_4.2.10020.0_language-ml.msix" Offset="68883986" Size="15705">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-mr" FileName="Clipchamp.Package_4.2.10020.0_language-mr.msix" Offset="68899791" Size="15546">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ms" FileName="Clipchamp.Package_4.2.10020.0_language-ms.msix" Offset="68915437" Size="15019">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-mt" FileName="Clipchamp.Package_4.2.10020.0_language-mt.msix" Offset="68930556" Size="15170">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-nb" FileName="Clipchamp.Package_4.2.10020.0_language-nb.msix" Offset="68945826" Size="15032">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ne" FileName="Clipchamp.Package_4.2.10020.0_language-ne.msix" Offset="68960958" Size="15595">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-nl" FileName="Clipchamp.Package_4.2.10020.0_language-nl.msix" Offset="68976653" Size="15103">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-nn" FileName="Clipchamp.Package_4.2.10020.0_language-nn.msix" Offset="68991856" Size="15076">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-or" FileName="Clipchamp.Package_4.2.10020.0_language-or.msix" Offset="69007032" Size="15750">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-pa" FileName="Clipchamp.Package_4.2.10020.0_language-pa.msix" Offset="69022882" Size="15715">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-pl" FileName="Clipchamp.Package_4.2.10020.0_language-pl.msix" Offset="69038697" Size="15319">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-pt" FileName="Clipchamp.Package_4.2.10020.0_language-pt.msix" Offset="69054116" Size="16666">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-quz-latn" FileName="Clipchamp.Package_4.2.10020.0_language-quz-latn.msix" Offset="69070888" Size="15191">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ro" FileName="Clipchamp.Package_4.2.10020.0_language-ro.msix" Offset="69086179" Size="15241">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ru" FileName="Clipchamp.Package_4.2.10020.0_language-ru.msix" Offset="69101520" Size="16251">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sk" FileName="Clipchamp.Package_4.2.10020.0_language-sk.msix" Offset="69117871" Size="15288">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sl" FileName="Clipchamp.Package_4.2.10020.0_language-sl.msix" Offset="69133259" Size="15250">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sq" FileName="Clipchamp.Package_4.2.10020.0_language-sq.msix" Offset="69148609" Size="15233">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sr-cyrl" FileName="Clipchamp.Package_4.2.10020.0_language-sr-cyrl.msix" Offset="69163947" Size="16235">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sr-latn" FileName="Clipchamp.Package_4.2.10020.0_language-sr-latn.msix" Offset="69180287" Size="15231">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-sv" FileName="Clipchamp.Package_4.2.10020.0_language-sv.msix" Offset="69195618" Size="15058">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ta" FileName="Clipchamp.Package_4.2.10020.0_language-ta.msix" Offset="69210776" Size="15580">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-te" FileName="Clipchamp.Package_4.2.10020.0_language-te.msix" Offset="69226456" Size="15732">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-th" FileName="Clipchamp.Package_4.2.10020.0_language-th.msix" Offset="69242288" Size="15481">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-tr" FileName="Clipchamp.Package_4.2.10020.0_language-tr.msix" Offset="69257869" Size="15153">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-tt-cyrl" FileName="Clipchamp.Package_4.2.10020.0_language-tt-cyrl.msix" Offset="69273127" Size="15532">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ug-arab" FileName="Clipchamp.Package_4.2.10020.0_language-ug-arab.msix" Offset="69288764" Size="15435">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-uk" FileName="Clipchamp.Package_4.2.10020.0_language-uk.msix" Offset="69304299" Size="16174">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-ur" FileName="Clipchamp.Package_4.2.10020.0_language-ur.msix" Offset="69320573" Size="15421">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-uz-latn" FileName="Clipchamp.Package_4.2.10020.0_language-uz-latn.msix" Offset="69336099" Size="15182">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-vi" FileName="Clipchamp.Package_4.2.10020.0_language-vi.msix" Offset="69351381" Size="15384">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-zh-hans" FileName="Clipchamp.Package_4.2.10020.0_language-zh-hans.msix" Offset="69366870" Size="15653">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.language-zh-hant" FileName="Clipchamp.Package_4.2.10020.0_language-zh-hant.msix" Offset="69382628" Size="15681">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.scale-100" FileName="Clipchamp.Package_4.2.10020.0_scale-100.msix" Offset="69398407" Size="118750">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.scale-125" FileName="Clipchamp.Package_4.2.10020.0_scale-125.msix" Offset="69517255" Size="176656">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.scale-150" FileName="Clipchamp.Package_4.2.10020.0_scale-150.msix" Offset="69694009" Size="221612">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="4.2.10020.0" ResourceId="split.scale-400" FileName="Clipchamp.Package_4.2.10020.0_scale-400.msix" Offset="69915719" Size="1152228">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

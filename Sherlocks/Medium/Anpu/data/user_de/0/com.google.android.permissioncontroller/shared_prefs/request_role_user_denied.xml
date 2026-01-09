@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="denied_once:com.brave.browser">
+        <string>android.app.role.BROWSER</string>
+    </set>
+</map>

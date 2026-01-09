@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Clipchamp.Clipchamp" Publisher="CN=33F0F141-36F3-4EC2-A77D-51B53D0BA0E4" Version="4.2.10020.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="b00be5da-ea89-4b25-98d8-d0697ddaf1fb" PhonePublisherId="d949d1ab-24a8-4463-9586-acee62f6de38"/>
+  <Properties>
+    <DisplayName>ms-resource:Clipchamp/AppName</DisplayName>
+    <PublisherDisplayName>Microsoft Corp.</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.22621.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.242.101.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Clipchamp\Clipchamp.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:Clipchamp/AppName" Description="ms-resource:Clipchamp/AppDescription" BackgroundColor="white" Square150x150Logo="Images\MedTile.png" Square44x44Logo="Images\AppList.png">
+        <uap:DefaultTile Wide310x150Logo="Images\WideTile.png" Square71x71Logo="Images\SmallTile.png" Square310x310Logo="Images\LargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square310x310Logo"/>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Images\SplashScreen.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="com.clipchamp.app" ReturnResults="none">
+            <uap:DisplayName>Clipchamp</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-clipchamp" ReturnResults="none">
+            <uap:DisplayName>Clipchamp</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="supportedfiletypes">
+            <uap:SupportedFileTypes>
+              <uap:FileType>.3g2</uap:FileType>
+              <uap:FileType>.3gp</uap:FileType>
+              <uap:FileType>.aac</uap:FileType>
+              <uap:FileType>.aiff</uap:FileType>
+              <uap:FileType>.asf</uap:FileType>
+              <uap:FileType>.avi</uap:FileType>
+              <uap:FileType>.divx</uap:FileType>
+              <uap:FileType>.f4a</uap:FileType>
+              <uap:FileType>.f4v</uap:FileType>
+              <uap:FileType>.flac</uap:FileType>
+              <uap:FileType>.flv</uap:FileType>
+              <uap:FileType>.m2ts</uap:FileType>
+              <uap:FileType>.m2v</uap:FileType>
+              <uap:FileType>.m4a</uap:FileType>
+              <uap:FileType>.m4v</uap:FileType>
+              <uap:FileType>.mkv</uap:FileType>
+              <uap:FileType>.mov</uap:FileType>
+              <uap:FileType>.mp2</uap:FileType>
+              <uap:FileType>.mp3</uap:FileType>
+              <uap:FileType>.mp4</uap:FileType>
+              <uap:FileType>.mpe</uap:FileType>
+              <uap:FileType>.mpeg</uap:FileType>
+              <uap:FileType>.mpg</uap:FileType>
+              <uap:FileType>.mpv</uap:FileType>
+              <uap:FileType>.mts</uap:FileType>
+              <uap:FileType>.mxf</uap:FileType>
+              <uap:FileType>.oga</uap:FileType>
+              <uap:FileType>.ogg</uap:FileType>
+              <uap:FileType>.ogv</uap:FileType>
+              <uap:FileType>.opus</uap:FileType>
+              <uap:FileType>.qt</uap:FileType>
+              <uap:FileType>.r3d</uap:FileType>
+              <uap:FileType>.rm</uap:FileType>
+              <uap:FileType>.rmv</uap:FileType>
+              <uap:FileType>.rmvb</uap:FileType>
+              <uap:FileType>.vob</uap:FileType>
+              <uap:FileType>.wav</uap:FileType>
+              <uap:FileType>.webm</uap:FileType>
+              <uap:FileType>.wma</uap:FileType>
+              <uap:FileType>.wmv</uap:FileType>
+              <uap:FileType>.yuv</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <desktop4:Extension Category="windows.fileExplorerContextMenus">
+          <desktop4:FileExplorerContextMenus>
+            <desktop5:ItemType Type=".3g2">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".3gp">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".aac">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".aiff">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".asf">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".avi">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".divx">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".f4a">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".f4v">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".flac">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".flv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".gif">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".heic">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jpeg">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".jpg">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".m2ts">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".m2v">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".m4a">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".m4v">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mkv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mov">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mp2">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mp3">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mp4">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mpe">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mpeg">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mpg">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mpv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mts">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".mxf">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".oga">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".ogg">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".ogv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".opus">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".png">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".qt">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".r3d">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".rm">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".rmv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".rmvb">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".vob">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".wav">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".webm">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".wma">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".wmv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+            <desktop5:ItemType Type=".yuv">
+              <desktop5:Verb Id="EditWith" Clsid="8AB635F8-9A67-4698-AB99-784AD929F3B4"/>
+            </desktop5:ItemType>
+          </desktop4:FileExplorerContextMenus>
+        </desktop4:Extension>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:SurrogateServer DisplayName="Clipchamp Shell Extension">
+              <com:Class Id="8AB635F8-9A67-4698-AB99-784AD929F3B4" Path="Clipchamp.ShellExtension.dll" ThreadingModel="STA"/>
+            </com:SurrogateServer>
+          </com:ComServer>
+        </com:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <rescap:Capability Name="runFullTrust"/>
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.13.40008.26641"/>
+    <build:Item Name="ProjectGUID" Value="466babe1-27c1-4b18-ac18-a7a4da6cbaa7"/>
+    <build:Item Name="makepri.exe" Version="10.0.26100.2161 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

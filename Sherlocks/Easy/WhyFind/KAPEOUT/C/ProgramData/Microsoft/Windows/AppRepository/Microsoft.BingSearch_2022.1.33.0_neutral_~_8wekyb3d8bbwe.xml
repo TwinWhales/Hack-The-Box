@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.BingSearch" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2022.1.33.0"/>
+	<Packages>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-el" FileName="MicrosoftBing_1.1.33.0_language-el.msix" Offset="213389" Size="10672">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ur" FileName="MicrosoftBing_1.1.33.0_language-ur.msix" Offset="867789" Size="10664">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ug-arab" FileName="MicrosoftBing_1.1.33.0_language-ug-arab.msix" Offset="846226" Size="10685">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-tt-cyrl" FileName="MicrosoftBing_1.1.33.0_language-tt-cyrl.msix" Offset="835461" Size="10667">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sv" FileName="MicrosoftBing_1.1.33.0_language-sv.msix" Offset="781831" Size="10608">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-nl" FileName="MicrosoftBing_1.1.33.0_language-nl.msix" Offset="631619" Size="10591">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-uk" FileName="MicrosoftBing_1.1.33.0_language-uk.msix" Offset="857004" Size="10692">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-mi-latn" FileName="MicrosoftBing_1.1.33.0_language-mi-latn.msix" Offset="545852" Size="10606">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-vi" FileName="MicrosoftBing_1.1.33.0_language-vi.msix" Offset="889272" Size="10629">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-gl" FileName="MicrosoftBing_1.1.33.0_language-gl.msix" Offset="320583" Size="10600">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-fi" FileName="MicrosoftBing_1.1.33.0_language-fi.msix" Offset="267011" Size="10597">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-mr" FileName="MicrosoftBing_1.1.33.0_language-mr.msix" Offset="578067" Size="10653">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-da" FileName="MicrosoftBing_1.1.33.0_language-da.msix" Offset="191995" Size="10604">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-de" FileName="MicrosoftBing_1.1.33.0_language-de.msix" Offset="202692" Size="10604">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-cy" FileName="MicrosoftBing_1.1.33.0_language-cy.msix" Offset="181280" Size="10622">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-es" FileName="MicrosoftBing_1.1.33.0_language-es.msix" Offset="224154" Size="10658">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-et" FileName="MicrosoftBing_1.1.33.0_language-et.msix" Offset="234905" Size="10574">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-eu" FileName="MicrosoftBing_1.1.33.0_language-eu.msix" Offset="245572" Size="10597">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-fa" FileName="MicrosoftBing_1.1.33.0_language-fa.msix" Offset="256262" Size="10656">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-cs" FileName="MicrosoftBing_1.1.33.0_language-cs.msix" Offset="170570" Size="10617">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-fil-latn" FileName="MicrosoftBing_1.1.33.0_language-fil-latn.msix" Offset="277707" Size="10609">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-fr" FileName="MicrosoftBing_1.1.33.0_language-fr.msix" Offset="288409" Size="10669">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ga" FileName="MicrosoftBing_1.1.33.0_language-ga.msix" Offset="299171" Size="10620">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-gd-latn" FileName="MicrosoftBing_1.1.33.0_language-gd-latn.msix" Offset="309889" Size="10601">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ca" FileName="MicrosoftBing_1.1.33.0_language-ca.msix" Offset="159837" Size="10640">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-gu" FileName="MicrosoftBing_1.1.33.0_language-gu.msix" Offset="331276" Size="10657">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-he" FileName="MicrosoftBing_1.1.33.0_language-he.msix" Offset="342026" Size="10613">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-hi" FileName="MicrosoftBing_1.1.33.0_language-hi.msix" Offset="352732" Size="10663">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-hr" FileName="MicrosoftBing_1.1.33.0_language-hr.msix" Offset="363488" Size="10591">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-hu" FileName="MicrosoftBing_1.1.33.0_language-hu.msix" Offset="374172" Size="10626">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-hy" FileName="MicrosoftBing_1.1.33.0_language-hy.msix" Offset="384891" Size="10670">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-id" FileName="MicrosoftBing_1.1.33.0_language-id.msix" Offset="395654" Size="10583">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-is" FileName="MicrosoftBing_1.1.33.0_language-is.msix" Offset="406330" Size="10613">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-it" FileName="MicrosoftBing_1.1.33.0_language-it.msix" Offset="417036" Size="10588">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ja" FileName="MicrosoftBing_1.1.33.0_language-ja.msix" Offset="427717" Size="10648">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ka" FileName="MicrosoftBing_1.1.33.0_language-ka.msix" Offset="438458" Size="10648">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-kk" FileName="MicrosoftBing_1.1.33.0_language-kk.msix" Offset="449199" Size="10688">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-km" FileName="MicrosoftBing_1.1.33.0_language-km.msix" Offset="459980" Size="10659">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-bs" FileName="MicrosoftBing_1.1.33.0_language-bs.msix" Offset="149125" Size="10619">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ko" FileName="MicrosoftBing_1.1.33.0_language-ko.msix" Offset="481507" Size="10637">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-kok" FileName="MicrosoftBing_1.1.33.0_language-kok.msix" Offset="492238" Size="10658">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-lb" FileName="MicrosoftBing_1.1.33.0_language-lb.msix" Offset="502989" Size="10621">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.scale-100" FileName="MicrosoftBing_1.1.33.0_scale-100.msix" Offset="921436" Size="23272">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-lt" FileName="MicrosoftBing_1.1.33.0_language-lt.msix" Offset="524437" Size="10621">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-lv" FileName="MicrosoftBing_1.1.33.0_language-lv.msix" Offset="535151" Size="10603">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-bn" FileName="MicrosoftBing_1.1.33.0_language-bn.msix" Offset="138362" Size="10670">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-mk" FileName="MicrosoftBing_1.1.33.0_language-mk.msix" Offset="556551" Size="10659">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ml" FileName="MicrosoftBing_1.1.33.0_language-ml.msix" Offset="567303" Size="10671">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-bg" FileName="MicrosoftBing_1.1.33.0_language-bg.msix" Offset="127612" Size="10657">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ms" FileName="MicrosoftBing_1.1.33.0_language-ms.msix" Offset="588813" Size="10587">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-mt" FileName="MicrosoftBing_1.1.33.0_language-mt.msix" Offset="599493" Size="10606">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-zh-hant" FileName="MicrosoftBing_1.1.33.0_language-zh-hant.msix" Offset="910716" Size="10629">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ne" FileName="MicrosoftBing_1.1.33.0_language-ne.msix" Offset="620880" Size="10646">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-az-latn" FileName="MicrosoftBing_1.1.33.0_language-az-latn.msix" Offset="116887" Size="10632">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-nn" FileName="MicrosoftBing_1.1.33.0_language-nn.msix" Offset="642303" Size="10593">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-zh-hans" FileName="MicrosoftBing_1.1.33.0_language-zh-hans.msix" Offset="899999" Size="10619">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-pa" FileName="MicrosoftBing_1.1.33.0_language-pa.msix" Offset="663762" Size="10654">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-pl" FileName="MicrosoftBing_1.1.33.0_language-pl.msix" Offset="674509" Size="10620">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-pt" FileName="MicrosoftBing_1.1.33.0_language-pt.msix" Offset="685222" Size="10673">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-quz-latn" FileName="MicrosoftBing_1.1.33.0_language-quz-latn.msix" Offset="695994" Size="10600">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ro" FileName="MicrosoftBing_1.1.33.0_language-ro.msix" Offset="706687" Size="10608">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ru" FileName="MicrosoftBing_1.1.33.0_language-ru.msix" Offset="717388" Size="10665">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sk" FileName="MicrosoftBing_1.1.33.0_language-sk.msix" Offset="728146" Size="10624">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sl" FileName="MicrosoftBing_1.1.33.0_language-sl.msix" Offset="738863" Size="10603">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sq" FileName="MicrosoftBing_1.1.33.0_language-sq.msix" Offset="749559" Size="10609">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sr-cyrl" FileName="MicrosoftBing_1.1.33.0_language-sr-cyrl.msix" Offset="760266" Size="10747">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-sr-latn" FileName="MicrosoftBing_1.1.33.0_language-sr-latn.msix" Offset="771111" Size="10627">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-as" FileName="MicrosoftBing_1.1.33.0_language-as.msix" Offset="106110" Size="10679">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ta" FileName="MicrosoftBing_1.1.33.0_language-ta.msix" Offset="792532" Size="10657">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-te" FileName="MicrosoftBing_1.1.33.0_language-te.msix" Offset="803282" Size="10678">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-th" FileName="MicrosoftBing_1.1.33.0_language-th.msix" Offset="814053" Size="10623">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-tr" FileName="MicrosoftBing_1.1.33.0_language-tr.msix" Offset="824769" Size="10594">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-ar" FileName="MicrosoftBing_1.1.33.0_language-ar.msix" Offset="95378" Size="10639">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-am" FileName="MicrosoftBing_1.1.33.0_language-am.msix" Offset="84623" Size="10662">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-af" FileName="MicrosoftBing_1.1.33.0_language-af.msix" Offset="73942" Size="10588">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-kn" FileName="MicrosoftBing_1.1.33.0_language-kn.msix" Offset="470732" Size="10682">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-uz-latn" FileName="MicrosoftBing_1.1.33.0_language-uz-latn.msix" Offset="878551" Size="10628">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-lo" FileName="MicrosoftBing_1.1.33.0_language-lo.msix" Offset="513703" Size="10641">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-nb" FileName="MicrosoftBing_1.1.33.0_language-nb.msix" Offset="610192" Size="10595">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.language-or" FileName="MicrosoftBing_1.1.33.0_language-or.msix" Offset="652989" Size="10680">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.scale-125" FileName="MicrosoftBing_1.1.33.0_scale-125.msix" Offset="944799" Size="27570">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.scale-150" FileName="MicrosoftBing_1.1.33.0_scale-150.msix" Offset="972460" Size="33337">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.1.33.0" ResourceId="split.scale-400" FileName="MicrosoftBing_1.1.33.0_scale-400.msix" Offset="1005888" Size="113550">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.1.33.0" Architecture="arm64" FileName="MicrosoftBing_1.1.33.0_ARM64.msix" Offset="63" Size="73786">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.1.33.0" Architecture="x64" FileName="MicrosoftBing_1.1.33.0_x64.msix" Offset="1119523" Size="74410">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

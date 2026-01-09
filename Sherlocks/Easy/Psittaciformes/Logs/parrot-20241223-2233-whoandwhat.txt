@@ -1,0 +1,3 @@
+ 22:33:27 up 6 days,  4:40,  1 user,  load average: 0.44, 0.40, 0.24
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+johnspir tty7     :0               03Sep24 111days 16:05   0.11s x-session-manager

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="initial_backup_opt_in" value="false" />
+    <boolean name="post_onboarding_log_complete" value="true" />
+    <boolean name="first_open_complete" value="true" />
+    <long name="last_storage_level_log_time" value="1720734375440" />
+    <long name="last_notif_settings_log_time" value="1720734375448" />
+    <int name="entry_point" value="1" />
+</map>

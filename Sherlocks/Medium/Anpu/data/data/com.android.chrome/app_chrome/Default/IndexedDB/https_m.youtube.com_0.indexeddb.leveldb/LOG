@@ -1,0 +1,6 @@
+2024/07/11-23:44:55.153 3873 Reusing MANIFEST /data/user/0/com.android.chrome/app_chrome/Default/IndexedDB/https_m.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/11-23:44:55.153 3873 Recovering log #3
+2024/07/11-23:44:55.165 3873 Reusing old log /data/user/0/com.android.chrome/app_chrome/Default/IndexedDB/https_m.youtube.com_0.indexeddb.leveldb/000003.log 
+2024/07/11-23:45:08.688 3907 Level-0 table #5: started
+2024/07/11-23:45:08.703 3907 Level-0 table #5: 1055754 bytes OK
+2024/07/11-23:45:08.705 3907 Delete type=0 #3

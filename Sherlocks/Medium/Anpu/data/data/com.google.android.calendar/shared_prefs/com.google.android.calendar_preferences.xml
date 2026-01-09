@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="preference_defaultTaskAccount">johnnnny999999@gmail.com</string>
+    <string name="preferences_last_display_tz">Africa/Cairo</string>
+    <long name="calendar_permissions_request_count" value="0" />
+    <string name="preference_defaultCalendarAccountId">johnnnny999999@gmail.com</string>
+    <boolean name="uss_cleaned_up" value="true" />
+    <string name="preference_defaultCalendarGlobalId">johnnnny999999@gmail.com</string>
+    <long name="preference_defaultCalendarId" value="1" />
+    <long name="LAST_AUTO_REFRESH_MS" value="1720732735725" />
+    <int name="preferences_birthdays_color" value="-13388167" />
+    <boolean name="calendar_permissions_never_ask_detected" value="false" />
+    <int name="flairs_invalidated" value="2016205415" />
+    <set name="current_google_accounts">
+        <string>johnnnny999999@gmail.com</string>
+    </set>
+    <boolean name="seenOOBE" value="true" />
+    <string name="preference_defaultCalendarAccountType">com.google</string>
+</map>

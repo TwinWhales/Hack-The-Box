@@ -1,0 +1,33 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 15711
+Loop-Violation-Number: 10
+Duration-Millis: 179
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at libcore.io.BlockGuardOs.read(BlockGuardOs.java:302)
+	at libcore.io.IoBridge.read(IoBridge.java:513)
+	at java.io.FileInputStream.read(FileInputStream.java:313)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:291)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:355)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:181)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.read1(BufferedReader.java:221)
+	at java.io.BufferedReader.read(BufferedReader.java:297)
+	at com.android.org.kxml2.io.KXmlParser.fillBuffer(KXmlParser.java:1516)
+	at com.android.org.kxml2.io.KXmlParser.peekType(KXmlParser.java:993)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:349)
+	at com.android.org.kxml2.io.KXmlParser.next(KXmlParser.java:313)
+	at com.android.server.wm.LaunchParamsPersister.loadLaunchParams(LaunchParamsPersister.java:170)
+	at com.android.server.wm.LaunchParamsPersister.onUnlockUser(LaunchParamsPersister.java:111)
+	at com.android.server.wm.ActivityStackSupervisor.onUserUnlocked(ActivityStackSupervisor.java:461)
+	at com.android.server.wm.ActivityTaskManagerService$Lifecycle.onUnlockUser(ActivityTaskManagerService.java:989)
+	at com.android.server.SystemServiceManager.unlockUser(SystemServiceManager.java:208)
+	at com.android.server.am.UserController.handleMessage(UserController.java:2140)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

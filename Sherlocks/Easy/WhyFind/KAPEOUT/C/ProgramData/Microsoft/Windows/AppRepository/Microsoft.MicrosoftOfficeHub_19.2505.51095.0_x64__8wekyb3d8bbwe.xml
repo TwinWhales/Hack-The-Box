@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap virtualization build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:virtualization="http://schemas.microsoft.com/appx/manifest/virtualization/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="Microsoft.MicrosoftOfficeHub" Version="19.2505.51095.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Microsoft 365 Copilot</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+    <desktop6:RegistryWriteVirtualization>disabled</desktop6:RegistryWriteVirtualization>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0" />
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.6" MinVersion="6000.143.2123.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource Language="EN-GB" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.MicrosoftOfficeHub" Executable="WebViewHost.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Microsoft 365 Copilot" Description="Microsoft 365 Copilot" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" BackgroundColor="#FFFFFF">
+        <uap:DefaultTile ShortName="Microsoft 365 Copilot" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" Square310x310Logo="images\Square310x310Logo.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="images\splashscreen.png" BackgroundColor="#FFFFFF" uap5:Optional="true" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-getoffice" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-officeapp" />
+        </uap:Extension>
+        <uap3:Extension Category="windows.appExtension">
+          <uap3:AppExtension Name="com.microsoft.windows.copilotkeyprovider" Id="Microsoft.MicrosoftOfficeHub" DisplayName="Microsoft 365 Copilot" Description="Microsoft 365 Copilot" PublicFolder="Public">
+            <uap3:Properties>
+              <SingleTap MessageWParam="0" />
+              <PressAndHoldStart MessageWParam="1">ms-officeapp://?state=Down</PressAndHoldStart>
+              <PressAndHoldStop MessageWParam="2">ms-officeapp://?state=Up</PressAndHoldStop>
+            </uap3:Properties>
+          </uap3:AppExtension>
+        </uap3:Extension>
+        <desktop:Extension Category="windows.startupTask" Executable="WebViewHost.exe" EntryPoint="Windows.FullTrustApplication" uap10:Parameters="autostart">
+          <desktop:StartupTask TaskId="WebViewHostStartupId" Enabled="true" DisplayName="Microsoft 365 Copilot" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="enterpriseCloudSSO" />
+    <rescap:Capability Name="packageQuery" />
+    <rescap:Capability Name="broadFileSystemAccess" />
+    <rescap:Capability Name="unvirtualizedResources" />
+    <DeviceCapability Name="microphone" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Toolkit.Win32.UI.XamlHost.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Win32.UI.XamlHost.XamlApplication" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CustomSchemeRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.14.40140.49182" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.14.40265.65313" />
+    <build:Item Name="ProjectGUID" Value="d6f6fc52-3c14-42d6-bef7-e6cecb8d6b93" />
+    <build:Item Name="makepri.exe" Version="10.0.26100.1742 (WinBuild.160101.0800)" />
+  </build:Metadata>
+  <mp:PhoneIdentity PhoneProductId="fca4e40c-fd2a-4898-a472-8ec78e56280a" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+</Package>

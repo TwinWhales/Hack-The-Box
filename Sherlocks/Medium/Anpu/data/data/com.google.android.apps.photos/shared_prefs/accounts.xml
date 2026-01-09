@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="0.last_people_refresh_on_app_open_ms" value="1720734375460" />
+    <boolean name="0.upgrade_direct_login_to_managed_login" value="true" />
+    <string name="0.display_name">John</string>
+    <boolean name="AccountStore#upgradeAccountCreated" value="true" />
+    <long name="0.com.google.android.apps.photos.registration.last_successful_reachability_rpc_timestamp" value="1720736208752" />
+    <int name="0.device_index" value="0" />
+    <long name="0.initial_remote_sync_start.stop_real_time" value="-1" />
+    <boolean name="0.upgrade:account_status" value="true" />
+    <boolean name="0.initial_remote_sync_start.finished" value="true" />
+    <boolean name="0.com.google.android.apps.photos.search.explore.pets.impl.PetClusterManager.pet_notification_eligible" value="true" />
+    <boolean name="0.index_all_search_results1" value="true" />
+    <int name="0.guns_registration_status" value="5" />
+    <long name="0.initial_remote_sync_start.recent_start_real_time" value="-1" />
+    <boolean name="0.guns_notifications_active" value="true" />
+    <boolean name="0.resync_clusters1" value="true" />
+    <boolean name="0.is_managed_account" value="false" />
+    <int name="0.initial_remote_sync_start.collections" value="0" />
+    <boolean name="0.clear_clusters_cache_2" value="true" />
+    <long name="0.PhotosAssistantCard.partneraccount_promo_static_card_timestamp" value="1720734376185" />
+    <int name="count" value="1" />
+    <boolean name="0.com.google.android.apps.photos.settings.notifications.notifications_prefs_restored" value="true" />
+    <long name="0.PhotosAssistantCard.overview-card_timestamp" value="1720734376231" />
+    <long name="0.initial_remote_sync_start.start" value="-1" />
+    <long name="0.initial_remote_sync_start.stop" value="-1" />
+    <int name="0.initial_remote_sync_start.stopped_count" value="0" />
+    <string name="0.gaia_id">100438717458236439565</string>
+    <long name="0.PhotosAssistantCard.locationreporting-card_timestamp" value="1720734376189" />
+    <long name="0.initial_remote_sync_start.total_media_items_count" value="0" />
+    <boolean name="0.created" value="true" />
+    <long name="0.people_cache.refresh_time" value="1720734375460" />
+    <boolean name="0.com.google.android.apps.photos.search.database.SearchResultsIndexState.search_results_new_account" value="false" />
+    <boolean name="0.Bootstrap.local_media_full_sync_complete" value="true" />
+    <boolean name="0.com.google.android.apps.photos.search.explore.pets.impl.PetClusterManager.pet_tooltip_eligible" value="true" />
+    <boolean name="0.process_all_clusters1" value="true" />
+    <boolean name="0.com.google.android.apps.photos.assistant.remote.gunsview.GunsViewUpgradeStep" value="true" />
+    <string name="0.given_name">John</string>
+    <boolean name="0.is_g_uno_member_key" value="false" />
+    <boolean name="0.reset_existing_user_status_3" value="true" />
+    <long name="0.last_cluster_sync_time" value="1720734375118" />
+    <long name="0.com.google.android.apps.photos.printingskus.photobook.database.global_promotion_data_expiration" value="1720820776240" />
+    <boolean name="0.add_effective_gaia_id" value="true" />
+    <boolean name="0.upgrade:active_to_logged_in" value="true" />
+    <string name="0.user_registration_status">ALLOWED</string>
+    <long name="0.initial_remote_sync_start.duration" value="0" />
+    <boolean name="0.logged_out" value="false" />
+    <boolean name="0.upgrade:remove_account_status" value="true" />
+    <string name="0.com.google.android.apps.photos.printingskus.photobook.database.global_promotion_data_version">AH_uQ41Lr2HqaJZIxsp6QXAu0VDlvMPWQJCQW0THUsAL-1yEl7pXp91tYfMd_rO2N1Ae15dXFYsu</string>
+    <boolean name="0.com.google.android.apps.photos.search.database.SearchResultsIndexState.search_results_initial_index_complete" value="false" />
+    <long name="0.com.google.android.apps.photos.cloudstorage.quota.free_storage_deal_expiration_timestamp" value="0" />
+    <boolean name="0.Bootstrap.local_media_fast_sync_complete" value="true" />
+    <boolean name="0.com.google.android.apps.photos.search.database.SearchResultsIndexState.search_results_needs_re_index" value="true" />
+    <string name="0.com.google.android.apps.photos.search.peoplegroupingonboarding.PGOM.people_grouping_legal_notice_status">NONE</string>
+    <boolean name="0.add_skinny_page_boolean" value="true" />
+    <boolean name="0.Bootstrap.bootstrap_started" value="false" />
+    <string name="0.account_name">johnnnny999999@gmail.com</string>
+    <int name="0.initial_remote_sync_start.pages" value="0" />
+    <int name="0.initial_remote_sync_start.media_items" value="0" />
+    <long name="0.last_branding_time" value="1720734380824" />
+    <boolean name="0.bootstrap_initial_sync_values_logged" value="true" />
+    <int name="key.active-account-key" value="0" />
+    <boolean name="0.com.google.android.apps.photos.search.explore.pets.impl.PetClusterManager.pet_promo_eligible" value="true" />
+    <boolean name="0.logged_in" value="true" />
+    <long name="0.com.google.android.apps.photos.promo.last_reschedule_time_ms" value="1720734376040" />
+    <int name="0.com.google.android.libraries.social.notifications.REGISTER_REQUEST_FINGERPRINT" value="551120804" />
+</map>

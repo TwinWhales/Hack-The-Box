@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.Getstarted" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2021.2312.1.0"/>
+	<Packages>
+		<Package Type="application" Version="10.2312.1.0" Architecture="x64" FileName="GetStarted_10.2312.1.0_x64.msix" Offset="9832753" Size="8582642">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.2312.1.0" Architecture="arm64" FileName="GetStarted_10.2312.1.0_ARM64.msix" Offset="63" Size="8129263">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.2312.1.0" Architecture="x86" FileName="GetStarted_10.2312.1.0_x86.msix" Offset="18415480" Size="7646455">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-da" FileName="GetStarted_10.2312.1.0_language-da.msix" Offset="8220118" Size="12591">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-sr-latn" FileName="GetStarted_10.2312.1.0_language-sr-latn.msix" Offset="8747696" Size="12746">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-he" FileName="GetStarted_10.2312.1.0_language-he.msix" Offset="8364265" Size="12714">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-nl" FileName="GetStarted_10.2312.1.0_language-nl.msix" Offset="8611968" Size="12605">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-it" FileName="GetStarted_10.2312.1.0_language-it.msix" Offset="8441469" Size="13200">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-et" FileName="GetStarted_10.2312.1.0_language-et.msix" Offset="8273664" Size="12680">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ms" FileName="GetStarted_10.2312.1.0_language-ms.msix" Offset="8586654" Size="12561">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-hu" FileName="GetStarted_10.2312.1.0_language-hu.msix" Offset="8403071" Size="12829">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-km" FileName="GetStarted_10.2312.1.0_language-km.msix" Offset="8481440" Size="13135">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-kn" FileName="GetStarted_10.2312.1.0_language-kn.msix" Offset="8494668" Size="13086">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-es" FileName="GetStarted_10.2312.1.0_language-es.msix" Offset="8259648" Size="13923">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-zh-hans" FileName="GetStarted_10.2312.1.0_language-zh-hans.msix" Offset="8865005" Size="13063">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-am" FileName="GetStarted_10.2312.1.0_language-am.msix" Offset="8142165" Size="13047">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-vi" FileName="GetStarted_10.2312.1.0_language-vi.msix" Offset="8852038" Size="12869">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ar" FileName="GetStarted_10.2312.1.0_language-ar.msix" Offset="8155305" Size="12863">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ro" FileName="GetStarted_10.2312.1.0_language-ro.msix" Offset="8682470" Size="12731">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-lo" FileName="GetStarted_10.2312.1.0_language-lo.msix" Offset="8521320" Size="13031">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-el" FileName="GetStarted_10.2312.1.0_language-el.msix" Offset="8246244" Size="13311">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-gl" FileName="GetStarted_10.2312.1.0_language-gl.msix" Offset="8351524" Size="12648">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-az-latn" FileName="GetStarted_10.2312.1.0_language-az-latn.msix" Offset="8168266" Size="12837">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-uz-latn" FileName="GetStarted_10.2312.1.0_language-uz-latn.msix" Offset="8839181" Size="12764">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-hr" FileName="GetStarted_10.2312.1.0_language-hr.msix" Offset="8390215" Size="12763">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ja" FileName="GetStarted_10.2312.1.0_language-ja.msix" Offset="8454762" Size="13406">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-eu" FileName="GetStarted_10.2312.1.0_language-eu.msix" Offset="8286437" Size="12575">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-is" FileName="GetStarted_10.2312.1.0_language-is.msix" Offset="8428603" Size="12773">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-cs" FileName="GetStarted_10.2312.1.0_language-cs.msix" Offset="8207208" Size="12817">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-kk" FileName="GetStarted_10.2312.1.0_language-kk.msix" Offset="8468261" Size="13086">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-zh-hant" FileName="GetStarted_10.2312.1.0_language-zh-hant.msix" Offset="8878166" Size="13103">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ru" FileName="GetStarted_10.2312.1.0_language-ru.msix" Offset="8695294" Size="13808">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-fa" FileName="GetStarted_10.2312.1.0_language-fa.msix" Offset="8299105" Size="12917">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ko" FileName="GetStarted_10.2312.1.0_language-ko.msix" Offset="8507847" Size="13380">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-sq" FileName="GetStarted_10.2312.1.0_language-sq.msix" Offset="8734870" Size="12728">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-lv" FileName="GetStarted_10.2312.1.0_language-lv.msix" Offset="8547344" Size="12806">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-lt" FileName="GetStarted_10.2312.1.0_language-lt.msix" Offset="8534444" Size="12807">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-id" FileName="GetStarted_10.2312.1.0_language-id.msix" Offset="8415993" Size="12517">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-tr" FileName="GetStarted_10.2312.1.0_language-tr.msix" Offset="8812517" Size="12708">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-nb" FileName="GetStarted_10.2312.1.0_language-nb.msix" Offset="8599308" Size="12567">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-th" FileName="GetStarted_10.2312.1.0_language-th.msix" Offset="8799527" Size="12897">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-bg" FileName="GetStarted_10.2312.1.0_language-bg.msix" Offset="8181196" Size="13087">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-sv" FileName="GetStarted_10.2312.1.0_language-sv.msix" Offset="8760535" Size="12563">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-qps-plocm" FileName="GetStarted_10.2312.1.0_language-qps-plocm.msix" Offset="8667397" Size="14980">
+			<Resources>
+				<Resource Language="qps-plocm"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ca" FileName="GetStarted_10.2312.1.0_language-ca.msix" Offset="8194376" Size="12739">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-pt" FileName="GetStarted_10.2312.1.0_language-pt.msix" Offset="8637580" Size="14640">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-pl" FileName="GetStarted_10.2312.1.0_language-pl.msix" Offset="8624666" Size="12821">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ml" FileName="GetStarted_10.2312.1.0_language-ml.msix" Offset="8573356" Size="13205">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-uk" FileName="GetStarted_10.2312.1.0_language-uk.msix" Offset="8825318" Size="13765">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-sl" FileName="GetStarted_10.2312.1.0_language-sl.msix" Offset="8722069" Size="12708">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-mk" FileName="GetStarted_10.2312.1.0_language-mk.msix" Offset="8560243" Size="13020">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-fi" FileName="GetStarted_10.2312.1.0_language-fi.msix" Offset="8312115" Size="12647">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-fil-latn" FileName="GetStarted_10.2312.1.0_language-fil-latn.msix" Offset="8324861" Size="12726">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-te" FileName="GetStarted_10.2312.1.0_language-te.msix" Offset="8786340" Size="13094">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-fr" FileName="GetStarted_10.2312.1.0_language-fr.msix" Offset="8337680" Size="13751">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-hi" FileName="GetStarted_10.2312.1.0_language-hi.msix" Offset="8377072" Size="13050">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-sk" FileName="GetStarted_10.2312.1.0_language-sk.msix" Offset="8709195" Size="12781">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-af" FileName="GetStarted_10.2312.1.0_language-af.msix" Offset="8129419" Size="12653">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-ta" FileName="GetStarted_10.2312.1.0_language-ta.msix" Offset="8773191" Size="13056">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-de" FileName="GetStarted_10.2312.1.0_language-de.msix" Offset="8232802" Size="13349">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.language-qps-ploc" FileName="GetStarted_10.2312.1.0_language-qps-ploc.msix" Offset="8652319" Size="14978">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.scale-125" FileName="GetStarted_10.2312.1.0_scale-125.msix" Offset="8891360" Size="116827">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.scale-200" FileName="GetStarted_10.2312.1.0_scale-200.msix" Offset="9145273" Size="197407">
+			<Resources>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.scale-150" FileName="GetStarted_10.2312.1.0_scale-150.msix" Offset="9008278" Size="136904">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2312.1.0" ResourceId="split.scale-400" FileName="GetStarted_10.2312.1.0_scale-400.msix" Offset="9342771" Size="489897">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

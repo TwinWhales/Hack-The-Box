@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="com.android.voicemail.impl.is_shutting_down" value="false" />
+    <boolean name="checkedAutoMigrate" value="true" />
+    <boolean name="migratedToNewBlocking" value="true" />
+    <int name="com.android.voicemail.impl.scheduling.TaskSchedulerJobService.EXPECTED_JOB_ID" value="7" />
+    <boolean name="visual_voicemail_pre_o_migration_finished_89014103211118510720" value="true" />
+    <int name="persistent_long_next_file_index_plain_text" value="1" />
+    <int name="com.android.voicemail.impl.scheduling.TaskSchedulerJobService.NEXT_JOB_ID" value="8" />
+    <string name="DialtactsActivity_user_sim_country_code">us</string>
+</map>

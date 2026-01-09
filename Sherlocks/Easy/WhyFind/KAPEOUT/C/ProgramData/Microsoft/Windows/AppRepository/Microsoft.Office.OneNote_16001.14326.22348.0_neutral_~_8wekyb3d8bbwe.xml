@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.Office.OneNote" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="16001.14326.22348.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="16.14326.22347.0" Architecture="arm" FileName="AppxMetadata\Stub\OneNoteStub_16.14326.22347.0_ARM.appx" Offset="85" Size="897140" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AS-IN"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="BN-IN"/>
+				<b5:Resource Language="BS-LATN-BA"/>
+				<b5:Resource Language="CA-ES-VALENCIA"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="CY-GB"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GA-IE"/>
+				<b5:Resource Language="GD-GB"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="GU-IN"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KA-GE"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="KOK-IN"/>
+				<b5:Resource Language="LB-LU"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MI-NZ"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MR-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="MT-MT"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NE-NP"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="NN-NO"/>
+				<b5:Resource Language="OR-IN"/>
+				<b5:Resource Language="PA-IN"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="QUZ-PE"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-CYRL-BA"/>
+				<b5:Resource Language="SR-CYRL-RS"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="TT-RU"/>
+				<b5:Resource Language="UG-CN"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UR-PK"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19011.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="16.14326.22347.0" Architecture="x86" FileName="AppxMetadata\Stub\OneNoteStub_16.14326.22347.0_Win32.appx" Offset="897336" Size="894440" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AS-IN"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="BN-IN"/>
+				<b5:Resource Language="BS-LATN-BA"/>
+				<b5:Resource Language="CA-ES-VALENCIA"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="CY-GB"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GA-IE"/>
+				<b5:Resource Language="GD-GB"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="GU-IN"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KA-GE"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="KOK-IN"/>
+				<b5:Resource Language="LB-LU"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MI-NZ"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MR-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="MT-MT"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NE-NP"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="NN-NO"/>
+				<b5:Resource Language="OR-IN"/>
+				<b5:Resource Language="PA-IN"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="QUZ-PE"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-CYRL-BA"/>
+				<b5:Resource Language="SR-CYRL-RS"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="TT-RU"/>
+				<b5:Resource Language="UG-CN"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UR-PK"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19011.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="16.14326.22347.0" Architecture="x64" FileName="AppxMetadata\Stub\OneNoteStub_16.14326.22347.0_x64.appx" Offset="1791885" Size="893736" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="AF-ZA"/>
+				<b5:Resource Language="AM-ET"/>
+				<b5:Resource Language="AR-SA"/>
+				<b5:Resource Language="AS-IN"/>
+				<b5:Resource Language="AZ-LATN-AZ"/>
+				<b5:Resource Language="BG-BG"/>
+				<b5:Resource Language="BN-IN"/>
+				<b5:Resource Language="BS-LATN-BA"/>
+				<b5:Resource Language="CA-ES-VALENCIA"/>
+				<b5:Resource Language="CA-ES"/>
+				<b5:Resource Language="CS-CZ"/>
+				<b5:Resource Language="CY-GB"/>
+				<b5:Resource Language="DA-DK"/>
+				<b5:Resource Language="DE-DE"/>
+				<b5:Resource Language="EL-GR"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Language="ES-ES"/>
+				<b5:Resource Language="ES-MX"/>
+				<b5:Resource Language="ET-EE"/>
+				<b5:Resource Language="EU-ES"/>
+				<b5:Resource Language="FA-IR"/>
+				<b5:Resource Language="FI-FI"/>
+				<b5:Resource Language="FIL-PH"/>
+				<b5:Resource Language="FR-CA"/>
+				<b5:Resource Language="FR-FR"/>
+				<b5:Resource Language="GA-IE"/>
+				<b5:Resource Language="GD-GB"/>
+				<b5:Resource Language="GL-ES"/>
+				<b5:Resource Language="GU-IN"/>
+				<b5:Resource Language="HE-IL"/>
+				<b5:Resource Language="HI-IN"/>
+				<b5:Resource Language="HR-HR"/>
+				<b5:Resource Language="HU-HU"/>
+				<b5:Resource Language="ID-ID"/>
+				<b5:Resource Language="IS-IS"/>
+				<b5:Resource Language="IT-IT"/>
+				<b5:Resource Language="JA-JP"/>
+				<b5:Resource Language="KA-GE"/>
+				<b5:Resource Language="KK-KZ"/>
+				<b5:Resource Language="KM-KH"/>
+				<b5:Resource Language="KN-IN"/>
+				<b5:Resource Language="KO-KR"/>
+				<b5:Resource Language="KOK-IN"/>
+				<b5:Resource Language="LB-LU"/>
+				<b5:Resource Language="LO-LA"/>
+				<b5:Resource Language="LT-LT"/>
+				<b5:Resource Language="LV-LV"/>
+				<b5:Resource Language="MI-NZ"/>
+				<b5:Resource Language="MK-MK"/>
+				<b5:Resource Language="ML-IN"/>
+				<b5:Resource Language="MR-IN"/>
+				<b5:Resource Language="MS-MY"/>
+				<b5:Resource Language="MT-MT"/>
+				<b5:Resource Language="NB-NO"/>
+				<b5:Resource Language="NE-NP"/>
+				<b5:Resource Language="NL-NL"/>
+				<b5:Resource Language="NN-NO"/>
+				<b5:Resource Language="OR-IN"/>
+				<b5:Resource Language="PA-IN"/>
+				<b5:Resource Language="PL-PL"/>
+				<b5:Resource Language="PT-BR"/>
+				<b5:Resource Language="PT-PT"/>
+				<b5:Resource Language="QUZ-PE"/>
+				<b5:Resource Language="RO-RO"/>
+				<b5:Resource Language="RU-RU"/>
+				<b5:Resource Language="SK-SK"/>
+				<b5:Resource Language="SL-SI"/>
+				<b5:Resource Language="SQ-AL"/>
+				<b5:Resource Language="SR-CYRL-BA"/>
+				<b5:Resource Language="SR-CYRL-RS"/>
+				<b5:Resource Language="SR-LATN-RS"/>
+				<b5:Resource Language="SV-SE"/>
+				<b5:Resource Language="TA-IN"/>
+				<b5:Resource Language="TE-IN"/>
+				<b5:Resource Language="TH-TH"/>
+				<b5:Resource Language="TR-TR"/>
+				<b5:Resource Language="TT-RU"/>
+				<b5:Resource Language="UG-CN"/>
+				<b5:Resource Language="UK-UA"/>
+				<b5:Resource Language="UR-PK"/>
+				<b5:Resource Language="VI-VN"/>
+				<b5:Resource Language="ZH-CN"/>
+				<b5:Resource Language="ZH-TW"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.19011.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="16001.14326.22348.0" Architecture="arm" FileName="OnenoteIm_arm.appx" Offset="79497875" Size="59863091">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="16001.14326.22348.0" Architecture="x64" FileName="OnenoteIm_x64.appx" Offset="139361038" Size="66069327">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="16001.14326.22348.0" Architecture="x86" FileName="OnenoteIm_x86.appx" Offset="205430437" Size="55499218">
+			<Resources>
+				<Resource Language="en-us"/>
+				<Resource Language="en-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="af-za" FileName="OnenoteIm.language-af-za.appx" Offset="2685704" Size="1150172">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="am-et" FileName="OnenoteIm.language-am-et.appx" Offset="3835959" Size="1034831">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ar-sa" FileName="OnenoteIm.language-ar-sa.appx" Offset="4870873" Size="1405742">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="az-latn-az" FileName="OnenoteIm.language-az-latn-az.appx" Offset="6276703" Size="1054718">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="be-by" FileName="OnenoteIm.language-be-by.appx" Offset="7331504" Size="1171939">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="bg-bg" FileName="OnenoteIm.language-bg-bg.appx" Offset="8503526" Size="1255925">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="bn-bd" FileName="OnenoteIm.language-bn-bd.appx" Offset="9759534" Size="1108649">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="bs-latn-ba" FileName="OnenoteIm.language-bs-latn-ba.appx" Offset="10868271" Size="962945">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ca-es" FileName="OnenoteIm.language-ca-es.appx" Offset="11831299" Size="1230524">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="cs-cz" FileName="OnenoteIm.language-cs-cz.appx" Offset="13061906" Size="1123047">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="da-dk" FileName="OnenoteIm.language-da-dk.appx" Offset="14185036" Size="1201778">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="de-de" FileName="OnenoteIm.language-de-de.appx" Offset="15386897" Size="1269710">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="el-gr" FileName="OnenoteIm.language-el-gr.appx" Offset="16656690" Size="1278019">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="es-es" FileName="OnenoteIm.language-es-es.appx" Offset="17934792" Size="1230962">
+			<Resources>
+				<Resource Language="es-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="es-mx" FileName="OnenoteIm.language-es-mx.appx" Offset="19165837" Size="967505">
+			<Resources>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="et-ee" FileName="OnenoteIm.language-et-ee.appx" Offset="20133425" Size="1189613">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="eu-es" FileName="OnenoteIm.language-eu-es.appx" Offset="21323121" Size="1201901">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="fa-ir" FileName="OnenoteIm.language-fa-ir.appx" Offset="22525105" Size="1097670">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="fi-fi" FileName="OnenoteIm.language-fi-fi.appx" Offset="23622858" Size="1212185">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="fil-ph" FileName="OnenoteIm.language-fil-ph.appx" Offset="24835127" Size="1213486">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="fr-ca" FileName="OnenoteIm.language-fr-ca.appx" Offset="26048696" Size="965345">
+			<Resources>
+				<Resource Language="fr-ca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="fr-fr" FileName="OnenoteIm.language-fr-fr.appx" Offset="27014124" Size="1219231">
+			<Resources>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="gl-es" FileName="OnenoteIm.language-gl-es.appx" Offset="28233438" Size="1203608">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ha-latn-ng" FileName="OnenoteIm.language-ha-latn-ng.appx" Offset="29437134" Size="957916">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="he-il" FileName="OnenoteIm.language-he-il.appx" Offset="30395133" Size="1485725">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="hi-in" FileName="OnenoteIm.language-hi-in.appx" Offset="31880941" Size="1146599">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="hr-hr" FileName="OnenoteIm.language-hr-hr.appx" Offset="33027623" Size="1222765">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="hu-hu" FileName="OnenoteIm.language-hu-hu.appx" Offset="34250471" Size="1177095">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="id-id" FileName="OnenoteIm.language-id-id.appx" Offset="35427649" Size="1167624">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="is-is" FileName="OnenoteIm.language-is-is.appx" Offset="36595356" Size="1165014">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="it-it" FileName="OnenoteIm.language-it-it.appx" Offset="37760453" Size="1201029">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ja-jp" FileName="OnenoteIm.language-ja-jp.appx" Offset="38961565" Size="1085866">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="kk-kz" FileName="OnenoteIm.language-kk-kz.appx" Offset="40047514" Size="1088647">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="km-kh" FileName="OnenoteIm.language-km-kh.appx" Offset="41136244" Size="1040042">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="kn-in" FileName="OnenoteIm.language-kn-in.appx" Offset="42176369" Size="1150275">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ko-kr" FileName="OnenoteIm.language-ko-kr.appx" Offset="43326727" Size="1179604">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="lo-la" FileName="OnenoteIm.language-lo-la.appx" Offset="44506414" Size="836503">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="lt-lt" FileName="OnenoteIm.language-lt-lt.appx" Offset="45343000" Size="1224907">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="lv-lv" FileName="OnenoteIm.language-lv-lv.appx" Offset="46567990" Size="1230759">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="mk-mk" FileName="OnenoteIm.language-mk-mk.appx" Offset="47798832" Size="1183066">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ml-in" FileName="OnenoteIm.language-ml-in.appx" Offset="48981981" Size="1145179">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ms-my" FileName="OnenoteIm.language-ms-my.appx" Offset="50127243" Size="1175354">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="nb-no" FileName="OnenoteIm.language-nb-no.appx" Offset="51302680" Size="1205377">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="nl-nl" FileName="OnenoteIm.language-nl-nl.appx" Offset="52508140" Size="1204694">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="nn-no" FileName="OnenoteIm.language-nn-no.appx" Offset="53712917" Size="1254691">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="pl-pl" FileName="OnenoteIm.language-pl-pl.appx" Offset="54967691" Size="1180907">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="pt-br" FileName="OnenoteIm.language-pt-br.appx" Offset="56148681" Size="1249371">
+			<Resources>
+				<Resource Language="pt-br"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="pt-pt" FileName="OnenoteIm.language-pt-pt.appx" Offset="57398135" Size="1229786">
+			<Resources>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ro-ro" FileName="OnenoteIm.language-ro-ro.appx" Offset="58628004" Size="1161117">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ru-ru" FileName="OnenoteIm.language-ru-ru.appx" Offset="59789204" Size="1243921">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sk-sk" FileName="OnenoteIm.language-sk-sk.appx" Offset="61033208" Size="1109488">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sl-si" FileName="OnenoteIm.language-sl-si.appx" Offset="62142779" Size="1200167">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sq-al" FileName="OnenoteIm.language-sq-al.appx" Offset="63343029" Size="1172817">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sr-cyrl-rs" FileName="OnenoteIm.language-sr-cyrl-rs.appx" Offset="64515934" Size="1193544">
+			<Resources>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sr-latn-rs" FileName="OnenoteIm.language-sr-latn-rs.appx" Offset="65709566" Size="1228981">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sv-se" FileName="OnenoteIm.language-sv-se.appx" Offset="66938630" Size="1188679">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="sw-ke" FileName="OnenoteIm.language-sw-ke.appx" Offset="68127392" Size="1162681">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="ta-in" FileName="OnenoteIm.language-ta-in.appx" Offset="69290156" Size="1214827">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="te-in" FileName="OnenoteIm.language-te-in.appx" Offset="70505066" Size="1152513">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="th-th" FileName="OnenoteIm.language-th-th.appx" Offset="71657662" Size="1079448">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="tr-tr" FileName="OnenoteIm.language-tr-tr.appx" Offset="72737193" Size="1117551">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="uk-ua" FileName="OnenoteIm.language-uk-ua.appx" Offset="73854827" Size="1237821">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="uz-latn-uz" FileName="OnenoteIm.language-uz-latn-uz.appx" Offset="75092736" Size="1190622">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="vi-vn" FileName="OnenoteIm.language-vi-vn.appx" Offset="76283441" Size="1107830">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="zh-cn" FileName="OnenoteIm.language-zh-cn.appx" Offset="77391354" Size="1059594">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="16001.14326.22348.0" ResourceId="zh-tw" FileName="OnenoteIm.language-zh-tw.appx" Offset="78451031" Size="1046772">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.15063.0" MaxVersionTested="10.0.18362.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

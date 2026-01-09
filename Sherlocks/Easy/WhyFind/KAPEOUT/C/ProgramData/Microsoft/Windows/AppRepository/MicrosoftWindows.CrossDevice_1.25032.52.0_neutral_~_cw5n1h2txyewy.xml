@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="MicrosoftWindows.CrossDevice" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.25032.52.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="0.25032.52.0" Architecture="arm64" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_ARM64.msix" Offset="104" Size="1238688" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-af" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-af.msix" Offset="1238926" Size="11076" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="af-za"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-am" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-am.msix" Offset="1250136" Size="11182" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="am-et"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ar" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ar.msix" Offset="1261452" Size="11130" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ar-sa"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-as" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-as.msix" Offset="1272716" Size="11229" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="as-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-az-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-az-latn.msix" Offset="1284084" Size="11143" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="az-latn-az"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-bg" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-bg.msix" Offset="1295361" Size="11219" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bg-bg"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-bn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-bn.msix" Offset="1306714" Size="11257" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-bs" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-bs.msix" Offset="1318105" Size="11095" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="bs-latn-ba"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ca" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ca.msix" Offset="1329334" Size="11369" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ca-es"/>
+				<b5:Resource Language="ca-es-valencia"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-cs" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-cs.msix" Offset="1340837" Size="11124" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cs-cz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-cy" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-cy.msix" Offset="1352095" Size="11095" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="cy-gb"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-da" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-da.msix" Offset="1363324" Size="11088" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="da-dk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-de" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-de.msix" Offset="1374546" Size="11128" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="de-de"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-el" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-el.msix" Offset="1385808" Size="11321" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="el-gr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-es" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-es.msix" Offset="1397263" Size="11322" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="es-es"/>
+				<b5:Resource Language="es-mx"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-et" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-et.msix" Offset="1408719" Size="11079" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="et-ee"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-eu" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-eu.msix" Offset="1419932" Size="11066" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="eu-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-fa" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-fa.msix" Offset="1431132" Size="11185" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fa-ir"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-fi" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-fi.msix" Offset="1442451" Size="11099" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fi-fi"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-fil-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-fil-latn.msix" Offset="1453690" Size="11109" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fil-ph"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-fr" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-fr.msix" Offset="1464933" Size="11316" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="fr-ca"/>
+				<b5:Resource Language="fr-fr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ga" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ga.msix" Offset="1476383" Size="11132" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ga-ie"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-gd-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-gd-latn.msix" Offset="1487654" Size="11146" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gd-gb"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-gl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-gl.msix" Offset="1498934" Size="11096" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gl-es"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-gu" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-gu.msix" Offset="1510164" Size="11230" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="gu-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-he" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-he.msix" Offset="1521528" Size="11067" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="he-il"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-hi" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-hi.msix" Offset="1532729" Size="11197" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hi-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-hr" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-hr.msix" Offset="1544060" Size="11079" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hr-hr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-hu" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-hu.msix" Offset="1555273" Size="11134" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hu-hu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-hy" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-hy.msix" Offset="1566541" Size="11204" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="hy-am"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-id" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-id.msix" Offset="1577879" Size="11024" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="id-id"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-is" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-is.msix" Offset="1589037" Size="11112" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="is-is"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-it" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-it.msix" Offset="1600283" Size="11094" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="it-it"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ja" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ja.msix" Offset="1611511" Size="11120" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ja-jp"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ka" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ka.msix" Offset="1622765" Size="11207" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ka-ge"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-kk" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-kk.msix" Offset="1634106" Size="11259" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kk-kz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-km" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-km.msix" Offset="1645499" Size="11255" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="km-kh"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-kn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-kn.msix" Offset="1656888" Size="11227" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kn-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ko" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ko.msix" Offset="1668249" Size="11174" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ko-kr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-kok" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-kok.msix" Offset="1679558" Size="11199" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="kok-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-lb" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-lb.msix" Offset="1690891" Size="11158" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lb-lu"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-lo" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-lo.msix" Offset="1702183" Size="11202" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lo-la"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-lt" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-lt.msix" Offset="1713519" Size="11091" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lt-lt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-lv" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-lv.msix" Offset="1724744" Size="11155" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="lv-lv"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-mi-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-mi-latn.msix" Offset="1736038" Size="11072" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mi-nz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-mk" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-mk.msix" Offset="1747244" Size="11217" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mk-mk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ml" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ml.msix" Offset="1758595" Size="11232" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ml-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-mr" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-mr.msix" Offset="1769961" Size="11190" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mr-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ms" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ms.msix" Offset="1781285" Size="11043" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ms-my"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-mt" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-mt.msix" Offset="1792462" Size="11143" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="mt-mt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-nb" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-nb.msix" Offset="1803739" Size="11083" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nb-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ne" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ne.msix" Offset="1814956" Size="11219" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ne-np"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-nl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-nl.msix" Offset="1826309" Size="11074" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nl-nl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-nn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-nn.msix" Offset="1837517" Size="11067" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="nn-no"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-or" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-or.msix" Offset="1848718" Size="11253" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="or-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-pa" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-pa.msix" Offset="1860105" Size="11212" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pa-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-pl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-pl.msix" Offset="1871451" Size="11129" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pl-pl"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-pt" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-pt.msix" Offset="1882714" Size="11459" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="pt-br"/>
+				<b5:Resource Language="pt-pt"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-qps-ploc" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-qps-ploc.msix" Offset="1894313" Size="10637" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-ploc"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-qps-ploca" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-qps-ploca.msix" Offset="1905091" Size="10651" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-ploca"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-qps-plocm" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-qps-plocm.msix" Offset="1915883" Size="10640" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="qps-plocm"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-quz-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-quz-latn.msix" Offset="1926663" Size="11079" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="quz-pe"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ro" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ro.msix" Offset="1937876" Size="11110" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ro-ro"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ru" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ru.msix" Offset="1949120" Size="11259" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ru-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sk" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sk.msix" Offset="1960513" Size="11096" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sk-sk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sl.msix" Offset="1971743" Size="11110" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sl-si"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sq" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sq.msix" Offset="1982987" Size="11119" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sq-al"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sr-cyrl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sr-cyrl.msix" Offset="1994245" Size="11581" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-cyrl-ba"/>
+				<b5:Resource Language="sr-cyrl-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sr-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sr-latn.msix" Offset="2005965" Size="11117" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sr-latn-rs"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-sv" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-sv.msix" Offset="2017216" Size="11081" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="sv-se"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ta" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ta.msix" Offset="2028431" Size="11243" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ta-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-te" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-te.msix" Offset="2039808" Size="11270" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="te-in"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-th" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-th.msix" Offset="2051212" Size="11178" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="th-th"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-tr" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-tr.msix" Offset="2062524" Size="11118" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tr-tr"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-tt-cyrl" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-tt-cyrl.msix" Offset="2073781" Size="11271" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="tt-ru"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ug-arab" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ug-arab.msix" Offset="2085191" Size="11233" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ug-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-uk" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-uk.msix" Offset="2096558" Size="11215" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uk-ua"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-ur" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-ur.msix" Offset="2107907" Size="11217" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="ur-pk"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-uz-latn" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-uz-latn.msix" Offset="2119263" Size="11130" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="uz-latn-uz"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-vi" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-vi.msix" Offset="2130527" Size="11158" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="vi-vn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-zh-hans" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-zh-hans.msix" Offset="2141824" Size="11049" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-cn"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.language-zh-hant" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_language-zh-hant.msix" Offset="2153012" Size="11047" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="zh-tw"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.scale-100" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_scale-100.msix" Offset="2164191" Size="126340" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="100"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.scale-125" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_scale-125.msix" Offset="2290663" Size="189736" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="125"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.scale-150" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_scale-150.msix" Offset="2480531" Size="239927" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="150"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="resource" Version="0.25032.52.0" ResourceId="split.scale-400" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_scale-400.msix" Offset="2720590" Size="1305492" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Scale="400"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="0.25032.52.0" Architecture="x64" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_x64.msix" Offset="4026208" Size="1249294" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="0.25032.52.0" Architecture="x86" FileName="AppxMetadata\Stub\CrossDeviceComponentStub.Package_0.25032.52.0_x86.msix" Offset="5275628" Size="1233513" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="1.25032.52.0" Architecture="arm64" FileName="CrossDeviceComponent.Package_1.25032.52.0_ARM64.msix" Offset="6509247" Size="24848388">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25032.52.0" Architecture="x64" FileName="CrossDeviceComponent.Package_1.25032.52.0_x64.msix" Offset="35773631" Size="25244739">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25032.52.0" Architecture="x86" FileName="CrossDeviceComponent.Package_1.25032.52.0_x86.msix" Offset="61018474" Size="23315392">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-gl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-gl.msix" Offset="32067889" Size="29254">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-bg" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-bg.msix" Offset="31527667" Size="30387">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-gu" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-gu.msix" Offset="32097255" Size="30317">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-hi" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-hi.msix" Offset="32156974" Size="30353">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-fa" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-fa.msix" Offset="31888081" Size="30238">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-or" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-or.msix" Offset="32988296" Size="30823">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-nl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-nl.msix" Offset="32930477" Size="28894">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-hy" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-hy.msix" Offset="32246515" Size="30467">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-et" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-et.msix" Offset="31829947" Size="29078">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-am" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-am.msix" Offset="31386708" Size="30162">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-kk" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-kk.msix" Offset="32423436" Size="30200">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ml" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ml.msix" Offset="32751960" Size="31157">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-lt" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-lt.msix" Offset="32633580" Size="29294">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-mi-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-mi-latn.msix" Offset="32692461" Size="28941">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-az-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-az-latn.msix" Offset="31477103" Size="29413">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-tr" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-tr.msix" Offset="33605822" Size="29031">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-qps-ploc" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-qps-ploc.msix" Offset="33114924" Size="41928">
+			<Resources>
+				<Resource Language="qps-ploc"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-kok" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-kok.msix" Offset="32543397" Size="30384">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sk" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sk.msix" Offset="33330717" Size="29518">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-mk" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-mk.msix" Offset="32721514" Size="30334">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-mt" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-mt.msix" Offset="32842128" Size="29157">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-id" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-id.msix" Offset="32277094" Size="28317">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-qps-ploca" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-qps-ploca.msix" Offset="33156971" Size="41970">
+			<Resources>
+				<Resource Language="qps-ploca"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-uk" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-uk.msix" Offset="33695724" Size="30513">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sr-cyrl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sr-cyrl.msix" Offset="33419311" Size="37089">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ug-arab" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ug-arab.msix" Offset="33665501" Size="30111">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-hr" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-hr.msix" Offset="32187439" Size="29177">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-lo" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-lo.msix" Offset="32603422" Size="30046">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-te" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-te.msix" Offset="33545564" Size="30494">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ur" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ur.msix" Offset="33726349" Size="30290">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ru" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ru.msix" Offset="33300037" Size="30568">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-pl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-pl.msix" Offset="33049975" Size="29503">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sv" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sv.msix" Offset="33486032" Size="28675">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-zh-hans" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-zh-hans.msix" Offset="33815341" Size="28430">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-cs" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-cs.msix" Offset="31650967" Size="29565">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ko" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ko.msix" Offset="32514225" Size="29059">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ka" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ka.msix" Offset="32392830" Size="30494">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-is" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-is.msix" Offset="32305523" Size="29248">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sr-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sr-latn.msix" Offset="33456517" Size="29403">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-af" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-af.msix" Offset="31357747" Size="28849">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ne" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ne.msix" Offset="32900134" Size="30231">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-vi" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-vi.msix" Offset="33785911" Size="29313">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-gd-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-gd-latn.msix" Offset="32038443" Size="29334">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sl.msix" Offset="33360347" Size="29232">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-kn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-kn.msix" Offset="32483788" Size="30325">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-fi" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-fi.msix" Offset="31918431" Size="28961">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-he" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-he.msix" Offset="32127684" Size="29178">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-hu" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-hu.msix" Offset="32216728" Size="29675">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-eu" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-eu.msix" Offset="31859137" Size="28832">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ta" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ta.msix" Offset="33514819" Size="30633">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-de" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-de.msix" Offset="31738469" Size="29515">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-qps-plocm" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-qps-plocm.msix" Offset="33199060" Size="41929">
+			<Resources>
+				<Resource Language="qps-plocm"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ar" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ar.msix" Offset="31416982" Size="29589">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-cy" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-cy.msix" Offset="31680644" Size="28922">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ca" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ca.msix" Offset="31618019" Size="32836">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-lb" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-lb.msix" Offset="32573893" Size="29417">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-pa" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-pa.msix" Offset="33019231" Size="30632">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-lv" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-lv.msix" Offset="32662986" Size="29358">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-be" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-be.msix" Offset="31506628" Size="20927">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-as" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-as.msix" Offset="31446683" Size="30303">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-th" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-th.msix" Offset="33576170" Size="29540">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-tt-cyrl" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-tt-cyrl.msix" Offset="33634970" Size="30414">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-uz-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-uz-latn.msix" Offset="33756756" Size="29043">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-zh-hant" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-zh-hant.msix" Offset="33843888" Size="28566">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-nn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-nn.msix" Offset="32959483" Size="28701">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ms" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ms.msix" Offset="32813491" Size="28525">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-bs" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-bs.msix" Offset="31588642" Size="29265">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-pt" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-pt.msix" Offset="33079590" Size="35216">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-km" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-km.msix" Offset="32453748" Size="29928">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-da" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-da.msix" Offset="31709678" Size="28679">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ja" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ja.msix" Offset="32363841" Size="28877">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ro" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ro.msix" Offset="33270784" Size="29141">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-it" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-it.msix" Offset="32334883" Size="28846">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-el" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-el.msix" Offset="31768096" Size="30986">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-es" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-es.msix" Offset="31799194" Size="30641">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-sq" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-sq.msix" Offset="33389691" Size="29503">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-fil-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-fil-latn.msix" Offset="31947510" Size="28979">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-fr" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-fr.msix" Offset="31976601" Size="32336">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-ga" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-ga.msix" Offset="32009049" Size="29277">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-nb" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-nb.msix" Offset="32871397" Size="28625">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-mr" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-mr.msix" Offset="32783229" Size="30150">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-quz-latn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-quz-latn.msix" Offset="33241107" Size="29565">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.scale-100" FileName="CrossDeviceComponent.Package_1.25032.52.0_scale-100.msix" Offset="33872564" Size="136128">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.language-bn" FileName="CrossDeviceComponent.Package_1.25032.52.0_language-bn.msix" Offset="31558166" Size="30364">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.scale-125" FileName="CrossDeviceComponent.Package_1.25032.52.0_scale-125.msix" Offset="34008802" Size="199525">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.scale-150" FileName="CrossDeviceComponent.Package_1.25032.52.0_scale-150.msix" Offset="34208437" Size="249709">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25032.52.0" ResourceId="split.scale-400" FileName="CrossDeviceComponent.Package_1.25032.52.0_scale-400.msix" Offset="34458256" Size="1315271">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19045.0" MaxVersionTested="10.0.22621.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

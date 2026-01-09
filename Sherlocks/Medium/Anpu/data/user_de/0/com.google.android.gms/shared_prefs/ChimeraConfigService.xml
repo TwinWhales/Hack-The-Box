@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="Chimera.downloadFrom" value="0" />
+    <long name="Chimera.lastHeterodyneChangeTime" value="1720734463504" />
+    <string name="Chimera.moduleSetJournal">CiEKCWNvbnRhaW5lchC8/LzF9DogpaeOn4oyKgIIBioCCA0KFgoEa2lkcxCg2rJKIJinjp+KMioC&#10;CAIKGgoEa2lkcxCc1If1j5+mBCCYp46fijIqAggCCj4KBGtpZHMQnJSwv6rZpgQgoKeOn4oyKgII&#10;DSoCCAIqAggNKgIIAioCCA0qAggCKgIIDSoCCAIqAggNKgIIAgpFCgtzaWRlY2FyX2FwcxC8try9&#10;tZeiBCCgp46fijIqAggNKgIIAioCCA0qAggCKgIIDSoCCAIqAggNKgIIAioCCA0qAggC&#10;    </string>
+    <long name="Chimera.lastUpdateTime" value="1720736519060" />
+    <long name="Chimera.lastHeterodyneServingVersion" value="1720732200" />
+    <int name="ChimeraConfigService.scheduledPeriodSec" value="43201" />
+    <int name="ChimeraConfigService.retryCount" value="1" />
+</map>

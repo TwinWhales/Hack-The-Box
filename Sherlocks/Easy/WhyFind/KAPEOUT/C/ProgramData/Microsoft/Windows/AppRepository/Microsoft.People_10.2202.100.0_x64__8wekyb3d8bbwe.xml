@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap uap4 mp rescap build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.People" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="10.2202.100.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="60be1fb8-3291-4b21-bd39-2221ab166481" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\PeopleStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="x4c7a3b7dy2188y46d4ya362y19ac5a5805e5x" Executable="PeopleApp.exe" EntryPoint="PeopleApp.App">
+      <uap:VisualElements DisplayName="ms-resource:AppListName" Square150x150Logo="Assets\PeopleMedTile.png" Square44x44Logo="Assets\PeopleAppList.png" Description="ms-resource:AppManifest_AppDescription" BackgroundColor="#0078D4" AppListEntry="none">
+        <uap:SplashScreen BackgroundColor="#0078D4" Image="Assets\PeopleSplashScreen.png"/>
+        <uap:DefaultTile Square71x71Logo="Assets\PeopleSmallTile.png" Square310x310Logo="Assets\PeopleLargeTile.png" Wide310x150Logo="Assets\PeopleWideTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap4:Extension Category="windows.contactPanel"/>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-people" ReturnResults="optional"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="tel"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="vcard">
+            <uap:SupportedFileTypes>
+              <uap:FileType ContentType="text/vcard">.vcf</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="Microsoft.People.Relevance.Service.RelevanceServiceTask">
+          <uap:AppService Name="com.peoplerelevance"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="Microsoft.People.NativeComponents.Service.PeopleDataServiceTask">
+          <uap:AppService Name="peopledata"/>
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.ContactStoreNotificationBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.MessagingStoreNotificationBackgroundTask">
+          <BackgroundTasks>
+            <uap:Task Type="chatMessageNotification"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.EmailStoreNotificationBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.PhoneCallNotificationBackgroundTask">
+          <BackgroundTasks>
+            <uap:Task Type="phoneCall"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.MaintenanceBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.ContactTelemetryBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Apps.People.BackgroundTasks.AutoContactsBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent"/>
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <rescap:Capability Name="appointmentsSystem"/>
+    <rescap:Capability Name="contactsSystem"/>
+    <rescap:Capability Name="phoneCallHistorySystem"/>
+    <rescap:Capability Name="chatSystem"/>
+    <rescap:Capability Name="emailSystem"/>
+    <rescap:Capability Name="enterpriseDataPolicy"/>
+    <rescap:Capability Name="phoneCall"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.People.NativeComponents.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Service.PeopleDataServiceTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.ContactCardData.ContactCardDataModelFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.LoggerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.ServerResponse" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.UserActivityHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.ExecutionCostHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.ContactHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.SharedFactories" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.AutoContactsHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.NamedEventLock" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.PersistedCacheContainer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.CachedResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.MicrosoftGraphApiHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.MicrosoftGraphContactParser" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Utilities.CachedResultsManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Authentication.WebAccountDetails" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Authentication.WebAccountWrapper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Authentication.WebAuthenticationManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.Authentication.AccessTokenRequest" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.CRE.ContactResolutionEngineFactory" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.CRE.PlatformContacts.PlatformContactsHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.NativeComponents.CRE.ContactQueryParameters" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.People.Relevance.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.LoggerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.RelevanceQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.Service.RelevanceServiceTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>People.BackgroundTasks.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.MessagingStoreNotificationBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.ContactTileManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.LoggerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.OobeBackgroundTaskStarter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.MaintenanceBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.PrimaryTileManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.AutoContactsStore" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.PhoneCallNotificationBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.ContactTelemetryBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.PinnedContactHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.ContactStoreNotificationBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.AutoContactsBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.BackgroundTaskManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.EmailStoreNotificationBackgroundTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.ResourceAccessor" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.TileManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Apps.People.BackgroundTasks.AutoContactsManager" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PeopleUtilRT.dll</Path>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.ContactName" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.LoggerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.NameParserHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.PeopleLogFlusher" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.BackgroundTaskHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.ProtocolArgHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="PeopleUtilRT.PeopleEtwSession" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.People.Relevance.QueryClient.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.QueryClient.RelevanceServiceQueryParameters" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.QueryClient.LoggerInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.QueryClient.RelevanceAppServiceResponse" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.QueryClient.RelevanceServiceQuery" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.People.Relevance.QueryClient.RelevanceAppServiceConnectionManager" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="16.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.34301.259"/>
+    <build:Item Name="ProjectGUID" Value="{0BD62AAB-6C7A-4C63-A9A1-9DE8F5E3349C}"/>
+    <build:Item Name="ilc.exe" Version="2.2.29722.00 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.17763.132"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="false"/>
+    <build:Item Name="DisableExceptionMessages" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="LargeAddressAware" Value="false"/>
+    <build:Item Name="NoLinkerSymbols" Value="false"/>
+    <build:Item Name="WindowsMobile" Version="10.0.17763.0"/>
+    <build:Item Name="WindowsDesktop" Version="10.0.17763.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.17763.132 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

@@ -1,0 +1,1283 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp uap3 uap4 uap5 rescap desktop build" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="AD2F1837.myHP" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="43.52513.1706.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="37c78969-df0c-4749-8be1-4cce576b2e12" PhonePublisherId="23871b4b-1f34-4311-8990-5079df6ece9f" />
+  <Properties>
+    <DisplayName>myHP</DisplayName>
+    <PublisherDisplayName>HP Inc.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0" />
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2207.14002.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.29512.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="AR" />
+    <Resource Language="AR-SA" />
+    <Resource Language="BG" />
+    <Resource Language="BG-BG" />
+    <Resource Language="CA" />
+    <Resource Language="CS" />
+    <Resource Language="CS-CZ" />
+    <Resource Language="DA" />
+    <Resource Language="DA-DK" />
+    <Resource Language="DE" />
+    <Resource Language="DE-DE" />
+    <Resource Language="EL" />
+    <Resource Language="EL-GR" />
+    <Resource Language="EN" />
+    <Resource Language="EN-GB" />
+    <Resource Language="EN-US" />
+    <Resource Language="ES" />
+    <Resource Language="ES-ES" />
+    <Resource Language="ET" />
+    <Resource Language="ET-EE" />
+    <Resource Language="EU" />
+    <Resource Language="FI" />
+    <Resource Language="FI-FI" />
+    <Resource Language="FR" />
+    <Resource Language="FR-CA" />
+    <Resource Language="FR-FR" />
+    <Resource Language="GL" />
+    <Resource Language="HE" />
+    <Resource Language="HE-IL" />
+    <Resource Language="HR" />
+    <Resource Language="HR-HR" />
+    <Resource Language="HU" />
+    <Resource Language="HU-HU" />
+    <Resource Language="IT" />
+    <Resource Language="IT-IT" />
+    <Resource Language="JA" />
+    <Resource Language="JA-JP" />
+    <Resource Language="KO" />
+    <Resource Language="KO-KR" />
+    <Resource Language="LT" />
+    <Resource Language="LT-LT" />
+    <Resource Language="LV" />
+    <Resource Language="LV-LV" />
+    <Resource Language="NB" />
+    <Resource Language="NB-NO" />
+    <Resource Language="NL" />
+    <Resource Language="NL-NL" />
+    <Resource Language="PL" />
+    <Resource Language="PL-PL" />
+    <Resource Language="PT" />
+    <Resource Language="PT-BR" />
+    <Resource Language="PT-PT" />
+    <Resource Language="RO" />
+    <Resource Language="RO-RO" />
+    <Resource Language="RU" />
+    <Resource Language="RU-RU" />
+    <Resource Language="SK" />
+    <Resource Language="SK-SK" />
+    <Resource Language="SL" />
+    <Resource Language="SL-SI" />
+    <Resource Language="SV" />
+    <Resource Language="SV-SE" />
+    <Resource Language="TH" />
+    <Resource Language="TH-TH" />
+    <Resource Language="TR" />
+    <Resource Language="TR-TR" />
+    <Resource Language="UK" />
+    <Resource Language="UK-UA" />
+    <Resource Language="ZH-CN" />
+    <Resource Language="ZH-HK" />
+    <Resource Language="ZH-TW" />
+    <Resource uap:Scale="100" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="HP.myHP.exe" EntryPoint="HP.HPX.App">
+      <uap:VisualElements DisplayName="myHP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="myHP" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png" />
+        <uap:SplashScreen uap5:Optional="true" BackgroundColor="#4759F5" Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="myhp">
+            <uap:DisplayName>myHP</uap:DisplayName>
+            <uap:Logo>Assets\StoreLogo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpcomcent">
+            <uap:DisplayName>myHP</uap:DisplayName>
+            <uap:Logo>Assets\StoreLogo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" Executable="HP.myHP.exe" EntryPoint="HP.HPX.App">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="myHP.exe" />
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpx">
+            <uap:DisplayName>myHP</uap:DisplayName>
+            <uap:Logo>Assets\StoreLogo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpsmartmigration">
+            <uap:DisplayName>myHP</uap:DisplayName>
+            <uap:Logo>Assets\StoreLogo.png</uap:Logo>
+          </uap:Protocol>
+        </uap:Extension>
+        <desktop:Extension Category="windows.fullTrustProcess" Executable="win32\DesktopExtension.exe">
+          <desktop:FullTrustProcess>
+            <desktop:ParameterGroup GroupId="pcsystemcontrol-core" Parameters="StartSystemControl" />
+            <desktop:ParameterGroup GroupId="proximity-screentime" Parameters="StartProximitySense" />
+            <desktop:ParameterGroup GroupId="proximity-screendistance" Parameters="StartProximitySense" />
+            <desktop:ParameterGroup GroupId="pencontrol-core" Parameters="StartConsumerPencontrol" />
+            <desktop:ParameterGroup GroupId="contextaware-appsettings" Parameters="StartContextAwareService" />
+            <desktop:ParameterGroup GroupId="userdetection-screentime" Parameters="StartUserDetection" />
+            <desktop:ParameterGroup GroupId="userdetection-screendistance" Parameters="StartUserDetection" />
+            <desktop:ParameterGroup GroupId="pcposture-core" Parameters="StartUserDetection" />
+            <desktop:ParameterGroup GroupId="pcgesture-core" Parameters="StartUserDetection" />
+            <desktop:ParameterGroup GroupId="smartexperiences-blur" Parameters="StartSmartExperiencesBlur" />
+            <desktop:ParameterGroup GroupId="smartexperiences-blur-reset" Parameters="StartSmartExperiencesBlurReset" />
+          </desktop:FullTrustProcess>
+        </desktop:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="DesktopExtension" />
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="RtkAudioCore.RBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="general" />
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppLifecycle.SessionConnectTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppLifecycle.LaunchAppTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppLifecycle.VerifyFusionTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="DropboxInstallationComplete" />
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="myHPToExtAppService" />
+        </uap:Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="myHPAppService" />
+        </uap:Extension>
+        <Extension Category="windows.preInstalledConfigTask" EntryPoint="HP.AppFramework.AppLifecycle.AutoLaunchTask" />
+        <Extension Category="windows.updateTask" EntryPoint="HP.AppFramework.AppUpgrade.UpgradeTask" />
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppUpgrade.SilentUpdateTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppUpgrade.DailyUpdateAvailabilityCheckTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <uap5:Extension Category="windows.startupTask" Executable="win32\DesktopExtension.exe" EntryPoint="Windows.FullTrustApplication">
+          <uap5:StartupTask TaskId="HPAudioSwitch" Enabled="true" DisplayName="myHP System Tray" />
+        </uap5:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.SmartExperiences.CustomTriggerTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.SmartExperiences.ToastTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.Toast.BackgroundTasks.ScheduledToastNotification">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.PowerManagerClient.InitialConsumerSystemControlTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.PowerManagerClient.ConsumerSystemControlUserPresentTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.PenBackgroundTask.ConsumerPenControlBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.ShowProximitySensorScreenDistanceToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.ShowProximitySensorScreenTimeToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.HideProximitySensorScreenTimeToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.HideProximitySensorScreenDistanceToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.ProximitySensorToastHandler">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.InitialProximitySensorScreenDistanceTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.ProximitySensor.InitialProximitySensorScreenTimeTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.PCTouchpad.HapticTouchpad.HapticGestureTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.PCTouchpad.HapticTouchpad.HapticGestureUserPresentTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppLifecycle.SmartCamUpdates">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="myhp-oauth">
+            <uap:DisplayName>myHP</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.NPSToastNotification.NPSToastTask">
+          <BackgroundTasks>
+            <Task Type="timer" />
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.PowerManagerClient.CommercialSystemControlBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.PowerManagerClient.PeakShiftNotificationTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="HP.ContextAwareService.ContextBackgroundTask">
+          <uap:AppService Name="ContextAwareAppService" />
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.AppLifecycle.VerifyAutoLaunchTask">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.ContextAwareService.StartContextAwareService">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.appService">
+          <uap:AppService Name="NotifyContextAware" />
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.NPSToastNotification.VerifyNPSTask">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.Analytics.AudienceInstance.SendAudienceInstanceTask">
+          <BackgroundTasks>
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.ShowUserDetectionScreenDistanceToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.ShowUserDetectionScreenTimeToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.HideUserDetectionScreenTimeToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.HideUserDetectionScreenDistanceToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.ShowUserDetectionBadPostureAlertToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.ShowUserDetectionBadPostureReminderToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.HideUserDetectionBadPostureAlertToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.HideUserDetectionBadPostureReminderToast">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.UserDetectionToastHandler">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.InitialUserDetectionScreenDistanceTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.InitialUserDetectionScreenTimeTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.InitialUserDetectionGestureTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.UserDetection.InitialUserDetectionPostureTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HP.AppFramework.PowerManagerClient.CommercialSystemControlEDBackgroundTask">
+          <BackgroundTasks>
+            <Task Type="systemEvent" />
+          </BackgroundTasks>
+        </Extension>
+      </Extensions>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Type="include" Match="http://localhost:8080" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://static-dev.tropos-rnd.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://hpx.*.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://static.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://www.hpsmartstage.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://hpx.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://www.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://www.hpsmartpie.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpsmartpie.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpsmartpie.cso-hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://hpsmartpie.cso-hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpsmartstage.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.pie.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.pro.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.stg.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.stage.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.portalshell.int.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hp-smartstage.cn" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hp-smart.cn" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://www.hpx.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpx.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.hpx.hpsmart.cn" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://*.*.hpsmart.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://support.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://myaccount.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://stage.myaccount.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://virtualagent.hpcloud.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://virtualagent-stg.hpcloud.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://login3.stg.cd.id.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://login3.id.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://directory.id.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://directory.stg.cd.id.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://oauth-auth.oc.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://oauth-auth.stg.oc.hp.com" WindowsRuntimeAccess="none" />
+        <uap:Rule Type="include" Match="https://account.hp.com" WindowsRuntimeAccess="none" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="enterpriseAuthentication" />
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="confirmAppClose" />
+    <rescap:Capability Name="smbios" />
+    <rescap:Capability Name="cellularDeviceControl" />
+    <rescap:Capability Name="cellularDeviceIdentity" />
+    <rescap:Capability Name="audioDeviceConfiguration" />
+    <uap4:CustomCapability Name="HPInc.hpAppHelperCap_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="HPInc.hpNetworkCap_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="HPInc.hpSysInfoCap_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="HP.telemetry_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="HPInc.hotKeyService_v10z8vjag6ke6" />
+    <uap4:CustomCapability Name="Microsoft.eSIMManagement_8wekyb3d8bbwe" />
+    <uap4:CustomCapability Name="RealtekSemiconductorCorp.hdUSBAudio_dt26b99r8h8gj" />
+    <uap4:CustomCapability Name="Xperi.dtsAudioSettings_t5j2fzbtdg37r" />
+    <uap4:CustomCapability Name="SoundResearch.audioSettings_sassr7xhpkj7p" />
+    <uap4:CustomCapability Name="Fortemedia.audioSettings_4pejv7q2gmsnr" />
+    <uap4:CustomCapability Name="WavesAudio.audiosettings_fh4rh281wavaa" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="humanPresence" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.publisherCacheFolders">
+      <PublisherCacheFolders>
+        <Folder Name="HPX" />
+      </PublisherCacheFolders>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.ReactNative.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.DynamicAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactViewOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.XamlUIService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.DynamicAutomationProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.JsiRuntime" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.QuirkSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactPropertyBagHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.CoreAppPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactRootView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactCoreInjection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.RedBoxHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactApplication" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactNotificationServiceHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.XamlHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactDispatcherHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.DynamicValueProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactInstanceSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ViewPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ViewControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.ReactNativeHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.LayoutService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.ReactNative.DevMenuControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PCCameraControls.dll</Path>
+        <ActivatableClass ActivatableClassId="PCCameraControls.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNCConfig.dll</Path>
+        <ActivatableClass ActivatableClassId="RNCConfig.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNFS.dll</Path>
+        <ActivatableClass ActivatableClassId="RNFS.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNSVG.dll</Path>
+        <ActivatableClass ActivatableClassId="RNSVG.DefsViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.CircleViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.SymbolView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.UseView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.TextViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.PathView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.SVGLength" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.LinearGradientView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.SymbolViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RadialGradientView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.SvgViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.BrushView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.EllipseView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.SvgView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.EllipseViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.ImageViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.PatternView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.DefsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.LineViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RenderableView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.TextView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.CircleView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RectView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.TSpanView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.TSpanViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.GroupView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.UseViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RadialGradientViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.ImageView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.LinearGradientViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RenderableViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.RectViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.LineView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.GroupViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.PatternViewManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSVG.PathViewManager" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNSplashScreen.dll</Path>
+        <ActivatableClass ActivatableClassId="RNSplashScreen.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSplashScreen.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RNSplashScreen.RNSplashScreenControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNDeviceInfoCPP.dll</Path>
+        <ActivatableClass ActivatableClassId="RNDeviceInfoCPP.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNLocalize.dll</Path>
+        <ActivatableClass ActivatableClassId="RNLocalize.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>ReactNativeAsyncStorage.dll</Path>
+        <ActivatableClass ActivatableClassId="ReactNativeAsyncStorage.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>ReactNativePicker.dll</Path>
+        <ActivatableClass ActivatableClassId="ReactNativePicker.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ReactNativePicker.ReactPickerView" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RNCNetInfoCPP.dll</Path>
+        <ActivatableClass ActivatableClassId="ReactNativeNetInfo.ReactPackageProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>DateTimePicker.dll</Path>
+        <ActivatableClass ActivatableClassId="DateTimePicker.TimePickerView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DateTimePicker.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DateTimePicker.DateTimePickerView" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>ReactNativeWebView.dll</Path>
+        <ActivatableClass ActivatableClassId="ReactNativeWebView.WebBridge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ReactNativeWebView.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ReactNativeWebView.ReactWebView2" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ReactNativeWebView.ReactWebView" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>BVLinearGradient.dll</Path>
+        <ActivatableClass ActivatableClassId="BVLinearGradient.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="BVLinearGradient.BVLinearGradientModule" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AdaptiveCards.ObjectModel.Uwp.dll</Path>
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveMediaParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTableRow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveOpenUrlActionParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveImageSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveNumberInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveActionSetParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveRichTextBlockParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveRequirement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTimeInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveColumnSetParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveToggleVisibilityTarget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveOpenUrlAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveRichTextBlock" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTimeInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveSubmitAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveShowCardAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveMediaSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveColumn" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveRefresh" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTokenExchangeResource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveError" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTableParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveFactSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveToggleVisibilityAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveWarning" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveFact" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveAuthentication" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveAuthCardButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveMedia" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveExecuteAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTextBlock" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveShowCardActionParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveNumberInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveDateInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveActionSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveBackgroundImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveRemoteResourceInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveElementParserRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveToggleInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveActionParserRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveChoiceInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveToggleInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveImageSetParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveSubmitActionParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTextBlockParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveColumnParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveExecuteActionParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveColumnSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTextInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveUnsupportedAction" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTableCell" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveContainerParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveImageParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveFactSetParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTextInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveToggleVisibilityActionParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveUnsupportedElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveDateInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveChoiceSetInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveCardParseResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTextRun" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveCard" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTable" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveChoiceSetInputParser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.ObjectModel.Uwp.AdaptiveTableColumnDefinition" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AdaptiveCards.Rendering.Uwp.dll</Path>
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveImageSetConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.TileControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveLabelConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveImageSetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveContainerStyleDefinition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveCardResourceResolvers" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveInputLabelConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveChoiceSetInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveExecuteActionRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveCardConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFactSetConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFontTypeDefinition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTextInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveColorConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.RenderedAdaptiveCard" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveInputsConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveActionRendererRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveHostConfigParseResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveMediaConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveSubmitActionRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFontSizesConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.WholeItemsPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTimeInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveImageSizesConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTableConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveHostConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveMediaRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFontTypesDefinition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveSeparatorConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFactSetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFeatureRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTextBlockConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveSpacingConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveInputs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveContainerRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveImageConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveShowCardActionConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveHighlightColorConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTextStylesConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveImageRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveDateInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveActionSetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveToggleInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveNumberInputRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveColumnSetRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveErrorMessageConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveMediaEventInvoker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFontWeightsConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveCardRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTableRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveContainerStylesDefinition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTextBlockRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveTextStyleConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.ElementTagContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveColorsConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveRichTextBlockRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveCardGetResourceStreamArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveActionInvoker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveRenderContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveOpenUrlActionRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveColumnRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveFactSetTextConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveToggleVisibilityActionRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveShowCardActionRenderer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveActionsConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AdaptiveCards.Rendering.Uwp.AdaptiveRenderArgs" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPRpcClient_Native.dll</Path>
+        <ActivatableClass ActivatableClassId="HPRpcClient_Native.RpcClient" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>AnalyticsNativeSDK.dll</Path>
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.CommonProcessingPermissionsN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.StorageRequirementsN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsHelperNativeN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsDocumentsN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.PermissionsRequiredN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsStrictlyNecessaryInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsConsentN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsSessionN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsServiceNativeErrorsExN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.AnalyticsDataClassN" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="AnalyticsNativeSDK.ProcessingPermissionsN" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>LauncherNativeSDK.dll</Path>
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherHelperNative" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.AppServiceInfoEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherProtectProcessResultEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.DictionaryEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherWaitForProcessToExitResultEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherIsProcessRunningResultEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherKillAllProcessesWithNameResultEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherKillProcessResultEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="LauncherNativeSDK.LauncherCreateProcessResultEx" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>PrinterExtensionEventSinks.dll</Path>
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.PrinterPrintQueueEventHandlerHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.PrinterQueueEventHelperEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.QuickConvertor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.PrinterQueueEventHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.PrinterQueueViewEventHelperEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.Extensions.PrintHelperClass" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaTicket" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrinterQueue2" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrinterQueueViewEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaNUpOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaAsyncOp" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaCapabilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrinterExtensionContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PrinterExtensionEventSinks.Printing.PrinterExtension.PrintSchemaPageMediaSizeOption" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HP.myHP.dll</Path>
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.HPPrivacyConsentUI_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.CustomTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.AppTheme" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.ConsentDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.UIElements" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.SettingsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.Common.AppThemeManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.Common.Util" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.HPPrivacyConsentUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPPrivacyConsentUI.ErrorDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Toolkit.Uwp.UI.Lottie.LottieVisualSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AF.ES.Global.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AF.ES.SysProp.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AF.ES.SysProp.SystemPropertiesModuleHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.OriginatorDetail" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.AudienceInstanceEvent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.OriginatorContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.OriginatorContextDetail" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.TelemetryClientResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.FilterResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.SendAudienceInstanceTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.Originator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.AnalyticsAudienceInstanceShared" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.Filter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.StringExtensions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.EnablingServicesRegistryValue" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.Event" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.Cdm" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.EventDetail" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.Analytics.AudienceInstance.Filters" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Analytics.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.LaunchAppTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.VerifyFusionTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.SmartCamUpdates" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.SessionConnectTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.BackgroundTasks.BackgroundTaskManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.BackgroundTasks.Features.Migration.Migrate" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.BackgroundTasks.Features.Migration.MigrationCheck" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.AutoLaunchTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.VerifyAutoLaunchTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.BackgroundTaskRegistrationHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.LifecycleLibrary" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.LifecycleSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppLifecycle.SampleTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppService.AppServiceResponseModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppService.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppService.Wrappers.AppServiceResponseWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppService.AppServiceConnectionManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppUpgrade.UpdateHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppUpgrade.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppUpgrade.SilentUpdateTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppUpgrade.DailyUpdateAvailabilityCheckTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.AppUpgrade.UpgradeTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Auth.WebAuthenticator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Auth.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Auth.WebAuthBrokerWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Auth.AuthResult" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.CameraInfo.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.CameraInfo.CameraSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.CameraInfo.SettingOption" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.CameraInfo.AppearanceFilter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.CameraInfo.FaceFraming" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Hotkey.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Hotkey.HotKeyLibrary" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Jarvis.Auth.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Jarvis.Auth.ExternalAuthHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Jarvis.EventService.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Logging.EtwTransport.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Logging.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Logging.NativeLoggerHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.NetInfo.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Notifications.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PcAudioRealtek.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PcAudioRealtek.ToastHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.DayPeakShift" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.JsonToListConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.PeakShiftNotificationTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.CommercialSystemControlEDBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.BatteryParticulars" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.DayData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.Helpers.FeatureSwitch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.InitialConsumerSystemControlTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.ConsumerSystemControlUserPresentTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.CommercialSystemControlBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.PowerManagerClient.PeakShift" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.NecessaryNoticeConsentResetTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.StrictlyNecessaryNoticeData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.ConsentData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.BackgroundAnalyticsConsent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Privacy.AnalyticsStrictlyNecessaryInfoData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.HideProximitySensorScreenDistanceToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.InitialProximitySensorScreenTimeTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.InitialProximitySensorScreenDistanceTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.ShowProximitySensorScreenTimeToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.ShowProximitySensorScreenDistanceToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.ProximitySensorToastHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.ProximitySensor.HideProximitySensorScreenTimeToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Toast.BackgroundTasks.ScheduledToastNotification" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Toast.ToastConstants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Toast.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.AppFramework.Toast.ToastNotificationManagerWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.ContextAwareService.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.ContextAwareService.Subscriber" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.ContextAwareService.ContextBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.ContextAwareService.StartContextAwareService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.WMIAttributs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSRegister" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSTranslation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NotificationsSystemProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.VerifyNPSTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSToastTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSNotification" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSLocalization" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.NPSToastNotification.NPSHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PCAudio.SoundResearch.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PCTouchpad.HapticTouchpad.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PCTouchpad.HapticTouchpad.HapticGestureUserPresentTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PCTouchpad.HapticTouchpad.HapticGestureTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PenBackgroundTask.ConsumerPenControlBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PenBackgroundTask.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.SmartExperiences.ToastTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.SmartExperiences.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.SmartExperiences.PresetsConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.SmartExperiences.CustomTriggerTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.HideUserDetectionScreenDistanceToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.InitialUserDetectionPostureTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.HideUserDetectionBadPostureReminderToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.InitialUserDetectionScreenTimeTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.ShowUserDetectionScreenTimeToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.ShowUserDetectionScreenDistanceToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.ShowUserDetectionBadPostureReminderToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.InitialUserDetectionGestureTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.HideUserDetectionBadPostureAlertToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.InitialUserDetectionScreenDistanceTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.ShowUserDetectionBadPostureAlertToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.UserDetectionToastHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.UserDetection.HideUserDetectionScreenTimeToast" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="PCAudio.Waves.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="ReactNativeDocumentPicker.ReactPackageProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.TilePushUpdateService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.MonitorDataCollectionActivity" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.DelayECStartupIfUserPresent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.SessionConnectedBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.ICSService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.MonitorICSPowerStateChange" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.ICSConstants" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Output" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Wednesday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Timespan" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.SetPeakShiftTimesInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Data" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Tuesday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Saturday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.GetPeakShiftTimesOutput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Monday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Thursday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Friday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Sunday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControl.Input" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.AppVersion" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Timespan" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Output" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Wednesday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Data" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.GetIntelligentChargeSchedulerOutput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Tuesday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Saturday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Monday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Thursday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.SetIntelligentHibernateTimesInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Friday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Sunday" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.GetIntelligentHibernateTimesOutput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.SetIntelligentSchedulerTimesInput" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.Helpers.PowerControlICS.Input" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.OLEDBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.StartECDelayProcess" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HP.PowerManagerBackgroundTask.MonitorICSTimeZoneChangeEntryPoint" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUW.SupportedLanguages" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUW.ViewModelFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUW.LanguageHelpers" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.NotificationHistoryBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.LanguageHelpers" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.SupportedLanguages" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.NotificationActionBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SEECUWVHPAS.Service" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HPScan.dll</Path>
+        <ActivatableClass ActivatableClassId="HPScan.PngEncoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.Point" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.ScanImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.QuadPoints" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.JpegEncoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.OCRAsset" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.OCRJob" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.OCRHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.OCRConfig" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HPScan.ImagingHelper" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Graphics.Canvas.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasBitmap" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LuminanceToAlphaEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.RgbToHueEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EdgeDetectionEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueRotationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GrayscaleEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BlendEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.WhiteLevelAdjustmentEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SpotDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GaussianBlurEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.VignetteEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PremultiplyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantDiffuseEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EmbossEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.GammaTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CropEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.InvertEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AtlasEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HueToRgbEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ArithmeticCompositeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform3DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HdrToneMapEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ConvolveMatrixEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SepiaEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorSourceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DpiCompensationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TurbulenceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TableTransfer3DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DiscreteTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DisplacementMapEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.UnPremultiplyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SharpenEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TintEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BrightnessEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ExposureEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.OpacityMetadataEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.MorphologyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ContrastEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TileEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PixelShaderEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.Transform2DEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DistantSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.HighlightsAndShadowsEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.EffectTransferTable3D" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ScaleEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.BorderEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorManagementProfile" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.StraightenEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.DirectionalBlurEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PosterizeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CrossFadeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.TemperatureAndTintEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.PointSpecularEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ChromaKeyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.LinearTransferEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.SaturationEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ShadowEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.AlphaMaskEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.ColorMatrixEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Effects.CompositeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Svg.CanvasSvgDocument" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasCachedGeometry" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGradientMesh" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasGeometry" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasStrokeStyle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Geometry.CanvasPathBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSpriteBatch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasRenderTarget" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasCommandList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasVirtualBitmap" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasDevice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasSolidColorBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasImageBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasLinearGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Brushes.CanvasRadialGradientBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextFormat" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextRenderingParameters" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTypography" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasNumberSubstitution" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasFontSet" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Text.CanvasTextAnalyzer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.CanvasSwapChain" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedDrawEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasDrawEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasVirtualImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedUpdateEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Xaml.CanvasSwapChainPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.Composition.CanvasComposition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Graphics.Canvas.Printing.CanvasPrintDocument" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SECOMNUW.dll</Path>
+        <ActivatableClass ActivatableClassId="SECOMNUW.ViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.ProfileNamesTag" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.SEAPOCOMAPI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.MathEx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.Filter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.SEAPOENDPOINT_PARAM_INFO" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.UserParamViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.RTACapture" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.EndpointInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.EventRegistration" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.IsoBand" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.EndpointIDsTag" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.CRTA" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.IsoBands" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="SECOMNUW.Misc" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>DTSApo4xWinRTComponent.dll</Path>
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.Realtek_API" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.NotificationHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.DtsRpcInterface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.BindableControls.ApoEnable" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="DTSApo4xWinRTComponent.BindableControls.ApoControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>RtkAudioCore.dll</Path>
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RtkAudioCorePureForHP_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Customize.RHPSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Customize.RAcerSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAudioCorePublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RDriverInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatform" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformAudioDeviceMgr" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformTempUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.WASAPI.RMMPlatformVolumeMgr" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RDriverInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Toast.RToastManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RApoInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectOpenOffice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoSoundResearchEqEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoRtkEqEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoEnhanceEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen5Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectCustomize" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoOmniSpkEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen5_Public" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectNoiseReductionMasterOn" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen2Gen3" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSpeakerApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen3Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSpeakerTest" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoScenarioModeEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoBssGen4Effect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectMulitSingleVoice" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoRtkEaxEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoTrueHarmonyEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkCaptureBssApoEffectGeneralGen4" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RRtkRenderApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RApoEffectBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.ApoEffect.RSounzReal2RenderApoEffect" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceFormatInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDevicePublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.AudioDevice.RAudioDeviceInformationPublicUse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RBackgroundTask" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RAudioCore" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RElementNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RReverseStateConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMiliSecToTimeStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntEqualToValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMicBoostSliderValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RPointerConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntGreaterThanValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntNotEqualToValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.REqSliderValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RFloatMultipleValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RStrEqualToStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RStrNotEqualToStrConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageBindConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RIntPlusValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RImagePathConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RFloatGreaterThanValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RXamlDebugConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.REnabledOpacityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Converter.RMultiLanguageReplaceConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RApoInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RNode" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RPlatformInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RExternalApi" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Jack.RJackInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.Common.RNotifyPropertyChangedCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="RtkAudioCore.RGuiUnitTest" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>FMAPOCTL.dll</Path>
+        <ActivatableClass ActivatableClassId="FMAPOCTL.Win32Api.RUniqueDispatcher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FMAPOCTL.Win32Api.RNotifyPropertyChangedCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FMAPOCTL.FMAPOControl" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.20348.3328 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.12.40529.55679" />
+    <build:Item Name="ProjectGUID" Value="{A564B459-37FD-4AD3-87CE-EEA1122F3084}" />
+    <build:Item Name="ilc.exe" Version="2.2.31116.00 built by: PROJECTNREL" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
+    <build:Item Name="OptimizingToolset" Value="ilc.exe" />
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True" />
+    <build:Item Name="DisableStackTraceMetadata" Value="false" />
+    <build:Item Name="DisableExceptionMessages" Value="false" />
+    <build:Item Name="ShortcutGenericAnalysis" Value="false" />
+    <build:Item Name="GeneratePGD" Value="false" />
+    <build:Item Name="ConsumePGD" Value="false" />
+    <build:Item Name="SingleThreadNUTC" Value="false" />
+    <build:Item Name="Use64BitCompiler" Value="true" />
+    <build:Item Name="OptimizeForSize" Value="false" />
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false" />
+    <build:Item Name="LargeAddressAware" Value="false" />
+    <build:Item Name="NoLinkerSymbols" Value="false" />
+    <build:Item Name="OutOfProcPDB" Value="true" />
+    <build:Item Name="WindowsDesktop" Version="10.0.22621.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.22621.3233 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="HighFrequency_SumMs" value="0" />
+    <int name="HighFrequency_Count" value="1" />
+    <string name="CheckinService_lastSim">[89014103211118510720:310260000000000]</string>
+    <string name="CheckinService_lastSimOperator">310260</string>
+    <string name="lastRadio">1.0.0.0</string>
+    <long name="CheckinInterval_IntervalSeconds" value="40310" />
+    <long name="CheckinInterval_FlexSec" value="10800" />
+    <long name="aggregation_interval" value="1800" />
+    <long name="CheckinService_lastCheckinSuccessTime" value="1720736213501" />
+    <long name="CheckinService_last_checkin_ms_unspecified" value="1720736213510" />
+    <long name="aggregation_flex" value="600" />
+    <long name="CheckinService_checkinCompleteBroadcastTime" value="1720736213514" />
+    <long name="HighFrequency_LastTimestampMs" value="1720644592549" />
+    <string name="android_id">4370414855544497377</string>
+    <string name="CheckinService_versionInfo">s3dgSH5rkm0QQKri541rkWWFL37mCRk</string>
+    <string name="CheckinService_deviceDataVersionInfo">ABFEt1WJ9PoOyvSN9fx7blWnbQ6E0oJvrLvmrPynol2rgIJfx9NdFNoadDEjzn3rZeZHbBJL6nkaP-D0UHkeG6lmrLWicn1YN_PnvTeetmxEQX8fDCKz6h_OMWFOEALTlhSRmKlu3RECHW8Q2rQx313abgflluQVqtXaUpLyUAdi57V44w7GWjSbgfYr8LAEUURkakTH5Cvc9cOWR3XGERjudbyVuziIgwU3J26pJfeL9RlC768w75xqy8dzrvvgWjJLGiARCzjl6hcR-5SPdrEz0TgBpVEjN1FWsQNv-FHik-vFB463NAUei7VXwDSuotI1oYoxPWcHp-2t2mXi-HsB4L6QMfxpuxQ_hKnGxbkyUVT3JsIWPasRPUEb_wPoXYO8FBQ6zYhbUCpGtuDXFUZ9_k5K3x8pPfqS09qFmdV11gJSundN9vE</string>
+    <long name="CheckinTask_bookmark" value="0" />
+    <set name="CheckinService_accountsReceivedByServer">
+        <string>{&quot;authAccount&quot;:&quot;johnnnny999999@gmail.com&quot;,&quot;accountType&quot;:&quot;com.google&quot;}</string>
+    </set>
+</map>

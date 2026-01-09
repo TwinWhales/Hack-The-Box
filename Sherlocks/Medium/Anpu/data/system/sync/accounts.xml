@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<accounts version="3" nextAuthorityId="22" offsetInSeconds="0">
+    <authority id="1" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="subscribedfeeds" syncable="1" />
+    <authority id="2" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.chromesync" syncable="1" />
+    <authority id="3" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.plus.action" syncable="1" />
+    <authority id="4" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.auth.accountstate" syncable="-1" />
+    <authority id="5" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.android.contacts" syncable="1" />
+    <authority id="6" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.location.reporting" syncable="1" />
+    <authority id="7" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.auth.confirm" syncable="-1" />
+    <authority id="8" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.fitness" syncable="-1" />
+    <authority id="9" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.people" syncable="1" />
+    <authority id="10" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.appstate" syncable="0" />
+    <authority id="11" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.music.MusicContent" syncable="0" />
+    <authority id="12" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.android.calendar" syncable="1" />
+    <authority id="13" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.android.chrome" syncable="0" />
+    <authority id="14" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.reminders" syncable="1" />
+    <authority id="15" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.apps.docs" syncable="1" />
+    <authority id="16" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.games" syncable="-1" />
+    <authority id="17" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.games.background" syncable="-1" />
+    <authority id="18" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.drive.sync" syncable="-1" />
+    <authority id="19" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.gms.subscribedfeeds" syncable="1" />
+    <authority id="20" user="0" enabled="true" account="johnnnny999999@gmail.com" type="com.google" authority="gmail-ls" syncable="1" />
+    <authority id="21" user="0" enabled="false" account="johnnnny999999@gmail.com" type="com.google" authority="com.google.android.videos.sync" syncable="1" />
+</accounts>

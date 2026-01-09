@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap2="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/2" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" IgnorableNamespaces="build mp rescap uap3 uap4 rescap2 rescap3">
+  <Identity Name="microsoft.windowscommunicationsapps" ProcessorArchitecture="x64" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="16005.14326.22342.0" />
+  <Properties>
+    <DisplayName>ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_DisplayName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Description>ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_OutlookDesktop_Description</Description>
+    <Logo>images\HxMailAppList.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+    <Resource Language="en-gb" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.16299.0" MaxVersionTested="10.0.19553.0" />
+    <PackageDependency Name="Microsoft.UI.Xaml.2.7" MinVersion="7.2109.13004.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.27810.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
+    <rescap:Capability Name="emailSystem" />
+    <rescap:Capability Name="appointmentsSystem" />
+    <rescap:Capability Name="contactsSystem" />
+    <rescap:Capability Name="enterpriseDataPolicy" />
+    <rescap:Capability Name="deviceManagementEmailAccount" />
+    <rescap:Capability Name="userDataSystem" />
+    <rescap:Capability Name="userDataAccountsProvider" />
+    <!--This capability is required for the policy check we use to see if ads should be allowed-->
+    <rescap:Capability Name="slapiQueryLicenseValue" />
+    <!--This capability is required for starting download of a store app without asking the user (for Monarch migration)-->
+    <rescap:Capability Name="storeAppInstallation" />
+    <rescap:Capability Name="confirmAppClose" />
+    <uap:Capability Name="enterpriseAuthentication" />
+    <uap:Capability Name="sharedUserCertificates" />
+    <DeviceCapability Name="location" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HxOutlookBackground.dll</Path>
+        <ActivatableClass ActivatableClassId="HxMail.WindowsBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.RetailModeBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.TestCommandDispatcherBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.AppToAppEmailDispatcherBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.AppToAppAppointmentDispatcherBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.AppToAppContactsDispatcherBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="Hx.GetAccountInfoBackgroundTask" ThreadingModel="MTA" />
+        <ActivatableClass ActivatableClassId="HxMail.FirstRunTask" ThreadingModel="both" />
+        <!-- ActivatableClass ActivatableClassId="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" ThreadingModel="both" / -->
+        <!-- ActivatableClass ActivatableClassId="Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertionCredential" ThreadingModel="both" / -->
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.outOfProcessServer">
+      <OutOfProcessServer ServerName="Hx.IPC.Server">
+        <Path>HxTsr.exe</Path>
+        <Instancing>singleInstance</Instancing>
+        <ActivatableClass ActivatableClassId="Hx.IPC.MoComChannel" />
+      </OutOfProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.proxyStub">
+      <ProxyStub ClassId="693512A0-F829-45AC-A8BB-52DA973F0DDA">
+        <Path>HxComm.Ipc.Proxies.dll</Path>
+        <Interface Name="IMoComChannelFactory" InterfaceId="F36C2A21-F4E3-4C39-94CE-EB9190AFDAB3" />
+        <Interface Name="IMoComChannel" InterfaceId="693512A0-F829-45AC-A8BB-52DA973F0DDA" />
+        <Interface Name="IMoComData" InterfaceId="AE053876-E80C-4644-8F19-D3E1AAAE4720" />
+        <Interface Name="__FITypedEventHandler_2_Hx__CIPC__CMoComChannel_Hx__CIPC__CData" InterfaceId="ec90d6fe-046f-50d3-8b58-1d8dd6bd73e8" />
+      </ProxyStub>
+    </Extension>
+    <Extension Category="windows.publisherCacheFolders">
+      <PublisherCacheFolders>
+        <Folder Name="Fonts" />
+      </PublisherCacheFolders>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HxOutlook.View.dll</Path>
+        <ActivatableClass ActivatableClassId="HxOutlook.View.ListItemBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AccountListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AccountListOverflowItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.ListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.OListItemContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AccountPicture" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AccountsPaneContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AccountsPaneOverflowFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AppPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AtMentionsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AtMentionsHeaderListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AtMentionsPersonListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AtMentionsPlaceListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.AtMentionsSearchButtonListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.BackgroundImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.BackgroundImageLegacy" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.BindFunctions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.EmptyStateImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CursorChanger" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.DropTargetWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.FavoriteListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.FolderListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.FoldersPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.FoldersPaneFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.HostTransition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.LivePersonaCardHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.RepeaterItemContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.LoadingUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MainPageLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.DedicatedReadingPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SinglePaneMainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SplitPaneMainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MessageList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MessageListAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MessageListHeaderLarge" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MessageListHeaderSmall" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.MessageListNotification" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.ProfilePicture" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.NativeAdInfoLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.NativeAdInfoDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundAddedRecipients" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMessagePartAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundAddressing" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundAttachmentsWell" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.ControlPartMeasurer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundDraftCommands" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundForwardedMessageButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundJunkWarningMessagePart" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundLastReadIndicator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMeetingPart" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMessageHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMessageOverflow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundOutboxMessagePart" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundReadOnlyDraftPart" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundReplyBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundSeparatorLinePartUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.DownloadFullMessageAndPictures" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMessage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundMessageAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundReadingPaneConversationAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundReadingPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundThreadHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundReadingPaneAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.CompoundThreadHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.ControlPartMeasurerAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SingleReadingPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SingleReadingPaneAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SearchBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SearchFeedbackFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SearchFeedbackLink" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SearchSpellerControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SearchSuggestionsFlyoutShim" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.DefaultFontPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.SignatureSettingsPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.PerAccountSettingsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.View.hxoutlook_view_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.HxAccounts.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Models.TokenBrokerValuesWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Common.AccountProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Models.WebAccountProviderData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Models.WebAccountData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Models.AccountsDataModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Converters.AccountErrorStateToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Converters.ActionToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Converters.BoolToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Converters.StringToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.AccountsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Models.DebugSettingsModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Common.HxAccountsTelemetryLogger" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.NavigationParameters" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Common.OSUtilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Common.WebAuthSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Common.Utilities" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.DelayedTextHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ViewModelBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.AADViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.DelegateCommand" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.AccountSettingsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ActiveSyncAdvancedSignInViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.SyncSettingsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ActiveSyncSyncSettingsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.AllDoneViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.DebugSettingsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.DeleteAccountViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.DeprovisionAccountViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.EmailPasswordSignInViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ExchangeAuthTypeDiscoveryViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.InternetEmailAdvancedSignInViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.InternetMailSyncSettingsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.GenericErrorViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.GoogleOAuthViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.HxAccountsFirstRunViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.MainPageViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.MSAViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.SelectAccountTypeViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ShadowMailboxConsentDialogViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.ShadowMailboxLossAversionDialogViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.UsernameDomainSignInViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.YahooOAuthViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.YahooSyncSelectionViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.ViewModels.YourEmailDisplayNameViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.BooleanToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.PageBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.AADPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.AccountIdentifierUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.BooleanToFontWeightConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.InvertBooleanConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.InvertBooleanToVisibilityConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.TextButtonToAutomationNameConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.AccountSettingsPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.AccountsListView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ActiveSyncAdvancedSignInPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.FormContentUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ActiveSyncSyncSettingsUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.SyncFrequencyUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.AllDonePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ChooseAccountView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.MainPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.DebugSettingsPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.DeleteAccountPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.DeprovisionAccountPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.DescriptiveProgressBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.EmailPasswordSignInPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ExchangeAuthTypeDiscoveryPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.GoogleOAuthPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.HxAccountsFirstRunPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.InternetEmailAdvancedSignInPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.OutgoingServerAuthOptionsUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.InternetMailSyncSettingsUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.MSAPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.SelectAccountTypePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ShadowMailboxConsentDialogPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ShadowMailboxAddConsentDialogPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.SameSizeChildrenLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.ShadowMailboxLossAversionDialogPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.SyncSettingsPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.UsernameDomainSignInPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.YahooOAuthPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.YahooSyncSelectionDialogPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.YourEmailDisplayNamePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.Views.SyncContentOptionsUserControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxAccounts.hxaccounts_xaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>react.uwp.dll</Path>
+        <ActivatableClass ActivatableClassId="react.uwp.DynamicAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="react.uwp.DynamicAutomationProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="react.uwp.Instance" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="react.uwp.ReactControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="react.uwp.ViewControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="react.uwp.ViewPanel" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.Word.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.BindableBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.CommentPopoutControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.CommentPaneControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.EncodingChangePaneControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.EncodingChangePaneControlSmallScreen" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.FindBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.InkToTextCandidatesBarControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.InkToTextContextMenuControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.InkToTextTeachingCalloutControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.KeyboardToggleControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.LoadingUICustomContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.NavIndicatorControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.SilhouetteImmersiveZoomPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.SilhouetteVideoLightboxPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.ResumeReadCalloutControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.MainDocumentSurfaceControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.MainDocumentSurfaceControlAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.WordCountControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.WordOptions" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Word.wordxaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.HxShared.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.VerticalStackWithNonGreedyFill" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountTile" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountTileAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountListFirstRunFrameLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BeautifulAccountListFirstRunFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountListSettingsFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BasicPrompt" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.GoogleOAuthModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountsPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AccountListFirstRunFrameFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AddressingControlLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ContactHeaderSuggestion" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.OnlineSearchControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SuggestionsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AddressingSuggestionsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SearchRichEditBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SearchRichEditBoxAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SearchTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SearchRichEditBoxItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AttachmentContextMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AttachmentItemBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.HxSharedUIEmptyListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AttachmentStackView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FileAttachment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ImageAttachment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AttachmentListView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BackgroundImageLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BackgroundImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BackgroundImageColumnImpl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.BackgroundImageFullScreenOnlyVisibleColumn" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.CharmControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FluxCommandBarFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.DragDropRectangle" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FocusHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.LiveRegionHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.LiveRegionHolderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ModalDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SettingsPaneBodyWithTextBlock" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TabStopHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TextBlockAccessibilityWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TextBlockAccessibilityWrapperAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TextBlockListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ErrorControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ErrorStack" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FirstRunPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FlightingBooleanSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FlightingSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FlightingTextSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.GroupControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.GroupControlAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.LocationCard" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.EditResponseFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.NavPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.NotificationBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TitleBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.OneRMModalDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.LoadingUICustomContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ProgressUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.Ribbon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SettingsHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PanelPriorityHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AnimatedImage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SpotlightControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.SpotlightFeature" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredCarReservationDetailsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredDetailsCollectionItemViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredDetailsCollectionViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredPackageDetailsViewModel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.UriLauncher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.CarRentalPrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.CarRentalSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.ReservationStatusPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.DiningPrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.DiningSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.EventReservationPrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.EventReservationSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FlightPrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FlightSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.FluxButtonFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.HotelPrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.HotelSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PackagePrimaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PackageSecondaryDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredCommands" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredHorizontalContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredEventCalloutMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredBusStopCard" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredVerticalContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TailoredUICollection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TeachingCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.AddressOperationCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationListAccentColors" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationSystemAccentColorSelection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationListBackgroundImages" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationPreview" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.PersonalizationSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.TimePickerDropdown" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.StoryboardWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.UpgradeDialogVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.UpgradeDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxShared.hxsharedui_xaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.Hx.Mail.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.hxmailxaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ManageAccountsList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ManageAccountsSettingsFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.QuickActionOptionSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.FocusedOtherPanelLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RecipientsPanelLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ParentConstrainedStackLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccountListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItemPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItemSwipeTriageBackground" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailListHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailListHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MoreItemsItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MoreItemsItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ListHeaderFooterPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccessibleSelectionButtonWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.FocusedOtherDropdown" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailListViewHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailListViewStatus" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.NativeAdsPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItemNativeAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailItemNativeAdAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ChromeCache" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReplyHeaderClassic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.DownloadFullMessageButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageFooterView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageRecipientsControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageHeaderView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReplyFooterClassic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.FromAccountPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AttendeeMeetingResponse" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MeetingResponseControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.InvitationControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.CalendarSharingInvitationResponseControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.CalendarSharingInvitationControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.IRMBanner" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SMimeBanner" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SenderNameAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SenderNameAutomationPeerProvider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SubjectRichEditBoxAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SubjectRichEditBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReadingPaneWordHostAP" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReadingPaneWordHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ShyHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ShyHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReadingPaneModernAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReadingPaneModern" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AddressingPaneAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AddressingPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReplyHeaderClassicAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RulePropertyPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RulePropertyList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AddManageRuleView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.LineRuleControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RuleManagementControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.TeachingManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccessibleSelectionButtonWrapperAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccountListMenuPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccountListPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AccountPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RecipientItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RecipientItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.CertificateDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.CertificateInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.EncryptedStatus" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.IrmTemplateInformation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RecipientElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageHeaderRecipientAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageHeaderRecipientsAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageHeaderRecipientsAccessibilityHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RecipientItemMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.TopViews" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewsPaneHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewsPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RubberBand" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SearchPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SearchSuggestionsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailListNotification" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewListItemContextMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewListAccountHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewListAccountHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ViewListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AttentionRequiredMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.AutomaticRepliesSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ExternalContentSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.FocusedInboxSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.HelpSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailSecuritySettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.NavigationPaneSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.NotificationSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.PerAccountSettingsFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.NotificationToastSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.QuickActionSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ManageAccountsListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.UnifiedMailboxListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MailAccountInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.UnifiedMailboxInfo" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.UnifiedMailboxListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.UnifiedMailboxSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.MessageListSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.ReadingSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.RulesSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.SignatureSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Hx.Mail.NewMailFlyout" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AboutSettingsPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AccessibleGroupGrid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AccountPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AccountsUser" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AddLanguagesPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AirSpaceControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AllDoneOnePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AllDonePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ArrowKeyNavigation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ArrowKeyNavigationScore" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AssistancePane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AssistanceWebObject" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.AutoSuggestBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.CommandPaletteAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.CommandPaletteTabSwitcherAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ContextualCommandBarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.CustomDialogUIAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ExpandCollapseSplitButtonAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.FlyoutAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.GalleryGroupHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ListHeaderFooterAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.GalleryHeaderFooterAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.GalleryItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ListAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.MessageBarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.MessageBarItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.MoreColorsAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.MoreColorsColorSwatchSmallAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.MoreColorsSwatchGridAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.RibbonAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.RibbonChunkAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.RibbonTabAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.RibbonTabContentsAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.RibbonTabListAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.SimpleAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.SizeSliderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.TextBoxAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ToolbarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Automation.Peers.ToolboxItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Avatar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.BoolToVisibility" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Button" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ButtonWithConfirmation" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Callout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Panel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CalloutContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CancelButtonSignalCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CheckBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CheckBoxImpl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ColorGrid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ColorPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ColorPickerMoreColors" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ColorSwatchSmall" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ComboBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ComboBoxFaceplate" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ComboBoxLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxSurfaceBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteFluxSurfaceBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPalette" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteChunkAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteComboBoxButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteComboBoxButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteGroupAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteHeaderPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteHintBarLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteTabButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteTabContents" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CommandPaletteTabSwitcher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ConstantAspectRatioContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.CryptoPasswordDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DecimalTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DialogButtonsLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DockLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DrillInPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DrillInPageChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DrillInPageEscapeEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.DrillInPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.EmuLengthTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.EnumToBool" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.EnumToVisibility" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ExpandIndicator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ExperimentSettingsPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSBooleanChoiceAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSBooleanChoiceCheckBoxAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSChunkOverflowButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSColorGridAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSColorGridButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSColorPickerSplitButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSCommandPaletteGalleryButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSDecimalTextBoxAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSEmuLengthTextBoxAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSExecuteActionAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSGalleryButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSGallerySplitButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSIntegerTextBoxAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSLabelAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSMenuButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSMenuGroupAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSMenuSplitButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSMoreColorsButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSQuickAccessGalleryAnchorAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSRibbonChunkAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSRibbonGroupAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSSizePickerSliderAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSTellMeImmersiveAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSTextBoxAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FSToolboxButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FaceplateTextChangedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FakeShadow" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FirstRunContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlightingSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Floatie" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FloatieElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FloatieIndicator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FloatieScrollViewer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxDrillInBehavior" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxFloatieBehavior" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxFlowLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxFlyoutBehavior" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FluxUnmanagedSurface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Flyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlyoutBorder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlyoutHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlyoutRelativePosition" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlyoutPositionPreference" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.FlyoutRootPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Gallery" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryColorSwatch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryComboBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryGroupHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryHeaderFooter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryPlaceholderText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GalleryRoundItemChrome" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GallerySpinnerAnchor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GallerySwatchButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GestureTestEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GlobalTriggers" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.GridView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HeroCommandStrip" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HighContrastImageUtils" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HintBarColorGridButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HintBarColorPickerButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HintBarGalleryButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HintBarMenuAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.HintBarMenuButtonAdapter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Icon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.IntegerTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ItemsControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Label" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.LayoutConfigCore" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.LightDismissManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.LightDismissPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.LinkDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.List" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ListView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.LoadingUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MerchandizingPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MessageBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MessageBarFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MessageBarItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MessageBarItemLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MessageCalloutContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MoreColorsColorSwatch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MoreColorsSlider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.MoreColorsSwatchGrid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.NonUniformListLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.NotificationPreferencesPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.NullToVisibility" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.OfficeInsiderPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.OfficeSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.OneNoteTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.PasswordBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.PinchEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.PointerFocusHolder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.PremiumFeatureCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.PremiumFeatureCalloutPortrait" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ProgressUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.QuickAccessGalleryAnchor" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.QuickAccessGalleryItemList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.QuickCommandBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RadioButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RadioButtonGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RefreshRequestedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Resources.CustomXamlResourceLoader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Ribbon" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RibbonInlineMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RibbonLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RibbonTab" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RibbonTabContents" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RibbonTabList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.RotateEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ScrollContentPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ScrollFader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SettingsCommand" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SettingsCommandInvokedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SettingsEntryPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SettingsHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SettingsUI" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SignInControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Silhouette" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouettePane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouettePaneLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouettePaneProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteRibbonHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteRibbonHeaderLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteTitleBar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteTitleBarLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SilhouetteToolbarHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SingleDisplayRegionPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SizeSlider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SizeSliderValueConverter" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SkuDetail" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SlideSwipeEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Slider" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SmartImageSource" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SmartToolTipService" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SplitButton" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Stack" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.StackLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.SurveyDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TabControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TabItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TabListLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TapEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TeachingCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TellMeSearchBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TextOverlay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Texture" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ThirdPartyNoticeContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ToggleSwitch" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Toolbar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ToolbarLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Toolbox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ToolboxContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ToolboxIconLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.ToolboxItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TranslationEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Tray" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.Tree" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.TrustCenterPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.VariableSizedWrapGridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WelcomeGalleryPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WhatsNewContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WhatsNewItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WhatsNewItemData" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WindowsTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WrapGrid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.WrapGridLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.Core.xaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>HxOutlook.ViewModel.dll</Path>
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountListFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountListItemContextMenuVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountListVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountPickerFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountPictureVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountsPaneContentVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountsPaneOverflowFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AccountsPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AppDomainLocator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsHeaderListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsListDataVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsListVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsPersonListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsPlaceListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsSearchButtonListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.AtMentionsVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.BackgroundImageVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompositeFolderTreeItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompositeFolderTreeVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompositeListDataVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundAddedRecipientsVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundAddressingPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundAttachmentsPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundContentPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundContentPartVMFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundDraftCommandsPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundForwardedMessageButtonVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundJunkWarningMessagePartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundMeetingPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundMessageHeaderRecipientsVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundMessageHeaderVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundMessageOverflowVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundMessageVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundOutboxMessagePartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundReadOnlyDraftPartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundReadingPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundReplyBoxVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.CompoundSeparatorLinePartVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ContentDomainLocator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.DefaultFontPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.DownloadFullMessageAndPicturesVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.DropTargetWrapperVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ErrorButtonVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ErrorMessageBarVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ErrorMessageVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FavoriteListItemContextMenuVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FavoriteListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FavoriteListVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FileAttachmentListFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FlatListDataVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FlyoutServiceVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderListContextMenuVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderListFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderListItemVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderListVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderTreeDataVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FolderTreeVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FoldersPaneFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.FoldersPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.Foundation.NativeWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.GmailO365PromotionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.HostTransitionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.HxAppFrameCollectionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.HxAppFrameVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.InlineAttachmentVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.LegacyNavDomainLocator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.LegacySingleMessageReadingPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ListSelectionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.LivePersonaCardVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MailListShimVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MainPageColumnVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MainPageLayoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MainPageVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MessageListHeaderVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MessageListNotificationVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MessagesDomainLocator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MobileNativeAd" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MobilePromotionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.MultiButtonModalDialogVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NativeAdItemContextMenuVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NativeAdsVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NavPaneFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NavPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NavigationDomainLocator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.NewMailAccountPickerFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.O365PromotionVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.OptionalNodeListDataVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.PerAccountSettingsFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ProfilePictureVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.PromotionButtonVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.RibbonVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.ScreenReaderServiceVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SearchBoxVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SearchFeedbackFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SearchFeedbackLinkVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SearchSpellerControlVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SearchSuggestionsFlyoutVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SettingsUserVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SignatureImageVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SignatureSettingsPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SignatureSettingsPaneVMFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SingleMessageReadingPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SingleReadingPaneVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SmallRibbonServiceVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.SubscriptionInfoVM" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="HxOutlook.ViewModel.TeachingServiceVM" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Office.UI.Xaml.HxCalendar.dll</Path>
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.FlightingEnforcerCXWrapper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentLoadCancellationDialogContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentIdCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarIdCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarTypeCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AccountIdCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.EventTemplateDataCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.QuickItemPlaceholder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarDateLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.EmojiDataCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PersonIdCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AccountHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DateTimeTappedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentTappedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MeetingInstanceTappedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeSuggestionTappedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListNavPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.FlightingFeatureContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListContextMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListItemFrameworkElementAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Timer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSharingFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ModalFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AnimationCoordinator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSubcontrolBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarParentControlBase" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AllDayAppointmentSync" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.UniformLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayOfWeekHeaderAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayOfWeekHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.FocusableElement" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TabOrderTree" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PaletteCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PanelSynchronizerFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarItemGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AllDayAppointmentsLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ClassicPortraitWeekDayViewLogic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MonthDayViewLogic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimelineDayViewLogic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimelineHeaderDayViewLogic" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayViewContext" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PhotoButtonFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Day" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Week" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InfinitePanelLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Calendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarItemGeneratorFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MiniCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallDatePickerPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ZStackLayoutWithSnapPointsPassthrough" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayPlannerCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Month" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeBarHighlightBehavior_CurrentTime" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PlannerDay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SnapPointsManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WrapScrollViewer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayPlannerPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.NotificationCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SyncInProgressCalloutDismissStrategy" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimerCalloutDismissStrategy" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarInkCanvas" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.HorizontalMultiLine" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CurrentTimeIndicator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayBackground" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PlannerDayAllDayWell" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PlannerDayHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Timebar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Weather" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.FamilyAgendaPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AgendaList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CancellationMessageFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PersonSharee" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PeopleShareeList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DiscardInstanceChangesFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.GoToDateCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DatePicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DatePickerBoxTextBoxAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DatePickerBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InterestingCalendarsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SubscriptionCalendarsListItemCalendarAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SubscriptionCalendarsListItemPageAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SubscriptionCalendarsListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InterestingCalendarsContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemPreview" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemPreviewBasicContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemPreviewTailoredContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.JoinOnlineMeetingText" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PeopleListCallout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PeopleList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.BreadcrumbTrail" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.BreadcrumbTrailItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InterestingCalendarsWelcomeBanner" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InterestingCalsTopLevelListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SubscriptionCalendarsContent" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentInputHandwritingView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentResizeFrame" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SortingPivotsList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CustomChromeListItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.GroupedPeopleList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AddressablePeopleList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSelectorFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CharmsPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.UiContextCx" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CharmPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CharmSuggestionsItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CharmSuggestionsPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CharmSuggestionsFlyout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DurationPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.EditableCoreItemProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeRangeSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.RoomFinder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.LocationRichEditBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.EnhancedLocationBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.LocationTextBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.EmojiPanel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.StickerPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Person" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.IcsEventSummary" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.IcsMultiEventDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.IcsItemDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ImmersiveItemSectionHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ImmersiveItemNavigationPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ImmersiveItemPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemBody" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WordMailHostAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WordMailAutomationHost" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WordMailContainer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ReadOnlyCoreItemProperties" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.RepeatSection" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ItemTailoredDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallIcsItemDetails" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallItemDetailsEdit" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallItemDetailsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallTailoredDetailsView" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.LocationEntity" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ModernQuickItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ModernQuickItemForm" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.QuickComposeForm" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SimpleAppointmentList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.QuickAgendaList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.QuickItemCalendarSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PersonBubble" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PeopleFacepile" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeGridPatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TentativePatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WorkingElsewherePatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.OOFPatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ErrorPatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TestPatternFillBrushFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PersonContextMenu" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ReminderLeadTimePicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SimpleRepeatPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ScheduleHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.VirtualStackLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ScheduleListAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ScheduleList" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarHeaderLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarNavigationArrows" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SearchBox" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeatherIconFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SchedulingAssistant" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SchedulingAssistantPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintDialogDismissedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintDialog" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintHelper" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintPageGeneratorFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ClipControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MonthPrintPageGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintMonthPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintDateHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintNonPatternTimeGrid" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PrintTimelinePage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimelinePrintPageGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallImmersiveItemEditPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallImmersiveItemViewPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallSchedulingAssistantPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CliplessStackLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimelineAppointmentsLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearViewLayout" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaItemGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.LockScreenPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaItemGeneratorFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaDay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaDayHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SearchPane" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AlternateCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSettingGroup" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarThemeSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayOfWeekPickerDropdown" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DaysInWorkWeekPicker" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InterestingCalendarsSetting" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekNumbersSettingPickerDropdown" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeatherDegreeSelector" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeatherSettings" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DailySeriesControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeeklySeriesControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearlySeriesControl" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarDateSync" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayOfWeekHeaderItemGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AgendaAppointmentAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AgendaAppointment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Appointment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AppointmentBackgroundPhoto" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeSuggestionCard" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeeksPanelLayoutFactory" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarSurface" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SurfaceTopHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ClassicPortraitWeek" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.ClassicPortraitWeekAppointment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.InlineItem" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.DayHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MiniCalendarHeader" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MiniCalendarDay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MiniCalendarWeek" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MiniCalendarWeekNumberLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MonthFocusedEventArgs" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MonthAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.PortraitWeekViewCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SelectionBorder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallCalendarPageMiniCalendar" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallCalendarSwitcher" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimeGridBackgroundBrush" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.TimelineDayBackgroundBrushManagerTestBuilder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CorePanelGenerator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekNumberLabel" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.Year" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalloutAnchorCoordinator" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AgendaDayAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.AgendaDay" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearDesiredSize" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearViewCollectionManager" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.CalendarPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.MasterDetailPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.RefreshPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.SmallCalendarPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearViewCalendarPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.YearViewCalendarPageBkgImageColumn" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaAppointment" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaAppointmentListItemAutomationPeer" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.WeekAgendaPage" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="Office.UI.Xaml.HxCalendar.hxcalendarxaml_XamlTypeInfo.XamlMetaDataProvider" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Applications>
+    <Application Id="microsoft.windowslive.mail" Executable="HxOutlook.exe" EntryPoint="Executable">
+      <uap:VisualElements DisplayName="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_MailDesktop_DisplayName" Description="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_MailDesktop_Description" Square150x150Logo="images\HxMailMediumTile.png" Square44x44Logo="images\HxMailAppList.png" BackgroundColor="#0078D7">
+        <uap:DefaultTile Wide310x150Logo="images\HxMailWideTile.png" Square310x310Logo="images\HxMailLargeTile.png" Square71x71Logo="images\HxMailSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="images\HxMailSplashLogo.png" BackgroundColor="#0078D7" uap5:Optional="true" />
+        <!-- This should match OLKCustomColors.BkgSplashLogo -->
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.appService" EntryPoint="Hx.RetailModeBackgroundTask">
+          <uap:AppService Name="Microsoft-RetailDemo-Cleanup" ServerName="Hx.IPC.Server" />
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="Hx.TestCommandDispatcherBackgroundTask">
+          <uap:AppService Name="Hx.AppToApp.TestCommand" ServerName="Hx.IPC.Server" />
+        </uap:Extension>
+        <uap3:Extension Category="windows.emailDataProvider" EntryPoint="Hx.AppToAppEmailDispatcherBackgroundTask">
+          <uap3:EmailDataProvider ServerName="Hx.IPC.Server" />
+        </uap3:Extension>
+        <uap3:Extension Category="windows.appointmentDataProvider" EntryPoint="Hx.AppToAppAppointmentDispatcherBackgroundTask">
+          <uap3:AppointmentDataProvider ServerName="Hx.IPC.Server" />
+        </uap3:Extension>
+        <uap3:Extension Category="windows.contactDataProvider" EntryPoint="Hx.AppToAppContactsDispatcherBackgroundTask">
+          <uap3:ContactDataProvider ServerName="Hx.IPC.Server" />
+        </uap3:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="Hx.GetAccountInfoBackgroundTask">
+          <uap:AppService Name="Microsoft-Accounts-GetAccountInfo" ServerName="Hx.IPC.Server" />
+        </uap:Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HxMail.WindowsBackgroundTask">
+          <BackgroundTasks ServerName="Hx.IPC.Server">
+            <Task Type="pushNotification" />
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.preInstalledConfigTask" EntryPoint="HxMail.FirstRunTask" />
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="outlookmail" />
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-unistore-email" />
+        </uap:Extension>
+        <uap4:Extension Category="windows.contactPanel" />
+      </Extensions>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Type="include" Match="https://az815563.vo.msecnd.net/" />
+        <uap:Rule Type="include" Match="https://az804205.vo.msecnd.net/" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+    <Application Id="microsoft.windowslive.calendar" Executable="HxCalendarAppImm.exe" EntryPoint="Executable">
+      <uap:VisualElements DisplayName="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_CalendarDesktop_DisplayName" Description="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_CalendarDesktop_Description" Square150x150Logo="images\HxCalendarMediumTile.png" Square44x44Logo="images\HxCalendarAppList.png" BackgroundColor="#0078D7">
+        <uap:DefaultTile Wide310x150Logo="images\HxCalendarWideTile.png" Square310x310Logo="images\HxCalendarLargeTile.png" Square71x71Logo="images\HxCalendarSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="images\HxCalendarSplashLogo.png" BackgroundColor="#0078D7" />
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.backgroundTasks" EntryPoint="HxMail.WindowsBackgroundTask">
+          <BackgroundTasks ServerName="Hx.IPC.Server">
+            <Task Type="pushNotification" />
+            <Task Type="systemEvent" />
+            <Task Type="timer" />
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="outlookcal" ReturnResults="optional" />
+        </uap:Extension>
+      </Extensions>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Type="include" Match="https://az815563.vo.msecnd.net/" />
+        <uap:Rule Type="include" Match="https://az804205.vo.msecnd.net/" />
+      </uap:ApplicationContentUriRules>
+    </Application>
+    <Application Id="microsoft.windowslive.manageaccounts" Executable="HxAccounts.exe" EntryPoint="Executable">
+      <uap:VisualElements DisplayName="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_AccountsDesktop_DisplayName" Description="ms-resource://microsoft.windowscommunicationsapps/hxoutlookintl/AppManifest_AccountsDesktop_Description" Square150x150Logo="images\HxAccountsLargeTile.png" Square44x44Logo="images\HxAccountsSmallTile.png" BackgroundColor="transparent" AppListEntry="none">
+        <uap:SplashScreen Image="images\HxAccountsSplashLogo.png" BackgroundColor="#0078D7" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="outlookaccounts" ReturnResults="optional" />
+        </uap:Extension>
+        <rescap2:Extension Category="windows.userDataAccountsProvider" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <mp:PhoneIdentity PhoneProductId="a558feba-85d7-4665-b5d8-a2ff9c19799b" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+</Package>

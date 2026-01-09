@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="QsTileSpecsRevealed">
+        <string>cast</string>
+        <string>wifi</string>
+        <string>dbg:mem</string>
+        <string>airplane</string>
+        <string>rotation</string>
+        <string>dnd</string>
+        <string>battery</string>
+        <string>cell</string>
+    </set>
+    <boolean name="DndTileCombinedIcon" value="true" />
+    <boolean name="DndTileVisible" value="true" />
+</map>

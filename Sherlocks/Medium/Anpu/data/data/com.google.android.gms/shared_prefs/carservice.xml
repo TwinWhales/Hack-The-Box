@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="rotary_use_focus_finder" value="false" />
+    <set name="car_module_feature_set">
+        <string>CLIENT_SIDE_FLAGS</string>
+        <string>START_FIRST_CAR_ACTIVITY_ON_FOCUS_GAINED</string>
+        <string>STICKY_WINDOW_FOCUS</string>
+        <string>CLEAR_DATA</string>
+        <string>INT_SETTINGS_AVAILABLE</string>
+        <string>START_DUPLEX_CONNECTION</string>
+        <string>WINDOW_REQUIRES_ONE_TEXTURE_UPDATE_TO_DRAW</string>
+        <string>CONNECTION_STATE_HISTORY</string>
+        <string>NON_CONTENT_WINDOW_ANIMATIONS_SAFE</string>
+        <string>START_CAR_ACTIVITY_WITH_OPTIONS</string>
+        <string>THIRD_PARTY_ACCESSIBLE_SETTINGS</string>
+        <string>CAR_WINDOW_RESIZABLE</string>
+        <string>CONTENT_WINDOW_INSETS</string>
+    </set>
+    <int name="touchpad_focus_navigation_history_max_size" value="30" />
+    <boolean name="toll_card_sensor_enabled" value="true" />
+    <int name="touchpad_focus_navigation_history_max_age_ms" value="4000" />
+    <boolean name="car_telemetry_enabled" value="true" />
+</map>

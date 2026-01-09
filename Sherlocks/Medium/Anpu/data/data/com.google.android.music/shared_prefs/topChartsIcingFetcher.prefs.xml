@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="downloadTimestampSec" value="0" />
+    <int name="downloadOffset" value="0" />
+    <boolean name="emptiedTables" value="true" />
+    <int name="version" value="0" />
+</map>

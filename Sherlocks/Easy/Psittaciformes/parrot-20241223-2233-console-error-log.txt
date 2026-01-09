@@ -1,0 +1,30 @@
+oscheck: pretty_name="parrot os 5.1 (electro ara)" name="parrot os" version_id="5.1" version="5.1 (electro ara)" version_codename=ara id=parrot id_like=debian home_url="https://www.parrotsec.org/" support_url="https://community.parrotsec.org/" bug_report_url="https://community.parrotsec.org/"
+Date : Mon 23 Dec 2024 22:33:15 UTC +00:00
+================================ Console Errors ================================
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+cat: /proc/470833/status: No such file or directory
+lsof: "-e /run/user/1000/gvfs" is not a mounted file system.
+lsof 4.93.2
+ latest revision: https://github.com/lsof-org/lsof
+ latest FAQ: https://github.com/lsof-org/lsof/blob/master/00FAQ
+ latest (non-formatted) man page: https://github.com/lsof-org/lsof/blob/master/Lsof.8
+ usage: [-?abhKlnNoOPRtUvVX] [+|-c c] [+|-d s] [+D D] [+|-E] [+|-e s] [+|-f[gG]]
+ [-F [f]] [-g [s]] [-i [i]] [+|-L [l]] [+m [m]] [+|-M] [-o [o]] [-p s]
+ [+|-r [t]] [-s [p:s]] [-S [t]] [-T [t]] [-u s] [+|-w] [-x [fl]] [--] [names]
+Use the ``-h'' option to get more help information.
+getsebool:  SELinux is disabled
+Utmp dump of /run/utmp
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from member names
+tar: /var/crash: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+can't get device qualifier: Resource temporarily unavailable
+can't get debug descriptor: Resource temporarily unavailable
+can't get debug descriptor: Resource temporarily unavailable
+can't get debug descriptor: Resource temporarily unavailable
+can't get debug descriptor: Resource temporarily unavailable
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+ [ ? ]  thin
+tar: Removing leading `/' from member names

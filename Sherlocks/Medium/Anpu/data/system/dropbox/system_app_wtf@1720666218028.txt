@@ -1,0 +1,35 @@
+Process: com.android.settings
+PID: 6233
+UID: 1000
+Flags: 0x28c9be45
+Package: com.android.settings v29 (10)
+Foreground: Yes
+Subject: SliceProviderWrapper
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+
+android.util.Log$TerribleFailure: Slice with URI content://com.android.settings.slices/intent/media_output_indicator is invalid.
+	at android.util.Log.wtf(Log.java:309)
+	at android.util.Log.wtf(Log.java:303)
+	at androidx.slice.compat.SliceProviderWrapperContainer$SliceProviderWrapper.onBindSlice(SliceProviderWrapperContainer.java:149)
+	at android.app.slice.SliceProvider.onBindSliceStrict(SliceProvider.java:545)
+	at android.app.slice.SliceProvider.handleBindSlice(SliceProvider.java:459)
+	at android.app.slice.SliceProvider.call(SliceProvider.java:365)
+	at androidx.slice.compat.SliceProviderWrapperContainer$SliceProviderWrapper.call(SliceProviderWrapperContainer.java:127)
+	at android.content.ContentProvider.call(ContentProvider.java:2152)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:477)
+	at android.content.ContentProviderClient.call(ContentProviderClient.java:558)
+	at android.content.ContentProviderClient.call(ContentProviderClient.java:546)
+	at android.app.slice.SliceManager.bindSlice(SliceManager.java:255)
+	at androidx.slice.SliceViewManagerWrapper.bindSlice(SliceViewManagerWrapper.java:96)
+	at androidx.slice.widget.SliceLiveData$SliceLiveDataImpl$1.run(SliceLiveData.java:377)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:289)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at java.lang.Thread.run(Thread.java:919)
+Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'com.android.settingslib.bluetooth.A2dpProfile com.android.settingslib.bluetooth.LocalBluetoothProfileManager.getA2dpProfile()' on a null object reference
+	at com.android.settings.media.MediaOutputIndicatorSlice.getConnectedA2dpDevices(MediaOutputIndicatorSlice.java:130)
+	at com.android.settings.media.MediaOutputIndicatorSlice.isVisible(MediaOutputIndicatorSlice.java:123)
+	at com.android.settings.media.MediaOutputIndicatorSlice.getSlice(MediaOutputIndicatorSlice.java:68)
+	at com.android.settings.slices.SettingsSliceProvider.onBindSlice(SettingsSliceProvider.java:196)
+	at androidx.slice.compat.SliceProviderWrapperContainer$SliceProviderWrapper.onBindSlice(SliceProviderWrapperContainer.java:147)
+	... 15 more

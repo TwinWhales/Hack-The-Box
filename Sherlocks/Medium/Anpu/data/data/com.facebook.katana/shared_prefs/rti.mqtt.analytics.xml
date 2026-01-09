@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="is_employee" value="false" />
+    <int name="logging_health_stats_sample_rate" value="1" />
+    <string name="user_id">2f84a627-f582-4406-b2af-4ed1bee6e552</string>
+    <int name="year_class" value="2015" />
+    <string name="fb_uid"></string>
+</map>

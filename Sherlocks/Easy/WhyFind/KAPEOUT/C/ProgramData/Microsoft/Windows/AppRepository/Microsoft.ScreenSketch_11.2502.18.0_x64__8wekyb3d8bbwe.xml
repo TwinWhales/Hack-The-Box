@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="mp uap uap2 uap3 uap5 rescap rescap3 build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.ScreenSketch" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="11.2502.18.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="72ba66d3-9233-4202-a261-0d99de2942b4" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:AppStoreName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\SnippingToolStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.22000.0" MaxVersionTested="10.0.22000.0"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2310.30001.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.WindowsAppRuntime.1.5" MinVersion="5001.70.1338.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="SnippingTool\SnippingTool.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="ms-resource:AppName/Text" Square150x150Logo="Assets\SnippingToolMedTile.png" Square44x44Logo="Assets\SnippingToolAppList.png" Description="ms-resource:AppDescription" BackgroundColor="#0078D4">
+        <uap:DefaultTile ShortName="ms-resource:AppName/Text" Wide310x150Logo="Assets\SnippingToolWideTile.png" Square310x310Logo="Assets\SnippingToolLargeTile.png" Square71x71Logo="Assets\SnippingToolSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-screensketch" DesiredView="default"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-screenclip" DesiredView="default">
+            <rescap3:MigrationProgIds>
+              <rescap3:MigrationProgId>AppXarkze06z7pvhtc0xch943brvx8pbb8xa</rescap3:MigrationProgId>
+              <rescap3:MigrationProgId>AppXbemgape21yns3k5pd4ah40jz06yq6xrk</rescap3:MigrationProgId>
+            </rescap3:MigrationProgIds>
+          </uap:Protocol>
+        </uap:Extension>
+        
+        <uap:Extension Category="windows.appService" EntryPoint="SnippingToolSandbox.SandboxedBackgroundTask">
+          <uap:AppService Name="Microsoft.STSandbox.ProcessImage"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.appService" EntryPoint="ScreenSketchAppService.ShowToastBackgroundTask">
+          <uap:AppService Name="Microsoft.ScreenSketch.ShowToastService"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="imagefile">
+            <uap:Logo>Assets\FileAssociation\FileAssociation.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              
+              <uap:FileType>.bmp</uap:FileType>
+              <uap:FileType>.dib</uap:FileType>
+              <uap:FileType>.gif</uap:FileType>
+              <uap:FileType>.ico</uap:FileType>
+              <uap:FileType>.jfif</uap:FileType>
+              <uap:FileType>.jpe</uap:FileType>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+              <uap:FileType>.tiff</uap:FileType>
+              <uap:FileType>.tif</uap:FileType>
+              <uap:FileType>.arw</uap:FileType>
+              <uap:FileType>.cr2</uap:FileType>
+              <uap:FileType>.crw</uap:FileType>
+              <uap:FileType>.erf</uap:FileType>
+              <uap:FileType>.kdc</uap:FileType>
+              <uap:FileType>.mrw</uap:FileType>
+              <uap:FileType>.nef</uap:FileType>
+              <uap:FileType>.nrw</uap:FileType>
+              <uap:FileType>.orf</uap:FileType>
+              <uap:FileType>.pef</uap:FileType>
+              <uap:FileType>.raw</uap:FileType>
+              <uap:FileType>.rw2</uap:FileType>
+              <uap:FileType>.rwl</uap:FileType>
+              <uap:FileType>.sr2</uap:FileType>
+              <uap:FileType>.srw</uap:FileType>
+              <uap:FileType>.jxr</uap:FileType>
+              <uap:FileType>.wdp</uap:FileType>
+              <uap:FileType>.dng</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget Description="images">
+            <uap:SupportedFileTypes>
+              
+              <uap:FileType>.bmp</uap:FileType>
+              <uap:FileType>.dib</uap:FileType>
+              <uap:FileType>.gif</uap:FileType>
+              <uap:FileType>.ico</uap:FileType>
+              <uap:FileType>.jfif</uap:FileType>
+              <uap:FileType>.jpe</uap:FileType>
+              <uap:FileType>.jpeg</uap:FileType>
+              <uap:FileType>.jpg</uap:FileType>
+              <uap:FileType>.png</uap:FileType>
+              <uap:FileType>.tiff</uap:FileType>
+              <uap:FileType>.tif</uap:FileType>
+              <uap:FileType>.arw</uap:FileType>
+              <uap:FileType>.cr2</uap:FileType>
+              <uap:FileType>.crw</uap:FileType>
+              <uap:FileType>.erf</uap:FileType>
+              <uap:FileType>.kdc</uap:FileType>
+              <uap:FileType>.mrw</uap:FileType>
+              <uap:FileType>.nef</uap:FileType>
+              <uap:FileType>.nrw</uap:FileType>
+              <uap:FileType>.orf</uap:FileType>
+              <uap:FileType>.pef</uap:FileType>
+              <uap:FileType>.raw</uap:FileType>
+              <uap:FileType>.rw2</uap:FileType>
+              <uap:FileType>.rwl</uap:FileType>
+              <uap:FileType>.sr2</uap:FileType>
+              <uap:FileType>.srw</uap:FileType>
+              <uap:FileType>.jxr</uap:FileType>
+              <uap:FileType>.wdp</uap:FileType>
+              <uap:FileType>.dng</uap:FileType>
+            </uap:SupportedFileTypes>
+            <uap:DataFormat>StorageItems</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+        <uap5:Extension Category="windows.appExecutionAlias" EntryPoint="Windows.FullTrustApplication">
+          <uap5:AppExecutionAlias>
+            <uap5:ExecutionAlias Alias="SnippingTool.exe"/>
+          </uap5:AppExecutionAlias>
+        </uap5:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SnippingToolSandbox\SnippingToolSandbox.dll</Path>
+        <ActivatableClass ActivatableClassId="SnippingToolSandbox.SandboxedBackgroundTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>ScreenSketchAppService\ScreenSketchAppService.dll</Path>
+        <ActivatableClass ActivatableClassId="ScreenSketchAppService.ShowToastBackgroundTask" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>SnippingTool\SnippingToolUI.dll</Path>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapeAdorner" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.StartRecordingRequestedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ConfirmationBannerOverlayView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SliderValueToTimeConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.NewSnipRequestedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ConverterFunctions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShowInfoBannerRequestedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ConfirmationBannerOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OrientedQuadrangle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipModeHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapeAdornerHandle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapeColorItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.PlaybackView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.QRCode" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AnnotateCanvasViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AuxiliaryModeFlyoutListView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TextExtractorToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SelectionRectangle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapesToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AuxiliaryModeViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.QRCodeOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.RecordingOverlayToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ClippingHelper" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CropModeManager" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.RedactionResults" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.App" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TrimmedVideoOutput" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipOverlayMonitorViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SelectionRectangleHandle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapeAdornerViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.RecordingOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.QRCodeScanResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ResourceString" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CropRectangleHandleAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SelectableColor" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ScreenshotSelectionView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TextActionsOverlay" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.FreeformSelection" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipRequestedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.PlaybackMediaPlayer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.DataContextAwareMenuFlyout" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipOverlayView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TrimView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AudioDeviceViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.KeyboardClipping" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.WindowSelection" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AuxiliaryModeFlyoutButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrWord" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrLineGroup" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TextActionsOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SettingsView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.MainPage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.MainPageViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AccessibleSlider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CutoutsOverlay" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AuxiliaryModeToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CropRectangle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AnnotateCanvas" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrLine" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.RecordingOverlayView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrTable" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.GroupedWords" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TimerControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AccessibleSliderAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AIBorderControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.QRCodeButtonCanvas" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OpacitySliderThumbToolTipValueConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipOverlayViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SelectionRectangleHandleAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ControlSizeTrigger" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.PlaybackViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnipDelayOption" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CaptureToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CropRectangleHandle" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TrimViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.Redaction" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SvgImage" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.QRCodeButton" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ScreenshotOverlayToolbar" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SettingsViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.SnippingModeOption" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.WindowInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ResizeHelpers" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrResult" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.CropModeData" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.ShapesToolbarViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.RecordingSelectionView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.EmojiViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.AnimatedGradientBorderBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.WindowPlaceholder" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TextExtractorSelectionView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.BakerButtonViewModel" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.TextInfoBadge" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.XamlMetaDataProvider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="SnippingToolUI.OcrTableCell" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust"/>
+    <uap:Capability Name="picturesLibrary"/>
+    <DeviceCapability Name="microphone"/>
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="17.12.40475.34449"/>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.12.40475.34449"/>
+    <build:Item Name="ProjectGUID" Value="a5ea788e-2399-41b6-8359-784362152e90"/>
+    <build:Item Name="makepri.exe" Version="10.0.22621.3233 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

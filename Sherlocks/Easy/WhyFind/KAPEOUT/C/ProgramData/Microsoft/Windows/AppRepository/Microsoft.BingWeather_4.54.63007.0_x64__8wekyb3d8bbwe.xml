@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  
+  <Identity Name="Microsoft.BingWeather" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="4.54.63007.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="63c2a117-8604-44e7-8cef-df10be3a57c8" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:ApplicationTitleWithBranding</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\AppTiles\WeatherStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0"/>
+    <PackageDependency Name="Microsoft.UI.Xaml.2.8" MinVersion="8.2207.14002.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.2.2" MinVersion="2.2.27912.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.2.2" MinVersion="2.2.28604.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.33728.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-AU"/>
+    <Resource Language="EN-CA"/>
+    <Resource Language="EN-GB"/>
+    <Resource Language="EN-IN"/>
+    <Resource Language="ES-019"/>
+    <Resource Language="ES-AR"/>
+    <Resource Language="ES-MX"/>
+    <Resource Language="ES"/>
+    <Resource Language="AR"/>
+    <Resource Language="FR"/>
+    <Resource Language="FR-BE"/>
+    <Resource Language="FR-CA"/>
+    <Resource Language="ZH-HANS"/>
+    <Resource uap:Scale="200"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Microsoft.Msn.Weather.exe" EntryPoint="Microsoft.Msn.Weather.App">
+      <uap:VisualElements DisplayName="ms-resource:ApplicationTitleShort" Square150x150Logo="Assets\AppTiles\WeatherMedTile.png" Square44x44Logo="Assets\AppTiles\WeatherAppList.png" Description="ms-resource:ApplicationDescription" BackgroundColor="#0078D4">
+        <uap:DefaultTile Square310x310Logo="Assets\AppTiles\WeatherLargeTile.png" Wide310x150Logo="Assets\AppTiles\WeatherWideTile.png" Square71x71Logo="Assets\AppTiles\WeatherSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\AppTiles\WeatherSplashScreen.png" BackgroundColor="#0078D4"/>
+        <uap:LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\AppTiles\WeatherBadgeLogo.png"/>
+      </uap:VisualElements>
+      <Extensions>
+        <Extension Category="windows.preInstalledConfigTask" EntryPoint="Microsoft.Msn.Weather.Tile.PreInstallTask"/>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Msn.Weather.Tile.LockScreenUpdateTask">
+          <BackgroundTasks>
+            <Task Type="timer"/>
+            <Task Type="location"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Msn.Weather.Tile.TileUpdateTask">
+          <BackgroundTasks>
+            <Task Type="timer"/>
+            <Task Type="location"/>
+          </BackgroundTasks>
+        </Extension>
+        <Extension Category="windows.backgroundTasks" EntryPoint="Microsoft.Msn.Weather.Tile.NotificationTask">
+          <BackgroundTasks>
+            <Task Type="pushNotification"/>
+          </BackgroundTasks>
+        </Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="msnweather"/>
+        </uap:Extension>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="bingweather"/>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+    <Capability Name="privateNetworkClientServer"/>
+    <DeviceCapability Name="location"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>WinRTAdapter.dll</Path>
+        <ActivatableClass ActivatableClassId="WinRTAdapter.DispatchAdapter" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>StoreRatingPromotion.dll</Path>
+        <ActivatableClass ActivatableClassId="StoreRatingPromotion.GoodTimeToRateTracker" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Msn.Weather.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Msn.Weather.Tile.BasicGeopositionExtension" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Msn.Weather.Tile.PreInstallTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Msn.Weather.Tile.NotificationTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Msn.Weather.Tile.TileUpdateTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Msn.Weather.Tile.LockScreenUpdateTask" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="AddHostObjectBridgeComponent.Bridge" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.Web.WebView2.Core.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2ControllerWindowReference" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Controller" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2Environment" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.Web.WebView2.Core.CoreWebView2CompositionController" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="17.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.20348.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.11.40353.1868"/>
+    <build:Item Name="ProjectGUID" Value="{33B8C2D3-3E9A-4CFC-B515-3B70DD6AC43B}"/>
+    <build:Item Name="ilc.exe" Version="2.2.28605.00 built by: PROJECTNREL"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="10.0.19041.685"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="DisableStackTraceMetadata" Value="false"/>
+    <build:Item Name="DisableExceptionMessages" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="GeneratePGD" Value="false"/>
+    <build:Item Name="ConsumePGD" Value="false"/>
+    <build:Item Name="SingleThreadNUTC" Value="false"/>
+    <build:Item Name="Use64BitCompiler" Value="false"/>
+    <build:Item Name="OptimizeForSize" Value="false"/>
+    <build:Item Name="AlignMethodsAtMinimalBoundaries" Value="false"/>
+    <build:Item Name="LargeAddressAware" Value="false"/>
+    <build:Item Name="MakePri.exe" Version="10.0.19041.685 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

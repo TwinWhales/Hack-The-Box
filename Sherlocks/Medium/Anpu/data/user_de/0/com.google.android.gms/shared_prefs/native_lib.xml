@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="crc_lib/x86/libWhisper.so" value="985440005" />
+    <long name="crc_lib/x86/libvcdiffjni.so" value="3718494183" />
+    <long name="crc_lib/x86/libgmscore.so" value="975937478" />
+    <long name="crc_lib/x86/libjgcastservice.so" value="2282912501" />
+    <long name="crc_lib/x86/libAppDataSearch.so" value="93892348" />
+    <long name="crc_lib/x86/libgoogle-ocrclient-v3.so" value="1676254040" />
+    <long name="crc_lib/x86/libsslwrapper_jni.so" value="3896385013" />
+    <long name="crc_lib/x86/libmatching.so" value="3175300655" />
+    <long name="crc_lib/x86/libgcastv2_base.so" value="949676421" />
+    <long name="crc_lib/x86/libconscrypt_gmscore_jni.so" value="3641569190" />
+    <long name="crc_lib/x86/libgcastv2_support.so" value="1072982384" />
+    <long name="crc_lib/x86/libjingle_peerconnection_so.so" value="4144888257" />
+    <long name="crc_lib/x86/libwearable-selector.so" value="1677889537" />
+    <long name="crc_lib/x86/libleveldbjni.so" value="2475988650" />
+    <long name="crc_lib/x86/libinertial-anchor-jni.so" value="3632475747" />
+</map>

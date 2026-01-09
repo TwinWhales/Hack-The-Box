@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.DesktopAppInstaller" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2025.402.233.0"/>
+	<Packages>
+		<b5:Package Type="application" Version="1.25.389.0" Architecture="arm64" FileName="AppxMetadata\Stub\AppInstaller_arm64_stub.msix" Offset="191603473" Size="9626636" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.25.389.0" Architecture="arm" FileName="AppxMetadata\Stub\AppInstaller_arm_stub.msix" Offset="201230207" Size="7947720" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.25.389.0" Architecture="x64" FileName="AppxMetadata\Stub\AppInstaller_x64_stub.msix" Offset="209178025" Size="9379737" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<b5:Package Type="application" Version="1.25.389.0" Architecture="x86" FileName="AppxMetadata\Stub\AppInstaller_x86_stub.msix" Offset="218557860" Size="8344351" IsStub="true">
+			<b5:Resources>
+				<b5:Resource Language="EN-US"/>
+				<b5:Resource Language="EN-GB"/>
+				<b5:Resource Scale="200"/>
+			</b5:Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</b5:Package>
+		<Package Type="application" Version="1.25.390.0" Architecture="x64" FileName="AppInstaller_x64.msix" Offset="73325666" Size="61069200">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25.390.0" Architecture="x86" FileName="AppInstaller_x86.msix" Offset="134394941" Size="57208432">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25.390.0" Architecture="arm" FileName="AppInstaller_arm.msix" Offset="51" Size="9399069">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="1.25.390.0" Architecture="arm64" FileName="AppInstaller_arm64.msix" Offset="9399197" Size="60141885">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-af" FileName="AppInstaller_language-af.msix" Offset="69541165" Size="19312">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-am" FileName="AppInstaller_language-am.msix" Offset="69560560" Size="20667">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-bs" FileName="AppInstaller_language-bs.msix" Offset="69683031" Size="19474">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ar" FileName="AppInstaller_language-ar.msix" Offset="69581310" Size="19978">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-az-latn" FileName="AppInstaller_language-az-latn.msix" Offset="69621987" Size="19674">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-bn" FileName="AppInstaller_language-bn.msix" Offset="69662503" Size="20445">
+			<Resources>
+				<Resource Language="bn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-cy" FileName="AppInstaller_language-cy.msix" Offset="69746721" Size="19150">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-as" FileName="AppInstaller_language-as.msix" Offset="69601371" Size="20528">
+			<Resources>
+				<Resource Language="as-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-he" FileName="AppInstaller_language-he.msix" Offset="70121447" Size="19405">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ca" FileName="AppInstaller_language-ca.msix" Offset="69702588" Size="24134">
+			<Resources>
+				<Resource Language="ca-es"/>
+				<Resource Language="ca-es-valencia"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-fi" FileName="AppInstaller_language-fi.msix" Offset="69954861" Size="19038">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-eu" FileName="AppInstaller_language-eu.msix" Offset="69915571" Size="19026">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ga" FileName="AppInstaller_language-ga.msix" Offset="70042056" Size="19530">
+			<Resources>
+				<Resource Language="ga-ie"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-hi" FileName="AppInstaller_language-hi.msix" Offset="70140935" Size="20446">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-fil-latn" FileName="AppInstaller_language-fil-latn.msix" Offset="69973988" Size="19339">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-el" FileName="AppInstaller_language-el.msix" Offset="69830560" Size="21331">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-hy" FileName="AppInstaller_language-hy.msix" Offset="70200648" Size="20543">
+			<Resources>
+				<Resource Language="hy-am"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-et" FileName="AppInstaller_language-et.msix" Offset="69896402" Size="19086">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-it" FileName="AppInstaller_language-it.msix" Offset="70259298" Size="43068">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-hu" FileName="AppInstaller_language-hu.msix" Offset="70180932" Size="19633">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-cs" FileName="AppInstaller_language-cs.msix" Offset="69726805" Size="19833">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-id" FileName="AppInstaller_language-id.msix" Offset="70221274" Size="18608">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-hr" FileName="AppInstaller_language-hr.msix" Offset="70161464" Size="19385">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-is" FileName="AppInstaller_language-is.msix" Offset="70239965" Size="19250">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-gu" FileName="AppInstaller_language-gu.msix" Offset="70100983" Size="20381">
+			<Resources>
+				<Resource Language="gu-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-gd-latn" FileName="AppInstaller_language-gd-latn.msix" Offset="70061674" Size="19861">
+			<Resources>
+				<Resource Language="gd-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-kk" FileName="AppInstaller_language-kk.msix" Offset="70366139" Size="20321">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-da" FileName="AppInstaller_language-da.msix" Offset="69765954" Size="19129">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-gl" FileName="AppInstaller_language-gl.msix" Offset="70081618" Size="19282">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ja" FileName="AppInstaller_language-ja.msix" Offset="70302449" Size="42912">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-kok" FileName="AppInstaller_language-kok.msix" Offset="70471308" Size="20713">
+			<Resources>
+				<Resource Language="kok-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-lo" FileName="AppInstaller_language-lo.msix" Offset="70511795" Size="20626">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-bg" FileName="AppInstaller_language-bg.msix" Offset="69641744" Size="20676">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-mk" FileName="AppInstaller_language-mk.msix" Offset="70590370" Size="20504">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ko" FileName="AppInstaller_language-ko.msix" Offset="70428136" Size="43088">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-fr" FileName="AppInstaller_language-fr.msix" Offset="69993410" Size="48563">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ka" FileName="AppInstaller_language-ka.msix" Offset="70345444" Size="20612">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-lv" FileName="AppInstaller_language-lv.msix" Offset="70551998" Size="19484">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-km" FileName="AppInstaller_language-km.msix" Offset="70386543" Size="20730">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-mr" FileName="AppInstaller_language-mr.msix" Offset="70632073" Size="20373">
+			<Resources>
+				<Resource Language="mr-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-fa" FileName="AppInstaller_language-fa.msix" Offset="69934680" Size="20098">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-pa" FileName="AppInstaller_language-pa.msix" Offset="70789758" Size="20665">
+			<Resources>
+				<Resource Language="pa-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-nl" FileName="AppInstaller_language-nl.msix" Offset="70730524" Size="19404">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ro" FileName="AppInstaller_language-ro.msix" Offset="70897885" Size="19538">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-lt" FileName="AppInstaller_language-lt.msix" Offset="70532504" Size="19411">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-nb" FileName="AppInstaller_language-nb.msix" Offset="70690951" Size="18907">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-mt" FileName="AppInstaller_language-mt.msix" Offset="70671321" Size="19547">
+			<Resources>
+				<Resource Language="mt-mt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ru" FileName="AppInstaller_language-ru.msix" Offset="70917506" Size="49269">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ml" FileName="AppInstaller_language-ml.msix" Offset="70610957" Size="21033">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-pt" FileName="AppInstaller_language-pt.msix" Offset="70830280" Size="48650">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sk" FileName="AppInstaller_language-sk.msix" Offset="70966858" Size="19813">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sq" FileName="AppInstaller_language-sq.msix" Offset="71006288" Size="19863">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sr-cyrl" FileName="AppInstaller_language-sr-cyrl.msix" Offset="71026239" Size="23092">
+			<Resources>
+				<Resource Language="sr-cyrl-ba"/>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sr-latn" FileName="AppInstaller_language-sr-latn.msix" Offset="71049419" Size="19485">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sv" FileName="AppInstaller_language-sv.msix" Offset="71068987" Size="18936">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-nn" FileName="AppInstaller_language-nn.msix" Offset="70750011" Size="19023">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-or" FileName="AppInstaller_language-or.msix" Offset="70769117" Size="20558">
+			<Resources>
+				<Resource Language="or-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ta" FileName="AppInstaller_language-ta.msix" Offset="71088006" Size="20536">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-kn" FileName="AppInstaller_language-kn.msix" Offset="70407356" Size="20697">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-th" FileName="AppInstaller_language-th.msix" Offset="71129601" Size="20125">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ne" FileName="AppInstaller_language-ne.msix" Offset="70709941" Size="20500">
+			<Resources>
+				<Resource Language="ne-np"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ms" FileName="AppInstaller_language-ms.msix" Offset="70652529" Size="18709">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-vi" FileName="AppInstaller_language-vi.msix" Offset="71270609" Size="19395">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-lb" FileName="AppInstaller_language-lb.msix" Offset="70492104" Size="19608">
+			<Resources>
+				<Resource Language="lb-lu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-zh-hans" FileName="AppInstaller_language-zh-hans.msix" Offset="71290092" Size="39592">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-tt-cyrl" FileName="AppInstaller_language-tt-cyrl.msix" Offset="71169095" Size="20322">
+			<Resources>
+				<Resource Language="tt-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-te" FileName="AppInstaller_language-te.msix" Offset="71108625" Size="20893">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-uz-latn" FileName="AppInstaller_language-uz-latn.msix" Offset="71251382" Size="19144">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ur" FileName="AppInstaller_language-ur.msix" Offset="71230594" Size="20700">
+			<Resources>
+				<Resource Language="ur-pk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-zh-hant" FileName="AppInstaller_language-zh-hant.msix" Offset="71329772" Size="40235">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-quz-latn" FileName="AppInstaller_language-quz-latn.msix" Offset="70879019" Size="18783">
+			<Resources>
+				<Resource Language="quz-pe"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-ug-arab" FileName="AppInstaller_language-ug-arab.msix" Offset="71189505" Size="20129">
+			<Resources>
+				<Resource Language="ug-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-uk" FileName="AppInstaller_language-uk.msix" Offset="71209717" Size="20794">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-sl" FileName="AppInstaller_language-sl.msix" Offset="70986754" Size="19451">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-tr" FileName="AppInstaller_language-tr.msix" Offset="71149809" Size="19198">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-pl" FileName="AppInstaller_language-pl.msix" Offset="70810506" Size="19691">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-mi-latn" FileName="AppInstaller_language-mi-latn.msix" Offset="70571570" Size="18717">
+			<Resources>
+				<Resource Language="mi-nz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-es" FileName="AppInstaller_language-es.msix" Offset="69851974" Size="44345">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.language-de" FileName="AppInstaller_language-de.msix" Offset="69785166" Size="45311">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.scale-125" FileName="AppInstaller_scale-125.msix" Offset="71516220" Size="212643">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.scale-100" FileName="AppInstaller_scale-100.msix" Offset="71370088" Size="146051">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.scale-400" FileName="AppInstaller_scale-400.msix" Offset="71995755" Size="1329836">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.25.390.0" ResourceId="split.scale-150" FileName="AppInstaller_scale-150.msix" Offset="71728944" Size="266730">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Holographic" MinVersion="10.0.20346.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

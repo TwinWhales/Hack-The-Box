@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="CACHE_KEY_AUTHED" value="true" />
+    <string name="CACHE_KEY_CURRENT_USERNAME">johnnnny9.</string>
+    <string name="CACHE_KEY_CURRENT_USER_ID">1260009116026540205</string>
+    <long name="CACHE_KEY_LAST_BACKGROUND_SYNC_RAN" value="1720663769509" />
+</map>

@@ -1,0 +1,17 @@
+Process: bdlxtspya.heihqyeizynsrdfg.tpqlhhugp
+PID: 3767
+UID: 10153
+Flags: 0x38c8be44
+Package: bdlxtspya.heihqyeizynsrdfg.tpqlhhugp v1 (1.0)
+Foreground: Yes
+Subject: PowerManager
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+
+android.util.Log$TerribleFailure: WakeLock finalized while still held: VnmvDxuQYusvY
+	at android.util.Log.wtf(Log.java:309)
+	at android.util.Log.wtf(Log.java:273)
+	at android.os.PowerManager$WakeLock.finalize(PowerManager.java:2113)
+	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:289)
+	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:276)
+	at java.lang.Daemons$Daemon.run(Daemons.java:137)
+	at java.lang.Thread.run(Thread.java:919)

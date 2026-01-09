@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.People" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2021.2202.100.0"/>
+	<Packages>
+		<Package Type="application" Version="10.2202.100.0" Architecture="arm64" FileName="App_10.2202.100.0_ARM64.appx" Offset="58" Size="8411342">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.2202.100.0" Architecture="x64" FileName="App_10.2202.100.0_x64.appx" Offset="10408256" Size="8122148">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="10.2202.100.0" Architecture="x86" FileName="App_10.2202.100.0_x86.appx" Offset="18530484" Size="7079065">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-af" FileName="App_10.2202.100.0_language-af.appx" Offset="8411488" Size="21750">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-am" FileName="App_10.2202.100.0_language-am.appx" Offset="8433326" Size="22957">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-az-latn" FileName="App_10.2202.100.0_language-az-latn.appx" Offset="8479445" Size="22169">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ar" FileName="App_10.2202.100.0_language-ar.appx" Offset="8456371" Size="22981">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-be" FileName="App_10.2202.100.0_language-be.appx" Offset="8501702" Size="23821">
+			<Resources>
+				<Resource Language="be-by"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-bg" FileName="App_10.2202.100.0_language-bg.appx" Offset="8525611" Size="23477">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-bn" FileName="App_10.2202.100.0_language-bn.appx" Offset="8549176" Size="23125">
+			<Resources>
+				<Resource Language="bn-bd"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ca" FileName="App_10.2202.100.0_language-ca.appx" Offset="8591934" Size="22072">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-bs" FileName="App_10.2202.100.0_language-bs.appx" Offset="8572389" Size="19457">
+			<Resources>
+				<Resource Language="bs-latn-ba"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-cy" FileName="App_10.2202.100.0_language-cy.appx" Offset="8637102" Size="19655">
+			<Resources>
+				<Resource Language="cy-gb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-cs" FileName="App_10.2202.100.0_language-cs.appx" Offset="8614094" Size="22920">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-da" FileName="App_10.2202.100.0_language-da.appx" Offset="8656845" Size="21760">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-el" FileName="App_10.2202.100.0_language-el.appx" Offset="8700967" Size="24115">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-es" FileName="App_10.2202.100.0_language-es.appx" Offset="8725170" Size="22963">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-et" FileName="App_10.2202.100.0_language-et.appx" Offset="8748221" Size="22018">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-eu" FileName="App_10.2202.100.0_language-eu.appx" Offset="8770327" Size="21642">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-fa" FileName="App_10.2202.100.0_language-fa.appx" Offset="8792057" Size="22485">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-fi" FileName="App_10.2202.100.0_language-fi.appx" Offset="8814630" Size="22012">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-de" FileName="App_10.2202.100.0_language-de.appx" Offset="8678693" Size="22186">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-fil-latn" FileName="App_10.2202.100.0_language-fil-latn.appx" Offset="8836736" Size="21954">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-fr" FileName="App_10.2202.100.0_language-fr.appx" Offset="8858778" Size="25328">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-gl" FileName="App_10.2202.100.0_language-gl.appx" Offset="8884194" Size="21948">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ha-latn" FileName="App_10.2202.100.0_language-ha-latn.appx" Offset="8906235" Size="17198">
+			<Resources>
+				<Resource Language="ha-latn-ng"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-he" FileName="App_10.2202.100.0_language-he.appx" Offset="8923521" Size="22049">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-hi" FileName="App_10.2202.100.0_language-hi.appx" Offset="8945658" Size="23140">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-hr" FileName="App_10.2202.100.0_language-hr.appx" Offset="8968886" Size="22844">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-hu" FileName="App_10.2202.100.0_language-hu.appx" Offset="8991818" Size="22558">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-id" FileName="App_10.2202.100.0_language-id.appx" Offset="9014464" Size="21274">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-is" FileName="App_10.2202.100.0_language-is.appx" Offset="9035826" Size="22233">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-it" FileName="App_10.2202.100.0_language-it.appx" Offset="9058147" Size="21604">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ja" FileName="App_10.2202.100.0_language-ja.appx" Offset="9079839" Size="21700">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ka" FileName="App_10.2202.100.0_language-ka.appx" Offset="9101627" Size="20302">
+			<Resources>
+				<Resource Language="ka-ge"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-kk" FileName="App_10.2202.100.0_language-kk.appx" Offset="9122017" Size="22852">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-km" FileName="App_10.2202.100.0_language-km.appx" Offset="9144957" Size="23244">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ko" FileName="App_10.2202.100.0_language-ko.appx" Offset="9191303" Size="21433">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-kn" FileName="App_10.2202.100.0_language-kn.appx" Offset="9168289" Size="22926">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-lo" FileName="App_10.2202.100.0_language-lo.appx" Offset="9212824" Size="23040">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-lt" FileName="App_10.2202.100.0_language-lt.appx" Offset="9235952" Size="22473">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-lv" FileName="App_10.2202.100.0_language-lv.appx" Offset="9258513" Size="22979">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ml" FileName="App_10.2202.100.0_language-ml.appx" Offset="9304581" Size="23805">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-mk" FileName="App_10.2202.100.0_language-mk.appx" Offset="9281580" Size="22913">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ms" FileName="App_10.2202.100.0_language-ms.appx" Offset="9328474" Size="21198">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-nb" FileName="App_10.2202.100.0_language-nb.appx" Offset="9349760" Size="21615">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-nl" FileName="App_10.2202.100.0_language-nl.appx" Offset="9371463" Size="22123">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-nn" FileName="App_10.2202.100.0_language-nn.appx" Offset="9393674" Size="19322">
+			<Resources>
+				<Resource Language="nn-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-pl" FileName="App_10.2202.100.0_language-pl.appx" Offset="9413084" Size="22754">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-pt" FileName="App_10.2202.100.0_language-pt.appx" Offset="9435926" Size="28613">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ro" FileName="App_10.2202.100.0_language-ro.appx" Offset="9464627" Size="22593">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ru" FileName="App_10.2202.100.0_language-ru.appx" Offset="9487308" Size="24220">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sk" FileName="App_10.2202.100.0_language-sk.appx" Offset="9511616" Size="22776">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sq" FileName="App_10.2202.100.0_language-sq.appx" Offset="9557178" Size="22403">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sr-cyrl" FileName="App_10.2202.100.0_language-sr-cyrl.appx" Offset="9579674" Size="20050">
+			<Resources>
+				<Resource Language="sr-cyrl-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sr-latn" FileName="App_10.2202.100.0_language-sr-latn.appx" Offset="9599817" Size="22604">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sl" FileName="App_10.2202.100.0_language-sl.appx" Offset="9534480" Size="22610">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sv" FileName="App_10.2202.100.0_language-sv.appx" Offset="9622509" Size="21569">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-sw" FileName="App_10.2202.100.0_language-sw.appx" Offset="9644166" Size="21492">
+			<Resources>
+				<Resource Language="sw-ke"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-ta" FileName="App_10.2202.100.0_language-ta.appx" Offset="9665746" Size="23153">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-te" FileName="App_10.2202.100.0_language-te.appx" Offset="9688987" Size="22944">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-th" FileName="App_10.2202.100.0_language-th.appx" Offset="9712019" Size="22530">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-tr" FileName="App_10.2202.100.0_language-tr.appx" Offset="9734637" Size="21893">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-uk" FileName="App_10.2202.100.0_language-uk.appx" Offset="9756618" Size="24365">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-uz-latn" FileName="App_10.2202.100.0_language-uz-latn.appx" Offset="9781076" Size="21966">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-vi" FileName="App_10.2202.100.0_language-vi.appx" Offset="9803130" Size="22750">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-zh-hans" FileName="App_10.2202.100.0_language-zh-hans.appx" Offset="9825973" Size="21188">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.language-zh-hant" FileName="App_10.2202.100.0_language-zh-hant.appx" Offset="9847254" Size="20964">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.scale-100" FileName="App_10.2202.100.0_scale-100.appx" Offset="9868304" Size="60212">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.scale-125" FileName="App_10.2202.100.0_scale-125.appx" Offset="9928602" Size="77359">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.scale-150" FileName="App_10.2202.100.0_scale-150.appx" Offset="10006047" Size="91428">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="10.2202.100.0" ResourceId="split.scale-400" FileName="App_10.2202.100.0_scale-400.appx" Offset="10097561" Size="310615">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.17763.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

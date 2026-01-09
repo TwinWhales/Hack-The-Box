@@ -1,0 +1,2 @@
+Prefetch Directory is  C:\Users\user\AppData\Local\Temp\Autopsy\reflection_20251127_090726\Temp\RecentActivity\1-Autopsy_PF_DB.db3_0
+DB file is  C:\Users\user\Desktop\Pentest\Forensic\Medium\Reflection\reflection\ModuleOutput\prefetch\1-Autopsy_PF_DB.db3

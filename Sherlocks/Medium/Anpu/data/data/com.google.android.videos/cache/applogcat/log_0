@@ -1,0 +1,43 @@
+07-10 22:49:53.121 VideosInitializer.initializeApp:31 Installer Package: null
+07-10 22:49:53.822 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-10 22:49:53.822 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-10 22:49:53.823 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-10 22:49:53.931 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-10 22:49:54.469 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-10 22:49:54.748 VideosInitializer.configureMobileNetworkUsageActivity:85 Enabling network usage management
+07-10 22:49:54.983 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-10 22:49:54.989 TransferService.onCreate:4 creating transfer service
+07-10 22:49:55.251 UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 1
+07-10 22:49:55.251 UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+07-10 22:49:55.283 UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+07-10 22:49:55.417 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-10 22:49:55.418 MediaRouteManager.update:111 sessionRestore network reconnected
+07-10 22:49:55.418 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-10 22:49:55.648 FlushLogsTaskService.scheduleFlushLogsPeriodicTask:12 Scheduled task flush_logs
+07-10 22:50:38.530 RefreshLicenseTaskService.onRunTask:32 On run task refresh_license
+07-10 22:52:57.913 VideosInitializer.initializeApp:31 Installer Package: null
+07-10 22:52:57.987 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE
+07-10 22:52:57.988 MediaRouteManager.onRouteSelected:54 routeInfo: MediaRouter.RouteInfo{ uniqueId=android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE, name=Phone, description=null, iconUri=null, enabled=true, connectionState=0, canDisconnect=false, playbackType=0, playbackStream=3, deviceType=0, volumeHandling=1, volume=5, volumeMax=15, presentationDisplayId=-1, extras=null, settingsIntent=null, providerPackageName=android }
+07-10 22:52:57.991 VideosInitializer.postStartup:51 Refreshing licenses in post startup
+07-10 22:52:58.127 RefreshLicenseTaskService.forceLicenseRefreshNow:26 Scheduled task refresh_license_forced
+07-10 22:52:58.131 MediaRouteManager.update:111 sessionRestore network reconnected
+07-10 22:52:58.131 MediaRouteManager.maybeRestoreRoute:89 sessionRestore routeId: 
+07-10 22:52:58.132 PersistentCache.cleanup:14 Cache is below limit, no need to shrink: [size=0, limit=5242880]
+07-10 22:53:00.238 AccountsChangedTaskService.scheduleCleanup:44 Scheduled task AccountsChangedTaskService
+07-10 22:53:00.942 AccountsChangedTaskService.scheduleCleanup:44 Scheduled task AccountsChangedTaskService
+07-10 22:53:01.377 AccountsChangedTaskService.scheduleCleanup:44 Scheduled task AccountsChangedTaskService
+07-10 22:53:02.061 AccountsChangedTaskService.onRunTask:2 Got task AccountsChangedTaskService
+07-10 22:53:02.061 UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 2
+07-10 22:53:02.062 UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+07-10 22:53:02.109 UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+07-10 22:53:02.349 AccountsChangedTaskService.onRunTask:2 Got task AccountsChangedTaskService
+07-10 22:53:02.350 UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 2
+07-10 22:53:02.350 UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+07-10 22:53:02.362 UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+07-10 22:53:02.870 AccountsChangedTaskService.onRunTask:2 Got task AccountsChangedTaskService
+07-10 22:53:02.871 UnpinContentCleanerImpl.cleanUp:13 Start clean up task with reason 2
+07-10 22:53:02.873 UnpinContentCleanerImpl.startCleanUp:18 Start cleanup unpinned content
+07-10 22:53:02.893 UnpinContentCleanerImpl.startCleanUp:26 Done cleanup unpinned content: removed 0 files
+07-11 00:56:51.557 VideosInitializer.initializeApp:31 Installer Package: null
+07-11 00:56:51.599 RefreshLicenseTaskService.scheduleLicenseRefreshPeriodicTask:12 Scheduled task refresh_license
+07-11 00:56:51.600 MediaRouteManager.onRouteAdded:49 new route added android/.support.v7.media.SystemMediaRouteProvider:DEFAULT_ROUTE

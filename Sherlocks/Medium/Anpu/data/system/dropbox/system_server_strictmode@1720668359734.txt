@@ -1,0 +1,24 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 15984
+Loop-Violation-Number: 8
+Duration-Millis: 215
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:247)
+	at libcore.io.IoBridge.open(IoBridge.java:482)
+	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.android.server.wm.LaunchParamsPersister.loadLaunchParams(LaunchParamsPersister.java:165)
+	at com.android.server.wm.LaunchParamsPersister.onUnlockUser(LaunchParamsPersister.java:111)
+	at com.android.server.wm.ActivityStackSupervisor.onUserUnlocked(ActivityStackSupervisor.java:461)
+	at com.android.server.wm.ActivityTaskManagerService$Lifecycle.onUnlockUser(ActivityTaskManagerService.java:989)
+	at com.android.server.SystemServiceManager.unlockUser(SystemServiceManager.java:208)
+	at com.android.server.am.UserController.handleMessage(UserController.java:2140)
+	at android.os.Handler.dispatchMessage(Handler.java:103)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

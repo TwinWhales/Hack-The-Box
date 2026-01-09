@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="AppUp.IntelGraphicsExperience" Publisher="CN=EB51A5DA-0E72-4863-82E4-EA21C1F8DFE3" Version="1.100.5688.0"/>
+	<Packages>
+		<Package Type="application" Version="1.100.5688.0" Architecture="x64" FileName="IGCC_Release.appx" Offset="47" Size="94756855">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-ar" FileName="IGCC_Release_language-ar.appx" Offset="94756985" Size="97525">
+			<Resources>
+				<Resource Language="ar"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-cs" FileName="IGCC_Release_language-cs.appx" Offset="94854593" Size="96335">
+			<Resources>
+				<Resource Language="cs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-da" FileName="IGCC_Release_language-da.appx" Offset="94951011" Size="92535">
+			<Resources>
+				<Resource Language="da"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-de" FileName="IGCC_Release_language-de.appx" Offset="95043629" Size="97504">
+			<Resources>
+				<Resource Language="de"/>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-el" FileName="IGCC_Release_language-el.appx" Offset="95141216" Size="113491">
+			<Resources>
+				<Resource Language="el"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-es" FileName="IGCC_Release_language-es.appx" Offset="95254790" Size="94383">
+			<Resources>
+				<Resource Language="es"/>
+				<Resource Language="es-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-fi" FileName="IGCC_Release_language-fi.appx" Offset="95349256" Size="92612">
+			<Resources>
+				<Resource Language="fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-fr" FileName="IGCC_Release_language-fr.appx" Offset="95441951" Size="96740">
+			<Resources>
+				<Resource Language="fr"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-he" FileName="IGCC_Release_language-he.appx" Offset="95538774" Size="94779">
+			<Resources>
+				<Resource Language="he"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-hr" FileName="IGCC_Release_language-hr.appx" Offset="95633636" Size="94559">
+			<Resources>
+				<Resource Language="hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-hu" FileName="IGCC_Release_language-hu.appx" Offset="95728278" Size="97277">
+			<Resources>
+				<Resource Language="hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-it" FileName="IGCC_Release_language-it.appx" Offset="95825638" Size="94174">
+			<Resources>
+				<Resource Language="it"/>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-ja" FileName="IGCC_Release_language-ja.appx" Offset="95919895" Size="92205">
+			<Resources>
+				<Resource Language="ja"/>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-ko" FileName="IGCC_Release_language-ko.appx" Offset="96012183" Size="91784">
+			<Resources>
+				<Resource Language="ko"/>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-nb" FileName="IGCC_Release_language-nb.appx" Offset="96104050" Size="91713">
+			<Resources>
+				<Resource Language="nb"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-nl" FileName="IGCC_Release_language-nl.appx" Offset="96195846" Size="93497">
+			<Resources>
+				<Resource Language="nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-pl" FileName="IGCC_Release_language-pl.appx" Offset="96289426" Size="96483">
+			<Resources>
+				<Resource Language="pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-pt" FileName="IGCC_Release_language-pt.appx" Offset="96385992" Size="133949">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-ro" FileName="IGCC_Release_language-ro.appx" Offset="96520024" Size="95801">
+			<Resources>
+				<Resource Language="ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-ru" FileName="IGCC_Release_language-ru.appx" Offset="96615908" Size="112480">
+			<Resources>
+				<Resource Language="ru"/>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-sk" FileName="IGCC_Release_language-sk.appx" Offset="96728471" Size="97420">
+			<Resources>
+				<Resource Language="sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-sl" FileName="IGCC_Release_language-sl.appx" Offset="96825974" Size="93540">
+			<Resources>
+				<Resource Language="sl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-sv" FileName="IGCC_Release_language-sv.appx" Offset="96919597" Size="92602">
+			<Resources>
+				<Resource Language="sv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-th" FileName="IGCC_Release_language-th.appx" Offset="97012282" Size="99112">
+			<Resources>
+				<Resource Language="th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-tr" FileName="IGCC_Release_language-tr.appx" Offset="97111477" Size="93313">
+			<Resources>
+				<Resource Language="tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-uk" FileName="IGCC_Release_language-uk.appx" Offset="97204873" Size="106761">
+			<Resources>
+				<Resource Language="uk"/>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-zh-hans" FileName="IGCC_Release_language-zh-hans.appx" Offset="97311722" Size="89112">
+			<Resources>
+				<Resource Language="zh-cn"/>
+				<Resource Language="zh-hans"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.language-zh-hant" FileName="IGCC_Release_language-zh-hant.appx" Offset="97400922" Size="89716">
+			<Resources>
+				<Resource Language="zh-hant"/>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.scale-100" FileName="IGCC_Release_scale-100.appx" Offset="97490719" Size="71242">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.scale-125" FileName="IGCC_Release_scale-125.appx" Offset="97562042" Size="74979">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.scale-150" FileName="IGCC_Release_scale-150.appx" Offset="97637102" Size="78805">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="1.100.5688.0" ResourceId="split.scale-400" FileName="IGCC_Release_scale-400.appx" Offset="97715988" Size="129736">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17134.0" MaxVersionTested="10.0.19041.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

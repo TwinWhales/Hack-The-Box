@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.WindowsCamera" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="2022.2502.17.0"/>
+	<Packages>
+		<Package Type="application" Version="2025.2502.17.0" Architecture="x86" FileName="CameraApp_2025.2502.17.0_x86.msix" Offset="18361739" Size="5395222">
+			<Resources>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="2025.2502.17.0" Architecture="x64" FileName="CameraApp_2025.2502.17.0_x64.msix" Offset="12491455" Size="5870197">
+			<Resources>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="2025.2502.17.0" Architecture="arm" FileName="CameraApp_2025.2502.17.0_ARM.msix" Offset="63" Size="5621098">
+			<Resources>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="2025.2502.17.0" Architecture="arm64" FileName="CameraApp_2025.2502.17.0_ARM64.msix" Offset="5621250" Size="5098430">
+			<Resources>
+				<Resource Language="EN-GB"/>
+				<Resource Language="EN-US"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-hi" FileName="CameraApp_2025.2502.17.0_language-hi.msix" Offset="11130787" Size="21800">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-zh-hans" FileName="CameraApp_2025.2502.17.0_language-zh-hans.msix" Offset="11884625" Size="19884">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.scale-100" FileName="CameraApp_2025.2502.17.0_scale-100.msix" Offset="11924515" Size="69430">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-pt" FileName="CameraApp_2025.2502.17.0_language-pt.msix" Offset="11556580" Size="27057">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-vi" FileName="CameraApp_2025.2502.17.0_language-vi.msix" Offset="11863552" Size="20973">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-tr" FileName="CameraApp_2025.2502.17.0_language-tr.msix" Offset="11799141" Size="20838">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-sl" FileName="CameraApp_2025.2502.17.0_language-sl.msix" Offset="11649104" Size="21213">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-sr-latn" FileName="CameraApp_2025.2502.17.0_language-sr-latn.msix" Offset="11691702" Size="21315">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ru" FileName="CameraApp_2025.2502.17.0_language-ru.msix" Offset="11605018" Size="22480">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-te" FileName="CameraApp_2025.2502.17.0_language-te.msix" Offset="11755743" Size="21947">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-de" FileName="CameraApp_2025.2502.17.0_language-de.msix" Offset="10890313" Size="21140">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-da" FileName="CameraApp_2025.2502.17.0_language-da.msix" Offset="10869668" Size="20550">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-th" FileName="CameraApp_2025.2502.17.0_language-th.msix" Offset="11777785" Size="21261">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-et" FileName="CameraApp_2025.2502.17.0_language-et.msix" Offset="10958356" Size="20757">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-eu" FileName="CameraApp_2025.2502.17.0_language-eu.msix" Offset="10979208" Size="20458">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-fa" FileName="CameraApp_2025.2502.17.0_language-fa.msix" Offset="10999761" Size="21559">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ca" FileName="CameraApp_2025.2502.17.0_language-ca.msix" Offset="10827205" Size="20864">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-fil-latn" FileName="CameraApp_2025.2502.17.0_language-fil-latn.msix" Offset="11042173" Size="20763">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-sq" FileName="CameraApp_2025.2502.17.0_language-sq.msix" Offset="11670412" Size="21190">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-gl" FileName="CameraApp_2025.2502.17.0_language-gl.msix" Offset="11088910" Size="20834">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-bg" FileName="CameraApp_2025.2502.17.0_language-bg.msix" Offset="10804837" Size="22273">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-am" FileName="CameraApp_2025.2502.17.0_language-am.msix" Offset="10740308" Size="21855">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-hr" FileName="CameraApp_2025.2502.17.0_language-hr.msix" Offset="11152682" Size="21102">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-es" FileName="CameraApp_2025.2502.17.0_language-es.msix" Offset="10934357" Size="23904">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ro" FileName="CameraApp_2025.2502.17.0_language-ro.msix" Offset="11583732" Size="21191">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-is" FileName="CameraApp_2025.2502.17.0_language-is.msix" Offset="11215402" Size="20939">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-lo" FileName="CameraApp_2025.2502.17.0_language-lo.msix" Offset="11364382" Size="21818">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ja" FileName="CameraApp_2025.2502.17.0_language-ja.msix" Offset="11257304" Size="20432">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-pl" FileName="CameraApp_2025.2502.17.0_language-pl.msix" Offset="11534999" Size="21486">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ml" FileName="CameraApp_2025.2502.17.0_language-ml.msix" Offset="11450994" Size="22140">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-kn" FileName="CameraApp_2025.2502.17.0_language-kn.msix" Offset="11322059" Size="21877">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ko" FileName="CameraApp_2025.2502.17.0_language-ko.msix" Offset="11344031" Size="20256">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-mk" FileName="CameraApp_2025.2502.17.0_language-mk.msix" Offset="11428884" Size="22015">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-lt" FileName="CameraApp_2025.2502.17.0_language-lt.msix" Offset="11386295" Size="21248">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-kk" FileName="CameraApp_2025.2502.17.0_language-kk.msix" Offset="11277831" Size="21898">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-az-latn" FileName="CameraApp_2025.2502.17.0_language-az-latn.msix" Offset="10783761" Size="20981">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-fr" FileName="CameraApp_2025.2502.17.0_language-fr.msix" Offset="11063031" Size="25784">
+			<Resources>
+				<Resource Language="fr-ca"/>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-nb" FileName="CameraApp_2025.2502.17.0_language-nb.msix" Offset="11493578" Size="20462">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ms" FileName="CameraApp_2025.2502.17.0_language-ms.msix" Offset="11473229" Size="20254">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-nl" FileName="CameraApp_2025.2502.17.0_language-nl.msix" Offset="11514135" Size="20769">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-km" FileName="CameraApp_2025.2502.17.0_language-km.msix" Offset="11299824" Size="22140">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-zh-hant" FileName="CameraApp_2025.2502.17.0_language-zh-hant.msix" Offset="11904609" Size="19813">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-id" FileName="CameraApp_2025.2502.17.0_language-id.msix" Offset="11195199" Size="20108">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ta" FileName="CameraApp_2025.2502.17.0_language-ta.msix" Offset="11733686" Size="21962">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-uk" FileName="CameraApp_2025.2502.17.0_language-uk.msix" Offset="11820074" Size="22401">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-sv" FileName="CameraApp_2025.2502.17.0_language-sv.msix" Offset="11713112" Size="20479">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-lv" FileName="CameraApp_2025.2502.17.0_language-lv.msix" Offset="11407638" Size="21151">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-he" FileName="CameraApp_2025.2502.17.0_language-he.msix" Offset="11109839" Size="20853">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-hu" FileName="CameraApp_2025.2502.17.0_language-hu.msix" Offset="11173879" Size="21225">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-el" FileName="CameraApp_2025.2502.17.0_language-el.msix" Offset="10911548" Size="22714">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-cs" FileName="CameraApp_2025.2502.17.0_language-cs.msix" Offset="10848164" Size="21409">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-af" FileName="CameraApp_2025.2502.17.0_language-af.msix" Offset="10719775" Size="20438">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-sk" FileName="CameraApp_2025.2502.17.0_language-sk.msix" Offset="11627593" Size="21416">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-fi" FileName="CameraApp_2025.2502.17.0_language-fi.msix" Offset="11021415" Size="20657">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-uz-latn" FileName="CameraApp_2025.2502.17.0_language-uz-latn.msix" Offset="11842575" Size="20882">
+			<Resources>
+				<Resource Language="uz-latn-uz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-ar" FileName="CameraApp_2025.2502.17.0_language-ar.msix" Offset="10762258" Size="21403">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.scale-150" FileName="CameraApp_2025.2502.17.0_scale-150.msix" Offset="12079915" Size="99808">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.language-it" FileName="CameraApp_2025.2502.17.0_language-it.msix" Offset="11236436" Size="20773">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.scale-125" FileName="CameraApp_2025.2502.17.0_scale-125.msix" Offset="11994038" Size="85784">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="2025.2502.17.0" ResourceId="split.scale-400" FileName="CameraApp_2025.2502.17.0_scale-400.msix" Offset="12179816" Size="311552">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Team" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.22000.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

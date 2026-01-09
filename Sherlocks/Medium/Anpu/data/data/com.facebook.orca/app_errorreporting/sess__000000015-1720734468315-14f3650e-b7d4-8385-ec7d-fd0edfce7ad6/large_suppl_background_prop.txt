@@ -1,0 +1,4 @@
+#no pool
+#Thu Jul 11 23:47:48 GMT+02:00 2024
+custom_app_data_map={"is_bg"\:"true","cs_mode"\:"def_bg"}
+lacrima_internal_time_apply=Time\: critical_suppl_background_ms\=0/nTime\: large_suppl_background_ms\=0/n

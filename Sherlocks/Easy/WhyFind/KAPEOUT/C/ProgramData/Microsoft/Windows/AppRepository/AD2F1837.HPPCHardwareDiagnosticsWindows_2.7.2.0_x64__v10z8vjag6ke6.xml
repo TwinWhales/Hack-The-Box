@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:rescap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities/3" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:wincap3="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities/3" IgnorableNamespaces="uap4 wincap3 rescap3 desktop2 com" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="AD2F1837.HPPCHardwareDiagnosticsWindows" ProcessorArchitecture="x64" Publisher="CN=ED346674-0FA1-4272-85CE-3187C9C86E26" Version="2.7.2.0" />
+  <Properties>
+    <DisplayName>HP PC Hardware Diagnostics Windows</DisplayName>
+    <PublisherDisplayName>HP Inc.</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.scale-200.jpg</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="125" />
+    <Resource uap:Scale="140" />
+    <Resource uap:Scale="180" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="250" />
+    <Resource uap:Scale="300" />
+    <Resource uap:Scale="400" />
+    <Resource uap:Scale="500" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.16299.0" MaxVersionTested="10.0.22000.0" />
+  </Dependencies>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+    <rescap:Capability Name="allowElevation" />
+  </Capabilities>
+  <Applications>
+    <Application Id="HPPCHardwareDiagnosticsWindows" Executable="HpHwDiag.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="HP PC Hardware Diagnostics Windows" Description="HP PC Hardware Diagnostics Windows" BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.scale-200.jpg" Square44x44Logo="Assets\Square44x44Logo.scale-200.jpg">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.scale-200.jpg" Square310x310Logo="Assets\Square310x310Logo.scale-200.jpg" Square71x71Logo="Assets\Square71x71Logo.scale-200.jpg">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="hpdiags">
+            <uap:DisplayName>HP PC Hardware Diagnostics</uap:DisplayName>
+          </uap:Protocol>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <mp:PhoneIdentity PhoneProductId="d0f2d263-0e0b-4982-b441-c2cd0b82d123" PhonePublisherId="23871b4b-1f34-4311-8990-5079df6ece9f" />
+</Package>

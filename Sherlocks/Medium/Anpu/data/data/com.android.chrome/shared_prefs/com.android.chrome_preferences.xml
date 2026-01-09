@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="org.chromium.chrome.browser.webapps.extracted_dex_version" value="5" />
+    <boolean name="home_page_button_force_enabled" value="false" />
+    <boolean name="rlz_first_search_notified" value="true" />
+    <boolean name="org.chromium.chrome.browser.tabmodel.TabPersistentStore.HAS_RUN_MULTI_INSTANCE_FILE_MIGRATION" value="true" />
+    <boolean name="reached_code_profiler_enabled" value="false" />
+    <int name="org.chromium.chrome.browser.webapps.last_sdk_version" value="29" />
+    <boolean name="ntp_button_enabled" value="false" />
+    <int name="signin_promo_last_shown_chrome_version" value="74" />
+    <boolean name="snapshot_database_removed" value="true" />
+    <boolean name="tab_group_android_enabled" value="false" />
+    <int name="android_restore_status" value="5" />
+    <boolean name="first_backup_done" value="true" />
+    <int name="org.chromium.chrome.browser.tabmodel.TabPersistentStore.ACTIVE_TAB_ID" value="0" />
+    <boolean name="incognito-shortcut-added" value="true" />
+    <int name="com.android.chrome.SEARCH_ENGINE_PROMO_SHOWN" value="0" />
+    <long name="com.google.android.apps.chrome.ChromeMobileApplication.BOOT_TIMESTAMP" value="1720732376787" />
+    <boolean name="download_home_show_storage_info_header" value="false" />
+    <boolean name="skip_welcome_page" value="true" />
+    <boolean name="command_line_on_non_rooted_enabled" value="false" />
+    <boolean name="first_run_tos_accepted" value="true" />
+    <boolean name="network_service_warm_up_enabled" value="false" />
+    <int name="browser_crash_success_upload" value="0" />
+    <set name="bts_cached_uma">
+        <string>Android.BackgroundTaskScheduler.TaskCanceled:19:2</string>
+        <string>Android.BackgroundTaskScheduler.TaskCanceled:8:2</string>
+        <string>Android.BackgroundTaskScheduler.TaskScheduled.Success:1:1</string>
+    </set>
+    <int name="MainIntent.LaunchCount" value="3" />
+    <long name="MainIntent.LaunchTimestamp" value="1720732936014" />
+    <string name="com.google.android.apps.chrome.rlz.CHROME_CLIENT_ID">ms-unknown</string>
+    <string name="org.chromium.chrome.browser.searchwidget.SEARCH_ENGINE_SHORTNAME">Google</string>
+    <boolean name="LocaleManager_SEARCH_WIDGET_PRESENT_FIRST_START" value="false" />
+    <int name="opt_out_state" value="2" />
+    <boolean name="first_run_flow" value="true" />
+    <boolean name="homepage_tile_enabled" value="true" />
+    <boolean name="variations_initialized" value="true" />
+    <boolean name="bg_startup_tracing" value="false" />
+    <float name="user_font_scale_factor" value="1.0" />
+    <int name="contextual_search_tap_triggered_promo_count" value="0" />
+    <boolean name="night_mode_available" value="false" />
+    <boolean name="in_metrics_sample" value="false" />
+    <int name="NextDownloadNotificationId" value="1000002" />
+    <int name="other_crash_failure_upload" value="0" />
+    <boolean name="auto_signed_in_school_account" value="true" />
+    <int name="renderer_crash_failure_upload" value="0" />
+    <boolean name="variations_seed_native_stored" value="true" />
+    <boolean name="BANDWIDTH_REDUCTION_PROXY_ENABLED" value="false" />
+    <set name="bts_scheduled_tasks">
+        <string>org.chromium.chrome.browser.omaha.OmahaService:71300</string>
+    </set>
+    <int name="gpu_crash_failure_upload" value="0" />
+    <int name="PrefMigrationVersion" value="4" />
+    <boolean name="applink.chrome_default_browser" value="true" />
+    <boolean name="ntp_snippets.is_scheduled" value="true" />
+    <boolean name="org.chromium.chrome.browser.browseractions.HAS_BROWSER_ACTIONS_NOTIFICATION" value="false" />
+    <int name="NotificationUmaTracker.LastShownNotificationType" value="6" />
+    <int name="channels_version_key" value="2" />
+    <boolean name="LocaleManager_WAS_IN_SPECIAL_LOCALE" value="false" />
+    <boolean name="prefs_sync_accounts_changed" value="false" />
+    <int name="renderer_crash_success_upload" value="0" />
+    <string name="locale">en-US</string>
+    <int name="com.google.android.apps.chrome.rlz.CHROME_VERSION_CODE" value="373018518" />
+    <boolean name="adaptive_toolbar_enabled" value="true" />
+    <boolean name="content_suggestions_shown" value="true" />
+    <boolean name="promos_skipped_on_first_start" value="true" />
+    <string name="com.google.android.apps.chrome.identity.UNIQUE_ID">4370414855544497377-256457446</string>
+    <long name="ChromeTabbedActivity.BackgroundTimeMs" value="1720734333583" />
+    <boolean name="download_auto_resumption_in_native" value="false" />
+    <boolean name="metrics_reporting" value="false" />
+    <boolean name="org.chromium.chrome.browser.tabmodel.TabPersistentStore.HAS_COMPUTED_MAX_ID" value="true" />
+    <boolean name="first_run_signin_complete" value="true" />
+    <boolean name="inflate_toolbar_on_background_thread" value="false" />
+    <int name="gpu_crash_success_upload" value="0" />
+    <boolean name="first_run_signin_setup" value="false" />
+    <boolean name="org.chromium.chrome.browser.tabmodel.TabPersistentStore.HAS_RUN_FILE_MIGRATION" value="true" />
+    <int name="browser_crash_failure_upload" value="0" />
+    <int name="org.chromium.chrome.browser.tab.TabIdManager.NEXT_ID" value="10" />
+    <boolean name="prioritize_bootstrap_tasks" value="false" />
+    <boolean name="night_mode_cct_available" value="true" />
+    <boolean name="grid_tab_switcher_enabled" value="false" />
+    <set name="google.services.stored_accounts" />
+    <int name="other_crash_success_upload" value="0" />
+    <string name="com.google.android.apps.chrome.rlz.RLZ_STRING"></string>
+    <long name="data_reduction_site_breakdown_allowed_date" value="1720644845758" />
+    <boolean name="com.google.android.apps.chrome.icing.IcingController.LEGACY_CORPUS_DATA_CLEARED_PREFS_NAME" value="true" />
+    <boolean name="dont_prefetch_libraries" value="false" />
+    <long name="displayed_data_reduction_snackbar_promo_saved_bytes" value="0" />
+    <boolean name="bottom_toolbar_enabled" value="false" />
+</map>

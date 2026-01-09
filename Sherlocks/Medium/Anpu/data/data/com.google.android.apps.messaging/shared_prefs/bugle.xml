@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="usage_stats_hash_salt">1a18433f-b343-4511-87e1-267ab8c6bbd1</string>
+    <long name="spam_popup_seen_timestamp" value="1720663654343" />
+    <string name="provisioning_session_id">f967164b-6d2f-49b4-a1b1-32a93c9cda1a</string>
+    <string name="firebase_instance_id">f8bJ03EdeKk:APA91bEIsW4unxwcNvzoFtip7EAVgTebDp2IBmz6Jpom6eqRBtzlveRf957rxSZR1Q_j3jFv-uIMFKOAR5zmudIPKG6wUilYkYDHHxCYpvDi7WSPt4a4-CDLr_E2NwbxaCV0te7j8kTp</string>
+    <long name="first_analytics_upload_time_in_millis" value="1720615318430" />
+    <boolean name="device_restored_from_ios" value="false" />
+    <long name="latest_notification_message_timestamp" value="-9223372036854775808" />
+    <long name="last_sync_time_millis" value="1720644503795" />
+    <boolean name="is_at_least_o" value="true" />
+    <long name="first_opened_bugle_time_millis" value="1720663654307" />
+    <boolean name="spam_popup_dismissed" value="true" />
+    <boolean name="m2_enabled_on_last_startup" value="true" />
+    <int name="rcs_provisioning_status" value="1" />
+    <long name="last_recurrent_analytics_upload_time_in_millis" value="1720666209697" />
+    <int name="shared_preferences_version" value="2" />
+    <boolean name="pending_tasks_after_reboot" value="false" />
+    <int name="rcs_sub_id" value="-2" />
+    <long name="last_passive_event_time_millis" value="1720736324629" />
+    <long name="logging_time_of_first_open" value="1720644509079" />
+    <long name="last_full_sync_time_millis" value="1720644503795" />
+    <long name="conversation_list_last_popup_show_timestamp_ms" value="1720663654749" />
+    <long name="total_millis_spent" value="6166" />
+    <boolean name="bugle_full_sync_in_progress" value="false" />
+    <boolean name="spam_detection_enabled" value="true" />
+    <boolean name="app_already_migrated_blocked_contacts" value="true" />
+    <long name="app_install_time_millis" value="1720644572400" />
+</map>

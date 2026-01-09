@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="last_criteria"></string>
+    <string name="last_custom_config"></string>
+    <string name="last_deeplink_config">{&quot;com.facebook.katana.IntentUriHandler&quot;: {&quot;enforce_scheme&quot;: true, &quot;enforce_scheme_and_authority&quot;: false, &quot;whitelist&quot;: {&quot;fb&quot;: &quot;.*&quot;, &quot;fb-work&quot;: &quot;.*&quot;, &quot;facebook&quot;: &quot;.*&quot;, &quot;dialtone&quot;: &quot;.*&quot;, &quot;http&quot;: &quot;.*&quot;, &quot;https&quot;: &quot;.*&quot;}}}</string>
+</map>

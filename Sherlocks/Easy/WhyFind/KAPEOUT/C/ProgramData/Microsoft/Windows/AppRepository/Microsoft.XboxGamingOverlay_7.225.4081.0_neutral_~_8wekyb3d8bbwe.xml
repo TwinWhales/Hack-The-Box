@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Bundle SchemaVersion="5.0" IgnorableNamespaces="b4 b5" xmlns="http://schemas.microsoft.com/appx/2013/bundle" xmlns:b4="http://schemas.microsoft.com/appx/2018/bundle" xmlns:b5="http://schemas.microsoft.com/appx/2019/bundle">
+	<Identity Name="Microsoft.XboxGamingOverlay" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="7.225.4081.0"/>
+	<Packages>
+		<Package Type="application" Version="7.225.4081.0" Architecture="arm64" FileName="GameBar_7.225.4081.0_ARM64.appx" Offset="61" Size="11397626">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="7.225.4081.0" Architecture="x64" FileName="GameBar_7.225.4081.0_x64.appx" Offset="24228557" Size="11247124">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="application" Version="7.225.4081.0" Architecture="x86" FileName="GameBar_7.225.4081.0_Win32.appx" Offset="13467189" Size="10761285">
+			<Resources>
+				<Resource Language="EN-US"/>
+				<Resource Language="EN-GB"/>
+				<Resource Scale="200"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ro" FileName="GameBar_7.225.4081.0_language-ro.appx" Offset="12546098" Size="27583">
+			<Resources>
+				<Resource Language="ro-ro"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-te" FileName="GameBar_7.225.4081.0_language-te.appx" Offset="12773372" Size="31077">
+			<Resources>
+				<Resource Language="te-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-hu" FileName="GameBar_7.225.4081.0_language-hu.appx" Offset="11997658" Size="28154">
+			<Resources>
+				<Resource Language="hu-hu"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-pt" FileName="GameBar_7.225.4081.0_language-pt.appx" Offset="12507011" Size="38996">
+			<Resources>
+				<Resource Language="pt-br"/>
+				<Resource Language="pt-pt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-sq" FileName="GameBar_7.225.4081.0_language-sq.appx" Offset="12659823" Size="27838">
+			<Resources>
+				<Resource Language="sq-al"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-zh-hans" FileName="GameBar_7.225.4081.0_language-zh-hans.appx" Offset="12918662" Size="26151">
+			<Resources>
+				<Resource Language="zh-cn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-vi" FileName="GameBar_7.225.4081.0_language-vi.appx" Offset="12890428" Size="28138">
+			<Resources>
+				<Resource Language="vi-vn"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-uk" FileName="GameBar_7.225.4081.0_language-uk.appx" Offset="12860495" Size="29842">
+			<Resources>
+				<Resource Language="uk-ua"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-fil-latn" FileName="GameBar_7.225.4081.0_language-fil-latn.appx" Offset="11829197" Size="27371">
+			<Resources>
+				<Resource Language="fil-ph"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ta" FileName="GameBar_7.225.4081.0_language-ta.appx" Offset="12742373" Size="30908">
+			<Resources>
+				<Resource Language="ta-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-th" FileName="GameBar_7.225.4081.0_language-th.appx" Offset="12804540" Size="28512">
+			<Resources>
+				<Resource Language="th-th"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-eu" FileName="GameBar_7.225.4081.0_language-eu.appx" Offset="11745781" Size="26852">
+			<Resources>
+				<Resource Language="eu-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-zh-hant" FileName="GameBar_7.225.4081.0_language-zh-hant.appx" Offset="12944909" Size="26251">
+			<Resources>
+				<Resource Language="zh-tw"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.scale-125" FileName="GameBar_7.225.4081.0_scale-125.appx" Offset="13013207" Size="56764">
+			<Resources>
+				<Resource Scale="125"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-tr" FileName="GameBar_7.225.4081.0_language-tr.appx" Offset="12833143" Size="27261">
+			<Resources>
+				<Resource Language="tr-tr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-fi" FileName="GameBar_7.225.4081.0_language-fi.appx" Offset="11802028" Size="27072">
+			<Resources>
+				<Resource Language="fi-fi"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-da" FileName="GameBar_7.225.4081.0_language-da.appx" Offset="11596994" Size="26825">
+			<Resources>
+				<Resource Language="da-dk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-sv" FileName="GameBar_7.225.4081.0_language-sv.appx" Offset="12715546" Size="26736">
+			<Resources>
+				<Resource Language="sv-se"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-sr-latn" FileName="GameBar_7.225.4081.0_language-sr-latn.appx" Offset="12687757" Size="27698">
+			<Resources>
+				<Resource Language="sr-latn-rs"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-az-latn" FileName="GameBar_7.225.4081.0_language-az-latn.appx" Offset="11482846" Size="27906">
+			<Resources>
+				<Resource Language="az-latn-az"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ru" FileName="GameBar_7.225.4081.0_language-ru.appx" Offset="12573772" Size="30232">
+			<Resources>
+				<Resource Language="ru-ru"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ar" FileName="GameBar_7.225.4081.0_language-ar.appx" Offset="11454134" Size="28616">
+			<Resources>
+				<Resource Language="ar-sa"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-am" FileName="GameBar_7.225.4081.0_language-am.appx" Offset="11424719" Size="29324">
+			<Resources>
+				<Resource Language="am-et"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-id" FileName="GameBar_7.225.4081.0_language-id.appx" Offset="12025903" Size="26278">
+			<Resources>
+				<Resource Language="id-id"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-af" FileName="GameBar_7.225.4081.0_language-af.appx" Offset="11397778" Size="26850">
+			<Resources>
+				<Resource Language="af-za"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-nl" FileName="GameBar_7.225.4081.0_language-nl.appx" Offset="12451425" Size="27144">
+			<Resources>
+				<Resource Language="nl-nl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ja" FileName="GameBar_7.225.4081.0_language-ja.appx" Offset="12106960" Size="27051">
+			<Resources>
+				<Resource Language="ja-jp"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-kk" FileName="GameBar_7.225.4081.0_language-kk.appx" Offset="12134102" Size="29512">
+			<Resources>
+				<Resource Language="kk-kz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-km" FileName="GameBar_7.225.4081.0_language-km.appx" Offset="12163705" Size="30244">
+			<Resources>
+				<Resource Language="km-kh"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-nb" FileName="GameBar_7.225.4081.0_language-nb.appx" Offset="12424730" Size="26604">
+			<Resources>
+				<Resource Language="nb-no"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ms" FileName="GameBar_7.225.4081.0_language-ms.appx" Offset="12398145" Size="26494">
+			<Resources>
+				<Resource Language="ms-my"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-es" FileName="GameBar_7.225.4081.0_language-es.appx" Offset="11683199" Size="35349">
+			<Resources>
+				<Resource Language="es-es"/>
+				<Resource Language="es-mx"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-lo" FileName="GameBar_7.225.4081.0_language-lo.appx" Offset="12251523" Size="29341">
+			<Resources>
+				<Resource Language="lo-la"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-bg" FileName="GameBar_7.225.4081.0_language-bg.appx" Offset="11510843" Size="30451">
+			<Resources>
+				<Resource Language="bg-bg"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-cs" FileName="GameBar_7.225.4081.0_language-cs.appx" Offset="11568991" Size="27912">
+			<Resources>
+				<Resource Language="cs-cz"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-de" FileName="GameBar_7.225.4081.0_language-de.appx" Offset="11623910" Size="27561">
+			<Resources>
+				<Resource Language="de-de"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-el" FileName="GameBar_7.225.4081.0_language-el.appx" Offset="11651562" Size="31546">
+			<Resources>
+				<Resource Language="el-gr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-et" FileName="GameBar_7.225.4081.0_language-et.appx" Offset="11718639" Size="27051">
+			<Resources>
+				<Resource Language="et-ee"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-it" FileName="GameBar_7.225.4081.0_language-it.appx" Offset="12079686" Size="27183">
+			<Resources>
+				<Resource Language="it-it"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-pl" FileName="GameBar_7.225.4081.0_language-pl.appx" Offset="12478660" Size="28260">
+			<Resources>
+				<Resource Language="pl-pl"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-is" FileName="GameBar_7.225.4081.0_language-is.appx" Offset="12052272" Size="27323">
+			<Resources>
+				<Resource Language="is-is"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-hr" FileName="GameBar_7.225.4081.0_language-hr.appx" Offset="11969701" Size="27866">
+			<Resources>
+				<Resource Language="hr-hr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-fa" FileName="GameBar_7.225.4081.0_language-fa.appx" Offset="11772724" Size="29213">
+			<Resources>
+				<Resource Language="fa-ir"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-sk" FileName="GameBar_7.225.4081.0_language-sk.appx" Offset="12604095" Size="27882">
+			<Resources>
+				<Resource Language="sk-sk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-sl" FileName="GameBar_7.225.4081.0_language-sl.appx" Offset="12632068" Size="27664">
+			<Resources>
+				<Resource Language="sl-si"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-he" FileName="GameBar_7.225.4081.0_language-he.appx" Offset="11912169" Size="27507">
+			<Resources>
+				<Resource Language="he-il"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-gl" FileName="GameBar_7.225.4081.0_language-gl.appx" Offset="11884787" Size="27291">
+			<Resources>
+				<Resource Language="gl-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-lt" FileName="GameBar_7.225.4081.0_language-lt.appx" Offset="12280955" Size="27740">
+			<Resources>
+				<Resource Language="lt-lt"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-hi" FileName="GameBar_7.225.4081.0_language-hi.appx" Offset="11939767" Size="29843">
+			<Resources>
+				<Resource Language="hi-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-kn" FileName="GameBar_7.225.4081.0_language-kn.appx" Offset="12194040" Size="30429">
+			<Resources>
+				<Resource Language="kn-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ko" FileName="GameBar_7.225.4081.0_language-ko.appx" Offset="12224560" Size="26872">
+			<Resources>
+				<Resource Language="ko-kr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ml" FileName="GameBar_7.225.4081.0_language-ml.appx" Offset="12366664" Size="31390">
+			<Resources>
+				<Resource Language="ml-in"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-mk" FileName="GameBar_7.225.4081.0_language-mk.appx" Offset="12336495" Size="30078">
+			<Resources>
+				<Resource Language="mk-mk"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-ca" FileName="GameBar_7.225.4081.0_language-ca.appx" Offset="11541385" Size="27515">
+			<Resources>
+				<Resource Language="ca-es"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-lv" FileName="GameBar_7.225.4081.0_language-lv.appx" Offset="12308786" Size="27618">
+			<Resources>
+				<Resource Language="lv-lv"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.scale-150" FileName="GameBar_7.225.4081.0_scale-150.appx" Offset="13070060" Size="69520">
+			<Resources>
+				<Resource Scale="150"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.scale-100" FileName="GameBar_7.225.4081.0_scale-100.appx" Offset="12971249" Size="41869">
+			<Resources>
+				<Resource Scale="100"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.language-fr" FileName="GameBar_7.225.4081.0_language-fr.appx" Offset="11856659" Size="28037">
+			<Resources>
+				<Resource Language="fr-fr"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+		<Package Type="resource" Version="7.225.4081.0" ResourceId="split.scale-400" FileName="GameBar_7.225.4081.0_scale-400.appx" Offset="13139669" Size="327435">
+			<Resources>
+				<Resource Scale="400"/>
+			</Resources>
+			<b4:Dependencies>
+				<b4:TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/>
+			</b4:Dependencies>
+		</Package>
+	</Packages>
+</Bundle>

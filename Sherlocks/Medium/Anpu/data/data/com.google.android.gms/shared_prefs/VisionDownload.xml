@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="DEPS2">
+        <string>face</string>
+        <string>barcode</string>
+        <string>ocr</string>
+    </set>
+</map>

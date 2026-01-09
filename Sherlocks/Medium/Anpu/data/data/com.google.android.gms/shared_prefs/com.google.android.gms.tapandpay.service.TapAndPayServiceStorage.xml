@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="last_unlock" value="-1" />
+    <boolean name="tap_and_pay_enabled" value="true" />
+    <string name="periodic_task_params:clientconfig.sync">{&quot;requiresCharging&quot;:false,&quot;periodSeconds&quot;:86400,&quot;flexSeconds&quot;:21600,&quot;requiredNetworkState&quot;:0}</string>
+    <boolean name="notification_setting_migration" value="true" />
+    <boolean name="was_password_sufficient" value="false" />
+</map>

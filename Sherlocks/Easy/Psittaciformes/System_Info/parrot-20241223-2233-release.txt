@@ -1,0 +1,11 @@
+PRETTY_NAME="Parrot OS 5.1 (Electro Ara)"
+NAME="Parrot OS"
+VERSION_ID="5.1"
+VERSION="5.1 (Electro Ara)"
+VERSION_CODENAME=ara
+ID=parrot
+ID_LIKE=debian
+HOME_URL="https://www.parrotsec.org/"
+SUPPORT_URL="https://community.parrotsec.org/"
+BUG_REPORT_URL="https://community.parrotsec.org/"
+KERNELVERSION(uname -r)=6.0.0-2parrot1-amd64

@@ -1,0 +1,30 @@
+07-10 14:18:22.330 [service_manager] pid=18517; event=onDeviceActive; 
+07-10 14:18:59.118 [service_manager] pid=19084; event=onDeviceActive; 
+07-10 14:18:59.120 [service_manager] pid=19084; event=doInit; persistent_level=ALWAYS; 
+07-10 14:18:59.404 [connection_status_monitor] send connectivity_changed broadcast; current_state=WAITING_TO_CONNECT; previous_state=CONNECTED
+07-10 14:21:18.528 [service_manager] pid=19084; event=onAppActive; 
+07-10 15:56:43.535 [service_manager] pid=3896; event=onDeviceActive; 
+07-10 16:18:22.496 [service_manager] pid=9793; event=onDeviceActive; 
+07-10 16:18:22.500 [service_manager] pid=9793; event=doInit; persistent_level=ALWAYS; 
+07-10 16:18:23.128 [connection_status_monitor] send connectivity_changed broadcast; current_state=NO_INTERNET; previous_state=CONNECTED
+07-10 19:07:41.363 [service_manager] pid=26636; event=doInit; persistent_level=ALWAYS; 
+07-10 19:07:45.291 [service_manager] pid=26636; event=onDeviceActive; 
+07-10 19:07:45.578 [connection_status_monitor] send connectivity_changed broadcast; current_state=WAITING_TO_CONNECT; previous_state=CONNECTED
+07-10 19:50:20.045 [service_manager] pid=5750; event=onDeviceActive; 
+07-10 19:50:20.054 [service_manager] pid=5750; event=doInit; persistent_level=ALWAYS; 
+07-10 19:50:20.383 [connection_status_monitor] send connectivity_changed broadcast; current_state=NO_INTERNET; previous_state=CONNECTED
+07-10 19:56:37.847 [service_manager] pid=8520; event=doInit; persistent_level=ALWAYS; 
+07-10 19:56:41.941 [service_manager] pid=8520; event=onDeviceActive; 
+07-10 19:56:42.280 [connection_status_monitor] send connectivity_changed broadcast; current_state=WAITING_TO_CONNECT; previous_state=CONNECTED
+07-10 20:13:57.755 [service_manager] pid=5825; event=onDeviceActive; 
+07-10 20:26:16.404 [service_manager] pid=5751; event=onDeviceActive; 
+07-10 20:26:16.406 [service_manager] pid=5751; event=doInit; persistent_level=ALWAYS; 
+07-10 20:26:16.716 [connection_status_monitor] send connectivity_changed broadcast; current_state=NO_INTERNET; previous_state=CONNECTED
+07-11 14:34:57.482 [service_manager] pid=12460; event=onDeviceActive; 
+07-11 14:34:57.487 [service_manager] pid=12460; event=doInit; persistent_level=ALWAYS; 
+07-11 14:34:58.003 [connection_status_monitor] send connectivity_changed broadcast; current_state=NO_INTERNET; previous_state=CONNECTED
+07-11 14:46:49.479 [service_manager] pid=12460; event=onAppActive; 
+07-11 14:47:53.542 [service_manager] pid=5802; event=onDeviceActive; 
+07-11 15:16:58.319 [service_manager] pid=6024; event=onDeviceActive; 
+07-11 15:16:58.324 [service_manager] pid=6024; event=doInit; persistent_level=ALWAYS; 
+07-11 15:16:58.744 [connection_status_monitor] send connectivity_changed broadcast; current_state=NO_INTERNET; previous_state=CONNECTED

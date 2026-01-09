@@ -1,0 +1,991 @@
+[Unit]
+Description=WPA supplicant
+Before=network.target
+After=dbus.service
+Wants=network.target
+IgnoreOnIsolate=true
+
+[Service]
+Type=dbus
+BusName=fi.w1.wpa_supplicant1
+ExecStart=/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+Alias=dbus-fi.w1.wpa_supplicant1.service
+[Unit]
+Description=Bluetooth service
+Documentation=man:bluetoothd(8)
+ConditionPathIsDirectory=/sys/class/bluetooth
+
+[Service]
+Type=dbus
+BusName=org.bluez
+ExecStart=/usr/libexec/bluetooth/bluetoothd
+NotifyAccess=main
+#WatchdogSec=10
+#Restart=on-failure
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+LimitNPROC=1
+ProtectHome=true
+ProtectSystem=full
+
+[Install]
+WantedBy=bluetooth.target
+Alias=dbus-org.bluez.service
+[Unit]
+Description=Modem Manager
+After=polkit.service
+Requires=polkit.service
+ConditionVirtualization=!container
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.ModemManager1
+ExecStart=/usr/sbin/ModemManager
+StandardError=null
+Restart=on-abort
+CapabilityBoundingSet=CAP_SYS_ADMIN CAP_NET_ADMIN
+ProtectSystem=true
+ProtectHome=true
+PrivateTmp=true
+RestrictAddressFamilies=AF_NETLINK AF_UNIX AF_QIPCRTR
+NoNewPrivileges=true
+User=root
+
+[Install]
+WantedBy=multi-user.target
+Alias=dbus-org.freedesktop.ModemManager1.service
+[Unit]
+Description=Network Manager Script Dispatcher Service
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.nm_dispatcher
+ExecStart=/usr/lib/NetworkManager/nm-dispatcher
+NotifyAccess=main
+
+# Enable debug logging in dispatcher service. Note that dispatcher
+# also honors debug logging requests from NetworkManager, so you
+# can also control logging requests with
+# `nmcli general logging domain DISPATCHER level TRACE`.
+#Environment=NM_DISPATCHER_DEBUG_LOG=1
+
+# We want to allow scripts to spawn long-running daemons, so tell
+# systemd to not clean up when nm-dispatcher exits
+KillMode=process
+
+[Install]
+Alias=dbus-org.freedesktop.nm-dispatcher.service
+
+[Unit]
+Description=Light Display Manager
+Documentation=man:lightdm(1)
+After=systemd-user-sessions.service
+
+# replaces plymouth-quit since lightdm quits plymouth on its own
+Conflicts=plymouth-quit.service
+After=plymouth-quit.service
+
+# lightdm takes responsibility for stopping plymouth, so if it fails
+# for any reason, make sure plymouth still stops
+OnFailure=plymouth-quit.service
+
+[Service]
+ExecStart=/usr/sbin/lightdm
+Restart=always
+BusName=org.freedesktop.DisplayManager
+
+[Install]
+Alias=display-manager.service
+[Unit]
+Description=Service for virtual machines hosted on VMware
+Documentation=http://open-vm-tools.sourceforge.net/about.php
+ConditionVirtualization=vmware
+DefaultDependencies=no
+Before=cloud-init-local.service
+After=vgauth.service
+After=apparmor.service
+RequiresMountsFor=/tmp
+After=systemd-remount-fs.service systemd-tmpfiles-setup.service systemd-modules-load.service
+
+[Service]
+ExecStart=/usr/bin/vmtoolsd
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
+Alias=vmtoolsd.service
+[Unit]
+Description=Bluetooth service
+Documentation=man:bluetoothd(8)
+ConditionPathIsDirectory=/sys/class/bluetooth
+
+[Service]
+Type=dbus
+BusName=org.bluez
+ExecStart=/usr/libexec/bluetooth/bluetoothd
+NotifyAccess=main
+#WatchdogSec=10
+#Restart=on-failure
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
+LimitNPROC=1
+ProtectHome=true
+ProtectSystem=full
+
+[Install]
+WantedBy=bluetooth.target
+Alias=dbus-org.bluez.service
+[Unit]
+Description=Remove Stale Online ext4 Metadata Check Snapshots
+ConditionCapability=CAP_SYS_ADMIN
+ConditionCapability=CAP_SYS_RAWIO
+Documentation=man:e2scrub_all(8)
+
+[Service]
+Type=oneshot
+WorkingDirectory=/
+PrivateNetwork=true
+ProtectSystem=true
+ProtectHome=read-only
+PrivateTmp=yes
+AmbientCapabilities=CAP_SYS_ADMIN CAP_SYS_RAWIO
+NoNewPrivileges=yes
+User=root
+IOSchedulingClass=idle
+CPUSchedulingPolicy=idle
+Environment=SERVICE_MODE=1
+ExecStart=/sbin/e2scrub_all -A -r
+SyslogIdentifier=%N
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=Getty on %I
+Documentation=man:agetty(8) man:systemd-getty-generator(8)
+Documentation=http://0pointer.de/blog/projects/serial-console.html
+After=systemd-user-sessions.service plymouth-quit-wait.service getty-pre.target
+After=rc-local.service
+
+# If additional gettys are spawned during boot then we should make
+# sure that this is synchronized before getty.target, even though
+# getty.target didn't actually pull it in.
+Before=getty.target
+IgnoreOnIsolate=yes
+
+# IgnoreOnIsolate causes issues with sulogin, if someone isolates
+# rescue.target or starts rescue.service from multi-user.target or
+# graphical.target.
+Conflicts=rescue.service
+Before=rescue.service
+
+# On systems without virtual consoles, don't start any getty. Note
+# that serial gettys are covered by serial-getty@.service, not this
+# unit.
+ConditionPathExists=/dev/tty0
+
+[Service]
+# the VT is cleared by TTYVTDisallocate
+# The '-o' option value tells agetty to replace 'login' arguments with an
+# option to preserve environment (-p), followed by '--' for safety, and then
+# the entered username.
+ExecStart=-/sbin/agetty -o '-p -- \\u' --noclear - $TERM
+Type=idle
+Restart=always
+RestartSec=0
+UtmpIdentifier=%I
+StandardInput=tty
+StandardOutput=tty
+TTYPath=/dev/%I
+TTYReset=yes
+TTYVHangup=yes
+TTYVTDisallocate=yes
+IgnoreSIGPIPE=no
+SendSIGHUP=yes
+
+# Unset locale for the console getty since the console has problems
+# displaying some internationalized messages.
+UnsetEnvironment=LANG LANGUAGE LC_CTYPE LC_NUMERIC LC_TIME LC_COLLATE LC_MONETARY LC_MESSAGES LC_PAPER LC_NAME LC_ADDRESS LC_TELEPHONE LC_MEASUREMENT LC_IDENTIFICATION
+
+[Install]
+WantedBy=getty.target
+DefaultInstance=tty1
+[Unit]
+Description=Accounts Service
+
+# In order to avoid races with identity-providing services like SSSD or
+# winbind, we need to ensure that Accounts Service starts after
+# nss-user-lookup.target
+After=nss-user-lookup.target
+Wants=nss-user-lookup.target
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.Accounts
+ExecStart=/usr/libexec/accounts-daemon
+Environment=GVFS_DISABLE_FUSE=1
+Environment=GIO_USE_VFS=local
+Environment=GVFS_REMOTE_VOLUME_MONITOR_IGNORE=1
+
+[Install]
+# We pull this in by graphical.target instead of waiting for the bus
+# activation, to speed things up a little: gdm uses this anyway so it is nice
+# if it is already around when gdm wants to use it and doesn't have to wait for
+# it.
+WantedBy=graphical.target
+[Unit]
+Description=Disk Manager
+Documentation=man:udisks(8)
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.UDisks2
+ExecStart=/usr/libexec/udisks2/udisksd
+KillSignal=SIGINT
+
+[Install]
+WantedBy=graphical.target
+[Unit]
+Description=Modem Manager
+After=polkit.service
+Requires=polkit.service
+ConditionVirtualization=!container
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.ModemManager1
+ExecStart=/usr/sbin/ModemManager
+StandardError=null
+Restart=on-abort
+CapabilityBoundingSet=CAP_SYS_ADMIN CAP_NET_ADMIN
+ProtectSystem=true
+ProtectHome=true
+PrivateTmp=true
+RestrictAddressFamilies=AF_NETLINK AF_UNIX AF_QIPCRTR
+NoNewPrivileges=true
+User=root
+
+[Install]
+WantedBy=multi-user.target
+Alias=dbus-org.freedesktop.ModemManager1.service
+[Unit]
+Description=Network Manager
+Documentation=man:NetworkManager(8)
+Wants=network.target
+After=network-pre.target dbus.service
+Before=network.target 
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.NetworkManager
+ExecReload=/usr/bin/busctl call org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager Reload u 0
+#ExecReload=/bin/kill -HUP $MAINPID
+ExecStart=/usr/sbin/NetworkManager --no-daemon
+Restart=on-failure
+# NM doesn't want systemd to kill its children for it
+KillMode=process
+
+# CAP_DAC_OVERRIDE: required to open /run/openvswitch/db.sock socket.
+CapabilityBoundingSet=CAP_NET_ADMIN CAP_DAC_OVERRIDE CAP_NET_RAW CAP_NET_BIND_SERVICE CAP_SETGID CAP_SETUID CAP_SYS_MODULE CAP_AUDIT_WRITE CAP_KILL CAP_SYS_CHROOT
+
+ProtectSystem=true
+ProtectHome=read-only
+
+# We require file descriptors for DHCP etc. When activating many interfaces,
+# the default limit of 1024 is easily reached.
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
+Also=NetworkManager-dispatcher.service
+
+# We want to enable NetworkManager-wait-online.service whenever this service
+# is enabled. NetworkManager-wait-online.service has
+# WantedBy=network-online.target, so enabling it only has an effect if
+# network-online.target itself is enabled or pulled in by some other unit.
+Also=NetworkManager-wait-online.service
+[Unit]
+Description=Run anacron jobs
+After=time-sync.target
+# By default, anacron will not run when no AC power is connected to system.
+# If you are using systemd and want to run anacron even when running on
+# battery, you should create the following file with the specified content
+# and then call "systemctl daemon-reload":
+#    /etc/systemd/system/anacron.service.d/on-ac.conf:
+#        [Unit]
+#        ConditionACPower=
+# See /usr/share/doc/anacron/README.Debian for detailed information.
+ConditionACPower=true
+Documentation=man:anacron man:anacrontab
+
+[Service]
+EnvironmentFile=/etc/default/anacron
+ExecStart=/usr/sbin/anacron -d -q $ANACRON_ARGS
+IgnoreSIGPIPE=false
+KillMode=mixed
+# Use SIGUSR1 to stop gracefully
+KillSignal=SIGUSR1
+
+[Install]
+WantedBy=multi-user.target
+# Copyright (C) 2013 Colin Watson.
+#
+# This file is part of binfmt-support.
+#
+# binfmt-support is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 3 of the License, or (at your
+# option) any later version.
+#
+# binfmt-support is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+# Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along
+# with binfmt-support; if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+[Unit]
+Description=Enable support for additional executable binary formats
+Documentation=man:update-binfmts(8)
+DefaultDependencies=false
+After=local-fs.target proc-sys-fs-binfmt_misc.automount
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/sbin/update-binfmts --enable
+ExecStop=/usr/sbin/update-binfmts --disable
+Restart=no
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Bluetooth management mechanism
+
+[Service]
+Type=dbus
+KillMode=process
+BusName=org.blueman.Mechanism
+ExecStart=/usr/libexec/blueman-mechanism
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Set console font and keymap
+DefaultDependencies=no
+After=console-screen.service kbd.service local-fs.target
+RequiresMountsFor=/usr
+ConditionPathExists=/bin/setupcon
+
+[Service]
+Type=oneshot
+ExecStart=/lib/console-setup/console-setup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Regular background program processing daemon
+Documentation=man:cron(8)
+After=remote-fs.target nss-user-lookup.target
+
+[Service]
+EnvironmentFile=-/etc/default/cron
+ExecStart=/usr/sbin/cron -f $EXTRA_OPTS
+IgnoreSIGPIPE=false
+KillMode=process
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=hostapd-wpe - Modified hostapd to facilitate AP impersonation attacks
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/hostapd-wpe /etc/hostapd-wpe/hostapd-wpe.conf
+WorkingDirectory=/var/log/hostapd-wpe
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Initialize hardware monitoring sensors
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=-/usr/bin/sensors -s
+ExecStart=-/usr/bin/sensors
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Raise network interfaces
+Documentation=man:interfaces(5)
+DefaultDependencies=no
+Requires=ifupdown-pre.service
+Wants=network.target
+After=local-fs.target network-pre.target apparmor.service systemd-sysctl.service systemd-modules-load.service ifupdown-pre.service
+Before=network.target shutdown.target network-online.target
+Conflicts=shutdown.target
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/default/networking
+ExecStart=/sbin/ifup -a --read-environment
+ExecStop=/sbin/ifdown -a --read-environment --exclude=lo
+RemainAfterExit=true
+TimeoutStartSec=5min
+[Unit]
+Description=Service for virtual machines hosted on VMware
+Documentation=http://open-vm-tools.sourceforge.net/about.php
+ConditionVirtualization=vmware
+DefaultDependencies=no
+Before=cloud-init-local.service
+After=vgauth.service
+After=apparmor.service
+RequiresMountsFor=/tmp
+After=systemd-remount-fs.service systemd-tmpfiles-setup.service systemd-modules-load.service
+
+[Service]
+ExecStart=/usr/bin/vmtoolsd
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target
+Alias=vmtoolsd.service
+# This service is actually a systemd target,
+# but we are using a service since targets cannot be reloaded.
+
+[Unit]
+Description=OpenVPN service
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/true
+WorkingDirectory=/etc/openvpn
+
+[Install]
+WantedBy=multi-user.target
+
+
+[Unit]
+Description=Start entropy gathering daemon (rngd)
+Documentation=man:rngd(8)
+
+[Service]
+ExecStart=/usr/sbin/rngd -f
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=fast remote file copy program daemon
+ConditionPathExists=/etc/rsyncd.conf
+After=network.target
+Documentation=man:rsync(1) man:rsyncd.conf(5)
+
+[Service]
+ExecStart=/usr/bin/rsync --daemon --no-detach
+RestartSec=1
+Restart=on-failure
+
+# Citing README.md:
+#
+#   [...] Using ssh is recommended for its security features.
+#
+#   Alternatively, rsync can run in `daemon' mode, listening on a socket.
+#   This is generally used for public file distribution, [...]
+#
+# So let's assume some extra security is more than welcome here. We do full
+# system protection (which makes /usr, /boot, & /etc read-only) and hide
+# devices. To override these defaults, it's best to do so in the drop-in
+# directory, often done via `systemctl edit rsync.service`. The file needs
+# just the bare minimum of the right [heading] and override values.
+# See systemd.unit(5) and search for "drop-in" for full details.
+
+ProtectSystem=full
+#ProtectHome=on|off|read-only
+PrivateDevices=on
+NoNewPrivileges=on
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=SSL/SSH multiplexer
+After=network.target
+Documentation=man:sslh(8)
+
+[Service]
+EnvironmentFile=/etc/default/sslh
+ExecStart=/usr/sbin/sslh --foreground $DAEMON_OPTS
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+# /lib/systemd/system/sysstat.service
+# (C) 2012 Peter Schiffer (pschiffe <at> redhat.com)
+#
+# sysstat-12.5.2 systemd unit file:
+#	 Insert a dummy record in current daily data file.
+#	 This indicates that the counters have restarted from 0.
+
+[Unit]
+Description=Resets System Activity Logs
+Documentation=man:sa1(8) man:sadc(8) man:sar(1)
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=root
+ExecStart=/usr/lib/sysstat/sa1 --boot
+
+[Install]
+WantedBy=multi-user.target
+Also=sysstat-collect.timer
+Also=sysstat-summary.timer
+[Unit]
+Description=Uncomplicated firewall
+Documentation=man:ufw(8)
+DefaultDependencies=no
+Before=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/lib/ufw/ufw-init start quiet
+ExecStop=/lib/ufw/ufw-init stop
+
+[Install]
+WantedBy=multi-user.target
+[Unit]
+Description=Virtualbox guest utils
+Conflicts=systemd-timesyncd.service
+ConditionVirtualization=oracle
+
+[Service]
+Type=forking
+Restart=no
+TimeoutSec=5min
+IgnoreSIGPIPE=no
+KillMode=process
+GuessMainPID=no
+RemainAfterExit=yes
+ExecStart=/etc/init.d/virtualbox-guest-utils start
+ExecStop=/etc/init.d/virtualbox-guest-utils stop
+
+[Install]
+WantedBy=multi-user.target
+
+[Unit]
+Description=WPA supplicant
+Before=network.target
+After=dbus.service
+Wants=network.target
+IgnoreOnIsolate=true
+
+[Service]
+Type=dbus
+BusName=fi.w1.wpa_supplicant1
+ExecStart=/sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+Alias=dbus-fi.w1.wpa_supplicant1.service
+[Unit]
+Description=Network Manager Wait Online
+Documentation=man:nm-online(1)
+Requires=NetworkManager.service
+After=NetworkManager.service
+Before=network-online.target
+
+[Service]
+# `nm-online -s` waits until the point when NetworkManager logs
+# "startup complete". That is when startup actions are settled and
+# devices and profiles reached a conclusive activated or deactivated
+# state. It depends on which profiles are configured to autoconnect and
+# also depends on profile settings like ipv4.may-fail/ipv6.may-fail,
+# which affect when a profile is considered fully activated.
+# Check NetworkManager logs to find out why wait-online takes a certain
+# time.
+
+Type=oneshot
+ExecStart=/usr/bin/nm-online -s -q
+RemainAfterExit=yes
+
+# Set $NM_ONLINE_TIMEOUT variable for timeout in seconds.
+# Edit with `systemctl edit NetworkManager-wait-online`.
+#
+# Note, this timeout should commonly not be reached. If your boot
+# gets delayed too long, then the solution is usually not to decrease
+# the timeout, but to fix your setup so that the connected state
+# gets reached earlier.
+Environment=NM_ONLINE_TIMEOUT=60
+
+[Install]
+WantedBy=network-online.target
+[Unit]
+Description=Raise network interfaces
+Documentation=man:interfaces(5)
+DefaultDependencies=no
+Requires=ifupdown-pre.service
+Wants=network.target
+After=local-fs.target network-pre.target apparmor.service systemd-sysctl.service systemd-modules-load.service ifupdown-pre.service
+Before=network.target shutdown.target network-online.target
+Conflicts=shutdown.target
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=-/etc/default/networking
+ExecStart=/sbin/ifup -a --read-environment
+ExecStop=/sbin/ifdown -a --read-environment --exclude=lo
+RemainAfterExit=true
+TimeoutStartSec=5min
+[Unit]
+Description=Authentication service for virtual machines hosted on VMware
+Documentation=http://github.com/vmware/open-vm-tools
+ConditionVirtualization=vmware
+DefaultDependencies=no
+After=systemd-remount-fs.service systemd-tmpfiles-setup.service
+After=apparmor.service
+PartOf=open-vm-tools.service
+
+[Service]
+ExecStart=/usr/bin/VGAuthService
+TimeoutStopSec=5
+
+[Install]
+RequiredBy=open-vm-tools.service
+[Unit]
+Description=Load AppArmor profiles
+DefaultDependencies=no
+Before=sysinit.target
+After=local-fs.target
+After=systemd-journald-audit.socket
+RequiresMountsFor=/var/cache/apparmor
+AssertPathIsReadWrite=/sys/kernel/security/apparmor/.load
+ConditionSecurity=apparmor
+Documentation=man:apparmor(7)
+Documentation=https://gitlab.com/apparmor/apparmor/wikis/home/
+
+# Don't start this unit on the Ubuntu Live CD
+ConditionPathExists=!/rofs/etc/apparmor.d
+
+# Don't start this unit on the Debian Live CD when using overlayfs
+ConditionPathExists=!/run/live/overlay/work
+
+[Service]
+Type=oneshot
+ExecStart=/lib/apparmor/apparmor.systemd reload
+ExecReload=/lib/apparmor/apparmor.systemd reload
+
+# systemd maps 'restart' to 'stop; start' which means removing AppArmor confinement
+# from running processes (and not being able to re-apply it later).
+# Upstream systemd developers refused to implement an option that allows overriding
+# this behaviour, therefore we have to make ExecStop a no-op to error out on the
+# safe side.
+#
+# If you really want to unload all AppArmor profiles, run   aa-teardown
+ExecStop=/bin/true
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Availability of block devices
+Before=shutdown.target
+After=lvm2-activation.service iscsi-shutdown.service iscsi.service iscsid.service fcoe.service rbdmap.service
+DefaultDependencies=no
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStop=/sbin/blkdeactivate -u -l wholevg -m disablequeueing -r wait
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Entropy Daemon based on the HAVEGE algorithm
+Documentation=man:haveged(8) http://www.issihosts.com/haveged/
+DefaultDependencies=no
+After=apparmor.service systemd-tmpfiles-setup.service systemd-tmpfiles-setup-dev.service
+Before=sysinit.target shutdown.target
+
+[Service]
+EnvironmentFile=-/etc/default/haveged
+ExecStart=/usr/sbin/haveged --Foreground --verbose=1 $DAEMON_ARGS
+Restart=always
+SuccessExitStatus=137 143
+SecureBits=noroot-locked
+CapabilityBoundingSet=CAP_SYS_ADMIN
+PrivateTmp=true
+PrivateDevices=true
+PrivateNetwork=true
+ProtectSystem=full
+ProtectHome=true
+ProtectHostname=true
+ProtectKernelLogs=true
+ProtectKernelModules=true
+RestrictNamespaces=true
+RestrictRealtime=true
+
+LockPersonality=true
+MemoryDenyWriteExecute=true
+SystemCallArchitectures=native
+SystemCallFilter=@basic-io @file-system @io-event @network-io @signal
+SystemCallFilter=arch_prctl brk ioctl mprotect sysinfo
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Set the console keyboard layout
+DefaultDependencies=no
+Before=local-fs-pre.target
+Wants=local-fs-pre.target
+ConditionPathExists=/bin/setupcon
+
+[Service]
+Type=oneshot
+ExecStart=/lib/console-setup/keyboard-setup.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+Documentation=man:dmeventd(8) man:lvcreate(8) man:lvchange(8) man:vgchange(8)
+Requires=dm-event.socket
+After=dm-event.socket dm-event.service lvm2-activation.service
+Before=local-fs-pre.target shutdown.target
+DefaultDependencies=no
+Conflicts=shutdown.target
+
+[Service]
+Type=oneshot
+Environment=LVM_SUPPRESS_LOCKING_FAILURE_MESSAGES=1
+ExecStart=/sbin/lvm vgchange --monitor y
+ExecStop=/sbin/lvm vgchange --monitor n
+RemainAfterExit=yes
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Prepare mdadm shutdown initramfs
+ConditionFileIsExecutable=/usr/bin/dracut
+After=local-fs.target boot.mount boot.automount
+Wants=local-fs.target
+Before=shutdown.target
+Conflicts=shutdown.target umount.target
+DefaultDependencies=no
+Documentation=man://dracut(8)
+
+[Service]
+RemainAfterExit=yes
+Type=oneshot
+ExecStart=/bin/true
+ExecStop=/bin/mount -o remount,exec,suid /run
+ExecStop=/bin/mkdir -p /run/initramfs
+ExecStop=/usr/bin/dracut --no-compress --no-kernel --quiet --force --force-add "shutdown mdraid" --omit "caps" /run/initramfs/shutdown.cpio
+ExecStop=/bin/sh -c 'cd /run/initramfs; cpio -id --quiet < shutdown.cpio'
+ExecStop=/bin/rm /run/initramfs/shutdown.cpio
+
+[Install]
+WantedBy=sysinit.target
+#  SPDX-License-Identifier: LGPL-2.1-or-later
+#
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+[Unit]
+Description=Platform Persistent Storage Archival
+Documentation=man:systemd-pstore(8)
+ConditionDirectoryNotEmpty=/sys/fs/pstore
+ConditionVirtualization=!container
+DefaultDependencies=no
+Conflicts=shutdown.target
+Before=sysinit.target shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/lib/systemd/systemd-pstore
+RemainAfterExit=yes
+StateDirectory=systemd/pstore
+
+[Install]
+WantedBy=sysinit.target
+[Unit]
+Description=Bluetooth OBEX service
+
+[Service]
+Type=dbus
+BusName=org.bluez.obex
+ExecStart=/usr/libexec/bluetooth/obexd
+
+[Install]
+Alias=dbus-org.bluez.obex.service
+[Unit]
+Description=PipeWire PulseAudio
+
+# We require pipewire-pulse.socket to be active before starting the daemon, because
+# while it is possible to use the service without the socket, it is not clear
+# why it would be desirable.
+#
+# A user installing pipewire and doing `systemctl --user start pipewire-pulse`
+# will not get the socket started, which might be confusing and problematic if
+# the server is to be restarted later on, as the client autospawn feature
+# might kick in. Also, a start of the socket unit will fail, adding to the
+# confusion.
+#
+# After=pipewire-pulse.socket is not needed, as it is already implicit in the
+# socket-service relationship, see systemd.socket(5).
+Requires=pipewire-pulse.socket
+ConditionUser=!root
+Wants=pipewire.service wireplumber.service pipewire-media-session.service
+After=pipewire.service wireplumber.service pipewire-media-session.service
+Conflicts=pulseaudio.service
+
+[Service]
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+RestrictNamespaces=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+Type=simple
+ExecStart=/usr/bin/pipewire-pulse
+Restart=on-failure
+Slice=session.slice
+
+[Install]
+Also=pipewire-pulse.socket
+WantedBy=default.target
+[Unit]
+Description=PipeWire Multimedia Service
+
+# We require pipewire.socket to be active before starting the daemon, because
+# while it is possible to use the service without the socket, it is not clear
+# why it would be desirable.
+#
+# A user installing pipewire and doing `systemctl --user start pipewire`
+# will not get the socket started, which might be confusing and problematic if
+# the server is to be restarted later on, as the client autospawn feature
+# might kick in. Also, a start of the socket unit will fail, adding to the
+# confusion.
+#
+# After=pipewire.socket is not needed, as it is already implicit in the
+# socket-service relationship, see systemd.socket(5).
+Requires=pipewire.socket
+ConditionUser=!root
+
+[Service]
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+RestrictNamespaces=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+Type=simple
+ExecStart=/usr/bin/pipewire
+Restart=on-failure
+Slice=session.slice
+
+[Install]
+Also=pipewire.socket
+WantedBy=default.target
+[Unit]
+Description=Sound Service
+
+# We require pulseaudio.socket to be active before starting the daemon, because
+# while it is possible to use the service without the socket, it is not clear
+# why it would be desirable.
+#
+# A user installing pulseaudio and doing `systemctl --user start pulseaudio`
+# will not get the socket started, which might be confusing and problematic if
+# the server is to be restarted later on, as the client autospawn feature
+# might kick in. Also, a start of the socket unit will fail, adding to the
+# confusion.
+#
+# After=pulseaudio.socket is not needed, as it is already implicit in the
+# socket-service relationship, see systemd.socket(5).
+Requires=pulseaudio.socket
+ConditionUser=!root
+
+[Service]
+ExecStart=/usr/bin/pulseaudio --daemonize=no --log-target=journal
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+Restart=on-failure
+RestrictNamespaces=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+# Note that notify will only work if --daemonize=no
+Type=notify
+UMask=0077
+
+[Install]
+Also=pulseaudio.socket
+WantedBy=default.target
+[Unit]
+Description=Rewrite dynamic launcher portal entries
+# Do it before the graphical session in case the launchers we need to rewrite
+# are configured to launch automatically
+PartOf=graphical-session-pre.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/xdg-desktop-portal-rewrite-launchers
+Slice=session.slice
+
+[Install]
+WantedBy=graphical-session-pre.target
+[Unit]
+Description=Multimedia Service Session Manager
+After=pipewire.service
+BindsTo=pipewire.service
+Conflicts=pipewire-media-session.service
+
+[Service]
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+NoNewPrivileges=yes
+RestrictNamespaces=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+Type=simple
+ExecStart=/usr/bin/wireplumber
+Restart=on-failure
+Slice=session.slice
+Environment=GIO_USE_VFS=local
+
+[Install]
+WantedBy=pipewire.service

@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# Version:b595d08a
+CACHE:
+/AS/API/WindowsCortanaPane/V2/Init
+/rp/xVQCsKxcC9dSohirFKZm6r1me18.br.js
+https://www.bing.com/rb/19/cir2,ortl,cc,nc/_6kcejpIrJTtxudclBiss_A-0_g.css?bu=CfMFuALgAssGwAWzBfYDPDw&or=w
+https://www.bing.com/rb/19/cir2,ortl,cc,nc/YD9SGN-b1kquJhK0Q8Dgi99Fepk.css?bu=B-gBQ9kBfzw88AE&or=w
+https://www.bing.com/rb/44/ortl,cc,nc/8yOt-qMgl3wFFpnXBbdaeUrdWpM.css?bu=A4gCjAKPAg&or=w
+https://www.bing.com/rb/6I/cir2,ortl,cc,nc/fToxuyHGR2DCKefLtgTn7xOCaXM.css?bu=FqAGnQayBtcGqQamBpcG0Qa1BrgGlwa7BpcGwwbMBsYGlwaXBpcGlwaXBoEH&or=w
+https://www.bing.com/rb/6I/ortl,cc,nc/QNBBNqWD9F_Blep-UqQSqnMp-FI.css?bu=AZcG&or=w
+https://www.bing.com/rp/_F0M0yoTmc2b-_eS3W0Eu-fGENs.br.js
+https://www.bing.com/rp/0cllJNrxT5Wrs4yXbrILl4N4iNA.br.js
+https://www.bing.com/rp/57MIhLCHJAbetYVZCK6-aT10t5o.br.js
+https://www.bing.com/rp/8EM3J3FOw7nQws05IFNH4WKgoYI.br.js
+https://www.bing.com/rp/98-tFzBbrLP3oaKdmZtyZ4BBBI4.br.js
+https://www.bing.com/rp/BQR--Mi6Hdug9aUgfjMzORag63E.br.js
+https://www.bing.com/rp/Cj4mQnDN_eMyYEqsEbjRrJ2Ttec.br.js
+https://www.bing.com/rp/fj85i52voj4Ua2p3gecD6xCyRdw.br.js
+https://www.bing.com/rp/HXQOmZnHKkJYgneadHww_IjOlxQ.br.js
+https://www.bing.com/rp/jz5JHWe_2WCod7u1RNWmByRezL4.br.js
+https://www.bing.com/rp/MAi8ZrMgFhG81tZ07Arc2JEjTY8.br.js
+https://www.bing.com/rp/mCSgyFSomm1XQhlDW4EFUFNI6jc.br.js
+https://www.bing.com/rp/MDqPc1m5c6NCOcjcf9QO_UfJAUI.br.js
+https://www.bing.com/rp/o_vYkO-UifewkbJi2yVVOlFiylA.br.js
+https://www.bing.com/rp/QzzWO8WNEVeuGs6-1Sv6FbuwNoI.br.js
+https://www.bing.com/rp/THDfVyH3ZTOy2cLUsuDa8Q-cD9M.br.js
+https://www.bing.com/rp/weVEqwvEjQTO1AQLhywy4-gNLgw.br.js
+https://www.bing.com/rp/WHnOpzzEZzQlWY6EuSOq71UjlFQ.br.js
+https://www.bing.com/rp/x0Cvpg0MmmBx9EUGxLDfa2xcV-E.br.js
+https://www.bing.com/rp/Y8FuLG6yT309qsb5Kw6-6WyPnIg.br.js
+https://www.bing.com/rp/Yi3Flkft8YS8nbd9qCHjIlXAHPg.br.js
+https://www.bing.com/rp/zEQqhwKoETyGdQapOnP2uL1FFF0.br.js
+https://www.bing.com/rs/6r/W2/ortl,cc,nc/onra7PQl9o5bYT2lASI1BE4DDEs.css?or=w
+NETWORK:
+*

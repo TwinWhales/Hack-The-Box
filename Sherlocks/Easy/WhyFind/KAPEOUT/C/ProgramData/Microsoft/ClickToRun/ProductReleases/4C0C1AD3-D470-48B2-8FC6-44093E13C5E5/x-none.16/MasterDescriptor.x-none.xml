@@ -1,0 +1,874 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<descriptor version="16.0.13127.20616">
+  <Properties>
+    <Property name="PackageVersion" value="16.0.13127.20616" />
+    <Property name="PackagePlatform" value="x64" />
+    <Property name="CultureProductType" value="Full" />
+  </Properties>
+  <Apps>
+    <App id="Access" target="root\office16\msaccess.exe">
+      <Packages>
+        <Package ID="Access.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="DCF">
+      <Packages>
+        <Package ID="DCF.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Excel" target="root\office16\excel.exe">
+      <Packages>
+        <Package ID="Excel.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Groove" target="root\office16\groove.exe">
+      <Packages>
+        <Package ID="Groove.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Lync" target="root\office16\lync.exe">
+      <Packages>
+        <Package ID="Lync.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="MondoOnly">
+      <Packages>
+        <Package ID="MondoOnly.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="OneNote" target="root\office16\onenote.exe">
+      <Packages>
+        <Package ID="OneNote.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="OSM">
+      <Packages>
+        <Package ID="OSM.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="OSMUX">
+      <Packages>
+        <Package ID="OSMUX.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Outlook" target="root\office16\outlook.exe">
+      <Packages>
+        <Package ID="Outlook.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="PowerPivot">
+      <Packages>
+        <Package ID="PowerPivot.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="PowerPoint" target="root\office16\powerpnt.exe">
+      <Packages>
+        <Package ID="PowerPoint.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="PowerView">
+      <Packages>
+        <Package ID="PowerView.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Project" target="root\office16\winproj.exe">
+      <Packages>
+        <Package ID="Project.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Publisher" target="root\office16\mspub.exe">
+      <Packages>
+        <Package ID="Publisher.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="shared">
+      <Packages>
+        <Package ID="Office.x64.x-none.16" />
+        <Package ID="Office32.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Visio" target="root\office16\visio.exe">
+      <Packages>
+        <Package ID="Visio.x64.x-none.16" />
+      </Packages>
+    </App>
+    <App id="Word" target="root\office16\winword.exe">
+      <Packages>
+        <Package ID="Word.x64.x-none.16" />
+      </Packages>
+    </App>
+  </Apps>
+  <Packages>
+    <Package filename="Access.x64.x-none.16" packageid="90160000-0015-0000-1000-0000000FF1CE" versionid="50af98f9-561f-4cf2-beb5-0e9874c8e8f5" hash="F2D4EDD2B97018DFBE314D17616AFC77" />
+    <Package filename="DCF.x64.x-none.16" packageid="90160000-0090-0000-1000-0000000FF1CE" versionid="8ac37455-e84c-477b-befe-8239ab5b4c45" hash="13627349CDA4DBD7916AE85701D9FDAD" />
+    <Package filename="Excel.x64.x-none.16" packageid="90160000-0016-0000-1000-0000000FF1CE" versionid="9ff0224e-0501-402e-9dae-8cee1e2c0325" hash="F8943D44C2AD2F1AB334C62C6FE0AA2F" />
+    <Package filename="Groove.x64.x-none.16" packageid="90160000-00BA-0000-1000-0000000FF1CE" versionid="cac40c36-8789-4202-aa2d-28f41f563798" hash="19DC0E299078486AE65EBA59D337284C" />
+    <Package filename="Lync.x64.x-none.16" packageid="90160000-012A-0000-1000-0000000FF1CE" versionid="6aa1d026-d839-4663-98b4-5810bde86365" hash="94FE488CC0D169AED83F343DEF2D726E" />
+    <Package filename="MondoOnly.x64.x-none.16" packageid="90160000-0102-0000-1000-0000000FF1CE" versionid="1693fd0b-76a2-4737-9d64-fb4cb92aba6e" hash="564339C600E06EEBC9987EC1436F0478" />
+    <Package filename="Office.x64.x-none.16" packageid="90160000-006E-0000-1000-0000000FF1CE" versionid="429b822f-6f01-497e-96ca-96f1e2eed8aa" hash="BA47BD4FA090E51B7F11A548B14854E9" />
+    <Package filename="Office32.x64.x-none.16" packageid="90160000-00C1-0000-1000-0000000FF1CE" versionid="02781000-be0a-4340-bff3-3f69716c7699" hash="EDC7CCEFF871EB3860F68F8B72F1CB23" />
+    <Package filename="OneNote.x64.x-none.16" packageid="90160000-00A1-0000-1000-0000000FF1CE" versionid="7c9e37cd-580a-4d66-846c-835764c355f2" hash="3D4DE58DBD73EAF8962150E44E9D8988" />
+    <Package filename="OSM.x64.x-none.16" packageid="90160000-00E1-0000-1000-0000000FF1CE" versionid="4155e98d-38f9-4708-84be-5827e5093050" hash="9C1A389A7ABA1185CBA66F4A9A75B940" />
+    <Package filename="OSMUX.x64.x-none.16" packageid="90160000-00E2-0000-1000-0000000FF1CE" versionid="04021c0b-61b2-44bf-84fc-f79362e87e35" hash="1ECCEDA4A59AA2BEBA3928659CE626CD" />
+    <Package filename="Outlook.x64.x-none.16" packageid="90160000-001A-0000-1000-0000000FF1CE" versionid="53f799e0-d609-4113-8ab1-e9e2f65d8451" hash="F46F97F4262CF29D6C777D438207FA3E" />
+    <Package filename="PowerPivot.x64.x-none.16" packageid="90160000-3101-0000-1000-0000000FF1CE" versionid="589d3b32-14bb-4e63-b914-4a834b6006b0" hash="B7F9527D3CCB121527AE881E1A0723CA" />
+    <Package filename="PowerPoint.x64.x-none.16" packageid="90160000-0018-0000-1000-0000000FF1CE" versionid="d6be9de3-22ee-49fa-a569-059bb998c667" hash="9F29BAE6F0AE4A291DAB8F8A28361F19" />
+    <Package filename="PowerView.x64.x-none.16" packageid="90160000-3102-0000-1000-0000000FF1CE" versionid="33b8330f-2ec8-4ac5-8b18-cd3e168d162e" hash="73DDF3D9FF3572B7612FEFF6353B601F" />
+    <Package filename="Project.x64.x-none.16" packageid="90160000-0027-0000-1000-0000000FF1CE" versionid="8324d6ef-293b-4a21-a468-a6f8d023e99e" hash="65526F13608B7A2C205F6832473F30E1" />
+    <Package filename="Publisher.x64.x-none.16" packageid="90160000-0019-0000-1000-0000000FF1CE" versionid="8523419b-a8c3-4488-a3d0-fa6c4bc7616c" hash="57399CB133C7CCBE6CCBF8220B6812F4" />
+    <Package filename="Visio.x64.x-none.16" packageid="90160000-0057-0000-1000-0000000FF1CE" versionid="9457b892-fd4f-4814-8b9c-ff92652bdcb5" hash="05F10D90487D6089EC498CA7BD5FF426" />
+    <Package filename="Word.x64.x-none.16" packageid="90160000-001B-0000-1000-0000000FF1CE" versionid="750fa086-44c3-4da7-8529-164eaf8a57a7" hash="C184B23D5380B1EEDD64BC1F13E3E16F" />
+  </Packages>
+  <SKUS>
+    <SKU ID="Access2019Retail" Name="Microsoft Access 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Access2019Volume" Name="Microsoft Access 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="AccessRetail" Name="Microsoft Access 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="OSM" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="AccessRuntime2019Retail" Name="Microsoft Access Runtime 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="AccessRuntimeRetail" Name="Microsoft Access Runtime 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="AccessVolume" Name="Microsoft Access 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="OSM" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Excel2019Retail" Name="Microsoft Excel 2019">
+      <Apps>
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="OSM" />
+        <App id="PowerPivot" />
+        <App id="PowerView" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Excel2019Volume" Name="Microsoft Excel 2019">
+      <Apps>
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="PowerPivot" />
+        <App id="PowerView" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ExcelRetail" Name="Microsoft Excel 2016">
+      <Apps>
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="OSM" />
+        <App id="PowerPivot" />
+        <App id="PowerView" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ExcelVolume" Name="Microsoft Excel 2016">
+      <Apps>
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="PowerPivot" />
+        <App id="PowerView" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeBusiness2019Retail" Name="Microsoft Office Home and Business 2019">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeBusinessPipcRetail" Name="Microsoft Office Home and Business Premium">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeBusinessRetail" Name="Microsoft Office Home and Business 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeStudent2019Retail" Name="Microsoft Office Home and Student 2019">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeStudentRetail" Name="Microsoft Office Home and Student 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="HomeStudentVNextRetail" Name="Microsoft Office Home and Student 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="PowerPoint" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="MondoRetail" Name="Microsoft Office Mondo 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="MondoOnly" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Project" />
+        <App id="Publisher" />
+        <App id="Visio" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="MondoVolume" Name="Microsoft Office Mondo 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="MondoOnly" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Project" />
+        <App id="Publisher" />
+        <App id="Visio" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="O365BusinessRetail" Name="Microsoft 365 Apps for business">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="O365EduCloudRetail" Name="Microsoft 365">
+      <Apps>
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="O365HomePremRetail" Name="Microsoft 365">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="O365ProPlusRetail" Name="Microsoft 365 Apps for enterprise">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="O365SmallBusPremRetail" Name="Microsoft 365 Small Business Premium">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="OneNoteFreeRetail" Name="Microsoft OneNote Home and Student 2016">
+      <Apps>
+        <App id="OneNote" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="OneNoteRetail" Name="Microsoft OneNote 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="OneNote" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="OneNoteVolume" Name="Microsoft OneNote 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="OneNote" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Outlook2019Retail" Name="Microsoft Outlook 2019">
+      <Apps>
+        <App id="Outlook" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Outlook2019Volume" Name="Microsoft Outlook 2019">
+      <Apps>
+        <App id="Outlook" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="OutlookRetail" Name="Microsoft Outlook 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Outlook" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="OutlookVolume" Name="Microsoft Outlook 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Outlook" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Personal2019Retail" Name="Microsoft Office Personal 2019">
+      <Apps>
+        <App id="Excel" />
+        <App id="Outlook" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PersonalPipcRetail" Name="Microsoft Office Personal Premium">
+      <Apps>
+        <App id="Excel" />
+        <App id="Outlook" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PersonalRetail" Name="Microsoft Office Personal 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="Outlook" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PowerPoint2019Retail" Name="Microsoft PowerPoint 2019">
+      <Apps>
+        <App id="PowerPoint" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PowerPoint2019Volume" Name="Microsoft PowerPoint 2019">
+      <Apps>
+        <App id="PowerPoint" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PowerPointRetail" Name="Microsoft PowerPoint 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="PowerPoint" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PowerPointVolume" Name="Microsoft PowerPoint 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="PowerPoint" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Professional2019Retail" Name="Microsoft Office Professional 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProfessionalPipcRetail" Name="Microsoft Office Professional Premium">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProfessionalRetail" Name="Microsoft Office Professional 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="Excel" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectPro2019Retail" Name="Microsoft Project Professional 2019">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectPro2019Volume" Name="Microsoft Project Professional 2019">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectProRetail" Name="Microsoft Project Professional 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectProVolume" Name="Microsoft Project Professional 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectProXVolume" Name="Microsoft Project Professional 2016">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectStd2019Retail" Name="Microsoft Project Standard 2019">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectStd2019Volume" Name="Microsoft Project Standard 2019">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectStdRetail" Name="Microsoft Project Standard 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectStdVolume" Name="Microsoft Project Standard 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProjectStdXVolume" Name="Microsoft Project Standard 2016">
+      <Apps>
+        <App id="Project" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProPlus2019Retail" Name="Microsoft Office Professional Plus 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProPlus2019Volume" Name="Microsoft Office Professional Plus 2019">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProPlusRetail" Name="Microsoft Office Professional Plus 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="ProPlusVolume" Name="Microsoft Office Professional Plus 2016">
+      <Apps>
+        <App id="Access" />
+        <App id="DCF" />
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="Lync" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="PowerView" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Publisher2019Retail" Name="Microsoft Publisher 2019">
+      <Apps>
+        <App id="Publisher" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Publisher2019Volume" Name="Microsoft Publisher 2019">
+      <Apps>
+        <App id="Publisher" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PublisherRetail" Name="Microsoft Publisher 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Publisher" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="PublisherVolume" Name="Microsoft Publisher 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Publisher" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusiness2019Retail" Name="Skype for Business 2019">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusiness2019Volume" Name="Skype for Business 2019">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusinessEntry2019Retail" Name="Skype for Business Basic 2019">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusinessEntryRetail" Name="Skype for Business Basic 2016">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusinessRetail" Name="Skype for Business 2016">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeforBusinessVolume" Name="Skype for Business 2016">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="SkypeServiceBypassRetail" Name="Skype for Business 2016">
+      <Apps>
+        <App id="Lync" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Standard2019Retail" Name="Microsoft Office Standard 2019">
+      <Apps>
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Standard2019Volume" Name="Microsoft Office Standard 2019">
+      <Apps>
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPivot" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="StandardRetail" Name="Microsoft Office Standard 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="StandardVolume" Name="Microsoft Office Standard 2016">
+      <Apps>
+        <App id="Excel" />
+        <App id="Groove" />
+        <App id="OSM" />
+        <App id="OSMUX" />
+        <App id="OneNote" />
+        <App id="Outlook" />
+        <App id="PowerPoint" />
+        <App id="Publisher" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioPro2019Retail" Name="Microsoft Visio">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioPro2019Volume" Name="Microsoft Visio Professional 2019">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioProRetail" Name="Microsoft Visio">
+      <Apps>
+        <App id="OSM" />
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioProVolume" Name="Microsoft Visio Professional 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioProXVolume" Name="Microsoft Visio Professional 2016">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioStd2019Retail" Name="Microsoft Visio">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioStd2019Volume" Name="Microsoft Visio Standard 2019">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioStdRetail" Name="Microsoft Visio">
+      <Apps>
+        <App id="OSM" />
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioStdVolume" Name="Microsoft Visio Standard 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="VisioStdXVolume" Name="Microsoft Visio Standard 2016">
+      <Apps>
+        <App id="Visio" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Word2019Retail" Name="Microsoft Word 2019">
+      <Apps>
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="Word2019Volume" Name="Microsoft Word 2019">
+      <Apps>
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="WordRetail" Name="Microsoft Word 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+    <SKU ID="WordVolume" Name="Microsoft Word 2016">
+      <Apps>
+        <App id="OSM" />
+        <App id="Word" />
+        <App id="shared" />
+      </Apps>
+    </SKU>
+  </SKUS>
+</descriptor>

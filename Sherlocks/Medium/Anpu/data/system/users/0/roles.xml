@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<roles version="-1" packagesHash="B221682E1D5612BCFEBE83DD10BB42FECC06C3099562D8357EFD268CC80BD75D">
+  <role name="android.app.role.CALL_SCREENING" />
+  <role name="android.app.role.SMS">
+    <holder name="com.google.android.apps.messaging" />
+  </role>
+  <role name="android.app.role.DIALER">
+    <holder name="com.android.dialer" />
+  </role>
+  <role name="android.app.role.HOME">
+    <holder name="com.google.android.apps.nexuslauncher" />
+  </role>
+  <role name="android.app.role.ASSISTANT">
+    <holder name="com.google.android.googlequicksearchbox" />
+  </role>
+  <role name="android.app.role.EMERGENCY">
+    <holder name="com.android.emergency" />
+  </role>
+  <role name="android.app.role.CALL_REDIRECTION" />
+  <role name="android.app.role.BROWSER">
+    <holder name="com.android.chrome" />
+  </role>
+</roles>

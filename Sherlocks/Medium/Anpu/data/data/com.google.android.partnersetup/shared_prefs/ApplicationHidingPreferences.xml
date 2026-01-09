@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="managed_apps">
+        <string>com.google.android.videos</string>
+        <string>com.google.android.apps.maps</string>
+        <string>com.android.vending</string>
+        <string>com.google.earth</string>
+        <string>com.google.android.youtube</string>
+    </set>
+    <int name="hiding_run_count" value="4" />
+    <string name="home_country">us</string>
+</map>

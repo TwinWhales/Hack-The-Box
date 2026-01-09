@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap wincap mp build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="Microsoft.XboxSpeechToTextOverlay" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.21.13002.0" ProcessorArchitecture="x64" />
+  <mp:PhoneIdentity PhoneProductId="096f0cd8-39ff-4e4d-828b-089d3e2cd153" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35" />
+  <Properties>
+    <DisplayName>ms-resource:AppName</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\GamesXboxHubStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.15031.0" MaxVersionTested="10.0.15031.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.24123.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="SpeechToTextOverlay64-Retail.exe" EntryPoint="SpeechToTextOverlay.App">
+      <uap:VisualElements AppListEntry="none" Square150x150Logo="Assets\GamesXboxHubMedTile.png" Square44x44Logo="Assets\GamesXboxHubAppList.png" Description="Xbox" BackgroundColor="#107C10" DisplayName="ms-resource:AppName">
+        <uap:DefaultTile ShortName="ms-resource:AppName" Wide310x150Logo="Assets\GamesXboxHubWideTile.png" Square310x310Logo="Assets\GamesXboxHubLargeTile.png" Square71x71Logo="Assets\GamesXboxHubSmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="wide310x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\GamesXboxHubSplashScreen.png" BackgroundColor="#107C10" />
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.protocol">
+          <uap:Protocol Name="ms-sttoverlay" />
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <wincap:Capability Name="xboxGameSpeechWindow" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.00.24213.1 built by: VCTOOLSD14ULDR" />
+    <build:Item Name="VisualStudio" Version="14.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25425.1" />
+    <build:Item Name="ProjectGUID" Value="{aed500f8-e74b-4d09-8c73-4953f4f33928}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Native" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />
+    <build:Item Name="WindowsDesktop" Version="10.0.15031.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.15031.1000 (rs_prerelease_prs.170204-1655)" />
+  </build:Metadata>
+</Package>

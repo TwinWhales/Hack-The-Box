@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="key_is_scar_enabled" value="true" />
+    <string name="adid_identifier">c3c995fd-07a5-4d1b-a568-08754ad59096</string>
+    <string name="dark_mode_appearance">lights_out</string>
+    <string name="client_uuid">22ad5100-33ce-47a1-98e1-34888fae1865</string>
+    <boolean name="HAS_SENT_ONE_TIME_PREINSTALL" value="true" />
+    <boolean name="adid_no_tracking_enabled" value="false" />
+    <int name="app_usage_monitor_state" value="1" />
+    <boolean name="is_shutdown" value="false" />
+    <long name="app_hardware_info_fatigue_last_active" value="1720646362972" />
+    <long name="cold_start_launch_time_millis" value="1720733785191" />
+    <long name="app_first_install_fatigue_last_active" value="1720646362972" />
+    <int name="log_failure_cnt" value="0" />
+    <set name="shutdown_allowed_urls">
+        <string>.*/1.1/guest/activate.json.*</string>
+        <string>.*/1.1/help/settings.json.*</string>
+        <string>.*/1.1/jot.*</string>
+        <string>.*/oauth2/token.*</string>
+    </set>
+    <long name="app_usage_monitor_update_ts" value="1720734385507" />
+    <long name="app_usage_monitor_start_ts" value="1720733785474" />
+    <long name="hashflag_last_fetch_time" value="1720733725" />
+    <int name="app_hardware_info_fatigue_amount" value="1" />
+    <long name="app_background_time_millis" value="1720733727078" />
+    <int name="shutdown_min_version" value="0" />
+    <long name="feature_timestamp_v2_0" value="1720646364780" />
+    <string name="0clientEventNextSequenceNumber">SR0AAAGQnoPm1hqWWA==</string>
+    <long name="preload_last_shown" value="1720646362879" />
+    <int name="app_first_install_fatigue_amount" value="1" />
+    <long name="become_inactive_timestamp" value="1720733727078" />
+    <int name="preload_number_of_times_shown" value="1" />
+    <int name="key_gsig_count" value="1" />
+</map>

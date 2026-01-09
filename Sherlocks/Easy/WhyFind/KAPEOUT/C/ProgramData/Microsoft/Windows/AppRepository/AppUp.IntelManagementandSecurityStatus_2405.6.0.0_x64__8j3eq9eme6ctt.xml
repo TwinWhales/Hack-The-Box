@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="uap mp rescap desktop build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <Identity Name="AppUp.IntelManagementandSecurityStatus" Publisher="CN=EB51A5DA-0E72-4863-82E4-EA21C1F8DFE3" Version="2405.6.0.0" ProcessorArchitecture="x64" />
+  <Properties>
+    <DisplayName>Intel(R) Management and Security Status</DisplayName>
+    <PublisherDisplayName>INTEL CORP</PublisherDisplayName>
+    <Logo>Assets\intel_rgb_50x50.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14393.0" MaxVersionTested="10.0.16299.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.30704.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+    <Resource uap:Scale="200" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="PrivacyIconClientGui\PrivacyIconClient.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="Intel(R) Management and Security Status" Description="Intel(R) Management and Security Status" BackgroundColor="transparent" Square44x44Logo="Assets\intel_rgb_44x44.png" Square150x150Logo="Assets\intel_rgb_150x150.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\intel_rgb_310x150.png" ShortName="Intel(R) Management and Security Status" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.startupTask" Executable="PIconStartup\PIconStartup.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="IntelManagementandSecurityStatus" Enabled="true" DisplayName="Intel(R) Management and Security Status" />
+        </desktop:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <build:Metadata>
+    <build:Item Name="Microsoft.Build.DesktopBridge.Tasks.dll" Version="4.6.30319.200" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETFramework,Version=v4.5.1" />
+    <build:Item Name="VisualStudio" Version="16.0" />
+    <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.33801.447" />
+    <build:Item Name="ProjectGUID" Value="5d295e00-45bf-4371-af7f-d0e737af74d3" />
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)" />
+  </build:Metadata>
+  <mp:PhoneIdentity PhoneProductId="36c42669-d38c-48c2-8c57-84355146982b" PhonePublisherId="23e458a8-e154-446a-b6d3-4cb83ca99f8d" />
+</Package>

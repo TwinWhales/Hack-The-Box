@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Package IgnorableNamespaces="build uap mp rescap wincap mobile" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10">
+  
+  <Identity Name="Microsoft.XboxApp" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="48.104.4001.0" ProcessorArchitecture="x64"/>
+  <mp:PhoneIdentity PhoneProductId="b806836f-eebe-41c9-8669-19e243b81b83" PhonePublisherId="95d94207-0c7c-47ed-82db-d75c81153c35"/>
+  <Properties>
+    <DisplayName>ms-resource:XboxApp.Resource/Resources/App_Title</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Logo>Assets\GamesXboxHubStoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.10586.0" MaxVersionTested="10.0.15063.0"/>
+    <PackageDependency Name="Microsoft.NET.Native.Framework.1.7" MinVersion="1.7.25531.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.NET.Native.Runtime.1.7" MinVersion="1.7.25531.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+    <PackageDependency Name="Microsoft.VCLibs.140.00.UWPDesktop" MinVersion="14.0.30035.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN"/>
+    <Resource Language="EN-US"/>
+    <Resource Language="EN-GB"/>
+    <Resource uap:Scale="100"/>
+    
+  </Resources>
+  <Applications>
+    <Application Id="Microsoft.XboxApp" Executable="XboxApp.exe" EntryPoint="XboxApp.App">
+      <uap:VisualElements DisplayName="ms-resource:XboxApp.Resource/Resources/App_Title" Square150x150Logo="Assets\GamesXboxHubMedTile.png" Square44x44Logo="Assets\GamesXboxHubAppList.png" Description="Xbox" BackgroundColor="#107C10">
+        <uap:DefaultTile ShortName="ms-resource:XboxApp.Resource/Resources/App_Title" Wide310x150Logo="Assets\GamesXboxHubWideTile.png" Square310x310Logo="Assets\GamesXboxHubLargeTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo"/>
+            <uap:ShowOn Tile="wide310x150Logo"/>
+            <uap:ShowOn Tile="square310x310Logo"/>
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:LockScreen Notification="badgeAndTileText" BadgeLogo="Assets\GamesXboxHubBadgeLogo.png"/>
+        <uap:SplashScreen Image="Assets\GamesXboxHubSplashScreen.png" BackgroundColor="#107C10"/>
+      </uap:VisualElements>
+      <Extensions>
+        
+        <mobile:Extension Category="windows.mobileMultiScreenProperties">
+          <mobile:MobileMultiScreenProperties RestrictToInternalScreen="true"/>
+        </mobile:Extension>
+      </Extensions>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://*.*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+        <uap:Rule Match="https://*.microsoft.com/" Type="include" WindowsRuntimeAccess="none"/>
+      </uap:ApplicationContentUriRules>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient"/>
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>Microsoft.UI.Xaml.dll</Path>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ColorSpectrumAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.PersonPictureAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.RatingControlAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.NavigationViewItemAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.TreeViewItemAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Automation.Peers.ColorPickerSliderAutomationPeer" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ColorPicker" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemBase" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.BitmapIconSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PathIconSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RevealListViewItemPresenter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.ParallaxView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SymbolIconSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewNode" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.IconSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DEPControlsClass" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.DEPControlsThemeResources" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.PersonPicture" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemFontInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.XamlIntegerToIndentationConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemInvokedEventArgs" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.SwipeItems" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeView" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemHeader" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingItemImageInfo" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.Primitives.ColorPickerSlider" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.NavigationViewList" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.FontIconSource" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.RatingControl" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.XamlBooleanToVisibilityConverter" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Controls.TreeViewItem" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBackgroundBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.RevealBorderBrush" ThreadingModel="both"/>
+        <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Media.AcrylicBrush" ThreadingModel="both"/>
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0"/>
+    <build:Item Name="VisualStudio" Version="16.0"/>
+    <build:Item Name="OperatingSystem" Version="10.0.17763.1 (WinBuild.160101.0800)"/>
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="16.0.33801.447"/>
+    <build:Item Name="ProjectGUID" Value="{A7BE3326-1F0F-4575-BF7B-20EE2B0FCBE2}"/>
+    <build:Item Name="ilc.exe" Version="1.7.25626.00 built by: PROJECTNGDR2"/>
+    <build:Item Name="OptimizingToolset" Value="ilc.exe"/>
+    <build:Item Name="UseDotNetNativeSharedAssemblyFrameworkPackage" Value="True"/>
+    <build:Item Name="UniversalGenericsOptOut" Value="false"/>
+    <build:Item Name="ShortcutGenericAnalysis" Value="false"/>
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="16.0.33801.447"/>
+    <build:Item Name="WindowsDesktop" Version="10.0.16299.0"/>
+    <build:Item Name="WindowsMobile" Version="10.0.16299.0"/>
+    <build:Item Name="MakePri.exe" Version="10.0.16299.15 (WinBuild.160101.0800)"/>
+  </build:Metadata>
+</Package>

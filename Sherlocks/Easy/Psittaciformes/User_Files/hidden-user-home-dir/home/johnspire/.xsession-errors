@@ -1,0 +1,96 @@
+Xsession: X session started for johnspire at Tue  3 Sep 10:17:36 BST 2024
+WARNING: tempfile is deprecated; consider using mktemp instead.
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/johnspire/.Xauthority
+localuser:johnspire being added to access control list
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting USER=johnspire
+dbus-update-activation-environment: setting LC_TIME=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting HOME=/home/johnspire
+dbus-update-activation-environment: setting DESKTOP_SESSION=lightdm-xsession
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting LC_MONETARY=en_GB.UTF-8
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=johnspire
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting LC_ADDRESS=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting LC_TELEPHONE=en_GB.UTF-8
+dbus-update-activation-environment: setting LANG=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=lightdm-xsession
+dbus-update-activation-environment: setting XAUTHORITY=/home/johnspire/.Xauthority
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/johnspire
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting LC_NAME=en_GB.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=lightdm-xsession
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=en_GB.UTF-8
+dbus-update-activation-environment: setting LC_IDENTIFICATION=en_GB.UTF-8
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/johnspire
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting LC_NUMERIC=en_GB.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=en_GB.UTF-8
+VirtualBox Additions disabled, not in a Virtual Machine
+mate-session-check-accelerated: GL Helper exited with code 512
+libEGL warning: DRI2: failed to authenticate
+mate-session-check-accelerated: GLES Helper exited with code 512
+x-session-manager[1148]: WARNING: Unable to find provider '' of required component 'dock'
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+Window manager warning: Log level 128: unsetenv() is not thread-safe and should not be used after threads are created
+Failure: No such entity
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+/home/johnspire/Downloads was removed, reassigning DOWNLOAD to homedir
+/home/johnspire/Public was removed, reassigning PUBLICSHARE to homedir
+/home/johnspire/Documents was removed, reassigning DOCUMENTS to homedir
+/home/johnspire/Music was removed, reassigning MUSIC to homedir
+/home/johnspire/Pictures was removed, reassigning PICTURES to homedir
+/home/johnspire/Videos was removed, reassigning VIDEOS to homedir
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+
+(caja:1276): Gtk-WARNING **: 10:17:36.984: Failed to register client: GDBus.Error:org.gnome.SessionManager.AlreadyRegistered: Unable to register client
+Cannot read '/var/log/kern.log'
+Unable to open desktop file /usr/share/applications/firefox.desktop for panel launcher: No such file or directory
+
+(vmware-user:1296): Gtk-WARNING **: 10:17:37.055: gtk_disable_setlocale() must be called before gtk_init()
+Initializing caja-image-converter extension
+Initializing caja-open-terminal extension
+Initializing caja-xattr-tags extension
+blueman-applet 10.17.37 WARNING  PluginManager:148 __load_plugin: Not loading DhcpClient because its conflict has higher priority
+blueman-applet 10.17.37 WARNING  PluginManager:148 __load_plugin: Not loading PPPSupport because its conflict has higher priority
+blueman-applet 10.17.37 WARNING  DiscvManager:109 update_menuitems: warning: Adapter is None
+blueman-tray version 2.1.4 starting
+There is an instance already running
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+
+(mate-power-manager:1278): GLib-CRITICAL **: 15:14:30.797: Source ID 48 was not found when attempting to remove it
+
+(mate-screensaver:1298): GLib-CRITICAL **: 16:16:35.792: Source ID 43 was not found when attempting to remove it
+
+(mate-power-manager:1278): GLib-CRITICAL **: 17:10:26.036: Source ID 73 was not found when attempting to remove it
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+
+(mate-power-manager:1278): GLib-CRITICAL **: 09:58:17.592: Source ID 88 was not found when attempting to remove it
+
+(mate-power-manager:1278): GLib-CRITICAL **: 12:05:39.505: Source ID 100 was not found when attempting to remove it
+
+(mate-power-manager:1278): GLib-CRITICAL **: 19:39:45.337: Source ID 104 was not found when attempting to remove it
+/usr/lib/python3/dist-packages/Onboard/LayoutLoaderSVG.py:447: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  raise Exceptions.LayoutFileError("Unrecognized modifier %s in" \
+19:59:18.938 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+
+** (mate-terminal:1719): CRITICAL **: 19:59:41.508: terminal_window_remove_screen: assertion 'gtk_widget_get_toplevel (GTK_WIDGET (screen)) == GTK_WIDGET (window)' failed
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs

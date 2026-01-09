@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="vvm_sms_filter_config_com.android.dialer_1_prefix">//VVM</string>
+    <set name="vvm_sms_filter_config_com.android.dialer_1_originating_numbers" />
+    <boolean name="data_roaming_is_user_setting_key" value="false" />
+    <boolean name="vvm_sms_filter_config_com.android.dialer_1_enabled" value="true" />
+    <int name="vvm_sms_filter_config_com.android.dialer_1_destination_port" value="-1" />
+    <int name="vm_count_key1" value="0" />
+    <string name="network_selection_name_key1"></string>
+    <string name="build_fingerprint">google/sdk_gphone_x86/generic_x86:10/QSR1.210802.001/7603624:userdebug/dev-keys</string>
+    <string name="network_selection_key1"></string>
+    <string name="network_selection_short_key1"></string>
+    <int name="curr_subid0" value="1" />
+</map>
