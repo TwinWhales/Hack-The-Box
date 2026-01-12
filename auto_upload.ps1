@@ -1,5 +1,6 @@
 # Configuration
 $maxSizeMB = 50
+$TargetRepo = "https://github.com/TwinWhales/Hack-The-Box.git"
 # 1. 확장자 블랙리스트
 $globalExtensions = @(".zip", ".7z", ".rar", ".tar", ".gz", ".ad1", ".E01", ".iso", ".vmem", ".vmdk", ".vdi", ".pcap", ".pcapng", ".cap", ".exe", ".dll", ".so", ".bin", ".log", ".tmp")
 # 2. 폴더 블랙리스트
@@ -31,6 +32,34 @@ function Get-ProblemRoot($fullPath) {
     }
     return $null
 }
+
+# ---------------------------------------------------------
+# 0. Remote Repository Verification & Auto-Fix
+# ---------------------------------------------------------
+Write-Host "0. Verifying Remote Repository..."
+
+# 현재 연결된 remote 주소 가져오기
+$currentRemote = git remote get-url origin 2>$null
+
+if (-not $currentRemote) {
+    Write-Host " -> No remote configured. Setting origin to: $TargetRepo" -ForegroundColor Yellow
+    git remote add origin $TargetRepo
+} elseif ($currentRemote.Trim() -ne $TargetRepo) {
+    Write-Host " -> Current remote is '$currentRemote'" -ForegroundColor Red
+    Write-Host " -> Target remote is  '$TargetRepo'" -ForegroundColor Green
+    
+    $fixRemote = Read-Host "Remote URL mismatch. Do you want to switch to the target repo? (y/n)"
+    if ($fixRemote -eq 'y') {
+        git remote set-url origin $TargetRepo
+        Write-Host " -> Remote switched to $TargetRepo" -ForegroundColor Cyan
+    } else {
+        Write-Host " -> Exiting script to prevent upload to wrong repo." -ForegroundColor Red
+        exit
+    }
+} else {
+    Write-Host " -> Remote is correctly set to: $TargetRepo" -ForegroundColor Green
+}
+
 
 Write-Host ">>> Starting Smart Auto-Upload (Targeted Mode + Extracted Check)..." -ForegroundColor Cyan
 
