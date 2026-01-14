@@ -8,7 +8,6 @@ $globalIgnoreFolders = @("venv", ".venv", "env", "venv_decrypt", "__pycache__", 
 
 $root = Get-Location
 $gitignorePath = Join-Path $root ".gitignore"
-# [FIX] 마커가 비어있으면 로직이 꼬일 수 있어 다시 채워넣었습니다.
 $markerStart = ""
 $markerEnd = ""
 
@@ -38,7 +37,6 @@ function Get-ProblemRoot($fullPath) {
 # ---------------------------------------------------------
 Write-Host "0. Verifying Remote Repository..."
 
-# 현재 연결된 remote 주소 가져오기
 $currentRemote = git remote get-url origin 2>$null
 
 if (-not $currentRemote) {
@@ -59,7 +57,6 @@ if (-not $currentRemote) {
 } else {
     Write-Host " -> Remote is correctly set to: $TargetRepo" -ForegroundColor Green
 }
-
 
 Write-Host ">>> Starting Smart Auto-Upload (Targeted Mode + Extracted Check)..." -ForegroundColor Cyan
 
@@ -205,9 +202,7 @@ if ($affectedRoots.Count -gt 0) {
                  $size = $match.Length / 1MB
                  $sizeStr = "{0:N2} MB" -f $size
                  
-                 # [NEW] 추출된 데이터(Extracted)인지 확인하여 코멘트 추가
                  $extraNote = ""
-                 # extracted, squashfs-root, jffs2-root, _extracted 등의 키워드가 경로에 포함되어 있으면 탐지
                  if ($relativePath -match "(\.extracted|_extracted|squashfs-root|jffs2-root)") {
                      $extraNote = " <br> *(Extracted/Incompatible content - Not uploaded)*"
                  }
@@ -254,33 +249,59 @@ if ($affectedRoots.Count -gt 0) {
 }
 
 # ---------------------------------------------------------
-# 4. Git Push with Smart Commit Message & Date
+# 4. Git Push with Problem Name in Commit Message
 # ---------------------------------------------------------
 Write-Host "`n----------------------------------------"
 Write-Host "4. Preparing Git Push..."
 Start-Sleep -Seconds 1
 
-$status = git status --short
+# Git 상태 확인
+$statusOutput = git status --short
 
-if ($status) {
+if ($statusOutput) {
     Write-Host "Detected changes:" -ForegroundColor Cyan
-    $status | ForEach-Object { Write-Host "   $_" }
+    $statusOutput | ForEach-Object { Write-Host "   $_" }
     
     $todayDate = Get-Date -Format "yyyy-MM-dd"
     $fullTimestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     
-    $commitSubject = "Auto upload ($todayDate)"
-    $commitBody = "Timestamp: $fullTimestamp"
+    # [NEW] 변경된 파일들을 분석하여 문제 폴더 이름을 추출
+    $changedProblemNames = [System.Collections.Generic.HashSet[string]]::new()
     
-    if ($affectedRoots.Count -gt 0) {
-        $problemNames = $affectedRoots | ForEach-Object { Split-Path $_ -Leaf } | Select-Object -Unique
-        $nameStr = $problemNames -join ", "
+    foreach ($line in $statusOutput) {
+        # git status output 예: " M Challenges/Web/SomeProblem/file.txt"
+        # 앞의 상태 코드(M, ??, A 등)와 공백을 제거하고 경로만 추출
+        if ($line.Length -gt 3) {
+            $relPath = $line.Substring(3).Trim()
+            $fullPath = Join-Path $root $relPath
+            
+            # 경로를 기반으로 문제 루트 찾기
+            $pRoot = Get-ProblemRoot $fullPath
+            if ($pRoot) {
+                $pName = Split-Path $pRoot -Leaf
+                [void]$changedProblemNames.Add($pName)
+            }
+        }
+    }
+
+    # 커밋 메시지 생성 로직
+    if ($changedProblemNames.Count -gt 0) {
+        # 문제 이름이 여러 개일 경우 콤마로 연결
+        $nameStr = $changedProblemNames -join ", "
+        # 너무 길면 자르기 (Git 제목 길이 제한 고려)
         if ($nameStr.Length -gt 50) { $nameStr = $nameStr.Substring(0, 47) + "..." }
         
-        $commitSubject = "Add/Update: $nameStr ($todayDate)"
-        $commitBody += "`n`nUpdated Problems:`n" + ($problemNames -join "`n")
-    } elseif ($status -match "\.gitignore") {
-        $commitSubject = "Config: Update .gitignore ($todayDate)"
+        # 요청하신 포맷: "문제명 - 날짜"
+        $commitSubject = "$nameStr - $todayDate"
+        $commitBody = "Timestamp: $fullTimestamp`n`nUpdated Problems:`n" + ($changedProblemNames -join "`n")
+    } else {
+        # 문제 폴더가 아닌 루트 파일(.gitignore 등)만 변경된 경우
+        if ($statusOutput -match "\.gitignore") {
+            $commitSubject = "Config: Update .gitignore - $todayDate"
+        } else {
+            $commitSubject = "Auto upload - $todayDate"
+        }
+        $commitBody = "Timestamp: $fullTimestamp"
     }
 
     Write-Host "`nGenerated Commit Message:" -ForegroundColor Magenta
@@ -290,7 +311,6 @@ if ($status) {
     if ($confirm -eq 'y') {
         Write-Host " -> Staging files (git add -A)..."
         
-        # 순차적 Add
         git add .gitignore
         git add -A
         
