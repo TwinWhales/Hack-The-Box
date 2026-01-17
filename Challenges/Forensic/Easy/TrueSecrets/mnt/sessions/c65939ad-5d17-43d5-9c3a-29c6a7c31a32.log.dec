@@ -1,0 +1,12 @@
+Cmd: hostname
+DESKTOP-MRL1A9O
+Cmd: whoami
+desktop-mrl1a9o\paul
+Cmd: dir c:\users\paul\documents
+ Volume in drive C is Windows 7
+ Volume Serial Number is 1A9Q-0313
+ Directory of C:\Users\paul\Documents
+12/13/2022  08:15 AM    <DIR>          .
+12/13/2022  08:15 AM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  25,422,577,664 bytes free

@@ -1,0 +1,15 @@
+Cmd: hostname
+DESKTOP-MRL1A9O
+Cmd: whoami
+desktop-mrl1a9o\greg
+Cmd: dir c:\users\greg\documents
+ Volume in drive C is Windows 7
+ Volume Serial Number is 1A9Q-0313
+ Directory of C:\Users\greg\Documents
+12/13/2022  09:07 AM    <DIR>          .
+12/13/2022  09:07 AM    <DIR>          ..
+12/13/2022  09:15 AM                41 flag.txt
+               1 File(s)             41 bytes
+               2 Dir(s)  25,326,063,616 bytes free
+Cmd: type c:\users\greg\documents\flag.txt
+HTB{570r1ng_53cr37_1n_m3m0ry_15_n07_g00d}
