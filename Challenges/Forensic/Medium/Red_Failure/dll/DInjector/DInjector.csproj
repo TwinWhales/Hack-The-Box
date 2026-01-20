@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F598B9C0-C180-40C9-9753-0DB2084658F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DInjector</RootNamespace>
+    <AssemblyName>DInjector</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AES.cs" />
+    <Compile Include="AM51.cs" />
+    <Compile Include="ArgumentParser.cs" />
+    <Compile Include="ClipboardPointer.cs" />
+    <Compile Include="CurrentThread.cs" />
+    <Compile Include="CurrentThreadUuid.cs" />
+    <Compile Include="Detonator.cs" />
+    <Compile Include="DInvoke\Data\Native.cs" />
+    <Compile Include="DInvoke\Data\PE.cs" />
+    <Compile Include="DInvoke\Data\Win32.cs" />
+    <Compile Include="DInvoke\DynamicInvoke\Generic.cs" />
+    <Compile Include="DInvoke\DynamicInvoke\Native.cs" />
+    <Compile Include="DInvoke\ManualMap\Map.cs" />
+    <Compile Include="FunctionPointer.cs" />
+    <Compile Include="FunctionPointerV2.cs" />
+    <Compile Include="ProcessHollow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registers.cs" />
+    <Compile Include="RemoteThread.cs" />
+    <Compile Include="RemoteThreadAPC.cs" />
+    <Compile Include="RemoteThreadContext.cs" />
+    <Compile Include="RemoteThreadDll.cs" />
+    <Compile Include="RemoteThreadSuspended.cs" />
+    <Compile Include="RemoteThreadView.cs" />
+    <Compile Include="SpawnProcess.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
