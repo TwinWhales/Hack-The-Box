@@ -1,0 +1,53 @@
+{
+	"name": "ChatGPT-B0T",
+	"displayName": "ChatGPT-B0T",
+	"description": "ChatGPT-B0T is a AI extension",
+	"publisher": "0xS1rx58D3V",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.91.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "chatbot.start",
+				"title": "Chatbot: Start"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "vscode-test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^10.0.7",
+		"@types/node": "20.x",
+		"@types/vscode": "^1.91.0",
+		"@vscode/test-cli": "^0.0.9",
+		"@vscode/test-electron": "^2.4.0",
+		"eslint": "^8.57.0",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"node-fetch": "^3.3.2"
+	},
+	"__metadata": {
+		"id": "f90f6e70-8208-4121-a858-fb09e69c0212",
+		"publisherId": "265a0a22-747c-477c-8c2e-da2992b89d4a",
+		"publisherDisplayName": "0xS1rx58.D3V",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1721663762299,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
