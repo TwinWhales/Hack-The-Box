@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 administrator administrator 20 Feb 11 09:36 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:36 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:36 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:36 1 -> socket:[41418]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 10 -> /memfd:wayland-cursor (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 11 -> socket:[42256]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 12 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 13 -> /dev/ptmx
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 14 -> pipe:[42379]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 15 -> anon_inode:[pidfd]
+l-wx------ 1 administrator administrator 64 Feb 11 09:38 16 -> pipe:[42379]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 17 -> /memfd:pulseaudio (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 18 -> socket:[42381]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 19 -> /home/administrator/.cache/event-sound-cache.tdb.922af4924e3440909f79e1c37c0ec990.x86_64-pc-linux-gnu
+lrwx------ 1 administrator administrator 64 Feb 11 09:36 2 -> socket:[41418]
+lrwx------ 1 administrator administrator 64 Feb 11 09:36 3 -> socket:[41420]
+lrwx------ 1 administrator administrator 64 Feb 11 09:36 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 6 -> socket:[42251]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 7 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 8 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:36 9 -> socket:[42254]

@@ -1,0 +1,21 @@
+total 0
+dr-x------ 2 administrator administrator 18 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[29691]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> anon_inode:[pidfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> socket:[30271]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> socket:[30276]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> socket:[30359]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:[pidfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> socket:[30400]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> socket:[30581]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> socket:[31841]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[29691]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[30157]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[30196]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> anon_inode:[pidfd]

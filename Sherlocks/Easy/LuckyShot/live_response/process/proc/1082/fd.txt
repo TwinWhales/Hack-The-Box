@@ -1,0 +1,13 @@
+total 0
+dr-x------ 2 polkitd polkitd 10 Feb 11 09:32 .
+dr-xr-xr-x 9 polkitd polkitd  0 Feb 11 09:32 ..
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:32 1 -> /dev/null
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:32 2 -> /dev/null
+lr-x------ 1 polkitd polkitd 64 Feb 11 09:32 3 -> anon_inode:inotify
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:32 4 -> anon_inode:[eventfd]
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:35 6 -> socket:[19629]
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lrwx------ 1 polkitd polkitd 64 Feb 11 09:35 8 -> socket:[19631]
+lr-x------ 1 polkitd polkitd 64 Feb 11 09:32 9 -> anon_inode:inotify

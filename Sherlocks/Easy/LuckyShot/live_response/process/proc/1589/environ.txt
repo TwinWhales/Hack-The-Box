@@ -1,0 +1,10 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=kernoops
+LOGNAME=kernoops
+INVOCATION_ID=fb8745a1cd6944398df88bdaf4f8c4a5
+JOURNAL_STREAM=8:21199
+SYSTEMD_EXEC_PID=1583
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/kerneloops.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+ENABLED=1

@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 accept_threshold_percent
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 compressor
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 enabled
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 exclusive_loads
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 max_pool_percent
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 non_same_filled_pages_enabled
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 same_filled_pages_enabled
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 shrinker_enabled
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 zpool

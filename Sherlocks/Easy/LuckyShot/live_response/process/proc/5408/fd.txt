@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 administrator administrator  4 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:36 ..
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 0 -> /dev/pts/0
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 1 -> /dev/pts/0
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 2 -> /dev/pts/0
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 255 -> /dev/pts/0

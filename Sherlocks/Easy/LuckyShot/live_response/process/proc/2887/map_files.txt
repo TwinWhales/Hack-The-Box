@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root           0 Feb 11 09:38 .
+dr-xr-xr-x 9 root administrator  0 Feb 11 09:34 ..
+lr-------- 1 root root          64 Feb 11 09:39 5f451b974000-5f451b976000 -> /usr/bin/fusermount3
+lr-------- 1 root root          64 Feb 11 09:39 5f451b976000-5f451b97b000 -> /usr/bin/fusermount3
+lr-------- 1 root root          64 Feb 11 09:39 5f451b97b000-5f451b97d000 -> /usr/bin/fusermount3
+lr-------- 1 root root          64 Feb 11 09:39 5f451b97d000-5f451b97e000 -> /usr/bin/fusermount3
+lr-------- 1 root root          64 Feb 11 09:39 5f451b97e000-5f451b97f000 -> /usr/bin/fusermount3
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b200000-7cbc7b228000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b228000-7cbc7b3b0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b3b0000-7cbc7b3ff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b3ff000-7cbc7b403000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b403000-7cbc7b405000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b599000-7cbc7b59a000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b59a000-7cbc7b5c5000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b5c5000-7cbc7b5cf000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b5cf000-7cbc7b5d1000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root          64 Feb 11 09:39 7cbc7b5d1000-7cbc7b5d3000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

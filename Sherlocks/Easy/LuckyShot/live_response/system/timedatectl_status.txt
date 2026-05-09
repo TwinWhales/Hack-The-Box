@@ -1,0 +1,7 @@
+               Local time: Tue 2025-02-11 09:51:26 IST
+           Universal time: Tue 2025-02-11 07:51:26 UTC
+                 RTC time: Tue 2025-02-11 07:51:26
+                Time zone: Asia/Jerusalem (IST, +0200)
+System clock synchronized: yes
+              NTP service: active
+          RTC in local TZ: no

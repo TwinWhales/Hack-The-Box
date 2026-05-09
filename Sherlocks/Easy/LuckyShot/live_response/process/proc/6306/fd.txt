@@ -1,0 +1,14 @@
+total 0
+dr-x------ 2 administrator administrator 11 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:38 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 1 -> socket:[30574]
+lr-x------ 1 administrator administrator 64 Feb 11 09:39 10 -> pipe:[128163]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 2 -> socket:[30574]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 3 -> socket:[41808]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 6 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 7 -> /proc/6306/mountinfo
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 8 -> /memfd:extract-persistent-storage (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:39 9 -> pipe:[128162]

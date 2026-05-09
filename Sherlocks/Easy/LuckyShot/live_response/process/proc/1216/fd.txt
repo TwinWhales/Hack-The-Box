@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 root netdev  5 Feb 11 09:32 .
+dr-xr-xr-x 9 root netdev  0 Feb 11 09:32 ..
+lr-x------ 1 root netdev 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 root netdev 64 Feb 11 09:32 1 -> socket:[19333]
+lrwx------ 1 root netdev 64 Feb 11 09:32 2 -> socket:[19333]
+lrwx------ 1 root netdev 64 Feb 11 09:32 3 -> socket:[19369]
+lrwx------ 1 root netdev 64 Feb 11 09:32 4 -> socket:[19374]

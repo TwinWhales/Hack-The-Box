@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+USER=root
+INVOCATION_ID=fe5fd74ee94e438fa0ef88ca44f7f5ea
+JOURNAL_STREAM=8:23679
+STATE_DIRECTORY=/var/lib/bluetooth
+CONFIGURATION_DIRECTORY=/etc/bluetooth
+SYSTEMD_EXEC_PID=1697
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/bluetooth.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

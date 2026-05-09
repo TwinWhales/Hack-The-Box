@@ -1,0 +1,22 @@
+/media/administrator/Ubuntu 24.04.1 LTS amd64/.disk
+/tmp/.XIM-unix
+/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.snap-store/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.snap-store/tmp/.snap
+/tmp/snap-private-tmp/snap.snapd-desktop-integration/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.snapd-desktop-integration/tmp/.snap
+/tmp/snap-private-tmp/snap.firefox/tmp/.X11-unix
+/tmp/snap-private-tmp/snap.firefox/tmp/.snap
+/tmp/.font-unix
+/tmp/.ICE-unix
+/usr/lib/modules/6.8.0-52-generic/vdso/.build-id
+/usr/lib/debug/.build-id
+/var/lib/gdm3/.config
+/var/lib/gdm3/.local
+/var/lib/gdm3/.cache
+/var/lib/gnome-remote-desktop/.local
+/var/lib/gnome-remote-desktop/.cache
+/var/lib/colord/.cache
+/run/systemd/propagate/.os-release-stage
+/run/speech-dispatcher/.cache
+/run/user/1000/systemd/propagate/.os-release-stage

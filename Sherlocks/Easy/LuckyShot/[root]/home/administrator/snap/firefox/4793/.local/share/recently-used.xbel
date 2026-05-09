@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/administrator/Downloads/slack-desktop-4.41.105-amd64.deb" added="2025-02-09T19:06:04.856406Z" modified="2025-02-09T19:06:04.856433Z" visited="2025-02-09T19:06:04.856409Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-09T19:06:04.856423Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/administrator/Downloads/tsetup.5.10.7.tar.xz" added="2025-02-09T19:06:19.547092Z" modified="2025-02-09T19:06:19.547100Z" visited="2025-02-09T19:06:19.547093Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-xz-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-09T19:06:19.547096Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/administrator/Downloads/zoom_amd64.deb" added="2025-02-09T19:08:11.630582Z" modified="2025-02-09T19:08:11.630596Z" visited="2025-02-09T19:08:11.630585Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-02-09T19:08:11.630589Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

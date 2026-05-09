@@ -1,0 +1,22 @@
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0     4K  1 loop /snap/bare/5
+loop1    7:1    0  63.7M  1 loop /snap/core20/2434
+loop2    7:2    0   6.4M  1 loop /snap/curl/1754
+loop3    7:3    0  74.3M  1 loop /snap/core22/1564
+loop4    7:4    0  10.7M  1 loop /snap/firmware-updater/127
+loop5    7:5    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop6    7:6    0 269.8M  1 loop /snap/firefox/4793
+loop7    7:7    0 505.1M  1 loop /snap/gnome-42-2204/176
+loop8    7:8    0  11.1M  1 loop /snap/firmware-updater/167
+loop9    7:9    0  10.5M  1 loop /snap/snap-store/1173
+loop10   7:10   0  44.4M  1 loop /snap/snapd/23545
+loop11   7:11   0  38.8M  1 loop /snap/snapd/21759
+loop12   7:12   0   568K  1 loop /snap/snapd-desktop-integration/253
+loop13   7:13   0   500K  1 loop /snap/snapd-desktop-integration/178
+loop14   7:14   0  73.9M  1 loop /snap/core22/1748
+loop15   7:15   0  10.8M  1 loop /snap/snap-store/1248
+loop16   7:16   0   258M  1 loop /snap/firefox/5701
+sda      8:0    0   120G  0 disk 
+|-sda1   8:1    0     1M  0 part 
+`-sda2   8:2    0   120G  0 part /
+sr0     11:0    1   5.8G  0 rom  /media/administrator/Ubuntu 24.04.1 LTS amd64

@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root 15 Feb 11 09:32 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:32 ..
+lr-x------ 1 root root 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:32 1 -> socket:[11385]
+lrwx------ 1 root root 64 Feb 11 09:35 10 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Feb 11 09:32 11 -> anon_inode:[timerfd]
+lr-x------ 1 root root 64 Feb 11 09:32 12 -> /usr/lib/udev/hwdb.bin
+lrwx------ 1 root root 64 Feb 11 09:32 13 -> /sys/fs/cgroup/system.slice/systemd-udevd.service/memory.pressure
+lrwx------ 1 root root 64 Feb 11 09:35 15 -> anon_inode:[timerfd]
+lrwx------ 1 root root 64 Feb 11 09:32 2 -> socket:[11385]
+lrwx------ 1 root root 64 Feb 11 09:32 3 -> socket:[10968]
+lrwx------ 1 root root 64 Feb 11 09:32 4 -> socket:[10970]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> socket:[11947]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> socket:[11951]
+lrwx------ 1 root root 64 Feb 11 09:35 7 -> socket:[11952]
+lr-x------ 1 root root 64 Feb 11 09:35 8 -> anon_inode:inotify
+lrwx------ 1 root root 64 Feb 11 09:32 9 -> anon_inode:[eventpoll]

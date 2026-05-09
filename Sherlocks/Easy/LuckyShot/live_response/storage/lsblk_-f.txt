@@ -1,0 +1,22 @@
+NAME   FSTYPE   FSVER            LABEL                    UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+loop0  squashfs 4.0                                                                                  0   100% /snap/bare/5
+loop1  squashfs 4.0                                                                                  0   100% /snap/core20/2434
+loop2  squashfs 4.0                                                                                  0   100% /snap/curl/1754
+loop3  squashfs 4.0                                                                                  0   100% /snap/core22/1564
+loop4  squashfs 4.0                                                                                  0   100% /snap/firmware-updater/127
+loop5  squashfs 4.0                                                                                  0   100% /snap/gtk-common-themes/1535
+loop6  squashfs 4.0                                                                                  0   100% /snap/firefox/4793
+loop7  squashfs 4.0                                                                                  0   100% /snap/gnome-42-2204/176
+loop8  squashfs 4.0                                                                                  0   100% /snap/firmware-updater/167
+loop9  squashfs 4.0                                                                                  0   100% /snap/snap-store/1173
+loop10 squashfs 4.0                                                                                  0   100% /snap/snapd/23545
+loop11 squashfs 4.0                                                                                  0   100% /snap/snapd/21759
+loop12 squashfs 4.0                                                                                  0   100% /snap/snapd-desktop-integration/253
+loop13 squashfs 4.0                                                                                  0   100% /snap/snapd-desktop-integration/178
+loop14                                                                                               0   100% /snap/core22/1748
+loop15 squashfs 4.0                                                                                  0   100% /snap/snap-store/1248
+loop16                                                                                               0   100% /snap/firefox/5701
+sda                                                                                                           
+|-sda1                                                                                                        
+`-sda2 ext4     1.0                                       fe9db2f5-6bb2-42a3-b54c-05cb523e1bf6   98.8G    11% /
+sr0    iso9660  Joliet Extension Ubuntu 24.04.1 LTS amd64 2024-08-27-16-23-26-00                     0   100% /media/administrator/Ubuntu 24.04.1 LTS amd64

@@ -1,0 +1,870 @@
+17d49e00000-17d49f00000 rw-p 00000000 00:00 0                            [anon:js-gc-heap]
+63ea9300000-63ea9400000 rw-p 00000000 00:00 0                            [anon:js-gc-heap]
+134628c00000-134628d00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+1ace80700000-1ace80800000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+22c1f9400000-22c1f9500000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+276110800000-276110900000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+318df8d00000-318df8e00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+31ffed223000-31ffed233000 ---p 00000000 00:00 0                          [anon:js-executable-memory]
+31ffed233000-31ffed243000 rwxp 00000000 00:00 0                          [anon:js-executable-memory]
+31ffed243000-31ffed253000 ---p 00000000 00:00 0                          [anon:js-executable-memory]
+31ffed253000-31ffed2e3000 ---p 00000000 00:00 0                          [anon:js-executable-memory]
+31ffed2e3000-32006ce23000 ---p 00000000 00:00 0                          [anon:js-executable-memory]
+341c11c00000-341c11d00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+39dfbbd00000-39dfbbe00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+3bb8a3d00000-3bb8a3e00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+3cbd18b00000-3cbd18c00000 rw-p 00000000 00:00 0                          [anon:js-gc-heap]
+558c5d6e2000-558c5d70c000 r--p 00000000 07:10 267                        /snap/firefox/5701/usr/lib/firefox/firefox
+558c5d70c000-558c5d7ee000 r-xp 00029000 07:10 267                        /snap/firefox/5701/usr/lib/firefox/firefox
+558c5d7ee000-558c5d7f0000 r--p 0010a000 07:10 267                        /snap/firefox/5701/usr/lib/firefox/firefox
+558c5d7f0000-558c5d7f1000 rw-p 0010b000 07:10 267                        /snap/firefox/5701/usr/lib/firefox/firefox
+558c5d7f1000-558c5d7f3000 rw-p 00000000 00:00 0 
+77e70f0c7000-77e70f103000 r--p 00000000 08:02 670361                     /usr/share/fonts/truetype/noto/NotoSansArabic-Regular.ttf
+77e70f103000-77e70f11b000 r--p 00000000 08:02 670356                     /usr/share/fonts/truetype/noto/NotoSansAdlam-Regular.ttf
+77e70f11b000-77e70f180000 r--p 00000000 08:02 670290                     /usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf
+77e70f180000-77e70f19a000 r--p 00000000 08:02 670649                     /usr/share/fonts/type1/urw-base35/NimbusSans-Regular.t1
+77e70f19a000-77e70f200000 r--p 00000000 08:02 670287                     /usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf
+77e70f200000-77e70f202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f202000-77e70f203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f203000-77e70f2ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f2ff000-77e70f300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f300000-77e70f302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f302000-77e70f303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f303000-77e70f3ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f3ff000-77e70f400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f400000-77e70f402000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f402000-77e70f403000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f403000-77e70f4ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f4ff000-77e70f500000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f500000-77e70f502000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f502000-77e70f503000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f503000-77e70f5ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f5ff000-77e70f600000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f600000-77e70f602000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f602000-77e70f603000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f603000-77e70f6ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70f6ff000-77e70f700000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70f70a000-77e70f724000 r--p 00000000 08:02 669631                     /usr/share/fonts/X11/Type1/NimbusSans-Regular.pfb
+77e70f724000-77e70f762000 r--p 00000000 08:02 670360                     /usr/share/fonts/truetype/noto/NotoSansArabic-Bold.ttf
+77e70f762000-77e70f808000 r--s 00000000 00:01 259                        /memfd:mozilla-ipc (deleted)
+77e70f808000-77e70f970000 r--p 00000000 07:10 270                        /snap/firefox/5701/usr/lib/firefox/fonts/TwemojiMozilla.ttf
+77e70f970000-77e70fa00000 r--p 00000000 08:02 670553                     /usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf
+77e70fa00000-77e70fa02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fa02000-77e70fa03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fa03000-77e70faff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70faff000-77e70fb00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fb00000-77e70fb02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fb02000-77e70fb03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fb03000-77e70fbff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fbff000-77e70fc00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fc00000-77e70fc02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fc02000-77e70fc03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fc03000-77e70fcff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fcff000-77e70fd00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fd00000-77e70fd02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fd02000-77e70fd03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70fd03000-77e70fdff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70fdff000-77e70ff00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70ff00000-77e70ff02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70ff02000-77e70ff03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e70ff03000-77e70ffff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e70ffff000-77e710000000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710000000-77e710002000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710002000-77e710003000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710003000-77e7100ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7100ff000-77e710100000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710100000-77e710102000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710102000-77e710103000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710103000-77e7101ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7101ff000-77e710200000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710200000-77e710202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710202000-77e710203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710203000-77e7102ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7102ff000-77e710300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710300000-77e710302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710302000-77e710303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710303000-77e7103ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7103ff000-77e710400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710404000-77e710482000 r--p 00000000 08:02 670351                     /usr/share/fonts/truetype/noto/NotoSans-Bold.ttf
+77e710482000-77e710500000 r--p 00000000 08:02 670354                     /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf
+77e710500000-77e710502000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710502000-77e710503000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710503000-77e7105ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7105ff000-77e710600000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710600000-77e710602000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710602000-77e710603000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710603000-77e7106ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7106ff000-77e710700000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710700000-77e710702000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710702000-77e710703000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710703000-77e7107ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7107ff000-77e710800000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710800000-77e710802000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710802000-77e710803000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710803000-77e7108ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7108ff000-77e710900000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710900000-77e710902000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710902000-77e710903000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710903000-77e7109ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7109ff000-77e710c00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710c00000-77e710c02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710c02000-77e710c03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710c03000-77e710cff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710cff000-77e710d00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710d00000-77e710d02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710d02000-77e710d03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710d03000-77e710dff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710dff000-77e710e00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710e00000-77e710e02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710e02000-77e710e03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710e03000-77e710eff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710eff000-77e710f00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710f00000-77e710f02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710f02000-77e710f03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e710f03000-77e710fff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e710fff000-77e711200000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711200000-77e711202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711202000-77e711203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711203000-77e7112ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7112ff000-77e711300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711300000-77e711302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711302000-77e711303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711303000-77e7113ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7113ff000-77e711400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711400000-77e711402000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711402000-77e711403000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711403000-77e7114ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7114ff000-77e711500000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711500000-77e711502000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711502000-77e711503000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711503000-77e7115ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7115ff000-77e711600000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711600000-77e711602000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711602000-77e711603000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711603000-77e7116ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7116ff000-77e711700000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711700000-77e711702000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711702000-77e711703000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711703000-77e7117ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7117ff000-77e711800000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711800000-77e711802000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711802000-77e711803000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711803000-77e7118ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7118ff000-77e711900000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711900000-77e711902000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711902000-77e711903000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711903000-77e7119ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7119ff000-77e711a00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711a00000-77e711a02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711a02000-77e711a03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711a03000-77e711aff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711aff000-77e711b00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711b00000-77e711b02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711b02000-77e711b03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711b03000-77e711bff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711bff000-77e711c00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711c00000-77e711c02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711c02000-77e711c03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711c03000-77e711cff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711cff000-77e711d00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711d00000-77e711d02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711d02000-77e711d03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711d03000-77e711dff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711dff000-77e711e00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711e00000-77e711e02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711e02000-77e711e03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711e03000-77e711eff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711eff000-77e711f00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711f00000-77e711f02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711f02000-77e711f03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e711f03000-77e711fff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e711fff000-77e712000000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712000000-77e712002000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712002000-77e712003000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712003000-77e7120ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7120ff000-77e712200000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712200000-77e712202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712202000-77e712203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712203000-77e7122ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7122ff000-77e712300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712300000-77e712302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712302000-77e712303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712303000-77e7123ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7123ff000-77e712400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712400000-77e712402000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712402000-77e712403000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712403000-77e7124ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7124ff000-77e712500000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712500000-77e712502000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712502000-77e712503000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712503000-77e7125ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7125ff000-77e712600000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712600000-77e712602000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712602000-77e712603000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712603000-77e7126ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7126ff000-77e712700000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712700000-77e712702000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712702000-77e712703000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712703000-77e7127ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7127ff000-77e712800000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712800000-77e712802000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712802000-77e712803000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712803000-77e7128ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7128ff000-77e712900000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712901000-77e712916000 r--p 00000000 08:02 670247                     /usr/share/fonts/opentype/urw-base35/NimbusSans-Regular.otf
+77e712916000-77e712931000 r--p 00000000 08:02 670643                     /usr/share/fonts/type1/urw-base35/NimbusSans-Bold.t1
+77e712931000-77e71293f000 rw-s 00000000 00:01 1215                       /memfd:mozilla-ipc (deleted)
+77e71293f000-77e712940000 ---p 00000000 00:00 0 
+77e712940000-77e712980000 rw-p 00000000 00:00 0 
+77e712980000-77e712981000 ---p 00000000 00:00 0 
+77e712981000-77e7129c1000 rw-p 00000000 00:00 0 
+77e7129c1000-77e7129c2000 ---p 00000000 00:00 0 
+77e7129c2000-77e712a02000 rw-p 00000000 00:00 0 
+77e712a02000-77e712a03000 ---p 00000000 00:00 0 
+77e712a03000-77e712c01000 rw-p 00000000 00:00 0 
+77e712c01000-77e712c02000 ---p 00000000 00:00 0 
+77e712c02000-77e712e00000 rw-p 00000000 00:00 0 
+77e712e00000-77e712e02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712e02000-77e712e03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712e03000-77e712eff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712eff000-77e712f00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712f00000-77e712f02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712f02000-77e712f03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e712f03000-77e712fff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e712fff000-77e713000000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713000000-77e713002000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713002000-77e713003000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713003000-77e7130ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7130ff000-77e713100000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713100000-77e713102000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713102000-77e713103000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713103000-77e7131ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7131ff000-77e713200000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713200000-77e713202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713202000-77e713203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713203000-77e7132ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7132ff000-77e713300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713300000-77e713302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713302000-77e713303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713303000-77e7133ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7133ff000-77e713400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713400000-77e713402000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713402000-77e713403000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713403000-77e7134ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7134ff000-77e713500000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713500000-77e713502000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713502000-77e713503000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713503000-77e7135ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7135ff000-77e713700000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713700000-77e71374f000 r--p 00000000 08:02 670286                     /usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+77e71374f000-77e71377a000 r--p 00000000 08:02 670346                     /usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf
+77e71377a000-77e71377b000 ---p 00000000 00:00 0 
+77e71377b000-77e7137bb000 rw-p 00000000 00:00 0 
+77e7137bb000-77e7137bc000 ---p 00000000 00:00 0 
+77e7137bc000-77e7137fc000 rw-p 00000000 00:00 0 
+77e7137fc000-77e7137fd000 ---p 00000000 00:00 0 
+77e7137fd000-77e71383d000 rw-p 00000000 00:00 0 
+77e71383d000-77e71383e000 ---p 00000000 00:00 0 
+77e71383e000-77e71387e000 rw-p 00000000 00:00 0 
+77e71387e000-77e71387f000 ---p 00000000 00:00 0 
+77e71387f000-77e7138bf000 rw-p 00000000 00:00 0 
+77e7138bf000-77e7138c0000 ---p 00000000 00:00 0 
+77e7138c0000-77e713900000 rw-p 00000000 00:00 0 
+77e713900000-77e713902000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713902000-77e713903000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713903000-77e7139ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7139ff000-77e713a00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713a04000-77e713a05000 rw-s 00000000 00:01 1214                       /memfd:mozilla-ipc (deleted)
+77e713a06000-77e713a1e000 r--p 00000000 08:02 670355                     /usr/share/fonts/truetype/noto/NotoSansAdlam-Bold.ttf
+77e713a1e000-77e713a33000 r--p 00000000 08:02 670244                     /usr/share/fonts/opentype/urw-base35/NimbusSans-Bold.otf
+77e713a33000-77e713a4e000 r--p 00000000 08:02 669628                     /usr/share/fonts/X11/Type1/NimbusSans-Bold.pfb
+77e713a52000-77e713a53000 ---p 00000000 00:00 0 
+77e713a53000-77e713a93000 rw-p 00000000 00:00 0 
+77e713a93000-77e713abd000 r--p 00000000 07:10 277                        /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+77e713abd000-77e713ba2000 r-xp 00029000 07:10 277                        /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+77e713ba2000-77e713ba4000 r--p 0010d000 07:10 277                        /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+77e713ba4000-77e713ba5000 rw-p 0010e000 07:10 277                        /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+77e713ba5000-77e713ba9000 rw-p 00000000 00:00 0 
+77e713ba9000-77e713bc3000 r--p 00000000 07:10 294                        /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+77e713bc3000-77e713bfb000 r-xp 00019000 07:10 294                        /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+77e713bfb000-77e713bfc000 r--p 00050000 07:10 294                        /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+77e713bfc000-77e713bfe000 rw-p 00050000 07:10 294                        /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+77e713bfe000-77e713c00000 rw-p 00000000 00:00 0 
+77e713c00000-77e713c02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713c02000-77e713c03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713c03000-77e713cff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713cff000-77e713d00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713d00000-77e713d02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713d02000-77e713d03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713d03000-77e713dff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e713dff000-77e713e00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e713e00000-77e713e05000 r--p 00000000 08:02 670554                     /usr/share/fonts/truetype/noto/NotoSerifAhom-Regular.ttf
+77e713e14000-77e713e15000 rw-s 00000000 00:01 1216                       /memfd:mozilla-ipc (deleted)
+77e713e15000-77e713e1d000 rw-p 00000000 00:00 0 
+77e713e1d000-77e713e1e000 r--s 00000000 00:01 1157                       /memfd:mozilla-ipc (deleted)
+77e713e1e000-77e713e24000 r--s 00000000 00:01 1164                       /memfd:mozilla-ipc (deleted)
+77e713e24000-77e713e2c000 rw-p 00000000 00:00 0 
+77e713e2c000-77e713e2d000 rw-s 00000000 00:01 214                        /memfd:mozilla-ipc (deleted)
+77e713e2d000-77e713e31000 rw-p 00000000 00:00 0 
+77e713e31000-77e713e32000 r--s 00000000 00:01 175                        /memfd:mozilla-ipc (deleted)
+77e713e32000-77e713e3e000 rw-p 00000000 00:00 0 
+77e713e3e000-77e713e3f000 ---p 00000000 00:00 0 
+77e713e3f000-77e713e7f000 rw-p 00000000 00:00 0 
+77e713e7f000-77e713f7f000 r--s 00000000 00:01 1169                       /memfd:mozilla-ipc (deleted)
+77e713f7f000-77e713f80000 r--s 00000000 08:02 1835949                    /home/administrator/snap/firefox/common/.cache/fontconfig/2bafe2514fe33c4200450d3b97e1985c-le64.cache-7
+77e713f80000-77e713f8b000 r--s 00000000 08:02 7340600                    /var/snap/firefox/common/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-7
+77e713f8b000-77e713fde000 r--s 00000000 08:02 7345815                    /var/snap/firefox/common/fontconfig/2300eef321c393bfd76478a5c0e95b23-le64.cache-7
+77e713fde000-77e714046000 r--s 00000000 08:02 7345814                    /var/snap/firefox/common/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-7
+77e714046000-77e71404d000 r--s 00000000 08:02 7345813                    /var/snap/firefox/common/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-7
+77e71404d000-77e714052000 r--s 00000000 08:02 7340595                    /var/snap/firefox/common/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7
+77e714052000-77e714060000 r--s 00000000 08:02 7345798                    /var/snap/firefox/common/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-7
+77e714060000-77e714070000 r--s 00000000 08:02 7340587                    /var/snap/firefox/common/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-7
+77e714070000-77e71407e000 r--s 00000000 08:02 7340604                    /var/snap/firefox/common/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-7
+77e71407e000-77e71407f000 ---p 00000000 00:00 0 
+77e71407f000-77e7140bf000 rw-p 00000000 00:00 0 
+77e7140bf000-77e7140c0000 ---p 00000000 00:00 0 
+77e7140c0000-77e714100000 rw-p 00000000 00:00 0 
+77e714100000-77e714102000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e714102000-77e714103000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714103000-77e7141ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7141ff000-77e714200000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714200000-77e714202000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e714202000-77e714203000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714203000-77e7142ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7142ff000-77e714300000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714300000-77e714302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e714302000-77e714303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714303000-77e7143ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7143ff000-77e714400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714400000-77e714402000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e714402000-77e714403000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714403000-77e7144ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7144ff000-77e714500000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e714500000-77e714504000 r--s 00000000 08:02 1835945                    /home/administrator/snap/firefox/common/.cache/fontconfig/9e18e4abd346926a5eccc0c226455c09-le64.cache-7
+77e714504000-77e714510000 rw-p 00000000 00:00 0 
+77e714510000-77e714511000 ---p 00000000 00:00 0 
+77e714511000-77e714551000 rw-p 00000000 00:00 0 
+77e714551000-77e714552000 ---p 00000000 00:00 0 
+77e714552000-77e714592000 rw-p 00000000 00:00 0 
+77e714592000-77e714593000 ---p 00000000 00:00 0 
+77e714593000-77e7145d3000 rw-p 00000000 00:00 0 
+77e7145d3000-77e7170f6000 r--p 00000000 07:10 49                         /snap/firefox/5701/usr/lib/firefox/browser/omni.ja
+77e7170f6000-77e719300000 r--p 00000000 07:10 297                        /snap/firefox/5701/usr/lib/firefox/omni.ja
+77e719300000-77e719302000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e719302000-77e719303000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e719303000-77e7193ff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e7193ff000-77e719400000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e719400000-77e719404000 rw-p 00000000 00:00 0 
+77e719404000-77e719405000 ---p 00000000 00:00 0 
+77e719405000-77e71940d000 rw-p 00000000 00:00 0 
+77e71940d000-77e719415000 rw-p 00000000 00:00 0 
+77e719415000-77e71946c000 r--p 00000000 07:0e 2089                       /usr/lib/locale/C.utf8/LC_CTYPE
+77e71946c000-77e7194aa000 r--s 00000000 00:01 173                        /memfd:mozilla-ipc (deleted)
+77e7194aa000-77e7194ea000 r--s 00000000 00:01 1171                       /memfd:mozilla-ipc (deleted)
+77e7194ea000-77e7194eb000 ---p 00000000 00:00 0 
+77e7194eb000-77e71952b000 rw-p 00000000 00:00 0 
+77e71952b000-77e719555000 r--p 00000000 07:07 10382                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+77e719555000-77e7195ec000 r-xp 0002a000 07:07 10382                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+77e7195ec000-77e719626000 r--p 000c1000 07:07 10382                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+77e719626000-77e71962d000 r--p 000fa000 07:07 10382                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+77e71962d000-77e71962e000 rw-p 00101000 07:07 10382                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+77e71962e000-77e719631000 r--p 00000000 07:0e 7706                       /usr/lib/x86_64-linux-gnu/libresolv.so.2
+77e719631000-77e71963b000 r-xp 00003000 07:0e 7706                       /usr/lib/x86_64-linux-gnu/libresolv.so.2
+77e71963b000-77e71963e000 r--p 0000d000 07:0e 7706                       /usr/lib/x86_64-linux-gnu/libresolv.so.2
+77e71963e000-77e71963f000 r--p 0000f000 07:0e 7706                       /usr/lib/x86_64-linux-gnu/libresolv.so.2
+77e71963f000-77e719640000 rw-p 00010000 07:0e 7706                       /usr/lib/x86_64-linux-gnu/libresolv.so.2
+77e719640000-77e719642000 rw-p 00000000 00:00 0 
+77e719642000-77e719643000 r--s 00000000 08:02 7345812                    /var/snap/firefox/common/fontconfig/3f7329c5293ffd510edef78f73874cfd-le64.cache-7
+77e719643000-77e719647000 rw-p 00000000 00:00 0 
+77e719647000-77e719648000 r--p 00000000 07:0e 2096                       /usr/lib/locale/C.utf8/LC_NUMERIC
+77e719648000-77e719649000 r--p 00000000 07:0e 2099                       /usr/lib/locale/C.utf8/LC_TIME
+77e719649000-77e71964a000 r--p 00000000 07:0e 2088                       /usr/lib/locale/C.utf8/LC_COLLATE
+77e71964a000-77e71964b000 r--p 00000000 07:0e 2094                       /usr/lib/locale/C.utf8/LC_MONETARY
+77e71964b000-77e719652000 r--s 00000000 07:0e 7464                       /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+77e719652000-77e71c2c3000 r--p 00000000 07:10 296                        /snap/firefox/5701/usr/lib/firefox/libxul.so
+77e71c2c3000-77e72218c000 r-xp 02c70000 07:10 296                        /snap/firefox/5701/usr/lib/firefox/libxul.so
+77e72218c000-77e72266d000 r--p 08b38000 07:10 296                        /snap/firefox/5701/usr/lib/firefox/libxul.so
+77e72266d000-77e722706000 rw-p 09018000 07:10 296                        /snap/firefox/5701/usr/lib/firefox/libxul.so
+77e722706000-77e7227b3000 rw-p 00000000 00:00 0 
+77e7227b3000-77e7227b7000 r--p 00000000 07:07 303                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+77e7227b7000-77e7227cd000 r-xp 00004000 07:07 303                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+77e7227cd000-77e7227d7000 r--p 0001a000 07:07 303                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+77e7227d7000-77e7227d8000 r--p 00023000 07:07 303                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+77e7227d8000-77e7227d9000 rw-p 00024000 07:07 303                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+77e7227d9000-77e7227db000 r--p 00000000 07:0e 7616                       /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+77e7227db000-77e7227e2000 r-xp 00002000 07:0e 7616                       /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+77e7227e2000-77e7227e4000 r--p 00009000 07:0e 7616                       /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+77e7227e4000-77e7227e5000 r--p 0000a000 07:0e 7616                       /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+77e7227e5000-77e7227e6000 rw-p 0000b000 07:0e 7616                       /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+77e7227e6000-77e7227f5000 r--p 00000000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e7227f5000-77e7228db000 r-xp 0000f000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e7228db000-77e722919000 r--p 000f5000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e722919000-77e72291a000 ---p 00133000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e72291a000-77e72291d000 r--p 00133000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e72291d000-77e722923000 rw-p 00136000 07:07 10578                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+77e722923000-77e722924000 rw-p 00000000 00:00 0 
+77e722924000-77e722927000 r--p 00000000 07:0e 7518                       /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+77e722927000-77e72292b000 r-xp 00003000 07:0e 7518                       /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+77e72292b000-77e72292d000 r--p 00007000 07:0e 7518                       /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+77e72292d000-77e72292e000 r--p 00008000 07:0e 7518                       /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+77e72292e000-77e72292f000 rw-p 00009000 07:0e 7518                       /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+77e72292f000-77e722931000 r--p 00000000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e722931000-77e72294a000 r-xp 00002000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e72294a000-77e72294c000 r--p 0001b000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e72294c000-77e72294d000 ---p 0001d000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e72294d000-77e72294e000 r--p 0001d000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e72294e000-77e72294f000 rw-p 0001e000 07:0e 7609                       /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+77e72294f000-77e722959000 r--p 00000000 07:07 11302                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+77e722959000-77e722a0b000 r-xp 0000a000 07:07 11302                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+77e722a0b000-77e722a1c000 r--p 000bc000 07:07 11302                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+77e722a1c000-77e722a1d000 r--p 000cc000 07:07 11302                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+77e722a1d000-77e722a1e000 rw-p 000cd000 07:07 11302                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+77e722a1e000-77e722a21000 r--p 00000000 07:0e 7611                       /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+77e722a21000-77e722a3c000 r-xp 00003000 07:0e 7611                       /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+77e722a3c000-77e722a47000 r--p 0001e000 07:0e 7611                       /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+77e722a47000-77e722a48000 r--p 00028000 07:0e 7611                       /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+77e722a48000-77e722a49000 rw-p 00029000 07:0e 7611                       /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+77e722a49000-77e722a4d000 r--p 00000000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a4d000-77e722a5a000 r-xp 00004000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a5a000-77e722a5d000 r--p 00011000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a5d000-77e722a5e000 ---p 00014000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a5e000-77e722a5f000 r--p 00014000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a5f000-77e722a60000 rw-p 00015000 07:0e 7509                       /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+77e722a60000-77e722a61000 rw-p 00000000 00:00 0 
+77e722a61000-77e722a62000 r--p 00000000 07:07 10422                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+77e722a62000-77e722a63000 r-xp 00001000 07:07 10422                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+77e722a63000-77e722a82000 r--p 00002000 07:07 10422                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+77e722a82000-77e722a83000 r--p 00020000 07:07 10422                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+77e722a83000-77e722a84000 rw-p 00021000 07:07 10422                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+77e722a84000-77e722a97000 r--p 00000000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722a97000-77e722b16000 r-xp 00013000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722b16000-77e722b41000 r--p 00092000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722b41000-77e722b42000 ---p 000bd000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722b42000-77e722b49000 r--p 000bd000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722b49000-77e722b4a000 rw-p 000c4000 07:07 11117                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+77e722b4a000-77e722b4b000 rw-p 00000000 00:00 0 
+77e722b4b000-77e722b4d000 r--p 00000000 07:07 10335                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+77e722b4d000-77e722b4f000 r-xp 00002000 07:07 10335                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+77e722b4f000-77e722b51000 r--p 00004000 07:07 10335                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+77e722b51000-77e722b52000 r--p 00005000 07:07 10335                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+77e722b52000-77e722b53000 rw-p 00006000 07:07 10335                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+77e722b53000-77e722b54000 r--p 00000000 07:07 10323                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+77e722b54000-77e722b56000 r-xp 00001000 07:07 10323                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+77e722b56000-77e722b57000 r--p 00003000 07:07 10323                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+77e722b57000-77e722b58000 r--p 00003000 07:07 10323                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+77e722b58000-77e722b59000 rw-p 00004000 07:07 10323                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+77e722b59000-77e722b5a000 r--p 00000000 07:07 10425                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+77e722b5a000-77e722b62000 r-xp 00001000 07:07 10425                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+77e722b62000-77e722b65000 r--p 00009000 07:07 10425                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+77e722b65000-77e722b66000 r--p 0000b000 07:07 10425                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+77e722b66000-77e722b67000 rw-p 0000c000 07:07 10425                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+77e722b67000-77e722b69000 r--p 00000000 07:07 10485                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+77e722b69000-77e722b6d000 r-xp 00002000 07:07 10485                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+77e722b6d000-77e722b6e000 r--p 00006000 07:07 10485                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+77e722b6e000-77e722b6f000 r--p 00007000 07:07 10485                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+77e722b6f000-77e722b70000 rw-p 00008000 07:07 10485                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+77e722b70000-77e722b77000 r--p 00000000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722b77000-77e722b97000 r-xp 00007000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722b97000-77e722ba0000 r--p 00027000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722ba0000-77e722ba1000 ---p 00030000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722ba1000-77e722ba6000 r--p 00030000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722ba6000-77e722ba7000 rw-p 00035000 07:07 10419                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+77e722ba7000-77e722bb7000 r--p 00000000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722bb7000-77e722bd6000 r-xp 00010000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722bd6000-77e722be4000 r--p 0002f000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722be4000-77e722be5000 ---p 0003d000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722be5000-77e722be8000 r--p 0003d000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722be8000-77e722be9000 rw-p 00040000 07:07 10397                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+77e722be9000-77e722bea000 rw-p 00000000 00:00 0 
+77e722bea000-77e722bf5000 r--p 00000000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722bf5000-77e722c23000 r-xp 0000b000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722c23000-77e722c35000 r--p 00039000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722c35000-77e722c36000 ---p 0004b000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722c36000-77e722c37000 r--p 0004b000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722c37000-77e722c38000 rw-p 0004c000 07:07 300                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+77e722c38000-77e722c3c000 r--p 00000000 07:07 10869                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+77e722c3c000-77e722c85000 r-xp 00004000 07:07 10869                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+77e722c85000-77e722cb7000 r--p 0004d000 07:07 10869                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+77e722cb7000-77e722cb8000 r--p 0007e000 07:07 10869                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+77e722cb8000-77e722cb9000 rw-p 0007f000 07:07 10869                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+77e722cb9000-77e722cbb000 r--p 00000000 07:07 11176                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+77e722cbb000-77e722cbf000 r-xp 00002000 07:07 11176                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+77e722cbf000-77e722cc0000 r--p 00006000 07:07 11176                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+77e722cc0000-77e722cc1000 r--p 00006000 07:07 11176                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+77e722cc1000-77e722cc2000 rw-p 00007000 07:07 11176                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+77e722cc2000-77e722cc6000 r--p 00000000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722cc6000-77e722ce5000 r-xp 00004000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722ce5000-77e722cef000 r--p 00023000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722cef000-77e722cf0000 ---p 0002d000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722cf0000-77e722cf2000 r--p 0002d000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722cf2000-77e722cf3000 rw-p 0002f000 07:07 302                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+77e722cf3000-77e722cfe000 r--p 00000000 07:07 11011                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+77e722cfe000-77e722dcc000 r-xp 0000b000 07:07 11011                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+77e722dcc000-77e722ddf000 r--p 000d9000 07:07 11011                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+77e722ddf000-77e722de7000 r--p 000eb000 07:07 11011                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+77e722de7000-77e722de8000 rw-p 000f3000 07:07 11011                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+77e722de8000-77e722de9000 r--p 00000000 07:07 11275                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+77e722de9000-77e722dea000 r-xp 00001000 07:07 11275                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+77e722dea000-77e722deb000 r--p 00002000 07:07 11275                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+77e722deb000-77e722dec000 r--p 00002000 07:07 11275                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+77e722dec000-77e722ded000 rw-p 00003000 07:07 11275                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+77e722ded000-77e722df2000 r--p 00000000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722df2000-77e722df7000 r-xp 00005000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722df7000-77e722df9000 r--p 0000a000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722df9000-77e722dfa000 ---p 0000c000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722dfa000-77e722dfb000 r--p 0000c000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722dfb000-77e722dfc000 rw-p 0000d000 07:07 11272                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+77e722dfc000-77e722e07000 r--p 00000000 07:07 11282                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+77e722e07000-77e722e1b000 r-xp 0000b000 07:07 11282                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+77e722e1b000-77e722e24000 r--p 0001f000 07:07 11282                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+77e722e24000-77e722e25000 r--p 00027000 07:07 11282                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+77e722e25000-77e722e26000 rw-p 00028000 07:07 11282                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+77e722e26000-77e722e28000 r--p 00000000 07:07 10358                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+77e722e28000-77e722e2f000 r-xp 00002000 07:07 10358                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+77e722e2f000-77e722e31000 r--p 00009000 07:07 10358                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+77e722e31000-77e722e32000 r--p 0000a000 07:07 10358                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+77e722e32000-77e722e33000 rw-p 0000b000 07:07 10358                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+77e722e33000-77e722e38000 r--p 00000000 07:07 11017                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+77e722e38000-77e722e61000 r-xp 00005000 07:07 11017                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+77e722e61000-77e722e6c000 r--p 0002e000 07:07 11017                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+77e722e6c000-77e722e6d000 r--p 00038000 07:07 11017                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+77e722e6d000-77e722e6e000 rw-p 00039000 07:07 11017                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+77e722e6e000-77e722e71000 r--p 00000000 07:07 10673                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+77e722e71000-77e722e8e000 r-xp 00003000 07:07 10673                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+77e722e8e000-77e722e92000 r--p 00020000 07:07 10673                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+77e722e92000-77e722e94000 r--p 00023000 07:07 10673                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+77e722e94000-77e722e95000 rw-p 00025000 07:07 10673                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+77e722e95000-77e722ea2000 r--p 00000000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722ea2000-77e722f2b000 r-xp 0000d000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722f2b000-77e722f54000 r--p 00096000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722f54000-77e722f55000 ---p 000bf000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722f55000-77e722f5c000 r--p 000bf000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722f5c000-77e722f5d000 rw-p 000c6000 07:07 10557                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+77e722f5d000-77e722f5f000 r--p 00000000 07:07 11127                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+77e722f5f000-77e722f63000 r-xp 00002000 07:07 11127                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+77e722f63000-77e722f66000 r--p 00006000 07:07 11127                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+77e722f66000-77e722f67000 r--p 00008000 07:07 11127                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+77e722f67000-77e722f68000 rw-p 00009000 07:07 11127                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+77e722f68000-77e722f6e000 r--p 00000000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f6e000-77e722f88000 r-xp 00006000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f88000-77e722f8f000 r--p 00020000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f8f000-77e722f90000 ---p 00027000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f90000-77e722f91000 r--p 00027000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f91000-77e722f92000 rw-p 00028000 07:07 308                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+77e722f92000-77e722f94000 rw-p 00000000 00:00 0 
+77e722f94000-77e722f9c000 r--p 00000000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722f9c000-77e722fc8000 r-xp 00008000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722fc8000-77e722fd5000 r--p 00034000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722fd5000-77e722fd6000 ---p 00041000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722fd6000-77e722fd7000 r--p 00041000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722fd7000-77e722fd8000 rw-p 00042000 07:07 10899                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+77e722fd8000-77e722fda000 r--p 00000000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722fda000-77e722feb000 r-xp 00002000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722feb000-77e722ff1000 r--p 00013000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722ff1000-77e722ff2000 ---p 00019000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722ff2000-77e722ff3000 r--p 00019000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722ff3000-77e722ff4000 rw-p 0001a000 07:0e 7751                       /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+77e722ff4000-77e722ff5000 r--p 00000000 07:0e 2093                       /usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES
+77e722ff5000-77e722ff9000 rw-p 00000000 00:00 0 
+77e722ff9000-77e722ffa000 r--p 00000000 07:07 10317                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+77e722ffa000-77e722ffb000 r-xp 00001000 07:07 10317                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+77e722ffb000-77e722ffc000 r--p 00002000 07:07 10317                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+77e722ffc000-77e722ffd000 r--p 00002000 07:07 10317                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+77e722ffd000-77e722ffe000 rw-p 00003000 07:07 10317                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+77e722ffe000-77e723000000 r--p 00000000 07:10 286                        /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+77e723000000-77e723002000 r-xp 00001000 07:10 286                        /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+77e723002000-77e723003000 r--p 00002000 07:10 286                        /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+77e723003000-77e723004000 rw-p 00002000 07:10 286                        /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+77e723004000-77e723006000 r--p 00000000 07:07 10547                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+77e723006000-77e72300d000 r-xp 00002000 07:07 10547                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+77e72300d000-77e72300f000 r--p 00009000 07:07 10547                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+77e72300f000-77e723010000 r--p 0000a000 07:07 10547                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+77e723010000-77e723011000 rw-p 0000b000 07:07 10547                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+77e723011000-77e723013000 r--p 00000000 07:07 10983                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+77e723013000-77e72307e000 r-xp 00002000 07:07 10983                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+77e72307e000-77e7230a6000 r--p 0006d000 07:07 10983                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+77e7230a6000-77e7230a7000 r--p 00094000 07:07 10983                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+77e7230a7000-77e7230a8000 rw-p 00095000 07:07 10983                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+77e7230a8000-77e7230a9000 r--p 00000000 07:07 10350                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+77e7230a9000-77e7230aa000 r-xp 00001000 07:07 10350                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+77e7230aa000-77e7230ab000 r--p 00002000 07:07 10350                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+77e7230ab000-77e7230ac000 r--p 00003000 07:07 10350                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+77e7230ac000-77e7230ad000 rw-p 00004000 07:07 10350                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+77e7230ad000-77e7230af000 r--p 00000000 07:07 10355                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+77e7230af000-77e7230b6000 r-xp 00002000 07:07 10355                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+77e7230b6000-77e7230b8000 r--p 00009000 07:07 10355                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+77e7230b8000-77e7230b9000 r--p 0000a000 07:07 10355                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+77e7230b9000-77e7230ba000 rw-p 0000b000 07:07 10355                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+77e7230ba000-77e7230bb000 r--p 00000000 07:07 10326                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+77e7230bb000-77e7230bc000 r-xp 00001000 07:07 10326                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+77e7230bc000-77e7230bd000 r--p 00002000 07:07 10326                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+77e7230bd000-77e7230be000 r--p 00002000 07:07 10326                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+77e7230be000-77e7230bf000 rw-p 00003000 07:07 10326                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+77e7230bf000-77e7230c0000 r--p 00000000 07:07 10332                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+77e7230c0000-77e7230c1000 r-xp 00001000 07:07 10332                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+77e7230c1000-77e7230c2000 r--p 00002000 07:07 10332                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+77e7230c2000-77e7230c3000 r--p 00002000 07:07 10332                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+77e7230c3000-77e7230c4000 rw-p 00003000 07:07 10332                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+77e7230c4000-77e7230c6000 r--p 00000000 07:07 10329                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+77e7230c6000-77e7230cc000 r-xp 00002000 07:07 10329                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+77e7230cc000-77e7230ce000 r--p 00008000 07:07 10329                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+77e7230ce000-77e7230cf000 r--p 00009000 07:07 10329                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+77e7230cf000-77e7230d0000 rw-p 0000a000 07:07 10329                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+77e7230d0000-77e7230d4000 r--p 00000000 07:07 10338                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+77e7230d4000-77e7230df000 r-xp 00004000 07:07 10338                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+77e7230df000-77e7230e3000 r--p 0000f000 07:07 10338                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+77e7230e3000-77e7230e4000 r--p 00012000 07:07 10338                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+77e7230e4000-77e7230e5000 rw-p 00013000 07:07 10338                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+77e7230e5000-77e7230e7000 r--p 00000000 07:07 11229                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+77e7230e7000-77e7230e9000 r-xp 00002000 07:07 11229                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+77e7230e9000-77e7230ea000 r--p 00004000 07:07 11229                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+77e7230ea000-77e7230eb000 r--p 00004000 07:07 11229                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+77e7230eb000-77e7230ef000 rw-p 00005000 07:07 11229                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+77e7230ef000-77e7230f5000 r--p 00000000 07:07 11226                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+77e7230f5000-77e7230fc000 r-xp 00006000 07:07 11226                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+77e7230fc000-77e7230ff000 r--p 0000d000 07:07 11226                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+77e7230ff000-77e723101000 r--p 0000f000 07:07 11226                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+77e723101000-77e723102000 rw-p 00011000 07:07 11226                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+77e723102000-77e723106000 r--p 00000000 07:07 11288                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+77e723106000-77e723125000 r-xp 00004000 07:07 11288                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+77e723125000-77e723146000 r--p 00023000 07:07 11288                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+77e723146000-77e723148000 r--p 00043000 07:07 11288                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+77e723148000-77e723149000 rw-p 00045000 07:07 11288                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+77e723149000-77e72314b000 r--p 00000000 07:07 10341                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+77e72314b000-77e72314e000 r-xp 00002000 07:07 10341                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+77e72314e000-77e72314f000 r--p 00005000 07:07 10341                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+77e72314f000-77e723150000 r--p 00006000 07:07 10341                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+77e723150000-77e723151000 rw-p 00007000 07:07 10341                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+77e723151000-77e72315d000 r--p 00000000 07:07 10392                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+77e72315d000-77e723178000 r-xp 0000c000 07:07 10392                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+77e723178000-77e723187000 r--p 00027000 07:07 10392                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+77e723187000-77e723188000 r--p 00035000 07:07 10392                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+77e723188000-77e72318a000 rw-p 00036000 07:07 10392                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+77e72318a000-77e72318b000 rw-p 00000000 00:00 0 
+77e72318b000-77e7231a4000 r--p 00000000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e7231a4000-77e723230000 r-xp 00019000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e723230000-77e7232c5000 r--p 000a5000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e7232c5000-77e7232c6000 ---p 0013a000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e7232c6000-77e7232c7000 r--p 0013a000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e7232c7000-77e7232cb000 rw-p 0013b000 07:07 10320                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+77e7232cb000-77e7232ce000 r--p 00000000 07:07 10347                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+77e7232ce000-77e7232da000 r-xp 00003000 07:07 10347                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+77e7232da000-77e7232dd000 r--p 0000f000 07:07 10347                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+77e7232dd000-77e7232de000 r--p 00011000 07:07 10347                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+77e7232de000-77e7232df000 rw-p 00012000 07:07 10347                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+77e7232df000-77e72333f000 r--p 00000000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e72333f000-77e7233a5000 r-xp 00060000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e7233a5000-77e723402000 r--p 000c6000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e723402000-77e723403000 ---p 00123000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e723403000-77e72340b000 r--p 00123000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e72340b000-77e723412000 rw-p 0012b000 07:07 10530                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+77e723412000-77e723413000 rw-p 00000000 00:00 0 
+77e723413000-77e72341d000 r--p 00000000 07:07 10389                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+77e72341d000-77e72342c000 r-xp 0000a000 07:07 10389                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+77e72342c000-77e723438000 r--p 00019000 07:07 10389                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+77e723438000-77e72343b000 r--p 00024000 07:07 10389                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+77e72343b000-77e72343c000 rw-p 00027000 07:07 10389                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+77e72343c000-77e723444000 r--p 00000000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e723444000-77e723460000 r-xp 00008000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e723460000-77e72346a000 r--p 00024000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e72346a000-77e72346b000 ---p 0002e000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e72346b000-77e72346c000 r--p 0002e000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e72346c000-77e72346d000 rw-p 0002f000 07:07 10592                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+77e72346d000-77e723471000 r--p 00000000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723471000-77e723473000 r-xp 00004000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723473000-77e723475000 r--p 00006000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723475000-77e723476000 ---p 00008000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723476000-77e723478000 r--p 00008000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723478000-77e723479000 rw-p 0000a000 07:07 10437                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+77e723479000-77e72347b000 r--p 00000000 07:07 10560                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+77e72347b000-77e723482000 r-xp 00002000 07:07 10560                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+77e723482000-77e72349a000 r--p 00009000 07:07 10560                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+77e72349a000-77e72349b000 r--p 00020000 07:07 10560                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+77e72349b000-77e72349c000 rw-p 00021000 07:07 10560                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+77e72349c000-77e7234a3000 r--p 00000000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234a3000-77e7234cc000 r-xp 00007000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234cc000-77e7234e2000 r--p 00030000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234e2000-77e7234e3000 ---p 00046000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234e3000-77e7234e5000 r--p 00046000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234e5000-77e7234e6000 rw-p 00048000 07:07 10550                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+77e7234e6000-77e7234f8000 r--p 00000000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e7234f8000-77e723604000 r-xp 00012000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e723604000-77e723644000 r--p 0011e000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e723644000-77e723645000 ---p 0015e000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e723645000-77e723648000 r--p 0015e000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e723648000-77e72364a000 rw-p 00161000 07:07 10443                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+77e72364a000-77e72364b000 rw-p 00000000 00:00 0 
+77e72364b000-77e723657000 r--p 00000000 07:07 10805                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+77e723657000-77e723781000 r-xp 0000c000 07:07 10805                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+77e723781000-77e7237bb000 r--p 00136000 07:07 10805                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+77e7237bb000-77e7237bc000 r--p 0016f000 07:07 10805                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+77e7237bc000-77e7237be000 rw-p 00170000 07:07 10805                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+77e7237be000-77e7237d0000 r--p 00000000 07:07 10952                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+77e7237d0000-77e72380f000 r-xp 00012000 07:07 10952                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+77e72380f000-77e72382b000 r--p 00051000 07:07 10952                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+77e72382b000-77e72382f000 r--p 0006c000 07:07 10952                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+77e72382f000-77e723830000 rw-p 00070000 07:07 10952                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+77e723830000-77e72386b000 r--p 00000000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e72386b000-77e72399c000 r-xp 0003b000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e72399c000-77e723a2b000 r--p 0016c000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e723a2b000-77e723a2c000 ---p 001fb000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e723a2c000-77e723a33000 r--p 001fb000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e723a33000-77e723a36000 rw-p 00202000 07:07 10603                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+77e723a36000-77e723a38000 rw-p 00000000 00:00 0 
+77e723a38000-77e723a46000 r--p 00000000 07:07 10662                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+77e723a46000-77e723a83000 r-xp 0000e000 07:07 10662                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+77e723a83000-77e723a9d000 r--p 0004b000 07:07 10662                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+77e723a9d000-77e723aa0000 r--p 00064000 07:07 10662                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+77e723aa0000-77e723aa1000 rw-p 00067000 07:07 10662                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+77e723aa1000-77e723aa2000 rw-p 00000000 00:00 0 
+77e723aa2000-77e723ac0000 r--p 00000000 07:07 10618                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+77e723ac0000-77e723b6e000 r-xp 0001e000 07:07 10618                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+77e723b6e000-77e723bfb000 r--p 000cc000 07:07 10618                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+77e723bfb000-77e723bfc000 r--p 00158000 07:07 10618                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+77e723bfc000-77e723bfd000 rw-p 00159000 07:07 10618                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+77e723bfd000-77e723bfe000 rw-p 00000000 00:00 0 
+77e723bfe000-77e723c85000 r--p 00000000 07:07 10754                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+77e723c85000-77e724071000 r-xp 00087000 07:07 10754                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+77e724071000-77e72442f000 r--p 00473000 07:07 10754                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+77e72442f000-77e724440000 r--p 00830000 07:07 10754                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+77e724440000-77e724443000 rw-p 00841000 07:07 10754                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+77e724443000-77e724448000 rw-p 00000000 00:00 0 
+77e724448000-77e72447b000 r--p 00000000 07:10 285                        /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+77e72447b000-77e72458f000 r-xp 00032000 07:10 285                        /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+77e72458f000-77e724592000 r--p 00145000 07:10 285                        /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+77e724592000-77e724597000 rw-p 00147000 07:10 285                        /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+77e724597000-77e724745000 r--p 00000000 07:10 278                        /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+77e724745000-77e724d80000 r-xp 001ad000 07:10 278                        /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+77e724d80000-77e724dab000 r--p 007e7000 07:10 278                        /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+77e724dab000-77e724db1000 rw-p 00811000 07:10 278                        /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+77e724db1000-77e724e00000 rw-p 00000000 00:00 0 
+77e724e00000-77e724e01000 ---p 00000000 00:00 0 
+77e724e01000-77e725601000 rw-p 00000000 00:00 0 
+77e725601000-77e725602000 r--p 00000000 07:0e 2097                       /usr/lib/locale/C.utf8/LC_PAPER
+77e725602000-77e725603000 r--p 00000000 07:0e 2095                       /usr/lib/locale/C.utf8/LC_NAME
+77e725603000-77e725604000 r--p 00000000 07:0e 2087                       /usr/lib/locale/C.utf8/LC_ADDRESS
+77e725604000-77e72560b000 r--p 00000000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e72560b000-77e725618000 r-xp 00007000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e725618000-77e72561c000 r--p 00014000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e72561c000-77e72561d000 ---p 00018000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e72561d000-77e72561e000 r--p 00018000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e72561e000-77e72561f000 rw-p 00019000 07:07 10958                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+77e72561f000-77e725624000 r--p 00000000 07:07 10955                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+77e725624000-77e72562c000 r-xp 00005000 07:07 10955                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+77e72562c000-77e72562f000 r--p 0000d000 07:07 10955                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+77e72562f000-77e725630000 r--p 0000f000 07:07 10955                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+77e725630000-77e725631000 rw-p 00010000 07:07 10955                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+77e725631000-77e72565d000 r--p 00000000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e72565d000-77e7256f0000 r-xp 0002c000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e7256f0000-77e725740000 r--p 000bf000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e725740000-77e725741000 ---p 0010f000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e725741000-77e72574a000 r--p 0010f000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e72574a000-77e72574c000 rw-p 00118000 07:07 10587                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+77e72574c000-77e72574d000 rw-p 00000000 00:00 0 
+77e72574d000-77e72578b000 r--p 00000000 07:10 288                        /snap/firefox/5701/usr/lib/firefox/libnss3.so
+77e72578b000-77e7257f8000 r-xp 0003d000 07:10 288                        /snap/firefox/5701/usr/lib/firefox/libnss3.so
+77e7257f8000-77e7257fe000 r--p 000a9000 07:10 288                        /snap/firefox/5701/usr/lib/firefox/libnss3.so
+77e7257fe000-77e725800000 rw-p 000ae000 07:10 288                        /snap/firefox/5701/usr/lib/firefox/libnss3.so
+77e725800000-77e725a00000 ---p 00000000 00:00 0 
+77e725a00000-77e725b00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e725b00000-77e725b02000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e725b02000-77e725b03000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e725b03000-77e725bff000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e725bff000-77e725c00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e725c00000-77e725c05000 rw-p 00000000 00:00 0                          [anon:jemalloc]
+77e725c05000-77e725d00000 ---p 00000000 00:00 0                          [anon:jemalloc-decommitted]
+77e725d00000-77e725d01000 r--p 00000000 07:0e 2098                       /usr/lib/locale/C.utf8/LC_TELEPHONE
+77e725d01000-77e725d02000 r--p 00000000 07:0e 2091                       /usr/lib/locale/C.utf8/LC_MEASUREMENT
+77e725d02000-77e725d1e000 r--p 00000000 07:10 295                        /snap/firefox/5701/usr/lib/firefox/libssl3.so
+77e725d1e000-77e725d63000 r-xp 0001b000 07:10 295                        /snap/firefox/5701/usr/lib/firefox/libssl3.so
+77e725d63000-77e725d68000 r--p 0005f000 07:10 295                        /snap/firefox/5701/usr/lib/firefox/libssl3.so
+77e725d68000-77e725d69000 rw-p 00063000 07:10 295                        /snap/firefox/5701/usr/lib/firefox/libssl3.so
+77e725d69000-77e725d6a000 rw-p 00000000 00:00 0 
+77e725d6a000-77e725d79000 r--p 00000000 07:10 293                        /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+77e725d79000-77e725d91000 r-xp 0000e000 07:10 293                        /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+77e725d91000-77e725d95000 r--p 00025000 07:10 293                        /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+77e725d95000-77e725d96000 rw-p 00028000 07:10 293                        /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+77e725d96000-77e725da8000 r--p 00000000 07:10 290                        /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+77e725da8000-77e725dbd000 r-xp 00011000 07:10 290                        /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+77e725dbd000-77e725dc5000 r--p 00025000 07:10 290                        /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+77e725dc5000-77e725dc6000 rw-p 0002c000 07:10 290                        /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+77e725dc6000-77e725dc7000 rw-p 00000000 00:00 0 
+77e725dc7000-77e725dd3000 r--p 00000000 07:10 280                        /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+77e725dd3000-77e725df2000 r-xp 0000b000 07:10 280                        /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+77e725df2000-77e725df4000 r--p 00029000 07:10 280                        /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+77e725df4000-77e725df5000 rw-p 0002a000 07:10 280                        /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+77e725df5000-77e725df9000 rw-p 00000000 00:00 0 
+77e725df9000-77e725dfb000 r--p 00000000 07:10 292                        /snap/firefox/5701/usr/lib/firefox/libplds4.so
+77e725dfb000-77e725dfd000 r-xp 00001000 07:10 292                        /snap/firefox/5701/usr/lib/firefox/libplds4.so
+77e725dfd000-77e725dfe000 r--p 00002000 07:10 292                        /snap/firefox/5701/usr/lib/firefox/libplds4.so
+77e725dfe000-77e725dff000 rw-p 00002000 07:10 292                        /snap/firefox/5701/usr/lib/firefox/libplds4.so
+77e725dff000-77e725e01000 rw-p 00000000 00:00 0 
+77e725e01000-77e725e03000 r--p 00000000 07:10 291                        /snap/firefox/5701/usr/lib/firefox/libplc4.so
+77e725e03000-77e725e06000 r-xp 00001000 07:10 291                        /snap/firefox/5701/usr/lib/firefox/libplc4.so
+77e725e06000-77e725e07000 r--p 00003000 07:10 291                        /snap/firefox/5701/usr/lib/firefox/libplc4.so
+77e725e07000-77e725e08000 rw-p 00003000 07:10 291                        /snap/firefox/5701/usr/lib/firefox/libplc4.so
+77e725e08000-77e725e1a000 r--p 00000000 07:10 287                        /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+77e725e1a000-77e725e3a000 r-xp 00011000 07:10 287                        /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+77e725e3a000-77e725e3c000 r--p 00030000 07:10 287                        /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+77e725e3c000-77e725e3e000 rw-p 00031000 07:10 287                        /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+77e725e3e000-77e725e41000 rw-p 00000000 00:00 0 
+77e725e41000-77e725e69000 r--p 00000000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e725e69000-77e725ffe000 r-xp 00028000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e725ffe000-77e726056000 r--p 001bd000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e726056000-77e726057000 ---p 00215000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e726057000-77e72605b000 r--p 00215000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e72605b000-77e72605d000 rw-p 00219000 07:0e 7513                       /usr/lib/x86_64-linux-gnu/libc.so.6
+77e72605d000-77e72606a000 rw-p 00000000 00:00 0 
+77e72606a000-77e72606d000 r--p 00000000 07:0e 7563                       /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+77e72606d000-77e726084000 r-xp 00003000 07:0e 7563                       /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+77e726084000-77e726088000 r--p 0001a000 07:0e 7563                       /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+77e726088000-77e726089000 r--p 0001d000 07:0e 7563                       /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+77e726089000-77e72608a000 rw-p 0001e000 07:0e 7563                       /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+77e72608a000-77e726098000 r--p 00000000 07:0e 7614                       /usr/lib/x86_64-linux-gnu/libm.so.6
+77e726098000-77e726114000 r-xp 0000e000 07:0e 7614                       /usr/lib/x86_64-linux-gnu/libm.so.6
+77e726114000-77e72616f000 r--p 0008a000 07:0e 7614                       /usr/lib/x86_64-linux-gnu/libm.so.6
+77e72616f000-77e726170000 r--p 000e4000 07:0e 7614                       /usr/lib/x86_64-linux-gnu/libm.so.6
+77e726170000-77e726171000 rw-p 000e5000 07:0e 7614                       /usr/lib/x86_64-linux-gnu/libm.so.6
+77e726171000-77e726172000 r--p 00000000 07:07 11232                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+77e726172000-77e726173000 r-xp 00001000 07:07 11232                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+77e726173000-77e726174000 r--p 00002000 07:07 11232                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+77e726174000-77e726175000 r--p 00002000 07:07 11232                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+77e726175000-77e726176000 rw-p 00003000 07:07 11232                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+77e726176000-77e726178000 r--p 00000000 07:07 10624                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+77e726178000-77e72617a000 r-xp 00002000 07:07 10624                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+77e72617a000-77e72617b000 r--p 00004000 07:07 10624                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+77e72617b000-77e72617c000 r--p 00004000 07:07 10624                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+77e72617c000-77e72617d000 rw-p 00005000 07:07 10624                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+77e72617d000-77e72617e000 r--p 00000000 07:10 283                        /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+77e72617e000-77e72617f000 r-xp 00000000 07:10 283                        /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+77e72617f000-77e726180000 r--p 00000000 07:10 283                        /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+77e726180000-77e726181000 rw-p 00000000 07:10 283                        /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+77e726181000-77e72621b000 r--p 00000000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e72621b000-77e72632c000 r-xp 0009a000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e72632c000-77e72639b000 r--p 001ab000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e72639b000-77e72639c000 ---p 0021a000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e72639c000-77e7263a7000 r--p 0021a000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e7263a7000-77e7263aa000 rw-p 00225000 07:07 11108                      /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+77e7263aa000-77e7263af000 rw-p 00000000 00:00 0 
+77e7263af000-77e7263b0000 r--p 00000000 07:07 296                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+77e7263b0000-77e7263b1000 r-xp 00001000 07:07 296                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+77e7263b1000-77e7263b2000 r--p 00002000 07:07 296                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+77e7263b2000-77e7263b3000 r--p 00002000 07:07 296                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+77e7263b3000-77e7263b4000 rw-p 00003000 07:07 296                        /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+77e7263b4000-77e7263c1000 r--p 00000000 07:10 284                        /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+77e7263c1000-77e7263d9000 r-xp 0000c000 07:10 284                        /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+77e7263d9000-77e7263da000 r--p 00023000 07:10 284                        /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+77e7263da000-77e7263dc000 rw-p 00023000 07:10 284                        /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+77e7263dc000-77e7263de000 rw-p 00000000 00:00 0 
+77e7263de000-77e7263e0000 r--p 00000000 07:0e 7484                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77e7263e0000-77e72640a000 r-xp 00002000 07:0e 7484                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77e72640a000-77e726415000 r--p 0002c000 07:0e 7484                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77e726415000-77e726416000 r--p 00000000 07:0e 2090                       /usr/lib/locale/C.utf8/LC_IDENTIFICATION
+77e726416000-77e726418000 r--p 00037000 07:0e 7484                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+77e726418000-77e72641a000 rw-p 00039000 07:0e 7484                       /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7855a0a00000-7855a0a71000 r--s 00000000 00:01 1170                       /memfd:mozilla-ipc (deleted)
+7ffd5b52d000-7ffd5b558000 rw-p 00000000 00:00 0                          [stack]
+7ffd5b558000-7ffd5b55b000 rw-p 00000000 00:00 0 
+7ffd5b5e1000-7ffd5b5e5000 r--p 00000000 00:00 0                          [vvar]
+7ffd5b5e5000-7ffd5b5e7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

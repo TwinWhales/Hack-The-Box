@@ -1,0 +1,3 @@
+vmware-vmblock-fuse
+/run/vmblock-fuse
+rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid

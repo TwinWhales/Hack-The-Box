@@ -1,0 +1,13 @@
+total 0
+dr-x------ 2 root root 10 Feb 11 09:33 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:33 ..
+lr-x------ 1 root root 64 Feb 11 09:33 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:33 1 -> socket:[24297]
+lrwx------ 1 root root 64 Feb 11 09:33 2 -> socket:[24297]
+lrwx------ 1 root root 64 Feb 11 09:33 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:33 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> socket:[25071]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+l-wx------ 1 root root 64 Feb 11 09:35 7 -> /run/systemd/inhibit/4.ref
+lrwx------ 1 root root 64 Feb 11 09:35 8 -> socket:[25097]
+lrwx------ 1 root root 64 Feb 11 09:33 9 -> socket:[25113]

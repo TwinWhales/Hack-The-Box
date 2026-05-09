@@ -1,0 +1,90 @@
+total 0
+dr-x------ 2 administrator administrator 87 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[30574]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> /home/administrator/.cache/tracker3/files/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> /home/administrator/.cache/tracker3/files/meta.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> /home/administrator/.cache/tracker3/files/meta.db-shm
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 13 -> /home/administrator/.cache/tracker3/files/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 19 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[30574]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 21 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 22 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 23 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 24 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 26 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 27 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 28 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 29 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 30 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 31 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-shm
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 32 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 33 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 34 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 35 -> /home/administrator/.cache/tracker3/files/meta.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 36 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 37 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 38 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 39 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 40 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 41 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 42 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 43 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 44 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 45 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 46 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 47 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 48 -> /home/administrator/.cache/tracker3/files/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 49 -> socket:[41807]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[30584]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 50 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 51 -> socket:[41808]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 52 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 53 -> anon_inode:[pidfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 54 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 55 -> /memfd:extract-persistent-storage (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 56 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 57 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 58 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 59 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 60 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 61 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 62 -> anon_inode:[eventpoll]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 63 -> /proc/3659/mountinfo
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 64 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 65 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 66 -> /home/administrator/.cache/tracker3/files/meta.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 67 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 68 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 69 -> /memfd:extract-persistent-storage (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 70 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 71 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+l????????? ? ?             ?              ?            ? 72
+l????????? ? ?             ?              ?            ? 73
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 74 -> /home/administrator/.cache/tracker3/files/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 75 -> /home/administrator/.cache/tracker3/files/meta.db-wal
+l????????? ? ?             ?              ?            ? 76
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 78 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 79 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[31136]
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 80 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 81 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 82 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 83 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 84 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 85 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 86 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 87 -> /home/administrator/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db-wal
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> /memfd:extract-persistent-storage (deleted)

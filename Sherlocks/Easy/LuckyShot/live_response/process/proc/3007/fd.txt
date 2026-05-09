@@ -1,0 +1,31 @@
+total 0
+dr-x------ 2 administrator administrator 28 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[28401]
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 10 -> pipe:[28408]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 11 -> socket:[28474]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> socket:[28481]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> socket:[30513]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> socket:[30527]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> socket:[30528]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> socket:[30530]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> socket:[30531]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> socket:[31050]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 19 -> socket:[31051]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[28401]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> socket:[31232]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 21 -> socket:[31275]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 22 -> socket:[31288]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 23 -> socket:[31349]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 24 -> socket:[33671]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> socket:[34091]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 26 -> socket:[42203]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 27 -> socket:[42257]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 4 -> socket:[28428]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:inotify
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 6 -> pipe:[28402]
+l-wx------ 1 administrator administrator 64 Feb 11 09:34 7 -> pipe:[28402]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[28433]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 9 -> socket:[28434]

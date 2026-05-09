@@ -1,0 +1,10 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=gnome-remote-desktop
+LOGNAME=gnome-remote-desktop
+HOME=/var/lib/gnome-remote-desktop
+INVOCATION_ID=d8e4bb72e3c4477295b736aa71ca5808
+JOURNAL_STREAM=8:19200
+SYSTEMD_EXEC_PID=1069
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/gnome-remote-desktop.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

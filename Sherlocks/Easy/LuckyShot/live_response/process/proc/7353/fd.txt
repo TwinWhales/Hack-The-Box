@@ -1,0 +1,7 @@
+total 0
+dr-x------ 2 root root  4 Feb 11 09:38 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:38 ..
+lr-x------ 1 root root 64 Feb 11 09:39 0 -> pipe:[56056]
+lrwx------ 1 root root 64 Feb 11 09:39 1 -> /dev/pts/1
+lrwx------ 1 root root 64 Feb 11 09:39 11 -> /dev/pts/1
+lrwx------ 1 root root 64 Feb 11 09:39 2 -> /dev/pts/1

@@ -1,0 +1,12 @@
+wh          
+whoami
+pip install pypiwin32
+$username = "samy"
+$password = Read-Host -Prompt "Enter password for $username" -AsSecureString
+$credential = New-Object System.Management.Automation.PSCredential($username, $password)
+$credential | Export-Clixml -Path "$env:USERPROFILE\Documents\connection.xml"
+cd .\Documents\
+$cred = Import-Clixml -Path .\connection.xml
+$password = $cred.GetNetworkCredential().Password
+echo $password
+reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA

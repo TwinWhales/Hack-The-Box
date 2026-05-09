@@ -1,0 +1,6 @@
+total 0
+dr-x------ 2 administrator administrator  3 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[29641]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[29641]

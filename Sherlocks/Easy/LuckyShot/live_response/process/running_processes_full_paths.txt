@@ -1,0 +1,337 @@
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/10/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/100/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/102/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1047/exe -> /usr/sbin/avahi-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1051/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 gnome-remote-desktop gnome-remote-desktop 0 Feb 11 09:32 /proc/1069/exe -> /usr/libexec/gnome-remote-desktop-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/108/exe
+lrwxrwxrwx 1 polkitd              polkitd              0 Feb 11 09:32 /proc/1082/exe -> /usr/lib/polkit-1/polkitd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1092/exe -> /usr/libexec/power-profiles-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/11/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/110/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/111/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/112/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1122/exe -> /snap/snapd/23545/usr/lib/snapd/snapd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1132/exe -> /usr/libexec/accounts-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1139/exe -> /usr/sbin/cron
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1156/exe -> /usr/libexec/switcheroo-control
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1163/exe -> /usr/lib/systemd/systemd-logind
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1166/exe -> /usr/libexec/udisks2/udisksd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/12/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1208/exe -> /usr/sbin/avahi-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1210/exe -> /usr/sbin/NetworkManager
+lrwxrwxrwx 1 root                 netdev               0 Feb 11 09:32 /proc/1216/exe -> /usr/sbin/wpa_supplicant
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/1219/exe -> /usr/sbin/rsyslogd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/125/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:33 /proc/1298/exe -> /usr/sbin/ModemManager
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/13/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/14/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/15/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/151/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1522/exe -> /usr/sbin/cupsd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1535/exe -> /usr/bin/python3.12
+lrwxrwxrwx 1 cups-browsed         lpadmin              0 Feb 11 09:34 /proc/1562/exe -> /usr/sbin/cups-browsed
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:33 /proc/1568/exe -> /usr/sbin/sshd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1575/exe
+lrwxrwxrwx 1 kernoops             adm                  0 Feb 11 09:34 /proc/1580/exe -> /usr/sbin/kerneloops
+lrwxrwxrwx 1 kernoops             adm                  0 Feb 11 09:34 /proc/1589/exe -> /usr/sbin/kerneloops
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1591/exe -> /usr/sbin/gdm3
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/16/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1625/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1647/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:33 /proc/1697/exe -> /usr/libexec/bluetooth/bluetoothd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/17/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:33 /proc/1738/exe -> /usr/libexec/rtkit-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/174/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/175/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/18/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/186/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/187/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/188/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/189/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/19/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/190/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/191/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/192/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/193/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/194/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/195/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/196/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/197/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1979/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/198/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/1981/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/199/exe
+lrwxrwxrwx 1 colord               colord               0 Feb 11 09:33 /proc/1996/exe -> /usr/libexec/colord
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/20/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/200/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/201/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/202/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/203/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:33 /proc/2038/exe -> /usr/libexec/packagekitd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2039/exe -> /usr/libexec/upowerd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/204/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/205/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/206/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/207/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/208/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/209/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/21/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/210/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/211/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/212/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/213/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/214/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/215/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/216/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/217/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/218/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/219/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/22/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/220/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/221/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/222/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/223/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/224/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/225/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/226/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/227/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/228/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/229/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/23/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/230/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/231/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/232/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/233/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/234/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/235/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/236/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/237/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/238/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/239/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/24/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/240/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/241/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/242/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/243/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/244/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/245/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/246/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/247/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/25/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2517/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/268/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/269/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2694/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/270/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/271/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/273/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2744/exe -> /usr/libexec/gdm-session-worker
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2754/exe -> /usr/lib/systemd/systemd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2759/exe -> /usr/lib/systemd/systemd-executor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2770/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2771/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2777/exe -> /usr/bin/wireplumber
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2778/exe -> /usr/bin/pipewire
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2780/exe -> /usr/bin/gnome-keyring-daemon
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2790/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/28/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2825/exe -> /usr/libexec/xdg-document-portal
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2832/exe -> /usr/libexec/gdm-wayland-session
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2841/exe -> /usr/libexec/gnome-session-binary
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2865/exe -> /usr/libexec/xdg-permission-store
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/2887/exe -> /usr/bin/fusermount3
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/29/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2917/exe -> /usr/libexec/gcr-ssh-agent
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2918/exe -> /usr/libexec/gnome-session-ctl
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2926/exe -> /usr/libexec/gvfsd
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2936/exe -> /usr/libexec/gvfsd-fuse
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2947/exe -> /usr/libexec/gnome-session-binary
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2993/exe -> /usr/bin/gnome-shell
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/2995/exe -> /usr/libexec/at-spi-bus-launcher
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/30/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3007/exe -> /usr/bin/dbus-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3039/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3064/exe -> /usr/libexec/at-spi2-registryd
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3092/exe -> /usr/libexec/gnome-shell-calendar-server
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/31/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3103/exe -> /usr/libexec/evolution-source-registry
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3111/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3114/exe -> /usr/bin/ibus-daemon
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3116/exe -> /usr/libexec/gsd-a11y-settings
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3117/exe -> /usr/libexec/gsd-color
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3120/exe -> /usr/libexec/gsd-datetime
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3121/exe -> /usr/libexec/gsd-housekeeping
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3125/exe -> /usr/libexec/gsd-keyboard
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3128/exe -> /usr/libexec/gsd-media-keys
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3130/exe -> /usr/libexec/gsd-power
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3131/exe -> /usr/libexec/gsd-print-notifications
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3134/exe -> /usr/libexec/gsd-rfkill
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3135/exe -> /usr/libexec/gsd-screensaver-proxy
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3136/exe -> /usr/libexec/gsd-sharing
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3137/exe -> /usr/libexec/gsd-smartcard
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3138/exe -> /usr/libexec/gsd-sound
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3139/exe -> /usr/libexec/gsd-wacom
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/314/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3141/exe -> /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/317/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3170/exe -> /usr/bin/vmtoolsd
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3174/exe -> /usr/libexec/gsd-disk-utility-notify
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/318/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3184/exe -> /usr/libexec/evolution-data-server/evolution-alarm-notify
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/32/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3279/exe -> /usr/libexec/gvfs-udisks2-volume-monitor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3296/exe -> /usr/libexec/goa-daemon
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/33/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3332/exe -> /usr/libexec/gsd-printer
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/34/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3421/exe -> /usr/libexec/ibus-memconf
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3426/exe -> /usr/libexec/ibus-extension-gtk3
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3432/exe -> /usr/libexec/evolution-calendar-factory
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3438/exe -> /usr/libexec/ibus-portal
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3458/exe -> /usr/libexec/goa-identity-service
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3480/exe -> /usr/libexec/gvfs-gphoto2-volume-monitor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3486/exe -> /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/35/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3500/exe -> /usr/libexec/gvfs-goa-volume-monitor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3513/exe -> /usr/libexec/gvfs-mtp-volume-monitor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3514/exe -> /usr/libexec/evolution-addressbook-factory
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3525/exe -> /usr/libexec/gvfs-afc-volume-monitor
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3537/exe -> /usr/bin/Xwayland
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3566/exe -> /usr/libexec/ibus-engine-simple
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3586/exe -> /usr/libexec/dconf-service
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/36/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3608/exe -> /usr/libexec/gvfsd-trash
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3609/exe -> /usr/libexec/gvfsd-metadata
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3659/exe -> /usr/libexec/tracker-miner-fs-3
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3671/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/368/exe -> /usr/lib/systemd/systemd-journald
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/37/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3701/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3702/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3703/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3705/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3706/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3707/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3708/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3709/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3710/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3711/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3712/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3713/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3714/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3715/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/3716/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3729/exe -> /usr/libexec/gsd-xsettings
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3760/exe -> /usr/libexec/xdg-desktop-portal
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3767/exe -> /usr/libexec/xdg-desktop-portal-gnome
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3793/exe -> /usr/libexec/ibus-x11
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/38/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3813/exe -> /usr/libexec/mutter-x11-frames
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:34 /proc/3827/exe -> /usr/libexec/xdg-desktop-portal-gtk
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/39/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/390/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/4/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/400/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/401/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/4041/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/407/exe -> /usr/bin/vmware-vmblock-fuse
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/41/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/42/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4241/exe -> /usr/bin/gjs-console
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/427/exe -> /usr/bin/udevadm
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/428/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/43/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4347/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/44/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/45/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4547/exe -> /usr/bin/update-notifier
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/46/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4615/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4632/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4638/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4669/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4696/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/47/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/471/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/4725/exe -> /snap/snapd/23545/usr/bin/snap
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/48/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/49/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/498/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/5/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/50/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/51/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/52/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/5220/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/5228/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/5235/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/53/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:35 /proc/5314/exe -> /snap/firefox/5701/usr/lib/firefox/firefox
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:36 /proc/5361/exe -> /usr/bin/nautilus
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:38 /proc/5385/exe -> /usr/libexec/gvfsd-recent
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/54/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:37 /proc/5400/exe -> /usr/libexec/gnome-terminal-server
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:38 /proc/5408/exe -> /usr/bin/bash
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/55/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/56/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/57/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/5715/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/58/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/59/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/5908/exe -> /usr/bin/sudo
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/5909/exe -> /usr/bin/sudo
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/5910/exe -> /usr/bin/dash
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/6/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/60/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/61/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/62/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/63/exe
+lrwxrwxrwx 1 administrator        administrator        0 Feb 11 09:38 /proc/6306/exe -> /usr/libexec/tracker-extract-3
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/64/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/65/exe
+lrwxrwxrwx 1 systemd-oom          systemd-oom          0 Feb 11 09:34 /proc/653/exe -> /usr/lib/systemd/systemd-oomd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/66/exe
+lrwxrwxrwx 1 systemd-resolve      systemd-resolve      0 Feb 11 09:32 /proc/669/exe -> /usr/lib/systemd/systemd-resolved
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/67/exe
+lrwxrwxrwx 1 systemd-timesync     systemd-timesync     0 Feb 11 09:33 /proc/674/exe -> /usr/lib/systemd/systemd-timesyncd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/68/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/69/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/7/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/70/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/71/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/72/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/722/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/73/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/7312/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:38 /proc/7353/exe -> /usr/bin/dash
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/74/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:32 /proc/745/exe -> /usr/bin/VGAuthService
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/75/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/757/exe -> /usr/bin/vmtoolsd
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/76/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/77/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/771/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/772/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/773/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/78/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/79/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/8/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/80/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/81/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/82/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/83/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/84/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/85/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/86/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/87/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/88/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/89/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/90/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/92/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/93/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/94/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/95/exe
+lrwxrwxrwx 1 root                 root                 0 Feb 11 09:34 /proc/99/exe

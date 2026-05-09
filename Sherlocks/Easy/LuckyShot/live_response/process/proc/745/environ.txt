@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=f17a54030ca541359d6ef20651f5c426
+JOURNAL_STREAM=8:18484
+SYSTEMD_EXEC_PID=745
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/vgauth.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

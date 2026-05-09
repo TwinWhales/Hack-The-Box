@@ -1,0 +1,24 @@
+total 0
+dr-x------ 2 administrator administrator 21 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[29301]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> socket:[31265]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> socket:[31279]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> socket:[31849]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> socket:[31294]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> socket:[31295]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> socket:[31902]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 19 -> socket:[31904]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[29301]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> socket:[31330]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 3 -> socket:[30852]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 4 -> socket:[29435]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[29436]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> socket:[31193]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[29437]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 9 -> /dev/dri/renderD128

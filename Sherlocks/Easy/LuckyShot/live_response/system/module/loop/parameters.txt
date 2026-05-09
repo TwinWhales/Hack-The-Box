@@ -1,0 +1,6 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-r--r--r-- 1 root root 4096 Feb 11 09:50 hw_queue_depth
+-r--r--r-- 1 root root 4096 Feb 11 09:50 max_loop
+-r--r--r-- 1 root root 4096 Feb 11 09:50 max_part

@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-r--r--r-- 1 root root 4096 Feb 11 09:50 consoleblank
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 crash_kexec_post_notifiers
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ignore_rlimit_data
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 initcall_debug
+-r-------- 1 root root 4096 Feb 11 09:50 module_blacklist
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 panic
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 panic_on_warn
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 panic_print
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 pause_on_oops

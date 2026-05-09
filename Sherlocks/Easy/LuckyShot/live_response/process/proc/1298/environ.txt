@@ -1,0 +1,11 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+LOGNAME=root
+HOME=/root
+SHELL=/usr/bin/bash
+INVOCATION_ID=face06676b8b481c84f0457118184648
+JOURNAL_STREAM=8:20544
+SYSTEMD_EXEC_PID=1298
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/ModemManager.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

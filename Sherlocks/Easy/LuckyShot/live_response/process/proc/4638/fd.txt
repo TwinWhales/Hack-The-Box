@@ -1,0 +1,26 @@
+total 0
+dr-x------ 2 administrator administrator 23 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:35 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[33853]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 10 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 11 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 12 -> pipe:[35486]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 13 -> pipe:[35486]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:[eventpoll]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 15 -> pipe:[35487]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 16 -> pipe:[35487]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 17 -> pipe:[35488]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 18 -> pipe:[35488]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 19 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[33853]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 21 -> pipe:[35498]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 22 -> pipe:[35498]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> socket:[34451]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 3 -> pipe:[35494]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 4 -> pipe:[35494]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[34113]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[35235]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[34110]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 9 -> /dev/null

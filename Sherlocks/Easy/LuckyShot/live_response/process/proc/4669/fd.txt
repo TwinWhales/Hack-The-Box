@@ -1,0 +1,48 @@
+total 0
+dr-x------ 2 administrator administrator 45 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:35 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[33853]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 10 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 11 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 12 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 13 -> pipe:[34697]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 14 -> pipe:[34697]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> anon_inode:[eventpoll]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 16 -> pipe:[34698]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 17 -> pipe:[34698]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 18 -> pipe:[34699]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 19 -> pipe:[34699]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[33853]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 20 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 21 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 22 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 23 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 24 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> socket:[35528]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 26 -> socket:[35534]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 3 -> /snap/firefox/5701/usr/lib/firefox/omni.ja
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 38 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 4 -> /snap/firefox/5701/usr/lib/firefox/browser/omni.ja
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 40 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 41 -> pipe:[34701]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 42 -> pipe:[34701]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 43 -> pipe:[34704]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 44 -> pipe:[34704]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 45 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 46 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 47 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 48 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 49 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 5 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 50 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 51 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 52 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 53 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 54 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 55 -> /memfd:mozilla-ipc (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 56 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> socket:[34113]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 7 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[35520]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 9 -> socket:[34110]

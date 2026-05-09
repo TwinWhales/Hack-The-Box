@@ -1,0 +1,14 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+NOTIFY_SOCKET=/run/systemd/notify
+WATCHDOG_PID=669
+WATCHDOG_USEC=180000000
+USER=systemd-resolve
+LOGNAME=systemd-resolve
+INVOCATION_ID=881e47614a654bdab88d03275b67e821
+JOURNAL_STREAM=8:16187
+RUNTIME_DIRECTORY=/run/systemd/resolve
+CREDENTIALS_DIRECTORY=/run/credentials/systemd-resolved.service
+SYSTEMD_EXEC_PID=669
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/systemd-resolved.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

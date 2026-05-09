@@ -1,0 +1,9 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=f0762ae0934c4955a7cb41bccaa1fc68
+JOURNAL_STREAM=8:24297
+STATE_DIRECTORY=/var/lib/upower
+SYSTEMD_EXEC_PID=2039
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/upower.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

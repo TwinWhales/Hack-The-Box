@@ -1,0 +1,18 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 action
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 debug
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 dump_loglevel
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 initial_delay
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 loop_delay
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 nmi_count
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 nmi_misses
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 pch_init_enable
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 pch_intr_enable
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ping_count
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ping_misses
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 retry_count
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 slave_delay
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 trigger_delay
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 wait_count

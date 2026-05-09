@@ -1,0 +1,7 @@
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           387M  2.1M  385M   1% /run
+/dev/sda2       118G   13G   99G  12% /
+tmpfs           1.9G     0  1.9G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           387M  136K  387M   1% /run/user/1000
+/dev/sr0        5.8G  5.8G     0 100% /media/administrator/Ubuntu 24.04.1 LTS amd64

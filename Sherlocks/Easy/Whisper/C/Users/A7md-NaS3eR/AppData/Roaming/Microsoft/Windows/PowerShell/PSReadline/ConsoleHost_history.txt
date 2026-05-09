@@ -1,0 +1,84 @@
+Set-MpPreference -DisableRealtimeMonitoring $true
+Set-MpPreference -DisableScanningNetworkFiles $true
+`
+Set-MpPreference -DisableBlockAtFirstSeen $true`
+
+`
+Set-MpPreference -DisableBlockAtFirstSeen $true
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
+cls
+.\Invoke-Mimikatz.ps1
+Set-ExecutionPolicy bypass
+cd C:\Users\A7md-NaS3eR\Desktop\
+cd .\Tools\
+dir
+.\Invoke-Mimikatz.ps1
+Set-ExecutionPolicy bypass
+.\Invoke-Mimikatz.ps1
+cd .\mimikatz_trunk\x64\
+dir
+ls
+cls
+dir /a
+dir \a
+cd
+cd C:\Users\A7md-NaS3eR\Desktop\Tools\mimikatz_trunk.zip\x64
+cd C:\Users\A7md-NaS3eR\Desktop\Tools\mimikatz_trunk\x64
+dir
+.\mimikatz.exe
+mimikatz
+cd C:\Users\A7md-NaS3eR\Desktop\Tools\
+dir
+cd C:\Users\A7md-NaS3eR\Desktop\Tools
+.\mimikatz_trunk\
+cd .\mimikatz_trunk\
+dir
+notepad.exe .\README.md
+cd .\x64\
+.\mimikatz.exe
+ip /a
+ipcondig
+ipconfig
+ping 192.168.159.142
+Set-MpPreference -DisableRealtimeMonitoring $true
+cd C:\Users\A7md-NaS3eR\Downloads\Install-Office-master\Install-Office-master\
+dir
+.\Download.ps1
+.\Install.ps1
+.\Download.ps1
+cls
+.\Download.ps1 -Branch ProPlus2019Retail -Channel Current -Components Word
+dir
+attarb
+.\Invoke-Mimikatz.ps1
+Set-ExecutionPolicy -h
+Set-ExecutionPolicy Bypass
+.\Invoke-Mimikatz.ps1
+Set-MpPreference -DisableRealtimeMonitoring $true
+Set-MpPreference -DisableScanningNetworkFiles $true
+.\Invoke-Mimikatz.ps1
+cls
+.\mimikatz_trunk
+cd .\mimikatz_trunk\
+dir
+cd .\x64\
+dir
+cd ..
+cd .\Win32\
+dir
+cd ../..
+.\PowerUp.ps1
+.\mimikatz.exe -h
+Set-MpPreference -DisableRealtimeMonitoring $true
+Set-MpPreference -DisableScanningNetworkFiles $true`
+
+Set-MpPreference -DisableScanningNetworkFiles $true
+Set-MpPreference -DisableBlockAtFirstSeen $true
+reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
+ls
+.\mimikatz.exe
+ipconfig
+ping 192.168.159.190
+ping 
+ping 192.168.159.190
+ping conda.local

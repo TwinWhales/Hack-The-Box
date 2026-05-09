@@ -1,0 +1,13 @@
+total 0
+dr-x------ 2 root root 10 Feb 11 09:33 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:33 ..
+lr-x------ 1 root root 64 Feb 11 09:33 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:33 1 -> socket:[21792]
+lrwx------ 1 root root 64 Feb 11 09:33 2 -> socket:[21792]
+l-wx------ 1 root root 64 Feb 11 09:33 3 -> /var/log/unattended-upgrades/unattended-upgrades-shutdown.log
+lrwx------ 1 root root 64 Feb 11 09:33 4 -> socket:[21214]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 7 -> socket:[21235]
+l-wx------ 1 root root 64 Feb 11 09:35 8 -> /run/systemd/inhibit/3.ref
+lrwx------ 1 root root 64 Feb 11 09:33 9 -> socket:[21236]

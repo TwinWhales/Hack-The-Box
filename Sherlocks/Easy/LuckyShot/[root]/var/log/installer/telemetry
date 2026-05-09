@@ -1,0 +1,29 @@
+{
+  "Type": "Flutter",
+  "OEM": false,
+  "Media": "Ubuntu 24.04.1 LTS",
+  "Stages": {
+    "3": "loading",
+    "4": "locale",
+    "27": "accessibility",
+    "29": "keyboard",
+    "32": "network",
+    "42": "refresh",
+    "50": "tryOrInstall",
+    "54": "autoinstall",
+    "58": "sourceSelection",
+    "69": "codecsAndDrivers",
+    "77": "storage",
+    "98": "identity",
+    "102": "identity",
+    "128": "timezone",
+    "130": "confirm",
+    "132": "install",
+    "933": "done"
+  },
+  "Language": "en",
+  "Minimal": true,
+  "RestrictedAddons": false,
+  "PartitionMethod": "use_device",
+  "UseActiveDirectory": false
+}

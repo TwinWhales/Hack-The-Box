@@ -1,0 +1,10 @@
+total 0
+dr-x------ 2 root  root   7 Feb 11 09:33 .
+dr-xr-xr-x 9 rtkit rtkit  0 Feb 11 09:33 ..
+lr-x------ 1 root  root  64 Feb 11 09:33 0 -> /dev/null
+lrwx------ 1 root  root  64 Feb 11 09:33 1 -> socket:[23358]
+lrwx------ 1 root  root  64 Feb 11 09:33 2 -> socket:[23358]
+lrwx------ 1 root  root  64 Feb 11 09:33 3 -> socket:[23817]
+lrwx------ 1 root  root  64 Feb 11 09:33 4 -> socket:[23818]
+lrwx------ 1 root  root  64 Feb 11 09:33 5 -> anon_inode:[eventfd]
+lrwx------ 1 root  root  64 Feb 11 09:33 6 -> anon_inode:[eventfd]

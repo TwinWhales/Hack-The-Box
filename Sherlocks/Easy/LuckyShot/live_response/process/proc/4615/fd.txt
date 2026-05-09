@@ -1,0 +1,28 @@
+total 0
+dr-x------ 2 administrator administrator 25 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:35 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[33853]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 10 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 11 -> /dev/null
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 12 -> pipe:[35196]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 13 -> pipe:[35196]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:[eventpoll]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 15 -> pipe:[35197]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 16 -> pipe:[35197]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 17 -> pipe:[35198]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 18 -> pipe:[35198]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 19 -> /memfd:mozilla-ipc (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[33853]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 20 -> pipe:[35201]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 21 -> pipe:[35201]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 22 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 23 -> pipe:[34211]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 24 -> pipe:[34211]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 27 -> socket:[35206]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 3 -> pipe:[35200]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 4 -> pipe:[35200]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[34113]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[35087]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[34110]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 9 -> /dev/null

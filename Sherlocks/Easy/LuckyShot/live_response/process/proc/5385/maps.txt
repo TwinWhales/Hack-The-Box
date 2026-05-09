@@ -1,0 +1,151 @@
+6363e9dd9000-6363e9ddc000 r--p 00000000 08:02 538380                     /usr/libexec/gvfsd-recent
+6363e9ddc000-6363e9de0000 r-xp 00003000 08:02 538380                     /usr/libexec/gvfsd-recent
+6363e9de0000-6363e9de1000 r--p 00007000 08:02 538380                     /usr/libexec/gvfsd-recent
+6363e9de1000-6363e9de2000 r--p 00008000 08:02 538380                     /usr/libexec/gvfsd-recent
+6363e9de2000-6363e9de3000 rw-p 00009000 08:02 538380                     /usr/libexec/gvfsd-recent
+6363f4dd5000-6363f4e38000 rw-p 00000000 00:00 0                          [heap]
+768604000000-768604021000 rw-p 00000000 00:00 0 
+768604021000-768608000000 ---p 00000000 00:00 0 
+768608000000-768608021000 rw-p 00000000 00:00 0 
+768608021000-76860c000000 ---p 00000000 00:00 0 
+768610000000-768610021000 rw-p 00000000 00:00 0 
+768610021000-768614000000 ---p 00000000 00:00 0 
+768614000000-768614021000 rw-p 00000000 00:00 0 
+768614021000-768618000000 ---p 00000000 00:00 0 
+76861a200000-76861a201000 ---p 00000000 00:00 0 
+76861a201000-76861aa01000 rw-p 00000000 00:00 0 
+76861ac00000-76861ac01000 ---p 00000000 00:00 0 
+76861ac01000-76861b401000 rw-p 00000000 00:00 0 
+76861b600000-76861b601000 ---p 00000000 00:00 0 
+76861b601000-76861be01000 rw-p 00000000 00:00 0 
+76861c000000-76861c021000 rw-p 00000000 00:00 0 
+76861c021000-768620000000 ---p 00000000 00:00 0 
+768620600000-768620601000 ---p 00000000 00:00 0 
+768620601000-768620e01000 rw-p 00000000 00:00 0 
+768621000000-768621001000 ---p 00000000 00:00 0 
+768621001000-768621801000 rw-p 00000000 00:00 0 
+768621a00000-768621f75000 r--p 00000000 08:02 539235                     /usr/lib/locale/locale-archive
+76862200e000-768622018000 r--p 00000000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+768622018000-768622036000 r-xp 0000a000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+768622036000-76862203f000 r--p 00028000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+76862203f000-768622041000 r--p 00030000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+768622041000-768622042000 rw-p 00032000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+768622042000-768622044000 rw-p 00000000 00:00 0 
+768622044000-768622048000 r--p 00000000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+768622048000-76862205e000 r-xp 00004000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+76862205e000-768622067000 r--p 0001a000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+768622067000-768622068000 r--p 00023000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+768622068000-768622069000 rw-p 00024000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+768622069000-768622070000 r--p 00000000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+768622070000-768622094000 r-xp 00007000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+768622094000-76862209d000 r--p 0002b000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76862209d000-7686220a3000 r--p 00033000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7686220a3000-7686220a4000 rw-p 00039000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+7686220a4000-7686220b3000 r--p 00000000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7686220b3000-7686221a7000 r-xp 0000f000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7686221a7000-7686221e2000 r--p 00103000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7686221e2000-7686221e7000 r--p 0013e000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7686221e7000-7686221eb000 rw-p 00143000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+7686221eb000-7686221ec000 rw-p 00000000 00:00 0 
+7686221ec000-768622224000 r--p 00000000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+768622224000-7686222f6000 r-xp 00038000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+7686222f6000-768622375000 r--p 0010a000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+768622375000-768622382000 r--p 00188000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+768622382000-76862238f000 rw-p 00195000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+76862238f000-768622390000 rw-p 00000000 00:00 0 
+768622390000-768622399000 r--p 00000000 08:02 535818                     /usr/lib/x86_64-linux-gnu/libgck-2.so.2.2.0
+768622399000-7686223b6000 r-xp 00009000 08:02 535818                     /usr/lib/x86_64-linux-gnu/libgck-2.so.2.2.0
+7686223b6000-7686223c3000 r--p 00026000 08:02 535818                     /usr/lib/x86_64-linux-gnu/libgck-2.so.2.2.0
+7686223c3000-7686223c4000 r--p 00032000 08:02 535818                     /usr/lib/x86_64-linux-gnu/libgck-2.so.2.2.0
+7686223c4000-7686223c5000 rw-p 00033000 08:02 535818                     /usr/lib/x86_64-linux-gnu/libgck-2.so.2.2.0
+7686223c5000-7686223c7000 r--p 00000000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+7686223c7000-768622435000 r-xp 00002000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+768622435000-76862245d000 r--p 00070000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76862245d000-76862245e000 r--p 00097000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76862245e000-76862245f000 rw-p 00098000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76862245f000-76862246f000 r--p 00000000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76862246f000-7686224ee000 r-xp 00010000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+7686224ee000-768622546000 r--p 0008f000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+768622546000-768622547000 r--p 000e7000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+768622547000-768622548000 rw-p 000e8000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+768622548000-76862254a000 r--p 00000000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+76862254a000-768622551000 r-xp 00002000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+768622551000-768622552000 r--p 00009000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+768622552000-768622553000 r--p 0000a000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+768622553000-768622554000 rw-p 0000b000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+768622554000-76862255d000 r--p 00000000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+76862255d000-768622591000 r-xp 00009000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+768622591000-76862259e000 r--p 0003d000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+76862259e000-7686225a0000 r--p 00049000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7686225a0000-7686225a1000 rw-p 0004b000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+7686225a1000-7686225b4000 r--p 00000000 08:02 536173                     /usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0
+7686225b4000-7686225e7000 r-xp 00013000 08:02 536173                     /usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0
+7686225e7000-7686225fb000 r--p 00046000 08:02 536173                     /usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0
+7686225fb000-7686225ff000 r--p 00059000 08:02 536173                     /usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0
+7686225ff000-768622600000 rw-p 0005d000 08:02 536173                     /usr/lib/x86_64-linux-gnu/libsecret-1.so.0.0.0
+768622600000-768622628000 r--p 00000000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+768622628000-7686227b0000 r-xp 00028000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7686227b0000-7686227ff000 r--p 001b0000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7686227ff000-768622803000 r--p 001fe000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+768622803000-768622805000 rw-p 00202000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+768622805000-768622812000 rw-p 00000000 00:00 0 
+768622812000-768622816000 rw-p 00000000 00:00 0 
+768622816000-76862281c000 r--p 00000000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76862281c000-768622839000 r-xp 00006000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+768622839000-76862283f000 r--p 00023000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76862283f000-768622840000 r--p 00029000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+768622840000-768622841000 rw-p 0002a000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+768622841000-768622845000 rw-p 00000000 00:00 0 
+768622845000-768622847000 r--p 00000000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+768622847000-768622859000 r-xp 00002000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+768622859000-76862285f000 r--p 00014000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76862285f000-768622860000 r--p 0001a000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+768622860000-768622861000 rw-p 0001b000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+768622861000-768622863000 r--p 00000000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+768622863000-768622865000 r-xp 00002000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+768622865000-768622866000 r--p 00004000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+768622866000-768622867000 r--p 00004000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+768622867000-768622868000 rw-p 00005000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+768622868000-76862288b000 r--p 00000000 08:02 535819                     /usr/lib/x86_64-linux-gnu/libgcr-4.so.4.2.0
+76862288b000-7686228d3000 r-xp 00023000 08:02 535819                     /usr/lib/x86_64-linux-gnu/libgcr-4.so.4.2.0
+7686228d3000-7686228f1000 r--p 0006b000 08:02 535819                     /usr/lib/x86_64-linux-gnu/libgcr-4.so.4.2.0
+7686228f1000-7686228fd000 r--p 00088000 08:02 535819                     /usr/lib/x86_64-linux-gnu/libgcr-4.so.4.2.0
+7686228fd000-7686228fe000 rw-p 00094000 08:02 535819                     /usr/lib/x86_64-linux-gnu/libgcr-4.so.4.2.0
+7686228fe000-768622901000 rw-p 00000000 00:00 0 
+768622901000-76862291f000 r--p 00000000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76862291f000-7686229bf000 r-xp 0001e000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+7686229bf000-768622a47000 r--p 000be000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+768622a47000-768622a48000 r--p 00146000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+768622a48000-768622a49000 rw-p 00147000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+768622a49000-768622a4a000 rw-p 00000000 00:00 0 
+768622a4a000-768622a59000 r--p 00000000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+768622a59000-768622a90000 r-xp 0000f000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+768622a90000-768622aa9000 r--p 00046000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+768622aa9000-768622aac000 r--p 0005e000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+768622aac000-768622aad000 rw-p 00061000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+768622aad000-768622ae6000 r--p 00000000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+768622ae6000-768622bfd000 r-xp 00039000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+768622bfd000-768622c72000 r--p 00150000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+768622c72000-768622c7a000 r--p 001c4000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+768622c7a000-768622c7b000 rw-p 001cc000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+768622c7b000-768622c7d000 rw-p 00000000 00:00 0 
+768622c8d000-768622c9f000 r--p 00000000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+768622c9f000-768622cbb000 r-xp 00012000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+768622cbb000-768622cc7000 r--p 0002e000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+768622cc7000-768622ccd000 r--p 00039000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+768622ccd000-768622cce000 rw-p 0003f000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+768622cce000-768622cd8000 r--p 00000000 08:02 537452                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+768622cd8000-768622cec000 r-xp 0000a000 08:02 537452                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+768622cec000-768622cf4000 r--p 0001e000 08:02 537452                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+768622cf4000-768622cf5000 r--p 00026000 08:02 537452                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+768622cf5000-768622cf6000 rw-p 00027000 08:02 537452                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfsdaemon.so
+768622cf6000-768622cf8000 rw-p 00000000 00:00 0 
+768622cf8000-768622cf9000 r--p 00000000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+768622cf9000-768622d24000 r-xp 00001000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+768622d24000-768622d2e000 r--p 0002c000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+768622d2e000-768622d30000 r--p 00036000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+768622d30000-768622d32000 rw-p 00038000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd159a1000-7ffd159c2000 rw-p 00000000 00:00 0                          [stack]
+7ffd159ee000-7ffd159f2000 r--p 00000000 00:00 0                          [vvar]
+7ffd159f2000-7ffd159f4000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

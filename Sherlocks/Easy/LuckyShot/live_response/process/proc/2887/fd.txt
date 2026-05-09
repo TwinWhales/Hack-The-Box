@@ -1,0 +1,8 @@
+total 0
+dr-x------ 2 root root           5 Feb 11 09:35 .
+dr-xr-xr-x 9 root administrator  0 Feb 11 09:34 ..
+lr-x------ 1 root root          64 Feb 11 09:35 0 -> /dev/null
+lr-x------ 1 root root          64 Feb 11 09:35 1 -> /dev/null
+lr-x------ 1 root root          64 Feb 11 09:35 2 -> /dev/null
+lrwx------ 1 root root          64 Feb 11 09:35 7 -> socket:[28148]
+lr-x------ 1 root root          64 Feb 11 09:35 9 -> /dev/null

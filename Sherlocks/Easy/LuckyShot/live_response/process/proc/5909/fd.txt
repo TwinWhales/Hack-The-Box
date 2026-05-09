@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 root root 12 Feb 11 09:38 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:38 ..
+lrwx------ 1 root root 64 Feb 11 09:38 0 -> /dev/pts/0
+lrwx------ 1 root root 64 Feb 11 09:38 1 -> /dev/pts/0
+lrwx------ 1 root root 64 Feb 11 09:38 10 -> /dev/pts/1
+l-wx------ 1 root root 64 Feb 11 09:38 11 -> pipe:[41708]
+lrwx------ 1 root root 64 Feb 11 09:38 12 -> socket:[42581]
+lrwx------ 1 root root 64 Feb 11 09:38 2 -> /dev/pts/0
+lr-x------ 1 root root 64 Feb 11 09:38 3 -> pipe:[42556]
+l-wx------ 1 root root 64 Feb 11 09:38 4 -> pipe:[42556]
+lr-x------ 1 root root 64 Feb 11 09:38 5 -> /etc/sudoers
+lrwx------ 1 root root 64 Feb 11 09:38 6 -> socket:[42568]
+lrwx------ 1 root root 64 Feb 11 09:38 7 -> socket:[42577]
+lr-x------ 1 root root 64 Feb 11 09:38 9 -> pipe:[41708]

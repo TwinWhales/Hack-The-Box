@@ -1,0 +1,15 @@
+total 0
+dr-x------ 2 administrator administrator 12 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[30506]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 10 -> /home/administrator/.local/share/gvfs-metadata/home
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 11 -> /home/administrator/.local/share/gvfs-metadata/home-93103946.log
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[30506]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[30984]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[30988]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 8 -> /home/administrator/.local/share/gvfs-metadata/root
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> /home/administrator/.local/share/gvfs-metadata/root-f0609841.log

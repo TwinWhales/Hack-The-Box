@@ -1,0 +1,21 @@
+NEXT                                 LEFT LAST                              PASSED UNIT                           ACTIVATES
+Tue 2025-02-11 10:00:00 IST          8min Tue 2025-02-11 09:50:09 IST 1min 12s ago sysstat-collect.timer          sysstat-collect.service
+Tue 2025-02-11 10:08:52 IST         17min Mon 2025-02-10 20:22:04 IST            - fwupd-refresh.timer            fwupd-refresh.service
+Tue 2025-02-11 10:20:01 IST         28min Sun 2025-02-09 20:48:56 IST            - man-db.timer                   man-db.service
+Tue 2025-02-11 10:20:17 IST         28min Mon 2025-02-10 19:35:56 IST            - apt-daily-upgrade.timer        apt-daily-upgrade.service
+Tue 2025-02-11 10:31:21 IST         39min Tue 2025-02-11 09:33:35 IST    17min ago anacron.timer                  anacron.service
+Tue 2025-02-11 11:17:15 IST      1h 25min Mon 2025-02-10 20:22:05 IST            - apt-daily.timer                apt-daily.service
+Tue 2025-02-11 12:42:58 IST      2h 51min Mon 2025-02-10 19:35:56 IST            - motd-news.timer                motd-news.service
+Wed 2025-02-12 00:00:00 IST           14h Tue 2025-02-11 09:32:53 IST    18min ago dpkg-db-backup.timer           dpkg-db-backup.service
+Wed 2025-02-12 00:00:00 IST           14h Tue 2025-02-11 09:32:53 IST    18min ago logrotate.timer                logrotate.service
+Wed 2025-02-12 00:07:00 IST           14h -                                      - sysstat-summary.timer          sysstat-summary.service
+Wed 2025-02-12 09:37:48 IST           23h Tue 2025-02-11 09:37:48 IST    13min ago update-notifier-download.timer update-notifier-download.service
+Wed 2025-02-12 09:46:59 IST           23h Tue 2025-02-11 09:46:59 IST 4min 22s ago systemd-tmpfiles-clean.timer   systemd-tmpfiles-clean.service
+Sun 2025-02-16 03:10:32 IST        4 days Sun 2025-02-09 20:48:56 IST            - e2scrub_all.timer              e2scrub_all.service
+Mon 2025-02-17 00:00:09 IST        5 days Mon 2025-02-10 20:11:20 IST            - fstrim.timer                   fstrim.service
+Sat 2025-02-22 12:46:59 IST 1 week 4 days Sun 2025-02-09 20:49:05 IST            - update-notifier-motd.timer     update-notifier-motd.service
+-                                       - -                                      - apport-autoreport.timer        apport-autoreport.service
+-                                       - -                                      - snapd.snap-repair.timer        snapd.snap-repair.service
+-                                       - -                                      - ua-timer.timer                 ua-timer.service
+
+18 timers listed.

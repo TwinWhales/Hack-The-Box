@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 root          root          20 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 root          root          64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 root          root          64 Feb 11 09:35 1 -> socket:[29705]
+lrwx------ 1 root          root          64 Feb 11 09:35 10 -> socket:[30741]
+lrwx------ 1 root          root          64 Feb 11 09:35 11 -> socket:[30304]
+lrwx------ 1 root          root          64 Feb 11 09:35 12 -> socket:[31851]
+lrwx------ 1 root          root          64 Feb 11 09:35 13 -> socket:[31854]
+lrwx------ 1 root          root          64 Feb 11 09:35 14 -> anon_inode:[eventfd]
+lrwx------ 1 root          root          64 Feb 11 09:35 15 -> socket:[31856]
+lrwx------ 1 root          root          64 Feb 11 09:35 16 -> socket:[31857]
+lrwx------ 1 root          root          64 Feb 11 09:35 17 -> socket:[31873]
+lrwx------ 1 root          root          64 Feb 11 09:35 18 -> socket:[31901]
+lrwx------ 1 root          root          64 Feb 11 09:34 19 -> socket:[31903]
+lrwx------ 1 root          root          64 Feb 11 09:35 2 -> socket:[29705]
+lrwx------ 1 root          root          64 Feb 11 09:35 3 -> /run/vmblock-fuse/dev
+l-wx------ 1 root          root          64 Feb 11 09:35 4 -> /dev/uinput
+l-wx------ 1 root          root          64 Feb 11 09:35 5 -> /var/log/vmware-vmusr-administrator.log
+lrwx------ 1 root          root          64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lr-x------ 1 root          root          64 Feb 11 09:35 7 -> pipe:[30729]
+l-wx------ 1 root          root          64 Feb 11 09:35 8 -> pipe:[30729]
+lrwx------ 1 root          root          64 Feb 11 09:35 9 -> socket:[31872]

@@ -1,0 +1,2 @@
+/usr/libexec/tracker-extract-3
+--socket-fd

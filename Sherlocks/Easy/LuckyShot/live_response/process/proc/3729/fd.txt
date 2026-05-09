@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 administrator administrator 17 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[31779]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> socket:[31233]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> socket:[31236]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 16 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[31779]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> socket:[31187]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[31229]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> socket:[31231]

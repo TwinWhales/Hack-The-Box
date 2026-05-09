@@ -1,0 +1,7 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 7 root root    0 Feb 11 09:50 ..
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 disable_scofix
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 enable_autosuspend
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 force_scofix
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 reset

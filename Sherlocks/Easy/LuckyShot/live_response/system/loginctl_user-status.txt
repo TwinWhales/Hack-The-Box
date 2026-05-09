@@ -1,0 +1,171 @@
+administrator (1000)
+   Since: Tue 2025-02-11 09:34:02 IST; 16min ago
+   State: active
+Sessions: *2
+  Linger: no
+    Unit: user-1000.slice
+          |-session-2.scope
+          | |-2744 "gdm-session-worker [pam/gdm-password]"
+          | |-2832 /usr/libexec/gdm-wayland-session "env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu"
+          | `-2841 /usr/libexec/gnome-session-binary --session=ubuntu
+          `-user@1000.service
+            |-app.slice
+            | |-app-gnome-at\x2dspi\x2ddbus\x2dbus-2995.scope
+            | | |-2995 /usr/libexec/at-spi-bus-launcher --launch-immediately
+            | | |-3007 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+            | | `-3064 /usr/libexec/at-spi2-registryd --use-gnome-session
+            | |-app-gnome-org.gnome.Evolution\x2dalarm\x2dnotify-3184.scope
+            | | `-3184 /usr/libexec/evolution-data-server/evolution-alarm-notify
+            | |-app-gnome-org.gnome.SettingsDaemon.DiskUtilityNotify-3174.scope
+            | | `-3174 /usr/libexec/gsd-disk-utility-notify
+            | |-app-gnome-update\x2dnotifier-4547.scope
+            | | `-4547 /usr/bin/update-notifier
+            | |-app-gnome\x2dsession\x2dmanager.slice
+            | | `-gnome-session-manager@ubuntu.service
+            | |   |-2947 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+            | |   `-3170 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+            | |-app-org.gnome.Terminal.slice
+            | | |-gnome-terminal-server.service
+            | | | `-5400 /usr/libexec/gnome-terminal-server
+            | | `-vte-spawn-6e4708f2-a2d7-4802-aa23-60b3fdbc6924.scope
+            | |   |-  5408 bash
+            | |   |-  5908 sudo ./uac -p ir_triage /home/administrator/Desktop/
+            | |   |-  5909 sudo ./uac -p ir_triage /home/administrator/Desktop/
+            | |   |-  5910 /bin/sh ./uac -p ir_triage /home/administrator/Desktop/
+            | |   |-137220 /bin/sh ./uac -p ir_triage /home/administrator/Desktop/
+            | |   `-137258 loginctl user-status
+            | |-dconf.service
+            | | `-3586 /usr/libexec/dconf-service
+            | |-evolution-addressbook-factory.service
+            | | `-3514 /usr/libexec/evolution-addressbook-factory
+            | |-evolution-calendar-factory.service
+            | | `-3432 /usr/libexec/evolution-calendar-factory
+            | |-evolution-source-registry.service
+            | | `-3103 /usr/libexec/evolution-source-registry
+            | |-gcr-ssh-agent.service
+            | | `-2917 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+            | |-gnome-keyring-daemon.service
+            | | `-2780 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+            | |-gnome-session-monitor.service
+            | | `-2918 /usr/libexec/gnome-session-ctl --monitor
+            | |-snap.firefox.firefox-a6372b80-e334-4eaa-89fd-b6e0bc185fd6.scope
+            | | |-4347 /snap/firefox/5701/usr/lib/firefox/firefox
+            | | |-4615 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -prefsHandle 0 -prefsLen 30933 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e0d56bef-20b4-46b3-ba73-8dbc155e8e6d} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 1 socket
+            | | |-4632 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 30998 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {463ce4fb-9bb5-48b1-96f3-3bd82ff24157} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 2 tab
+            | | |-4638 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -prefsHandle 0 -prefsLen 30998 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {52885d26-1199-41a2-a468-9a3da24708a6} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 3 rdd
+            | | |-4669 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 31123 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {26b05271-803d-4c9e-abac-b2923ea64c69} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 4 tab
+            | | |-4696 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 28088 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6aff854f-0b29-4780-9e15-371067f6152b} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 5 tab
+            | | |-5220 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -sandboxingKind 0 -prefsHandle 0 -prefsLen 40163 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {d4da33dc-8b8c-4fbd-b051-104363a328d7} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 6 utility
+            | | |-5228 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37028 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {343d6873-060a-4345-bc3a-8888d808d33e} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 7 tab
+            | | |-5235 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37028 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2f9c74ba-40c8-4687-9d76-5a9d1c0bcabb} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 8 tab
+            | | `-5314 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37524 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e27f92b1-ad1d-4eda-9209-fa25aa9b8076} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 9 tab
+            | |-snap.snapd-desktop-integration.snapd-desktop-integration.service
+            | | |-3141 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+            | | `-3486 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+            | |-xdg-desktop-portal-gnome.service
+            | | `-3767 /usr/libexec/xdg-desktop-portal-gnome
+            | `-xdg-desktop-portal-gtk.service
+            |   `-3827 /usr/libexec/xdg-desktop-portal-gtk
+            |-background.slice
+            | `-tracker-miner-fs-3.service
+            |   |-  3659 /usr/libexec/tracker-miner-fs-3
+            |   `-130276 /usr/libexec/tracker-extract-3 --socket-fd 3
+            |-init.scope
+            | |-2754 /usr/lib/systemd/systemd --user
+            | `-2759 "(sd-pam)"
+            `-session.slice
+              |-dbus.service
+              | |-2790 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+              | |-3092 /usr/libexec/gnome-shell-calendar-server
+              | |-3111 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+              | |-3296 /usr/libexec/goa-daemon
+              | |-3438 /usr/libexec/ibus-portal
+              | |-3458 /usr/libexec/goa-identity-service
+              | |-3671 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+              | |-4725 /usr/bin/snap userd
+              | `-5361 /usr/bin/nautilus --gapplication-service
+              |-filter-chain.service
+              | `-2771 /usr/bin/pipewire -c filter-chain.conf
+              |-gvfs-afc-volume-monitor.service
+              | `-3525 /usr/libexec/gvfs-afc-volume-monitor
+              |-gvfs-daemon.service
+              | |-2926 /usr/libexec/gvfsd
+              | |-2936 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+              | |-3608 /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+              | `-5385 /usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/1
+              |-gvfs-goa-volume-monitor.service
+              | `-3500 /usr/libexec/gvfs-goa-volume-monitor
+              |-gvfs-gphoto2-volume-monitor.service
+              | `-3480 /usr/libexec/gvfs-gphoto2-volume-monitor
+              |-gvfs-metadata.service
+              | `-3609 /usr/libexec/gvfsd-metadata
+              |-gvfs-mtp-volume-monitor.service
+              | `-3513 /usr/libexec/gvfs-mtp-volume-monitor
+              |-gvfs-udisks2-volume-monitor.service
+              | `-3279 /usr/libexec/gvfs-udisks2-volume-monitor
+              |-org.freedesktop.IBus.session.GNOME.service
+              | |-3114 /usr/bin/ibus-daemon --panel disable
+              | |-3421 /usr/libexec/ibus-memconf
+              | |-3426 /usr/libexec/ibus-extension-gtk3
+              | `-3566 /usr/libexec/ibus-engine-simple
+              |-org.gnome.SettingsDaemon.A11ySettings.service
+              | `-3116 /usr/libexec/gsd-a11y-settings
+              |-org.gnome.SettingsDaemon.Color.service
+              | `-3117 /usr/libexec/gsd-color
+              |-org.gnome.SettingsDaemon.Datetime.service
+              | `-3120 /usr/libexec/gsd-datetime
+              |-org.gnome.SettingsDaemon.Housekeeping.service
+              | `-3121 /usr/libexec/gsd-housekeeping
+              |-org.gnome.SettingsDaemon.Keyboard.service
+              | `-3125 /usr/libexec/gsd-keyboard
+              |-org.gnome.SettingsDaemon.MediaKeys.service
+              | `-3128 /usr/libexec/gsd-media-keys
+              |-org.gnome.SettingsDaemon.Power.service
+              | `-3130 /usr/libexec/gsd-power
+              |-org.gnome.SettingsDaemon.PrintNotifications.service
+              | |-3131 /usr/libexec/gsd-print-notifications
+              | `-3332 /usr/libexec/gsd-printer
+              |-org.gnome.SettingsDaemon.Rfkill.service
+              | `-3134 /usr/libexec/gsd-rfkill
+              |-org.gnome.SettingsDaemon.ScreensaverProxy.service
+              | `-3135 /usr/libexec/gsd-screensaver-proxy
+              |-org.gnome.SettingsDaemon.Sharing.service
+              | `-3136 /usr/libexec/gsd-sharing
+              |-org.gnome.SettingsDaemon.Smartcard.service
+              | `-3137 /usr/libexec/gsd-smartcard
+              |-org.gnome.SettingsDaemon.Sound.service
+              | `-3138 /usr/libexec/gsd-sound
+              |-org.gnome.SettingsDaemon.Wacom.service
+              | `-3139 /usr/libexec/gsd-wacom
+              |-org.gnome.SettingsDaemon.XSettings.service
+              | |-3729 /usr/libexec/gsd-xsettings
+              | `-3793 /usr/libexec/ibus-x11
+              |-org.gnome.Shell@wayland.service
+              | |-  2993 /usr/bin/gnome-shell
+              | |-  3537 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.UW0V12 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+              | |-  3813 /usr/libexec/mutter-x11-frames
+              | `-130189 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+              |-pipewire-pulse.service
+              | `-2778 /usr/bin/pipewire-pulse
+              |-pipewire.service
+              | `-2770 /usr/bin/pipewire
+              |-wireplumber.service
+              | `-2777 /usr/bin/wireplumber
+              |-xdg-desktop-portal.service
+              | `-3760 /usr/libexec/xdg-desktop-portal
+              |-xdg-document-portal.service
+              | |-2825 /usr/libexec/xdg-document-portal
+              | `-2887 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+              `-xdg-permission-store.service
+                `-2865 /usr/libexec/xdg-permission-store
+
+Feb 11 09:50:27 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:27.550: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:29 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:29.114: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:37 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:37.062: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:39 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:39.083: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:42 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:42.030: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:42 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:42.912: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:44 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:44.701: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:44 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:44.849: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:46 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:46.993: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'
+Feb 11 09:50:47 LuckyShot tracker-miner-fs-3[130276]: (tracker-extract-3:130276): Tracker-WARNING **: 09:50:47.745: Task for 'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' finished with error: Unknown target graph for uri:'file:///home/administrator/Desktop/uac-data.tmp/run_command.stderr.txt' and mime:'application/x-zerosize'

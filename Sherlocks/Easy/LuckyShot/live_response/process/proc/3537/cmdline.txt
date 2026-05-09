@@ -1,0 +1,12 @@
+/usr/bin/Xwayland
+-rootless
+-noreset
+-accessx
+-core
+-auth
+/run/user/1000/.mutter-Xwaylandauth.UW0V12
+-listenfd
+-listenfd
+-displayfd
+-initfd
+-byteswappedclients

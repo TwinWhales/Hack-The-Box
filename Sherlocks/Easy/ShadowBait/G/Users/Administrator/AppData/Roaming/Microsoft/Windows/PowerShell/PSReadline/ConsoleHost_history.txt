@@ -1,0 +1,22 @@
+net user oliver /delete
+net localgroup administrators
+ Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections" -Value 0
+Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" -Name "UserAuthentication" -Value 0
+netsh advfirewall firewall add rule name="Allow RDP from Kali" dir=in action=allow protocol=TCP localport=3389 remoteip=192.168.1.20
+netsh advfirewall firewall add rule name="Allow RDP from Kali" dir=in action=allow protocol=TCP localport=3389 remoteip=192.168.204.152
+  net localgroup "Remote Desktop Users" Main\samy /add
+  net localgroup "Remote Desktop Users" Main\oliver /add
+  Get-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server" -Name "fDenyTSConnections"
+net localgroup "Remote Desktop Users"
+  netsh advfirewall firewall add rule name="Remote Desktop" dir=in action=allow protocol=TCP localport=3389
+   netsh advfirewall firewall add rule name="Allow RDP from Kali" dir=in action=allow protocol=TCP localport=3389 remoteip=192.168.204.
+   netsh advfirewall firewall add rule name="Allow RDP from Kali" dir=in action=allow protocol=TCP localport=3389 remoteip=192.168.204.152
+Set-ItemProperty -Path "HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" -Name "UserAuthentication" -Value 0
+  cd .\Downloads\sysmon\
+.\Sysmon64.exe -i .\sysmonconfig.xml
+  cd C:\Users\samy\Downloads\
+cd C:\Users\steven\Downloads\
+.\winpmem_mini_x64_rc2.exe memdmp.raw
+Open-DiskManagement
+compmgmt.msc
+dir

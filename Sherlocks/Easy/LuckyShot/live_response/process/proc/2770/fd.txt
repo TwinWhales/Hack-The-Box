@@ -1,0 +1,61 @@
+total 0
+dr-x------ 2 administrator administrator 58 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[28783]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> socket:[28064]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 19 -> /run/user/1000/pipewire-0.lock
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[28783]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 21 -> /run/user/1000/pipewire-0-manager.lock
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 22 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 23 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 24 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> socket:[28882]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 26 -> socket:[28882]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 27 -> socket:[28882]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 28 -> socket:[28912]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 29 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> socket:[27924]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 30 -> socket:[28897]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 31 -> socket:[28897]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 32 -> socket:[28897]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 33 -> socket:[28932]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 34 -> anon_inode:[timerfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 35 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 36 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 37 -> anon_inode:[timerfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 38 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 39 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> socket:[27926]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 40 -> socket:[30958]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 41 -> socket:[30963]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 42 -> socket:[31112]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 43 -> socket:[28937]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 44 -> socket:[28939]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 45 -> anon_inode:[timerfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 46 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 47 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 48 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 49 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 50 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 51 -> /memfd:pipewire-memfd:flags=0x0000000f,type=2,size=2312 (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 52 -> socket:[31370]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 53 -> socket:[35052]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 54 -> socket:[42305]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 55 -> socket:[41472]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 59 -> /dev/snd/seq
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 60 -> /dev/snd/seq
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> anon_inode:[signalfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> anon_inode:[signalfd]

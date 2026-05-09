@@ -1,0 +1,17 @@
+total 0
+dr-x------ 2 administrator administrator 14 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[29641]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> socket:[34845]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> socket:[31022]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> socket:[31023]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> socket:[31024]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[29641]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 3 -> socket:[30308]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[30831]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 9 -> /memfd:wayland-cursor (deleted)

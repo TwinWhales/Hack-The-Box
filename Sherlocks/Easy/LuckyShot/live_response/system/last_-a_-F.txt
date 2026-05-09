@@ -1,0 +1,12 @@
+administ tty2         Tue Feb 11 09:34:06 2025   still logged in                       tty2
+administ seat0        Tue Feb 11 09:34:06 2025   still logged in                       login screen
+reboot   system boot  Tue Feb 11 09:32:43 2025   still running                         6.8.0-52-generic
+administ pts/1        Mon Feb 10 19:41:10 2025 - crash                     (13:51)     192.168.161.198
+administ tty2         Sun Feb  9 20:55:54 2025 - crash                    (1+12:36)    tty2
+administ seat0        Sun Feb  9 20:55:54 2025 - crash                    (1+12:36)    login screen
+reboot   system boot  Sun Feb  9 20:54:56 2025   still running                         6.8.0-52-generic
+administ tty2         Sun Feb  9 20:49:32 2025 - down                      (00:05)     tty2
+administ seat0        Sun Feb  9 20:49:31 2025 - down                      (00:05)     login screen
+reboot   system boot  Sun Feb  9 20:48:42 2025 - Sun Feb  9 20:54:37 2025  (00:05)     6.8.0-52-generic
+
+wtmp begins Sun Feb  9 20:48:42 2025

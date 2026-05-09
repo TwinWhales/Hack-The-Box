@@ -1,0 +1,32 @@
+total 0
+dr-x------ 2 administrator administrator 29 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:36 ..
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 1 -> socket:[41294]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 10 -> /home/administrator/.local/share/nautilus/tags/meta.db-shm
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 11 -> /home/administrator/.local/share/nautilus/tags/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 12 -> socket:[42190]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 13 -> socket:[41305]
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 14 -> /home/administrator/.local/share/gvfs-metadata/home
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 15 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 16 -> /memfd:wayland-cursor (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 17 -> /memfd:mutter-shared (deleted)
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 18 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 19 -> socket:[41378]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 2 -> socket:[41295]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 20 -> socket:[41306]
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 21 -> /home/administrator/.local/share/gvfs-metadata/home-93103946.log
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 23 -> /proc/5361/mountinfo
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 24 -> socket:[42222]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 25 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 26 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 27 -> /dev/dri/renderD128
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 28 -> socket:[41312]
+lr-x------ 1 administrator administrator 64 Feb 11 09:38 29 -> /home/administrator/Downloads
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 5 -> socket:[42188]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 7 -> socket:[42189]
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 8 -> /home/administrator/.local/share/nautilus/tags/meta.db
+lrwx------ 1 administrator administrator 64 Feb 11 09:38 9 -> /home/administrator/.local/share/nautilus/tags/meta.db-wal

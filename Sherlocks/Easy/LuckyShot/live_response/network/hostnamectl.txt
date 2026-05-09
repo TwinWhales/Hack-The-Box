@@ -1,0 +1,14 @@
+ Static hostname: LuckyShot
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 922af4924e3440909f79e1c37c0ec990
+         Boot ID: 987d66e30750446887e826516eca832e
+  Virtualization: vmware
+Operating System: Ubuntu 24.04.1 LTS
+          Kernel: Linux 6.8.0-52-generic
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Thu 2020-11-12
+    Firmware Age: 4y 3month

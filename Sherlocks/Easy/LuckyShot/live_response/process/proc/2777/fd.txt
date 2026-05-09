@@ -1,0 +1,41 @@
+total 0
+dr-x------ 2 administrator administrator 38 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[28796]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> socket:[28856]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 15 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 16 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> socket:[28936]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 19 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[28796]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 20 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 21 -> socket:[28938]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 22 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 23 -> socket:[28949]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 24 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 25 -> socket:[28959]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 26 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 27 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 28 -> socket:[28992]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 29 -> socket:[28992]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 30 -> socket:[28992]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 31 -> socket:[28999]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 32 -> anon_inode:[timerfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 33 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 34 -> socket:[29011]
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 35 -> anon_inode:inotify
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 37 -> /dev/snd/controlC0
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 39 -> socket:[28141]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[eventpoll]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> anon_inode:[eventfd]

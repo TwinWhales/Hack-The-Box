@@ -1,0 +1,38 @@
+5c348f819000-5c348f81b000 r--p 00000000 08:02 537267                     /usr/bin/vmware-vmblock-fuse
+5c348f81b000-5c348f81d000 r-xp 00002000 08:02 537267                     /usr/bin/vmware-vmblock-fuse
+5c348f81d000-5c348f81e000 r--p 00004000 08:02 537267                     /usr/bin/vmware-vmblock-fuse
+5c348f81e000-5c348f81f000 r--p 00004000 08:02 537267                     /usr/bin/vmware-vmblock-fuse
+5c348f81f000-5c348f820000 rw-p 00005000 08:02 537267                     /usr/bin/vmware-vmblock-fuse
+5c34c4dc6000-5c34c4de7000 rw-p 00000000 00:00 0                          [heap]
+7cec2c000000-7cec2c021000 rw-p 00000000 00:00 0 
+7cec2c021000-7cec30000000 ---p 00000000 00:00 0 
+7cec34000000-7cec34021000 rw-p 00000000 00:00 0 
+7cec34021000-7cec38000000 ---p 00000000 00:00 0 
+7cec3a800000-7cec3a801000 ---p 00000000 00:00 0 
+7cec3a801000-7cec3b001000 rw-p 00000000 00:00 0 
+7cec3b0fe000-7cec3b200000 rw-p 00000000 00:00 0 
+7cec3b200000-7cec3b201000 ---p 00000000 00:00 0 
+7cec3b201000-7cec3ba01000 rw-p 00000000 00:00 0 
+7cec3bafe000-7cec3bc00000 rw-p 00000000 00:00 0 
+7cec3bc00000-7cec3bc28000 r--p 00000000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7cec3bc28000-7cec3bdb0000 r-xp 00028000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7cec3bdb0000-7cec3bdff000 r--p 001b0000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7cec3bdff000-7cec3be03000 r--p 001fe000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7cec3be03000-7cec3be05000 rw-p 00202000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+7cec3be05000-7cec3be12000 rw-p 00000000 00:00 0 
+7cec3be47000-7cec3be4a000 rw-p 00000000 00:00 0 
+7cec3be4a000-7cec3be51000 r--p 00000000 08:02 535810                     /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+7cec3be51000-7cec3be6e000 r-xp 00007000 08:02 535810                     /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+7cec3be6e000-7cec3be77000 r--p 00024000 08:02 535810                     /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+7cec3be77000-7cec3be89000 r--p 0002c000 08:02 535810                     /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+7cec3be89000-7cec3be8a000 rw-p 0003e000 08:02 535810                     /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+7cec3be99000-7cec3be9c000 rw-p 00000000 00:00 0 
+7cec3be9c000-7cec3be9d000 r--p 00000000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7cec3be9d000-7cec3bec8000 r-xp 00001000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7cec3bec8000-7cec3bed2000 r--p 0002c000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7cec3bed2000-7cec3bed4000 r--p 00036000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7cec3bed4000-7cec3bed6000 rw-p 00038000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffca03ac000-7ffca03cd000 rw-p 00000000 00:00 0                          [stack]
+7ffca03e7000-7ffca03eb000 r--p 00000000 00:00 0                          [vvar]
+7ffca03eb000-7ffca03ed000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

@@ -1,0 +1,9 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+GDM_SESSION_DBUS_ADDRESS=unix:path=/run/gdm3/dbus/dbus-2piJOJUp
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/gdm.service/memory.pressure
+SYSTEMD_EXEC_PID=1591
+INVOCATION_ID=08eab7df279743bcb09bec2d5a638bdf
+LANG=en_US.UTF-8
+JOURNAL_STREAM=8:22865
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

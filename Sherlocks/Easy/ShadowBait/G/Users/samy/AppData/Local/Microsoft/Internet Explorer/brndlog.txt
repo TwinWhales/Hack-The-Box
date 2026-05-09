@@ -1,0 +1,142 @@
+06/04/2025 04:27:27 Checking for existence of Branding Active Setup stub...
+06/04/2025 04:27:27 InternetExplorerBrandGUID didn't exist: Branding component not installed
+06/04/2025 04:27:27 Inf Version is set to "11,00,19041,1".
+06/04/2025 04:27:27 HKCU Active Setup Key not found.
+
+06/04/2025 04:27:27     COM initialized with S_FALSE success code.
+
+06/04/2025 04:27:27 Branding Internet Explorer...
+06/04/2025 04:27:27 Command line is "/mode:isp /peruser".
+
+06/04/2025 04:27:27 Global branding settings are:
+06/04/2025 04:27:27     Context is (0x01C00008) "Internet Content Providers, running from per-user stub";
+06/04/2025 04:27:27     Settings file is        "C:\Program Files (x86)\Internet Explorer\Signup\install.ins";
+06/04/2025 04:27:27     Target folder path is   "C:\Program Files (x86)\Internet Explorer\Signup".
+06/04/2025 04:27:27 Done.
+
+06/04/2025 04:27:27     About to clear previous branding...
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing migration of old settings...
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing wininet setup...
+06/04/2025 04:27:27     There are no connection settings to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing deletion of connection settings...
+06/04/2025 04:27:27     Existing connection settings weren't specified to be deleted!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing zones HKCU settings...
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing local machine policies and restrictions...
+06/04/2025 04:27:27     There are no local machine *.inf files to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing current user policies and restrictions...
+06/04/2025 04:27:27     There are no current user *.inf files to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing legacy policies and restrictions...
+06/04/2025 04:27:27         There are no local machine *.inf files to process!
+06/04/2025 04:27:27         There are no current user *.inf files to process!
+06/04/2025 04:27:27     There are no legacy *.inf files to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing general customizations...
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing Help->About customization...
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing browser toolbar buttons...
+06/04/2025 04:27:27     There are no toolbar buttons to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing root certificates...
+06/04/2025 04:27:27     This feature is for ISPs only!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing default favorites and/or quick links...
+06/04/2025 04:27:27     Creating separate thread for processing default favorites...
+
+06/04/2025 04:27:27     COM initialized with S_OK success code.
+06/04/2025 04:27:27         Determining favorites attributes...
+06/04/2025 04:27:27             <Favorites> folder location is "C:\Users\samy\Favorites".
+06/04/2025 04:27:27         marked as Low Integrity,
+06/04/2025 04:27:27         Title     - "Bing",
+06/04/2025 04:27:27         URL       - "http://go.microsoft.com/fwlink/p/?LinkId=255142",
+06/04/2025 04:27:27         Icon file - "%ProgramFiles%\Internet Explorer\Images\bing.ico",
+06/04/2025 04:27:27         not marked IEAK created,
+06/04/2025 04:27:27         Done.
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing deletion of favorites and/or quick links...
+06/04/2025 04:27:27     None of the favorites folders were specified to be deleted!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing favorites...
+06/04/2025 04:27:27     There are no favorites to add!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing ordering of favorites...
+06/04/2025 04:27:27     Favorites will be put into the default position!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing quick links...
+06/04/2025 04:27:27     There are no quick links to add!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing ordering of quick links...
+06/04/2025 04:27:27     Quick Links will be put into the default position!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing connection settings...
+06/04/2025 04:27:27     There are no connection settings to process!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Processing TrustedPublisherLockdown restriction...
+06/04/2025 04:27:27     This restriction is not set!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Creating feeds...
+06/04/2025 04:27:27 Processing [Feeds] section...
+
+06/04/2025 04:27:27 Processing [FavoritesBar] section for Feeds...
+
+06/04/2025 04:27:27 Processing [FavoritesBar] section for WebSlices...
+
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Creating start pages...
+06/04/2025 04:27:27     There are no start pages to add!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Creating search providers...
+06/04/2025 04:27:27     There are no search providers to add!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Installing Activities...
+06/04/2025 04:27:27     There are no Actitivies to Install!
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Installing Unattend Favorite bar items...
+06/04/2025 04:27:27 Cannot Open Registry Key HKCU\SOFTWARE\Microsoft\Internet Explorer\AppliedUnattend [error=2]. It probably doesn't exist. Not an error.
+06/04/2025 04:27:27 ProcessUnattendFavBarItems processing favbaritems from location: SOFTWARE\Microsoft\Internet Explorer\UnattendBackup\ActiveSetup\FavoriteBarItems
+06/04/2025 04:27:27 No subkeys found.
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Installing Unattend Activites...
+06/04/2025 04:27:27 Cannot Open Registry Key HKCU\SOFTWARE\Microsoft\Internet Explorer\AppliedUnattend [error=2]. It probably doesn't exist. Not an error.
+06/04/2025 04:27:27 ProcessUnattendActivities processing activities from location: SOFTWARE\Microsoft\Internet Explorer\UnattendBackup\ActiveSetup\Accelerators
+06/04/2025 04:27:27 No subkeys found.
+06/04/2025 04:27:27     Done.
+
+06/04/2025 04:27:27     Refreshing browser settings...
+06/04/2025 04:27:27     Posted update request to the hidden browser window!
+06/04/2025 04:27:27     Broadcasting "Windows settings change" to all top level windows...
+06/04/2025 04:27:27     Done.
+06/04/2025 04:27:27 Done.
+06/04/2025 04:27:27 Done.

@@ -1,0 +1,12 @@
+total 0
+dr-x------ 2 gnome-remote-desktop gnome-remote-desktop  9 Feb 11 09:32 .
+dr-xr-xr-x 9 gnome-remote-desktop gnome-remote-desktop  0 Feb 11 09:32 ..
+lr-x------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:32 1 -> socket:[19200]
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:32 2 -> socket:[19200]
+lr-x------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:32 3 -> anon_inode:inotify
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:32 4 -> anon_inode:[eventfd]
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:35 6 -> socket:[19340]
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:35 7 -> socket:[19351]
+lrwx------ 1 gnome-remote-desktop gnome-remote-desktop 64 Feb 11 09:35 8 -> anon_inode:[eventfd]

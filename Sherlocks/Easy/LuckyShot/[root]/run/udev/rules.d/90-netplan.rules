@@ -1,0 +1,2 @@
+# netplan: network.ethernets.ens33 (on NetworkManager allow-list)
+SUBSYSTEM=="net", ACTION=="add|change|move", ENV{ID_NET_NAME}=="ens33", ENV{NM_UNMANAGED}="0"

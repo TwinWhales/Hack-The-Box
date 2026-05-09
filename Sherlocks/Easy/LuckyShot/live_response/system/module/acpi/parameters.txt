@@ -1,0 +1,21 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-r--r--r-- 1 root root 4096 Feb 11 09:50 acpica_version
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 aml_debug_output
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 debug_layer
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 debug_level
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_busy_polling
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_delay
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_event_clearing
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_freeze_events
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_max_queries
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_no_wakeup
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_polling_guard
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 ec_storm_threshold
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 immediate_undock
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 sleep_no_lps0
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 trace_debug_layer
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 trace_debug_level
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 trace_method_name
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 trace_state

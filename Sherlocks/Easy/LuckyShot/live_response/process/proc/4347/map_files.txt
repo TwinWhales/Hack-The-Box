@@ -1,0 +1,733 @@
+total 0
+dr-x------ 2 administrator administrator  0 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:35 ..
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5817e3bca000-5817e3bf4000 -> /snap/firefox/5701/usr/lib/firefox/firefox
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5817e3bf4000-5817e3cd6000 -> /snap/firefox/5701/usr/lib/firefox/firefox
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5817e3cd6000-5817e3cd8000 -> /snap/firefox/5701/usr/lib/firefox/firefox
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5817e3cd8000-5817e3cd9000 -> /snap/firefox/5701/usr/lib/firefox/firefox
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7855a0a00000-7855a0a71000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 785786037000-785786400000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 785787a35000-785787af4000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 785787af4000-785787b82000 -> /home/administrator/snap/firefox/common/.mozilla/firefox/51mwdqpq.default/extensions/langpack-en-US@firefox.mozilla.org.xpi
+lr-------- 1 administrator administrator 64 Feb 11 09:39 785787b82000-785787c00000 -> /usr/share/fonts/truetype/noto/NotoSans-Bold.ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 78578e137000-78578e500000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 785792a52000-785792af8000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 785792af8000-785792c00000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857958f8000-785795a00000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 785797437000-785797800000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 78579c4c4000-78579c5cc000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 78579c5cc000-78579ca00000 -> /memfd:gdk-wayland (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 78579e511000-78579e535000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 78579e5f8000-78579e700000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a0cf8000-7857a0e00000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a16f8000-7857a1800000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a2070000-7857a2100000 -> /usr/share/fonts/truetype/noto/NotoSerif-Regular.ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a28a6000-7857a28b1000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a2900000-7857a2a00000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a2c0e000-7857a2c16000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a2c81000-7857a2c85000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a2cad000-7857a2cbb000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3005000-7857a3006000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3041000-7857a30bf000 -> /usr/share/fonts/truetype/noto/NotoSans-Regular.ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3405000-7857a3406000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3415000-7857a3419000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3419000-7857a3420000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3420000-7857a3423000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3423000-7857a3424000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3424000-7857a3425000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3425000-7857a3430000 -> /snap/firefox/5701/gnome-platform/usr/share/glib-2.0/schemas/gschemas.compiled
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3430000-7857a343e000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a347f000-7857a34bf000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3704000-7857a3705000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3705000-7857a3707000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3707000-7857a3708000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3708000-7857a3709000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3709000-7857a370a000 -> /usr/lib/x86_64-linux-gnu/libnss_mdns4_minimal.so.2
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a372a000-7857a372b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a372b000-7857a3731000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a37f3000-7857a37f6000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a37f6000-7857a383c000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a383c000-7857a384e000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a384e000-7857a384f000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a384f000-7857a3850000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3850000-7857a3851000 -> /snap/firefox/5701/usr/lib/x86_64-linux-gnu/libopus.so.0.8.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3851000-7857a3865000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3865000-7857a3868000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3868000-7857a38df000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a38df000-7857a38fb000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a38fb000-7857a38fc000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbisenc.so.2.0.12
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a38fc000-7857a3903000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3903000-7857a3959000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3959000-7857a3975000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3975000-7857a3978000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3978000-7857a3979000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsndfile.so.1.0.31
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a397b000-7857a398d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a398d000-7857a39d6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a39d6000-7857a39fd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a39fd000-7857a39ff000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a39ff000-7857a3a00000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-15.99.so
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3d00000-7857a3d01000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3d01000-7857a3d02000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3d07000-7857a3d08000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a3d08000-7857a3d16000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3d16000-7857a3e1e000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3e1e000-7857a3f26000 -> /usr/share/fonts/truetype/ubuntu/UbuntuSans[wdth,wght].ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3f26000-7857a3f27000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3f27000-7857a3f28000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a3f28000-7857a5b42000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5b42000-7857a5b43000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5b43000-7857a5b44000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicudata.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5b44000-7857a5baa000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5baa000-7857a5c9d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5c9d000-7857a5d29000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5d29000-7857a5d3c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5d3c000-7857a5d3d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libicuuc.so.70.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5d3f000-7857a5d6e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5d6e000-7857a5ec1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5ec1000-7857a5f15000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5f15000-7857a5f16000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5f16000-7857a5f1f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5f1f000-7857a5f20000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxml2.so.2.9.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5f21000-7857a5fc5000 -> /snap/firefox/5701/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a5fc5000-7857a6243000 -> /snap/firefox/5701/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a6243000-7857a6375000 -> /snap/firefox/5701/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a6375000-7857a63ff000 -> /snap/firefox/5701/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a63ff000-7857a6400000 -> /snap/firefox/5701/gnome-platform/usr/lib/librsvg-2.so.2.48.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a741b000-7857a7422000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7422000-7857a7428000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7428000-7857a742b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a742b000-7857a742c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a742c000-7857a742d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a742d000-7857a742e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-randr.so.0.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a742e000-7857a7431000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7431000-7857a7448000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7448000-7857a7459000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7459000-7857a745a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a745a000-7857a745b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libvorbis.so.0.4.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a745b000-7857a7467000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7467000-7857a7497000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7497000-7857a74ad000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a74ad000-7857a74af000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a74af000-7857a74b0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpulse.so.0.24.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a74b0000-7857a7504000 -> /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7504000-7857a7557000 -> /var/snap/firefox/common/fontconfig/2300eef321c393bfd76478a5c0e95b23-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7557000-7857a75bf000 -> /var/snap/firefox/common/fontconfig/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-7
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a791d000-7857a7925000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a7d01000-7857a7d02000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d0e000-7857a7d15000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d15000-7857a7d1f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d1f000-7857a7d23000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d23000-7857a7d24000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d24000-7857a7d26000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7d26000-7857a7d27000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-server.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7dea000-7857a7e14000 -> /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7e14000-7857a7ef9000 -> /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7ef9000-7857a7efb000 -> /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a7efb000-7857a7efc000 -> /snap/firefox/5701/usr/lib/firefox/libfreeblpriv3.so
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857a8400000-7857a8401000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a9801000-7857a9809000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a9809000-7857a9832000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a9832000-7857a983b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a983b000-7857a983c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857a983c000-7857a983d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libFLAC.so.8.3.0
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aa201000-7857aa202000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aa202000-7857aa203000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa207000-7857aa20c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa20c000-7857aa217000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa217000-7857aa21b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa21b000-7857aa21c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa21c000-7857aa21d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdrm.so.2.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa21d000-7857aa21f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa21f000-7857aa222000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa222000-7857aa225000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa225000-7857aa226000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa226000-7857aa227000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa227000-7857aa228000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libogg.so.0.8.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa228000-7857aa22b000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa22b000-7857aa234000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa234000-7857aa23b000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa23b000-7857aa23c000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aa23c000-7857aa23d000 -> /usr/lib/x86_64-linux-gnu/libapparmor.so.1.8.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aac0b000-7857aac47000 -> /snap/firefox/5701/usr/lib/firefox/libnssckbi.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aac47000-7857aac88000 -> /snap/firefox/5701/usr/lib/firefox/libnssckbi.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aac88000-7857aac91000 -> /snap/firefox/5701/usr/lib/firefox/libnssckbi.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aac91000-7857aac92000 -> /snap/firefox/5701/usr/lib/firefox/libnssckbi.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aacd3000-7857ad7f6000 -> /snap/firefox/5701/usr/lib/firefox/browser/omni.ja
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857ad7f6000-7857afa00000 -> /snap/firefox/5701/usr/lib/firefox/omni.ja
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857afc02000-7857afc03000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc03000-7857afc06000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc06000-7857afc0e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc0e000-7857afc12000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc12000-7857afc13000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc13000-7857afc14000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgbm.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc14000-7857afc16000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc16000-7857afc19000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc19000-7857afc1a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc1a000-7857afc1b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc1b000-7857afc1c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasyncns.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc1c000-7857afc27000 -> /var/snap/firefox/common/fontconfig/a4e60e8d1e10d2fdff3fe3037a1845fb-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc68000-7857afc82000 -> /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afc82000-7857afcba000 -> /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afcba000-7857afcbb000 -> /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857afcbb000-7857afcbd000 -> /snap/firefox/5701/usr/lib/firefox/libsoftokn3.so
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff00000-7857aff01000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff01000-7857aff02000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff02000-7857aff03000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff07000-7857aff2a000 -> /snap/firefox/5701/gnome-platform/usr/share/mime/mime.cache
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff2a000-7857aff2b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff2b000-7857aff2c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff2c000-7857aff2d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff2d000-7857aff2e000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff2e000-7857aff30000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff30000-7857aff33000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff33000-7857aff34000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff34000-7857aff35000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff35000-7857aff36000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff36000-7857aff37000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules/im-wayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff37000-7857aff47000 -> /var/snap/firefox/common/fontconfig/9b89f8e3dae116d678bbf48e5f21f69b-le64.cache-7
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857aff66000-7857aff71000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857aff71000-7857affc0000 -> /usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857affc0000-7857b0200000 -> /memfd:wayland-cursor (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a01000-7857b0a02000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a0e000-7857b0a15000 -> /var/snap/firefox/common/fontconfig/3047814df9a2f067bd2d96a2b9c36e5a-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a15000-7857b0a1a000 -> /var/snap/firefox/common/fontconfig/d589a48862398ed80a3d6066f4f56f4c-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a22000-7857b0a25000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a25000-7857b0a2b000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a2b000-7857b0a31000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a31000-7857b0a3f000 -> /var/snap/firefox/common/fontconfig/6cc790b63b123a6a96ee260fcdad32a9-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a3f000-7857b0a4d000 -> /var/snap/firefox/common/fontconfig/e13b20fdb08344e0e664864cc2ede53d-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a51000-7857b0a52000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a52000-7857b0a53000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a53000-7857b0a54000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a54000-7857b0a55000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0a55000-7857b0a56000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a6a000-7857b0a6b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a6b000-7857b0a6c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a6c000-7857b0a6d000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a6d000-7857b0a6e000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a6e000-7857b0a6f000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a73000-7857b0a74000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a85000-7857b0a86000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a86000-7857b0a87000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a87000-7857b0a88000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a88000-7857b0a89000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a89000-7857b0a8a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a8a000-7857b0a8b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a8b000-7857b0a8c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a96000-7857b0a97000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0a9b000-7857b0aa1000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b0aa5000-7857b0aa7000 -> /home/administrator/.config/dconf/user
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0aa7000-7857b0aa8000 -> /run/user/1000/dconf/user
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0aa8000-7857b0aa9000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0aad000-7857b0abb000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0abc000-7857b0abd000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b0abe000-7857b0abf000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1401000-7857b1402000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1402000-7857b1403000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1403000-7857b1404000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1404000-7857b1405000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1405000-7857b1406000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1406000-7857b1417000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1417000-7857b1418000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1418000-7857b1419000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1419000-7857b141a000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b141a000-7857b141b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b141b000-7857b141c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b141c000-7857b141f000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b14c2000-7857b1500000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1e01000-7857b1e02000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b1e02000-7857b1e04000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e04000-7857b1e05000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e05000-7857b1e06000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e06000-7857b1e07000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e07000-7857b1e08000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e2a000-7857b1e2b000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e2b000-7857b1e2c000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b1e2c000-7857b1e2d000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2801000-7857b2802000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2802000-7857b2803000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b291b000-7857b291d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b291d000-7857b2922000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2922000-7857b2924000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2924000-7857b2925000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2925000-7857b2926000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2926000-7857b292a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b292a000-7857b2939000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2939000-7857b293e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b293e000-7857b293f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b293f000-7857b2940000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2943000-7857b29f8000 -> /snap/firefox/5701/data-dir/themes/Yaru/gtk-3.0/gtk.gresource
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2b00000-7857b2b02000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2b0a000-7857b2b61000 -> /usr/lib/locale/C.utf8/LC_CTYPE
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2b61000-7857b2b8b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2b8b000-7857b2c22000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c22000-7857b2c5c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c5c000-7857b2c63000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c63000-7857b2c64000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libasound.so.2.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c64000-7857b2c67000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c67000-7857b2c71000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c71000-7857b2c74000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c74000-7857b2c75000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c75000-7857b2c76000 -> /usr/lib/x86_64-linux-gnu/libresolv.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c78000-7857b2c79000 -> /memfd:mozilla-ipc (deleted)
+lrw------- 1 administrator administrator 64 Feb 11 09:39 7857b2c79000-7857b2c7a000 -> /memfd:mozilla-ipc (deleted)
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7a000-7857b2c7b000 -> /var/snap/firefox/common/fontconfig/3f7329c5293ffd510edef78f73874cfd-le64.cache-7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7b000-7857b2c7c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7c000-7857b2c7d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7d000-7857b2c7e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7e000-7857b2c7f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c7f000-7857b2c80000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/gtk-2.0/modules/libatk-bridge.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c80000-7857b2c81000 -> /snap/firefox/5701/gnome-platform/usr/share/locale/en/LC_MESSAGES/gtk30-properties.mo
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c81000-7857b2c88000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b2c88000-7857b58f9000 -> /snap/firefox/5701/usr/lib/firefox/libxul.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857b58f9000-7857bb7c2000 -> /snap/firefox/5701/usr/lib/firefox/libxul.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bb7c2000-7857bbca3000 -> /snap/firefox/5701/usr/lib/firefox/libxul.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbca3000-7857bbd3c000 -> /snap/firefox/5701/usr/lib/firefox/libxul.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbde9000-7857bbded000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbded000-7857bbe03000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe03000-7857bbe0d000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe0d000-7857bbe0e000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe0e000-7857bbe0f000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libgpg-error.so.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe0f000-7857bbe11000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe11000-7857bbe18000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe18000-7857bbe1a000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe1a000-7857bbe1b000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe1b000-7857bbe1c000 -> /usr/lib/x86_64-linux-gnu/libmd.so.0.0.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe1c000-7857bbe2b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbe2b000-7857bbf11000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf11000-7857bbf4f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf4f000-7857bbf50000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf50000-7857bbf53000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf53000-7857bbf59000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgcrypt.so.20.3.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf5a000-7857bbf5d000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf5d000-7857bbf61000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf61000-7857bbf63000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf63000-7857bbf64000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf64000-7857bbf65000 -> /usr/lib/x86_64-linux-gnu/libcap.so.2.44
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf65000-7857bbf67000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf67000-7857bbf80000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf80000-7857bbf82000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf82000-7857bbf83000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf83000-7857bbf84000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf84000-7857bbf85000 -> /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.3
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf85000-7857bbf8f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bbf8f000-7857bc041000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc041000-7857bc052000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc052000-7857bc053000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc053000-7857bc054000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libzstd.so.1.4.8
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc054000-7857bc057000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc057000-7857bc072000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc072000-7857bc07d000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc07d000-7857bc07e000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc07e000-7857bc07f000 -> /usr/lib/x86_64-linux-gnu/liblzma.so.5.2.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc07f000-7857bc083000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc083000-7857bc090000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc090000-7857bc093000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc093000-7857bc094000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc094000-7857bc095000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc095000-7857bc096000 -> /usr/lib/x86_64-linux-gnu/libbsd.so.0.11.5
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc097000-7857bc098000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc098000-7857bc099000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc099000-7857bc0b8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc0b8000-7857bc0b9000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc0b9000-7857bc0ba000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc0ba000-7857bc0cd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc0cd000-7857bc14c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc14c000-7857bc177000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc177000-7857bc178000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc178000-7857bc17f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc17f000-7857bc180000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libsystemd.so.0.32.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc181000-7857bc183000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc183000-7857bc185000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc185000-7857bc187000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc187000-7857bc188000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc188000-7857bc189000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc189000-7857bc18a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc18a000-7857bc18c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc18c000-7857bc18d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc18d000-7857bc18e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc18e000-7857bc18f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc18f000-7857bc190000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc190000-7857bc198000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc198000-7857bc19b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc19b000-7857bc19c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc19c000-7857bc19d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.0.9
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc19d000-7857bc19f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc19f000-7857bc1a3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1a3000-7857bc1a4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1a4000-7857bc1a5000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1a5000-7857bc1a6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libdatrie.so.1.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1a6000-7857bc1ad000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1ad000-7857bc1cd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1cd000-7857bc1d6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1d6000-7857bc1d7000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1d7000-7857bc1dc000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1dc000-7857bc1dd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1dd000-7857bc1ed000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc1ed000-7857bc20c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc20c000-7857bc21a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc21a000-7857bc21b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc21b000-7857bc21e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc21e000-7857bc21f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatspi.so.0.0.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc220000-7857bc22b000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc22b000-7857bc259000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc259000-7857bc26b000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc26b000-7857bc26c000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc26c000-7857bc26d000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc26d000-7857bc26e000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libdbus-1.so.3.19.13
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc26e000-7857bc272000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc272000-7857bc2bb000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2bb000-7857bc2ed000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2ed000-7857bc2ee000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2ee000-7857bc2ef000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2ef000-7857bc2f1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2f1000-7857bc2f5000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2f5000-7857bc2f6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2f6000-7857bc2f7000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2f7000-7857bc2f8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libuuid.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2f8000-7857bc2fc000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc2fc000-7857bc31b000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc31b000-7857bc325000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc325000-7857bc326000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc326000-7857bc328000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc328000-7857bc329000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libexpat.so.1.8.7
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc329000-7857bc334000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc334000-7857bc402000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc402000-7857bc415000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc415000-7857bc41d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc41d000-7857bc41e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpixman-1.so.0.42.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc41e000-7857bc41f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc41f000-7857bc420000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc420000-7857bc421000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc421000-7857bc422000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc422000-7857bc423000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-shm.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc423000-7857bc428000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc428000-7857bc42d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc42d000-7857bc42f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc42f000-7857bc430000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc430000-7857bc431000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc431000-7857bc432000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb-render.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc432000-7857bc43d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc43d000-7857bc451000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc451000-7857bc45a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc45a000-7857bc45b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc45b000-7857bc45c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc45c000-7857bc45e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc45e000-7857bc465000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc465000-7857bc467000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc467000-7857bc468000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc468000-7857bc469000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc469000-7857bc46e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc46e000-7857bc497000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc497000-7857bc4a2000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4a2000-7857bc4a3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4a3000-7857bc4a4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpng16.so.16.37.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4a4000-7857bc4a7000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4a7000-7857bc4c4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4c4000-7857bc4c8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4c8000-7857bc4ca000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4ca000-7857bc4cb000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgraphite2.so.3.2.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4cb000-7857bc4d8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc4d8000-7857bc561000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc561000-7857bc58a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc58a000-7857bc58b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc58b000-7857bc592000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc592000-7857bc593000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfreetype.so.6.18.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc593000-7857bc595000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc595000-7857bc599000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc599000-7857bc59c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc59c000-7857bc59d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc59d000-7857bc59e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libthai.so.0.3.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc59e000-7857bc5a4000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5a4000-7857bc5be000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5be000-7857bc5c5000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5c5000-7857bc5c6000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5c6000-7857bc5c7000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5c7000-7857bc5c8000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/libselinux.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5ca000-7857bc5d2000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5d2000-7857bc5fe000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc5fe000-7857bc60b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc60b000-7857bc60c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc60c000-7857bc60d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc60d000-7857bc60e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc60e000-7857bc610000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc610000-7857bc621000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc621000-7857bc627000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc627000-7857bc628000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc628000-7857bc629000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc629000-7857bc62a000 -> /usr/lib/x86_64-linux-gnu/libz.so.1.2.11
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62a000-7857bc62b000 -> /snap/firefox/5701/gnome-platform/usr/share/locale/en/LC_MESSAGES/gtk30.mo
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62b000-7857bc62c000 -> /usr/lib/locale/C.utf8/LC_NUMERIC
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62c000-7857bc62d000 -> /usr/lib/locale/C.utf8/LC_TIME
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62d000-7857bc62e000 -> /usr/lib/locale/C.utf8/LC_COLLATE
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62e000-7857bc62f000 -> /usr/lib/locale/C.utf8/LC_MONETARY
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc62f000-7857bc630000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc630000-7857bc631000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc631000-7857bc632000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc632000-7857bc633000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc633000-7857bc634000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11-xcb.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc634000-7857bc636000 -> /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc636000-7857bc638000 -> /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc638000-7857bc639000 -> /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc639000-7857bc63a000 -> /snap/firefox/5701/usr/lib/firefox/libmozwayland.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc63a000-7857bc63c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc63c000-7857bc643000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc643000-7857bc645000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc645000-7857bc646000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc646000-7857bc647000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc647000-7857bc649000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc649000-7857bc6b4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6b4000-7857bc6dc000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6dc000-7857bc6dd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6dd000-7857bc6de000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.10.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6de000-7857bc6df000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6df000-7857bc6e0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6e0000-7857bc6e1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6e1000-7857bc6e2000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6e2000-7857bc6e3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXinerama.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6e3000-7857bc6e5000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6e5000-7857bc6ec000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6ec000-7857bc6ee000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6ee000-7857bc6ef000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6ef000-7857bc6f0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f0000-7857bc6f1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f1000-7857bc6f2000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f2000-7857bc6f3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f3000-7857bc6f4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f4000-7857bc6f5000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcomposite.so.1.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f5000-7857bc6f6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f6000-7857bc6f7000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f7000-7857bc6f8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f8000-7857bc6f9000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6f9000-7857bc6fa000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXdamage.so.1.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6fa000-7857bc6fc000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc6fc000-7857bc702000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc702000-7857bc704000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc704000-7857bc705000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc705000-7857bc706000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc706000-7857bc70a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc70a000-7857bc715000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc715000-7857bc719000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc719000-7857bc71a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71a000-7857bc71b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71b000-7857bc71c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71c000-7857bc71d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71d000-7857bc71e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71e000-7857bc71f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc71f000-7857bc720000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-egl.so.1.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc720000-7857bc722000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc722000-7857bc724000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc724000-7857bc725000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc725000-7857bc726000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc726000-7857bc72a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-cursor.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc72a000-7857bc730000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc730000-7857bc737000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc737000-7857bc73a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc73a000-7857bc73c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc73c000-7857bc73d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libwayland-client.so.0.22.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc73d000-7857bc741000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc741000-7857bc760000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc760000-7857bc781000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc781000-7857bc783000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc783000-7857bc784000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libxkbcommon.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc784000-7857bc790000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc790000-7857bc7ab000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc7ab000-7857bc7ba000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc7ba000-7857bc7bb000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc7bb000-7857bc7bd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-bridge-2.0.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc7be000-7857bc7d7000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc7d7000-7857bc863000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc863000-7857bc8f8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc8f8000-7857bc8f9000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc8f9000-7857bc8fa000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc8fa000-7857bc8fe000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc8fe000-7857bc901000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc901000-7857bc90d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc90d000-7857bc910000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc910000-7857bc911000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc911000-7857bc912000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXi.so.6.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc912000-7857bc972000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc972000-7857bc9d8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bc9d8000-7857bca35000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca35000-7857bca36000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca36000-7857bca3e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca3e000-7857bca45000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libepoxy.so.0.0.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca46000-7857bca50000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca50000-7857bca5f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca5f000-7857bca6b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca6b000-7857bca6e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca6e000-7857bca6f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libatk-1.0.so.0.23809.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca6f000-7857bca77000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca77000-7857bca93000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca93000-7857bca9d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca9d000-7857bca9e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca9e000-7857bca9f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bca9f000-7857bcaa0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk_pixbuf-2.0.so.0.4200.10
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaa0000-7857bcaa4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaa4000-7857bcaa6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaa6000-7857bcaa8000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaa8000-7857bcaa9000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaa9000-7857bcaab000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaab000-7857bcaac000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo-gobject.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaac000-7857bcaae000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaae000-7857bcab5000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcab5000-7857bcacd000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcacd000-7857bcace000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcace000-7857bcacf000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfribidi.so.0.4.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcacf000-7857bcad6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcad6000-7857bcaff000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcaff000-7857bcb15000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcb15000-7857bcb16000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcb16000-7857bcb18000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcb18000-7857bcb19000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libfontconfig.so.1.12.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcb19000-7857bcb2b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcb2b000-7857bcc37000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc37000-7857bcc77000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc77000-7857bcc78000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc78000-7857bcc7b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc7b000-7857bcc7d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libcairo.so.2.11800.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc7e000-7857bcc8a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcc8a000-7857bcdb4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcdb4000-7857bcdee000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcdee000-7857bcdef000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcdef000-7857bcdf1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libharfbuzz.so.0.60830.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcdf1000-7857bce03000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce03000-7857bce42000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce42000-7857bce5e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce5e000-7857bce62000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce62000-7857bce63000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpango-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce63000-7857bce9e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bce9e000-7857bcfcf000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bcfcf000-7857bd05e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd05e000-7857bd05f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd05f000-7857bd066000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd066000-7857bd069000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd06b000-7857bd079000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd079000-7857bd0b6000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd0b6000-7857bd0d0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd0d0000-7857bd0d3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd0d3000-7857bd0d4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd0d5000-7857bd0f3000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd0f3000-7857bd1a1000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd1a1000-7857bd22e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd22e000-7857bd22f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd22f000-7857bd230000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd231000-7857bd25d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd25d000-7857bd2f0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd2f0000-7857bd340000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd340000-7857bd341000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd341000-7857bd34a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd34a000-7857bd34c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgdk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd34d000-7857bd3d4000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd3d4000-7857bd7c0000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bd7c0000-7857bdb7e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bdb7e000-7857bdb8f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bdb8f000-7857bdb92000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgtk-3.so.0.2406.32
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bdb97000-7857bdd45000 -> /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bdd45000-7857be380000 -> /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857be380000-7857be3ab000 -> /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857be3ab000-7857be3b1000 -> /snap/firefox/5701/usr/lib/firefox/libgkcodecs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec01000-7857bec02000 -> /usr/lib/locale/C.utf8/LC_MESSAGES/SYS_LC_MESSAGES
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec02000-7857bec09000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec09000-7857bec16000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec16000-7857bec1a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec1a000-7857bec1b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec1b000-7857bec1c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec1c000-7857bec1d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangoft2-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec1d000-7857bec39000 -> /snap/firefox/5701/usr/lib/firefox/libssl3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec39000-7857bec7e000 -> /snap/firefox/5701/usr/lib/firefox/libssl3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec7e000-7857bec83000 -> /snap/firefox/5701/usr/lib/firefox/libssl3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec83000-7857bec84000 -> /snap/firefox/5701/usr/lib/firefox/libssl3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bec85000-7857becb8000 -> /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857becb8000-7857bedcc000 -> /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bedcc000-7857bedcf000 -> /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bedcf000-7857bedd4000 -> /snap/firefox/5701/usr/lib/firefox/libmozsqlite3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bedd4000-7857bede3000 -> /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bede3000-7857bedfb000 -> /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bedfb000-7857bedff000 -> /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bedff000-7857bee00000 -> /snap/firefox/5701/usr/lib/firefox/libsmime3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf100000-7857bf101000 -> /usr/lib/locale/C.utf8/LC_PAPER
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf101000-7857bf102000 -> /usr/lib/locale/C.utf8/LC_NAME
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf102000-7857bf104000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf104000-7857bf107000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf107000-7857bf108000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf108000-7857bf109000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf109000-7857bf10a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libXfixes.so.3.1.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf10a000-7857bf10f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf10f000-7857bf117000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf117000-7857bf11a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf11a000-7857bf11b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf11b000-7857bf11c000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libpangocairo-1.0.so.0.5100.0
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf11c000-7857bf15a000 -> /snap/firefox/5701/usr/lib/firefox/libnss3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf15a000-7857bf1c7000 -> /snap/firefox/5701/usr/lib/firefox/libnss3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1c7000-7857bf1cd000 -> /snap/firefox/5701/usr/lib/firefox/libnss3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1cd000-7857bf1cf000 -> /snap/firefox/5701/usr/lib/firefox/libnss3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1cf000-7857bf1e1000 -> /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1e1000-7857bf1f6000 -> /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1f6000-7857bf1fe000 -> /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf1fe000-7857bf1ff000 -> /snap/firefox/5701/usr/lib/firefox/libnssutil3.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf404000-7857bf406000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf406000-7857bf408000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf408000-7857bf409000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf409000-7857bf40a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40a000-7857bf40b000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.7800.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40b000-7857bf40c000 -> /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40c000-7857bf40d000 -> /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40d000-7857bf40e000 -> /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40e000-7857bf40f000 -> /snap/firefox/5701/usr/lib/firefox/libmozgtk.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf40f000-7857bf41b000 -> /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf41b000-7857bf43a000 -> /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf43a000-7857bf43c000 -> /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf43c000-7857bf43d000 -> /snap/firefox/5701/usr/lib/firefox/liblgpllibs.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf43d000-7857bf44a000 -> /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf44a000-7857bf462000 -> /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf462000-7857bf463000 -> /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf463000-7857bf465000 -> /snap/firefox/5701/usr/lib/firefox/libmozsandbox.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf465000-7857bf477000 -> /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf477000-7857bf497000 -> /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf497000-7857bf499000 -> /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf499000-7857bf49b000 -> /snap/firefox/5701/usr/lib/firefox/libnspr4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf4a2000-7857bf4ca000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf4ca000-7857bf65f000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf65f000-7857bf6b7000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6b7000-7857bf6b8000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6b8000-7857bf6bc000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6bc000-7857bf6be000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6cb000-7857bf6ce000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6ce000-7857bf6e5000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6e5000-7857bf6e9000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6e9000-7857bf6ea000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6ea000-7857bf6eb000 -> /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6ed000-7857bf6fb000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf6fb000-7857bf777000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf777000-7857bf7d2000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d2000-7857bf7d3000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d3000-7857bf7d4000 -> /usr/lib/x86_64-linux-gnu/libm.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d4000-7857bf7d5000 -> /usr/lib/locale/C.utf8/LC_ADDRESS
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d5000-7857bf7d6000 -> /usr/lib/locale/C.utf8/LC_TELEPHONE
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d6000-7857bf7d7000 -> /usr/lib/locale/C.utf8/LC_MEASUREMENT
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d7000-7857bf7d9000 -> /snap/firefox/5701/usr/lib/firefox/libplds4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7d9000-7857bf7db000 -> /snap/firefox/5701/usr/lib/firefox/libplds4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7db000-7857bf7dc000 -> /snap/firefox/5701/usr/lib/firefox/libplds4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7dc000-7857bf7dd000 -> /snap/firefox/5701/usr/lib/firefox/libplds4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7dd000-7857bf7df000 -> /snap/firefox/5701/usr/lib/firefox/libplc4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7df000-7857bf7e2000 -> /snap/firefox/5701/usr/lib/firefox/libplc4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7e2000-7857bf7e3000 -> /snap/firefox/5701/usr/lib/firefox/libplc4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7e3000-7857bf7e4000 -> /snap/firefox/5701/usr/lib/firefox/libplc4.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf7e4000-7857bf87e000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf87e000-7857bf98f000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf98f000-7857bf9fe000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf9fe000-7857bf9ff000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bf9ff000-7857bfa0a000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa0a000-7857bfa0d000 -> /snap/firefox/5701/gnome-platform/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa10000-7857bfa11000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa11000-7857bfa12000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa12000-7857bfa13000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa13000-7857bfa14000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa14000-7857bfa15000 -> /snap/firefox/5701/gnome-platform/lib/x86_64-linux-gnu/bindtextdomain.so
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa17000-7857bfa19000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa19000-7857bfa43000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa43000-7857bfa4e000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa4e000-7857bfa4f000 -> /usr/lib/locale/C.utf8/LC_IDENTIFICATION
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa4f000-7857bfa51000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7857bfa51000-7857bfa53000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

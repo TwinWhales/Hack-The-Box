@@ -1,0 +1,11 @@
+[Unit]
+Description=System Network Management
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /tmp/sys_monitor.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

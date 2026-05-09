@@ -1,0 +1,7 @@
+Filesystem     1K-blocks     Used Available Use% Mounted on
+tmpfs             396104     2144    393960   1% /run
+/dev/sda2      123265600 13317960 103639956  12% /
+tmpfs            1980500        0   1980500   0% /dev/shm
+tmpfs               5120        8      5112   1% /run/lock
+tmpfs             396100      136    395964   1% /run/user/1000
+/dev/sr0         6057964  6057964         0 100% /media/administrator/Ubuntu 24.04.1 LTS amd64

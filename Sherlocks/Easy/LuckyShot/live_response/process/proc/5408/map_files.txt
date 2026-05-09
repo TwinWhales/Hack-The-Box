@@ -1,0 +1,25 @@
+total 0
+dr-x------ 2 administrator administrator  0 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:36 ..
+lr-------- 1 administrator administrator 64 Feb 11 09:39 64520ec22000-64520ec52000 -> /usr/bin/bash
+lr-------- 1 administrator administrator 64 Feb 11 09:39 64520ec52000-64520ed41000 -> /usr/bin/bash
+lr-------- 1 administrator administrator 64 Feb 11 09:39 64520ed41000-64520ed76000 -> /usr/bin/bash
+lr-------- 1 administrator administrator 64 Feb 11 09:39 64520ed76000-64520ed7a000 -> /usr/bin/bash
+lr-------- 1 administrator administrator 64 Feb 11 09:39 64520ed7a000-64520ed83000 -> /usr/bin/bash
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3600000-73ecc3b75000 -> /usr/lib/locale/locale-archive
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3c00000-73ecc3c28000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3c28000-73ecc3db0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3db0000-73ecc3dff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3dff000-73ecc3e03000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3e03000-73ecc3e05000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3ed9000-73ecc3ee7000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3ee7000-73ecc3efa000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3efa000-73ecc3f08000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f08000-73ecc3f0c000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f0c000-73ecc3f0d000 -> /usr/lib/x86_64-linux-gnu/libtinfo.so.6.4
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f16000-73ecc3f1d000 -> /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f1f000-73ecc3f20000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f20000-73ecc3f4b000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f4b000-73ecc3f55000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f55000-73ecc3f57000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 73ecc3f57000-73ecc3f59000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

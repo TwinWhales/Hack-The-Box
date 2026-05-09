@@ -1,0 +1,14 @@
+total 0
+dr-x------ 2 root   root   11 Feb 11 09:32 .
+dr-xr-xr-x 9 syslog syslog  0 Feb 11 09:32 ..
+lr-x------ 1 root   root   64 Feb 11 09:32 0 -> /dev/null
+l-wx------ 1 root   root   64 Feb 11 09:32 1 -> /dev/null
+l-wx------ 1 root   root   64 Feb 11 09:35 10 -> /var/log/ufw.log
+lrwx------ 1 root   root   64 Feb 11 09:32 2 -> socket:[19612]
+lrwx------ 1 root   root   64 Feb 11 09:32 3 -> socket:[10957]
+lr-x------ 1 root   root   64 Feb 11 09:32 4 -> /dev/urandom
+lr-x------ 1 root   root   64 Feb 11 09:35 5 -> /proc/kmsg
+lrwx------ 1 root   root   64 Feb 11 09:35 6 -> socket:[19663]
+l-wx------ 1 root   root   64 Feb 11 09:35 7 -> /var/log/syslog
+l-wx------ 1 root   root   64 Feb 11 09:35 8 -> /var/log/kern.log
+l-wx------ 1 root   root   64 Feb 11 09:32 9 -> /var/log/auth.log

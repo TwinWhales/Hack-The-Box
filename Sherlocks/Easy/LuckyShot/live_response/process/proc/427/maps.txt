@@ -1,0 +1,78 @@
+61da0d3d5000-61da0d3ef000 r--p 00000000 08:02 525777                     /usr/bin/udevadm
+61da0d3ef000-61da0d4c2000 r-xp 0001a000 08:02 525777                     /usr/bin/udevadm
+61da0d4c2000-61da0d508000 r--p 000ed000 08:02 525777                     /usr/bin/udevadm
+61da0d508000-61da0d533000 r--p 00133000 08:02 525777                     /usr/bin/udevadm
+61da0d533000-61da0d534000 rw-p 0015e000 08:02 525777                     /usr/bin/udevadm
+61da0d534000-61da0d535000 rw-p 00000000 00:00 0 
+61da428fa000-61da42d96000 rw-p 00000000 00:00 0                          [heap]
+76604cc73000-76604ce00000 r--p 00000000 08:02 952960                     /usr/lib/modules/6.8.0-52-generic/modules.alias.bin
+76604ce00000-76604da30000 r--s 00000000 08:02 535255                     /usr/lib/udev/hwdb.bin
+76604dae8000-76604dc00000 r--p 00000000 08:02 952970                     /usr/lib/modules/6.8.0-52-generic/modules.dep.bin
+76604dc00000-76604dcb3000 r--p 00000000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76604dcb3000-76604dfe6000 r-xp 000b3000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76604dfe6000-76604e0b1000 r--p 003e6000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76604e0b1000-76604e10d000 r--p 004b0000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76604e10d000-76604e110000 rw-p 0050c000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76604e110000-76604e113000 rw-p 00000000 00:00 0 
+76604e126000-76604e200000 r--p 00000000 08:02 952963                     /usr/lib/modules/6.8.0-52-generic/modules.symbols.bin
+76604e200000-76604e228000 r--p 00000000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76604e228000-76604e3b0000 r-xp 00028000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76604e3b0000-76604e3ff000 r--p 001b0000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76604e3ff000-76604e403000 r--p 001fe000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76604e403000-76604e405000 rw-p 00202000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76604e405000-76604e412000 rw-p 00000000 00:00 0 
+76604e458000-76604e45d000 rw-p 00000000 00:00 0 
+76604e45d000-76604e45f000 r--p 00000000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76604e45f000-76604e4cd000 r-xp 00002000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76604e4cd000-76604e4f5000 r--p 00070000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76604e4f5000-76604e4f6000 r--p 00097000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76604e4f6000-76604e4f7000 rw-p 00098000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76604e4f7000-76604e4fa000 r--p 00000000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76604e4fa000-76604e51c000 r-xp 00003000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76604e51c000-76604e527000 r--p 00025000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76604e527000-76604e528000 r--p 00030000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76604e528000-76604e529000 rw-p 00031000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76604e529000-76604e52d000 r--p 00000000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+76604e52d000-76604e5d4000 r-xp 00004000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+76604e5d4000-76604e5e1000 r--p 000ab000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+76604e5e1000-76604e5e2000 r--p 000b7000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+76604e5e2000-76604e5e3000 rw-p 000b8000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+76604e5e3000-76604e5e5000 rw-p 00000000 00:00 0 
+76604e5e5000-76604e5eb000 r--p 00000000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76604e5eb000-76604e608000 r-xp 00006000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76604e608000-76604e60e000 r--p 00023000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76604e60e000-76604e60f000 r--p 00029000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76604e60f000-76604e610000 rw-p 0002a000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+76604e610000-76604e612000 rw-p 00000000 00:00 0 
+76604e612000-76604e615000 r--p 00000000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+76604e615000-76604e61b000 r-xp 00003000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+76604e61b000-76604e61d000 r--p 00009000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+76604e61d000-76604e61e000 r--p 0000b000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+76604e61e000-76604e61f000 rw-p 0000c000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+76604e61f000-76604e623000 r--p 00000000 08:02 535967                     /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.1
+76604e623000-76604e635000 r-xp 00004000 08:02 535967                     /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.1
+76604e635000-76604e639000 r--p 00016000 08:02 535967                     /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.1
+76604e639000-76604e63a000 r--p 0001a000 08:02 535967                     /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.1
+76604e63a000-76604e63b000 rw-p 0001b000 08:02 535967                     /usr/lib/x86_64-linux-gnu/libkmod.so.2.4.1
+76604e63b000-76604e642000 r--p 00000000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76604e642000-76604e666000 r-xp 00007000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76604e666000-76604e66f000 r--p 0002b000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76604e66f000-76604e675000 r--p 00033000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76604e675000-76604e676000 rw-p 00039000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+76604e676000-76604e678000 r--p 00000000 08:02 535624                     /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
+76604e678000-76604e67d000 r-xp 00002000 08:02 535624                     /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
+76604e67d000-76604e67e000 r--p 00007000 08:02 535624                     /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
+76604e67e000-76604e67f000 r--p 00008000 08:02 535624                     /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
+76604e67f000-76604e680000 rw-p 00009000 08:02 535624                     /usr/lib/x86_64-linux-gnu/libacl.so.1.1.2302
+76604e68a000-76604e68d000 r--p 00000000 08:02 952964                     /usr/lib/modules/6.8.0-52-generic/modules.builtin.bin
+76604e68d000-76604e690000 r--p 00000000 08:02 952965                     /usr/lib/modules/6.8.0-52-generic/modules.builtin.alias.bin
+76604e690000-76604e692000 rw-p 00000000 00:00 0 
+76604e692000-76604e693000 r--p 00000000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76604e693000-76604e6be000 r-xp 00001000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76604e6be000-76604e6c8000 r--p 0002c000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76604e6c8000-76604e6ca000 r--p 00036000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76604e6ca000-76604e6cc000 rw-p 00038000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffc1ca89000-7ffc1caaa000 rw-p 00000000 00:00 0                          [stack]
+7ffc1cb34000-7ffc1cb38000 r--p 00000000 00:00 0                          [vvar]
+7ffc1cb38000-7ffc1cb3a000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

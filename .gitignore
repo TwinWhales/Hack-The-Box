@@ -85,3 +85,16 @@ Challenges/Forensic/Easy/TrueSecrets/TrueSecrets.raw
 Sherlocks/Medium/ReliableThreat/.vscode/
 Sherlocks/Medium/ReliableThreat/memdump.dmp
 
+Sherlocks/Easy/LuckyShot/[root]/snap/core22/1748/usr/lib/python3/dist-packages/cloudinit/log/__pycache__/
+Sherlocks/Easy/ShadowBait/G/$LogFile
+Sherlocks/Easy/ShadowBait/G/$MFT
+Sherlocks/Easy/ShadowBait/G/Windows/System32/WDI/LogFiles/BootPerfDiagLogger.etl
+Sherlocks/Easy/ShadowBait/G/Windows/System32/config/SOFTWARE
+Sherlocks/Easy/Whisper/C/$LogFile
+Sherlocks/Easy/Whisper/C/$MFT
+Sherlocks/Easy/Whisper/C/ProgramData/Microsoft/search/data/applications/windows/Windows.edb
+Sherlocks/Easy/Whisper/C/Windows/System32/config/SOFTWARE
+Sherlocks/Easy/Whisper/Extracted_Journal/20260508144334_MFTECmd_$J_Output.csv
+Sherlocks/Easy/Whisper/Extracted_MFT/20260508142139_MFTECmd_$MFT_Output.csv
+Sherlocks/Easy/WhyFind/KAPEOUT/C/MFTECmd_$MFT_Output.csv
+

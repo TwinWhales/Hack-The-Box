@@ -1,0 +1,20 @@
+total 0
+dr-x------ 2 administrator administrator  0 Feb 11 09:38 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:35 ..
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5933ab577000-5933abcaa000 -> /snap/snapd/23545/usr/bin/snap
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5933abcaa000-5933ac01f000 -> /snap/snapd/23545/usr/bin/snap
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5933ac01f000-5933ac5fe000 -> /snap/snapd/23545/usr/bin/snap
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5933ac5fe000-5933ac653000 -> /snap/snapd/23545/usr/bin/snap
+lr-------- 1 administrator administrator 64 Feb 11 09:39 5933ac698000-5933ac699000 -> /snap/snapd/23545/usr/bin/snap
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3acfea5000-7f3acfecd000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3acfecd000-7f3ad0062000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad0062000-7f3ad00ba000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00ba000-7f3ad00bb000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00bb000-7f3ad00bf000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00bf000-7f3ad00c1000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00ce000-7f3ad00d3000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00d5000-7f3ad00d7000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00d7000-7f3ad00fe000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad00fe000-7f3ad010a000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad010a000-7f3ad010c000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 administrator administrator 64 Feb 11 09:39 7f3ad010c000-7f3ad010e000 -> /snap/snapd/23545/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

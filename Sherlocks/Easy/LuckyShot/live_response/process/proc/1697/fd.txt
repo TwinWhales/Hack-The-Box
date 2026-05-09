@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 root root 15 Feb 11 09:33 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:33 ..
+lr-x------ 1 root root 64 Feb 11 09:33 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:33 1 -> socket:[23679]
+lrwx------ 1 root root 64 Feb 11 09:35 10 -> socket:[24589]
+lr-x------ 1 root root 64 Feb 11 09:35 11 -> /proc/sys/kernel/hostname
+lrwx------ 1 root root 64 Feb 11 09:35 12 -> socket:[24602]
+lrwx------ 1 root root 64 Feb 11 09:35 13 -> /dev/rfkill
+lrwx------ 1 root root 64 Feb 11 09:35 14 -> anon_inode:[signalfd]
+lrwx------ 1 root root 64 Feb 11 09:33 2 -> socket:[23679]
+lrwx------ 1 root root 64 Feb 11 09:33 3 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:33 4 -> socket:[23872]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> socket:[23873]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> socket:[23874]
+lrwx------ 1 root root 64 Feb 11 09:35 7 -> socket:[23538]
+lrwx------ 1 root root 64 Feb 11 09:35 8 -> socket:[24579]
+lrwx------ 1 root root 64 Feb 11 09:33 9 -> socket:[23879]

@@ -1,0 +1,12 @@
+total 0
+drwxr-xr-x 2 root root    0 Feb 11 09:50 .
+drwxr-xr-x 3 root root    0 Feb 11 09:50 ..
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 color
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 cur_default
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 default_blu
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 default_grn
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 default_red
+-rw-r--r-- 1 root root 4096 Feb 11 09:32 default_utf8
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 global_cursor_default
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 italic
+-rw-r--r-- 1 root root 4096 Feb 11 09:50 underline

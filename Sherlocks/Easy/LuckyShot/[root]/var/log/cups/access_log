@@ -1,0 +1,6 @@
+localhost - - [11/Feb/2025:09:33:09 +0200] "POST / HTTP/1.1" 200 357 Create-Printer-Subscriptions successful-ok
+localhost - - [11/Feb/2025:09:33:09 +0200] "POST / HTTP/1.1" 200 176 Create-Printer-Subscriptions successful-ok
+localhost - - [11/Feb/2025:09:33:19 +0200] "POST / HTTP/1.1" 200 359 Create-Printer-Subscriptions successful-ok
+localhost - - [11/Feb/2025:09:34:20 +0200] "POST / HTTP/1.1" 200 369 Create-Printer-Subscriptions successful-ok
+localhost - - [11/Feb/2025:09:34:33 +0200] "POST / HTTP/1.1" 200 151 Cancel-Subscription successful-ok
+localhost - - [11/Feb/2025:09:34:33 +0200] "POST / HTTP/1.1" 200 151 Cancel-Subscription client-error-not-found

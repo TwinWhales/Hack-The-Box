@@ -1,0 +1,25 @@
+total 0
+dr-x------ 2 administrator administrator 22 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/null
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 1 -> pipe:[31663]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> /memfd:wayland-cursor (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> socket:[31679]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> socket:[31681]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> anon_inode:[eventfd]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 14 -> anon_inode:inotify
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 15 -> pipe:[35050]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 16 -> pipe:[35050]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 17 -> /memfd:pulseaudio (deleted)
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 18 -> socket:[35051]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 19 -> /home/administrator/.local/share/gvfs-metadata/home
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 2 -> pipe:[31663]
+lr-x------ 1 administrator administrator 64 Feb 11 09:35 20 -> /home/administrator/.local/share/gvfs-metadata/home-93103946.log
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 21 -> /home/administrator/.cache/event-sound-cache.tdb.922af4924e3440909f79e1c37c0ec990.x86_64-pc-linux-gnu
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 3 -> socket:[31662]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> socket:[31670]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[31674]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 9 -> anon_inode:[eventfd]

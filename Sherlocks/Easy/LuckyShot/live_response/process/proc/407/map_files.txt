@@ -1,0 +1,23 @@
+total 0
+dr-x------ 2 root root  0 Feb 11 09:38 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:33 ..
+lr-------- 1 root root 64 Feb 11 09:39 5c348f819000-5c348f81b000 -> /usr/bin/vmware-vmblock-fuse
+lr-------- 1 root root 64 Feb 11 09:39 5c348f81b000-5c348f81d000 -> /usr/bin/vmware-vmblock-fuse
+lr-------- 1 root root 64 Feb 11 09:39 5c348f81d000-5c348f81e000 -> /usr/bin/vmware-vmblock-fuse
+lr-------- 1 root root 64 Feb 11 09:39 5c348f81e000-5c348f81f000 -> /usr/bin/vmware-vmblock-fuse
+lr-------- 1 root root 64 Feb 11 09:39 5c348f81f000-5c348f820000 -> /usr/bin/vmware-vmblock-fuse
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bc00000-7cec3bc28000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bc28000-7cec3bdb0000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bdb0000-7cec3bdff000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bdff000-7cec3be03000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be03000-7cec3be05000 -> /usr/lib/x86_64-linux-gnu/libc.so.6
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be4a000-7cec3be51000 -> /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be51000-7cec3be6e000 -> /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be6e000-7cec3be77000 -> /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be77000-7cec3be89000 -> /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be89000-7cec3be8a000 -> /usr/lib/x86_64-linux-gnu/libfuse3.so.3.14.0
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be9c000-7cec3be9d000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Feb 11 09:39 7cec3be9d000-7cec3bec8000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bec8000-7cec3bed2000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bed2000-7cec3bed4000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+lr-------- 1 root root 64 Feb 11 09:39 7cec3bed4000-7cec3bed6000 -> /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2

@@ -1,0 +1,14 @@
+total 0
+dr-x------ 2 root root 11 Feb 11 09:33 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:33 ..
+lr-x------ 1 root root 64 Feb 11 09:33 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:33 1 -> socket:[24288]
+lrwx------ 1 root root 64 Feb 11 09:35 10 -> /var/lib/PackageKit/transactions.db
+lrwx------ 1 root root 64 Feb 11 09:33 2 -> socket:[24288]
+lrwx------ 1 root root 64 Feb 11 09:33 3 -> socket:[24300]
+lrwx------ 1 root root 64 Feb 11 09:33 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> socket:[25023]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 7 -> socket:[25024]
+lrwx------ 1 root root 64 Feb 11 09:35 8 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Feb 11 09:33 9 -> anon_inode:inotify

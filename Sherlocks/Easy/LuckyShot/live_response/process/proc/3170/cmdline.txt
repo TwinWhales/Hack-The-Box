@@ -1,0 +1,4 @@
+/usr/bin/vmtoolsd
+vmusr
+--blockFd
+--uinputFd

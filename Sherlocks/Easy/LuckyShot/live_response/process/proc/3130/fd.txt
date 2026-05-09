@@ -1,0 +1,18 @@
+total 0
+dr-x------ 2 administrator administrator 15 Feb 11 09:34 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lr-x------ 1 administrator administrator 64 Feb 11 09:34 0 -> /dev/null
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 1 -> socket:[29912]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 10 -> socket:[31039]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 11 -> socket:[31047]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 12 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 13 -> socket:[30551]
+l-wx------ 1 administrator administrator 64 Feb 11 09:35 14 -> /run/systemd/inhibit/14.ref
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 2 -> socket:[29912]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 3 -> socket:[30733]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> socket:[30119]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:34 9 -> /memfd:wayland-cursor (deleted)

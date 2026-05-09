@@ -1,0 +1,106 @@
+5fa1dbba6000-5fa1dbbab000 r--p 00000000 08:02 535712                     /usr/bin/VGAuthService
+5fa1dbbab000-5fa1dbbbd000 r-xp 00005000 08:02 535712                     /usr/bin/VGAuthService
+5fa1dbbbd000-5fa1dbbc5000 r--p 00017000 08:02 535712                     /usr/bin/VGAuthService
+5fa1dbbc5000-5fa1dbbc6000 r--p 0001f000 08:02 535712                     /usr/bin/VGAuthService
+5fa1dbbc6000-5fa1dbbc7000 rw-p 00020000 08:02 535712                     /usr/bin/VGAuthService
+5fa21a73e000-5fa21a821000 rw-p 00000000 00:00 0                          [heap]
+76e802c00000-76e803175000 r--p 00000000 08:02 539235                     /usr/lib/locale/locale-archive
+76e803200000-76e80329d000 r--p 00000000 08:02 527124                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+76e80329d000-76e8033e5000 r-xp 0009d000 08:02 527124                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+76e8033e5000-76e80346c000 r--p 001e5000 08:02 527124                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+76e80346c000-76e803477000 r--p 0026b000 08:02 527124                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+76e803477000-76e80347a000 rw-p 00276000 08:02 527124                     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+76e80347a000-76e80347e000 rw-p 00000000 00:00 0 
+76e803600000-76e803601000 r--p 00000000 08:02 535929                     /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+76e803601000-76e803602000 r-xp 00001000 08:02 535929                     /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+76e803602000-76e80535e000 r--p 00002000 08:02 535929                     /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+76e80535e000-76e80535f000 r--p 01d5d000 08:02 535929                     /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+76e80535f000-76e805360000 rw-p 01d5e000 08:02 535929                     /usr/lib/x86_64-linux-gnu/libicudata.so.74.2
+76e805400000-76e805468000 r--p 00000000 08:02 535934                     /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+76e805468000-76e80556d000 r-xp 00068000 08:02 535934                     /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+76e80556d000-76e8055f7000 r--p 0016d000 08:02 535934                     /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+76e8055f7000-76e80560a000 r--p 001f7000 08:02 535934                     /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+76e80560a000-76e80560b000 rw-p 0020a000 08:02 535934                     /usr/lib/x86_64-linux-gnu/libicuuc.so.74.2
+76e80560b000-76e80560d000 rw-p 00000000 00:00 0 
+76e805800000-76e805828000 r--p 00000000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76e805828000-76e8059b0000 r-xp 00028000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76e8059b0000-76e8059ff000 r--p 001b0000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76e8059ff000-76e805a03000 r--p 001fe000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76e805a03000-76e805a05000 rw-p 00202000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+76e805a05000-76e805a12000 rw-p 00000000 00:00 0 
+76e805a76000-76e805a7a000 r--p 00000000 08:02 526487                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+76e805a7a000-76e805a9e000 r-xp 00004000 08:02 526487                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+76e805a9e000-76e805aa2000 r--p 00028000 08:02 526487                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+76e805aa2000-76e805aa3000 r--p 0002b000 08:02 526487                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+76e805aa3000-76e805aa4000 rw-p 0002c000 08:02 526487                     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+76e805aa4000-76e805aa7000 r--p 00000000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76e805aa7000-76e805ac9000 r-xp 00003000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76e805ac9000-76e805ad4000 r--p 00025000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76e805ad4000-76e805ad5000 r--p 00030000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76e805ad5000-76e805ad6000 rw-p 00031000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+76e805ad6000-76e805adf000 r--p 00000000 08:02 536335                     /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.39
+76e805adf000-76e805b08000 r-xp 00009000 08:02 536335                     /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.39
+76e805b08000-76e805b15000 r--p 00032000 08:02 536335                     /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.39
+76e805b15000-76e805b16000 r--p 0003e000 08:02 536335                     /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.39
+76e805b16000-76e805b17000 rw-p 0003f000 08:02 536335                     /usr/lib/x86_64-linux-gnu/libxslt.so.1.1.39
+76e805b17000-76e805b27000 r--p 00000000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76e805b27000-76e805ba6000 r-xp 00010000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76e805ba6000-76e805bfe000 r--p 0008f000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76e805bfe000-76e805bff000 r--p 000e7000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76e805bff000-76e805c00000 rw-p 000e8000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+76e805c00000-76e805cb3000 r--p 00000000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76e805cb3000-76e805fe6000 r-xp 000b3000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76e805fe6000-76e8060b1000 r--p 003e6000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76e8060b1000-76e80610d000 r--p 004b0000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76e80610d000-76e806110000 rw-p 0050c000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+76e806110000-76e806113000 rw-p 00000000 00:00 0 
+76e806113000-76e80611a000 rw-p 00000000 00:00 0 
+76e80611a000-76e80611c000 r--p 00000000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76e80611c000-76e80612e000 r-xp 00002000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76e80612e000-76e806134000 r--p 00014000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76e806134000-76e806135000 r--p 0001a000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76e806135000-76e806136000 rw-p 0001b000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+76e806136000-76e806138000 rw-p 00000000 00:00 0 
+76e806138000-76e80613a000 r--p 00000000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76e80613a000-76e8061a8000 r-xp 00002000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76e8061a8000-76e8061d0000 r--p 00070000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76e8061d0000-76e8061d1000 r--p 00097000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76e8061d1000-76e8061d2000 rw-p 00098000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+76e8061d2000-76e8061d4000 rw-p 00000000 00:00 0 
+76e8061d4000-76e8061f2000 r--p 00000000 08:02 538714                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+76e8061f2000-76e806254000 r-xp 0001e000 08:02 538714                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+76e806254000-76e806270000 r--p 00080000 08:02 538714                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+76e806270000-76e80627a000 r--p 0009c000 08:02 538714                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+76e80627a000-76e80627e000 rw-p 000a6000 08:02 538714                     /usr/lib/x86_64-linux-gnu/libssl.so.3
+76e80627e000-76e8062ad000 r--p 00000000 08:02 526460                     /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+76e8062ad000-76e806413000 r-xp 0002f000 08:02 526460                     /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+76e806413000-76e806455000 r--p 00195000 08:02 526460                     /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+76e806455000-76e80645e000 r--p 001d6000 08:02 526460                     /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+76e80645e000-76e80645f000 rw-p 001df000 08:02 526460                     /usr/lib/x86_64-linux-gnu/libxml2.so.2.9.14
+76e80645f000-76e806460000 rw-p 00000000 00:00 0 
+76e806460000-76e806470000 r--p 00000000 08:02 528106                     /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.39
+76e806470000-76e8064b3000 r-xp 00010000 08:02 528106                     /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.39
+76e8064b3000-76e8064c9000 r--p 00053000 08:02 528106                     /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.39
+76e8064c9000-76e8064cc000 r--p 00068000 08:02 528106                     /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.39
+76e8064cc000-76e8064cd000 rw-p 0006b000 08:02 528106                     /usr/lib/x86_64-linux-gnu/libxmlsec1.so.1.2.39
+76e8064cd000-76e8064da000 r--p 00000000 08:02 528113                     /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.39
+76e8064da000-76e806505000 r-xp 0000d000 08:02 528113                     /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.39
+76e806505000-76e806510000 r--p 00038000 08:02 528113                     /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.39
+76e806510000-76e806513000 r--p 00042000 08:02 528113                     /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.39
+76e806513000-76e806514000 rw-p 00045000 08:02 528113                     /usr/lib/x86_64-linux-gnu/libxmlsec1-openssl.so.1.2.39
+76e806514000-76e806532000 r--p 00000000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76e806532000-76e8065d2000 r-xp 0001e000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76e8065d2000-76e80665a000 r--p 000be000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76e80665a000-76e80665b000 r--p 00146000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76e80665b000-76e80665c000 rw-p 00147000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+76e80665c000-76e80665d000 rw-p 00000000 00:00 0 
+76e80666d000-76e80666f000 rw-p 00000000 00:00 0 
+76e80666f000-76e806670000 r--p 00000000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76e806670000-76e80669b000 r-xp 00001000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76e80669b000-76e8066a5000 r--p 0002c000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76e8066a5000-76e8066a7000 r--p 00036000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+76e8066a7000-76e8066a9000 rw-p 00038000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7fff27bcf000-7fff27bf0000 rw-p 00000000 00:00 0                          [stack]
+7fff27bf6000-7fff27bfa000 r--p 00000000 00:00 0                          [vvar]
+7fff27bfa000-7fff27bfc000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

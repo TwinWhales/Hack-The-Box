@@ -1,0 +1,126 @@
+* logrotate.timer - Daily rotation of log files
+     Loaded: loaded (/usr/lib/systemd/system/logrotate.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Wed 2025-02-12 00:00:00 IST; 14h left
+   Triggers: * logrotate.service
+       Docs: man:logrotate(8)
+             man:logrotate.conf(5)
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started logrotate.timer - Daily rotation of log files.
+
+* fwupd-refresh.timer - Refresh fwupd metadata regularly
+     Loaded: loaded (/usr/lib/systemd/system/fwupd-refresh.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 10:08:52 IST; 17min left
+   Triggers: * fwupd-refresh.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+
+* update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available
+     Loaded: loaded (/usr/lib/systemd/system/update-notifier-motd.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:33:08 IST; 18min ago
+    Trigger: Sat 2025-02-22 12:46:59 IST; 1 week 4 days left
+   Triggers: * update-notifier-motd.service
+
+Feb 11 09:33:08 LuckyShot systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+
+* e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems
+     Loaded: loaded (/usr/lib/systemd/system/e2scrub_all.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Sun 2025-02-16 03:10:32 IST; 4 days left
+   Triggers: * e2scrub_all.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+
+* systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories
+     Loaded: loaded (/usr/lib/systemd/system/systemd-tmpfiles-clean.timer; static)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Wed 2025-02-12 09:46:59 IST; 23h left
+   Triggers: * systemd-tmpfiles-clean.service
+       Docs: man:tmpfiles.d(5)
+             man:systemd-tmpfiles(8)
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+
+* apt-daily-upgrade.timer - Daily apt upgrade and clean activities
+     Loaded: loaded (/usr/lib/systemd/system/apt-daily-upgrade.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 10:20:17 IST; 28min left
+   Triggers: * apt-daily-upgrade.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+
+* dpkg-db-backup.timer - Daily dpkg database backup timer
+     Loaded: loaded (/usr/lib/systemd/system/dpkg-db-backup.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Wed 2025-02-12 00:00:00 IST; 14h left
+   Triggers: * dpkg-db-backup.service
+       Docs: man:dpkg(1)
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+
+* man-db.timer - Daily man-db regeneration
+     Loaded: loaded (/usr/lib/systemd/system/man-db.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 10:20:01 IST; 28min left
+   Triggers: * man-db.service
+       Docs: man:mandb(8)
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started man-db.timer - Daily man-db regeneration.
+
+* sysstat-summary.timer - Generate summary of yesterday's process accounting
+     Loaded: loaded (/usr/lib/systemd/system/sysstat-summary.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Wed 2025-02-12 00:07:00 IST; 14h left
+   Triggers: * sysstat-summary.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+
+* motd-news.timer - Message of the Day
+     Loaded: loaded (/usr/lib/systemd/system/motd-news.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 12:42:58 IST; 2h 51min left
+   Triggers: * motd-news.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started motd-news.timer - Message of the Day.
+
+* sysstat-collect.timer - Run system activity accounting tool every 10 minutes
+     Loaded: loaded (/usr/lib/systemd/system/sysstat-collect.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 10:00:00 IST; 8min left
+   Triggers: * sysstat-collect.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+
+* fstrim.timer - Discard unused filesystem blocks once a week
+     Loaded: loaded (/usr/lib/systemd/system/fstrim.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Mon 2025-02-17 00:00:09 IST; 5 days left
+   Triggers: * fstrim.service
+       Docs: man:fstrim
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+
+* apt-daily.timer - Daily apt download activities
+     Loaded: loaded (/usr/lib/systemd/system/apt-daily.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 11:17:15 IST; 1h 25min left
+   Triggers: * apt-daily.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started apt-daily.timer - Daily apt download activities.
+
+* anacron.timer - Trigger anacron every hour
+     Loaded: loaded (/usr/lib/systemd/system/anacron.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:32:53 IST; 18min ago
+    Trigger: Tue 2025-02-11 10:31:21 IST; 39min left
+   Triggers: * anacron.service
+
+Feb 11 09:32:53 LuckyShot systemd[1]: Started anacron.timer - Trigger anacron every hour.
+
+* update-notifier-download.timer - Download data for packages that failed at package install time
+     Loaded: loaded (/usr/lib/systemd/system/update-notifier-download.timer; enabled; preset: enabled)
+     Active: active (waiting) since Tue 2025-02-11 09:33:08 IST; 18min ago
+    Trigger: Wed 2025-02-12 09:37:48 IST; 23h left
+   Triggers: * update-notifier-download.service
+
+Feb 11 09:33:08 LuckyShot systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.

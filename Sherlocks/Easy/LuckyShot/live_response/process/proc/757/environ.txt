@@ -1,0 +1,8 @@
+LANG=en_US.UTF-8
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin
+USER=root
+INVOCATION_ID=c3a0e1039de24c369f45e9211b33217a
+JOURNAL_STREAM=8:18508
+SYSTEMD_EXEC_PID=757
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/system.slice/open-vm-tools.service/memory.pressure
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=

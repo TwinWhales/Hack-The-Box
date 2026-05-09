@@ -1,0 +1,21 @@
+total 0
+dr-x------ 2 root root 18 Feb 11 09:32 .
+dr-xr-xr-x 9 root root  0 Feb 11 09:32 ..
+lr-x------ 1 root root 64 Feb 11 09:32 0 -> /dev/null
+lrwx------ 1 root root 64 Feb 11 09:32 1 -> socket:[19144]
+lr-x------ 1 root root 64 Feb 11 09:35 10 -> anon_inode:inotify
+lrwx------ 1 root root 64 Feb 11 09:35 11 -> anon_inode:[eventpoll]
+lr-x------ 1 root root 64 Feb 11 09:35 12 -> anon_inode:inotify
+lrwx------ 1 root root 64 Feb 11 09:35 13 -> socket:[19641]
+lrwx------ 1 root root 64 Feb 11 09:35 14 -> anon_inode:[eventpoll]
+lr-x------ 1 root root 64 Feb 11 09:35 15 -> /proc/1166/mountinfo
+lr-x------ 1 root root 64 Feb 11 09:35 16 -> anon_inode:inotify
+lrwx------ 1 root root 64 Feb 11 09:35 17 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:32 2 -> socket:[19144]
+lrwx------ 1 root root 64 Feb 11 09:32 3 -> socket:[19553]
+lrwx------ 1 root root 64 Feb 11 09:32 4 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 5 -> anon_inode:[eventfd]
+lrwx------ 1 root root 64 Feb 11 09:35 6 -> socket:[19554]
+lrwx------ 1 root root 64 Feb 11 09:35 7 -> anon_inode:[eventfd]
+lr-x------ 1 root root 64 Feb 11 09:35 8 -> /proc/1166/mountinfo
+lr-x------ 1 root root 64 Feb 11 09:32 9 -> /proc/swaps

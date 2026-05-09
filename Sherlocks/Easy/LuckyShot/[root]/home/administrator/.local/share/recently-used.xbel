@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/administrator/VMware%20Tools" added="2025-02-09T18:50:27.509971Z" modified="2025-02-09T18:50:53.041580Z" visited="2025-02-09T18:50:27.509972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2025-02-09T18:50:53.041578Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/administrator/Desktop/Q3_Financial_Report..xlsx" added="2025-02-09T19:00:47.430901Z" modified="2025-02-09T19:00:51.435745Z" visited="2025-02-09T19:00:47.430901Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus --new-window %U&apos;" modified="2025-02-09T19:00:51.435738Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/administrator/Downloads/slack-desktop-4.41.105-amd64.deb" added="2025-02-09T19:06:39.263633Z" modified="2025-02-09T19:06:39.263647Z" visited="2025-02-09T19:06:39.263634Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/snap-store_snap-store.desktop /snap/bin/snap-store %U&apos;" modified="2025-02-09T19:06:39.263643Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

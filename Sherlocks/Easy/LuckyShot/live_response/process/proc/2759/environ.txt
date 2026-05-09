@@ -1,0 +1,8 @@
+init=/sbin/init
+NETWORK_SKIP_ENSLAVED=
+TERM=linux
+BOOT_IMAGE=/boot/vmlinuz-6.8.0-52-generic
+drop_caps=
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/
+rootmnt=/root

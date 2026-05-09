@@ -1,0 +1,338 @@
+    PID USER                      STARTED COMMAND
+      1 root     Tue Feb 11 09:31:36 2025 /sbin/init splash
+      2 root     Tue Feb 11 09:31:36 2025 [kthreadd]
+      3 root     Tue Feb 11 09:31:36 2025 [pool_workqueue_release]
+      4 root     Tue Feb 11 09:31:36 2025 [kworker/R-rcu_g]
+      5 root     Tue Feb 11 09:31:36 2025 [kworker/R-rcu_p]
+      6 root     Tue Feb 11 09:31:36 2025 [kworker/R-slub_]
+      7 root     Tue Feb 11 09:31:36 2025 [kworker/R-netns]
+      8 root     Tue Feb 11 09:31:36 2025 [kworker/0:0-events]
+     10 root     Tue Feb 11 09:31:36 2025 [kworker/0:0H-kblockd]
+     11 root     Tue Feb 11 09:31:36 2025 [kworker/u256:0-ext4-rsv-conversion]
+     12 root     Tue Feb 11 09:31:36 2025 [kworker/R-mm_pe]
+     13 root     Tue Feb 11 09:31:36 2025 [rcu_tasks_kthread]
+     14 root     Tue Feb 11 09:31:36 2025 [rcu_tasks_rude_kthread]
+     15 root     Tue Feb 11 09:31:36 2025 [rcu_tasks_trace_kthread]
+     16 root     Tue Feb 11 09:31:36 2025 [ksoftirqd/0]
+     17 root     Tue Feb 11 09:31:36 2025 [rcu_preempt]
+     18 root     Tue Feb 11 09:31:36 2025 [migration/0]
+     19 root     Tue Feb 11 09:31:36 2025 [idle_inject/0]
+     20 root     Tue Feb 11 09:31:36 2025 [cpuhp/0]
+     21 root     Tue Feb 11 09:31:36 2025 [cpuhp/1]
+     22 root     Tue Feb 11 09:31:36 2025 [idle_inject/1]
+     23 root     Tue Feb 11 09:31:36 2025 [migration/1]
+     24 root     Tue Feb 11 09:31:36 2025 [ksoftirqd/1]
+     25 root     Tue Feb 11 09:31:36 2025 [kworker/1:0-inet_frag_wq]
+     28 root     Tue Feb 11 09:31:36 2025 [kworker/u258:0-flush-8:0]
+     29 root     Tue Feb 11 09:31:36 2025 [kdevtmpfs]
+     30 root     Tue Feb 11 09:31:36 2025 [kworker/R-inet_]
+     31 root     Tue Feb 11 09:31:36 2025 [kworker/u257:1-events_power_efficient]
+     32 root     Tue Feb 11 09:31:36 2025 [kauditd]
+     33 root     Tue Feb 11 09:31:36 2025 [kworker/0:2-events]
+     34 root     Tue Feb 11 09:31:36 2025 [khungtaskd]
+     35 root     Tue Feb 11 09:31:36 2025 [oom_reaper]
+     36 root     Tue Feb 11 09:31:36 2025 [kworker/u258:1-flush-8:0]
+     37 root     Tue Feb 11 09:31:36 2025 [kworker/R-write]
+     38 root     Tue Feb 11 09:31:36 2025 [kcompactd0]
+     39 root     Tue Feb 11 09:31:36 2025 [ksmd]
+     41 root     Tue Feb 11 09:31:36 2025 [kworker/1:2-events]
+     42 root     Tue Feb 11 09:31:36 2025 [khugepaged]
+     43 root     Tue Feb 11 09:31:36 2025 [kworker/R-kinte]
+     44 root     Tue Feb 11 09:31:36 2025 [kworker/R-kbloc]
+     45 root     Tue Feb 11 09:31:36 2025 [kworker/R-blkcg]
+     46 root     Tue Feb 11 09:31:36 2025 [irq/9-acpi]
+     47 root     Tue Feb 11 09:31:40 2025 [kworker/R-tpm_d]
+     48 root     Tue Feb 11 09:31:40 2025 [kworker/R-ata_s]
+     49 root     Tue Feb 11 09:31:40 2025 [kworker/R-md]
+     50 root     Tue Feb 11 09:31:40 2025 [kworker/R-md_bi]
+     51 root     Tue Feb 11 09:31:40 2025 [kworker/R-edac-]
+     52 root     Tue Feb 11 09:31:40 2025 [kworker/R-devfr]
+     53 root     Tue Feb 11 09:31:41 2025 [watchdogd]
+     54 root     Tue Feb 11 09:31:42 2025 [kworker/1:1H-kblockd]
+     55 root     Tue Feb 11 09:31:43 2025 [kswapd0]
+     56 root     Tue Feb 11 09:31:43 2025 [ecryptfs-kthread]
+     57 root     Tue Feb 11 09:31:43 2025 [kworker/R-kthro]
+     58 root     Tue Feb 11 09:31:43 2025 [irq/24-pciehp]
+     59 root     Tue Feb 11 09:31:43 2025 [irq/25-pciehp]
+     60 root     Tue Feb 11 09:31:43 2025 [irq/26-pciehp]
+     61 root     Tue Feb 11 09:31:43 2025 [irq/27-pciehp]
+     62 root     Tue Feb 11 09:31:43 2025 [irq/28-pciehp]
+     63 root     Tue Feb 11 09:31:43 2025 [irq/29-pciehp]
+     64 root     Tue Feb 11 09:31:43 2025 [irq/30-pciehp]
+     65 root     Tue Feb 11 09:31:43 2025 [irq/31-pciehp]
+     66 root     Tue Feb 11 09:31:43 2025 [irq/32-pciehp]
+     67 root     Tue Feb 11 09:31:43 2025 [irq/33-pciehp]
+     68 root     Tue Feb 11 09:31:43 2025 [irq/34-pciehp]
+     69 root     Tue Feb 11 09:31:43 2025 [irq/35-pciehp]
+     70 root     Tue Feb 11 09:31:44 2025 [irq/36-pciehp]
+     71 root     Tue Feb 11 09:31:44 2025 [irq/37-pciehp]
+     72 root     Tue Feb 11 09:31:44 2025 [irq/38-pciehp]
+     73 root     Tue Feb 11 09:31:44 2025 [irq/39-pciehp]
+     74 root     Tue Feb 11 09:31:44 2025 [irq/40-pciehp]
+     75 root     Tue Feb 11 09:31:44 2025 [irq/41-pciehp]
+     76 root     Tue Feb 11 09:31:44 2025 [irq/42-pciehp]
+     77 root     Tue Feb 11 09:31:44 2025 [irq/43-pciehp]
+     78 root     Tue Feb 11 09:31:44 2025 [irq/44-pciehp]
+     79 root     Tue Feb 11 09:31:44 2025 [irq/45-pciehp]
+     80 root     Tue Feb 11 09:31:44 2025 [irq/46-pciehp]
+     81 root     Tue Feb 11 09:31:44 2025 [irq/47-pciehp]
+     82 root     Tue Feb 11 09:31:44 2025 [irq/48-pciehp]
+     83 root     Tue Feb 11 09:31:44 2025 [irq/49-pciehp]
+     84 root     Tue Feb 11 09:31:44 2025 [irq/50-pciehp]
+     85 root     Tue Feb 11 09:31:44 2025 [irq/51-pciehp]
+     86 root     Tue Feb 11 09:31:44 2025 [irq/52-pciehp]
+     87 root     Tue Feb 11 09:31:44 2025 [irq/53-pciehp]
+     88 root     Tue Feb 11 09:31:44 2025 [irq/54-pciehp]
+     89 root     Tue Feb 11 09:31:44 2025 [irq/55-pciehp]
+     90 root     Tue Feb 11 09:31:44 2025 [kworker/R-acpi_]
+     92 root     Tue Feb 11 09:31:44 2025 [scsi_eh_0]
+     93 root     Tue Feb 11 09:31:44 2025 [kworker/R-scsi_]
+     94 root     Tue Feb 11 09:31:44 2025 [scsi_eh_1]
+     95 root     Tue Feb 11 09:31:44 2025 [kworker/R-scsi_]
+     99 root     Tue Feb 11 09:31:46 2025 [kworker/R-mld]
+    100 root     Tue Feb 11 09:31:46 2025 [kworker/R-ipv6_]
+    102 root     Tue Feb 11 09:31:47 2025 [kworker/u258:2-events_freezable_power_]
+    108 root     Tue Feb 11 09:31:49 2025 [kworker/R-kstrp]
+    110 root     Tue Feb 11 09:31:49 2025 [kworker/u259:0-hci0]
+    111 root     Tue Feb 11 09:31:49 2025 [kworker/u260:0-ttm]
+    112 root     Tue Feb 11 09:31:49 2025 [kworker/u261:0-ttm]
+    125 root     Tue Feb 11 09:31:50 2025 [kworker/R-charg]
+    151 root     Tue Feb 11 09:31:54 2025 [kworker/0:1H]
+    174 root     Tue Feb 11 09:31:56 2025 [kworker/R-mpt_p]
+    175 root     Tue Feb 11 09:31:56 2025 [kworker/R-mpt/0]
+    186 root     Tue Feb 11 09:31:56 2025 [scsi_eh_2]
+    187 root     Tue Feb 11 09:31:56 2025 [scsi_eh_3]
+    188 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    189 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    190 root     Tue Feb 11 09:31:56 2025 [scsi_eh_4]
+    191 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    192 root     Tue Feb 11 09:31:56 2025 [scsi_eh_5]
+    193 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    194 root     Tue Feb 11 09:31:56 2025 [scsi_eh_6]
+    195 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    196 root     Tue Feb 11 09:31:56 2025 [scsi_eh_7]
+    197 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    198 root     Tue Feb 11 09:31:56 2025 [scsi_eh_8]
+    199 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    200 root     Tue Feb 11 09:31:56 2025 [scsi_eh_9]
+    201 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    202 root     Tue Feb 11 09:31:56 2025 [scsi_eh_10]
+    203 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    204 root     Tue Feb 11 09:31:56 2025 [scsi_eh_11]
+    205 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    206 root     Tue Feb 11 09:31:56 2025 [scsi_eh_12]
+    207 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    208 root     Tue Feb 11 09:31:56 2025 [scsi_eh_13]
+    209 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    210 root     Tue Feb 11 09:31:56 2025 [scsi_eh_14]
+    211 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    212 root     Tue Feb 11 09:31:56 2025 [scsi_eh_15]
+    213 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    214 root     Tue Feb 11 09:31:56 2025 [scsi_eh_16]
+    215 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    216 root     Tue Feb 11 09:31:56 2025 [scsi_eh_17]
+    217 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    218 root     Tue Feb 11 09:31:56 2025 [scsi_eh_18]
+    219 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    220 root     Tue Feb 11 09:31:56 2025 [scsi_eh_19]
+    221 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    222 root     Tue Feb 11 09:31:56 2025 [scsi_eh_20]
+    223 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    224 root     Tue Feb 11 09:31:56 2025 [scsi_eh_21]
+    225 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    226 root     Tue Feb 11 09:31:56 2025 [scsi_eh_22]
+    227 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    228 root     Tue Feb 11 09:31:56 2025 [scsi_eh_23]
+    229 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    230 root     Tue Feb 11 09:31:56 2025 [scsi_eh_24]
+    231 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    232 root     Tue Feb 11 09:31:56 2025 [scsi_eh_25]
+    233 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    234 root     Tue Feb 11 09:31:56 2025 [scsi_eh_26]
+    235 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    236 root     Tue Feb 11 09:31:56 2025 [scsi_eh_27]
+    237 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    238 root     Tue Feb 11 09:31:56 2025 [scsi_eh_28]
+    239 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    240 root     Tue Feb 11 09:31:56 2025 [scsi_eh_29]
+    241 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    242 root     Tue Feb 11 09:31:56 2025 [scsi_eh_30]
+    243 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    244 root     Tue Feb 11 09:31:56 2025 [scsi_eh_31]
+    245 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    246 root     Tue Feb 11 09:31:56 2025 [scsi_eh_32]
+    247 root     Tue Feb 11 09:31:56 2025 [kworker/R-scsi_]
+    268 root     Tue Feb 11 09:31:56 2025 [kworker/u257:26-events_power_efficient]
+    269 root     Tue Feb 11 09:31:56 2025 [kworker/u257:27-writeback]
+    270 root     Tue Feb 11 09:31:56 2025 [kworker/u257:28-flush-8:0]
+    271 root     Tue Feb 11 09:31:56 2025 [kworker/u257:29-writeback]
+    273 root     Tue Feb 11 09:31:56 2025 [kworker/u257:31-events_power_efficient]
+    314 root     Tue Feb 11 09:32:36 2025 [kworker/1:2H]
+    317 root     Tue Feb 11 09:32:37 2025 [jbd2/sda2-8]
+    318 root     Tue Feb 11 09:32:37 2025 [kworker/R-ext4-]
+    368 root     Tue Feb 11 09:32:39 2025 /usr/lib/systemd/systemd-journald
+    390 root     Tue Feb 11 09:32:39 2025 [kworker/0:3-rcu_par_gp]
+    400 root     Tue Feb 11 09:32:39 2025 [irq/16-vmwgfx]
+    401 root     Tue Feb 11 09:32:39 2025 [kworker/R-ttm]
+    407 root     Tue Feb 11 09:32:39 2025 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+    427 root     Tue Feb 11 09:32:40 2025 /usr/lib/systemd/systemd-udevd
+    428 root     Tue Feb 11 09:32:40 2025 [kworker/u258:3-events_power_efficient]
+    471 root     Tue Feb 11 09:32:41 2025 [psimon]
+    498 root     Tue Feb 11 09:32:41 2025 [kworker/u256:1-ext4-rsv-conversion]
+    653 systemd+ Tue Feb 11 09:32:43 2025 /usr/lib/systemd/systemd-oomd
+    669 systemd+ Tue Feb 11 09:32:43 2025 /usr/lib/systemd/systemd-resolved
+    674 systemd+ Tue Feb 11 09:32:43 2025 /usr/lib/systemd/systemd-timesyncd
+    722 root     Tue Feb 11 09:32:44 2025 [kworker/u258:6-events_unbound]
+    745 root     Tue Feb 11 09:32:44 2025 /usr/bin/VGAuthService
+    757 root     Tue Feb 11 09:32:44 2025 /usr/bin/vmtoolsd
+    771 root     Tue Feb 11 09:32:45 2025 [irq/57-vmw_vmci]
+    772 root     Tue Feb 11 09:32:45 2025 [irq/58-vmw_vmci]
+    773 root     Tue Feb 11 09:32:45 2025 [irq/59-vmw_vmci]
+   1047 avahi    Tue Feb 11 09:32:48 2025 avahi-daemon: running [LuckyShot.local]
+   1051 message+ Tue Feb 11 09:32:48 2025 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1069 gnome-r+ Tue Feb 11 09:32:48 2025 /usr/libexec/gnome-remote-desktop-daemon --system
+   1082 polkitd  Tue Feb 11 09:32:48 2025 /usr/lib/polkit-1/polkitd --no-debug
+   1092 root     Tue Feb 11 09:32:48 2025 /usr/libexec/power-profiles-daemon
+   1122 root     Tue Feb 11 09:32:49 2025 /usr/lib/snapd/snapd
+   1132 root     Tue Feb 11 09:32:49 2025 /usr/libexec/accounts-daemon
+   1139 root     Tue Feb 11 09:32:49 2025 /usr/sbin/cron -f -P
+   1156 root     Tue Feb 11 09:32:49 2025 /usr/libexec/switcheroo-control
+   1163 root     Tue Feb 11 09:32:50 2025 /usr/lib/systemd/systemd-logind
+   1166 root     Tue Feb 11 09:32:50 2025 /usr/libexec/udisks2/udisksd
+   1208 avahi    Tue Feb 11 09:32:51 2025 avahi-daemon: chroot helper
+   1210 root     Tue Feb 11 09:32:51 2025 /usr/sbin/NetworkManager --no-daemon
+   1216 root     Tue Feb 11 09:32:51 2025 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+   1219 syslog   Tue Feb 11 09:32:51 2025 /usr/sbin/rsyslogd -n -iNONE
+   1298 root     Tue Feb 11 09:32:53 2025 /usr/sbin/ModemManager
+   1522 root     Tue Feb 11 09:33:01 2025 /usr/sbin/cupsd -l
+   1535 root     Tue Feb 11 09:33:02 2025 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+   1562 cups-br+ Tue Feb 11 09:33:02 2025 /usr/sbin/cups-browsed
+   1568 root     Tue Feb 11 09:33:02 2025 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+   1575 root     Tue Feb 11 09:33:02 2025 [kworker/u259:2-hci0]
+   1580 kernoops Tue Feb 11 09:33:03 2025 /usr/sbin/kerneloops --test
+   1589 kernoops Tue Feb 11 09:33:03 2025 /usr/sbin/kerneloops
+   1591 root     Tue Feb 11 09:33:03 2025 /usr/sbin/gdm3
+   1625 root     Tue Feb 11 09:33:04 2025 [kworker/1:3-events]
+   1647 root     Tue Feb 11 09:33:05 2025 [kworker/R-crypt]
+   1697 root     Tue Feb 11 09:33:06 2025 /usr/libexec/bluetooth/bluetoothd
+   1738 rtkit    Tue Feb 11 09:33:06 2025 /usr/libexec/rtkit-daemon
+   1979 root     Tue Feb 11 09:33:12 2025 [kworker/u261:1-ttm]
+   1981 root     Tue Feb 11 09:33:12 2025 [kworker/u260:1-ttm]
+   1996 colord   Tue Feb 11 09:33:14 2025 /usr/libexec/colord
+   2038 root     Tue Feb 11 09:33:17 2025 /usr/libexec/packagekitd
+   2039 root     Tue Feb 11 09:33:17 2025 /usr/libexec/upowerd
+   2517 root     Tue Feb 11 09:33:36 2025 [kworker/0:2H]
+   2694 root     Tue Feb 11 09:33:53 2025 [kworker/u256:2]
+   2744 root     Tue Feb 11 09:33:58 2025 gdm-session-worker [pam/gdm-password]
+   2754 adminis+ Tue Feb 11 09:34:02 2025 /usr/lib/systemd/systemd --user
+   2759 adminis+ Tue Feb 11 09:34:02 2025 (sd-pam)
+   2770 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/pipewire
+   2771 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/pipewire -c filter-chain.conf
+   2777 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/wireplumber
+   2778 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/pipewire-pulse
+   2780 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+   2790 adminis+ Tue Feb 11 09:34:04 2025 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   2825 adminis+ Tue Feb 11 09:34:05 2025 /usr/libexec/xdg-document-portal
+   2832 adminis+ Tue Feb 11 09:34:05 2025 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   2841 adminis+ Tue Feb 11 09:34:06 2025 /usr/libexec/gnome-session-binary --session=ubuntu
+   2865 adminis+ Tue Feb 11 09:34:06 2025 /usr/libexec/xdg-permission-store
+   2887 root     Tue Feb 11 09:34:07 2025 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+   2917 adminis+ Tue Feb 11 09:34:07 2025 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+   2918 adminis+ Tue Feb 11 09:34:07 2025 /usr/libexec/gnome-session-ctl --monitor
+   2926 adminis+ Tue Feb 11 09:34:08 2025 /usr/libexec/gvfsd
+   2936 adminis+ Tue Feb 11 09:34:08 2025 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+   2947 adminis+ Tue Feb 11 09:34:08 2025 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   2993 adminis+ Tue Feb 11 09:34:09 2025 /usr/bin/gnome-shell
+   2995 adminis+ Tue Feb 11 09:34:09 2025 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   3007 adminis+ Tue Feb 11 09:34:09 2025 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+   3039 root     Tue Feb 11 09:34:11 2025 [kworker/u261:2-ttm]
+   3064 adminis+ Tue Feb 11 09:34:12 2025 /usr/libexec/at-spi2-registryd --use-gnome-session
+   3092 adminis+ Tue Feb 11 09:34:15 2025 /usr/libexec/gnome-shell-calendar-server
+   3103 adminis+ Tue Feb 11 09:34:16 2025 /usr/libexec/evolution-source-registry
+   3111 adminis+ Tue Feb 11 09:34:16 2025 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   3114 adminis+ Tue Feb 11 09:34:16 2025 /usr/bin/ibus-daemon --panel disable
+   3116 adminis+ Tue Feb 11 09:34:16 2025 /usr/libexec/gsd-a11y-settings
+   3117 adminis+ Tue Feb 11 09:34:16 2025 /usr/libexec/gsd-color
+   3120 adminis+ Tue Feb 11 09:34:16 2025 /usr/libexec/gsd-datetime
+   3121 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-housekeeping
+   3125 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-keyboard
+   3128 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-media-keys
+   3130 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-power
+   3131 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-print-notifications
+   3134 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-rfkill
+   3135 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-screensaver-proxy
+   3136 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-sharing
+   3137 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-smartcard
+   3138 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-sound
+   3139 adminis+ Tue Feb 11 09:34:17 2025 /usr/libexec/gsd-wacom
+   3141 adminis+ Tue Feb 11 09:34:17 2025 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+   3170 adminis+ Tue Feb 11 09:34:18 2025 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+   3174 adminis+ Tue Feb 11 09:34:18 2025 /usr/libexec/gsd-disk-utility-notify
+   3184 adminis+ Tue Feb 11 09:34:18 2025 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   3279 adminis+ Tue Feb 11 09:34:19 2025 /usr/libexec/gvfs-udisks2-volume-monitor
+   3296 adminis+ Tue Feb 11 09:34:20 2025 /usr/libexec/goa-daemon
+   3332 adminis+ Tue Feb 11 09:34:20 2025 /usr/libexec/gsd-printer
+   3421 adminis+ Tue Feb 11 09:34:21 2025 /usr/libexec/ibus-memconf
+   3426 adminis+ Tue Feb 11 09:34:21 2025 /usr/libexec/ibus-extension-gtk3
+   3432 adminis+ Tue Feb 11 09:34:21 2025 /usr/libexec/evolution-calendar-factory
+   3438 adminis+ Tue Feb 11 09:34:21 2025 /usr/libexec/ibus-portal
+   3458 adminis+ Tue Feb 11 09:34:22 2025 /usr/libexec/goa-identity-service
+   3480 adminis+ Tue Feb 11 09:34:22 2025 /usr/libexec/gvfs-gphoto2-volume-monitor
+   3486 adminis+ Tue Feb 11 09:34:22 2025 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+   3500 adminis+ Tue Feb 11 09:34:22 2025 /usr/libexec/gvfs-goa-volume-monitor
+   3513 adminis+ Tue Feb 11 09:34:23 2025 /usr/libexec/gvfs-mtp-volume-monitor
+   3514 adminis+ Tue Feb 11 09:34:23 2025 /usr/libexec/evolution-addressbook-factory
+   3525 adminis+ Tue Feb 11 09:34:23 2025 /usr/libexec/gvfs-afc-volume-monitor
+   3537 adminis+ Tue Feb 11 09:34:23 2025 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.UW0V12 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+   3566 adminis+ Tue Feb 11 09:34:25 2025 /usr/libexec/ibus-engine-simple
+   3586 adminis+ Tue Feb 11 09:34:26 2025 /usr/libexec/dconf-service
+   3608 adminis+ Tue Feb 11 09:34:27 2025 /usr/libexec/gvfsd-trash --spawner :1.19 /org/gtk/gvfs/exec_spaw/0
+   3609 adminis+ Tue Feb 11 09:34:27 2025 /usr/libexec/gvfsd-metadata
+   3659 adminis+ Tue Feb 11 09:34:31 2025 /usr/libexec/tracker-miner-fs-3
+   3671 adminis+ Tue Feb 11 09:34:33 2025 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   3701 root     Tue Feb 11 09:34:33 2025 [kworker/u261:3-ttm]
+   3702 root     Tue Feb 11 09:34:33 2025 [kworker/u261:4-ttm]
+   3703 root     Tue Feb 11 09:34:33 2025 [kworker/u260:2-ttm]
+   3705 root     Tue Feb 11 09:34:33 2025 [kworker/u261:5-ttm]
+   3706 root     Tue Feb 11 09:34:33 2025 [kworker/u261:6-ttm]
+   3707 root     Tue Feb 11 09:34:33 2025 [kworker/u261:7-ttm]
+   3708 root     Tue Feb 11 09:34:33 2025 [kworker/u261:8-ttm]
+   3709 root     Tue Feb 11 09:34:33 2025 [kworker/u261:9-ttm]
+   3710 root     Tue Feb 11 09:34:33 2025 [kworker/u261:10-ttm]
+   3711 root     Tue Feb 11 09:34:33 2025 [kworker/u261:11-ttm]
+   3712 root     Tue Feb 11 09:34:33 2025 [kworker/u261:12-ttm]
+   3713 root     Tue Feb 11 09:34:33 2025 [kworker/u261:13-ttm]
+   3714 root     Tue Feb 11 09:34:33 2025 [kworker/u261:14-ttm]
+   3715 root     Tue Feb 11 09:34:33 2025 [kworker/u261:15-ttm]
+   3716 root     Tue Feb 11 09:34:33 2025 [kworker/u261:16]
+   3729 adminis+ Tue Feb 11 09:34:33 2025 /usr/libexec/gsd-xsettings
+   3760 adminis+ Tue Feb 11 09:34:34 2025 /usr/libexec/xdg-desktop-portal
+   3767 adminis+ Tue Feb 11 09:34:34 2025 /usr/libexec/xdg-desktop-portal-gnome
+   3793 adminis+ Tue Feb 11 09:34:36 2025 /usr/libexec/ibus-x11
+   3813 adminis+ Tue Feb 11 09:34:37 2025 /usr/libexec/mutter-x11-frames
+   3827 adminis+ Tue Feb 11 09:34:38 2025 /usr/libexec/xdg-desktop-portal-gtk
+   4041 root     Tue Feb 11 09:34:40 2025 [psimon]
+   4241 adminis+ Tue Feb 11 09:34:57 2025 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+   4347 adminis+ Tue Feb 11 09:35:14 2025 /snap/firefox/5701/usr/lib/firefox/firefox
+   4547 adminis+ Tue Feb 11 09:35:18 2025 /usr/bin/update-notifier
+   4615 adminis+ Tue Feb 11 09:35:24 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -prefsHandle 0 -prefsLen 30933 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e0d56bef-20b4-46b3-ba73-8dbc155e8e6d} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 1 socket
+   4632 adminis+ Tue Feb 11 09:35:26 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 30998 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {463ce4fb-9bb5-48b1-96f3-3bd82ff24157} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 2 tab
+   4638 adminis+ Tue Feb 11 09:35:27 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -prefsHandle 0 -prefsLen 30998 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {52885d26-1199-41a2-a468-9a3da24708a6} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 3 rdd
+   4669 adminis+ Tue Feb 11 09:35:28 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 31123 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {26b05271-803d-4c9e-abac-b2923ea64c69} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 4 tab
+   4696 adminis+ Tue Feb 11 09:35:29 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 28088 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {6aff854f-0b29-4780-9e15-371067f6152b} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 5 tab
+   4725 adminis+ Tue Feb 11 09:35:31 2025 /usr/bin/snap userd
+   5220 adminis+ Tue Feb 11 09:35:42 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -parentBuildID 20250131183110 -sandboxingKind 0 -prefsHandle 0 -prefsLen 40163 -prefMapHandle 1 -prefMapSize 261150 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {d4da33dc-8b8c-4fbd-b051-104363a328d7} -parentPid 4347 -crashReporter 5 -appDir /snap/firefox/5701/usr/lib/firefox/browser 6 utility
+   5228 adminis+ Tue Feb 11 09:35:43 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37028 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {343d6873-060a-4345-bc3a-8888d808d33e} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 7 tab
+   5235 adminis+ Tue Feb 11 09:35:43 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37028 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {2f9c74ba-40c8-4687-9d76-5a9d1c0bcabb} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 8 tab
+   5314 adminis+ Tue Feb 11 09:35:56 2025 /snap/firefox/5701/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37524 -prefMapHandle 1 -prefMapSize 261150 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250131183110 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {e27f92b1-ad1d-4eda-9209-fa25aa9b8076} -parentPid 4347 -crashReporter 6 -greomni /snap/firefox/5701/usr/lib/firefox/omni.ja -appomni /snap/firefox/5701/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5701/usr/lib/firefox/browser 9 tab
+   5361 adminis+ Tue Feb 11 09:36:16 2025 /usr/bin/nautilus --gapplication-service
+   5385 adminis+ Tue Feb 11 09:36:20 2025 /usr/libexec/gvfsd-recent --spawner :1.19 /org/gtk/gvfs/exec_spaw/1
+   5400 adminis+ Tue Feb 11 09:36:38 2025 /usr/libexec/gnome-terminal-server
+   5408 adminis+ Tue Feb 11 09:36:39 2025 bash
+   5715 root     Tue Feb 11 09:37:58 2025 [kworker/0:1-events]
+   5908 root     Tue Feb 11 09:38:06 2025 sudo ./uac -p ir_triage /home/administrator/Desktop/
+   5909 root     Tue Feb 11 09:38:09 2025 sudo ./uac -p ir_triage /home/administrator/Desktop/
+   5910 root     Tue Feb 11 09:38:09 2025 /bin/sh ./uac -p ir_triage /home/administrator/Desktop/
+   6306 adminis+ Tue Feb 11 09:38:11 2025 /usr/libexec/tracker-extract-3 --socket-fd 3
+   6908 root     Tue Feb 11 09:38:16 2025 /bin/sh ./uac -p ir_triage /home/administrator/Desktop/
+   7165 root     Tue Feb 11 09:38:17 2025 ps -axo pid,user,lstart,args

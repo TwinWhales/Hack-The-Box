@@ -1,0 +1,12 @@
+total 0
+dr-x------ 2 administrator administrator  9 Feb 11 09:35 .
+dr-xr-xr-x 9 administrator administrator  0 Feb 11 09:34 ..
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 0 -> /dev/tty2
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 1 -> socket:[28990]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 2 -> socket:[28991]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 3 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 4 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 5 -> socket:[29007]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 6 -> anon_inode:[eventfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 7 -> anon_inode:[pidfd]
+lrwx------ 1 administrator administrator 64 Feb 11 09:35 8 -> socket:[29021]

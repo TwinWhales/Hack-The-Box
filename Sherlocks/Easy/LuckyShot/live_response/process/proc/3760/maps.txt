@@ -1,0 +1,262 @@
+5619c697c000-5619c699f000 r--p 00000000 08:02 538429                     /usr/libexec/xdg-desktop-portal
+5619c699f000-5619c6a0d000 r-xp 00023000 08:02 538429                     /usr/libexec/xdg-desktop-portal
+5619c6a0d000-5619c6a3a000 r--p 00091000 08:02 538429                     /usr/libexec/xdg-desktop-portal
+5619c6a3a000-5619c6a51000 r--p 000be000 08:02 538429                     /usr/libexec/xdg-desktop-portal
+5619c6a51000-5619c6a52000 rw-p 000d5000 08:02 538429                     /usr/libexec/xdg-desktop-portal
+5619c6a52000-5619c6a53000 rw-p 00000000 00:00 0 
+5619f5bec000-5619f5cd7000 rw-p 00000000 00:00 0                          [heap]
+702ad8000000-702ad8021000 rw-p 00000000 00:00 0 
+702ad8021000-702adc000000 ---p 00000000 00:00 0 
+702adc000000-702adc021000 rw-p 00000000 00:00 0 
+702adc021000-702ae0000000 ---p 00000000 00:00 0 
+702ae4000000-702ae4021000 rw-p 00000000 00:00 0 
+702ae4021000-702ae8000000 ---p 00000000 00:00 0 
+702ae8000000-702ae8021000 rw-p 00000000 00:00 0 
+702ae8021000-702aec000000 ---p 00000000 00:00 0 
+702af0000000-702af0021000 rw-p 00000000 00:00 0 
+702af0021000-702af4000000 ---p 00000000 00:00 0 
+702af4000000-702af4021000 rw-p 00000000 00:00 0 
+702af4021000-702af8000000 ---p 00000000 00:00 0 
+702afc000000-702afc021000 rw-p 00000000 00:00 0 
+702afc021000-702b00000000 ---p 00000000 00:00 0 
+702b00000000-702b00021000 rw-p 00000000 00:00 0 
+702b00021000-702b04000000 ---p 00000000 00:00 0 
+702b05800000-702b05801000 ---p 00000000 00:00 0 
+702b05801000-702b06001000 rw-p 00000000 00:00 0 
+702b07600000-702b07601000 ---p 00000000 00:00 0 
+702b07601000-702b07e01000 rw-p 00000000 00:00 0 
+702b08000000-702b0802e000 rw-p 00000000 00:00 0 
+702b0802e000-702b0c000000 ---p 00000000 00:00 0 
+702b0c000000-702b0c021000 rw-p 00000000 00:00 0 
+702b0c021000-702b10000000 ---p 00000000 00:00 0 
+702b10800000-702b10801000 ---p 00000000 00:00 0 
+702b10801000-702b11001000 rw-p 00000000 00:00 0 
+702b11200000-702b11201000 ---p 00000000 00:00 0 
+702b11201000-702b11a01000 rw-p 00000000 00:00 0 
+702b11c00000-702b11c01000 ---p 00000000 00:00 0 
+702b11c01000-702b12401000 rw-p 00000000 00:00 0 
+702b12600000-702b126b3000 r--p 00000000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+702b126b3000-702b129e6000 r-xp 000b3000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+702b129e6000-702b12ab1000 r--p 003e6000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+702b12ab1000-702b12b0d000 r--p 004b0000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+702b12b0d000-702b12b10000 rw-p 0050c000 08:02 536143                     /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+702b12b10000-702b12b13000 rw-p 00000000 00:00 0 
+702b12c00000-702b12c01000 ---p 00000000 00:00 0 
+702b12c01000-702b13401000 rw-p 00000000 00:00 0 
+702b13600000-702b13601000 ---p 00000000 00:00 0 
+702b13601000-702b13e01000 rw-p 00000000 00:00 0 
+702b14000000-702b14021000 rw-p 00000000 00:00 0 
+702b14021000-702b18000000 ---p 00000000 00:00 0 
+702b182af000-702b182e7000 r--p 00000000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+702b182e7000-702b183b9000 r-xp 00038000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+702b183b9000-702b18438000 r--p 0010a000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+702b18438000-702b18445000 r--p 00188000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+702b18445000-702b18452000 rw-p 00195000 08:02 536082                     /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1
+702b18452000-702b18453000 rw-p 00000000 00:00 0 
+702b18600000-702b18601000 ---p 00000000 00:00 0 
+702b18601000-702b18e01000 rw-p 00000000 00:00 0 
+702b19000000-702b19001000 ---p 00000000 00:00 0 
+702b19001000-702b19801000 rw-p 00000000 00:00 0 
+702b19a00000-702b19a01000 ---p 00000000 00:00 0 
+702b19a01000-702b1a201000 rw-p 00000000 00:00 0 
+702b1a2c6000-702b1a2ca000 r--p 00000000 08:02 537689                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-session-manager.so
+702b1a2ca000-702b1a2e7000 r-xp 00004000 08:02 537689                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-session-manager.so
+702b1a2e7000-702b1a2ec000 r--p 00021000 08:02 537689                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-session-manager.so
+702b1a2ec000-702b1a2ee000 r--p 00026000 08:02 537689                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-session-manager.so
+702b1a2ee000-702b1a2ef000 rw-p 00028000 08:02 537689                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-session-manager.so
+702b1a2ef000-702b1a2f1000 r--p 00000000 08:02 537669                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so
+702b1a2f1000-702b1a2f9000 r-xp 00002000 08:02 537669                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so
+702b1a2f9000-702b1a2fa000 r--p 0000a000 08:02 537669                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so
+702b1a2fa000-702b1a2fb000 r--p 0000b000 08:02 537669                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so
+702b1a2fb000-702b1a2fc000 rw-p 0000c000 08:02 537669                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-metadata.so
+702b1a2fc000-702b1a306000 r--p 00000000 08:02 537657                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-adapter.so
+702b1a306000-702b1a311000 r-xp 0000a000 08:02 537657                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-adapter.so
+702b1a311000-702b1a317000 r--p 00015000 08:02 537657                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-adapter.so
+702b1a317000-702b1a320000 r--p 0001b000 08:02 537657                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-adapter.so
+702b1a320000-702b1a321000 rw-p 00024000 08:02 537657                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-adapter.so
+702b1a321000-702b1a32d000 r--p 00000000 08:02 537660                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-node.so
+702b1a32d000-702b1a34e000 r-xp 0000c000 08:02 537660                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-node.so
+702b1a34e000-702b1a358000 r--p 0002d000 08:02 537660                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-node.so
+702b1a358000-702b1a362000 r--p 00037000 08:02 537660                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-node.so
+702b1a362000-702b1a363000 rw-p 00041000 08:02 537660                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-node.so
+702b1a363000-702b1a376000 r--p 00000000 08:02 537675                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-native.so
+702b1a376000-702b1a395000 r-xp 00013000 08:02 537675                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-native.so
+702b1a395000-702b1a3a0000 r--p 00032000 08:02 537675                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-native.so
+702b1a3a0000-702b1a3b0000 r--p 0003c000 08:02 537675                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-native.so
+702b1a3b0000-702b1a3b1000 rw-p 0004c000 08:02 537675                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-protocol-native.so
+702b1a3b1000-702b1a3bd000 r--p 00000000 08:02 535723                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+702b1a3bd000-702b1a3ed000 r-xp 0000c000 08:02 535723                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+702b1a3ed000-702b1a3fe000 r--p 0003c000 08:02 535723                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+702b1a3fe000-702b1a3ff000 r--p 0004c000 08:02 535723                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+702b1a3ff000-702b1a400000 rw-p 0004d000 08:02 535723                     /usr/lib/x86_64-linux-gnu/libdbus-1.so.3.32.4
+702b1a400000-702b1a975000 r--p 00000000 08:02 539235                     /usr/lib/locale/locale-archive
+702b1a97d000-702b1a97f000 r--p 00000000 08:02 537659                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so
+702b1a97f000-702b1a988000 r-xp 00002000 08:02 537659                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so
+702b1a988000-702b1a989000 r--p 0000b000 08:02 537659                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so
+702b1a989000-702b1a98a000 r--p 0000c000 08:02 537659                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so
+702b1a98a000-702b1a98b000 rw-p 0000d000 08:02 537659                     /usr/lib/x86_64-linux-gnu/pipewire-0.3/libpipewire-module-client-device.so
+702b1a98b000-702b1a98c000 r--p 00000000 08:02 657355                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so
+702b1a98c000-702b1a98f000 r-xp 00001000 08:02 657355                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so
+702b1a98f000-702b1a990000 r--p 00004000 08:02 657355                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so
+702b1a990000-702b1a991000 r--p 00004000 08:02 657355                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so
+702b1a991000-702b1a992000 rw-p 00005000 08:02 657355                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-dbus.so
+702b1a992000-702b1a993000 r--p 00000000 08:02 657356                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so
+702b1a993000-702b1a995000 r-xp 00001000 08:02 657356                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so
+702b1a995000-702b1a996000 r--p 00003000 08:02 657356                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so
+702b1a996000-702b1a997000 r--p 00003000 08:02 657356                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so
+702b1a997000-702b1a998000 rw-p 00004000 08:02 657356                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-journal.so
+702b1a998000-702b1a99c000 r--p 00000000 08:02 657357                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-support.so
+702b1a99c000-702b1a9b2000 r-xp 00004000 08:02 657357                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-support.so
+702b1a9b2000-702b1a9b7000 r--p 0001a000 08:02 657357                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-support.so
+702b1a9b7000-702b1a9b9000 r--p 0001f000 08:02 657357                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-support.so
+702b1a9b9000-702b1a9ba000 rw-p 00021000 08:02 657357                     /usr/lib/x86_64-linux-gnu/spa-0.2/support/libspa-support.so
+702b1a9ba000-702b1a9bc000 r--p 00000000 08:02 1839334                    /home/administrator/.config/dconf/user (deleted)
+702b1a9bc000-702b1a9c0000 r--p 00000000 08:02 537248                     /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+702b1a9c0000-702b1a9c7000 r-xp 00004000 08:02 537248                     /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+702b1a9c7000-702b1a9c9000 r--p 0000b000 08:02 537248                     /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+702b1a9c9000-702b1a9ca000 r--p 0000d000 08:02 537248                     /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+702b1a9ca000-702b1a9cb000 rw-p 0000e000 08:02 537248                     /usr/lib/x86_64-linux-gnu/gio/modules/libdconfsettings.so
+702b1a9cb000-702b1a9f3000 r--p 00000000 08:02 657504                     /usr/share/glib-2.0/schemas/gschemas.compiled
+702b1a9f3000-702b1aa1c000 r--s 00000000 08:02 664424                     /usr/share/mime/mime.cache
+702b1aa1c000-702b1aa2e000 r--p 00000000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+702b1aa2e000-702b1aa4a000 r-xp 00012000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+702b1aa4a000-702b1aa56000 r--p 0002e000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+702b1aa56000-702b1aa5c000 r--p 00039000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+702b1aa5c000-702b1aa5d000 rw-p 0003f000 08:02 537451                     /usr/lib/x86_64-linux-gnu/gvfs/libgvfscommon.so
+702b1aa5d000-702b1aa67000 r--p 00000000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+702b1aa67000-702b1aa85000 r-xp 0000a000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+702b1aa85000-702b1aa8e000 r--p 00028000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+702b1aa8e000-702b1aa90000 r--p 00030000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+702b1aa90000-702b1aa91000 rw-p 00032000 08:02 537253                     /usr/lib/x86_64-linux-gnu/gio/modules/libgvfsdbus.so
+702b1aa91000-702b1aa97000 rw-p 00000000 00:00 0 
+702b1aa97000-702b1aa9b000 r--p 00000000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+702b1aa9b000-702b1aab1000 r-xp 00004000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+702b1aab1000-702b1aaba000 r--p 0001a000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+702b1aaba000-702b1aabb000 r--p 00023000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+702b1aabb000-702b1aabc000 rw-p 00024000 08:02 535861                     /usr/lib/x86_64-linux-gnu/libgpg-error.so.0.34.0
+702b1aabc000-702b1aac3000 r--p 00000000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+702b1aac3000-702b1aae7000 r-xp 00007000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+702b1aae7000-702b1aaf0000 r--p 0002b000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+702b1aaf0000-702b1aaf6000 r--p 00033000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+702b1aaf6000-702b1aaf7000 rw-p 00039000 08:02 535672                     /usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+702b1aaf7000-702b1aafb000 r--p 00000000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+702b1aafb000-702b1aba2000 r-xp 00004000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+702b1aba2000-702b1abaf000 r--p 000ab000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+702b1abaf000-702b1abb0000 r--p 000b7000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+702b1abb0000-702b1abb1000 rw-p 000b8000 08:02 536341                     /usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5
+702b1abb1000-702b1abb4000 r--p 00000000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+702b1abb4000-702b1abd6000 r-xp 00003000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+702b1abd6000-702b1abe1000 r--p 00025000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+702b1abe1000-702b1abe2000 r--p 00030000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+702b1abe2000-702b1abe3000 rw-p 00031000 08:02 535986                     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+702b1abe3000-702b1abe6000 r--p 00000000 08:02 535985                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+702b1abe6000-702b1ac01000 r-xp 00003000 08:02 535985                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+702b1ac01000-702b1ac03000 r--p 0001e000 08:02 535985                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+702b1ac03000-702b1ac04000 r--p 00020000 08:02 535985                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+702b1ac04000-702b1ac05000 rw-p 00021000 08:02 535985                     /usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4
+702b1ac05000-702b1ac07000 rw-p 00000000 00:00 0 
+702b1ac07000-702b1ac16000 r--p 00000000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+702b1ac16000-702b1ad0a000 r-xp 0000f000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+702b1ad0a000-702b1ad45000 r--p 00103000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+702b1ad45000-702b1ad4a000 r--p 0013e000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+702b1ad4a000-702b1ad4e000 rw-p 00143000 08:02 535822                     /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+702b1ad4e000-702b1ad4f000 rw-p 00000000 00:00 0 
+702b1ad4f000-702b1ad52000 r--p 00000000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+702b1ad52000-702b1ad58000 r-xp 00003000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+702b1ad58000-702b1ad5a000 r--p 00009000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+702b1ad5a000-702b1ad5b000 r--p 0000b000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+702b1ad5b000-702b1ad5c000 rw-p 0000c000 08:02 535695                     /usr/lib/x86_64-linux-gnu/libcap.so.2.66
+702b1ad5c000-702b1ad5e000 r--p 00000000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+702b1ad5e000-702b1ad65000 r-xp 00002000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+702b1ad65000-702b1ad66000 r--p 00009000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+702b1ad66000-702b1ad67000 r--p 0000a000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+702b1ad67000-702b1ad68000 rw-p 0000b000 08:02 535788                     /usr/lib/x86_64-linux-gnu/libffi.so.8.1.4
+702b1ad68000-702b1ad6e000 r--p 00000000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+702b1ad6e000-702b1ad8b000 r-xp 00006000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+702b1ad8b000-702b1ad91000 r--p 00023000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+702b1ad91000-702b1ad92000 r--p 00029000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+702b1ad92000-702b1ad93000 rw-p 0002a000 08:02 536174                     /usr/lib/x86_64-linux-gnu/libselinux.so.1
+702b1ad93000-702b1ad95000 rw-p 00000000 00:00 0 
+702b1ad95000-702b1ad9e000 r--p 00000000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+702b1ad9e000-702b1add2000 r-xp 00009000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+702b1add2000-702b1addf000 r--p 0003d000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+702b1addf000-702b1ade1000 r--p 00049000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+702b1ade1000-702b1ade2000 rw-p 0004b000 08:02 536008                     /usr/lib/x86_64-linux-gnu/libmount.so.1.1.0
+702b1ade2000-702b1ade4000 rw-p 00000000 00:00 0 
+702b1ade4000-702b1ade6000 r--p 00000000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+702b1ade6000-702b1adf8000 r-xp 00002000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+702b1adf8000-702b1adfe000 r--p 00014000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+702b1adfe000-702b1adff000 r--p 0001a000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+702b1adff000-702b1ae00000 rw-p 0001b000 08:02 536340                     /usr/lib/x86_64-linux-gnu/libz.so.1.3
+702b1ae00000-702b1ae28000 r--p 00000000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+702b1ae28000-702b1afb0000 r-xp 00028000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+702b1afb0000-702b1afff000 r--p 001b0000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+702b1afff000-702b1b003000 r--p 001fe000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+702b1b003000-702b1b005000 rw-p 00202000 08:02 526762                     /usr/lib/x86_64-linux-gnu/libc.so.6
+702b1b005000-702b1b012000 rw-p 00000000 00:00 0 
+702b1b012000-702b1b014000 r--p 00000000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+702b1b014000-702b1b016000 r-xp 00002000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+702b1b016000-702b1b017000 r--p 00004000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+702b1b017000-702b1b018000 r--p 00004000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+702b1b018000-702b1b019000 rw-p 00005000 08:02 525127                     /usr/lib/x86_64-linux-gnu/libgmodule-2.0.so.0.8000.0
+702b1b019000-702b1b01b000 r--p 00000000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+702b1b01b000-702b1b089000 r-xp 00002000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+702b1b089000-702b1b0b1000 r--p 00070000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+702b1b0b1000-702b1b0b2000 r--p 00097000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+702b1b0b2000-702b1b0b3000 rw-p 00098000 08:02 539403                     /usr/lib/x86_64-linux-gnu/libpcre2-8.so.0.11.2
+702b1b0b3000-702b1b0c3000 r--p 00000000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+702b1b0c3000-702b1b142000 r-xp 00010000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+702b1b142000-702b1b19a000 r--p 0008f000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+702b1b19a000-702b1b19b000 r--p 000e7000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+702b1b19b000-702b1b19c000 rw-p 000e8000 08:02 526765                     /usr/lib/x86_64-linux-gnu/libm.so.6
+702b1b19c000-702b1b1b2000 r--p 00000000 08:02 536214                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+702b1b1b2000-702b1b241000 r-xp 00016000 08:02 536214                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+702b1b241000-702b1b26f000 r--p 000a5000 08:02 536214                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+702b1b26f000-702b1b27a000 r--p 000d2000 08:02 536214                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+702b1b27a000-702b1b27b000 rw-p 000dd000 08:02 536214                     /usr/lib/x86_64-linux-gnu/libsystemd.so.0.38.0
+702b1b27b000-702b1b27e000 rw-p 00000000 00:00 0 
+702b1b27e000-702b1b2b1000 r--p 00000000 08:02 536111                     /usr/lib/x86_64-linux-gnu/libpipewire-0.3.so.0.1005.0
+702b1b2b1000-702b1b318000 r-xp 00033000 08:02 536111                     /usr/lib/x86_64-linux-gnu/libpipewire-0.3.so.0.1005.0
+702b1b318000-702b1b331000 r--p 0009a000 08:02 536111                     /usr/lib/x86_64-linux-gnu/libpipewire-0.3.so.0.1005.0
+702b1b331000-702b1b35c000 r--p 000b2000 08:02 536111                     /usr/lib/x86_64-linux-gnu/libpipewire-0.3.so.0.1005.0
+702b1b35c000-702b1b35d000 rw-p 000dd000 08:02 536111                     /usr/lib/x86_64-linux-gnu/libpipewire-0.3.so.0.1005.0
+702b1b35d000-702b1b35e000 rw-p 00000000 00:00 0 
+702b1b35e000-702b1b367000 r--p 00000000 08:02 535964                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+702b1b367000-702b1b37f000 r-xp 00009000 08:02 535964                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+702b1b37f000-702b1b388000 r--p 00021000 08:02 535964                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+702b1b388000-702b1b389000 r--p 0002a000 08:02 535964                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+702b1b389000-702b1b38a000 rw-p 0002b000 08:02 535964                     /usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so.0.800.0
+702b1b38a000-702b1b399000 r--p 00000000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+702b1b399000-702b1b3d0000 r-xp 0000f000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+702b1b3d0000-702b1b3e9000 r--p 00046000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+702b1b3e9000-702b1b3ec000 r--p 0005e000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+702b1b3ec000-702b1b3ed000 rw-p 00061000 08:02 525156                     /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.8000.0
+702b1b3ed000-702b1b426000 r--p 00000000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+702b1b426000-702b1b53d000 r-xp 00039000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+702b1b53d000-702b1b5b2000 r--p 00150000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+702b1b5b2000-702b1b5ba000 r--p 001c4000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+702b1b5ba000-702b1b5bb000 rw-p 001cc000 08:02 525070                     /usr/lib/x86_64-linux-gnu/libgio-2.0.so.0.8000.0
+702b1b5bb000-702b1b5bd000 rw-p 00000000 00:00 0 
+702b1b5bd000-702b1b5db000 r--p 00000000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+702b1b5db000-702b1b67b000 r-xp 0001e000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+702b1b67b000-702b1b703000 r--p 000be000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+702b1b703000-702b1b704000 r--p 00146000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+702b1b704000-702b1b705000 rw-p 00147000 08:02 525084                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.8000.0
+702b1b705000-702b1b706000 rw-p 00000000 00:00 0 
+702b1b707000-702b1b708000 r--s 00000000 00:48 177                        /run/user/1000/dconf/user (deleted)
+702b1b708000-702b1b70a000 r--p 00000000 08:02 537249                     /usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+702b1b70a000-702b1b70c000 r-xp 00002000 08:02 537249                     /usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+702b1b70c000-702b1b70d000 r--p 00004000 08:02 537249                     /usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+702b1b70d000-702b1b70e000 r--p 00004000 08:02 537249                     /usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+702b1b70e000-702b1b70f000 rw-p 00005000 08:02 537249                     /usr/lib/x86_64-linux-gnu/gio/modules/libgiognomeproxy.so
+702b1b70f000-702b1b716000 r--s 00000000 08:02 526751                     /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+702b1b716000-702b1b718000 rw-p 00000000 00:00 0 
+702b1b718000-702b1b719000 r--p 00000000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+702b1b719000-702b1b744000 r-xp 00001000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+702b1b744000-702b1b74e000 r--p 0002c000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+702b1b74e000-702b1b750000 r--p 00036000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+702b1b750000-702b1b752000 rw-p 00038000 08:02 526759                     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd7a834000-7ffd7a855000 rw-p 00000000 00:00 0                          [stack]
+7ffd7a8a6000-7ffd7a8aa000 r--p 00000000 00:00 0                          [vvar]
+7ffd7a8aa000-7ffd7a8ac000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]

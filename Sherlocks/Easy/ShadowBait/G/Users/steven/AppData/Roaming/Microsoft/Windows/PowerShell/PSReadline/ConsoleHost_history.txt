@@ -1,0 +1,7 @@
+cd C:\Users\samy\Documents\
+$username = "samy"
+$password = Read-Host -Prompt "Enter password for $username" -AsSecureString
+$credential = New-Object System.Management.Automation.PSCredential($username, $password)
+$credential | Export-Clixml -Path "C:\Users\samy\Documents\connection.xml"
+pip --version
+python --version

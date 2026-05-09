@@ -1,0 +1,72 @@
+Package               Version        Location                       Installer
+--------------------- -------------- ------------------------------ ---------
+attrs                 23.2.0         /usr/lib/python3/dist-packages debian
+Babel                 2.10.3         /usr/lib/python3/dist-packages
+bcc                   0.29.1         /usr/lib/python3/dist-packages
+blinker               1.7.0          /usr/lib/python3/dist-packages debian
+Brlapi                0.8.5          /usr/lib/python3/dist-packages
+certifi               2023.11.17     /usr/lib/python3/dist-packages
+chardet               5.2.0          /usr/lib/python3/dist-packages debian
+click                 8.1.6          /usr/lib/python3/dist-packages
+cloud-init            24.1.3         /usr/lib/python3/dist-packages
+colorama              0.4.6          /usr/lib/python3/dist-packages debian
+command-not-found     0.3            /usr/lib/python3/dist-packages
+configobj             5.0.8          /usr/lib/python3/dist-packages debian
+cryptography          41.0.7         /usr/lib/python3/dist-packages
+cupshelpers           1.0            /usr/lib/python3/dist-packages
+dbus-python           1.3.2          /usr/lib/python3/dist-packages
+defer                 1.0.6          /usr/lib/python3/dist-packages
+distro                1.9.0          /usr/lib/python3/dist-packages debian
+distro-info           1.7+build1     /usr/lib/python3/dist-packages
+httplib2              0.20.4         /usr/lib/python3/dist-packages
+idna                  3.6            /usr/lib/python3/dist-packages debian
+Jinja2                3.1.2          /usr/lib/python3/dist-packages
+jsonpatch             1.32           /usr/lib/python3/dist-packages
+jsonpointer           2.0            /usr/lib/python3/dist-packages
+jsonschema            4.10.3         /usr/lib/python3/dist-packages debian
+language-selector     0.1            /usr/lib/python3/dist-packages
+launchpadlib          1.11.0         /usr/lib/python3/dist-packages
+lazr.restfulclient    0.14.6         /usr/lib/python3/dist-packages
+lazr.uri              1.0.6          /usr/lib/python3/dist-packages
+louis                 3.29.0         /usr/lib/python3/dist-packages
+markdown-it-py        3.0.0          /usr/lib/python3/dist-packages debian
+MarkupSafe            2.1.5          /usr/lib/python3/dist-packages
+mdurl                 0.1.2          /usr/lib/python3/dist-packages
+netaddr               0.8.0          /usr/lib/python3/dist-packages
+netifaces             0.11.0         /usr/lib/python3/dist-packages
+oauthlib              3.2.2          /usr/lib/python3/dist-packages
+olefile               0.46           /usr/lib/python3/dist-packages
+pexpect               4.9.0          /usr/lib/python3/dist-packages
+pillow                10.2.0         /usr/lib/python3/dist-packages
+pip                   24.0           /usr/lib/python3/dist-packages debian
+ptyprocess            0.7.0          /usr/lib/python3/dist-packages
+pycairo               1.25.1         /usr/lib/python3/dist-packages
+pycups                2.0.1          /usr/lib/python3/dist-packages
+Pygments              2.17.2         /usr/lib/python3/dist-packages debian
+PyGObject             3.48.2         /usr/lib/python3/dist-packages
+PyJWT                 2.7.0          /usr/lib/python3/dist-packages debian
+pyparsing             3.1.1          /usr/lib/python3/dist-packages debian
+pyrsistent            0.20.0         /usr/lib/python3/dist-packages
+pyserial              3.5            /usr/lib/python3/dist-packages
+python-apt            2.7.7+ubuntu3  /usr/lib/python3/dist-packages
+python-dateutil       2.8.2          /usr/lib/python3/dist-packages
+python-debian         0.1.49+ubuntu2 /usr/lib/python3/dist-packages
+pytz                  2024.1         /usr/lib/python3/dist-packages
+pyxdg                 0.28           /usr/lib/python3/dist-packages
+PyYAML                6.0.1          /usr/lib/python3/dist-packages debian
+requests              2.31.0         /usr/lib/python3/dist-packages
+rich                  13.7.1         /usr/lib/python3/dist-packages debian
+setuptools            68.1.2         /usr/lib/python3/dist-packages
+six                   1.16.0         /usr/lib/python3/dist-packages
+ssh-import-id         5.11           /usr/lib/python3/dist-packages
+systemd-python        235            /usr/lib/python3/dist-packages
+typing_extensions     4.10.0         /usr/lib/python3/dist-packages debian
+ubuntu-drivers-common 0.0.0          /usr/lib/python3/dist-packages
+ubuntu-pro-client     8001           /usr/lib/python3/dist-packages
+ufw                   0.36.2         /usr/lib/python3/dist-packages
+unattended-upgrades   0.1            /usr/lib/python3/dist-packages
+urllib3               2.0.7          /usr/lib/python3/dist-packages debian
+wadllib               1.3.6          /usr/lib/python3/dist-packages
+wheel                 0.42.0         /usr/lib/python3/dist-packages debian
+xdg                   5              /usr/lib/python3/dist-packages
+xkit                  0.0.0          /usr/lib/python3/dist-packages
